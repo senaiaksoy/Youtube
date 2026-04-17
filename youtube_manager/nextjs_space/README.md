@@ -1,4 +1,4 @@
- # YouTube Manager
+# YouTube Manager
 
 YouTube kanalını yönetmek için Next.js 14 + TypeScript uygulaması. Google OAuth 2.0, otomatik token yenileme ve canlı ilerleme takibi ile çoklu dil çeviri yönetimi içerir.
 
@@ -122,6 +122,6 @@ nextjs_space/
 | POST | `/api/youtube/translations` | Toplu çeviri ekle (NDJSON stream) |
 | DELETE | `/api/youtube/translations` | Çeviri sil |
 
-## Lisans
+## 📄 Lisans
 
 MIT

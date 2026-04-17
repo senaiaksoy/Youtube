@@ -1,0 +1,48 @@
+export interface Language {
+  code: string;
+  name: string;
+  nativeName: string;
+}
+
+export const SUPPORTED_LANGUAGES: Language[] = [
+  { code: 'en', name: 'İngilizce', nativeName: 'English' },
+  { code: 'de', name: 'Almanca', nativeName: 'Deutsch' },
+  { code: 'ar', name: 'Arapça', nativeName: 'العربية' },
+  { code: 'sq', name: 'Arnavutça', nativeName: 'Shqip' },
+  { code: 'az', name: 'Azerbaycan dili', nativeName: 'Azərbaycan' },
+  { code: 'bg', name: 'Bulgarca', nativeName: 'Български' },
+  { code: 'fr', name: 'Fransızca', nativeName: 'Français' },
+  { code: 'es', name: 'İspanyolca', nativeName: 'Español' },
+  { code: 'it', name: 'İtalyanca', nativeName: 'Italiano' },
+  { code: 'ja', name: 'Japonca', nativeName: '日本語' },
+  { code: 'ko', name: 'Korece', nativeName: '한국어' },
+  { code: 'nl', name: 'Felemenkçe', nativeName: 'Nederlands' },
+  { code: 'pl', name: 'Lehçe', nativeName: 'Polski' },
+  { code: 'pt', name: 'Portekizce', nativeName: 'Português' },
+  { code: 'ro', name: 'Romence', nativeName: 'Română' },
+  { code: 'ru', name: 'Rusça', nativeName: 'Русский' },
+  { code: 'tr', name: 'Türkçe', nativeName: 'Türkçe' },
+  { code: 'uk', name: 'Ukraynaca', nativeName: 'Українська' },
+  { code: 'zh', name: 'Çince', nativeName: '中文' },
+  { code: 'hi', name: 'Hintçe', nativeName: 'हिन्दी' },
+  { code: 'bn', name: 'Bengalce', nativeName: 'বাংলা' },
+  { code: 'sr', name: 'Sırpça', nativeName: 'Српски' },
+  { code: 'hr', name: 'Hırvatça', nativeName: 'Hrvatski' },
+  { code: 'bs', name: 'Boşnakça', nativeName: 'Bosanski' },
+  { code: 'mk', name: 'Makedonca', nativeName: 'Македонски' },
+  { code: 'el', name: 'Yunanca', nativeName: 'Ελληνικά' },
+  { code: 'hu', name: 'Macarca', nativeName: 'Magyar' },
+  { code: 'cs', name: 'Çekçe', nativeName: 'Čeština' },
+  { code: 'sk', name: 'Slovakça', nativeName: 'Slovenčina' },
+  { code: 'sv', name: 'İsveççe', nativeName: 'Svenska' },
+  { code: 'da', name: 'Danca', nativeName: 'Dansk' },
+  { code: 'fi', name: 'Fince', nativeName: 'Suomi' },
+  { code: 'no', name: 'Norveççe', nativeName: 'Norsk' },
+  { code: 'id', name: 'Endonezce', nativeName: 'Bahasa Indonesia' },
+  { code: 'ms', name: 'Malayca', nativeName: 'Bahasa Melayu' },
+  { code: 'th', name: 'Tayca', nativeName: 'ไทย' },
+  { code: 'vi', name: 'Vietnamca', nativeName: 'Tiếng Việt' },
+  { code: 'ka', name: 'Gürcüce', nativeName: 'ქართული' },
+  { code: 'he', name: 'İbranice', nativeName: 'עברית' },
+  { code: 'fa', name: 'Farsça', nativeName: 'فارسی' },
+];
