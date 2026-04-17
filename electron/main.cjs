@@ -22,8 +22,9 @@ function startNext() {
   const bin = nextBin();
   const args = isDev ? ['dev', '-p', String(PORT)] : ['start', '-p', String(PORT)];
 
-  const child = spawn(bin, args, {
+  const child = spawn(`"${bin}"`, args, {
     stdio: 'inherit',
+    shell: true,
     env: {
       ...process.env,
       YOUTUBE_TOKENS_FILE: process.env.YOUTUBE_TOKENS_FILE || tokensFilePath(),
