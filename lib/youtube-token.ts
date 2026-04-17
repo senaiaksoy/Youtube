@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-const TOKENS_FILE = path.join(process.cwd(), 'data', 'google-tokens.json');
-const LEGACY_FILE = path.join(process.cwd(), 'data', 'auth-secrets.json');
+const TOKENS_FILE = process.env.YOUTUBE_TOKENS_FILE ?? path.join(process.cwd(), 'data', 'google-tokens.json');
+const LEGACY_FILE = process.env.YOUTUBE_LEGACY_FILE ?? path.join(process.cwd(), 'data', 'auth-secrets.json');
 
 export const CHANNEL_ID = process.env.YOUTUBE_CHANNEL_ID ?? 'UC51eCoXFnN1DiBd1dWcJpPQ';
 
