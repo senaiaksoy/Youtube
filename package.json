@@ -149,17 +149,9 @@
       {
         "from": ".next/standalone",
         "to": "app-resources",
-        "filter": ["**/*"]
-      },
-      {
-        "from": ".next/static",
-        "to": "app-resources/.next/static",
-        "filter": ["**/*"]
-      },
-      {
-        "from": "public",
-        "to": "app-resources/public",
-        "filter": ["**/*"]
+        "filter": [
+          "**/*"
+        ]
       }
     ],
     "asar": true,

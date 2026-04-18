@@ -20,9 +20,30 @@ YouTube kanalını yönetmek için Next.js 14 + TypeScript uygulaması. Google O
 - NDJSON streaming API
 - Google OAuth 2.0 + YouTube Data API v3
 
-## 🚀 Kurulum
+## � Masaüstü Uygulaması (Electron)
 
-### 1. Google OAuth Credentials oluştur
+### Hazır `.exe` ile kurulum (yeni bilgisayar)
+
+Eğer elinde hazır `YouTube Manager Setup 1.0.0.exe` ve `.env` dosyası varsa:
+
+1. **`YouTube Manager Setup 1.0.0.exe`** → çift tıkla → kurulumu tamamla
+2. Explorer adres çubuğuna `%APPDATA%\youtube-manager` yaz → Enter
+3. **`.env`** dosyasını bu klasöre kopyala
+4. Masaüstündeki **YouTube Manager** kısayoluna tıkla
+5. **"Google ile Bağlan"** → Google hesabınla giriş yap → izinleri kabul et
+6. Uygulama hazır!
+
+> **Not:** "This app isn't verified" uyarısı çıkarsa: **Advanced → Go to YouTube Manager (unsafe)** tıkla. Bu senin kendi uygulamanın.
+
+### Sıfırdan kurulum (kaynak koddan)
+
+#### 1. Gereksinimler
+
+- [Node.js v20+](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- Yarn (Node.js kurulumundan sonra: `corepack enable`)
+
+#### 2. Google OAuth Credentials oluştur
 
 1. [Google Cloud Console](https://console.cloud.google.com/apis/credentials) → yeni proje oluştur
 2. **APIs & Services → Library** → şu API'leri aktif et:
@@ -30,18 +51,21 @@ YouTube kanalını yönetmek için Next.js 14 + TypeScript uygulaması. Google O
    - **YouTube Analytics API**
 3. **APIs & Services → Credentials → Create Credentials → OAuth client ID** → *Web application*
 4. **Authorized redirect URIs** listesine ekle:
-   - `http://localhost:3000/api/auth/google/callback` (geliştirme)
-   - `https://your-domain.com/api/auth/google/callback` (production)
+   ```
+   http://localhost:3000/api/auth/google/callback
+   ```
 5. Client ID ve Client Secret'ı kaydet
+6. **OAuth consent screen → Audience → Test users** → kendi Gmail adresini ekle
 
-### 2. Bağımlılıkları yükle
+#### 3. Projeyi klonla ve bağımlılıkları yükle
 
 ```bash
-cd nextjs_space
+git clone https://github.com/senaiaksoy/Youtube.git
+cd Youtube
 yarn install
 ```
 
-### 3. `.env` dosyası oluştur
+#### 4. `.env` dosyası oluştur
 
 `.env.example` dosyasını kopyalayıp kendi değerlerini yaz:
 
@@ -56,20 +80,31 @@ GOOGLE_CLIENT_ID=XXXXXXXX.apps.googleusercontent.com
 GOOGLE_CLIENT_SECRET=GOCSPX-XXXXX
 ```
 
-### 4. Development server
+#### 5. Geliştirme modunda çalıştır
 
 ```bash
-yarn dev
+yarn desktop:dev
 ```
 
-Ardından http://localhost:3000 adresini aç → **Google ile Bağlan** butonuna tıkla → Google hesabınla yetki ver.
+Electron penceresi açılır → **Google ile Bağlan** → Google hesabınla yetki ver.
 
-### 5. Production build
+#### 6. `.exe` installer oluştur
 
 ```bash
-yarn build
-yarn start
+yarn desktop:dist
 ```
+
+Çıktı: `dist-electron/YouTube Manager Setup X.X.X.exe`
+
+### Web modunda çalıştırma (opsiyonel)
+
+```bash
+yarn dev          # development
+yarn build        # production build
+yarn start        # production server
+```
+
+http://localhost:3000 adresini aç.
 
 ## 📁 Dizin Yapısı
 

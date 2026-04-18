@@ -70,12 +70,25 @@ function startNextDev() {
   });
 }
 
+function findServerJs(base) {
+  const direct = path.join(base, 'server.js');
+  if (fs.existsSync(direct)) return { serverJs: direct, cwd: base };
+  // Next.js standalone may nest files under project directory name
+  for (const entry of fs.readdirSync(base, { withFileTypes: true })) {
+    if (entry.isDirectory()) {
+      const nested = path.join(base, entry.name, 'server.js');
+      if (fs.existsSync(nested)) return { serverJs: nested, cwd: path.join(base, entry.name) };
+    }
+  }
+  throw new Error('server.js not found in ' + base);
+}
+
 function startNextProd() {
   const resPath = getResourcePath();
-  const serverJs = path.join(resPath, 'server.js');
+  const { serverJs, cwd } = findServerJs(resPath);
 
   nextProcess = fork(serverJs, [], {
-    cwd: resPath,
+    cwd,
     env: { ...process.env, PORT: String(PORT), HOSTNAME: 'localhost' },
     silent: false,
   });

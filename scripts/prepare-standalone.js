@@ -2,6 +2,10 @@
  * After `next build` with output: 'standalone', copy static assets
  * and public folder into the standalone directory so the server
  * can serve them correctly.
+ *
+ * Next.js standalone may nest output under a project subdirectory
+ * (e.g. .next/standalone/youtube/server.js). This script detects
+ * the correct target automatically.
  */
 const fs = require('fs');
 const path = require('path');
@@ -26,21 +30,36 @@ function copyDir(src, dest) {
   }
 }
 
-// 1. Copy .next/static → standalone/.next/static
+// Detect where server.js lives (root or nested subdir)
+function findServerDir(base) {
+  if (fs.existsSync(path.join(base, 'server.js'))) return base;
+  for (const entry of fs.readdirSync(base, { withFileTypes: true })) {
+    if (entry.isDirectory()) {
+      const nested = path.join(base, entry.name, 'server.js');
+      if (fs.existsSync(nested)) return path.join(base, entry.name);
+    }
+  }
+  return base; // fallback
+}
+
+const serverDir = findServerDir(standaloneDir);
+console.log(`📂 Standalone server dir: ${serverDir}`);
+
+// 1. Copy .next/static → serverDir/.next/static
 const staticSrc = path.join(root, '.next', 'static');
-const staticDest = path.join(standaloneDir, '.next', 'static');
+const staticDest = path.join(serverDir, '.next', 'static');
 console.log('📁 Copying .next/static...');
 copyDir(staticSrc, staticDest);
 
-// 2. Copy public → standalone/public
+// 2. Copy public → serverDir/public
 const publicSrc = path.join(root, 'public');
-const publicDest = path.join(standaloneDir, 'public');
+const publicDest = path.join(serverDir, 'public');
 console.log('📁 Copying public/...');
 copyDir(publicSrc, publicDest);
 
 // 3. Copy .env if exists
 const envSrc = path.join(root, '.env');
-const envDest = path.join(standaloneDir, '.env');
+const envDest = path.join(serverDir, '.env');
 if (fs.existsSync(envSrc)) {
   console.log('📁 Copying .env...');
   fs.copyFileSync(envSrc, envDest);
