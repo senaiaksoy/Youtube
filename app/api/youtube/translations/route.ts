@@ -69,20 +69,11 @@ export async function POST(request: Request) {
           const description = video?.snippet?.description ?? '';
           const videoTitle = title;
 
-          // Add each language localization (with real translation)
+          // Translate and set localizations for all requested languages
           const newLocalizations = { ...currentLocalizations };
           const addedLanguages: string[] = [];
-          const skippedLanguages: string[] = [];
-          for (const lang of languages) {
-            if (!newLocalizations[lang]) {
-              addedLanguages.push(lang);
-            } else {
-              skippedLanguages.push(lang);
-            }
-          }
 
-          // Translate title and description for each new language
-          for (const lang of addedLanguages) {
+          for (const lang of languages) {
             try {
               const [translatedTitle, translatedDescription] = await translateBatch(
                 [title, description],
@@ -92,26 +83,12 @@ export async function POST(request: Request) {
                 title: translatedTitle,
                 description: translatedDescription,
               };
+              addedLanguages.push(lang);
             } catch (translationErr: any) {
-              // Fallback: use original text if translation fails
               console.error(`Translation to ${lang} failed:`, translationErr?.message);
               newLocalizations[lang] = { title, description };
+              addedLanguages.push(lang);
             }
-          }
-
-          // If nothing new to add, skip the API call
-          if (addedLanguages.length === 0) {
-            const result = {
-              videoId,
-              videoTitle,
-              success: true,
-              skipped: true,
-              addedLanguages: [],
-              skippedLanguages,
-            };
-            results.push(result);
-            send({ type: 'result', ...result, index: processed, total: videoIds.length });
-            continue;
           }
 
           // Update video with new localizations
@@ -140,7 +117,6 @@ export async function POST(request: Request) {
             videoTitle,
             success: true,
             addedLanguages,
-            skippedLanguages,
           };
           results.push(result);
           send({ type: 'result', ...result, index: processed, total: videoIds.length });
