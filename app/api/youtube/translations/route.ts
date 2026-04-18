@@ -2,6 +2,7 @@ export const dynamic = 'force-dynamic';
 
 import { NextResponse } from 'next/server';
 import { youtubeApiFetch } from '@/lib/youtube-token';
+import { translateBatch } from '@/lib/translate';
 
 // Add translations to videos - STREAMING NDJSON response for live progress
 export async function POST(request: Request) {
@@ -68,16 +69,33 @@ export async function POST(request: Request) {
           const description = video?.snippet?.description ?? '';
           const videoTitle = title;
 
-          // Add each language localization
+          // Add each language localization (with real translation)
           const newLocalizations = { ...currentLocalizations };
           const addedLanguages: string[] = [];
           const skippedLanguages: string[] = [];
           for (const lang of languages) {
             if (!newLocalizations[lang]) {
-              newLocalizations[lang] = { title, description };
               addedLanguages.push(lang);
             } else {
               skippedLanguages.push(lang);
+            }
+          }
+
+          // Translate title and description for each new language
+          for (const lang of addedLanguages) {
+            try {
+              const [translatedTitle, translatedDescription] = await translateBatch(
+                [title, description],
+                lang
+              );
+              newLocalizations[lang] = {
+                title: translatedTitle,
+                description: translatedDescription,
+              };
+            } catch (translationErr: any) {
+              // Fallback: use original text if translation fails
+              console.error(`Translation to ${lang} failed:`, translationErr?.message);
+              newLocalizations[lang] = { title, description };
             }
           }
 
