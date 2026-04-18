@@ -1,5 +1,8 @@
 {
-  "name": "app",
+  "name": "youtube-manager",
+  "version": "1.0.0",
+  "description": "YouTube kanal yönetim masaüstü uygulaması",
+  "author": "Senai Aksoy <drsenaiaksoy@gmail.com>",
   "private": true,
   "main": "electron/main.cjs",
   "scripts": {
@@ -157,10 +160,6 @@
         "from": "public",
         "to": "app-resources/public",
         "filter": ["**/*"]
-      },
-      {
-        "from": ".env",
-        "to": "app-resources/.env"
       }
     ],
     "asar": true,
