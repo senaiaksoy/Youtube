@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, dialog } = require('electron');
 const path = require('path');
 const fs = require('fs');
 const { spawn, fork } = require('child_process');
@@ -105,7 +105,24 @@ function waitForServer(url, timeout = 120000) {
     const start = Date.now();
     const check = () => {
       if (Date.now() - start > timeout) return reject(new Error('Server timeout'));
-      const req = http.get(url, () => { resolve(); });
+      const req = http.get(url, (res) => {
+        let body = '';
+        res.on('data', (chunk) => {
+          body += chunk.toString('utf8');
+        });
+        res.on('end', () => {
+          try {
+            const parsed = JSON.parse(body);
+            if (parsed?.app === 'youtube-manager' && parsed?.ok === true) {
+              resolve();
+              return;
+            }
+          } catch {
+            // Ignore non-JSON responses from unrelated apps.
+          }
+          setTimeout(check, 500);
+        });
+      });
       req.on('error', () => setTimeout(check, 500));
       req.setTimeout(2000, () => { req.destroy(); setTimeout(check, 500); });
     };
@@ -139,8 +156,18 @@ app.whenReady().then(async () => {
   }
 
   const url = `http://localhost:${PORT}`;
-  await waitForServer(url);
-  createWindow(url);
+  const identityUrl = `${url}/api/desktop/identity`;
+
+  try {
+    await waitForServer(identityUrl);
+    createWindow(url);
+  } catch (error) {
+    dialog.showErrorBox(
+      'YouTube Manager başlatılamadı',
+      `Uygulama localhost:${PORT} üzerinde kendi sunucusunu doğrulayamadı. Bu port başka bir proje tarafından kullanılıyor olabilir. Diğer yerel projeleri kapatıp tekrar deneyin veya DESKTOP_PORT değişkeni ile farklı bir port tanımlayın.`
+    );
+    app.quit();
+  }
 
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow(url);
