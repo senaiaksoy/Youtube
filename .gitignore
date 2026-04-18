@@ -8,6 +8,7 @@ node_modules
 .build
 out
 dist
+dist-electron
 
 # typescript
 *.tsbuildinfo

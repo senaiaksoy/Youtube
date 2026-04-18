@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "desktop:dev": "cross-env NODE_ENV=development electron .",
-    "desktop:build": "next build",
-    "desktop:start": "cross-env NODE_ENV=production electron .",
+    "desktop:build": "cross-env NEXT_OUTPUT_MODE=standalone next build && node scripts/prepare-standalone.js",
     "desktop:dist": "yarn desktop:build && electron-builder --win --x64"
   },
   "prisma": {
@@ -137,27 +136,42 @@
   "build": {
     "appId": "com.senai.youtube-manager",
     "productName": "YouTube Manager",
+    "directories": {
+      "output": "dist-electron"
+    },
     "files": [
-      "app/**",
-      "components/**",
-      "hooks/**",
-      "lib/**",
-      "prisma/**",
-      "public/**",
-      "scripts/**",
-      "types/**",
-      "electron/**",
-      "next.config.js",
-      "package.json",
-      "postcss.config.js",
-      "tailwind.config.ts",
-      "tsconfig.json",
-      "next-env.d.ts",
-      ".env.example"
+      "electron/**"
+    ],
+    "extraResources": [
+      {
+        "from": ".next/standalone",
+        "to": "app-resources",
+        "filter": ["**/*"]
+      },
+      {
+        "from": ".next/static",
+        "to": "app-resources/.next/static",
+        "filter": ["**/*"]
+      },
+      {
+        "from": "public",
+        "to": "app-resources/public",
+        "filter": ["**/*"]
+      },
+      {
+        "from": ".env",
+        "to": "app-resources/.env"
+      }
     ],
     "asar": true,
     "win": {
       "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false,
+      "shortcutName": "YouTube Manager"
     }
   }
 }
