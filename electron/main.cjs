@@ -1,11 +1,14 @@
 const { app, BrowserWindow, dialog } = require('electron');
 const path = require('path');
 const fs = require('fs');
+const net = require('net');
 const { spawn, fork } = require('child_process');
 const http = require('http');
 
 const isDev = !app.isPackaged;
-const PORT = Number(process.env.DESKTOP_PORT || 3000);
+const DEFAULT_PORT = Number(process.env.DESKTOP_PORT || 3000);
+const HOST = '127.0.0.1';
+let activePort = DEFAULT_PORT;
 
 // --------------- paths ---------------
 
@@ -46,8 +49,8 @@ function setupEnv() {
 
   process.env.YOUTUBE_TOKENS_FILE = process.env.YOUTUBE_TOKENS_FILE || tokensFilePath();
   process.env.YOUTUBE_LEGACY_FILE = process.env.YOUTUBE_LEGACY_FILE || legacyFilePath();
-  process.env.NEXTAUTH_URL = process.env.NEXTAUTH_URL || `http://localhost:${PORT}`;
-  process.env.PORT = String(PORT);
+  process.env.NEXTAUTH_URL = `http://${HOST}:${activePort}`;
+  process.env.PORT = String(activePort);
 }
 
 // --------------- Next.js server ---------------
@@ -58,7 +61,7 @@ function startNextDev() {
   const bin = path.join(process.cwd(), 'node_modules', '.bin',
     process.platform === 'win32' ? 'next.cmd' : 'next');
 
-  nextProcess = spawn(`"${bin}"`, ['dev', '-p', String(PORT)], {
+  nextProcess = spawn(`"${bin}"`, ['dev', '-p', String(activePort), '-H', HOST], {
     stdio: 'inherit',
     shell: true,
     env: process.env,
@@ -89,7 +92,7 @@ function startNextProd() {
 
   nextProcess = fork(serverJs, [], {
     cwd,
-    env: { ...process.env, PORT: String(PORT), HOSTNAME: 'localhost' },
+    env: { ...process.env, PORT: String(activePort), HOSTNAME: HOST },
     silent: false,
   });
 
@@ -130,6 +133,33 @@ function waitForServer(url, timeout = 120000) {
   });
 }
 
+function isPortAvailable(port, host = HOST) {
+  return new Promise((resolve) => {
+    const server = net.createServer();
+
+    server.once('error', () => resolve(false));
+    server.once('listening', () => {
+      server.close(() => resolve(true));
+    });
+
+    server.listen(port, host);
+  });
+}
+
+async function resolvePort(preferredPort) {
+  const maxAttempts = 20;
+
+  for (let offset = 0; offset < maxAttempts; offset++) {
+    const candidate = preferredPort + offset;
+    // eslint-disable-next-line no-await-in-loop
+    if (await isPortAvailable(candidate)) {
+      return candidate;
+    }
+  }
+
+  throw new Error(`No available port found starting from ${preferredPort}`);
+}
+
 // --------------- window ---------------
 
 function createWindow(url) {
@@ -147,6 +177,7 @@ function createWindow(url) {
 // --------------- app lifecycle ---------------
 
 app.whenReady().then(async () => {
+  activePort = await resolvePort(DEFAULT_PORT);
   setupEnv();
 
   if (isDev) {
@@ -155,7 +186,7 @@ app.whenReady().then(async () => {
     startNextProd();
   }
 
-  const url = `http://localhost:${PORT}`;
+  const url = `http://${HOST}:${activePort}`;
   const identityUrl = `${url}/api/desktop/identity`;
 
   try {
