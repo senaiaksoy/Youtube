@@ -116,14 +116,17 @@ export async function POST(request: Request) {
 
           // Update video with new localizations
           const updateUrl = 'https://www.googleapis.com/youtube/v3/videos?part=snippet,localizations';
+          const snippetUpdate: any = {
+            title: video?.snippet?.title,
+            description: video?.snippet?.description,
+            categoryId: video?.snippet?.categoryId ?? '22',
+          };
+          if (video?.snippet?.defaultLanguage) {
+            snippetUpdate.defaultLanguage = video.snippet.defaultLanguage;
+          }
           const updateBody = {
             id: videoId,
-            snippet: {
-              title: video?.snippet?.title,
-              description: video?.snippet?.description,
-              categoryId: video?.snippet?.categoryId ?? '22',
-              defaultLanguage: video?.snippet?.defaultLanguage || 'tr',
-            },
+            snippet: snippetUpdate,
             localizations: newLocalizations,
           };
 
@@ -196,14 +199,17 @@ export async function DELETE(request: Request) {
     delete localizations[language];
 
     const updateUrl = 'https://www.googleapis.com/youtube/v3/videos?part=snippet,localizations';
+    const snippetUpdate: any = {
+      title: video?.snippet?.title,
+      description: video?.snippet?.description,
+      categoryId: video?.snippet?.categoryId ?? '22',
+    };
+    if (video?.snippet?.defaultLanguage) {
+      snippetUpdate.defaultLanguage = video.snippet.defaultLanguage;
+    }
     const updateBody = {
       id: videoId,
-      snippet: {
-        title: video?.snippet?.title,
-        description: video?.snippet?.description,
-        categoryId: video?.snippet?.categoryId ?? '22',
-        defaultLanguage: video?.snippet?.defaultLanguage || 'tr',
-      },
+      snippet: snippetUpdate,
       localizations,
     };
 
