@@ -1,8 +1,21 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { Languages, Check, Trash2, Plus, Loader2, Search, Globe, ChevronDown, ChevronUp, X, CheckSquare, Square } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Languages,
+  Check,
+  Trash2,
+  Plus,
+  Loader2,
+  Search,
+  Globe,
+  ChevronDown,
+  ChevronUp,
+  X,
+  CheckSquare,
+  Square,
+} from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -32,7 +45,6 @@ export function TranslationsTab() {
   const [showLangPicker, setShowLangPicker] = useState(false);
   const [langSearch, setLangSearch] = useState('');
 
-  // Progress modal state
   const [progressOpen, setProgressOpen] = useState(false);
   const [progressItems, setProgressItems] = useState<ProgressItem[]>([]);
   const [progressLanguages, setProgressLanguages] = useState<string[]>([]);
@@ -49,8 +61,11 @@ export function TranslationsTab() {
       if (query) url += `q=${encodeURIComponent(query)}&`;
       const res = await fetch(url);
       const data = await res.json();
-      if (data?.error) toast.error(data.error);
-      else setVideos(data?.videos ?? []);
+      if (data?.error) {
+        toast.error(data.error);
+      } else {
+        setVideos(data?.videos ?? []);
+      }
     } catch (err: any) {
       toast.error(err?.message ?? 'Videolar yüklenemedi');
     } finally {
@@ -58,10 +73,12 @@ export function TranslationsTab() {
     }
   }, []);
 
-  useEffect(() => { fetchVideos(); }, [fetchVideos]);
+  useEffect(() => {
+    fetchVideos();
+  }, [fetchVideos]);
 
   const toggleVideo = (id: string) => {
-    setSelectedVideos(prev => {
+    setSelectedVideos((prev) => {
       const next = new Set(prev);
       if (next.has(id)) next.delete(id);
       else next.add(id);
@@ -69,21 +86,38 @@ export function TranslationsTab() {
     });
   };
 
-  const selectAllVideos = () => {
-    if (selectedVideos.size === filteredVideos.length) {
-      setSelectedVideos(new Set());
-    } else {
-      setSelectedVideos(new Set(filteredVideos.map(v => v?.id).filter(Boolean)));
-    }
-  };
-
   const toggleLanguage = (code: string) => {
-    setSelectedLanguages(prev => {
+    setSelectedLanguages((prev) => {
       const next = new Set(prev);
       if (next.has(code)) next.delete(code);
       else next.add(code);
       return next;
     });
+  };
+
+  const filteredVideos = (videos ?? []).filter(
+    (video) => !searchQuery || (video?.title ?? '').toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const filteredLanguages = (SUPPORTED_LANGUAGES ?? []).filter(
+    (language) =>
+      !langSearch ||
+      (language?.name ?? '').toLowerCase().includes(langSearch.toLowerCase()) ||
+      (language?.nativeName ?? '').toLowerCase().includes(langSearch.toLowerCase()) ||
+      (language?.code ?? '').toLowerCase().includes(langSearch.toLowerCase())
+  );
+
+  const selectAllVideos = () => {
+    if (selectedVideos.size === filteredVideos.length) {
+      setSelectedVideos(new Set());
+      return;
+    }
+
+    setSelectedVideos(new Set(filteredVideos.map((video) => video?.id).filter(Boolean)));
+  };
+
+  const getLangName = (code: string) => {
+    return SUPPORTED_LANGUAGES.find((language) => language?.code === code)?.name ?? code;
   };
 
   const addTranslations = async () => {
@@ -95,13 +129,11 @@ export function TranslationsTab() {
     const videoIds = Array.from(selectedVideos);
     const languages = Array.from(selectedLanguages);
 
-    // Build a title lookup from current video list for display
     const titleMap = new Map<string, string>();
-    videos.forEach((v) => {
-      if (v?.id) titleMap.set(v.id, v.title ?? v.id);
+    videos.forEach((video) => {
+      if (video?.id) titleMap.set(video.id, video.title ?? video.id);
     });
 
-    // Open progress modal with initial pending state
     setProgressItems(
       videoIds.map((id) => ({
         videoId: id,
@@ -146,15 +178,14 @@ export function TranslationsTab() {
 
         for (const line of lines) {
           if (!line.trim()) continue;
+
           try {
             const event = JSON.parse(line);
 
             if (event.type === 'processing') {
               setProgressItems((prev) =>
                 prev.map((item) =>
-                  item.videoId === event.videoId
-                    ? { ...item, status: 'processing' as const }
-                    : item
+                  item.videoId === event.videoId ? { ...item, status: 'processing' as const } : item
                 )
               );
             } else if (event.type === 'result') {
@@ -162,29 +193,47 @@ export function TranslationsTab() {
               setProgressItems((prev) =>
                 prev.map((item) => {
                   if (item.videoId !== event.videoId) return item;
-                  const newTitle = event.videoTitle ?? item.videoTitle;
+
+                  const nextTitle = event.videoTitle ?? item.videoTitle;
+                  const hasAdded = (event.addedLanguages?.length ?? 0) > 0;
+                  const hasSkipped = (event.skippedLanguages?.length ?? 0) > 0;
+
                   if (event.success) {
-                    if (event.skipped || (event.addedLanguages?.length ?? 0) === 0) {
+                    if (event.skipped || (!hasAdded && hasSkipped)) {
                       return {
                         ...item,
-                        videoTitle: newTitle,
+                        videoTitle: nextTitle,
                         status: 'skipped' as const,
                         skippedLanguages: event.skippedLanguages ?? [],
                       };
                     }
+
                     return {
                       ...item,
-                      videoTitle: newTitle,
+                      videoTitle: nextTitle,
                       status: 'success' as const,
                       addedLanguages: event.addedLanguages ?? [],
                       skippedLanguages: event.skippedLanguages ?? [],
                     };
                   }
+
+                  if (hasAdded || hasSkipped) {
+                    return {
+                      ...item,
+                      videoTitle: nextTitle,
+                      status: 'partial' as const,
+                      addedLanguages: event.addedLanguages ?? [],
+                      skippedLanguages: event.skippedLanguages ?? [],
+                      error: event.error,
+                    };
+                  }
+
                   return {
                     ...item,
-                    videoTitle: newTitle,
+                    videoTitle: nextTitle,
                     status: 'error' as const,
                     error: event.error,
+                    skippedLanguages: event.skippedLanguages ?? [],
                   };
                 })
               );
@@ -196,18 +245,15 @@ export function TranslationsTab() {
               if ((event.failCount ?? 0) === 0) {
                 toast.success(`${event.successCount} video için çeviriler eklendi`);
               } else {
-                toast.warning(
-                  `${event.successCount} başarılı, ${event.failCount} başarısız`
-                );
+                toast.warning(`${event.successCount} başarılı, ${event.failCount} başarısız`);
               }
             }
           } catch {
-            /* ignore malformed line */
+            // Ignore malformed NDJSON rows.
           }
         }
       }
 
-      // Clear selections after completion
       setSelectedVideos(new Set());
       setSelectedLanguages(new Set());
       fetchVideos(searchQuery);
@@ -228,6 +274,7 @@ export function TranslationsTab() {
   const deleteTranslation = async (videoId: string, langCode: string) => {
     const key = `${videoId}-${langCode}`;
     setDeleting(key);
+
     try {
       const res = await fetch('/api/youtube/translations', {
         method: 'DELETE',
@@ -235,8 +282,10 @@ export function TranslationsTab() {
         body: JSON.stringify({ videoId, language: langCode }),
       });
       const data = await res.json();
-      if (data?.error) toast.error(data.error);
-      else {
+
+      if (data?.error) {
+        toast.error(data.error);
+      } else {
         toast.success('Çeviri silindi');
         fetchVideos(searchQuery);
       }
@@ -247,60 +296,44 @@ export function TranslationsTab() {
     }
   };
 
-  const filteredVideos = (videos ?? []).filter((v: VideoItem) =>
-    !searchQuery || (v?.title ?? '').toLowerCase().includes(searchQuery.toLowerCase())
-  );
-
-  const filteredLanguages = (SUPPORTED_LANGUAGES ?? []).filter((l: Language) =>
-    !langSearch ||
-    (l?.name ?? '').toLowerCase().includes(langSearch.toLowerCase()) ||
-    (l?.nativeName ?? '').toLowerCase().includes(langSearch.toLowerCase()) ||
-    (l?.code ?? '').toLowerCase().includes(langSearch.toLowerCase())
-  );
-
-  const getLangName = (code: string) => {
-    return SUPPORTED_LANGUAGES.find(l => l?.code === code)?.name ?? code;
-  };
-
   return (
     <div className="space-y-6">
       <div>
         <h2 className="font-display text-2xl font-bold tracking-tight">Çeviri Yönetimi</h2>
-        <p className="text-muted-foreground text-sm mt-1">Videolarınıza çoklu dil çevirisi ekleyin veya mevcut çevirileri yönetin</p>
+        <p className="mt-1 text-sm text-muted-foreground">
+          Videolarınıza çoklu dil çevirisi ekleyin veya mevcut çevirileri yönetin
+        </p>
       </div>
 
-      {/* Action Bar */}
       <Card>
         <CardContent className="pt-6">
           <div className="space-y-4">
-            {/* Language Picker */}
             <div>
-              <div className="flex items-center justify-between mb-2">
-                <label className="text-sm font-medium flex items-center gap-2">
-                  <Languages className="w-4 h-4 text-primary" />
+              <div className="mb-2 flex items-center justify-between">
+                <label className="flex items-center gap-2 text-sm font-medium">
+                  <Languages className="h-4 w-4 text-primary" />
                   Hedef Diller
                   {selectedLanguages.size > 0 && (
-                    <span className="bg-primary text-primary-foreground text-xs px-2 py-0.5 rounded-full">
+                    <span className="rounded-full bg-primary px-2 py-0.5 text-xs text-primary-foreground">
                       {selectedLanguages.size} seçili
                     </span>
                   )}
                 </label>
                 <Button variant="ghost" size="sm" onClick={() => setShowLangPicker(!showLangPicker)}>
-                  {showLangPicker ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                  {showLangPicker ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
                 </Button>
               </div>
 
-              {/* Selected Languages Tags */}
               {selectedLanguages.size > 0 && (
-                <div className="flex flex-wrap gap-2 mb-3">
-                  {Array.from(selectedLanguages).map(code => (
+                <div className="mb-3 flex flex-wrap gap-2">
+                  {Array.from(selectedLanguages).map((code) => (
                     <span
                       key={code}
-                      className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-primary/10 text-primary text-xs font-medium"
+                      className="inline-flex items-center gap-1 rounded-md bg-primary/10 px-2 py-1 text-xs font-medium text-primary"
                     >
                       {getLangName(code)}
                       <button onClick={() => toggleLanguage(code)} className="hover:text-destructive">
-                        <X className="w-3 h-3" />
+                        <X className="h-3 w-3" />
                       </button>
                     </span>
                   ))}
@@ -315,9 +348,9 @@ export function TranslationsTab() {
                     exit={{ height: 0, opacity: 0 }}
                     className="overflow-hidden"
                   >
-                    <div className="border border-border rounded-lg p-3">
+                    <div className="rounded-lg border border-border p-3">
                       <div className="relative mb-3">
-                        <Search className="absolute left-2 top-1/2 -translate-y-1/2 w-3 h-3 text-muted-foreground" />
+                        <Search className="absolute left-2 top-1/2 h-3 w-3 -translate-y-1/2 text-muted-foreground" />
                         <Input
                           placeholder="Dil ara..."
                           value={langSearch}
@@ -325,24 +358,24 @@ export function TranslationsTab() {
                           className="h-8 pl-7 text-xs"
                         />
                       </div>
-                      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-1.5 max-h-[200px] overflow-y-auto">
-                        {filteredLanguages.map((lang: Language) => (
+                      <div className="grid max-h-[200px] grid-cols-2 gap-1.5 overflow-y-auto sm:grid-cols-3 md:grid-cols-4">
+                        {filteredLanguages.map((language) => (
                           <button
-                            key={lang.code}
-                            onClick={() => toggleLanguage(lang.code)}
-                            className={`flex items-center gap-2 px-2 py-1.5 rounded text-xs transition-all text-left ${
-                              selectedLanguages.has(lang.code)
-                                ? 'bg-primary/15 text-primary font-medium'
-                                : 'hover:bg-accent text-foreground'
+                            key={language.code}
+                            onClick={() => toggleLanguage(language.code)}
+                            className={`flex items-center gap-2 rounded px-2 py-1.5 text-left text-xs transition-all ${
+                              selectedLanguages.has(language.code)
+                                ? 'bg-primary/15 font-medium text-primary'
+                                : 'text-foreground hover:bg-accent'
                             }`}
                           >
-                            {selectedLanguages.has(lang.code) ? (
-                              <Check className="w-3 h-3 flex-shrink-0" />
+                            {selectedLanguages.has(language.code) ? (
+                              <Check className="h-3 w-3 flex-shrink-0" />
                             ) : (
-                              <div className="w-3 h-3 flex-shrink-0" />
+                              <div className="h-3 w-3 flex-shrink-0" />
                             )}
-                            <span className="truncate">{lang.name}</span>
-                            <span className="text-muted-foreground ml-auto">({lang.code})</span>
+                            <span className="truncate">{language.name}</span>
+                            <span className="ml-auto text-muted-foreground">({language.code})</span>
                           </button>
                         ))}
                       </div>
@@ -352,7 +385,6 @@ export function TranslationsTab() {
               </AnimatePresence>
             </div>
 
-            {/* Add Button */}
             <div className="flex items-center gap-3">
               <Button
                 onClick={addTranslations}
@@ -360,9 +392,9 @@ export function TranslationsTab() {
                 className="flex-shrink-0"
               >
                 {adding ? (
-                  <Loader2 className="w-4 h-4 animate-spin mr-2" />
+                  <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                 ) : (
-                  <Plus className="w-4 h-4 mr-2" />
+                  <Plus className="mr-2 h-4 w-4" />
                 )}
                 Çeviri Ekle
                 {selectedVideos.size > 0 && selectedLanguages.size > 0 && (
@@ -379,10 +411,9 @@ export function TranslationsTab() {
         </CardContent>
       </Card>
 
-      {/* Search & Select All */}
       <div className="flex items-center gap-3">
         <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <Input
             placeholder="Video ara..."
             value={searchQuery}
@@ -392,72 +423,68 @@ export function TranslationsTab() {
         </div>
         <Button variant="outline" size="sm" onClick={selectAllVideos}>
           {selectedVideos.size === filteredVideos.length && filteredVideos.length > 0 ? (
-            <CheckSquare className="w-4 h-4 mr-1" />
+            <CheckSquare className="mr-1 h-4 w-4" />
           ) : (
-            <Square className="w-4 h-4 mr-1" />
+            <Square className="mr-1 h-4 w-4" />
           )}
           Tümünü Seç
         </Button>
       </div>
 
-      {/* Video List */}
       {loading ? (
         <div className="flex items-center justify-center py-20">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
+          <div className="h-8 w-8 animate-spin rounded-full border-b-2 border-primary" />
         </div>
       ) : (
         <div className="space-y-2">
-          {filteredVideos.map((video: VideoItem, i: number) => {
-            const locKeys = Object.keys(video?.localizations ?? {});
+          {filteredVideos.map((video, index) => {
+            const localizationKeys = Object.keys(video?.localizations ?? {});
             const isExpanded = expandedVideo === video?.id;
             const isSelected = selectedVideos.has(video?.id ?? '');
 
             return (
               <motion.div
-                key={video?.id ?? i}
+                key={video?.id ?? index}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.02 }}
+                transition={{ delay: index * 0.02 }}
               >
-                <Card className={`overflow-hidden transition-all ${
-                  isSelected ? 'ring-2 ring-primary shadow-md' : 'hover:shadow-md'
-                }`}>
+                <Card
+                  className={`overflow-hidden transition-all ${
+                    isSelected ? 'ring-2 ring-primary shadow-md' : 'hover:shadow-md'
+                  }`}
+                >
                   <CardContent className="p-0">
                     <div className="flex items-center gap-3 p-3">
-                      {/* Checkbox */}
-                      <button
-                        onClick={() => toggleVideo(video?.id ?? '')}
-                        className="flex-shrink-0 p-1"
-                      >
+                      <button onClick={() => toggleVideo(video?.id ?? '')} className="flex-shrink-0 p-1">
                         {isSelected ? (
-                          <CheckSquare className="w-5 h-5 text-primary" />
+                          <CheckSquare className="h-5 w-5 text-primary" />
                         ) : (
-                          <Square className="w-5 h-5 text-muted-foreground" />
+                          <Square className="h-5 w-5 text-muted-foreground" />
                         )}
                       </button>
 
-                      {/* Thumbnail */}
-                      <div className="relative w-24 aspect-video rounded overflow-hidden bg-muted flex-shrink-0">
+                      <div className="relative aspect-video w-24 flex-shrink-0 overflow-hidden rounded bg-muted">
                         {video?.thumbnail ? (
                           <Image src={video.thumbnail} alt={video?.title ?? 'Video'} fill className="object-cover" />
                         ) : null}
                       </div>
 
-                      {/* Info */}
-                      <div className="flex-1 min-w-0">
-                        <h3 className="font-medium text-sm truncate">{video?.title ?? 'Başlıksız'}</h3>
-                        <div className="flex items-center gap-3 mt-1 text-xs text-muted-foreground">
-                          <span>{video?.publishedAt ? new Date(video.publishedAt).toLocaleDateString('tr-TR') : ''}</span>
+                      <div className="min-w-0 flex-1">
+                        <h3 className="truncate text-sm font-medium">{video?.title ?? 'Başlıksız'}</h3>
+                        <div className="mt-1 flex items-center gap-3 text-xs text-muted-foreground">
+                          <span>
+                            {video?.publishedAt ? new Date(video.publishedAt).toLocaleDateString('tr-TR') : ''}
+                          </span>
                           <span>{(video?.viewCount ?? 0).toLocaleString('tr-TR')} görüntüleme</span>
                         </div>
                       </div>
 
-                      {/* Translations badge & expand */}
-                      <div className="flex items-center gap-2 flex-shrink-0">
-                        {locKeys.length > 0 && (
-                          <span className="bg-primary/10 text-primary text-xs px-2 py-1 rounded-full flex items-center gap-1">
-                            <Globe className="w-3 h-3" />
-                            {locKeys.length}
+                      <div className="flex flex-shrink-0 items-center gap-2">
+                        {localizationKeys.length > 0 && (
+                          <span className="flex items-center gap-1 rounded-full bg-primary/10 px-2 py-1 text-xs text-primary">
+                            <Globe className="h-3 w-3" />
+                            {localizationKeys.length}
                           </span>
                         )}
                         <Button
@@ -465,12 +492,11 @@ export function TranslationsTab() {
                           size="sm"
                           onClick={() => setExpandedVideo(isExpanded ? null : (video?.id ?? null))}
                         >
-                          {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                          {isExpanded ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
                         </Button>
                       </div>
                     </div>
 
-                    {/* Expanded Translations */}
                     <AnimatePresence>
                       {isExpanded && (
                         <motion.div
@@ -479,37 +505,42 @@ export function TranslationsTab() {
                           exit={{ height: 0, opacity: 0 }}
                           className="overflow-hidden"
                         >
-                          <div className="px-4 pb-4 pt-1 border-t border-border">
-                            <h4 className="text-xs font-medium text-muted-foreground mb-2 mt-2">Mevcut Çeviriler</h4>
-                            {locKeys.length === 0 ? (
-                              <p className="text-xs text-muted-foreground italic">Henüz çeviri yok</p>
+                          <div className="border-t border-border px-4 pb-4 pt-1">
+                            <h4 className="mb-2 mt-2 text-xs font-medium text-muted-foreground">Mevcut Çeviriler</h4>
+                            {localizationKeys.length === 0 ? (
+                              <p className="text-xs italic text-muted-foreground">Henüz çeviri yok</p>
                             ) : (
-                              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                                {locKeys.map(langCode => {
-                                  const loc = video?.localizations?.[langCode];
+                              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+                                {localizationKeys.map((langCode) => {
+                                  const localization = video?.localizations?.[langCode];
                                   const langName = getLangName(langCode);
                                   const isDeleting = deleting === `${video?.id}-${langCode}`;
+
                                   return (
                                     <div
                                       key={langCode}
-                                      className="flex items-center justify-between p-2 rounded-md bg-muted/50 text-sm"
+                                      className="flex items-center justify-between rounded-md bg-muted/50 p-2 text-sm"
                                     >
                                       <div className="min-w-0 flex-1">
                                         <div className="flex items-center gap-2">
-                                          <span className="font-mono text-xs bg-background px-1.5 py-0.5 rounded">{langCode}</span>
+                                          <span className="rounded bg-background px-1.5 py-0.5 font-mono text-xs">
+                                            {langCode}
+                                          </span>
                                           <span className="text-xs font-medium">{langName}</span>
                                         </div>
-                                        <p className="text-xs text-muted-foreground truncate mt-0.5">{loc?.title ?? ''}</p>
+                                        <p className="mt-0.5 truncate text-xs text-muted-foreground">
+                                          {localization?.title ?? ''}
+                                        </p>
                                       </div>
                                       <button
                                         onClick={() => deleteTranslation(video?.id ?? '', langCode)}
                                         disabled={isDeleting}
-                                        className="ml-2 p-1 text-muted-foreground hover:text-destructive transition-colors flex-shrink-0"
+                                        className="ml-2 flex-shrink-0 p-1 text-muted-foreground transition-colors hover:text-destructive"
                                       >
                                         {isDeleting ? (
-                                          <Loader2 className="w-3 h-3 animate-spin" />
+                                          <Loader2 className="h-3 w-3 animate-spin" />
                                         ) : (
-                                          <Trash2 className="w-3 h-3" />
+                                          <Trash2 className="h-3 w-3" />
                                         )}
                                       </button>
                                     </div>
@@ -526,13 +557,13 @@ export function TranslationsTab() {
               </motion.div>
             );
           })}
+
           {filteredVideos.length === 0 && (
-            <p className="text-center text-muted-foreground py-12">Video bulunamadı</p>
+            <p className="py-12 text-center text-muted-foreground">Video bulunamadı</p>
           )}
         </div>
       )}
 
-      {/* Translation Progress Modal */}
       <TranslationProgress
         open={progressOpen}
         items={progressItems}

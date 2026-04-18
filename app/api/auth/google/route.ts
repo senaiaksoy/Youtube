@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { OAUTH_SCOPES } from '@/lib/youtube-token';
+import { createOAuthState } from '@/lib/oauth-state';
 
 export const dynamic = 'force-dynamic';
 
@@ -24,6 +25,7 @@ export async function GET(req: NextRequest) {
 
   const baseUrl = getBaseUrl(req);
   const redirectUri = `${baseUrl}/api/auth/google/callback`;
+  const { state, hashedState, maxAge } = createOAuthState();
 
   const params = new URLSearchParams({
     client_id: clientId,
@@ -33,8 +35,17 @@ export async function GET(req: NextRequest) {
     access_type: 'offline',
     prompt: 'consent', // ensure refresh_token is returned
     include_granted_scopes: 'true',
+    state,
   });
 
   const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?${params.toString()}`;
-  return NextResponse.redirect(authUrl);
+  const response = NextResponse.redirect(authUrl);
+  response.cookies.set('google_oauth_state', hashedState, {
+    httpOnly: true,
+    sameSite: 'lax',
+    secure: baseUrl.startsWith('https://'),
+    path: '/',
+    maxAge,
+  });
+  return response;
 }

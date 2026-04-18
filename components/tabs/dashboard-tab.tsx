@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { Eye, Video, TrendingUp, Users, BarChart3, Play } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { motion } from 'framer-motion';
@@ -26,15 +26,13 @@ interface AnalyticsData {
 
 function AnimatedCounter({ value, duration = 2000 }: { value: number; duration?: number }) {
   const [count, setCount] = useState(0);
-  const ref = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
     let start = 0;
     const end = value ?? 0;
     if (end === 0) return;
-    const stepTime = Math.max(Math.floor(duration / end), 1);
-    const increment = Math.max(Math.ceil(end / (duration / 16)), 1);
 
+    const increment = Math.max(Math.ceil(end / (duration / 16)), 1);
     const timer = setInterval(() => {
       start += increment;
       if (start >= end) {
@@ -48,7 +46,7 @@ function AnimatedCounter({ value, duration = 2000 }: { value: number; duration?:
     return () => clearInterval(timer);
   }, [value, duration]);
 
-  return <span ref={ref} className="font-mono">{(count ?? 0).toLocaleString('tr-TR')}</span>;
+  return <span className="font-mono">{(count ?? 0).toLocaleString('tr-TR')}</span>;
 }
 
 export function DashboardTab() {
@@ -58,19 +56,19 @@ export function DashboardTab() {
 
   useEffect(() => {
     fetch('/api/youtube/analytics')
-      .then(res => res.json())
-      .then(d => {
-        if (d?.error) setError(d.error);
-        setData(d);
+      .then((res) => res.json())
+      .then((response) => {
+        if (response?.error) setError(response.error);
+        setData(response);
       })
-      .catch(e => setError(e?.message ?? 'Veri alınamadı'))
+      .catch((err) => setError(err?.message ?? 'Veri alınamadı'))
       .finally(() => setLoading(false));
   }, []);
 
   if (loading) {
     return (
       <div className="flex items-center justify-center py-20">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
+        <div className="h-8 w-8 animate-spin rounded-full border-b-2 border-primary" />
       </div>
     );
   }
@@ -90,41 +88,42 @@ export function DashboardTab() {
     <div className="space-y-6">
       <div>
         <h2 className="font-display text-2xl font-bold tracking-tight">Kanal Özeti</h2>
-        <p className="text-muted-foreground text-sm mt-1">{channel?.title ?? 'Kanal'} için analitik verileri</p>
+        <p className="mt-1 text-sm text-muted-foreground">{channel?.title ?? 'Kanal'} için analitik verileri</p>
       </div>
 
       {error && (
-        <div className="bg-destructive/10 text-destructive rounded-lg p-4 flex items-center gap-3 text-sm">
-          <BarChart3 className="w-5 h-5 flex-shrink-0" />
+        <div className="flex items-center gap-3 rounded-lg bg-destructive/10 p-4 text-sm text-destructive">
+          <BarChart3 className="h-5 w-5 flex-shrink-0" />
           <div>
-            <p className="font-medium">YouTube API Ba&#x11f;lant&#x131; Hatas&#x131;</p>
-            <p className="text-xs mt-0.5 opacity-80">Token s&#xfc;resi dolmu&#x15f; olabilir. L&#xfc;tfen OAuth ba&#x11f;lant&#x131;s&#x131;n&#x131; yenileyin.</p>
+            <p className="font-medium">YouTube API Bağlantı Hatası</p>
+            <p className="mt-0.5 text-xs opacity-80">
+              Token süresi dolmuş olabilir. Lütfen OAuth bağlantısını yenileyin.
+            </p>
           </div>
         </div>
       )}
 
-      {/* Stats Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {stats.map((stat, i) => {
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {stats.map((stat, index) => {
           const Icon = stat.icon;
           return (
             <motion.div
               key={stat.label}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.1 }}
+              transition={{ delay: index * 0.1 }}
             >
-              <Card className="hover:shadow-lg transition-shadow">
+              <Card className="transition-shadow hover:shadow-lg">
                 <CardContent className="pt-6">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-xs text-muted-foreground uppercase tracking-wide">{stat.label}</p>
-                      <p className="text-2xl font-bold mt-1">
+                      <p className="text-xs uppercase tracking-wide text-muted-foreground">{stat.label}</p>
+                      <p className="mt-1 text-2xl font-bold">
                         <AnimatedCounter value={stat.value} />
                       </p>
                     </div>
-                    <div className={`p-3 rounded-lg bg-muted ${stat.color}`}>
-                      <Icon className="w-5 h-5" />
+                    <div className={`rounded-lg bg-muted p-3 ${stat.color}`}>
+                      <Icon className="h-5 w-5" />
                     </div>
                   </div>
                 </CardContent>
@@ -134,37 +133,36 @@ export function DashboardTab() {
         })}
       </div>
 
-      {/* Top Videos */}
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
-            <TrendingUp className="w-5 h-5 text-primary" />
+            <TrendingUp className="h-5 w-5 text-primary" />
             En Çok İzlenen Videolar
           </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-3">
-            {topVideos.map((video: any, i: number) => (
+            {topVideos.map((video, index) => (
               <motion.div
-                key={video?.id ?? i}
+                key={video?.id ?? index}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: i * 0.05 }}
-                className="flex items-center gap-4 p-3 rounded-lg hover:bg-accent transition-colors"
+                transition={{ delay: index * 0.05 }}
+                className="flex items-center gap-4 rounded-lg p-3 transition-colors hover:bg-accent"
               >
-                <span className="font-mono text-sm text-muted-foreground w-6 text-right">{i + 1}</span>
-                <div className="relative w-20 aspect-video rounded overflow-hidden bg-muted flex-shrink-0">
+                <span className="w-6 text-right font-mono text-sm text-muted-foreground">{index + 1}</span>
+                <div className="relative aspect-video w-20 flex-shrink-0 overflow-hidden rounded bg-muted">
                   {video?.thumbnail ? (
                     <Image src={video.thumbnail} alt={video?.title ?? 'Video'} fill className="object-cover" />
                   ) : (
-                    <div className="flex items-center justify-center h-full">
-                      <Play className="w-5 h-5 text-muted-foreground" />
+                    <div className="flex h-full items-center justify-center">
+                      <Play className="h-5 w-5 text-muted-foreground" />
                     </div>
                   )}
                 </div>
-                <div className="flex-1 min-w-0">
-                  <p className="font-medium text-sm truncate">{video?.title ?? 'Başlıksız'}</p>
-                  <p className="text-xs text-muted-foreground mt-0.5">
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-sm font-medium">{video?.title ?? 'Başlıksız'}</p>
+                  <p className="mt-0.5 text-xs text-muted-foreground">
                     {(video?.viewCount ?? 0).toLocaleString('tr-TR')} görüntüleme
                   </p>
                 </div>
@@ -176,7 +174,7 @@ export function DashboardTab() {
               </motion.div>
             ))}
             {topVideos.length === 0 && (
-              <p className="text-center text-muted-foreground py-8">Henüz video verisi yok</p>
+              <p className="py-8 text-center text-muted-foreground">Henüz video verisi yok</p>
             )}
           </div>
         </CardContent>

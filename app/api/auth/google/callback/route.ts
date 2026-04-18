@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { writeTokens } from '@/lib/youtube-token';
+import { isValidOAuthState } from '@/lib/oauth-state';
 
 export const dynamic = 'force-dynamic';
 
@@ -17,21 +18,33 @@ export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const code = searchParams.get('code');
   const error = searchParams.get('error');
+  const state = searchParams.get('state');
   const baseUrl = getBaseUrl(req);
+  const storedState = req.cookies.get('google_oauth_state')?.value;
+
+  const redirectWithCleanup = (query: string) => {
+    const response = NextResponse.redirect(`${baseUrl}/${query}`);
+    response.cookies.delete('google_oauth_state');
+    return response;
+  };
 
   if (error) {
-    return NextResponse.redirect(`${baseUrl}/?auth_error=${encodeURIComponent(error)}`);
+    return redirectWithCleanup(`?auth_error=${encodeURIComponent(error)}`);
   }
 
   if (!code) {
-    return NextResponse.redirect(`${baseUrl}/?auth_error=missing_code`);
+    return redirectWithCleanup('?auth_error=missing_code');
+  }
+
+  if (!isValidOAuthState(state, storedState)) {
+    return redirectWithCleanup('?auth_error=invalid_state');
   }
 
   const clientId = process.env.GOOGLE_CLIENT_ID;
   const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
 
   if (!clientId || !clientSecret) {
-    return NextResponse.redirect(`${baseUrl}/?auth_error=missing_config`);
+    return redirectWithCleanup('?auth_error=missing_config');
   }
 
   const redirectUri = `${baseUrl}/api/auth/google/callback`;
@@ -52,7 +65,7 @@ export async function GET(req: NextRequest) {
     if (!tokenRes.ok) {
       const msg = await tokenRes.text().catch(() => '');
       console.error('Token exchange failed:', tokenRes.status, msg);
-      return NextResponse.redirect(`${baseUrl}/?auth_error=token_exchange_failed`);
+      return redirectWithCleanup('?auth_error=token_exchange_failed');
     }
 
     const data = await tokenRes.json();
@@ -66,9 +79,9 @@ export async function GET(req: NextRequest) {
       token_type: data.token_type,
     });
 
-    return NextResponse.redirect(`${baseUrl}/?auth=success`);
+    return redirectWithCleanup('?auth=success');
   } catch (e: any) {
     console.error('OAuth callback error:', e);
-    return NextResponse.redirect(`${baseUrl}/?auth_error=${encodeURIComponent(e.message ?? 'unknown')}`);
+    return redirectWithCleanup(`?auth_error=${encodeURIComponent(e.message ?? 'unknown')}`);
   }
 }

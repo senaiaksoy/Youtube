@@ -4,7 +4,6 @@ import { NextResponse } from 'next/server';
 import { youtubeApiFetch } from '@/lib/youtube-token';
 import { translateBatch } from '@/lib/translate';
 
-// Add translations to videos - STREAMING NDJSON response for live progress
 export async function POST(request: Request) {
   let body: any = {};
   try {
@@ -27,11 +26,10 @@ export async function POST(request: Request) {
         try {
           controller.enqueue(encoder.encode(JSON.stringify(event) + '\n'));
         } catch {
-          /* stream closed */
+          // Stream may already be closed by the client.
         }
       };
 
-      // Initial event with total count
       send({
         type: 'start',
         total: videoIds.length,
@@ -44,7 +42,6 @@ export async function POST(request: Request) {
       for (const videoId of videoIds) {
         processed++;
 
-        // Send "processing" event for current video
         send({
           type: 'processing',
           videoId,
@@ -53,10 +50,10 @@ export async function POST(request: Request) {
         });
 
         try {
-          // Fetch current video with snippet and localizations
           const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet,localizations&id=${videoId}`;
           const data = await youtubeApiFetch(url);
           const video = data?.items?.[0];
+
           if (!video) {
             const result = { videoId, success: false, error: 'Video bulunamadı' };
             results.push(result);
@@ -69,16 +66,19 @@ export async function POST(request: Request) {
           const description = video?.snippet?.description ?? '';
           const videoTitle = title;
 
-          // Translate and set localizations for all requested languages
           const newLocalizations = { ...currentLocalizations };
           const addedLanguages: string[] = [];
+          const skippedLanguages: string[] = [];
+          const failedLanguages: string[] = [];
 
           for (const lang of languages) {
+            if (currentLocalizations?.[lang]) {
+              skippedLanguages.push(lang);
+              continue;
+            }
+
             try {
-              const [translatedTitle, translatedDescription] = await translateBatch(
-                [title, description],
-                lang
-              );
+              const [translatedTitle, translatedDescription] = await translateBatch([title, description], lang);
               newLocalizations[lang] = {
                 title: translatedTitle,
                 description: translatedDescription,
@@ -86,12 +86,37 @@ export async function POST(request: Request) {
               addedLanguages.push(lang);
             } catch (translationErr: any) {
               console.error(`Translation to ${lang} failed:`, translationErr?.message);
-              newLocalizations[lang] = { title, description };
-              addedLanguages.push(lang);
+              failedLanguages.push(lang);
             }
           }
 
-          // Update video with new localizations
+          if (failedLanguages.length > 0 && addedLanguages.length === 0) {
+            const result = {
+              videoId,
+              videoTitle,
+              success: false,
+              skippedLanguages,
+              error: `Çeviri alınamadı: ${failedLanguages.join(', ')}`,
+            };
+            results.push(result);
+            send({ type: 'result', ...result, index: processed, total: videoIds.length });
+            continue;
+          }
+
+          if (addedLanguages.length === 0 && skippedLanguages.length > 0) {
+            const result = {
+              videoId,
+              videoTitle,
+              success: true,
+              skipped: true,
+              addedLanguages,
+              skippedLanguages,
+            };
+            results.push(result);
+            send({ type: 'result', ...result, index: processed, total: videoIds.length });
+            continue;
+          }
+
           const updateUrl = 'https://www.googleapis.com/youtube/v3/videos?part=snippet,localizations';
           const snippetUpdate: any = {
             title: video?.snippet?.title,
@@ -101,6 +126,7 @@ export async function POST(request: Request) {
           if (video?.snippet?.defaultLanguage) {
             snippetUpdate.defaultLanguage = video.snippet.defaultLanguage;
           }
+
           const updateBody = {
             id: videoId,
             snippet: snippetUpdate,
@@ -115,8 +141,12 @@ export async function POST(request: Request) {
           const result = {
             videoId,
             videoTitle,
-            success: true,
+            success: failedLanguages.length === 0,
             addedLanguages,
+            skippedLanguages,
+            ...(failedLanguages.length > 0
+              ? { error: `Bazı diller eklenemedi: ${failedLanguages.join(', ')}` }
+              : {}),
           };
           results.push(result);
           send({ type: 'result', ...result, index: processed, total: videoIds.length });
@@ -131,8 +161,7 @@ export async function POST(request: Request) {
         }
       }
 
-      // Final completion event
-      const successCount = results.filter((r) => r.success).length;
+      const successCount = results.filter((result) => result.success).length;
       const failCount = results.length - successCount;
       send({
         type: 'done',
@@ -155,7 +184,6 @@ export async function POST(request: Request) {
   });
 }
 
-// Delete translation from a video
 export async function DELETE(request: Request) {
   try {
     const body = await request.json();
@@ -165,7 +193,6 @@ export async function DELETE(request: Request) {
       return NextResponse.json({ error: 'videoId and language are required' }, { status: 400 });
     }
 
-    // Fetch current video
     const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet,localizations&id=${videoId}`;
     const data = await youtubeApiFetch(url);
     const video = data?.items?.[0];
@@ -183,6 +210,7 @@ export async function DELETE(request: Request) {
     if (video?.snippet?.defaultLanguage) {
       snippetUpdate.defaultLanguage = video.snippet.defaultLanguage;
     }
+
     const updateBody = {
       id: videoId,
       snippet: snippetUpdate,
