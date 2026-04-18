@@ -1,13 +1,16 @@
 import { NextResponse } from 'next/server';
-import { isConnected, readTokens } from '@/lib/youtube-token';
+import { readTokens, validateYouTubeConnection } from '@/lib/youtube-token';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
   const tokens = readTokens();
+  const connected = await validateYouTubeConnection();
+  const latestTokens = connected ? readTokens() : null;
+
   return NextResponse.json({
-    connected: isConnected(),
-    hasRefreshToken: !!tokens?.refresh_token,
-    expiresAt: tokens?.expires_at ?? null,
+    connected,
+    hasRefreshToken: !!latestTokens?.refresh_token,
+    expiresAt: latestTokens?.expires_at ?? null,
   });
 }

@@ -71,6 +71,21 @@ export function isConnected(): boolean {
   return !!(t?.access_token || t?.refresh_token);
 }
 
+export function isAuthErrorMessage(message: string | undefined | null): boolean {
+  if (!message) return false;
+
+  const normalized = message.toLowerCase();
+  return (
+    normalized.includes('invalid authentication credentials') ||
+    normalized.includes('expected oauth 2 access token') ||
+    normalized.includes('refresh failed') ||
+    normalized.includes('invalid_grant') ||
+    normalized.includes('unauthorized') ||
+    normalized.includes('login required') ||
+    normalized.includes('request had invalid authentication credentials')
+  );
+}
+
 async function refreshAccessToken(refreshToken: string): Promise<StoredTokens> {
   const clientId = process.env.GOOGLE_CLIENT_ID;
   const clientSecret = process.env.GOOGLE_CLIENT_SECRET;
@@ -152,4 +167,18 @@ export async function youtubeApiFetch(url: string, options?: RequestInit) {
     throw new Error(message);
   }
   return res.json();
+}
+
+export async function validateYouTubeConnection(): Promise<boolean> {
+  if (!isConnected()) return false;
+
+  try {
+    await youtubeApiFetch('https://www.googleapis.com/youtube/v3/channels?part=id&mine=true&maxResults=1');
+    return true;
+  } catch (error: any) {
+    if (isAuthErrorMessage(error?.message)) {
+      clearTokens();
+    }
+    return false;
+  }
 }
