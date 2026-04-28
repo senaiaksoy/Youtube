@@ -157,6 +157,13 @@ nextjs_space/
 | POST | `/api/youtube/translations` | Toplu çeviri ekle (NDJSON stream) |
 | DELETE | `/api/youtube/translations` | Çeviri sil |
 
+## Kanal Audit
+
+Yeni Audit sekmesi ve `GET /api/youtube/audit` endpoint'i son 25 videoyu read-only olarak inceler.
+Skor; baslik uzunlugu, aciklama kapsami, CTA, medikal uyari, etiket sayisi, yerellestirme, gorunurluk ve temel etkilesim sinyallerinden hesaplanir.
+
+Audit mantigi; `youtube/api-samples`, `AgriciDaniel/claude-youtube`, `eat-pray-ai/yutu` ve `madEffort/youtube-trend-dashboard` projelerinden alinan guvenli fikirlerle yerel olarak uygulanir. Kanalda yazi yazma, silme veya otomatik yayinlama yapmaz.
+
 ## Lisans
 
 MIT

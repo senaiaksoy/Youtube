@@ -1,16 +1,18 @@
 'use client';
 
 import { useState } from 'react';
-import { LayoutDashboard, Video, Languages } from 'lucide-react';
+import { LayoutDashboard, Video, Languages, ShieldCheck } from 'lucide-react';
 import { DashboardTab } from '@/components/tabs/dashboard-tab';
 import { VideosTab } from '@/components/tabs/videos-tab';
 import { TranslationsTab } from '@/components/tabs/translations-tab';
+import { AuditTab } from '@/components/tabs/audit-tab';
 import { AuthBanner } from '@/components/auth-banner';
 import { cn } from '@/lib/utils';
 
 const TABS = [
   { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { id: 'videos', label: 'Videolar', icon: Video },
+  { id: 'audit', label: 'Audit', icon: ShieldCheck },
   { id: 'translations', label: 'Çeviriler', icon: Languages },
 ] as const;
 
@@ -56,6 +58,7 @@ export function AppShell() {
         <AuthBanner />
         {activeTab === 'dashboard' && <DashboardTab />}
         {activeTab === 'videos' && <VideosTab />}
+        {activeTab === 'audit' && <AuditTab />}
         {activeTab === 'translations' && <TranslationsTab />}
       </main>
     </div>
