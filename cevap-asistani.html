@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>YouTube Hasta Cevap Asistanı — Dr. Senai Aksoy</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --border: #e3e6ea;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --ok: #10b981;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 24px 20px 64px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 18px; margin-bottom: 14px; }
+  label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151; }
+  textarea, select {
+    width: 100%; font-family: inherit; font-size: 14px;
+    border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px;
+    background: #fff; color: var(--text); outline: none; resize: vertical;
+  }
+  textarea:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); }
+  textarea { min-height: 70px; }
+  #cevap { min-height: 240px; line-height: 1.55; }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .row > div { flex: 1; min-width: 200px; }
+  .tabs { display: flex; gap: 6px; margin-bottom: 12px; }
+  .tab {
+    padding: 7px 14px; border-radius: 7px; cursor: pointer; font-size: 13px;
+    border: 1px solid var(--border); background: #fff; color: var(--muted); user-select: none;
+  }
+  .tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; align-items: center; }
+  button {
+    padding: 9px 16px; font-size: 14px; font-weight: 500; border-radius: 8px;
+    border: 1px solid var(--accent); background: var(--accent); color: #fff; cursor: pointer;
+  }
+  button:hover { background: var(--accent-hover); }
+  button.ghost { background: #fff; color: var(--text); border-color: var(--border); }
+  button.ghost:hover { background: #f3f4f6; }
+  .toast { color: var(--ok); font-size: 13px; opacity: 0; transition: opacity 0.2s; }
+  .toast.show { opacity: 1; }
+  .rtl { direction: rtl; text-align: right; }
+  .hint { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .disclaimer-line { font-size: 12px; color: var(--muted); margin-top: 8px; display: flex; align-items: center; gap: 6px; }
+  .disclaimer-line input { transform: translateY(1px); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>YouTube Hasta Cevap Asistanı</h1>
+  <div class="sub">Dr. Senai Aksoy — kısa, humanize, hukuki açıdan güvenli yanıtlar.</div>
+
+  <div class="card">
+    <label for="yorum">Hasta yorumu (opsiyonel — referans için)</label>
+    <textarea id="yorum" placeholder="Hastanın yorumunu buraya yapıştırabilirsin. Yardımcı olur ama zorunlu değil."></textarea>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <label for="kategori">Kategori</label>
+        <select id="kategori"></select>
+      </div>
+    </div>
+    <div class="hint">Anahtar kelimeler için: AMH → 04 · sperm → 10 · PCOS → 11 · endometriozis → 12 · belirsiz → 09</div>
+  </div>
+
+  <div class="card">
+    <label>Dil</label>
+    <div class="tabs" id="lang-tabs">
+      <div class="tab active" data-lang="tr">🇹🇷 Türkçe</div>
+      <div class="tab" data-lang="fr">🇫🇷 Français</div>
+      <div class="tab" data-lang="en">🇬🇧 English</div>
+      <div class="tab" data-lang="ar">🇸🇦 العربية</div>
+    </div>
+
+    <label for="cevap">Cevap (düzenleyebilirsin)</label>
+    <textarea id="cevap"></textarea>
+    <div class="disclaimer-line">
+      <input type="checkbox" id="disc" />
+      <label for="disc" style="margin:0; font-weight:400; color:var(--muted);">Sabit yorum hatırlatma satırı ekle</label>
+    </div>
+
+    <div class="actions">
+      <button id="copy">📋 Kopyala</button>
+      <button id="reset" class="ghost">↺ Sıfırla</button>
+      <span class="toast" id="toast">Panoya kopyalandı ✓</span>
+    </div>
+  </div>
+</div>
+
+<script>
+const TEMPLATES = {
+  "01-genel": {
+    label: "01 · Genel / belirsiz soru",
+    tr: `Merhaba, yorumunuz için teşekkür ederim.
+
+Anlattıklarınız önemli; ancak doğru değerlendirme için yaş, yumurtalık rezervi, sperm analizi, rahim ve tüplerin durumu ile önceki tedavi öyküsünün birlikte incelenmesi gerekir. Buradan kesin bir teşhis veya tedavi önerisi vermem doğru olmaz.
+
+Elinizdeki sonuçları infertilite alanında deneyimli bir uzmanla değerlendirmenizi öneririm. Özellikle kadın yaşı söz konusu olduğunda zaman önemli — gecikmeden bir randevu almanız iyi olur.
+
+Sağlıklı haberler dilerim.`,
+    fr: `Bonjour, merci pour votre commentaire.
+
+Ce que vous décrivez est important ; mais une évaluation correcte nécessite d'examiner ensemble votre âge, la réserve ovarienne, le spermogramme, l'état de l'utérus et des trompes, ainsi que les antécédents thérapeutiques. Il ne serait pas juste de vous donner ici un diagnostic ou un traitement précis.
+
+Je vous recommande de faire évaluer vos résultats par un spécialiste expérimenté en infertilité. Le temps est un facteur important — n'attendez pas trop pour prendre rendez-vous.
+
+Je vous souhaite de bonnes nouvelles.`,
+    en: `Hello, thank you for your comment.
+
+What you describe is important; however, proper evaluation requires reviewing together your age, ovarian reserve, semen analysis, the condition of the uterus and tubes, and previous treatment history. It would not be appropriate to give a specific diagnosis or treatment recommendation here.
+
+I recommend having your results evaluated by an experienced infertility specialist. Time matters — please don't delay scheduling an appointment.
+
+I wish you good news.`,
+    ar: `مرحباً، شكراً لتعليقك.
+
+ما تصفينه مهم؛ لكن التقييم الصحيح يتطلب مراجعة العمر ومخزون المبيض وتحليل السائل المنوي وحالة الرحم والأنابيب وتاريخ العلاج السابق معاً. لن يكون من المناسب تقديم تشخيص أو علاج محدد هنا.
+
+أوصي بمراجعة نتائجك مع أخصائي عقم متمرس. الوقت عامل مهم — لا تؤجلي تحديد الموعد.
+
+أتمنى لك أخباراً سارة.`
+  },
+
+  "02-hamile-kalamiyorum": {
+    label: "02 · Hamile kalamıyorum",
+    tr: `Merhaba, geçmiş olsun.
+
+Gebelik oluşmamasının birden fazla nedeni olabilir: yumurtlama problemi, tüplerle ilgili sorunlar, sperm faktörü ya da yumurtalık rezervinde azalma. İlk değerlendirmede genellikle yaş, AMH, FSH, ultrason bulguları ve sperm analizi birlikte incelenir.
+
+Buradan net bir tedavi önermem doğru olmaz; ancak özellikle 35 yaş üzerindeyseniz veya bir süredir gebelik olmuyorsa, deneyimli bir merkezde gecikmeden değerlendirilmenizi öneririm.
+
+Umarım kısa sürede güzel haber alırsınız.`,
+    fr: `Bonjour, tous mes vœux de rétablissement.
+
+L'absence de grossesse peut avoir plusieurs causes : trouble de l'ovulation, problèmes tubaires, facteur masculin ou diminution de la réserve ovarienne. Une première évaluation examine généralement l'âge, l'AMH, la FSH, l'échographie et le spermogramme.
+
+Il ne serait pas juste de recommander un traitement précis ici ; mais si vous avez plus de 35 ans ou essayez depuis un certain temps, consultez sans tarder un centre expérimenté.
+
+Une évaluation précoce augmente significativement vos chances. Je vous souhaite de bonnes nouvelles très prochainement.`,
+    en: `Hello, I understand your concern.
+
+There can be many reasons why pregnancy doesn't occur: ovulation problems, tubal issues, sperm factor, or diminished ovarian reserve. Initial evaluation typically reviews age, AMH, FSH, ultrasound findings, and semen analysis together.
+
+It would not be appropriate to recommend specific treatment here; however, if you are over 35 or have been trying for a while, please seek evaluation at an experienced center without delay.
+
+I hope you receive good news very soon.`,
+    ar: `مرحباً، أتمنى لك الشفاء.
+
+قد يكون هناك عدة أسباب لعدم حدوث الحمل: مشاكل التبويض، مشاكل الأنابيب، العامل الذكري، أو انخفاض مخزون المبيض. التقييم الأولي يفحص عادة العمر وAMH وFSH ونتائج الموجات فوق الصوتية وتحليل السائل المنوي معاً.
+
+لن يكون من المناسب التوصية بعلاج محدد هنا؛ لكن إذا كنت فوق 35 عاماً أو تحاولين منذ فترة، راجعي مركزاً متخصصاً دون تأخير.
+
+أتمنى أن تتلقي أخباراً سارة قريباً.`
+  },
+
+  "03-tup-bebek-gerekir-mi": {
+    label: "03 · Tüp bebek gerekir mi?",
+    tr: `Merhaba, yorumunuz için teşekkür ederim.
+
+Tüp bebek kararı tek bir bilgiye değil; yaş, AMH, sperm analizi, tüplerin durumu, deneme süresi ve önceki tedavilerin tamamına bakılarak verilir. Bazı çiftler için aşılama yeterli olurken, ileri yaş, düşük rezerv, kapalı tüpler veya ciddi sperm sorunu varsa tüp bebek daha erken gündeme gelebilir.
+
+Dosyanızın bütününü deneyimli bir uzmanla değerlendirmeniz en doğru yol olur.`,
+    fr: `Bonjour, merci pour votre commentaire.
+
+La décision de FIV ne repose pas sur une seule information ; elle prend en compte l'âge, l'AMH, le spermogramme, l'état des trompes, la durée d'essai et les traitements antérieurs. Pour certains couples, une insémination suffit ; en cas d'âge avancé, de réserve basse, de trompes obstruées ou de facteur masculin sévère, la FIV peut être envisagée plus tôt.
+
+Le mieux est de faire évaluer l'ensemble de votre dossier par un spécialiste.`,
+    en: `Hello, thank you for your comment.
+
+Deciding on IVF can't be based on one piece of information; it requires looking at age, AMH, semen analysis, tubal status, duration of trying, and previous treatments together. For some couples IUI is enough; with advanced age, low reserve, blocked tubes, or severe sperm issues, IVF may come up earlier.
+
+The best approach is to have your complete file evaluated by a specialist.`,
+    ar: `مرحباً، شكراً لتعليقك.
+
+قرار أطفال الأنابيب لا يُتخذ بناءً على معلومة واحدة؛ يتطلب النظر إلى العمر وAMH وتحليل السائل المنوي وحالة الأنابيب ومدة المحاولة والعلاجات السابقة معاً. لبعض الأزواج يكفي التلقيح الصناعي؛ ومع التقدم في العمر أو انخفاض المخزون أو انسداد الأنابيب أو مشاكل الحيوانات المنوية الشديدة، قد تُطرح أطفال الأنابيب في وقت أبكر.
+
+أفضل طريقة هي تقييم ملفك الكامل من قبل أخصائي.`
+  },
+
+  "04-amh-dusuk": {
+    label: "04 · AMH düşük",
+    tr: `Merhaba, geçmiş olsun.
+
+AMH düşüklüğü yumurtalık rezervinin azaldığını gösterir; ancak tek başına "gebelik olmaz" anlamına gelmez. Burada en kritik faktörlerden biri yaştır — aynı AMH değeri 30 yaşında bir kadınla 42 yaşındakinde aynı şeyi ifade etmez.
+
+Değerlendirme yaparken AMH ile birlikte antral folikül sayısı, FSH ve varsa önceki tedavi sonuçları da dikkate alınır. Önemli olan zaman kaybetmemek ve kişiye özel bir plan oluşturmak.
+
+Elinizdeki testleri infertilite uzmanıyla birlikte değerlendirmenizi öneririm.`,
+    fr: `Bonjour, tous mes vœux de rétablissement.
+
+Une AMH basse indique une réserve ovarienne diminuée ; cela ne veut pas dire à lui seul "pas de grossesse possible". L'âge reste l'un des facteurs les plus importants — la même AMH ne signifie pas la même chose chez une femme de 30 ans et une femme de 42 ans.
+
+L'évaluation considère l'AMH avec le compte des follicules antraux, la FSH et, le cas échéant, les antécédents de traitement. L'important est de ne pas perdre de temps et d'établir un plan personnalisé.
+
+Je vous recommande de faire évaluer vos examens par un spécialiste en infertilité.`,
+    en: `Hello, I understand your concern.
+
+Low AMH indicates reduced ovarian reserve; it does not by itself mean "pregnancy is not possible". Age remains one of the most critical factors — the same AMH value doesn't mean the same thing in a 30-year-old as in a 42-year-old.
+
+Evaluation should consider AMH together with antral follicle count, FSH, and previous treatment results if any. What matters is not losing time and creating a personalized plan.
+
+I recommend having your tests evaluated by an infertility specialist.`,
+    ar: `مرحباً، أتمنى لك الشفاء.
+
+انخفاض AMH يشير إلى انخفاض مخزون المبيض؛ لكنه لا يعني بحد ذاته "لا حمل ممكن". العمر يبقى أحد أهم العوامل — نفس قيمة AMH لا تعني الشيء نفسه لدى امرأة عمرها 30 وأخرى عمرها 42.
+
+يجب النظر في AMH مع عدد الجريبات الغارية وFSH ونتائج العلاج السابقة إن وجدت. المهم عدم إضاعة الوقت ووضع خطة شخصية.
+
+أوصي بتقييم فحوصاتك من قبل أخصائي عقم.`
+  },
+
+  "05-tupler-kapali": {
+    label: "05 · Tüpler kapalı / hidrosalpenks",
+    tr: `Merhaba, geçmiş olsun.
+
+Tüplerin kapalı olması veya hidrosalpenks gebelik şansını etkileyebilir. Hidrosalpenks varsa tüp içindeki sıvı rahim içine akarak embriyonun tutunmasını olumsuz etkileyebilir; bu nedenle tüp bebek öncesinde durumu dikkatle değerlendirilir.
+
+Bazı hastalarda laparoskopi veya tüpün rahimle bağlantısının kesilmesi gerekebilir; ama karar rahim filmi, ultrason, yaş ve yumurtalık rezerviyle birlikte verilir.
+
+Dosyanızın bir uzman tarafından ayrıntılı incelenmesini öneririm.`,
+    fr: `Bonjour, tous mes vœux de rétablissement.
+
+Une obstruction tubaire ou un hydrosalpinx peut affecter les chances de grossesse. En cas d'hydrosalpinx, le liquide tubaire peut s'écouler dans l'utérus et nuire à l'implantation ; il faut donc l'évaluer attentivement avant une FIV.
+
+Une laparoscopie ou une déconnexion tubaire peut être nécessaire ; mais la décision se prend avec l'HSG, l'échographie, l'âge et la réserve ovarienne.
+
+Je recommande un examen détaillé de votre dossier par un spécialiste.`,
+    en: `Hello, I understand your concern.
+
+Blocked tubes or hydrosalpinx can affect pregnancy chances. With hydrosalpinx, fluid can flow into the uterus and harm implantation, so it must be carefully evaluated before IVF.
+
+In some patients laparoscopy or tubal disconnection may be needed; but the decision is made together with HSG, ultrasound, age, and ovarian reserve.
+
+I recommend detailed review of your file by a specialist.`,
+    ar: `مرحباً، أتمنى لك الشفاء.
+
+انسداد الأنابيب أو الحقيبة المائية قد يؤثر على فرص الحمل. مع الحقيبة المائية، السائل قد يتدفق إلى الرحم ويؤثر على الانغراس؛ لذا يجب تقييمها بعناية قبل أطفال الأنابيب.
+
+في بعض الحالات قد تلزم عملية المنظار أو فصل الأنبوب عن الرحم؛ لكن القرار يُتخذ مع أشعة الرحم والموجات فوق الصوتية والعمر ومخزون المبيض.
+
+أوصي بفحص مفصل لملفك من قبل أخصائي.`
+  },
+
+  "06-embriyo-kalitesi": {
+    label: "06 · Embriyo kalitesi / blastokist",
+    tr: `Merhaba, yorumunuz için teşekkür ederim.
+
+Embriyo kalitesi önemli bir gösterge; ama gebelik şansını tek başına belirlemez. Yaş, embriyonun gelişim günü, laboratuvar koşulları, rahim içi hazırlık ve genetik durum da etkili.
+
+İyi kaliteli bir embriyo şansı artırır ama garanti vermez; daha düşük kaliteli bir embriyoyla da gebelik oluşabilir. Embriyo raporunuzun tamamı ve tedavi geçmişiniz birlikte değerlendirilmelidir.`,
+    fr: `Bonjour, merci pour votre commentaire.
+
+La qualité embryonnaire est un indicateur important ; mais elle ne détermine pas à elle seule les chances de grossesse. L'âge, le jour de développement, les conditions de laboratoire, la préparation endométriale et le statut génétique comptent aussi.
+
+Un embryon de bonne qualité augmente les chances mais ne garantit rien ; une grossesse peut survenir avec un embryon de qualité moindre. Votre rapport embryonnaire complet et votre historique de traitement doivent être évalués ensemble.`,
+    en: `Hello, thank you for your comment.
+
+Embryo quality is an important indicator; but it doesn't determine pregnancy chances alone. Age, developmental day, lab conditions, endometrial preparation, and genetic status also matter.
+
+A good-quality embryo improves chances but offers no guarantee; pregnancy can also occur with a lower-grade embryo. Your full embryo report and treatment history should be reviewed together.`,
+    ar: `مرحباً، شكراً لتعليقك.
+
+جودة الجنين مؤشر مهم؛ لكنها لا تحدد فرص الحمل بمفردها. العمر ويوم التطور وظروف المختبر وتحضير بطانة الرحم والحالة الوراثية مهمة أيضاً.
+
+جنين عالي الجودة يزيد الفرص لكنه لا يقدم ضماناً؛ يمكن أن يحدث الحمل أيضاً مع جنين أقل جودة. يجب تقييم تقرير الجنين الكامل وتاريخ العلاج معاً.`
+  },
+
+  "07-transfer-sonrasi": {
+    label: "07 · Transfer sonrası belirti",
+    tr: `Merhaba, endişenizi anlıyorum.
+
+Transfer sonrası belirti olmaması kötü işaret değildir. Bazı hastalarda hafif kasık ağrısı, göğüs hassasiyeti veya lekelenme olur; bazılarında hiçbir belirti olmaz. Belirti olup olmaması sonucu güvenilir şekilde göstermez.
+
+En doğru bilgi, doktorunuzun belirlediği günde yapılacak beta-hCG testiyle alınır. O zamana kadar ilaçlarınızı tarif edildiği gibi kullanmaya devam edin.
+
+Umarım güzel bir sonuç alırsınız.`,
+    fr: `Bonjour, je comprends votre inquiétude.
+
+L'absence de symptômes après un transfert n'est pas un mauvais signe. Certaines patientes ressentent des douleurs pelviennes, une sensibilité mammaire ou des saignements légers ; d'autres rien du tout. La présence ou non de symptômes n'indique pas le résultat de manière fiable.
+
+L'information la plus juste viendra du test bêta-hCG à la date fixée par votre médecin. D'ici là, continuez vos traitements comme prescrit.
+
+J'espère que vous aurez un beau résultat.`,
+    en: `Hello, I understand your concern.
+
+The absence of symptoms after transfer is not a bad sign. Some patients feel mild pelvic pain, breast tenderness, or spotting; others have none at all. Symptoms — present or absent — don't reliably indicate the outcome.
+
+The most accurate information comes from the beta-hCG blood test on the date your doctor scheduled. Until then, continue your medications as prescribed.
+
+I hope you receive a good result.`,
+    ar: `مرحباً، أفهم قلقك.
+
+عدم وجود أعراض بعد النقل ليس علامة سيئة. بعض المريضات يشعرن بألم خفيف في الحوض أو حساسية الثدي أو نزيف خفيف؛ والبعض لا يشعرن بأي شيء. وجود الأعراض أو عدمها لا يدل بشكل موثوق على النتيجة.
+
+أدق المعلومات تأتي من اختبار beta-hCG في التاريخ الذي حدده طبيبك. حتى ذلك الحين، استمري في أدويتك كما وُصفت.
+
+أتمنى أن تحصلي على نتيجة جيدة.`
+  },
+
+  "08-tekrarlayan-basarisizlik": {
+    label: "08 · Tekrarlayan başarısızlık",
+    tr: `Merhaba, gerçekten zor bir süreç; geçmiş olsun.
+
+Transferin başarısız olması her zaman tek bir nedene bağlı değildir. Embriyonun genetik yapısı, yaş, rahim içi faktörler, endometrium kalınlığı, transfer tekniği ve bazen bağışıklık/pıhtılaşma gibi özel durumlar birlikte değerlendirilir.
+
+Tekrarlayan başarısızlıkta önceki tedavi dosyalarının sistemli incelenmesi gerekir: kaç yumurta toplandı, kaç embriyo gelişti, kalitesi neydi, rahim değerlendirildi mi, sperm faktörü var mı? Doğru analizle bir sonraki adım çoğu zaman daha akılcı planlanabilir.`,
+    fr: `Bonjour, c'est vraiment un moment difficile ; tous mes vœux de rétablissement.
+
+Un échec de transfert n'est pas toujours dû à une cause unique. La génétique embryonnaire, l'âge, les facteurs intra-utérins, l'épaisseur de l'endomètre, la technique de transfert et parfois des facteurs immunologiques/thrombotiques doivent être évalués ensemble.
+
+En cas d'échecs répétés, il faut examiner systématiquement les dossiers antérieurs : nombre d'ovocytes prélevés, nombre d'embryons développés, qualité, évaluation utérine, facteur masculin. Avec une bonne analyse, l'étape suivante peut souvent être planifiée plus rationnellement.`,
+    en: `Hello, this is truly a difficult time; I'm sorry to hear this.
+
+A failed transfer is not always due to one cause. Embryo genetics, age, intrauterine factors, endometrial thickness, transfer technique, and sometimes immune/clotting factors should all be evaluated together.
+
+In repeated failure, previous treatment records must be reviewed systematically: how many eggs were retrieved, how many embryos developed, their quality, was the uterus evaluated, is there a sperm factor? With proper analysis, the next step can often be planned more rationally.`,
+    ar: `مرحباً، هذا حقاً وقت صعب؛ أتمنى لك الشفاء.
+
+فشل النقل ليس دائماً بسبب سبب واحد. يجب تقييم جينات الجنين والعمر والعوامل داخل الرحم وسماكة بطانة الرحم وتقنية النقل وأحياناً العوامل المناعية/التخثرية معاً.
+
+في الفشل المتكرر، يجب مراجعة سجلات العلاج السابقة بشكل منهجي: كم بويضة تم استرجاعها، كم جنين تطور، ما جودتها، هل تم تقييم الرحم، هل هناك عامل ذكري؟ مع التحليل الصحيح، يمكن غالباً تخطيط الخطوة التالية بشكل أكثر عقلانية.`
+  },
+
+  "09-kisa-guvenli": {
+    label: "09 · Kısa ve güvenli (evrensel)",
+    tr: `Merhaba, yorumunuz için teşekkür ederim.
+
+Bu konuda doğru yorum için yaşınız, test sonuçlarınız, ultrasonunuz ve önceki tedavi öykünüz birlikte değerlendirilmelidir; buradan kesin bir teşhis veya tedavi önerisi vermem doğru olmaz.
+
+Elinizdeki sonuçları infertilite alanında deneyimli bir uzmanla paylaşmanızı öneririm. Sağlıklı günler dilerim.`,
+    fr: `Bonjour, merci pour votre commentaire.
+
+Pour un avis correct, votre âge, vos examens, votre échographie et vos antécédents thérapeutiques doivent être évalués ensemble ; il ne serait pas juste de donner ici un diagnostic ou un traitement précis.
+
+Je vous recommande de partager vos résultats avec un spécialiste expérimenté en infertilité. Bonne santé à vous.`,
+    en: `Hello, thank you for your comment.
+
+For a proper opinion, your age, test results, ultrasound, and previous treatment history should be reviewed together; it would not be appropriate to give a specific diagnosis or treatment here.
+
+I recommend sharing your results with an experienced infertility specialist. Wishing you good health.`,
+    ar: `مرحباً، شكراً لتعليقك.
+
+للرأي الصحيح، يجب تقييم عمرك ونتائج فحوصاتك والموجات فوق الصوتية وتاريخ العلاج السابق معاً؛ لن يكون من المناسب تقديم تشخيص أو علاج محدد هنا.
+
+أوصي بمشاركة نتائجك مع أخصائي عقم متمرس. أتمنى لك الصحة.`
+  },
+
+  "10-erkek-faktoru": {
+    label: "10 · Erkek faktörü / sperm",
+    tr: `Merhaba, geçmiş olsun.
+
+Sperm sayısı, hareketi veya morfolojisinde düşüklük gebelik şansını etkileyebilir; ama tek bir test yeterli değildir. Spermiogramın 2-3 hafta arayla, uygun perhiz süresinin ardından tekrarlanması gerekir.
+
+Sonuca göre hormon profili, fizik muayene, varikosel varlığı ve gerekirse genetik testler de değerlendirilir. Tedavi seçeneği —takip, aşılama, ICSI ya da cerrahi sperm elde etme— bu bütün içinde belirlenir.
+
+Eşinizin sonuçlarını sizin değerlendirmenizle birlikte bir uzmanla incelemeniz en doğrusu olur.`,
+    fr: `Bonjour, tous mes vœux de rétablissement.
+
+Une diminution du nombre, de la mobilité ou de la morphologie au spermogramme peut affecter les chances de grossesse ; mais un seul examen ne suffit pas. Le spermogramme doit être répété à 2-3 semaines d'intervalle, après une abstinence appropriée.
+
+Selon le résultat, le profil hormonal, l'examen clinique, la présence d'une varicocèle et, si besoin, des analyses génétiques sont évalués. Le choix —suivi, insémination, ICSI ou prélèvement chirurgical— se décide dans cet ensemble.
+
+Le mieux est de faire évaluer les résultats de votre conjoint avec votre propre bilan par un spécialiste.`,
+    en: `Hello, I understand your concern.
+
+A reduction in sperm count, motility, or morphology can affect pregnancy chances; but a single test is not enough. The semen analysis should be repeated 2-3 weeks apart, after an appropriate abstinence period.
+
+Depending on the result, the hormonal profile, physical exam, varicocele, and (if needed) genetic tests are evaluated. The treatment choice —monitoring, IUI, ICSI, or surgical sperm retrieval— is decided within this whole picture.
+
+The best approach is to have your partner's results reviewed alongside your own evaluation by a specialist.`,
+    ar: `مرحباً، أتمنى لك الشفاء.
+
+انخفاض عدد الحيوانات المنوية أو حركتها أو شكلها قد يؤثر على فرص الحمل؛ لكن تحليلاً واحداً لا يكفي. يجب إعادة التحليل بفاصل 2-3 أسابيع، بعد فترة امتناع مناسبة.
+
+حسب النتيجة، يُقيَّم الملف الهرموني والفحص السريري ودوالي الخصية وإذا لزم الفحوصات الجينية. يتم اختيار العلاج —المتابعة، التلقيح، الحقن المجهري ICSI، أو استخراج الحيوانات المنوية جراحياً— ضمن هذه الصورة الكاملة.
+
+أفضل طريقة هي مراجعة نتائج زوجك مع تقييمك الخاص لدى أخصائي.`
+  },
+
+  "11-pcos": {
+    label: "11 · PCOS / polikistik over",
+    tr: `Merhaba, yorumunuz için teşekkür ederim.
+
+PCOS sık görülen bir durumdur ve tek başına gebeliğe engel değildir. Birçok hasta uygun yaklaşımla doğal yoldan ya da destekli tedavilerle gebe kalabilir; önemli olan adet düzeni, yumurtlama, hormon profili (LH, FSH, AMH), insülin direnci ve kilo dağılımının birlikte ele alınması.
+
+Yaklaşım yaşam tarzı düzenlemelerinden yumurtlama indükleme tedavilerine, gerektiğinde tüp bebeğe kadar uzanır. Sonuçlarınızı infertilite ve endokrinoloji konusunda deneyimli bir uzmanla değerlendirmenizi öneririm.`,
+    fr: `Bonjour, merci pour votre commentaire.
+
+Le SOPK est fréquent et n'empêche pas à lui seul une grossesse. Beaucoup de patientes peuvent concevoir naturellement ou avec une aide médicale adaptée ; l'important est d'évaluer ensemble les cycles, l'ovulation, le profil hormonal (LH, FSH, AMH), l'insulinorésistance et la répartition pondérale.
+
+L'approche va des modifications du mode de vie à l'induction de l'ovulation, jusqu'à la FIV si nécessaire. Je recommande de faire évaluer vos résultats par un spécialiste expérimenté en infertilité et endocrinologie.`,
+    en: `Hello, thank you for your comment.
+
+PCOS is common and doesn't by itself prevent pregnancy. Many patients conceive naturally or with appropriate medical assistance; what matters is reviewing menstrual regularity, ovulation, hormonal profile (LH, FSH, AMH), insulin resistance, and weight distribution together.
+
+The approach ranges from lifestyle modifications to ovulation induction, up to IVF if needed. I recommend having your results reviewed by a specialist experienced in infertility and endocrinology.`,
+    ar: `مرحباً، شكراً لتعليقك.
+
+PCOS حالة شائعة ولا تمنع الحمل بحد ذاتها. كثير من المريضات يمكنهن الحمل طبيعياً أو بمساعدة طبية مناسبة؛ المهم تقييم انتظام الدورة والتبويض والملف الهرموني (LH، FSH، AMH) ومقاومة الأنسولين وتوزيع الوزن معاً.
+
+يتراوح النهج من تعديلات نمط الحياة إلى تحفيز التبويض، وصولاً إلى أطفال الأنابيب عند الحاجة. أوصي بمراجعة نتائجك لدى أخصائي ذو خبرة في العقم والغدد الصماء.`
+  },
+
+  "12-endometriozis": {
+    label: "12 · Endometriozis / çikolata kisti",
+    tr: `Merhaba, geçmiş olsun.
+
+Endometriozis ya da çikolata kisti gebelik şansını etkileyebilir; ancak bu, gebe kalmanın mümkün olmadığı anlamına gelmez. Yaklaşım kistin boyutuna, lokalizasyonuna, hastalığın evresine, ağrı şikâyetlerine, yaşa ve yumurtalık rezervine göre değişir.
+
+Önemli bir nokta: endometrioma cerrahisi her zaman fayda sağlamaz; bazen yumurtalık rezervini olumsuz etkileyebilir. Özellikle gebelik isteyen hastalarda karar dikkatle ve kişiye özel verilmelidir; bazı durumlarda doğrudan tüp bebeğe geçmek daha akılcı olabilir.
+
+Ultrason, yaş, AMH ve önceki tedavi öykünüzle birlikte kararı bir uzmanla vermenizi öneririm.`,
+    fr: `Bonjour, tous mes vœux de rétablissement.
+
+L'endométriose ou un kyste endométriosique peut affecter les chances de grossesse ; cela ne veut pas dire qu'une grossesse soit impossible. L'approche dépend de la taille et de la localisation du kyste, du stade, des douleurs, de l'âge et de la réserve ovarienne.
+
+Un point important : la chirurgie de l'endométriome n'est pas toujours bénéfique ; elle peut parfois affecter la réserve ovarienne. Chez les patientes en désir de grossesse, la décision doit être prudente et individualisée ; passer directement à la FIV peut parfois être plus rationnel.
+
+Le mieux est de prendre cette décision avec un spécialiste, en tenant compte de l'échographie, de l'âge, de l'AMH et de vos antécédents.`,
+    en: `Hello, I understand your concern.
+
+Endometriosis or a chocolate cyst can affect pregnancy chances; this does not mean pregnancy is impossible. The approach depends on the cyst's size and location, disease stage, pain, age, and ovarian reserve.
+
+An important point: endometrioma surgery isn't always beneficial; it can sometimes harm ovarian reserve. In patients wishing to conceive, the decision must be careful and individualized; in some cases, going directly to IVF is more rational.
+
+The best approach is to make this decision with a specialist, considering ultrasound, age, AMH, and previous treatment history.`,
+    ar: `مرحباً، أتمنى لك الشفاء.
+
+بطانة الرحم المهاجرة أو كيس الشوكولاتة قد يؤثر على فرص الحمل؛ لكن هذا لا يعني استحالة الحمل. يعتمد النهج على حجم الكيس وموقعه، ومرحلة المرض، والألم، والعمر، ومخزون المبيض.
+
+نقطة مهمة: جراحة الكيس البطاني ليست مفيدة دائماً؛ أحياناً قد تؤثر سلباً على مخزون المبيض. لدى المريضات الراغبات في الحمل، يجب أن يكون القرار حذراً وفردياً؛ في بعض الحالات، الانتقال مباشرة إلى أطفال الأنابيب أكثر عقلانية.
+
+أفضل طريقة هي اتخاذ هذا القرار مع أخصائي، مع مراعاة الموجات فوق الصوتية والعمر وAMH وتاريخ العلاج.`
+  }
+};
+
+const DISCLAIMERS = {
+  tr: "📌 Detaylı açıklama için sabit yoruma bakabilirsiniz.",
+  fr: "📌 Voir le commentaire épinglé pour les précisions.",
+  en: "📌 See pinned comment for the full disclaimer.",
+  ar: "📌 يرجى الاطلاع على التعليق المثبت للمزيد."
+};
+
+const $ = (sel) => document.querySelector(sel);
+const sel = $('#kategori');
+const cevap = $('#cevap');
+const tabs = document.querySelectorAll('#lang-tabs .tab');
+const disc = $('#disc');
+const toast = $('#toast');
+
+let lang = 'tr';
+let current = '01-genel';
+let userEdited = false;
+
+Object.entries(TEMPLATES).forEach(([id, t]) => {
+  const opt = document.createElement('option');
+  opt.value = id;
+  opt.textContent = t.label;
+  sel.appendChild(opt);
+});
+
+function render() {
+  let text = TEMPLATES[current][lang];
+  if (disc.checked) text += "\n\n" + DISCLAIMERS[lang];
+  cevap.value = text;
+  cevap.classList.toggle('rtl', lang === 'ar');
+  userEdited = false;
+}
+
+sel.addEventListener('change', () => {
+  if (userEdited && !confirm('Düzenlemelerin kaybolacak. Yeni şablona geçilsin mi?')) {
+    sel.value = current;
+    return;
+  }
+  current = sel.value;
+  render();
+});
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    if (userEdited && !confirm('Düzenlemelerin kaybolacak. Dili değiştir?')) return;
+    tabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    lang = tab.dataset.lang;
+    render();
+  });
+});
+
+disc.addEventListener('change', render);
+
+cevap.addEventListener('input', () => { userEdited = true; });
+
+$('#copy').addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText(cevap.value);
+    toast.classList.add('show');
+    setTimeout(() => toast.classList.remove('show'), 1600);
+  } catch (e) {
+    cevap.select();
+    document.execCommand('copy');
+    toast.classList.add('show');
+    setTimeout(() => toast.classList.remove('show'), 1600);
+  }
+});
+
+$('#reset').addEventListener('click', () => {
+  if (userEdited && !confirm('Düzenlemelerin silinsin mi?')) return;
+  render();
+});
+
+render();
+</script>
+</body>
+</html>

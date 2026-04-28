@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>YouTube Cevap Asistanı (AI) — Dr. Senai Aksoy</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --border: #e3e6ea;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --ok: #10b981;
+    --warn: #b45309;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 24px 20px 64px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 18px; margin-bottom: 14px; }
+  label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151; }
+  textarea, select, input[type="password"], input[type="text"] {
+    width: 100%; font-family: inherit; font-size: 14px;
+    border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px;
+    background: #fff; color: var(--text); outline: none; resize: vertical;
+  }
+  textarea:focus, select:focus, input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); }
+  #yorum { min-height: 140px; }
+  #cevap { min-height: 180px; line-height: 1.6; }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end; }
+  .row > div { flex: 1; min-width: 160px; }
+  button {
+    padding: 10px 18px; font-size: 14px; font-weight: 500; border-radius: 8px;
+    border: 1px solid var(--accent); background: var(--accent); color: #fff; cursor: pointer;
+  }
+  button:hover:not(:disabled) { background: var(--accent-hover); }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  button.ghost { background: #fff; color: var(--text); border-color: var(--border); }
+  button.ghost:hover:not(:disabled) { background: #f3f4f6; }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-top: 12px; }
+  .toast { color: var(--ok); font-size: 13px; opacity: 0; transition: opacity 0.2s; }
+  .toast.show { opacity: 1; }
+  .err { color: #b91c1c; font-size: 13px; margin-top: 8px; white-space: pre-wrap; }
+  .rtl { direction: rtl; text-align: right; }
+  .hint { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .key-row { display: flex; gap: 8px; align-items: center; }
+  .key-row input { flex: 1; }
+  .api-status { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .api-status.ok::before { content: "✓ "; color: var(--ok); }
+  details { margin-top: 6px; }
+  details summary { cursor: pointer; font-size: 13px; color: var(--accent); }
+  .meta { font-size: 11px; color: var(--muted); margin-top: 8px; font-family: ui-monospace, monospace; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>YouTube Cevap Asistanı <span style="font-weight:400;font-size:14px;color:var(--muted)">(AI destekli)</span></h1>
+  <div class="sub">Yorumu yapıştır → kategori/dil otomatik tespit → kısa, humanize cevap.</div>
+
+  <div class="card">
+    <label for="apikey">Anthropic API Key</label>
+    <div class="key-row">
+      <input type="password" id="apikey" placeholder="sk-ant-api03-..." autocomplete="off" />
+      <button class="ghost" id="savekey">Kaydet</button>
+    </div>
+    <div class="api-status" id="keystatus">Anahtar tarayıcıya (localStorage) kaydedilir; hiçbir yere gönderilmez.</div>
+    <details>
+      <summary>Anahtarı nasıl alırım?</summary>
+      <div class="hint" style="margin-top:8px;">
+        console.anthropic.com → Settings → API Keys → "Create Key". Kullandıkça öde — yorum başına ~$0.01 (ilk çağrı), tekrarlarda ~$0.001 (cache).
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <label for="yorum">Hasta yorumu</label>
+    <textarea id="yorum" placeholder="Hastanın yorumunu buraya yapıştır.&#10;&#10;Eğer önceki cevaplarınla birlikte çoklu mesaj varsa, her birini yeni satıra yapıştırabilirsin — örneğin:&#10;&#10;Hasta: AMH 0.6, 36 yaşındayım, ne yapayım?&#10;Doktor: ...&#10;Hasta: Tüp bebek başarısız oldu, tekrar deneyeyim mi?"></textarea>
+
+    <div class="row" style="margin-top: 12px;">
+      <div>
+        <label for="lang">Cevap dili</label>
+        <select id="lang">
+          <option value="auto">Otomatik (yorumla aynı dil)</option>
+          <option value="tr">🇹🇷 Türkçe</option>
+          <option value="fr">🇫🇷 Français</option>
+          <option value="en">🇬🇧 English</option>
+          <option value="ar">🇸🇦 العربية</option>
+        </select>
+      </div>
+      <div>
+        <label for="length">Uzunluk</label>
+        <select id="length">
+          <option value="kısa" selected>Kısa (2-4 cümle)</option>
+          <option value="orta">Orta (4-6 cümle)</option>
+          <option value="uzun">Uzun (klinik karmaşık vakalar)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="generate">✨ Cevap Üret</button>
+      <button id="stop" class="ghost" disabled>Durdur</button>
+      <span class="toast" id="toast"></span>
+    </div>
+    <div class="err" id="err"></div>
+  </div>
+
+  <div class="card">
+    <label for="cevap">Cevap (düzenleyebilirsin)</label>
+    <textarea id="cevap" placeholder="Cevap üretildiğinde burada görünecek..."></textarea>
+    <div class="actions">
+      <button id="copy">📋 Kopyala</button>
+      <button id="clear" class="ghost">Temizle</button>
+      <span class="toast" id="copytoast">Panoya kopyalandı ✓</span>
+    </div>
+    <div class="meta" id="meta"></div>
+  </div>
+</div>
+
+<script>
+const SYSTEM_PROMPT = `Sen Dr. Senai Aksoy adına YouTube hasta yorumlarına cevap yazan bir asistansın. Dr. Aksoy infertilite (kısırlık) ve tüp bebek alanında deneyimli bir uzman doktordur. Türkiye (senaiaksoy.net) ve uluslararası (draksoyivf.com) hasta kitlesi vardır.
+
+# TON VE STİL
+
+- **Doktor ağzından, doğal konuşma gibi yaz.** Şablon kokmasın. "Genel olarak…", "Bu nedenle…", "Aşağıdaki faktörler…" gibi robotik kalıp ifadeleri art arda kullanma.
+- **Kısa.** Mümkün olan en kısa cevabı ver. Kullanıcı uzunluk belirtirse ona uy; yoksa 2-4 cümle hedefle.
+- **Sıcak ama profesyonel.** "Geçmiş olsun", "Anlıyorum", "Umarım kısa sürede güzel haber alırsınız" gibi insancıl dokunuşlar kullan, ama ölçülü.
+- **Hastanın spesifik detayını yakala** (yaş, AMH değeri, embriyo grade'i, kaçıncı denemesi vs.) ve cevapta ona özel olarak değin. Genel laf etme.
+- **Hastanın dilinde cevap ver.** Türkçe yorum → Türkçe; Fransızca → Fransızca; İngilizce → İngilizce; Arapça → Arapça. Karışık ise hastanın baskın dilinde.
+- "Plaza dili" ve aşırı tıbbi jargonu sade Türkçeye çevir; ama gereken klinik terimleri (AMH, FSH, blastokist, ICSI, HSG vs.) kullanmaktan kaçınma.
+
+# ASLA YAPMA
+
+- ❌ **Kesin teşhis koyma** ("sizde X var", "muhtemelen Y hastalığı").
+- ❌ **Kesin tedavi önerme** ("size Y ilacı başlamalı", "X protokolü uygulansın"). İlaç markası, doz, protokol adı verme.
+- ❌ **Garanti verme.** "Garanti", "kesinlikle", "mutlaka olur", "eminim" yasak. "Genellikle", "çoğu durumda", "şans artabilir", "olabilir" tercih et.
+- ❌ **"Bize gelin" deme.** Kendi merkezinin adını verme. Jenerik "infertilite alanında deneyimli bir uzman/merkezde değerlendirilmesi" OK.
+- ❌ **Başka doktor/merkez eleştirme.**
+- ❌ **Fiyat/ücret bilgisi verme.**
+- ❌ **Reklam/tanıtım havası verme** (T.C. Sağlık Bakanlığı R.G. 12.11.2025 reklam kuralları).
+
+# HER CEVAPTA OLMASI GEREKEN AKIŞ
+
+1. **Kısa selamlama + empati** ("Merhaba, geçmiş olsun." veya "Merhaba, yorumunuz için teşekkür ederim.")
+2. **Hastanın spesifik durumuna bilgilendirme** (genel, doğru, yumuşatıcılarla)
+3. **Sınır + yönlendirme** (genelde tek cümlede birleştir: "Buradan kesin yorum yapmam doğru olmaz; sonuçlarınızı bir uzmanla değerlendirmenizi öneririm.")
+4. (Opsiyonel, kısa cevaplarda atla) **Kapanış** ("Umarım güzel haber alırsınız.")
+
+Kısa cevapta bu 4 öğeyi sıkıştırabilirsin — ayrı paragraflar olmasın.
+
+# ÇOK TURLU KONUŞMALAR
+
+Eğer yorum metninde "Doktor:", "Dr.:", "Hasta:" gibi etiketler veya birden fazla mesaj varsa, hastanın **son sorusuna** cevap ver. Daha önce söylediklerini tekrar etme — onların üzerine bina et. Kısaca kalmak özellikle önemli.
+
+# DİLE ÖZGÜ NOTLAR
+
+- **Fransızca:** "Les garanties, c'est pour les réfrigérateurs, pas pour la biologie" benzeri imza cümleleri SADECE özel durumlarda kullan, her cevapta değil. Aynı imza cümlesini peş peşe iki cevapta kullanma.
+- **Arapça:** Saygılı, resmi ama sıcak ton. Bayan hastalara hitap ederken müennes form kullan.
+- **İngilizce:** Clear, empathetic, non-promotional. Tıpkı yetkin bir İngilizce konuşan doktor gibi.
+
+# ÇIKTI FORMATI
+
+Sadece YouTube'a yapıştırılacak cevabı yaz. Başında "İşte cevap:" gibi açıklama YOK. Sonunda "Bu cevap kurallara uygundur" gibi yorum YOK. Sadece düz cevap metni.
+
+# REFERANS — 12 KATEGORİ ŞABLONU
+
+Aşağıdaki 12 şablon Dr. Aksoy'un onayladığı standart yaklaşımları içerir. Bunları kelime kelime kopyalama; ama içeriği, sınırı ve klinik mesajı referans olarak kullan. Hastanın spesifik durumuna göre yeniden yaz.
+
+## 01 - Genel / belirsiz soru
+Konu net değilse: yaş, AMH, FSH, ultrason, sperm analizi, rahim filmi, önceki tedavi öyküsünün birlikte değerlendirilmesi gerektiğini söyle. Buradan kesin teşhis verilemez. Zaman önemlidir, geç kalmadan değerlendirme.
+
+## 02 - Hamile kalamıyorum
+Sebepler çoktur: yumurtlama, tüp, sperm, rahim içi, rezerv. İlk değerlendirme: yaş, AMH, FSH, estradiol, TSH, prolaktin, ultrason, sperm analizi, gerekirse HSG. 35 yaş üstü veya uzun süredir denemiyse zaman kaybetmeden değerlendirme.
+
+## 03 - Tüp bebek gerekir mi?
+Karar tek bir bilgiyle verilmez. Yaş, AMH, sperm, tüpler, deneme süresi, önceki tedaviler birlikte. Bazı çiftlere aşılama yeter; ileri yaş, düşük rezerv, kapalı tüpler, ciddi sperm sorununda IVF erken gündeme gelir.
+
+## 04 - AMH düşük
+Yumurtalık rezervi azalmasını gösterir; tek başına "gebelik olmaz" demek değil. Yaş kritik — aynı AMH 30 ile 42 yaşta farklı anlam taşır. AMH ile birlikte AFC (antral folikül sayımı), FSH, önceki yumurta sayısı değerlendirilir. Zaman kaybetmemek, kişiye özel plan kurmak önemli.
+
+## 05 - Tüpler kapalı / hidrosalpenks
+Gebelik şansını etkileyebilir. Hidrosalpenks varsa tüp içi sıvı rahme akarak implantasyonu olumsuz etkileyebilir; IVF öncesi dikkatle değerlendirilmesi gerekir. Bazı hastalarda laparoskopi veya tüpün rahimle bağlantısının kesilmesi gerekebilir; karar HSG, ultrason, yaş, AMH ile birlikte verilir.
+
+## 06 - Embriyo kalitesi
+Önemli ama tek başına belirleyici değil. Yaş, gelişim günü, lab koşulları, endometrium hazırlığı, genetik durum da etkili. İyi kalite şansı artırır ama garanti vermez; düşük kaliteyle de gebelik olabilir. PGT (genetik test) yapıldıysa öploid (normal) embriyonun transferi şansı belirgin artırır.
+
+## 07 - Transfer sonrası belirti
+Belirti olmaması KÖTÜ İŞARET DEĞİL. Bazı hastada hafif kasık ağrısı, göğüs hassasiyeti, lekelenme; bazısında hiç belirti yok. Belirti olup olmaması sonucu güvenilir göstermez. En doğru bilgi doktorun belirlediği günde beta-hCG. İlaçlara devam.
+
+## 08 - Tekrarlayan başarısızlık
+Tek nedene bağlı değil. Embriyo genetiği, yaş, rahim içi faktörler, endometrium kalınlığı, transfer tekniği, bağışıklık/pıhtılaşma birlikte değerlendirilir. Önceki dosyaların sistemli incelenmesi: kaç yumurta, kaç embriyo, kalite, rahim değerlendirildi mi, sperm faktörü?
+
+## 09 - Kısa-güvenli (jenerik)
+Soru çok belirsizse veya zaman dar: yaş, sonuç, ultrason, tedavi öyküsü birlikte değerlendirilmeli; kesin yorum yapılamaz; deneyimli bir uzmana danışın.
+
+## 10 - Erkek faktörü / sperm
+Sayı, hareket, morfoloji düşüklüğü gebeliği etkileyebilir; ama tek test yeterli değil. 2-3 hafta arayla, uygun perhiz sonrası tekrarlanmalı. Hormon profili (FSH, LH, testosteron), fizik muayene, varikosel, gerekirse genetik. Tedavi: takip, aşılama, ICSI, cerrahi sperm elde etme.
+
+## 11 - PCOS / polikistik over
+Sık görülen, tek başına gebeliğe engel değil. Birçoğu doğal yolla veya destekli tedavilerle gebe kalır. Adet düzeni, yumurtlama, LH/FSH/AMH, insülin direnci, kilo birlikte ele alınır. Yaklaşım: yaşam tarzı → yumurtlama indükleme → gerekirse IVF.
+
+## 12 - Endometriozis / çikolata kisti
+Şansı etkileyebilir; mümkün değil demek değil. Kist boyut, lokalizasyon, hastalık evresi, ağrı, yaş, AMH'ya bağlı. ÖNEMLİ: Endometrioma cerrahisi her zaman fayda sağlamaz, bazen rezervi olumsuz etkiler. Gebelik isteyen hastada karar dikkatle, kişiye özel; bazen doğrudan IVF daha akılcı.
+
+# DİKKAT: HUKUKİ NOT
+
+Bu cevaplar hukuki açıdan güvenli olmalı. Bir cevap kuraldışı bir şey içeriyorsa (kesin teşhis, garanti, ilaç adı vs.), kullanıcı sana güvenir; HİÇBİR ZAMAN bunlardan birini üretme. Şüpheliysen daha güvenli, daha jenerik bir cevap ver.`;
+
+const $ = (sel) => document.querySelector(sel);
+const yorumEl = $('#yorum'), cevapEl = $('#cevap'), errEl = $('#err'), metaEl = $('#meta');
+const generateBtn = $('#generate'), stopBtn = $('#stop'), copyBtn = $('#copy'), clearBtn = $('#clear');
+const apikeyEl = $('#apikey'), savekeyBtn = $('#savekey'), keystatusEl = $('#keystatus');
+const langEl = $('#lang'), lengthEl = $('#length');
+const toast = $('#toast'), copytoast = $('#copytoast');
+
+let currentController = null;
+
+// API key persistence
+const KEY_STORAGE = 'anthropic_api_key';
+function loadKey() {
+  const k = localStorage.getItem(KEY_STORAGE);
+  if (k) {
+    apikeyEl.value = k;
+    keystatusEl.textContent = 'Anahtar yüklendi.';
+    keystatusEl.classList.add('ok');
+  }
+}
+loadKey();
+
+savekeyBtn.addEventListener('click', () => {
+  const k = apikeyEl.value.trim();
+  if (!k) {
+    localStorage.removeItem(KEY_STORAGE);
+    keystatusEl.textContent = 'Anahtar silindi.';
+    keystatusEl.classList.remove('ok');
+    return;
+  }
+  localStorage.setItem(KEY_STORAGE, k);
+  keystatusEl.textContent = 'Anahtar kaydedildi.';
+  keystatusEl.classList.add('ok');
+  showToast(toast, 'Kaydedildi ✓', 1400);
+});
+
+function showToast(el, msg, ms) {
+  el.textContent = msg;
+  el.classList.add('show');
+  setTimeout(() => el.classList.remove('show'), ms);
+}
+
+clearBtn.addEventListener('click', () => {
+  cevapEl.value = '';
+  errEl.textContent = '';
+  metaEl.textContent = '';
+});
+
+copyBtn.addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText(cevapEl.value);
+    showToast(copytoast, 'Panoya kopyalandı ✓', 1600);
+  } catch (e) {
+    cevapEl.select();
+    document.execCommand('copy');
+    showToast(copytoast, 'Panoya kopyalandı ✓', 1600);
+  }
+});
+
+stopBtn.addEventListener('click', () => {
+  if (currentController) currentController.abort();
+});
+
+generateBtn.addEventListener('click', async () => {
+  const apiKey = apikeyEl.value.trim();
+  if (!apiKey) { errEl.textContent = 'API key gir.'; return; }
+  const yorum = yorumEl.value.trim();
+  if (!yorum) { errEl.textContent = 'Hasta yorumu boş.'; return; }
+
+  errEl.textContent = '';
+  cevapEl.value = '';
+  metaEl.textContent = '';
+  generateBtn.disabled = true;
+  stopBtn.disabled = false;
+
+  const lang = langEl.value;
+  const length = lengthEl.value;
+
+  let userInstruction = `Hastanın yorumu (veya çoklu mesaj zinciri) aşağıda. Bu konuşmaya YouTube'a yapıştırmaya hazır, kısa ve humanize bir cevap yaz.\n\n`;
+  userInstruction += `İSTENEN UZUNLUK: ${length}\n`;
+  if (lang === 'auto') {
+    userInstruction += `İSTENEN DİL: Hastanın yorumunda kullandığı dilde cevap ver.\n\n`;
+  } else {
+    const langMap = {tr: 'Türkçe', fr: 'Fransızca (Français)', en: 'İngilizce (English)', ar: 'Arapça (العربية)'};
+    userInstruction += `İSTENEN DİL: ${langMap[lang]} olarak cevap ver.\n\n`;
+  }
+  userInstruction += `--- HASTA YORUMU ---\n${yorum}\n--- BİTTİ ---\n\nSadece cevabı yaz.`;
+
+  currentController = new AbortController();
+  const startTime = Date.now();
+
+  try {
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-opus-4-7',
+        max_tokens: 2000,
+        thinking: { type: 'adaptive' },
+        cache_control: { type: 'ephemeral' },
+        system: [
+          { type: 'text', text: SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } }
+        ],
+        messages: [{ role: 'user', content: userInstruction }],
+        stream: true
+      }),
+      signal: currentController.signal
+    });
+
+    if (!response.ok) {
+      const errText = await response.text();
+      throw new Error(`API hatası ${response.status}: ${errText}`);
+    }
+
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+    let usage = null;
+
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+
+      for (const line of lines) {
+        if (!line.startsWith('data: ')) continue;
+        const data = line.slice(6).trim();
+        if (!data) continue;
+        try {
+          const evt = JSON.parse(data);
+          if (evt.type === 'content_block_delta' && evt.delta?.type === 'text_delta') {
+            cevapEl.value += evt.delta.text;
+            cevapEl.classList.toggle('rtl', /[\u0600-\u06FF]/.test(cevapEl.value.slice(0, 50)));
+          } else if (evt.type === 'message_delta' && evt.usage) {
+            usage = { ...usage, ...evt.usage };
+          } else if (evt.type === 'message_start' && evt.message?.usage) {
+            usage = { ...usage, ...evt.message.usage };
+          }
+        } catch (e) { /* SSE noise */ }
+      }
+    }
+
+    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+    if (usage) {
+      const cached = usage.cache_read_input_tokens || 0;
+      const written = usage.cache_creation_input_tokens || 0;
+      const fresh = usage.input_tokens || 0;
+      const out = usage.output_tokens || 0;
+      // Opus 4.7 pricing: $5/$25 per M; cache read 0.1x, cache write 1.25x
+      const cost = (fresh * 5 + written * 6.25 + cached * 0.5 + out * 25) / 1_000_000;
+      metaEl.textContent = `${elapsed}s · in: ${fresh + written + cached}t (cache: ${cached}t) · out: ${out}t · ~$${cost.toFixed(4)}`;
+    } else {
+      metaEl.textContent = `${elapsed}s`;
+    }
+  } catch (e) {
+    if (e.name === 'AbortError') {
+      errEl.textContent = 'Durduruldu.';
+    } else {
+      errEl.textContent = 'Hata: ' + e.message;
+    }
+  } finally {
+    generateBtn.disabled = false;
+    stopBtn.disabled = true;
+    currentController = null;
+  }
+});
+
+// Ctrl/Cmd+Enter shortcut
+yorumEl.addEventListener('keydown', (e) => {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+    e.preventDefault();
+    generateBtn.click();
+  }
+});
+</script>
+</body>
+</html>
