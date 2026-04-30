@@ -1,8 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { LayoutDashboard, Video, Languages, ShieldCheck } from 'lucide-react';
+import { LayoutDashboard, Video, Languages, ShieldCheck, IdCard } from 'lucide-react';
 import { DashboardTab } from '@/components/tabs/dashboard-tab';
+import { ChannelProfileTab } from '@/components/tabs/channel-profile-tab';
 import { VideosTab } from '@/components/tabs/videos-tab';
 import { TranslationsTab } from '@/components/tabs/translations-tab';
 import { AuditTab } from '@/components/tabs/audit-tab';
@@ -11,6 +12,7 @@ import { cn } from '@/lib/utils';
 
 const TABS = [
   { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
+  { id: 'channel-profile', label: 'Kanal Profili', icon: IdCard },
   { id: 'videos', label: 'Videolar', icon: Video },
   { id: 'audit', label: 'Audit', icon: ShieldCheck },
   { id: 'translations', label: 'Çeviriler', icon: Languages },
@@ -57,6 +59,7 @@ export function AppShell() {
       <main className="mx-auto max-w-[1200px] px-4 py-6">
         <AuthBanner />
         {activeTab === 'dashboard' && <DashboardTab />}
+        {activeTab === 'channel-profile' && <ChannelProfileTab />}
         {activeTab === 'videos' && <VideosTab />}
         {activeTab === 'audit' && <AuditTab />}
         {activeTab === 'translations' && <TranslationsTab />}

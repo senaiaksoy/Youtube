@@ -12,8 +12,8 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mon
 
 export const metadata = {
   metadataBase: new URL(process.env.NEXTAUTH_URL || 'http://localhost:3000'),
-  title: 'YouTube Kanal Yönetimi',
-  description: 'YouTube kanalınızı yönetin: videolar, çeviriler ve analitikler',
+  title: 'Doç. Dr. Senai Aksoy | YouTube Kanal Yönetimi',
+  description: 'Tüp bebek sürecinde doğru kararlar için bilimsel ve anlaşılır rehber içeriklerini yönetin.',
   icons: {
     icon: '/favicon.svg',
     shortcut: '/favicon.svg',
