@@ -1,0 +1,156 @@
+{
+  "summary": {
+    "total": 15,
+    "updated": 6,
+    "dry_run": 0,
+    "skipped": 0,
+    "errors": 9
+  },
+  "results": [
+    {
+      "video_id": "-i981BtfKVY",
+      "status": "updated",
+      "changes": {
+        "title": {
+          "old": "ERA Testi Nedir? Tüp Bebekte Gerçekten Gerekli mi? | Dr. Senai Aksoy",
+          "new": "ERA Testi Nedir? Tüp Bebekte Gerekli mi?"
+        },
+        "tags": {
+          "old": "",
+          "new": "ERA testi, tüp bebek, IVF, infertilite, endometrial receptivity, Dr Senai Aksoy"
+        }
+      }
+    },
+    {
+      "video_id": "b8wT1pAbX3A",
+      "status": "updated",
+      "changes": {
+        "title": {
+          "old": "ERA Testi Hamile Kalma Şansını Düşürüyor mu  JAMA 2022 Analizi",
+          "new": "ERA Testi Hamile Kalma Şansını Düşürür mü? (JAMA 2022)"
+        },
+        "description": {
+          "old": "Bu video, ERA (Endometrial Receptivity Analysis) testine ilişkin \nbağımsız, hakemli bilimsel literatürün bir derlemesidir. Kişisel \nticari bir ilgim b…",
+          "new": "ERA testi tüp bebek başarısını artırıyor mu, yoksa şansınızı düşürüyor mu? JAMA 2022 ve bağımsız araştırmaları analiz ediyorum — retrakte edilen meta-…"
+        },
+        "tags": {
+          "old": "ERA testi, ERA testi nedir, ERA testi bilimsel kanıt, ERA testi JAMA, endometrial receptivity analysis, ERA testi retraksiyon, HFEA ERA kırmızı bayrak, tekrarlayan tüp bebek başarısızlığı, implantasyon penceresi, embriyo transfer günü, kronik endometrit, CD138 testi, hidrosalpenks, tüp bebek kanıta dayalı tıp, üreme tıbbı etik, PGT-A, tüp bebek ek testler, Dr Senai Aksoy, senai aksoy, tupbebek",
+          "new": "ERA testi, ERA testi nedir, ERA testi bilimsel kanıt, ERA testi JAMA, endometrial receptivity analysis, ERA testi retraksiyon, HFEA ERA kırmızı bayrak, tekrarlayan tüp bebek başarısızlığı, implantasyon penceresi, embriyo transfer günü, kronik endometrit, CD138 testi, hidrosalpenks, tüp bebek kanıta dayalı tıp, üreme tıbbı etik, PGT-A, tüp bebek ek testler, Dr Senai Aksoy, senai aksoy, tupbebek, JAMA 2022, tüp bebek, IVF, infertilite, HFEA"
+        }
+      }
+    },
+    {
+      "video_id": "6UwNaQa_di4",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "zGzzDHRkjN4",
+      "status": "updated",
+      "changes": {
+        "title": {
+          "old": "Mantar mı, Bakteriyel Vajinoz mu Evde Test Etmenin En Kolay Yolu  Dr  Senai Aksoy",
+          "new": "Mantar mı, Bakteriyel Vajinoz mu? Evde Test Yöntemi"
+        },
+        "description": {
+          "old": "Kaşıntı, yanma veya istenmeyen kokular mı yaşıyorsunuz? İnternette okuduğunuz sarımsak, sirkeli su veya yoğurt gibi kulaktan dolma tavsiyeleri denemed…",
+          "new": "Kaşıntı, yanma veya koku mu var? Mantar (kandida) ve bakteriyel vajinoz arasındaki farkı evde nasıl anlarsınız? Bu videoda bilimsel gerçekleri, doğru …"
+        },
+        "tags": {
+          "old": "Dr Senai Aksoy, Senai Aksoy, IVF, vajinal enfeksiyon, vajinal mantar, bakteriyel vajinoz, kandida, gardnerella, kadın sağlığı, üreme sağlığı, vajinal flora, probiyotikler, ping pong etkisi, kadın hastalıkları, vajinal akıntı, jinekoloji, sağlıklı gebelik, vajinal mantar tedavisi, bakteriyel vajinoz belirtileri, mantar enfeksiyonu, vajinoz tedavisi, tekrarlayan mantar, vajinal mikrobiyom, tüp bebek enfeksiyon, kısırlık ve enfeksiyon",
+          "new": "Dr Senai Aksoy, Senai Aksoy, IVF, vajinal enfeksiyon, vajinal mantar, bakteriyel vajinoz, kandida, gardnerella, kadın sağlığı, üreme sağlığı, vajinal flora, probiyotikler, ping pong etkisi, kadın hastalıkları, vajinal akıntı, jinekoloji, sağlıklı gebelik, vajinal mantar tedavisi, bakteriyel vajinoz belirtileri, mantar enfeksiyonu, vajinoz tedavisi, tekrarlayan mantar, vajinal mikrobiyom, tüp bebek enfeksiyon, kısırlık ve enfeksiyon, pH testi, evde test"
+        }
+      }
+    },
+    {
+      "video_id": "oyBpALzZzEU",
+      "status": "updated",
+      "changes": {
+        "description": {
+          "old": "0:00 Giriş – Rahim çizme gerçek mi, efsane mi?\n0:40 Endometrial Scratching (Rahim Çizme) Nedir?\n1:30 Bilimsel Araştırmalar Ne Diyor?\n2:45 Hangi Hastal…",
+          "new": "Tüp bebek öncesi rahim çizme (endometrial scratching) embriyonun tutunmasını kolaylaştırır mı? Cochrane verileri ve ESHRE 2023 önerisiyle bu popüler i…"
+        },
+        "tags": {
+          "old": "tüp bebek, rahim çizme, endometrial scratching, infertilite, Dr Senai Aksoy, tüp bebek tedavisi, embriyo transferi, tüp bebek başarısızlığı, tüp bebek doktoru, embriyo kalitesi, IVF tedavisi, rahim zarı, tüp bebek merkezleri, kısırlık tedavisi, tüp bebekte yapay zeka, kanıta dayalı tıp, PGTA, kadın sağlığı, tüp bebek başarı oranı, rahim hazırlığı, Doç Dr Senai Aksoy, tüp bebek uzmanı, IVF, implantasyon",
+          "new": "tüp bebek, rahim çizme, endometrial scratching, infertilite, Dr Senai Aksoy, tüp bebek tedavisi, embriyo transferi, tüp bebek başarısızlığı, tüp bebek doktoru, embriyo kalitesi, IVF tedavisi, rahim zarı, tüp bebek merkezleri, kısırlık tedavisi, tüp bebekte yapay zeka, kanıta dayalı tıp, PGTA, kadın sağlığı, tüp bebek başarı oranı, rahim hazırlığı, Doç Dr Senai Aksoy, tüp bebek uzmanı, IVF, implantasyon, Cochrane, ESHRE"
+        }
+      }
+    },
+    {
+      "video_id": "DbCrz_VPyC4",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "GP809hiOu_Y",
+      "status": "updated",
+      "changes": {
+        "title": {
+          "old": "Tüp Bebek Öncesi Histeroskopi Şart mı Bilimsel Gerçekler",
+          "new": "Tüp Bebek Öncesi Histeroskopi Şart mı?"
+        },
+        "description": {
+          "old": "0:00 Giriş – Histeroskopi zorunlu mu?\n0:35 Histeroskopi Nedir?\n1:20 Kimler İçin Önerilir?\n2:15 Rutin mi, Seçici mi? Bilimsel Kanıtlar\n3:20 Histeroskop…",
+          "new": "Ultrasonda hiçbir sorun görünmese bile tüp bebek öncesi histeroskopi yaptırmalı mısınız? Cochrane verileri ve ESHRE 2023 önerisiyle tarama histeroskop…"
+        },
+        "tags": {
+          "old": "tüp bebek, ivf, kısırlık tedavisi, infertilite, histeroskopi, tarama histeroskopisi, ofis histeroskopi, tanısal histeroskopi, rahim filmi, hsg, rahim içine kamera ile bakılması, tekrarlayan tüp bebek başarısızlığı, tekrarlayan implantasyon başarısızlığı, tüp bebek öncesi histeroskopi, histeroskopi ağrılı mı, senai aksoy, dr senai aksoy, tüp bebek başarı oranları, embriyo transferi, rahim içi polip, rahim yapışıklığı, kısırlık nedenleri",
+          "new": "tüp bebek, ivf, kısırlık tedavisi, infertilite, histeroskopi, tarama histeroskopisi, ofis histeroskopi, tanısal histeroskopi, rahim filmi, hsg, rahim içine kamera ile bakılması, tekrarlayan tüp bebek başarısızlığı, tekrarlayan implantasyon başarısızlığı, tüp bebek öncesi histeroskopi, histeroskopi ağrılı mı, senai aksoy, dr senai aksoy, tüp bebek başarı oranları, embriyo transferi, rahim içi polip, rahim yapışıklığı, kısırlık nedenleri, IVF, rahim, Cochrane, ESHRE 2023"
+        }
+      }
+    },
+    {
+      "video_id": "wybruaMaIdY",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "8Dx-f4ea6h4",
+      "status": "updated",
+      "changes": {
+        "title": {
+          "old": "Embriyoskop ve Yapay Zeka tüp bebekte Teknoloji Nasıl Değişiyor   Dr  Senai Aksoy",
+          "new": "Embriyoskop ve Yapay Zeka: Tüp Bebekte Ne Değişti?"
+        },
+        "description": {
+          "old": "Embriyoskop ve yapay zekanın tüp bebek (IVF) sürecini nasıl tamamen değiştirdiğini keşfedin. İnfertilite ve Tüp bebek alanında tanınmış bir uzman olan…",
+          "new": "Embriyoskop ve yapay zeka tüp bebek başarısını gerçekten artırıyor mu? İmplantasyon oranını %10-15 artırdığını gösteren verileri, yaygın mitleri (cins…"
+        },
+        "tags": {
+          "old": "tüp bebek, infertilite, infertilite tedavisi, embriyoskop, yapay zeka, embriyo seçimi, embriyo transferi, embriyo kalitesi, embriyo, Bela algoritması, tıpta AI, tıbbi olarak desteklenen üreme, Dr Senai Aksoy, embriyo gelişimi, tüp bebek merkezi, üreme endokrinolojisi, implantasyon başarısı, embriyo analizi, hücre bölünmesi, embriyo izleme, infertilite doktoru, yapay zeka analizi, modern tüp bebek",
+          "new": "tüp bebek, infertilite, infertilite tedavisi, embriyoskop, yapay zeka, embriyo seçimi, embriyo transferi, embriyo kalitesi, embriyo, Bela algoritması, tıpta AI, tıbbi olarak desteklenen üreme, Dr Senai Aksoy, embriyo gelişimi, tüp bebek merkezi, üreme endokrinolojisi, implantasyon başarısı, embriyo analizi, hücre bölünmesi, embriyo izleme, infertilite doktoru, yapay zeka analizi, modern tüp bebek, IVF, time-lapse, iDAScore"
+        }
+      }
+    },
+    {
+      "video_id": "w29IsrwxHWA",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "1pXII-iRU-U",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "yT2dmjxZ3Qs",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "S8xkWrHylTE",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "-blY0f_9WCE",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "-FxkIwmlO9g",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    }
+  ]
+}

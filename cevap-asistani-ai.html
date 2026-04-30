@@ -219,6 +219,12 @@ const toast = $('#toast'), copytoast = $('#copytoast');
 
 let currentController = null;
 
+const MODEL_CANDIDATES = [
+  'claude-sonnet-4-20250514',
+  'claude-3-5-sonnet-20241022',
+  'claude-haiku-4-20250414',
+];
+
 // API key persistence
 const KEY_STORAGE = 'anthropic_api_key';
 function loadKey() {
@@ -300,8 +306,8 @@ generateBtn.addEventListener('click', async () => {
   currentController = new AbortController();
   const startTime = Date.now();
 
-  try {
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
+  async function callAnthropic(modelName) {
+    return fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -310,23 +316,54 @@ generateBtn.addEventListener('click', async () => {
         'anthropic-dangerous-direct-browser-access': 'true'
       },
       body: JSON.stringify({
-        model: 'claude-opus-4-7',
+        model: modelName,
         max_tokens: 2000,
-        thinking: { type: 'adaptive' },
-        cache_control: { type: 'ephemeral' },
-        system: [
-          { type: 'text', text: SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } }
-        ],
+        system: SYSTEM_PROMPT,
         messages: [{ role: 'user', content: userInstruction }],
         stream: true
       }),
       signal: currentController.signal
     });
+  }
+
+  try {
+    let response = null;
+    let usedModel = null;
+    let lastErrText = null;
+
+    for (const modelName of MODEL_CANDIDATES) {
+      usedModel = modelName;
+      response = await callAnthropic(modelName);
+      if (response.ok) { lastErrText = null; break; }
+
+      // Try next candidate only on "model not found".
+      if (response.status === 404) {
+        lastErrText = await response.text();
+        const isModelNotFound = lastErrText.includes('model:');
+        if (isModelNotFound) continue;
+        throw new Error(`API hatası 404: ${lastErrText}`);
+      }
+      break;
+    }
+
+    if (!response) throw new Error('API hatası: yanıt alınamadı');
 
     if (!response.ok) {
-      const errText = await response.text();
+      const errText = lastErrText ?? await response.text();
+      if (response.status === 401) {
+        throw new Error(
+          `API hatası 401: invalid authentication. API key geçersiz/iptal edilmiş olabilir veya yanlış key girilmiş olabilir.\n\nDetay: ${errText}`
+        );
+      }
+      if (response.status === 404) {
+        throw new Error(
+          `API hatası 404: model bulunamadı / erişim yok. Denenen modeller: ${MODEL_CANDIDATES.join(', ')}\n\nDetay: ${errText}`
+        );
+      }
       throw new Error(`API hatası ${response.status}: ${errText}`);
     }
+
+    metaEl.textContent = `model: ${usedModel}`;
 
     const reader = response.body.getReader();
     const decoder = new TextDecoder();

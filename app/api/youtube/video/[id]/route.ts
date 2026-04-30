@@ -26,6 +26,7 @@ export async function PUT(request: Request, { params }: { params: { id: string }
 
     if (body?.title !== undefined) updateBody.snippet.title = body.title;
     if (body?.description !== undefined) updateBody.snippet.description = body.description;
+    if (body?.tags !== undefined) updateBody.snippet.tags = body.tags;
     if (body?.privacyStatus !== undefined) updateBody.status.privacyStatus = body.privacyStatus;
 
     const updateUrl = 'https://www.googleapis.com/youtube/v3/videos?part=snippet,status';

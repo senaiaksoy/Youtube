@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "total": 1,
+    "updated": 0,
+    "dry_run": 0,
+    "skipped": 0,
+    "errors": 1
+  },
+  "results": [
+    {
+      "video_id": "b8wT1pAbX3A",
+      "status": "error",
+      "error": "Forbidden"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "summary": {
+    "total": 15,
+    "updated": 0,
+    "dry_run": 0,
+    "skipped": 0,
+    "errors": 15
+  },
+  "results": [
+    {
+      "video_id": "-i981BtfKVY",
+      "status": "error",
+      "error": "Forbidden"
+    },
+    {
+      "video_id": "b8wT1pAbX3A",
+      "status": "error",
+      "error": "Forbidden"
+    },
+    {
+      "video_id": "6UwNaQa_di4",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "zGzzDHRkjN4",
+      "status": "error",
+      "error": "Forbidden"
+    },
+    {
+      "video_id": "oyBpALzZzEU",
+      "status": "error",
+      "error": "Forbidden"
+    },
+    {
+      "video_id": "DbCrz_VPyC4",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "GP809hiOu_Y",
+      "status": "error",
+      "error": "Forbidden"
+    },
+    {
+      "video_id": "wybruaMaIdY",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "8Dx-f4ea6h4",
+      "status": "error",
+      "error": "Forbidden"
+    },
+    {
+      "video_id": "w29IsrwxHWA",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "1pXII-iRU-U",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "yT2dmjxZ3Qs",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "S8xkWrHylTE",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "-blY0f_9WCE",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    },
+    {
+      "video_id": "-FxkIwmlO9g",
+      "status": "error",
+      "error": "The request metadata specifies invalid video keywords."
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "summary": {
+    "total": 15,
+    "updated": 0,
+    "dry_run": 15,
+    "skipped": 0,
+    "errors": 0
+  },
+  "results": [
+    {
+      "video_id": "-i981BtfKVY",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "ERA Testi Nedir? Tüp Bebekte Gerçekten Gerekli mi? | Dr. Senai Aksoy",
+          "new": "ERA Testi Nedir? Tüp Bebekte Gerekli mi?"
+        },
+        "tags": {
+          "old": "",
+          "new": "ERA testi, tüp bebek, IVF, infertilite, endometrial receptivity, Dr Senai Aksoy"
+        }
+      }
+    },
+    {
+      "video_id": "b8wT1pAbX3A",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "ERA Testi Hamile Kalma Şansını Düşürüyor mu  JAMA 2022 Analizi",
+          "new": "ERA Testi Hamile Kalma Şansını Düşürür mü? (JAMA 2022)"
+        },
+        "description": {
+          "old": "Bu video, ERA (Endometrial Receptivity Analysis) testine ilişkin \nbağımsız, hakemli bilimsel literatürün bir derlemesidir. Kişisel \nticari bir ilgim b…",
+          "new": "ERA testi tüp bebek başarısını artırıyor mu, yoksa şansınızı düşürüyor mu? JAMA 2022 ve bağımsız araştırmaları analiz ediyorum — retrakte edilen meta-…"
+        },
+        "tags": {
+          "old": "ERA testi, ERA testi nedir, ERA testi bilimsel kanıt, ERA testi JAMA, endometrial receptivity analysis, ERA testi retraksiyon, HFEA ERA kırmızı bayrak, tekrarlayan tüp bebek başarısızlığı, implantasyon penceresi, embriyo transfer günü, kronik endometrit, CD138 testi, hidrosalpenks, tüp bebek kanıta dayalı tıp, üreme tıbbı etik, PGT-A, tüp bebek ek testler, Dr Senai Aksoy, senai aksoy, tupbebek",
+          "new": "ERA testi, ERA testi nedir, ERA testi bilimsel kanıt, ERA testi JAMA, endometrial receptivity analysis, ERA testi retraksiyon, HFEA ERA kırmızı bayrak, tekrarlayan tüp bebek başarısızlığı, implantasyon penceresi, embriyo transfer günü, kronik endometrit, CD138 testi, hidrosalpenks, tüp bebek kanıta dayalı tıp, üreme tıbbı etik, PGT-A, tüp bebek ek testler, Dr Senai Aksoy, senai aksoy, tupbebek, JAMA 2022, tüp bebek, IVF, infertilite, HFEA"
+        }
+      }
+    },
+    {
+      "video_id": "6UwNaQa_di4",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "Tüp Bebekte Soğan Suyu ve Akupunktur Mucize mi",
+          "new": "Tüp Bebekte Soğan Suyu ve Akupunktur İşe Yarar mı?"
+        },
+        "description": {
+          "old": "Tüp bebek transferi sonrası o kritik 12 günlük bekleme sürecinde \"mucize kür\" arayışına mı girdiniz? Soğan suyu rahmi temizler mi, yoksa sadece sağlığ…",
+          "new": "Tüp bebek transferinden sonra soğan suyu, akupunktur veya bitkisel kür denediniz mi? Bu videoda \"mucize\" iddiaları bilimsel verilerle (Cochrane, ESHRE…"
+        },
+        "tags": {
+          "old": "tüp bebek, Dr. Senai Aksoy, kısırlık tedavisi, tüp bebekte soğan kürü, tüp bebekte beslenme, transfer sonrası beslenme, embriyo transferi, akupunktur ve tüp bebek, kısırlık kürü, soğan suyu rahmi temizler mi, ananas tüp bebek, yapay zeka tüp bebek, robotik tüp bebek, ESHRE 2025, kısırlık, hamile kalma yöntemleri, tüp bebek başarı oranları, çikolata kisti tedavisi, endometriozis, IVF, tüp bebek doktoru, gebelik şansı, hurafe ve gerçekler",
+          "new": "tüp bebek, Dr. Senai Aksoy, kısırlık tedavisi, tüp bebekte soğan kürü, tüp bebekte beslenme, transfer sonrası beslenme, embriyo transferi, akupunktur ve tüp bebek, kısırlık kürü, soğan suyu rahmi temizler mi, ananas tüp bebek, yapay zeka tüp bebek, robotik tüp bebek, ESHRE 2025, kısırlık, hamile kalma yöntemleri, tüp bebek başarı oranları, çikolata kisti tedavisi, endometriozis, IVF, tüp bebek doktoru, gebelik şansı, hurafe ve gerçekler, soğan suyu, akupunktur, bitkisel tedavi, Cochrane"
+        }
+      }
+    },
+    {
+      "video_id": "zGzzDHRkjN4",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "Mantar mı, Bakteriyel Vajinoz mu Evde Test Etmenin En Kolay Yolu  Dr  Senai Aksoy",
+          "new": "Mantar mı, Bakteriyel Vajinoz mu? Evde Test Yöntemi"
+        },
+        "description": {
+          "old": "Kaşıntı, yanma veya istenmeyen kokular mı yaşıyorsunuz? İnternette okuduğunuz sarımsak, sirkeli su veya yoğurt gibi kulaktan dolma tavsiyeleri denemed…",
+          "new": "Kaşıntı, yanma veya koku mu var? Mantar (kandida) ve bakteriyel vajinoz arasındaki farkı evde nasıl anlarsınız? Bu videoda bilimsel gerçekleri, doğru …"
+        },
+        "tags": {
+          "old": "Dr Senai Aksoy, Senai Aksoy, IVF, vajinal enfeksiyon, vajinal mantar, bakteriyel vajinoz, kandida, gardnerella, kadın sağlığı, üreme sağlığı, vajinal flora, probiyotikler, ping pong etkisi, kadın hastalıkları, vajinal akıntı, jinekoloji, sağlıklı gebelik, vajinal mantar tedavisi, bakteriyel vajinoz belirtileri, mantar enfeksiyonu, vajinoz tedavisi, tekrarlayan mantar, vajinal mikrobiyom, tüp bebek enfeksiyon, kısırlık ve enfeksiyon",
+          "new": "Dr Senai Aksoy, Senai Aksoy, IVF, vajinal enfeksiyon, vajinal mantar, bakteriyel vajinoz, kandida, gardnerella, kadın sağlığı, üreme sağlığı, vajinal flora, probiyotikler, ping pong etkisi, kadın hastalıkları, vajinal akıntı, jinekoloji, sağlıklı gebelik, vajinal mantar tedavisi, bakteriyel vajinoz belirtileri, mantar enfeksiyonu, vajinoz tedavisi, tekrarlayan mantar, vajinal mikrobiyom, tüp bebek enfeksiyon, kısırlık ve enfeksiyon, pH testi, evde test"
+        }
+      }
+    },
+    {
+      "video_id": "oyBpALzZzEU",
+      "status": "dry_run",
+      "changes": {
+        "description": {
+          "old": "0:00 Giriş – Rahim çizme gerçek mi, efsane mi?\n0:40 Endometrial Scratching (Rahim Çizme) Nedir?\n1:30 Bilimsel Araştırmalar Ne Diyor?\n2:45 Hangi Hastal…",
+          "new": "Tüp bebek öncesi rahim çizme (endometrial scratching) embriyonun tutunmasını kolaylaştırır mı? Cochrane verileri ve ESHRE 2023 önerisiyle bu popüler i…"
+        },
+        "tags": {
+          "old": "tüp bebek, rahim çizme, endometrial scratching, infertilite, Dr Senai Aksoy, tüp bebek tedavisi, embriyo transferi, tüp bebek başarısızlığı, tüp bebek doktoru, embriyo kalitesi, IVF tedavisi, rahim zarı, tüp bebek merkezleri, kısırlık tedavisi, tüp bebekte yapay zeka, kanıta dayalı tıp, PGTA, kadın sağlığı, tüp bebek başarı oranı, rahim hazırlığı, Doç Dr Senai Aksoy, tüp bebek uzmanı, IVF, implantasyon",
+          "new": "tüp bebek, rahim çizme, endometrial scratching, infertilite, Dr Senai Aksoy, tüp bebek tedavisi, embriyo transferi, tüp bebek başarısızlığı, tüp bebek doktoru, embriyo kalitesi, IVF tedavisi, rahim zarı, tüp bebek merkezleri, kısırlık tedavisi, tüp bebekte yapay zeka, kanıta dayalı tıp, PGTA, kadın sağlığı, tüp bebek başarı oranı, rahim hazırlığı, Doç Dr Senai Aksoy, tüp bebek uzmanı, IVF, implantasyon, Cochrane, ESHRE"
+        }
+      }
+    },
+    {
+      "video_id": "DbCrz_VPyC4",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "Neden Bağışıklık Aşısı ve Serumları Önerilmiyor Bilimsel Gerçekler",
+          "new": "Bağışıklık Serumları Tüp Bebekte İşe Yarıyor mu?"
+        },
+        "description": {
+          "old": "0:00 Giriş – Bağışıklık aşısı/serum gerçekten işe yarıyor mu?\n0:40 Bağışıklık Serumları Nedir? (IVIG, Intralipid)\n1:30 Neden Bu Kadar Popüler Oldu?\n2:…",
+          "new": "Tüp bebek transferi öncesi intralipid, IVIG veya takrolimus önerildi mi? Binlerce lira harcamadan önce bu tedavilerin bilimsel kanıtlarını (ESHRE meta…"
+        },
+        "tags": {
+          "old": "tüp bebek, fiv, infertilité, dr senai aksoy, bağışıklık serumu, intralipid, yağlı serum, embriyo tutunması, bağışıklık aşısı, lenfosit aşısı, ivig, transfer sonrası, embriyo reddi, tüp bebek tedavisi, gebelik şansı, tüp bebek başarı oranları, takrolimus yan etkileri, immünoloji tüp bebek, kadın hastalıkları ve doğum, tüp bebek doktoru, bilimsel tüp bebek, bağışıklık aşısı tüp bebek, IVF, Doç Dr Senai Aksoy, tüp bebek uzmanı, kısırlık tedavisi, immünoterapi",
+          "new": "tüp bebek, fiv, infertilité, dr senai aksoy, bağışıklık serumu, intralipid, yağlı serum, embriyo tutunması, bağışıklık aşısı, lenfosit aşısı, ivig, transfer sonrası, embriyo reddi, tüp bebek tedavisi, gebelik şansı, tüp bebek başarı oranları, takrolimus yan etkileri, immünoloji tüp bebek, kadın hastalıkları ve doğum, tüp bebek doktoru, bilimsel tüp bebek, bağışıklık aşısı tüp bebek, IVF, Doç Dr Senai Aksoy, tüp bebek uzmanı, kısırlık tedavisi, immünoterapi, IVIG, takrolimus, immün tedavi"
+        }
+      }
+    },
+    {
+      "video_id": "GP809hiOu_Y",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "Tüp Bebek Öncesi Histeroskopi Şart mı Bilimsel Gerçekler",
+          "new": "Tüp Bebek Öncesi Histeroskopi Şart mı?"
+        },
+        "description": {
+          "old": "0:00 Giriş – Histeroskopi zorunlu mu?\n0:35 Histeroskopi Nedir?\n1:20 Kimler İçin Önerilir?\n2:15 Rutin mi, Seçici mi? Bilimsel Kanıtlar\n3:20 Histeroskop…",
+          "new": "Ultrasonda hiçbir sorun görünmese bile tüp bebek öncesi histeroskopi yaptırmalı mısınız? Cochrane verileri ve ESHRE 2023 önerisiyle tarama histeroskop…"
+        },
+        "tags": {
+          "old": "tüp bebek, ivf, kısırlık tedavisi, infertilite, histeroskopi, tarama histeroskopisi, ofis histeroskopi, tanısal histeroskopi, rahim filmi, hsg, rahim içine kamera ile bakılması, tekrarlayan tüp bebek başarısızlığı, tekrarlayan implantasyon başarısızlığı, tüp bebek öncesi histeroskopi, histeroskopi ağrılı mı, senai aksoy, dr senai aksoy, tüp bebek başarı oranları, embriyo transferi, rahim içi polip, rahim yapışıklığı, kısırlık nedenleri",
+          "new": "tüp bebek, ivf, kısırlık tedavisi, infertilite, histeroskopi, tarama histeroskopisi, ofis histeroskopi, tanısal histeroskopi, rahim filmi, hsg, rahim içine kamera ile bakılması, tekrarlayan tüp bebek başarısızlığı, tekrarlayan implantasyon başarısızlığı, tüp bebek öncesi histeroskopi, histeroskopi ağrılı mı, senai aksoy, dr senai aksoy, tüp bebek başarı oranları, embriyo transferi, rahim içi polip, rahim yapışıklığı, kısırlık nedenleri, IVF, rahim, Cochrane, ESHRE 2023"
+        }
+      }
+    },
+    {
+      "video_id": "wybruaMaIdY",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "Tüp Bebek Tedavisinde Embryo Glue Pazarlama Harikası mı, Bilimsel Gerçek mi",
+          "new": "Embryo Glue Gerçekten İşe Yarıyor mu?"
+        },
+        "description": {
+          "old": "0:00 Giriş – Embryo Glue mucize mi?\n0:40 Embryo Glue (EmbryoGlue) Nedir?\n1:30 İçeriği ve Nasıl Çalışır?\n2:30 Klinik Araştırmalar Ne Diyor?\n3:45 Başarı…",
+          "new": "Tüp bebek tedavisinde \"embriyo yapıştırıcısı\" (Embryo Glue) gerçekten mucize mi, yoksa sadece pazarlama mı? Cochrane verilerini, CD44 reseptör mekaniz…"
+        },
+        "tags": {
+          "old": "Dr Senai Aksoy, Senai Aksoy, Tüp Bebek Tedavisi, IVF, Embryo Glue, Embriyo Yapıştırıcısı, Embriyo Transferi, Tüp Bebek Tutunma, Kısırlık Tedavisi, İnfertilite, Tüp Bebek Başarı Oranları, Embriyo Tutunması İçin Yapılması Gerekenler, Tüp Bebek Doktoru, Embriyo Düşer Mi, Embriyo Transferi Sonrası, Hamilelik Şansı, Tüp Bebek Aşamaları, Kadın Doğum Uzmanı, Taze Embriyo Transferi, Donmuş Embriyo Transferi, Embriyo Glue Fiyatı, Tüp Bebek Videoları",
+          "new": "Dr Senai Aksoy, Senai Aksoy, Tüp Bebek Tedavisi, IVF, Embryo Glue, Embriyo Yapıştırıcısı, Embriyo Transferi, Tüp Bebek Tutunma, Kısırlık Tedavisi, İnfertilite, Tüp Bebek Başarı Oranları, Embriyo Tutunması İçin Yapılması Gerekenler, Tüp Bebek Doktoru, Embriyo Düşer Mi, Embriyo Transferi Sonrası, Hamilelik Şansı, Tüp Bebek Aşamaları, Kadın Doğum Uzmanı, Taze Embriyo Transferi, Donmuş Embriyo Transferi, Embriyo Glue Fiyatı, Tüp Bebek Videoları, embryo glue, embriyo yapıştırıcısı, tüp bebek, hyalüronik asit, embriyo transferi, CD44"
+        }
+      }
+    },
+    {
+      "video_id": "8Dx-f4ea6h4",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "Embriyoskop ve Yapay Zeka tüp bebekte Teknoloji Nasıl Değişiyor   Dr  Senai Aksoy",
+          "new": "Embriyoskop ve Yapay Zeka: Tüp Bebekte Ne Değişti?"
+        },
+        "description": {
+          "old": "Embriyoskop ve yapay zekanın tüp bebek (IVF) sürecini nasıl tamamen değiştirdiğini keşfedin. İnfertilite ve Tüp bebek alanında tanınmış bir uzman olan…",
+          "new": "Embriyoskop ve yapay zeka tüp bebek başarısını gerçekten artırıyor mu? İmplantasyon oranını %10-15 artırdığını gösteren verileri, yaygın mitleri (cins…"
+        },
+        "tags": {
+          "old": "tüp bebek, infertilite, infertilite tedavisi, embriyoskop, yapay zeka, embriyo seçimi, embriyo transferi, embriyo kalitesi, embriyo, Bela algoritması, tıpta AI, tıbbi olarak desteklenen üreme, Dr Senai Aksoy, embriyo gelişimi, tüp bebek merkezi, üreme endokrinolojisi, implantasyon başarısı, embriyo analizi, hücre bölünmesi, embriyo izleme, infertilite doktoru, yapay zeka analizi, modern tüp bebek",
+          "new": "tüp bebek, infertilite, infertilite tedavisi, embriyoskop, yapay zeka, embriyo seçimi, embriyo transferi, embriyo kalitesi, embriyo, Bela algoritması, tıpta AI, tıbbi olarak desteklenen üreme, Dr Senai Aksoy, embriyo gelişimi, tüp bebek merkezi, üreme endokrinolojisi, implantasyon başarısı, embriyo analizi, hücre bölünmesi, embriyo izleme, infertilite doktoru, yapay zeka analizi, modern tüp bebek, IVF, time-lapse, iDAScore"
+        }
+      }
+    },
+    {
+      "video_id": "w29IsrwxHWA",
+      "status": "dry_run",
+      "changes": {
+        "description": {
+          "old": "0:00 Giriş – Yumurta dondurma için kaç yumurta yeterli?\n0:40 Yumurta Dondurma (Oositler) Nasıl Çalışır?\n1:30 Kaç Yumurta Dondurulmalı? (Yaşa Göre)\n2:3…",
+          "new": "42 yaşında 20 yumurta dondurmak anne olmak için garanti mi? Yaşınıza göre kaç yumurta hedeflenmeli, tek bir yumurtanın şansı nedir ve vitrifikasyon te…"
+        },
+        "tags": {
+          "old": "Dr. Senai Aksoy, tüp bebek tedavisi, yumurta dondurma işlemi, vitrifikasyon nedir, infertilite tedavisi, yumurta rezervi düşüklüğü, 40 yaş üstü hamilelik, tüp bebek başarı oranları, kadın kısırlığı, yumurta toplama opu, amh testi, yumurta kalitesi nasıl artar, tüp bebek doktoru istanbul, ileri yaş tüp bebek, dondurulmuş yumurta transferi, yumurta dondurma fiyatları, rezerv azlığı, biyolojik saat, gebelik şansı hesaplama",
+          "new": "Dr. Senai Aksoy, tüp bebek tedavisi, yumurta dondurma işlemi, vitrifikasyon nedir, infertilite tedavisi, yumurta rezervi düşüklüğü, 40 yaş üstü hamilelik, tüp bebek başarı oranları, kadın kısırlığı, yumurta toplama opu, amh testi, yumurta kalitesi nasıl artar, tüp bebek doktoru istanbul, ileri yaş tüp bebek, dondurulmuş yumurta transferi, yumurta dondurma fiyatları, rezerv azlığı, biyolojik saat, gebelik şansı hesaplama, yumurta dondurma, oosit vitrifikasyonu, tüp bebek, IVF, doğurganlık, yaşa göre yumurta sayısı"
+        }
+      }
+    },
+    {
+      "video_id": "1pXII-iRU-U",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "Azospermide Yeni Umut: İzotretinoin (Roaccutane) ile Sperm Üretimi Nasıl Başlar?",
+          "new": "Azospermide Roaccutane Sperm Üretimini Başlatır mı?"
+        },
+        "description": {
+          "old": "0:00 Giriş – Azospermi ve yeni umut\n0:50 Azospermi Nedir? (Obstrüktif vs Non-Obstrüktif)\n2:00 İzotretinoin (Roaccutane) Nedir?\n3:00 Roaccutane ve Sper…",
+          "new": "Azospermi teşhisi ve mikroTESE sonuçsuz mu kaldı? Sivilce ilacı Roaccutane'ın (İzotretinoin) doğru hasta grubunda sperm üretimini nasıl başlatabildiği…"
+        },
+        "tags": {
+          "old": "kısırlık tedavisi, tüp bebek, erkek infertilitesi, azospermi tedavisi, sperm sayısı sıfır, dr senai aksoy, mikrotese, tese ameliyatı, roaccutane kısırlık, izotretinoin sperm, sivilce ilacı kısırlık, matürasyon aresti, sperm testi, azospermi bitkisel tedavi, azospermi ilaç tedavisi, tüp bebek fiyatları 2026, hiç sperm yok, sperm üretimi nasıl artar, roacutan, aknetrent, zoretanin, istanbul tüp bebek merkezi, erkek kısırlığı, retinoik asit",
+          "new": "kısırlık tedavisi, tüp bebek, erkek infertilitesi, azospermi tedavisi, sperm sayısı sıfır, dr senai aksoy, mikrotese, tese ameliyatı, roaccutane kısırlık, izotretinoin sperm, sivilce ilacı kısırlık, matürasyon aresti, sperm testi, azospermi bitkisel tedavi, azospermi ilaç tedavisi, tüp bebek fiyatları 2026, hiç sperm yok, sperm üretimi nasıl artar, roacutan, aknetrent, zoretanin, istanbul tüp bebek merkezi, erkek kısırlığı, retinoik asit, azospermi, izotretinoin, Roaccutane, sperm üretimi, mikroTESE"
+        }
+      }
+    },
+    {
+      "video_id": "yT2dmjxZ3Qs",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "4AA, 3BB, 5BC Embriyo Ne Demek? | Dr. Senai Aksoy Anlatıyor",
+          "new": "4AA, 3BB, 5BC Embriyo Ne Demek? Kalite Rehberi"
+        },
+        "description": {
+          "old": "0:00 Giriş – Embriyo kalite skoru ne anlama gelir?\n0:45 Gardner Sınıflandırma Sistemi Nedir?\n1:45 İlk Rakam: Blastokist Genişleme Derecesi (1–6)\n3:00 …",
+          "new": "Laboratuvar raporunda 4AA, 3BB veya 5BC gördünüz ve panik mi oldunuz? Bu videoda embriyo kalitesi sınıflamasını (Gardner sistemi) sade bir dille anlat…"
+        },
+        "tags": {
+          "old": "tüp bebek, ivf, fiv, infertilite, embriyo kalitesi, embriyo sınıflaması, 3BB embriyo, 4AA embriyo, 5BC embriyo, blastosist, embriyo transferi, yumurta toplama, ivf embriyo grading, ivf embryo quality, ivf turkey, istanbul ivf, dr senai aksoy, senai aksoy ivf, tüp bebek doktoru, infertilite tedavisi, sopk, gebelik şansı, embriyo derecelendirme, tüp bebek embriyo, IVF embriyo kalitesi, tüp bebek başarı oranı, embriyo gelişimi, iyi kalite embriyo, kötü embriyo ne demek",
+          "new": "tüp bebek, ivf, fiv, infertilite, embriyo kalitesi, embriyo sınıflaması, 3BB embriyo, 4AA embriyo, 5BC embriyo, blastosist, embriyo transferi, yumurta toplama, ivf embriyo grading, ivf embryo quality, ivf turkey, istanbul ivf, dr senai aksoy, senai aksoy ivf, tüp bebek doktoru, infertilite tedavisi, sopk, gebelik şansı, embriyo derecelendirme, tüp bebek embriyo, IVF embriyo kalitesi, tüp bebek başarı oranı, embriyo gelişimi, iyi kalite embriyo, kötü embriyo ne demek, blastokist, Gardner sınıflaması, IVF"
+        }
+      }
+    },
+    {
+      "video_id": "S8xkWrHylTE",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "Dondurulmuş embriyo transferi (TEC) hazırlığı",
+          "new": "Dondurulmuş Embriyo Transferi: Doğal mı, Yapay Siklus mu?"
+        },
+        "description": {
+          "old": "0:00 Giriş – Dondurulmuş embriyo transferi nedir?\n0:50 TEC (FET) ile Taze Transfer Arasındaki Fark\n1:50 Hazırlık Protokolleri: Doğal vs. Hormon Destek…",
+          "new": "Dondurulmuş embriyo transferi (TEC/FET) hazırlığında doğal siklus, yapay siklus ve Letrozol protokolü arasında hangisi sizin için uygun? İmplantasyon …"
+        },
+        "tags": {
+          "old": "Dr Senai Aksoy, Senai Aksoy FIV, fécondation in vitro, transfert embryon congelé, TEC, cycle naturel FIV, cycle artificiel FIV, protocole létrozole, letrozole fertilité, corps jaune grossesse, prééclampsie FIV, symptômes après transfert, échec implantation, fenêtre implantation, qualité embryonnaire, infertilité inexpliquée, traitement FIV Istanbul, tourisme médical Turquie, hôpital américain Istanbul, progestérone effet secondaire, test grossesse 12 jours, beta HCG.",
+          "new": "Dr Senai Aksoy, Senai Aksoy FIV, fécondation in vitro, transfert embryon congelé, TEC, cycle naturel FIV, cycle artificiel FIV, protocole létrozole, letrozole fertilité, corps jaune grossesse, prééclampsie FIV, symptômes après transfert, échec implantation, fenêtre implantation, qualité embryonnaire, infertilité inexpliquée, traitement FIV Istanbul, tourisme médical Turquie, hôpital américain Istanbul, progestérone effet secondaire, test grossesse 12 jours, beta HCG., dondurulmuş embriyo transferi, FET, doğal siklus, yapay siklus, Letrozol, tüp bebek"
+        }
+      }
+    },
+    {
+      "video_id": "-blY0f_9WCE",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "Vajinal Mikrobiyota ve Tüp Bebek Başarısı: Antibiyotik mi, Probiyotik mi? | Dr Senai Aksoy Açıklıyor",
+          "new": "Vajinal Mikrobiyota Tüp Bebek Başarısını Etkiler mi?"
+        },
+        "description": {
+          "old": "Tüp bebek tedavisinde her şey mükemmel görünüyor: embriyo birinci kalite, rahim kalınlığı şahane, hormonlar saat gibi… ama yine de tutmuyor. Peki suçl…",
+          "new": "Embriyo birinci kalite, rahim kalınlığı şahane, hormonlar saat gibi — ama yine tutmuyor. Suçlu vajinal mikrobiyota olabilir mi? Klamidya, üreoplazma, …"
+        },
+        "tags": {
+          "old": "tüp bebek tedavisi, tüp bebek neden tutmaz, infertilite tedavisi, kısırlık nedenleri, vajinal mikrobiyota, tüp bebekte enfeksiyon, Dr. Senai Aksoy, Senai Aksoy tüp bebek, lactobacillus crispatus, tekrarlayan tüp bebek başarısızlığı, klamidya tedavisi, üreoplazma nedir, candida mantarı ve gebelik, tüp bebekte probiyotik kullanımı, embriyo transferi sonrası, rahim içi enfeksiyon, tüp bebek başarı hikayeleri, kadın sağlığı, açıklanamayan infertilite",
+          "new": "tüp bebek tedavisi, tüp bebek neden tutmaz, infertilite tedavisi, kısırlık nedenleri, vajinal mikrobiyota, tüp bebekte enfeksiyon, Dr. Senai Aksoy, Senai Aksoy tüp bebek, lactobacillus crispatus, tekrarlayan tüp bebek başarısızlığı, klamidya tedavisi, üreoplazma nedir, candida mantarı ve gebelik, tüp bebekte probiyotik kullanımı, embriyo transferi sonrası, rahim içi enfeksiyon, tüp bebek başarı hikayeleri, kadın sağlığı, açıklanamayan infertilite, tüp bebek, IVF, laktobasil, probiyotik, klamidya, üreoplazma"
+        }
+      }
+    },
+    {
+      "video_id": "-FxkIwmlO9g",
+      "status": "dry_run",
+      "changes": {
+        "title": {
+          "old": "Endometriozis ve Kısırlık: 2025'in Yeni Tedavi Stratejileri | Dr. Senai Aksoy | 2.Bölüm",
+          "new": "Endometriozis ve Kısırlık: 2025 Yeni Tedavi Stratejileri"
+        },
+        "description": {
+          "old": "Endometriozis (çikolata kisti) tanınız var ve kısırlık endişesi mi yaşıyorsunuz? Tüp bebek tedavisinden önce ameliyat olmanın doğru çözüm olup olmadığ…",
+          "new": "Endometriozis (çikolata kisti) varsa önce ameliyat mı, yoksa doğrudan tüp bebek mi? 2025'in en güncel bilimsel rehberleriyle (skleroterapi, freeze-all…"
+        },
+        "tags": {
+          "old": "endometriozis, çikolata kisti, tüp bebek, kısırlık, kısırlık tedavisi, Dr Senai Aksoy, Dr Senai Aksoy tüp bebek, yumurtalık rezervi, AMH, embriyo transferi, endometrioma, derin endometriozis, tüp bebek protokolü, freeze all, endometriozis tükürük testi, endometriozis ameliyatı, hamile kalamıyorum, endometriozis ağrısı, tüp bebek ve endometriozis, çikolata kistiyle hamile kalmak, tüp bebek başarı hikayeleri, düşük yumurta rezervi, skleroterapi, Doçent Doktor Senai Aksoy",
+          "new": "endometriozis, çikolata kisti, tüp bebek, kısırlık, kısırlık tedavisi, Dr Senai Aksoy, Dr Senai Aksoy tüp bebek, yumurtalık rezervi, AMH, embriyo transferi, endometrioma, derin endometriozis, tüp bebek protokolü, freeze all, endometriozis tükürük testi, endometriozis ameliyatı, hamile kalamıyorum, endometriozis ağrısı, tüp bebek ve endometriozis, çikolata kistiyle hamile kalmak, tüp bebek başarı hikayeleri, düşük yumurta rezervi, skleroterapi, Doçent Doktor Senai Aksoy, IVF, tedavi stratejileri"
+        }
+      }
+    }
+  ]
+}
