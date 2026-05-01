@@ -1,61 +1,70 @@
 /**
  * YouTube Playlist Creator
  *
- * Kullanım:
- *   node youtube-api/create-playlists.mjs              # dry-run
- *   node youtube-api/create-playlists.mjs --apply       # gerçek oluşturma
+ * Kullanim:
+ *   node youtube-api/create-playlists.mjs         # dry-run
+ *   node youtube-api/create-playlists.mjs --apply # gercek olusturma
  */
 
 const BASE_URL = process.env.BASE_URL ?? 'http://localhost:3000';
 
 const playlists = [
   {
-    title: '🔬 IVF Add-on Gerçekleri (Kanıta Dayalı Eleştiri)',
+    title: 'İlk Kez Tüp Bebek',
     description:
-      'Tüp bebek tedavisinde ekstra önerilen işlemler (add-on) gerçekten işe yarıyor mu? Doç. Dr. Senai Aksoy, Cochrane ve ESHRE verileriyle her birini tek tek değerlendiriyor. Kanıta dayalı, bağımsız, reklamsız.',
+      'Tüp bebek sürecine yeni başlayanlar için temel bilgiler, ilk kararlar, süreç adımları ve en sık sorulan sorular. Daha bilinçli ve daha sakin karar vermek isteyenler için başlangıç rehberi.',
     videoIds: [
-      'b8wT1pAbX3A', // ERA Testi JAMA Analizi
-      '-i981BtfKVY', // ERA Testi Nedir? (Short)
-      'wybruaMaIdY', // Embryo Glue
-      'oyBpALzZzEU', // Rahim Çizme
-      'DbCrz_VPyC4', // Bağışıklık Aşısı ve Serumları
-      'GP809hiOu_Y', // Histeroskopi
-      '6UwNaQa_di4', // Soğan Suyu ve Akupunktur
-      '8Dx-f4ea6h4', // Embriyoskop ve Yapay Zeka
+      'NLvPH9mZIaE',
+      'HRYFoDkjohE',
+      'GP809hiOu_Y',
+      'kk-_4y0mn4M',
+      'sDcaagphlHU',
+      '6UwNaQa_di4',
     ],
     privacyStatus: 'public',
   },
   {
-    title: '🧬 Embriyo ve Transfer Süreci',
+    title: 'Embriyo ve Transfer',
     description:
-      'Embriyo kalitesi nasıl değerlendirilir? Transfer hazırlığında hangi protokol seçilmeli? Dondurulmuş ve taze transfer farkı nedir? Bilimsel verilerle embriyo ve transfer sürecinin tüm aşamaları.',
+      'Embriyo kalitesi, transfer süreci, dondurulmuş ve taze transfer seçenekleri, tutunma dönemi ve embriyo ile ilgili en kritik karar noktaları hakkında bilimsel ve anlaşılır videolar.',
     videoIds: [
-      'yT2dmjxZ3Qs', // 4AA, 3BB, 5BC Embriyo
-      'S8xkWrHylTE', // Dondurulmuş Embriyo Transferi
-      'wybruaMaIdY', // Embryo Glue (çapraz)
-      '8Dx-f4ea6h4', // Embriyoskop (çapraz)
+      'yT2dmjxZ3Qs',
+      'S8xkWrHylTE',
+      'a1yCSFO24Gs',
+      '_2-1G9akYgk',
+      'wybruaMaIdY',
+      '8Dx-f4ea6h4',
+      'vwsgOtGVTPY',
+      'k_W6KF7NuvA',
     ],
     privacyStatus: 'public',
   },
   {
-    title: '👩‍⚕️ Kadın Üreme Sağlığı',
+    title: 'AMH ve Yumurta Rezervi',
     description:
-      'Endometriozis, vajinal mikrobiyota, yumurta dondurma ve kadın üreme sağlığını etkileyen faktörler. Doç. Dr. Senai Aksoy\'dan bilimsel ve güncel bilgiler.',
-    videoIds: [
-      '-FxkIwmlO9g', // Endometriozis ve Kısırlık
-      '-blY0f_9WCE', // Vajinal Mikrobiyota
-      'w29IsrwxHWA', // Yumurta Dondurma
-      'zGzzDHRkjN4', // Mantar mı, Bakteriyel Vajinoz mu
-    ],
+      'AMH, over rezervi, yaş faktörü, hedef yumurta sayısı ve yumurta dondurma hakkında net, bilimsel ve hasta odaklı açıklamalar.',
+    videoIds: ['w29IsrwxHWA', 'LyLGywUUipg', 'HRYFoDkjohE'],
     privacyStatus: 'public',
   },
   {
-    title: '👨‍⚕️ Erkek Faktörü',
+    title: 'Endometriozis ve Kısırlık',
     description:
-      'Erkek infertilitesi, azospermi ve sperm analizi hakkında bilimsel ve güncel bilgiler.',
-    videoIds: [
-      '1pXII-iRU-U', // Azospermide İzotretinoin
-    ],
+      'Endometriozis tanısı, doğurganlığa etkisi, tedavi seçenekleri ve tüp bebekle ilişkisi hakkında güncel ve kanıta dayalı videolar.',
+    videoIds: ['-FxkIwmlO9g', 'ciH_IHqVrxw', '-blY0f_9WCE'],
+    privacyStatus: 'public',
+  },
+  {
+    title: 'Erkek İnfertilitesi',
+    description:
+      'Sperm analizi, azospermi, TESE ve erkek faktörü kaynaklı infertilite hakkında bilimsel, güncel ve anlaşılır bilgiler.',
+    videoIds: ['1pXII-iRU-U', 'RRDTPsS8SVc'],
+    privacyStatus: 'public',
+  },
+  {
+    title: 'Hangi Test Gerçekten Gerekli?',
+    description:
+      'Sık önerilen testlerin, ek işlemlerin ve tüp bebek add-on uygulamalarının gerçekten gerekli olup olmadığını bilimsel verilerle değerlendiren videolar.',
+    videoIds: ['b8wT1pAbX3A', 'GP809hiOu_Y', 'oyBpALzZzEU', 'DbCrz_VPyC4', '6UwNaQa_di4', 'wybruaMaIdY'],
     privacyStatus: 'public',
   },
 ];
@@ -64,32 +73,30 @@ async function main() {
   const args = process.argv.slice(2);
   const dryRun = !args.includes('--apply');
 
-  console.log('═'.repeat(60));
-  console.log('  YouTube Playlist Creator — Dr. Senai Aksoy');
-  console.log('═'.repeat(60));
+  console.log('='.repeat(60));
+  console.log('  YouTube Playlist Creator - Dr. Senai Aksoy');
+  console.log('='.repeat(60));
 
-  // Auth kontrolü
   try {
     const statusRes = await fetch(`${BASE_URL}/api/auth/status`);
     const status = await statusRes.json();
     if (!status.connected) {
-      console.error('\n❌ YouTube hesabı bağlı değil!');
+      console.error('\nYouTube hesabi bagli degil!');
       process.exit(1);
     }
-    console.log('✅ YouTube bağlantısı aktif\n');
+    console.log('YouTube baglantisi aktif\n');
   } catch {
-    console.error('\n❌ Next.js sunucusuna erişilemiyor!');
+    console.error('\nNext.js sunucusuna erisilemiyor!');
     process.exit(1);
   }
 
-  console.log(`📦 ${playlists.length} playlist ${dryRun ? '(DRY RUN)' : '(CANLI — oluşturulacak)'}\n`);
+  console.log(`${playlists.length} playlist ${dryRun ? '(DRY RUN)' : '(CANLI - olusturulacak)'}\n`);
 
   for (const p of playlists) {
-    console.log(`  📋 ${p.title} (${p.videoIds.length} video)`);
+    console.log(`  - ${p.title} (${p.videoIds.length} video)`);
   }
 
-  // API çağrısı
-  console.log('\n🚀 Gönderiliyor...\n');
+  console.log('\nGonderiliyor...\n');
 
   const res = await fetch(`${BASE_URL}/api/youtube/playlists`, {
     method: 'POST',
@@ -99,21 +106,28 @@ async function main() {
 
   if (!res.ok) {
     const err = await res.text();
-    console.error(`❌ API hatası ${res.status}: ${err}`);
+    console.error(`API hatasi ${res.status}: ${err}`);
     process.exit(1);
   }
 
   const data = await res.json();
 
   for (const r of data.results) {
-    const icon = r.status === 'created' ? '✅' : r.status === 'dry_run' ? '🔍' : '❌';
+    const icon =
+      r.status === 'created'
+        ? '[created]'
+        : r.status === 'dry_run'
+          ? '[dry-run]'
+          : r.status === 'exists'
+            ? '[exists]'
+            : '[error]';
     console.log(`  ${icon} ${r.title}`);
     if (r.playlistId) console.log(`     ID: ${r.playlistId}`);
-    if (r.videosAdded) console.log(`     Videolar: ${r.videosAdded} eklendi`);
+    if (typeof r.videosAdded === 'number') console.log(`     Videolar: ${r.videosAdded}`);
     if (r.error) console.log(`     Hata: ${r.error}`);
   }
 
-  console.log('\n' + '═'.repeat(60));
+  console.log('\n' + '='.repeat(60));
 }
 
 main().catch((e) => {

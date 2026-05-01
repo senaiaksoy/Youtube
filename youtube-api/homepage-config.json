@@ -1,0 +1,78 @@
+{
+  "playlists": [
+    {
+      "title": "İlk Kez Tüp Bebek",
+      "description": "Tüp bebek sürecine yeni başlayanlar için temel bilgiler, ilk kararlar, süreç adımları ve en sık sorulan sorular. Daha bilinçli ve daha sakin karar vermek isteyenler için başlangıç rehberi.",
+      "videoIds": [
+        "NLvPH9mZIaE",
+        "HRYFoDkjohE",
+        "GP809hiOu_Y",
+        "kk-_4y0mn4M",
+        "sDcaagphlHU",
+        "6UwNaQa_di4"
+      ],
+      "privacyStatus": "public",
+      "showOnHomepage": true
+    },
+    {
+      "title": "Embriyo ve Transfer",
+      "description": "Embriyo kalitesi, transfer süreci, dondurulmuş ve taze transfer seçenekleri, tutunma dönemi ve embriyo ile ilgili en kritik karar noktaları hakkında bilimsel ve anlaşılır videolar.",
+      "videoIds": [
+        "yT2dmjxZ3Qs",
+        "S8xkWrHylTE",
+        "a1yCSFO24Gs",
+        "_2-1G9akYgk",
+        "wybruaMaIdY",
+        "8Dx-f4ea6h4",
+        "vwsgOtGVTPY",
+        "k_W6KF7NuvA"
+      ],
+      "privacyStatus": "public",
+      "showOnHomepage": true
+    },
+    {
+      "title": "Endometriozis ve Kısırlık",
+      "description": "Endometriozis tanısı, doğurganlığa etkisi, tedavi seçenekleri ve tüp bebekle ilişkisi hakkında güncel ve kanıta dayalı videolar.",
+      "videoIds": [
+        "-FxkIwmlO9g",
+        "ciH_IHqVrxw",
+        "-blY0f_9WCE"
+      ],
+      "privacyStatus": "public",
+      "showOnHomepage": true
+    },
+    {
+      "title": "Erkek İnfertilitesi",
+      "description": "Sperm analizi, azospermi, TESE ve erkek faktörü kaynaklı infertilite hakkında bilimsel, güncel ve anlaşılır bilgiler.",
+      "videoIds": [
+        "1pXII-iRU-U",
+        "RRDTPsS8SVc",
+        "o5tLRwEKGCo",
+        "k5aHb6Dru0w"
+      ],
+      "privacyStatus": "public",
+      "showOnHomepage": true
+    },
+    {
+      "title": "Sık Sorulanlar",
+      "description": "Tedaviye başlamadan önce ve süreç içinde en çok sorulan sorulara kısa, net ve güven veren yanıtlar. İlk bakışta en çok ihtiyaç duyulan videolar burada toplandı.",
+      "videoIds": [
+        "HRYFoDkjohE",
+        "9-wC4ttsDyY",
+        "-i981BtfKVY",
+        "0bSW3XDBFvU",
+        "-zljs4t7rrY",
+        "sDcaagphlHU"
+      ],
+      "privacyStatus": "public",
+      "showOnHomepage": true
+    }
+  ],
+  "homepageOrder": [
+    "İlk Kez Tüp Bebek",
+    "Embriyo ve Transfer",
+    "Endometriozis ve Kısırlık",
+    "Erkek İnfertilitesi",
+    "Sık Sorulanlar"
+  ]
+}

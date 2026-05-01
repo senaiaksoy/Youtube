@@ -25,11 +25,28 @@ type PlaylistDef = {
 
 type PlaylistResult = {
   title: string;
-  status: 'created' | 'dry_run' | 'error';
+  status: 'created' | 'dry_run' | 'exists' | 'error';
   playlistId?: string;
   videosAdded?: number;
   error?: string;
 };
+
+async function findExistingPlaylistByTitle(title: string) {
+  let pageToken = '';
+
+  while (true) {
+    const url = `https://www.googleapis.com/youtube/v3/playlists?part=snippet,status&mine=true&maxResults=50${
+      pageToken ? `&pageToken=${pageToken}` : ''
+    }`;
+    const data = await youtubeApiFetch(url);
+    const items = data?.items ?? [];
+    const match = items.find((item: any) => item?.snippet?.title?.trim() === title.trim());
+    if (match) return match;
+
+    pageToken = data?.nextPageToken ?? '';
+    if (!pageToken) return null;
+  }
+}
 
 async function createPlaylist(def: PlaylistDef, dryRun: boolean): Promise<PlaylistResult> {
   try {
@@ -41,7 +58,16 @@ async function createPlaylist(def: PlaylistDef, dryRun: boolean): Promise<Playli
       };
     }
 
-    // 1. Create playlist
+    const existing = await findExistingPlaylistByTitle(def.title);
+    if (existing) {
+      return {
+        title: def.title,
+        status: 'exists',
+        playlistId: existing.id,
+        videosAdded: 0,
+      };
+    }
+
     const createUrl = 'https://www.googleapis.com/youtube/v3/playlists?part=snippet,status';
     const playlist = await youtubeApiFetch(createUrl, {
       method: 'POST',
@@ -59,7 +85,6 @@ async function createPlaylist(def: PlaylistDef, dryRun: boolean): Promise<Playli
 
     const playlistId = playlist.id;
 
-    // 2. Add videos to playlist
     let added = 0;
     for (const videoId of def.videoIds) {
       const itemUrl = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet';
@@ -76,7 +101,6 @@ async function createPlaylist(def: PlaylistDef, dryRun: boolean): Promise<Playli
         }),
       });
       added++;
-      // Rate limit
       await new Promise((r) => setTimeout(r, 500));
     }
 

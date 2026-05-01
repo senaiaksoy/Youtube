@@ -11,6 +11,10 @@ master-source: D:/A-klasör/obsidian-vaults/draksoyivf-knowledge/wiki/
 
 Bu klasör, **YouTube video üretimi** için hazır **çekim öncesi hızlı checklist + protokol** belgeleridir. Yorum yanıtlama sisteminin (`../youtube-responses/`) kardeş alt sistemidir.
 
+## Güncel operasyon hafızası
+
+- 2026-05-01 canlı kanal uygulama özeti: [channel-operations-memory-2026-05-01.md](./channel-operations-memory-2026-05-01.md)
+
 ## Amaç
 
 - Çekim öncesi, **5 dakikada** ses + uyumluluk + format kontrolü

@@ -12,6 +12,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { loadFixes } from './load-fixes.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const FIXES_PATH = path.join(__dirname, 'video_fixes.json');
@@ -51,7 +52,7 @@ async function main() {
     process.exit(1);
   }
 
-  let fixes = JSON.parse(fs.readFileSync(FIXES_PATH, 'utf-8'));
+  let fixes = loadFixes(FIXES_PATH);
 
   if (videoFilter) {
     fixes = fixes.filter((f) => f.video_id === videoFilter);

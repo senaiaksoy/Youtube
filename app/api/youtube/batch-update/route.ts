@@ -2,6 +2,7 @@ export const dynamic = 'force-dynamic';
 
 import { NextRequest, NextResponse } from 'next/server';
 import { youtubeApiFetch } from '@/lib/youtube-token';
+import { normalizeYoutubeText, normalizeYoutubeTextList } from '@/lib/youtube-text';
 
 /**
  * POST /api/youtube/batch-update
@@ -43,6 +44,19 @@ type UpdateResult = {
   changes?: Record<string, { old: string; new: string }>;
   error?: string;
 };
+
+function normalizeFix(fix: VideoFix): VideoFix {
+  return {
+    ...fix,
+    title: typeof fix.title === 'string' ? normalizeYoutubeText(fix.title) : fix.title,
+    description_hook:
+      typeof fix.description_hook === 'string'
+        ? normalizeYoutubeText(fix.description_hook)
+        : fix.description_hook,
+    hashtags: normalizeYoutubeTextList(fix.hashtags),
+    tags: normalizeYoutubeTextList(fix.tags),
+  };
+}
 
 // ── Açıklama hook'u değiştir ──
 function replaceHook(desc: string, hook: string): string {
@@ -119,6 +133,7 @@ async function applyFix(
   dryRun: boolean
 ): Promise<UpdateResult> {
   try {
+    const normalizedFix = normalizeFix(fix);
     const video = await fetchVideo(fix.video_id);
     if (!video) return { video_id: fix.video_id, status: 'error', error: 'Video not found' };
 
@@ -126,22 +141,22 @@ async function applyFix(
     const changes: Record<string, { old: string; new: string }> = {};
 
     // ── Başlık ──
-    if (fix.title && fix.title !== snippet.title) {
-      changes.title = { old: snippet.title, new: fix.title };
-      snippet.title = fix.title;
+    if (normalizedFix.title && normalizedFix.title !== snippet.title) {
+      changes.title = { old: snippet.title, new: normalizedFix.title };
+      snippet.title = normalizedFix.title;
     }
 
     // ── Açıklama ──
     let desc = snippet.description ?? '';
     const origDesc = desc;
 
-    if (fix.description_hook) {
-      desc = replaceHook(desc, fix.description_hook);
+    if (normalizedFix.description_hook) {
+      desc = replaceHook(desc, normalizedFix.description_hook);
     }
-    if (fix.hashtags && fix.hashtags.length > 0) {
-      desc = ensureHashtags(desc, fix.hashtags);
+    if (normalizedFix.hashtags && normalizedFix.hashtags.length > 0) {
+      desc = ensureHashtags(desc, normalizedFix.hashtags);
     }
-    if (fix.standardize_disclaimer) {
+    if (normalizedFix.standardize_disclaimer) {
       desc = standardizeDisclaimer(desc);
     }
 
@@ -154,9 +169,9 @@ async function applyFix(
     }
 
     // ── Tags ──
-    if (fix.tags && fix.tags.length > 0) {
-      const oldTags: string[] = snippet.tags ?? [];
-      const merged = [...new Set([...oldTags, ...fix.tags])];
+    if (normalizedFix.tags && normalizedFix.tags.length > 0) {
+      const oldTags: string[] = normalizeYoutubeTextList(snippet.tags ?? []) ?? [];
+      const merged = [...new Set([...oldTags, ...normalizedFix.tags])];
       if (JSON.stringify(merged) !== JSON.stringify(oldTags)) {
         changes.tags = { old: oldTags.join(', '), new: merged.join(', ') };
         snippet.tags = merged;
