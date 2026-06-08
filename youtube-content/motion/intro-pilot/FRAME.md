@@ -7,7 +7,7 @@ YouTube/Shorts intro pilot.
 ## Canvas
 - Aspect ratio: 16:9
 - Design size: 1920 x 1080
-- Safe text area: keep primary text inside the central 80% width and 70% height
+- Safe text area: keep all visible text inside the central 80% width and 70% height
 - Mobile check: title must remain readable when previewed at small player size
 
 ## Inputs
@@ -94,6 +94,8 @@ Motion:
 - secondary: `#1a4d7a`
 - accent: `#3a8a66`
 - surface: `#f0f7ff`
+- white: `#ffffff`
+- text: `#0f2b4b`
 
 ### FR
 - `channel`: `fr`
@@ -104,6 +106,8 @@ Motion:
 - secondary: `#dce9f3`
 - accent: `#e8578a`
 - surface: `#ffffff`
+- soft-grey: `#efefef`
+- text: `#222222`
 
 ## Motion Guardrails
 - no shake
@@ -111,12 +115,24 @@ Motion:
 - no flashing
 - no warning iconography
 - no red circle emphasis
+- no baby imagery
+- no pregnant belly imagery
+- no patient faces
+- no before/after visuals
+- no arrows or red circles
+- no exaggerated reactions
+- no prices or discounts
+- no clinic address
+- no patient stories
 - no success-rate claim
 - no guarantee language
+- no miracle, secret, shocking, or guaranteed language
+- no burgundy/gold/cream palette
 
 ## Preview Requirements
 - preview both TR and FR skins
 - check desktop 16:9 composition
 - check mobile readability
 - capture final-frame screenshot for both skins
+- capture readable hold screenshots before 14.2s and transition-ready screenshots at 15.0s for both skins
 - confirm the rejected burgundy/gold/cream palette is not used
