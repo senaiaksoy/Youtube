@@ -1,0 +1,328 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, Manrope, "Segoe UI", Arial, sans-serif;
+  --primary: #2563a8;
+  --secondary: #1a4d7a;
+  --accent: #3a8a66;
+  --stage-surface: #f0f7ff;
+  --page-surface: #ffffff;
+  --text: #0f2b4b;
+  --muted: color-mix(in srgb, var(--text), transparent 34%);
+  --stage-shadow: color-mix(in srgb, var(--primary), transparent 78%);
+}
+
+body[data-skin="fr"] {
+  --primary: #094183;
+  --secondary: #dce9f3;
+  --accent: #e8578a;
+  --stage-surface: #ffffff;
+  --page-surface: #efefef;
+  --text: #222222;
+  --muted: color-mix(in srgb, var(--text), transparent 40%);
+  --stage-shadow: color-mix(in srgb, var(--primary), transparent 84%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--page-surface);
+  color: var(--text);
+  letter-spacing: 0;
+}
+
+button,
+h2,
+p {
+  letter-spacing: 0;
+}
+
+.prototype-shell {
+  width: min(1180px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.skin-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.toolbar-button {
+  min-height: 36px;
+  border: 1px solid color-mix(in srgb, var(--primary), transparent 64%);
+  border-radius: 8px;
+  padding: 0 14px;
+  background: #ffffff;
+  color: var(--text);
+  font: 700 13px/1 Inter, Manrope, "Segoe UI", Arial, sans-serif;
+  cursor: pointer;
+}
+
+.toolbar-button:hover {
+  border-color: var(--primary);
+}
+
+.toolbar-button.is-active {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+.replay-button {
+  color: var(--primary);
+}
+
+.time-label {
+  margin: 0 0 0 auto;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--primary), transparent 80%);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 82% 24%, color-mix(in srgb, var(--accent), transparent 88%), transparent 30%),
+    linear-gradient(135deg, color-mix(in srgb, var(--stage-surface), #ffffff 18%), var(--stage-surface)),
+    var(--stage-surface);
+  box-shadow: 0 18px 60px var(--stage-shadow);
+  isolation: isolate;
+}
+
+.stage.is-replaying * {
+  animation: none;
+}
+
+.motif-grid {
+  position: absolute;
+  inset: 9%;
+  opacity: 0.22;
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--primary), transparent 78%) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--primary), transparent 78%) 1px, transparent 1px);
+  background-size: 7.5% 13.333%;
+  clip-path: inset(0 100% 0 0);
+  animation: grid-draw 15s ease forwards;
+}
+
+.motif-arc {
+  position: absolute;
+  border: 2px solid color-mix(in srgb, var(--primary), transparent 68%);
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  opacity: 0;
+  transform: rotate(-18deg) scale(0.96);
+  animation: arc-in 15s ease forwards;
+}
+
+.motif-arc-one {
+  width: 35%;
+  aspect-ratio: 1;
+  left: 8%;
+  top: 12%;
+}
+
+.motif-arc-two {
+  width: 22%;
+  aspect-ratio: 1;
+  right: 12%;
+  bottom: 14%;
+  animation-delay: 0.15s;
+}
+
+.motif-path {
+  position: absolute;
+  left: 14%;
+  right: 14%;
+  top: 41%;
+  height: 2px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, transparent, var(--primary), var(--accent), transparent);
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: path-draw 15s ease forwards;
+}
+
+.motif-dots {
+  position: absolute;
+  left: 18%;
+  top: 34%;
+  display: flex;
+  gap: 18px;
+}
+
+.motif-dots span {
+  width: clamp(8px, 1.1vw, 14px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0;
+  transform: scale(0.75);
+  animation: dot-in 15s ease forwards;
+}
+
+.motif-dots span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.motif-dots span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.soft-wipe {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--accent), transparent 86%));
+  opacity: 0;
+  transform: translateX(58%);
+  animation: soft-wipe 15s ease forwards;
+}
+
+.copy-lockup {
+  position: relative;
+  z-index: 2;
+  width: min(80%, 920px);
+  max-height: 70%;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  padding: 4%;
+}
+
+.channel-cue {
+  margin: 0 0 18px;
+  color: var(--primary);
+  font-size: clamp(13px, 1.55vw, 22px);
+  font-weight: 800;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: cue-in 15s ease forwards;
+}
+
+h2 {
+  max-width: 18ch;
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(30px, 6vw, 88px);
+  font-weight: 800;
+  line-height: 1.04;
+  overflow-wrap: anywhere;
+  opacity: 0;
+  transform: translateY(26px);
+  animation: title-in 15s ease forwards;
+}
+
+.accent-rule {
+  width: min(45%, 360px);
+  height: 4px;
+  margin: 22px 0 18px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  transform: scaleX(0);
+  transform-origin: center;
+  animation: rule-in 15s ease forwards;
+}
+
+.identity-line {
+  max-width: 40ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(15px, 2vw, 30px);
+  font-weight: 650;
+  line-height: 1.22;
+  overflow-wrap: anywhere;
+  opacity: 0;
+  transform: translateY(12px);
+  animation: identity-in 15s ease forwards;
+}
+
+@keyframes grid-draw {
+  0%, 3% { clip-path: inset(0 100% 0 0); }
+  13%, 100% { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes arc-in {
+  0%, 3% { opacity: 0; transform: rotate(-18deg) scale(0.96); }
+  11%, 80% { opacity: 1; transform: rotate(0deg) scale(1); }
+  95%, 100% { opacity: 0.28; transform: rotate(4deg) scale(1.02); }
+}
+
+@keyframes path-draw {
+  0%, 3% { opacity: 0; transform: scaleX(0); }
+  13%, 100% { opacity: 0.42; transform: scaleX(1); }
+}
+
+@keyframes dot-in {
+  0%, 5% { opacity: 0; transform: scale(0.75); }
+  9%, 100% { opacity: 0.85; transform: scale(1); }
+}
+
+@keyframes cue-in {
+  0%, 61% { opacity: 0; transform: translateY(10px); }
+  64%, 94% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0.2; transform: translateY(0); }
+}
+
+@keyframes title-in {
+  0%, 20% { opacity: 0; transform: translateY(26px) scale(1); }
+  26%, 53% { opacity: 1; transform: translateY(0) scale(1); }
+  56%, 94% { opacity: 1; transform: translateY(0) scale(0.92); }
+  100% { opacity: 0.12; transform: translateY(-4px) scale(0.92); }
+}
+
+@keyframes rule-in {
+  0%, 26% { transform: scaleX(0); opacity: 0; }
+  29%, 94% { transform: scaleX(1); opacity: 1; }
+  100% { transform: scaleX(1); opacity: 0.16; }
+}
+
+@keyframes identity-in {
+  0%, 55% { opacity: 0; transform: translateY(12px); }
+  60%, 94% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0.18; transform: translateY(0); }
+}
+
+@keyframes soft-wipe {
+  0%, 80% { opacity: 0; transform: translateX(58%); }
+  87% { opacity: 1; transform: translateX(-8%); }
+  94%, 100% { opacity: 0.35; transform: translateX(-18%); }
+}
+
+@media (max-width: 640px) {
+  .prototype-shell {
+    width: min(100vw - 20px, 1180px);
+    padding: 12px 0;
+  }
+
+  .toolbar {
+    flex-wrap: wrap;
+  }
+
+  .time-label {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+
+  .copy-lockup {
+    width: 86%;
+  }
+}
