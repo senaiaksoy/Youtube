@@ -125,6 +125,7 @@ Motion:
 - no clinic address
 - no patient stories
 - no success-rate claim
+- no promotional medical claims
 - no guarantee language
 - no miracle, secret, shocking, or guaranteed language
 - no burgundy/gold/cream palette
