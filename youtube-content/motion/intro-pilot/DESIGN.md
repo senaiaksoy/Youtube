@@ -114,5 +114,6 @@ Do not include:
 - prices or discounts
 - clinic address
 - patient stories
+- burgundy/gold/cream palette
 - miracle, secret, shocking, guaranteed, or similar words
 - promotional medical claims
