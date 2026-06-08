@@ -45,8 +45,8 @@ feel like a structured guide to correct information.
 - Small green accent only for secondary emphasis.
 
 ### Default Copy
-- Main title: `Tup Bebekte Dogru Bilgi`
-- Identity line: `Dr. Senai Aksoy | Ureme Sagligi`
+- Main title: `Tüp Bebekte Doğru Bilgi`
+- Identity line: `Dr. Senai Aksoy | Üreme Sağlığı`
 - Site cue: `tupbebek.com`
 
 ## FR Skin: draksoyivf.com
@@ -74,8 +74,8 @@ should feel clinical, calm, and reassuring.
 - Fine clinical line motifs and soft panel transitions.
 
 ### Default Copy
-- Main title: `Comprendre la FIV avec clarte`
-- Identity line: `Dr. Senai Aksoy | FIV a Istanbul`
+- Main title: `Comprendre la FIV avec clarté`
+- Identity line: `Dr. Senai Aksoy | FIV à Istanbul`
 - Site cue: `draksoyivf.com`
 
 ## Motifs
@@ -106,6 +106,7 @@ Forbidden motifs:
 - `{{title}}`: per-video title
 - `{{identityLine}}`: Dr. Aksoy line for the chosen skin
 - `{{siteCue}}`: linked site
+- Implementation copy should preserve TR/FR diacritics unless a renderer cannot support them.
 
 ## Compliance Guardrails
 Do not include:
