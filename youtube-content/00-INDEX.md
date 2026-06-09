@@ -1,7 +1,7 @@
 ---
 type: index
 domain: youtube-content-production
-updated: 2026-04-26
+updated: 2026-06-09
 ---
 
 # 00-INDEX — Hızlı İçindekiler
@@ -50,6 +50,11 @@ updated: 2026-04-26
 ### Yapı
 - [03-script-format-checklist.md](03-script-format-checklist.md) — 5 süre kategorisi (K1-K5) + 7 bölümlü video şablon (4 beat)
 - [05-topic-packs-index.md](05-topic-packs-index.md) — mevcut + planlanan paketler
+
+### Motion / edit asset
+- [09-production-pipeline.md](09-production-pipeline.md) — edited → scheduled intro asset kapısı
+- [motion/intro-pilot/MANIFEST.json](motion/intro-pilot/MANIFEST.json) — TR/FR intro render yolları ve guardrail'ler
+- [motion/intro-pilot/FRAME.md](motion/intro-pilot/FRAME.md) — 15 saniyelik intro zaman çizgisi
 
 ### İzleme
 - [06-anchor-rotation-tracker.md](06-anchor-rotation-tracker.md) — son kullanım kaydı
