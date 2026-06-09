@@ -55,7 +55,7 @@ Kullanım kuralı:
 
 | Sıra | Durum | Konu / başlık çalışması | K# | Konu tipi | Pack-id | Hassas? | Hedef yayın | Blocker / not |
 |---|---|---|---|---|---|---|---|---|
-| _(boş — yeni video planlamaya başlandığında doldur)_ | | | | | | | | |
+| 1 | scripted | `3BB Embriyo Düşük Kalite mi? Panik Yapma` | K1 | shorts-türeme | shorts-batch-01-2026-04-29 | hayır | planlanacak | Intro asset seçildi: [edit package](edit-packages/2026-06-09-tr-short-1-embriyo-kalitesi-intro-package.md) |
 
 > **Kullanım örnekleri (silmeden referans tut):**
 >
