@@ -53,11 +53,17 @@ function applySkin(skinName) {
 function replay() {
   animationStartedAt = performance.now();
   window.cancelAnimationFrame(timeLabelFrame);
-  stage.classList.add("is-replaying");
-  void stage.offsetWidth;
+  const animatedElements = [stage, ...stage.querySelectorAll("*")];
+
+  animatedElements.forEach((element) => {
+    element.style.animation = "none";
+  });
 
   window.requestAnimationFrame(() => {
-    stage.classList.remove("is-replaying");
+    void stage.offsetWidth;
+    animatedElements.forEach((element) => {
+      element.style.animation = "";
+    });
     updateTimeLabel();
   });
 }
