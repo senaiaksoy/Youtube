@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intro Pilot Prototype</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-skin="tr">
+    <main class="prototype-shell" aria-label="Intro pilot static prototype">
+      <div class="toolbar" aria-label="Preview controls">
+        <div class="skin-controls" role="group" aria-label="Skin">
+          <button class="toolbar-button is-active" type="button" data-skin-button="tr" aria-pressed="true">TR</button>
+          <button class="toolbar-button" type="button" data-skin-button="fr" aria-pressed="false">FR</button>
+        </div>
+        <button class="toolbar-button replay-button" type="button" data-replay>Replay</button>
+        <p class="time-label" data-time-label>0.0s-3.0s Brand Field</p>
+      </div>
+
+      <section class="stage" data-stage aria-label="15 second intro preview">
+        <div class="motif-grid" aria-hidden="true"></div>
+        <div class="motif-arc motif-arc-one" aria-hidden="true"></div>
+        <div class="motif-arc motif-arc-two" aria-hidden="true"></div>
+        <div class="motif-path" aria-hidden="true"></div>
+        <div class="motif-dots" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="soft-wipe" aria-hidden="true"></div>
+
+        <div class="copy-lockup">
+          <p class="channel-cue" data-site>tupbebek.com</p>
+          <h2 data-title>Tüp Bebekte Doğru Bilgi</h2>
+          <div class="accent-rule" aria-hidden="true"></div>
+          <p class="identity-line" data-identity>Dr. Senai Aksoy | Üreme Sağlığı</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="intro.js"></script>
+  </body>
+</html>
