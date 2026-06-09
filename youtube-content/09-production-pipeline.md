@@ -4,7 +4,7 @@ domain: youtube-content-production
 channel-coverage: tr + fr
 master-source: wiki/youtube/topic-packs/ + wiki/youtube/topics-backlog.md
 created: 2026-05-04
-updated: 2026-06-03
+updated: 2026-06-09
 ---
 
 # 09 — Production Pipeline & Measurement Queue
@@ -21,12 +21,31 @@ updated: 2026-06-03
 | 2 | **outlined** | Beat A-D taslağı yazıldı; hook seçildi; anchor kararı verildi | Tam script taslağı tamam |
 | 3 | **scripted** | Tam script TR/FR yazıldı; hassas konu ise metafor yokluğu doğrulandı | Çekim hazır (sahne/ışık/zaman) |
 | 4 | **filmed** | Çekim tamam, ham video editörde | İlk kurgu turu yapıldı |
-| 5 | **edited** | Kurgu, alt yazı, on-screen text, thumbnail teslim | Studio'ya yüklendi |
-| 6 | **scheduled** | YouTube Studio'da yayın saati ayarlı; description + tag + thumbnail + sabitlenmiş yorum hazır | Yayın saati geldi |
+| 5 | **edited** | Kurgu, alt yazı, on-screen text, thumbnail ve intro asset teslim | Studio'ya yüklendi; intro asset manifest ile doğrulandı |
+| 6 | **scheduled** | YouTube Studio'da yayın saati ayarlı; description + tag + thumbnail + intro + sabitlenmiş yorum hazır | Yayın saati geldi |
 | 7 | **published** | Canlıda; `06-anchor-rotation-tracker.md`'a satır eklendi; post-mortem dosyası açıldı | 7d analytics gelmeye başladı |
 | 8 | **measured** | 28d post-mortem tamamlandı; öğrenme master'a yansıdı | Archive |
 
 > **Hızlı geçiş engelleri:** her durumdan bir sonrakine geçiş için `03-script-format-checklist.md` kontrolü + `02-compliance-checklist.md` taraması zorunlu (özellikle 3→4 ve 5→6 noktalarında).
+
+---
+
+## Motion intro asset kapısı
+
+> Intro paketi: [motion/intro-pilot/MANIFEST.json](motion/intro-pilot/MANIFEST.json). Bu kapı, **edited → scheduled** geçişinde kullanılır.
+
+| Kanal | Kullanılacak intro | Site cue | Kontrol |
+|---|---|---|---|
+| TR | `motion/intro-pilot/renders/intro-pilot-tr.mp4` | `tupbebek.com` | TR renkleri: `#2563a8`, `#1a4d7a`, `#3a8a66`, `#f0f7ff` |
+| FR | `motion/intro-pilot/renders/intro-pilot-fr.mp4` | `draksoyivf.com` | FR renkleri: `#094183`, `#e8578a`, `#dce9f3`, `#ffffff` |
+
+Kullanım kuralı:
+
+- Pipeline satırındaki kanala göre manifestteki `channels.tr` veya `channels.fr` seçilir.
+- Final edit paketinde MP4 ana teslim formatıdır; WebM dosyaları web/prototype kontrolü için saklanır.
+- Render asset değiştirilirse `node scripts/verify-frame-intro-pilot.mjs` çalıştırılır.
+- Intro içinde başarı oranı, garanti, fiyat/indirim, klinik adresi, hasta hikayesi veya promosyonel tıbbi iddia kullanılmaz.
+- TR/FR diacritics korunur; renderer zorunlu kılmadıkça ASCII sadeleştirme yapılmaz.
 
 ---
 
@@ -161,6 +180,7 @@ Toplu metadata değişikliği (başlık + snippet + hashtag + ana sayfa raf düz
 - [ ] **Anchor rotation tracker** (`06-anchor-rotation-tracker.md`) ile çapraz: aynı satırlar, aynı sıra
 - [ ] **Post-mortem öğrenmeleri:** son ay 28d tamam olan videolardan toplu öğrenme çıkarımı (5-10 madde) → master `wiki/youtube/channel-strategy-{tr/fr}.md`
 - [ ] **Backfill log:** `description-backfill-log-YYYY-MM.md` (varsa) tarandı, etki ölçüldü
+- [ ] **Motion intro manifest:** TR/FR render yolları ve guardrail'ler güncel mi? `node scripts/verify-frame-intro-pilot.mjs` geçti mi?
 - [ ] **Bu dosyanın `updated:` tarihi** ay başına güncellendi
 
 ---
@@ -173,6 +193,7 @@ Toplu metadata değişikliği (başlık + snippet + hashtag + ana sayfa raf düz
 - [06-anchor-rotation-tracker.md](06-anchor-rotation-tracker.md) — yayın sonrası anchor/aile üyesi kayıt
 - [07-description-library.md](07-description-library.md) — durum 5 → 6 geçişinde description hazırlık
 - [08-post-mortem-template.md](08-post-mortem-template.md) — durum 7 → 8 measurement instance
+- [motion/intro-pilot/MANIFEST.json](motion/intro-pilot/MANIFEST.json) — TR/FR intro asset manifesti
 - Master `wiki/youtube/topics-backlog.md` — idea kaynağı
 - Master `wiki/youtube/channel-strategy-tr.md` / `channel-strategy-fr.md` — strateji yansıma yönü
 
@@ -182,5 +203,6 @@ Toplu metadata değişikliği (başlık + snippet + hashtag + ana sayfa raf düz
 
 | Tarih | Değişiklik |
 |---|---|
+| 2026-06-09 | Frame.md intro pilot TR/FR renderları için edited → scheduled motion asset kapısı ve manifest bağlantısı eklendi |
 | 2026-06-03 | FR videolarda EN/AR alt yazı + dubbing olduğu ve bunun ilk paylaşım/video içinde uygun yerlerde belirtilmesi gerektiği eklendi |
 | 2026-05-04 | İlk versiyon — 8 aşamalı durum enum, TR + FR pipeline + 4 hafta hedef + backlog tabloları, measurement queue, FR bulk metadata 2026-05 özel kohort (hipotez + pencere + segment + karar matrisi + veri çıkarma + sonuç dosyası planı), aylık review checklist, çapraz bağlantılar |

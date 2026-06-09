@@ -6,9 +6,14 @@ const root = process.cwd();
 const requiredFiles = [
   "youtube-content/motion/intro-pilot/DESIGN.md",
   "youtube-content/motion/intro-pilot/FRAME.md",
+  "youtube-content/motion/intro-pilot/MANIFEST.json",
   "youtube-content/motion/intro-pilot/prototype/index.html",
   "youtube-content/motion/intro-pilot/prototype/styles.css",
   "youtube-content/motion/intro-pilot/prototype/intro.js",
+  "youtube-content/motion/intro-pilot/renders/intro-pilot-tr.mp4",
+  "youtube-content/motion/intro-pilot/renders/intro-pilot-tr.webm",
+  "youtube-content/motion/intro-pilot/renders/intro-pilot-fr.mp4",
+  "youtube-content/motion/intro-pilot/renders/intro-pilot-fr.webm",
 ];
 
 const renderedFiles = [
@@ -35,6 +40,9 @@ const requiredTokens = [
   "Dr. Senai Aksoy | FIV à Istanbul",
   "no promotional medical claims",
   "no burgundy/gold/cream palette",
+  "edited-to-scheduled",
+  "youtube-content/motion/intro-pilot/renders/intro-pilot-tr.mp4",
+  "youtube-content/motion/intro-pilot/renders/intro-pilot-fr.mp4",
 ];
 
 const bannedRenderedPatterns = [
@@ -88,6 +96,58 @@ if (bannedMatches.length > 0) {
     title: "Banned prototype content found",
     items: bannedMatches,
   });
+}
+
+const manifestPath = join(root, "youtube-content/motion/intro-pilot/MANIFEST.json");
+
+if (existsSync(manifestPath)) {
+  let manifest;
+
+  try {
+    manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
+  } catch (error) {
+    errors.push({
+      title: "Invalid intro manifest JSON",
+      items: [error.message],
+    });
+  }
+
+  if (manifest) {
+    const manifestErrors = [];
+
+    if (manifest.productionUse?.pipelineStage !== "edited-to-scheduled") {
+      manifestErrors.push("productionUse.pipelineStage must be edited-to-scheduled");
+    }
+
+    for (const channel of ["tr", "fr"]) {
+      const config = manifest.channels?.[channel];
+
+      if (!config) {
+        manifestErrors.push(`channels.${channel} is missing`);
+        continue;
+      }
+
+      for (const format of ["mp4", "webm"]) {
+        const renderPath = config.renders?.[format];
+
+        if (!renderPath) {
+          manifestErrors.push(`channels.${channel}.renders.${format} is missing`);
+          continue;
+        }
+
+        if (!existsSync(join(root, renderPath))) {
+          manifestErrors.push(`${renderPath} does not exist`);
+        }
+      }
+    }
+
+    if (manifestErrors.length > 0) {
+      errors.push({
+        title: "Intro manifest verification failed",
+        items: manifestErrors,
+      });
+    }
+  }
 }
 
 if (errors.length > 0) {

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "name": "youtube-frame-md-intro-pilot",
+  "status": "pilot-approved",
+  "timelineSeconds": 15,
+  "renderDurationSeconds": 15.2,
+  "productionUse": {
+    "pipelineStage": "edited-to-scheduled",
+    "instruction": "Select the channel skin before YouTube Studio upload and attach the matching render as the approved intro asset.",
+    "verificationCommand": "node scripts/verify-frame-intro-pilot.mjs"
+  },
+  "sourceFiles": {
+    "design": "youtube-content/motion/intro-pilot/DESIGN.md",
+    "frame": "youtube-content/motion/intro-pilot/FRAME.md",
+    "prototype": "youtube-content/motion/intro-pilot/prototype/index.html"
+  },
+  "channels": {
+    "tr": {
+      "label": "TR",
+      "siteCue": "tupbebek.com",
+      "title": "Tüp Bebekte Doğru Bilgi",
+      "identityLine": "Dr. Senai Aksoy | Üreme Sağlığı",
+      "brandColors": {
+        "primary": "#2563a8",
+        "secondary": "#1a4d7a",
+        "accent": "#3a8a66",
+        "surface": "#f0f7ff",
+        "text": "#0f2b4b"
+      },
+      "renders": {
+        "mp4": "youtube-content/motion/intro-pilot/renders/intro-pilot-tr.mp4",
+        "webm": "youtube-content/motion/intro-pilot/renders/intro-pilot-tr.webm"
+      }
+    },
+    "fr": {
+      "label": "FR",
+      "siteCue": "draksoyivf.com",
+      "title": "Comprendre la FIV avec clarté",
+      "identityLine": "Dr. Senai Aksoy | FIV à Istanbul",
+      "brandColors": {
+        "primary": "#094183",
+        "secondary": "#dce9f3",
+        "accent": "#e8578a",
+        "surface": "#ffffff",
+        "text": "#222222"
+      },
+      "renders": {
+        "mp4": "youtube-content/motion/intro-pilot/renders/intro-pilot-fr.mp4",
+        "webm": "youtube-content/motion/intro-pilot/renders/intro-pilot-fr.webm"
+      }
+    }
+  },
+  "guardrails": [
+    "no success-rate claims",
+    "no guarantee language",
+    "no prices or discounts",
+    "no clinic address",
+    "no patient stories",
+    "no promotional medical claims",
+    "no burgundy/gold/cream palette",
+    "no baby imagery",
+    "no pregnant belly imagery",
+    "no patient faces",
+    "no before/after visuals"
+  ]
+}

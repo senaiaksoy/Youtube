@@ -43,6 +43,8 @@ youtube-content/
 ├── 04-hooks-bank.md                   ← 30 anti-pazarlama hook (TR + FR)
 ├── 05-topic-packs-index.md            ← tüm topic-pack'lerin özet listesi + master link
 ├── 06-anchor-rotation-tracker.md      ← anchor cümle + aile üyesi son kullanım kaydı (manuel)
+├── 09-production-pipeline.md          ← canlı üretim pipeline + intro asset kapısı
+├── motion/intro-pilot/                ← TR/FR 15 saniye intro spec + render çıktıları
 └── sync-policy.md                     ← master-mirror senkronizasyon kuralları
 ```
 
@@ -56,6 +58,13 @@ youtube-content/
 4. **`03-script-format-checklist.md`** → süre kategorisi seçimi + bölüm yapısı + Beat D kapanış kontrolü
 5. **`02-compliance-checklist.md`** → script taraması (yasak ifade var mı?)
 6. Çekim sonrası → tracker'ı güncelle (kullanılan üye + tarih)
+
+### Kurgu teslimi / Studio öncesi
+
+1. **`09-production-pipeline.md`** içinde video satırı `edited` durumuna geldiğinde kanalını kontrol et
+2. **`motion/intro-pilot/MANIFEST.json`** içinden TR veya FR intro asset yolunu seç
+3. Final edit paketine ilgili MP4 intro dosyasını ekle
+4. Studio yüklemesinden önce `node scripts/verify-frame-intro-pilot.mjs` çalıştır
 
 ### Yeni topic pack üretimi
 
