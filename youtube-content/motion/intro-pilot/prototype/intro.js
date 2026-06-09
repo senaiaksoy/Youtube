@@ -63,11 +63,14 @@ function replay() {
 }
 
 function updateTimeLabel() {
-  const elapsedSeconds = ((performance.now() - animationStartedAt) / 1000) % 15;
-  const beat = BEATS.find((item) => elapsedSeconds >= item.start && elapsedSeconds < item.end) || BEATS[0];
+  const elapsedSeconds = Math.min((performance.now() - animationStartedAt) / 1000, 14.999);
+  const beat = BEATS.find((item) => elapsedSeconds >= item.start && elapsedSeconds < item.end) || BEATS[BEATS.length - 1];
 
   timeLabel.textContent = `${beat.start.toFixed(1)}s-${beat.end.toFixed(1)}s ${beat.label}`;
-  timeLabelFrame = window.requestAnimationFrame(updateTimeLabel);
+
+  if (elapsedSeconds < 14.999) {
+    timeLabelFrame = window.requestAnimationFrame(updateTimeLabel);
+  }
 }
 
 skinButtons.forEach((button) => {

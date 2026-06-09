@@ -326,3 +326,47 @@ h2 {
     width: 86%;
   }
 }
+
+@media (max-width: 430px) {
+  .prototype-shell {
+    width: min(100vw - 20px, 1180px);
+    padding: 14px 0;
+  }
+
+  .toolbar {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .time-label {
+    flex-basis: 100%;
+  }
+
+  .copy-lockup {
+    width: 86%;
+    padding: 3%;
+  }
+
+  .channel-cue {
+    margin-bottom: 8px;
+    font-size: clamp(10px, 3vw, 13px);
+  }
+
+  h2 {
+    max-width: 19ch;
+    font-size: clamp(21px, 7.2vw, 30px);
+    line-height: 1.03;
+  }
+
+  .accent-rule {
+    height: 3px;
+    margin: 10px 0 8px;
+  }
+
+  .identity-line {
+    max-width: 32ch;
+    font-size: clamp(10px, 3.3vw, 14px);
+    line-height: 1.12;
+  }
+}
