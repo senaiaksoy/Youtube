@@ -50,6 +50,7 @@ updated: 2026-06-09
 ### Yapı
 - [03-script-format-checklist.md](03-script-format-checklist.md) — 5 süre kategorisi (K1-K5) + 7 bölümlü video şablon (4 beat)
 - [05-topic-packs-index.md](05-topic-packs-index.md) — mevcut + planlanan paketler
+- [07-description-library.md](07-description-library.md) — K1-K5 description iskeletleri + 4 konu tipi modifikasyonu + hashtag bankası + UTM + disclaimer eşleme + About blok
 
 ### Motion / edit asset
 - [09-production-pipeline.md](09-production-pipeline.md) — edited → scheduled intro asset kapısı
@@ -59,6 +60,8 @@ updated: 2026-06-09
 
 ### İzleme
 - [06-anchor-rotation-tracker.md](06-anchor-rotation-tracker.md) — son kullanım kaydı
+- [08-post-mortem-template.md](08-post-mortem-template.md) — per-video 7d/14d/28d şablon (instance: `post-mortems/YYYY-MM-DD-[id]-[slug].md`)
+- [09-production-pipeline.md](09-production-pipeline.md) — TR + FR pipeline + measurement queue + FR bulk metadata 2026-05 kohort
 
 ### Sistem
 - [README.md](README.md) — sistemin tanımı + sister-system ilişkisi

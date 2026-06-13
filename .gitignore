@@ -22,6 +22,12 @@ next-env.d.ts
 # runtime data (OAuth tokens, etc.)
 data/
 data/*.json
+youtube-api/token*.json
+youtube-api/oauth-result.json
+youtube-api/oauth-auth-url.txt
+
+# generated/local media exports
+/*.mp4
 
 # logs
 *.log
@@ -36,3 +42,7 @@ Thumbs.db
 # IDE
 .vscode
 .idea
+
+# local worktrees
+.worktrees/
+.claude/worktrees/

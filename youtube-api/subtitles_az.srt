@@ -1,0 +1,435 @@
+1
+00:00:00,000 --> 00:00:11,870
+Süni mayalanma (IVF) prosesində hər kəsin yumurtaya, yumurta keyfiyyətinə və yumurtalıq ehtiyatına diqqət yetirməsi heyranedicidir.
+
+2
+00:00:11,870 --> 00:00:15,370
+Yaxşı, bəs problemin digər yarısı haradadır?
+
+3
+00:00:15,810 --> 00:00:21,930
+Spermlər bu vaxt nə edir? Kafedə qəhvə içirlər?
+
+4
+00:00:21,930 --> 00:00:33,910
+Əgər klassik ICSI (mikroinyeksiya) ilə embrioloqun bir sperm götürüb birbaşa yeritməsi ilə...
+
+5
+00:00:34,410 --> 00:00:40,870
+kişi amili probleminin 100% həll olunduğunu düşünürsünüzsə, böyük bir yanlışlıq içindəsiniz.
+
+6
+00:00:41,530 --> 00:00:48,010
+Standart mikroskop altında, 400 dəfə böyütmədə sperm əla görünür.
+
+7
+00:00:48,010 --> 00:00:54,110
+Buna baxın; gözəl bir baş, yaxşı hərəkətlilik, əsl çempiondur.
+
+8
+00:00:54,730 --> 00:01:05,730
+Lakin həqiqətən yaxınlaşdırsaq, daxili strukturunun xaos olduğunu və DNT-sinin zədələndiyini görərik.
+
+9
+00:01:06,150 --> 00:01:09,030
+Xarici görünüş hər şey demək deyil, cənablar.
+
+10
+00:01:09,030 --> 00:01:14,030
+Məhz burada laboratoriyanın qabaqcıl texnikaları dövrəyə girir.
+
+11
+00:01:14,570 --> 00:01:18,070
+IMSI, PICSI və MACS.
+
+12
+00:01:18,750 --> 00:01:24,510
+Bu gün bu seçimlərin həqiqətən elmi inqilab olduğunu təhlil edəcəyik...
+
+13
+00:01:24,510 --> 00:01:34,330
+yoxsa klinikalar üçün sadəcə "Baxın, yeni bir cihaz almışıq, bunun xərcini çıxarmalıyıq" deməyin bir yoludur.
+
+14
+00:01:34,330 --> 00:01:40,030
+Niyə bu gün inkişaf etmiş sperm seçimindən danışırıq?
+
+15
+00:01:40,030 --> 00:01:43,310
+Tarixi olaraq, sperm analizi (spermoqram) sadədir.
+
+16
+00:01:43,570 --> 00:01:48,650
+Sayırıq, hərəkət edir deyə baxırıq və ümumi formasını yoxlayırıq.
+
+17
+00:01:49,210 --> 00:01:51,870
+Ciddi bir problem varsa, ICSI edirik.
+
+18
+00:01:52,390 --> 00:02:01,430
+Embrioloq mikroskopa baxır, gözlərini qıyır və "Yaxşı, bu pis görünmür, bunu götürək" deyir.
+
+19
+00:02:02,210 --> 00:02:06,710
+Lakin vizual və fərdi qiymətləndirmə seçiminin öz hədləri var.
+
+20
+00:02:07,449 --> 00:02:15,930
+Mayalanma uğursuz olduqda, embrion inkişafı dayandıqda və ya erkən düşüklər təkrarlandıqda,
+
+21
+00:02:16,290 --> 00:02:25,130
+cütlüklər laboratoriyaya gəlib "Həkim, xahiş edirik, bu seçimin daha inkişaf etmiş bir versiyası yoxdur?" deyirlər.
+
+22
+00:02:25,610 --> 00:02:28,830
+Bu videoda üç məsələni aydınlaşdıracağıq.
+
+23
+00:02:28,830 --> 00:02:37,510
+Klassik ICSI ilə bu üçlük arasındakı real texnoloji fərq: IMSI, PICSI və MACS.
+
+24
+00:02:38,170 --> 00:02:45,970
+Kommersiya broşürlərinin deyil, real elmin bunların effektivliyi barədə nə dediyi.
+
+25
+00:02:46,490 --> 00:02:56,610
+Və ən əsası, cütlüyünüzün buna həqiqətən ehtiyacı olub-olmadığı, yoxsa fakturada sadəcə əlavə bir maddə olduğu.
+
+26
+00:02:56,610 --> 00:02:59,550
+IMSI texnikası birincidir.
+
+27
+00:03:00,150 --> 00:03:02,670
+Klassik ICSI üçün 400 dəfə böyüdürük.
+
+28
+00:03:03,050 --> 00:03:07,290
+Spermin başı və quyruğu varmı deyə baxırıq.
+
+29
+00:03:07,950 --> 00:03:11,610
+IMSI ilə böyük silahları dövrəyə salırıq.
+
+30
+00:03:12,550 --> 00:03:14,370
+Böyütmə dərəcəsi tam 6000 dəfə.
+
+31
+00:03:14,730 --> 00:03:23,050
+Bu səviyyədə spermin başındakı vakuolları, yəni kiçik boşluqları görürük.
+
+32
+00:03:23,050 --> 00:03:30,410
+Elm bizə bildirir ki, başda böyük boşluqların olması DNT-nin zədələnməsi deməkdir.
+
+33
+00:03:30,830 --> 00:03:38,370
+Buna görə də IMSI çox gec olmadan bu şübhəli spermləri kənarlaşdırmağa imkan verir.
+
+34
+00:03:38,950 --> 00:03:44,530
+İkinci texnika PICSI-dir, bioloji yetkinlik testi.
+
+35
+00:03:45,250 --> 00:03:47,590
+Burada vizual tərəfi unuduruq.
+
+36
+00:03:47,590 --> 00:03:49,970
+Və yapışma testinə keçirik.
+
+37
+00:03:50,430 --> 00:03:59,370
+Təbiətdə mayalandırmaq üçün sperm yumurtanı əhatə edən hialuron turşusuna yapışmalıdır.
+
+38
+00:03:59,930 --> 00:04:02,190
+Bu, sanki yumurtanın qapısındakı qoruyucudur.
+
+39
+00:04:02,970 --> 00:04:09,110
+Yalnız yetkin və sağlam spermlər buna yapışmaq qabiliyyətinə malikdir.
+
+40
+00:04:09,830 --> 00:04:15,829
+PICSI ilə laboratoriyada petri qablarında xüsusi bir gel vasitəsilə bu mühiti təqlid edirik.
+
+41
+00:04:15,829 --> 00:04:17,890
+Spermləri buraxırıq.
+
+42
+00:04:18,329 --> 00:04:20,350
+Gelə yapışanlar keyfiyyətli olanlardır.
+
+43
+00:04:20,769 --> 00:04:22,710
+Digərləri qapıda kənarlaşdırılır.
+
+44
+00:04:23,110 --> 00:04:27,190
+Nəhayət, MACS, yəni maqnit seçici təmizləmə.
+
+45
+00:04:27,890 --> 00:04:31,250
+Burada qabaqcıl mühəndislikdən danışırıq.
+
+46
+00:04:31,650 --> 00:04:34,310
+Bəzi spermlər çox yaxşı üzür.
+
+47
+00:04:34,710 --> 00:04:36,330
+Və tamamilə sağlam görünürlər.
+
+48
+00:04:36,670 --> 00:04:41,070
+Amma realda daxildən ölməyə başlayıblar.
+
+49
+00:04:41,610 --> 00:04:43,350
+Buna apoptoz (hüceyrə ölümü) deyilir.
+
+50
+00:04:43,350 --> 00:04:46,310
+Hələ özləri bilmir, amma işləri bitib.
+
+51
+00:04:46,570 --> 00:04:54,470
+Bunları kənarlaşdırmaq üçün nümunəni maqnit nano-hissəciklərlə qarışdırırıq.
+
+52
+00:05:00,610 --> 00:05:05,030
+Bu hissəciklər yalnız ölümə məhkum spermlərə yapışır.
+
+53
+00:05:00,610 --> 00:05:05,030
+Sonra nümunəni bir maqnitdən keçiririk.
+
+54
+00:05:05,410 --> 00:05:07,990
+Zədələnmiş olanlar divara yapışıb qalır.
+
+55
+00:08:01,890 --> 00:08:05,790
+Sağlam və təzə olanlar isə süni mayalanma üçün keçir.
+
+56
+00:05:12,150 --> 00:05:14,010
+Təmiz və aydın bir prosesdir.
+
+57
+00:05:14,310 --> 00:05:20,490
+Yaxşı, elmi ədəbiyyat nə deyir? Budur həqiqət anı,
+
+58
+00:05:20,710 --> 00:05:26,850
+çünki klinikaların marketinqinə qulaq assanız, hər bir texnika zəmanətli bir möcüzədir.
+
+59
+00:05:27,430 --> 00:05:29,050
+Həqiqətlərə baxaq.
+
+60
+00:05:29,630 --> 00:05:35,810
+IMSI üçün, Cochrane rəyi, bizə nəzakətlə bildirir:
+
+61
+00:05:35,810 --> 00:05:42,030
+"Təəssüf edirik, amma IMSI-nin klassik ICSI ilə müqayisədə hamı üçün canlı doğum faizini artırdığına dair güclü sübutlar yoxdur".
+
+62
+00:05:50,070 --> 00:05:58,290
+Bəli, bəzən bir az daha az düşük görürük, lakin sübutların səviyyəsi orta və ya aşağı qalır.
+
+64
+00:05:59,090 --> 00:06:01,290
+Bu sehrli çubuq deyil.
+
+65
+00:06:01,290 --> 00:06:11,370
+PICSI üçün, məşhur The Lancet jurnalında dərc olunan və
+
+66
+00:06:12,010 --> 00:06:22,650
+2700-dən çox cütlüyü əhatə edən nəhəng Britaniya tədqiqatı (HABSelect), PICSI-nin ümumi canlı doğum faizini əhəmiyyətli dərəcədə artırmadığını göstərdi.
+
+67
+00:06:22,650 --> 00:06:31,390
+Lakin, klinik cəhətdən çox əhəmiyyətli bir detal olaraq, düşük faizlərində aydın bir azalma nümayiş etdirdi.
+
+68
+00:06:31,870 --> 00:06:33,690
+Budur, istifadə üçün güclü bir arqumentdir.
+
+69
+00:06:34,190 --> 00:06:44,110
+MACS üçün isə məlumatlar zədələnmiş DNT-yə malik spermləri nümunədən effektiv şəkildə təmizlədiyini təsdiqləyir.
+
+70
+00:06:44,490 --> 00:06:50,350
+Bu, kişinin yüksək oksidləşdirici stressə malik olduğu cütlüklər üçün çox faydalıdır.
+
+71
+00:06:50,350 --> 00:06:58,190
+Lakin bunu hər kəsə fərq qoymadan tətbiq etməzdən əvvəl daha böyük miqyaslı araşdırmaları gözləyək.
+
+72
+00:07:01,290 --> 00:07:06,690
+Unutmayın, statistika sadəcə dərsliklər üçün bir ortalamadır.
+
+73
+00:07:07,350 --> 00:07:16,390
+Sizin müalicəniz isə fərdi bir haldır.
+
+74
+00:07:07,350 --> 00:07:16,390
+Həyat yoldaşınızın yaşı, yumurta keyfiyyəti, bütün bunlar laboratoriya alətlərindən qat-qat daha böyük əhəmiyyət kəsb edir.
+
+75
+00:07:16,390 --> 00:07:21,830
+Avtomatik olmadığı üçün, bu inkişaf etmiş seçimləri kimlər istifadə etməlidir?
+
+76
+00:07:22,290 --> 00:07:28,590
+Yaxşı müalicə xidməti ödənişli bir siyahı seçiminə yox, düzgün diaqnoza əsaslanır.
+
+77
+00:07:29,170 --> 00:07:33,850
+Sırf xərc olsun deyə maliyyə yükünü artırmaq istəmirik.
+
+78
+00:07:34,310 --> 00:07:37,890
+Yenə də bu üç xüsusi halda bunları düşünürük:
+
+79
+00:07:38,330 --> 00:07:45,670
+Birincisi, normal formalı spermlərin çox nadir olduğu ciddi teratozoospermiya hallarında.
+
+80
+00:08:01,890 --> 00:08:05,790
+İkincisi, hər cəhddə embrion inkişafının dayandığı bir keçmiş mövcud olduqda.
+
+81
+00:08:01,890 --> 00:08:05,790
+Üçüncüsü, başlanğıcda anormal dərəcədə yüksək vakuol faizi aşkar edildikdə.
+
+82
+00:08:01,890 --> 00:08:05,790
+PICSI və MACS texnikalarına isə bu hallarda üstünlük veririk:
+
+83
+00:08:01,890 --> 00:08:05,790
+Testdə yüksək sperm DNT fraqmentasiyası (zədələnməsi) saptandıqda.
+
+84
+00:08:06,270 --> 00:08:11,270
+Qadın tərəfində heç bir səbəb tapıla bilməzkən təkrarlanan düşüklər olduqda.
+
+85
+00:08:11,630 --> 00:08:13,590
+İrəli ata yaşında.
+
+86
+00:08:13,590 --> 00:08:18,950
+Zaman kişilər üçün də keçir və bu, oksidləşdirici stress yaradır.
+
+87
+00:08:19,130 --> 00:08:28,290
+Lakin klassik sperm analiziniz tamamilə normaldırsa və bu ilk süni mayalanma cəhdinizdirsə, rahat olun.
+
+88
+00:08:28,770 --> 00:08:35,150
+Yaxşı bir embrioloq tərəfindən icra edilən klassik ICSI işinizi tamamilə görəcək.
+
+89
+00:08:35,510 --> 00:08:40,510
+Əgər mühərrik əladırsa, Formula 1 yanacağı doldurmağa ehtiyac yoxdur.
+
+90
+00:08:40,510 --> 00:08:50,470
+Klinik həkim kimi fikrim mütləq bir qanun deyil, sadəcə cütlükləri dinləyib müalicə edərək keçirdiyim illərin bəhrəsidir.
+
+91
+00:08:50,890 --> 00:08:55,150
+Reproduktiv təbabətdə möcüzələr yoxdur, dostlarım.
+
+92
+00:09:02,410 --> 00:09:09,570
+Biologiyada təbiət bizə mütləq həqiqətlər yox, meyllər və ehtimallar təqdim edir.
+
+93
+00:09:02,410 --> 00:09:09,570
+Texnologiyaya uğur 100% zəmanətli imiş kimi etibar edə bilmərik.
+
+94
+00:09:09,570 --> 00:09:12,950
+Dünyanın ən yaxşı laboratoriyasına sahib ola bilərsiniz.
+
+95
+00:09:13,590 --> 00:09:17,030
+Və spermləri kosmik lazerlərlə seçə bilərik.
+
+96
+00:09:17,810 --> 00:09:27,390
+Lakin yumurtada yaşa bağlı xromosom anomaliyaları varsa və ya uşaqlıq daxili qişası embrionu qəbul etməyə hazır deyilsə,
+
+97
+00:09:27,970 --> 00:09:32,810
+təkcə sperm seçimi vəziyyəti xilas edə bilməz.
+
+98
+00:09:32,810 --> 00:09:34,860
+Yanaşmam praktik və realdır.
+
+99
+00:09:35,690 --> 00:09:42,690
+Bu alətləri xəstələrin maliyyə yükünü artırmaq üçün marketinq arqumenti kimi istifadə etməyək.
+
+100
+00:10:06,530 --> 00:10:13,510
+Bunun əvəzinə, həqiqətən ehtiyacı olan cütlükləri hədəfləyək.
+
+101
+00:10:06,530 --> 00:10:13,510
+İzah edilə bilməyən uğursuzluqlarla qarşılaşanları.
+
+102
+00:10:06,530 --> 00:10:13,510
+Məhz bu fərdi müalicədə texnologiyanın real dəyəri özünü göstərir.
+
+103
+00:10:06,530 --> 00:10:13,510
+Sonsuzluq biologiyası haqqında daha çox məlumat əldə etmək və laboratoriya arxasını anlamaq üçün,
+
+104
+00:10:06,530 --> 00:10:13,510
+draksoyivf.com saytımızda ətraflı məqalələr hazırlamışam.
+
+105
+00:10:13,890 --> 00:10:20,690
+Suallarınız varsa və ya bu texnikalarla bağlı öz təcrübənizi bölüşmək istəyirsinizsə,
+
+106
+00:10:21,090 --> 00:10:23,370
+aşağıda bir şərh buraxın.
+
+107
+00:10:23,370 --> 00:10:28,470
+Növbəti videolarda sizinlə müzakirə aparmaqdan məmnun olarıq.
+
+108
+00:10:28,910 --> 00:10:33,630
+Və əlbəttə ki, unutmayın, bütün bu məzmunlar yalnız məlumat xarakterlidir.
+
+109
+00:10:34,370 --> 00:10:42,190
+Heç vaxt həkiminizin real bir konsultasiyasının və fərdi rəyinin yerini ala bilməz.
+
+110
+00:10:43,370 --> 00:10:45,530
+Yaxşı, tezliklə görüşənədək, hələlik!

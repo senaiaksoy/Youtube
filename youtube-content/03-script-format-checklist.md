@@ -95,27 +95,28 @@ Tam yasak kapanış bankası + güvenli alternatifler: [[wiki/brand/voice]] §"Y
 
 ### 6. Description metni
 
-Yapı:
+> **Tam description kütüphanesi:** [07-description-library.md](07-description-library.md) — K1-K5 iskeletleri (TR + FR), 4 konu tipi modifikasyonu (kavram açıklayıcı / pazarlama eleştirisi / kılavuz değerlendirme / hassas konu), hashtag bankası, UTM konvansiyonu, disclaimer eşleme tablosu, About blok, sabitlenmiş yorum şablonu, mevcut video backfill stratejisi.
+
+Hızlı iskelet (K3 standart pillar):
 
 ```
-[Başlık tekrarı]
+[Snippet — ilk 150 karakter, anahtar kelime + yıl + vaat]
 
-[Konu özeti - 2-3 cümle]
+📌 Detaylı yazı: https://[domain]/[slug]?utm_source=youtube&utm_medium=description&utm_campaign=[pack-id]
 
-İçindekiler (K3 standart pillar örnek — 5-7 chapter):
+⏱ İçindekiler (5-7 chapter)
 00:00 Hook
-01:00 Bağlam
-03:00 [Beat A — Konsept]
-06:00 [Beat B — Kanıt]
-09:00 [Beat C — Klinik karar]
-10:30 [Beat D — Yorum]
-12:00 Kaynaklar
+00:45 Bağlam
+02:00 [Beat A]
+05:00 [Beat B]
+08:30 [Beat C]
+11:00 [Beat D]
 
-🔗 Detay: [domain]/[slug]?utm_source=youtube&utm_medium=video&utm_campaign=[pack-id]
+📚 Kaynaklar (3-5 referans, kılavuz + ana RCT)
+ℹ️ Hakkında (07-library §"About blok" — sabit metin)
+⚠️ [Disclaimer — konu tipine göre, 07-library §"Disclaimer eşleme tablosu"]
 
-📌 Bilgilendirme: Bu içerik tıbbi değerlendirme yerine geçmez.
-
-#hashtag1 #hashtag2 #hashtag3
+#TüpBebek #İVF #ÜremeSağlığı [+ konu hashtag'i]
 ```
 
 ### 7. Sabitlenmiş yorum

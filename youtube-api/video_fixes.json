@@ -2,15 +2,15 @@
   {
     "video_id": "-i981BtfKVY",
     "title": "ERA Testi Nedir? Tüp Bebekte Gerekli mi?",
-    "description_hook": null,
-    "hashtags": null,
+    "description_hook": "ERA testi (Endometrial Receptivity Analysis) her hasta için gerçekten gerekli mi? Bu kısa videoda testin neyi ölçtüğünü, kimlerde düşünülebileceğini ve gereksiz kullanımın neden sorun olabileceğini hızlıca özetliyorum.",
+    "hashtags": ["#ERAtesti", "#tüpbebek", "#IVF", "#infertilite", "#drsenaiaksoy"],
     "tags": ["ERA testi", "tüp bebek", "IVF", "infertilite", "endometrial receptivity", "Dr Senai Aksoy"],
-    "standardize_disclaimer": false
+    "standardize_disclaimer": true
   },
   {
     "video_id": "b8wT1pAbX3A",
     "title": "ERA Testi Hamile Kalma Şansını Düşürür mü? (JAMA 2022)",
-    "description_hook": "ERA testi tüp bebek başarısını artırıyor mu, yoksa şansınızı düşürüyor mu? JAMA 2022 ve bağımsız araştırmaları analiz ediyorum — retrakte edilen meta-analiz, HFEA kırmızı bayrak ve ABD toplu davaları dahil.",
+    "description_hook": "ERA testi tüp bebek başarısını artırıyor mu, yoksa şansınızı düşürüyor mu? JAMA 2022 ve bağımsız araştırmaları analiz ediyorum; retrakte edilen meta-analiz, HFEA uyarıları ve klinikte hastaya gerçekten ne kattığı dahil.",
     "hashtags": ["#ERAtesti", "#tüpbebek", "#ivf", "#infertilite", "#JAMA", "#drsenaiaksoy"],
     "tags": ["ERA testi", "JAMA 2022", "tüp bebek", "IVF", "endometrial receptivity analysis", "infertilite", "HFEA"],
     "standardize_disclaimer": true
@@ -34,7 +34,7 @@
   {
     "video_id": "oyBpALzZzEU",
     "title": null,
-    "description_hook": "Tüp bebek öncesi rahim çizme (endometrial scratching) embriyonun tutunmasını kolaylaştırır mı? Cochrane verileri ve ESHRE 2023 önerisiyle bu popüler işlemin bilimsel gerçeğini açıklıyorum.",
+    "description_hook": "Tüp bebek öncesi rahim çizme embriyonun tutunmasını gerçekten artırır mı? Bu videoda Cochrane verileri ve güncel kılavuzlarla bu işlemin hangi hastada anlamlı, hangi hastada gereksiz olduğunu net biçimde anlatıyorum.",
     "hashtags": ["#rahimçizme", "#tüpbebek", "#ivf", "#embriyotransferi", "#infertilite", "#drsenaiaksoy"],
     "tags": ["rahim çizme", "endometrial scratching", "tüp bebek", "IVF", "embriyo transferi", "Cochrane", "ESHRE"],
     "standardize_disclaimer": true
@@ -42,7 +42,7 @@
   {
     "video_id": "DbCrz_VPyC4",
     "title": "Bağışıklık Serumları Tüp Bebekte İşe Yarıyor mu?",
-    "description_hook": "Tüp bebek transferi öncesi intralipid, IVIG veya takrolimus önerildi mi? Binlerce lira harcamadan önce bu tedavilerin bilimsel kanıtlarını (ESHRE meta-analiz) ve ciddi yan etkilerini öğrenin.",
+    "description_hook": "İntralipid, IVIG veya benzeri bağışıklık serumları tüp bebekte başarıyı gerçekten artırıyor mu? Harcama ve umut yükselmeden önce bilimsel kanıtı, riskleri ve hangi iddiaların abartılı olduğunu birlikte netleştirelim.",
     "hashtags": ["#bağışıklıkserumu", "#tüpbebek", "#ivf", "#intralipid", "#infertilite", "#drsenaiaksoy"],
     "tags": null,
     "standardize_disclaimer": true
@@ -50,7 +50,7 @@
   {
     "video_id": "GP809hiOu_Y",
     "title": "Tüp Bebek Öncesi Histeroskopi Şart mı?",
-    "description_hook": "Ultrasonda hiçbir sorun görünmese bile tüp bebek öncesi histeroskopi yaptırmalı mısınız? Cochrane verileri ve ESHRE 2023 önerisiyle tarama histeroskopisinin kime fayda sağladığını, kime gereksiz olduğunu açıklıyorum.",
+    "description_hook": "Ultrasonda her şey normal görünse bile tüp bebek öncesi histeroskopi yaptırmak gerekir mi? Bu videoda tarama histeroskopisinin kime fayda sağlayabileceğini, kime sadece ek işlem yükü getirdiğini anlatıyorum.",
     "hashtags": ["#histeroskopi", "#tüpbebek", "#ivf", "#rahim", "#infertilite", "#drsenaiaksoy"],
     "tags": ["histeroskopi", "tanısal histeroskopi", "tüp bebek", "IVF", "rahim", "Cochrane", "ESHRE 2023"],
     "standardize_disclaimer": true
@@ -58,7 +58,7 @@
   {
     "video_id": "wybruaMaIdY",
     "title": "Embryo Glue Gerçekten İşe Yarıyor mu?",
-    "description_hook": "Tüp bebek tedavisinde \"embriyo yapıştırıcısı\" (Embryo Glue) gerçekten mucize mi, yoksa sadece pazarlama mı? Cochrane verilerini, CD44 reseptör mekanizmasını ve hangi hastalarda fark yaratabileceğini bilimsel şeffaflıkla anlatıyorum.",
+    "description_hook": "Embryo Glue gerçekten embriyonun tutunmasını artıran güçlü bir araç mı, yoksa pazarlaması etkili bir ek uygulama mı? Bilimsel verileri, hasta seçimini ve beklentinin nerede gerçekçi olması gerektiğini açıklıyorum.",
     "hashtags": ["#embryoglue", "#tüpbebek", "#ivf", "#embriyo", "#embriyotransferi", "#drsenaiaksoy"],
     "tags": null,
     "standardize_disclaimer": true
@@ -66,7 +66,7 @@
   {
     "video_id": "8Dx-f4ea6h4",
     "title": "Embriyoskop ve Yapay Zeka: Tüp Bebekte Ne Değişti?",
-    "description_hook": "Embriyoskop ve yapay zeka tüp bebek başarısını gerçekten artırıyor mu? İmplantasyon oranını %10-15 artırdığını gösteren verileri, yaygın mitleri (cinsiyet tahmini, kader) ve teknolojinin gerçek sınırlarını anlatıyorum.",
+    "description_hook": "Embriyoskop ve yapay zeka tüp bebekte gerçekten oyunu değiştiriyor mu? Bu videoda implantasyon seçimi, embriyo takibi ve teknolojinin sandığınızdan daha sınırlı kalan taraflarını sade şekilde anlatıyorum.",
     "hashtags": ["#embriyoskop", "#yapayzeka", "#tüpbebek", "#ivf", "#embriyo", "#drsenaiaksoy"],
     "tags": ["embriyoskop", "yapay zeka", "tüp bebek", "IVF", "embriyo seçimi", "time-lapse", "iDAScore"],
     "standardize_disclaimer": true
@@ -75,8 +75,8 @@
     "video_id": "w29IsrwxHWA",
     "title": null,
     "description_hook": "42 yaşında 20 yumurta dondurmak anne olmak için garanti mi? Yaşınıza göre kaç yumurta hedeflenmeli, tek bir yumurtanın şansı nedir ve vitrifikasyon teknolojisi ne değiştirdi? Bilimsel verilerle ve dürüstçe anlatıyorum.",
-    "hashtags": null,
-    "tags": null,
+    "hashtags": ["#yumurtadondurma", "#tüpbebek", "#ivf", "#infertilite", "#drsenaiaksoy"],
+    "tags": ["yumurta dondurma", "fertility preservation", "vitrifikasyon", "tüp bebek", "IVF", "infertilite"],
     "standardize_disclaimer": true
   },
   {
@@ -90,7 +90,7 @@
   {
     "video_id": "yT2dmjxZ3Qs",
     "title": "4AA, 3BB, 5BC Embriyo Ne Demek? Kalite Rehberi",
-    "description_hook": "Laboratuvar raporunda 4AA, 3BB veya 5BC gördünüz ve panik mi oldunuz? Bu videoda embriyo kalitesi sınıflamasını (Gardner sistemi) sade bir dille anlatıyorum — düşük skorlu embriyoyla gebelik olur mu, \"mükemmel\" embriyo garanti midir?",
+    "description_hook": "Embriyo raporunuzda 4AA, 3BB veya 5BC yazıyor ve ne anlama geldiğini merak mı ediyorsunuz? Bu videoda embriyo kalite derecelerini, başarı ihtimaliyle ilişkisini ve hastaların en sık yanlış anladığı noktaları açıklıyorum.",
     "hashtags": ["#embriyo", "#embriyokalitesi", "#tüpbebek", "#ivf", "#blastokist", "#drsenaiaksoy"],
     "tags": null,
     "standardize_disclaimer": true
@@ -114,7 +114,7 @@
   {
     "video_id": "-FxkIwmlO9g",
     "title": "Endometriozis ve Kısırlık: 2025 Yeni Tedavi Stratejileri",
-    "description_hook": "Endometriozis (çikolata kisti) varsa önce ameliyat mı, yoksa doğrudan tüp bebek mi? 2025'in en güncel bilimsel rehberleriyle (skleroterapi, freeze-all protokolü, hormonsuz yeni ilaçlar) kişiye özel strateji seçeneklerini anlatıyorum.",
+    "description_hook": "Endometriozis varsa önce ameliyat mı, doğrudan tüp bebek mi daha doğru? Bu videoda güncel rehberler, kişiye göre değişen stratejiler ve zaman kaybına yol açabilecek yanlış sıralamaları konuşuyoruz.",
     "hashtags": ["#endometriozis", "#çikolatakisti", "#kısırlık", "#tüpbebek", "#ivf", "#drsenaiaksoy"],
     "tags": null,
     "standardize_disclaimer": true

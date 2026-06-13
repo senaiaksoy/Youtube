@@ -22,6 +22,8 @@ Sonuca göre değerlendirme yaparken hormon profili (FSH, LH, testosteron), fizi
 
 Eşinizin sonuçlarını ve sizin değerlendirmenizi birlikte bir uzmanla incelemeniz en doğru yol olur.
 
+Detaylı bilgi için IMSI, PICSI ve MACS gibi gelişmiş sperm seçimi yöntemlerini anlattığım videomu izleyebilirsiniz: https://youtu.be/pqc9UgCIqo0 (Videoda İngilizce ve Arapça seslendirme ile altyazı seçenekleri mevcuttur.)
+
 ## 🇫🇷 FR
 
 Bonjour, tous mes vœux de rétablissement.
@@ -31,6 +33,8 @@ Une diminution du nombre, de la mobilité ou de la morphologie au spermogramme p
 L'évaluation prend également en compte le profil hormonal (FSH, LH, testostérone), l'examen clinique, la présence d'une varicocèle et, si nécessaire, des analyses génétiques. Le choix thérapeutique —surveillance, insémination, ICSI ou prélèvement chirurgical de spermatozoïdes— se décide dans cet ensemble.
 
 Le mieux est de faire évaluer les résultats de votre conjoint avec votre propre bilan par un spécialiste.
+
+Pour plus d'informations, vous pouvez visionner ma vidéo expliquant les techniques avancées de sélection des spermatozoïdes comme l'IMSI, la PICSI et le MACS : https://youtu.be/pqc9UgCIqo0 (La vidéo est disponible avec doublage et sous-titres en anglais et en arabe.)
 
 ## 🇬🇧 EN
 
@@ -42,6 +46,8 @@ Evaluation also considers the hormonal profile (FSH, LH, testosterone), physical
 
 The best approach is to have your partner's results reviewed alongside your own evaluation by a specialist.
 
+For more information, you can watch my video explaining advanced sperm selection methods such as IMSI, PICSI, and MACS: https://youtu.be/pqc9UgCIqo0 (English and Arabic dubbing and subtitles are available in the video settings.)
+
 ## 🇸🇦 AR
 
 مرحباً، أتمنى لك الشفاء.
@@ -51,3 +57,6 @@ The best approach is to have your partner's results reviewed alongside your own 
 يأخذ التقييم في الاعتبار أيضاً الملف الهرموني (FSH، LH، التستوستيرون)، الفحص السريري، وجود دوالي الخصية، وإذا لزم الأمر، الفحوصات الجينية. يتم اختيار العلاج —المتابعة، التلقيح الصناعي، الحقن المجهري ICSI، أو استخراج الحيوانات المنوية جراحياً— ضمن هذه الصورة الكاملة.
 
 أفضل طريقة هي مراجعة نتائج زوجك مع تقييمك الخاص لدى أخصائي.
+
+لمزيد من المعلومات، يمكنك مشاهدة مقطع الفيديو الخاص بي الذي يشرح طرق اختيار الحيوانات المنوية المتقدمة مثل IMSI و PICSI و MACS: https://youtu.be/pqc9UgCIqo0 (يتوفر الدبلجة والترجمة باللغتين الإنجليزية والعربية في إعدادات الفيديو.)
+

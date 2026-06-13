@@ -1,0 +1,427 @@
+1
+00:00:00,000 --> 00:00:11,870
+U IVF procesu, fascinantno je, svi su fokusirani na jajnu ćeliju - oh, kvalitet jajnih ćelija, oh, ovarijalna rezerva.
+
+2
+00:00:11,870 --> 00:00:15,370
+U redu, ali šta je sa drugom polovinom problema?
+
+3
+00:00:15,810 --> 00:00:21,930
+Spermatozoidi, šta oni rade za to vreme? Piju kafu na terasi?
+
+4
+00:00:21,930 --> 00:00:33,910
+Ako mislite da se sa klasičnim ICSI-jem, mikroinjekcijom gde embriolog uzme spermatozoid i direktno ga ubaci...
+
+5
+00:00:34,410 --> 00:00:40,870
+problem muškog faktora rešava 100%, u velikoj ste zabludi.
+
+6
+00:00:41,530 --> 00:00:48,010
+Pod standardnim mikroskopom, na uvećanju od 400 puta, spermatozoid izgleda super.
+
+7
+00:00:48,010 --> 00:00:54,110
+Pogledajte samo ovo; lepa glava, dobra pokretljivost, pravi šampion.
+
+8
+00:00:54,730 --> 00:01:05,730
+Ali ako zaista zumiramo, otkrivamo da je njegova unutrašnja struktura u kaosu, a DNA oštećena.
+
+9
+00:01:06,150 --> 00:01:09,030
+Fizički izgled nije sve, gospodo.
+
+10
+00:01:09,030 --> 00:01:14,030
+Tu na scenu stupaju napredne laboratorijske tehnike.
+
+11
+00:01:14,570 --> 00:01:18,070
+IMSI, PICSI i MACS.
+
+12
+00:01:18,750 --> 00:01:24,510
+Danas ćemo analizirati da li su ove opcije zaista naučne revolucije...
+
+13
+00:01:24,510 --> 00:01:34,330
+ili samo način da klinike kažu: "Pogledajte, kupili smo novu mašinu, moramo je isplatiti".
+
+14
+00:01:34,330 --> 00:01:40,030
+Zašto danas govorimo o naprednom odabiru spermatozoida?
+
+15
+00:01:40,030 --> 00:01:43,310
+Istorijski gledano, analiza sperme (spermogram) je jednostavna.
+
+16
+00:01:43,570 --> 00:01:48,650
+Brojimo, gledamo da li se kreće i proveravamo opšti oblik.
+
+17
+00:01:49,210 --> 00:01:51,870
+Ako je situacija kritična, radimo ICSI.
+
+18
+00:01:52,390 --> 00:02:01,430
+Embriolog pogleda u mikroskop, skupi oči i kaže: "Hajde, ovaj ne izgleda loše, uzećemo njega".
+
+19
+00:02:02,210 --> 00:02:06,710
+Ali odabir na osnovu vizuelnog procenjivanja ima svoja ograničenja.
+
+20
+00:02:07,449 --> 00:02:15,930
+Kada oplodnja ne uspe, kada se embrioni prestanu razvijati ili se rani pobačaji ponavljaju,
+
+21
+00:02:16,290 --> 00:02:25,130
+parovi dolaze u laboratoriju govoreći: "Doktore, molim vas, zar nemate PRO-MAX verziju selekcije?"
+
+22
+00:02:25,610 --> 00:02:28,830
+U ovom videu ćemo razjasniti tri stvari.
+
+23
+00:02:28,830 --> 00:02:37,510
+Prava tehnološka razlika između klasičnog ICSI-ja i ovog trija: IMSI, PICSI i MACS.
+
+24
+00:02:38,170 --> 00:02:45,970
+Šta kaže prava nauka, a ne komercijalne brošure, o njihovoj efikasnosti.
+
+25
+00:02:46,490 --> 00:02:56,610
+I iznad svega, kako znati da li je vašem paru to zaista potrebno ili je to samo dodatna stavka na računu.
+
+26
+00:02:56,610 --> 00:02:59,550
+IMSI je prva.
+
+27
+00:03:00,150 --> 00:03:02,670
+Za klasični ICSI, uvećavamo 400 puta.
+
+28
+00:03:03,050 --> 00:03:07,290
+Vidimo da li spermatozoid ima glavu i rep.
+
+29
+00:03:07,950 --> 00:03:11,610
+Sa IMSI-jem, uvodimo tešku artiljeriju.
+
+30
+00:03:12,550 --> 00:03:14,370
+Uvećanje od 6.000 puta.
+
+31
+00:03:14,730 --> 00:03:23,050
+Na tom nivou vidimo vakuole, neku vrstu malih rupa u glavi spermatozoida.
+
+32
+00:03:23,050 --> 00:03:30,410
+Nauka nam kaže da velike rupe u glavi znače oštećenu DNA.
+
+33
+00:03:30,830 --> 00:03:38,370
+Zato nam IMSI omogućava da eliminišemo ove sumnjive profile pre nego što bude kasno.
+
+34
+00:03:38,950 --> 00:03:44,530
+Druga stvar je PICSI, test biološke zrelosti.
+
+35
+00:03:45,250 --> 00:03:47,590
+Ovde zaboravljamo vizuelni deo.
+
+36
+00:03:47,590 --> 00:03:49,970
+Prelazimo na test prepreka.
+
+37
+00:03:50,430 --> 00:03:59,370
+U prirodi, da bi oplodio, spermatozoid se mora zakačiti za hijaluronsku kiselinu koja okružuje jajnu ćeliju.
+
+38
+00:03:59,930 --> 00:04:02,190
+To je obezbeđenje na ulazu.
+
+39
+00:04:02,970 --> 00:04:09,110
+Samo zreli i zdravi spermatozoidi imaju VIP propusnicu za vezivanje.
+
+40
+00:04:09,830 --> 00:04:15,829
+U PICSI-ju, mi rekreiramo taj proces u laboratoriji koristeći poseban gel u petrijevim posudama.
+
+41
+00:04:15,829 --> 00:04:17,890
+Pustimo spermatozoide.
+
+42
+00:04:18,329 --> 00:04:20,350
+Oni koji se vežu za gel su dobri.
+
+43
+00:04:20,769 --> 00:04:22,710
+Ostali se odbijaju na ulazu.
+
+44
+00:04:23,110 --> 00:04:27,190
+Na kraju, MACS, magnetno selektivno sortiranje.
+
+45
+00:04:27,890 --> 00:04:31,250
+Tu smo već u domenu visoke tehnologije.
+
+46
+00:04:31,650 --> 00:04:34,310
+Neki spermatozoidi plivaju veoma dobro.
+
+47
+00:04:34,710 --> 00:04:36,330
+Izgledaju u punoj formi.
+
+48
+00:04:36,670 --> 00:04:41,070
+Ali u stvarnosti, oni već umiru iznutra.
+
+49
+00:04:41,610 --> 00:04:43,350
+To se zove apoptoza.
+
+50
+00:04:43,350 --> 00:04:46,310
+Oni to još ne znaju, ali njihovo vreme je prošlo.
+
+51
+00:04:46,570 --> 00:04:54,470
+Da bismo ih eliminisali, pomiešamo uzorak sa magnetnim nanočesticama.
+
+52
+00:05:00,610 --> 00:05:05,030
+Ove čestice se kače samo za osuđene spermatozoide.
+
+53
+00:05:00,610 --> 00:05:05,030
+Zatim sve propuštamo kroz magnet.
+
+54
+00:05:05,410 --> 00:05:07,990
+Oštećeni ostaju zalepljeni za zid.
+
+55
+00:08:01,890 --> 00:08:05,790
+A zdravi i sveži prolaze za IVF.
+
+56
+00:05:12,150 --> 00:05:14,010
+Čist i jasan proces.
+
+57
+00:05:14,310 --> 00:05:20,490
+Pa, šta kaže naučna literatura? Ovo je trenutak istine,
+
+58
+00:05:20,710 --> 00:05:26,850
+jer ako slušate marketing klinika, svaka tehnika je garantovano čudo.
+
+59
+00:05:27,430 --> 00:05:29,050
+Pogledajmo činjenice.
+
+60
+00:05:29,630 --> 00:05:35,810
+Za IMSI, Cochrane pregled, nam ljubazno kaže:
+
+61
+00:05:35,810 --> 00:05:42,030
+"Žao nam je, ali nema čvrstih dokaza koji pokazuju da IMSI povećava stopu živorođene dece u poređenju sa klasičnim ICSI-jem za sve pacijente."
+
+65
+00:06:01,290 --> 00:06:11,370
+Za PICSI, velika britanska studija, HABSelect studija objavljena u The Lancetu,
+
+66
+00:06:12,010 --> 00:06:22,650
+obuhvatila je više od 2700 parova, pokazala je da PICSI nije značajno povećala stopu živorođenosti.
+
+67
+00:06:22,650 --> 00:06:31,390
+Ali, i to je veliko kliničko "ali", pokazala je jasan pad stope pobačaja.
+
+68
+00:06:31,870 --> 00:06:33,690
+To je veoma jak argument za upotrebu.
+
+69
+00:06:34,190 --> 00:06:44,110
+Za MACS, podaci potvrđuju da efikasno čisti uzorak od spermatozoida sa oštećenom DNA.
+
+70
+00:06:44,490 --> 00:06:50,350
+To je veoma korisno za parove gde muškarac ima visok oksidativni stres.
+
+71
+00:06:50,350 --> 00:06:58,190
+Ali pre nego što ga svima rutinski radimo, sačekajmo studije većeg obima.
+
+72
+00:06:58,530 --> 00:07:03,610
+Zapamtite jednu stvar, statistika je samo prosečna vrednost za školske knjige.
+
+73
+00:07:07,350 --> 00:07:16,390
+Vaš tretman je jedinstven.
+
+74
+00:07:07,350 --> 00:07:16,390
+Starost vaše partnerke, kvalitet jajnih ćelija, sve to teži mnogo više na vagi od bilo kojeg laboratorijskog alata.
+
+75
+00:07:16,390 --> 00:07:21,830
+Budući da nije automatski, kome su onda namenjene ove premium opcije?
+
+76
+00:07:22,290 --> 00:07:28,590
+Dobra briga se zasniva na tačnoj dijagnozi, a ne na katalogu plaćenih opcija.
+
+77
+00:07:29,170 --> 00:07:33,850
+Ne želimo da uvećavamo troškove samo da bismo to uradili.
+
+78
+00:07:34,310 --> 00:07:37,890
+Ipak, razmišljamo o tome u tri specifična slučaja:
+
+79
+00:07:38,330 --> 00:07:45,670
+Prvo, teška teratozoospermija, kada se normalni oblici mogu izbrojati na prste jedne ruke.
+
+80
+00:08:01,890 --> 00:08:05,790
+Drugo, istorija prestanka razvoja embriona pri svakom prethodnom pokušaju.
+
+81
+00:08:01,890 --> 00:08:05,790
+Treće, ako je na početku otkrivena abnormalno visoka stopa vakuola.
+
+82
+00:08:01,890 --> 00:08:05,790
+Tehnike PICSI i MACS koristimo kada imamo:
+
+83
+00:08:01,890 --> 00:08:05,790
+Visok nivo fragmentacije DNA spermatozoida na testu.
+
+84
+00:08:06,270 --> 00:08:11,270
+Ponavljajuće pobačaje bez pronađenog uzroka na ženskoj strani.
+
+85
+00:08:11,630 --> 00:08:13,590
+Napredne godine oca.
+
+86
+00:08:13,590 --> 00:08:18,950
+Vreme teče i za muškarce, a to stvara oksidativni stres.
+
+87
+00:08:19,130 --> 00:08:28,290
+Ali ako je vaša klasična analiza sperme potpuno u redu i ovo vam je prva IVF, budite mirni.
+
+88
+00:08:28,770 --> 00:08:35,150
+Klasični ICSI koji uradi dobar embriolog biće sasvim dovoljan.
+
+89
+00:08:35,510 --> 00:08:40,510
+Ako je motor odličan, nema potrebe za sipanjem goriva za Formulu 1.
+
+90
+00:08:40,510 --> 00:08:50,470
+Moje kliničko mišljenje nije sveto pismo, to je samo plod godina provedenih slušajući i lečeći parove.
+
+91
+00:08:50,890 --> 00:08:55,150
+U medicini reprodukcije nema čuda, prijatelji moji.
+
+92
+00:09:02,410 --> 00:09:09,570
+U biologiji nam priroda daje tendencije i verovatnoće, a ne apsolutne sigurnosti.
+
+93
+00:09:02,410 --> 00:09:09,570
+Ne možemo se kladiti na tehnologiju kao da je uspeh 100% garantovan.
+
+94
+00:09:09,570 --> 00:09:12,950
+Možete imati najbolju laboratoriju na svetu.
+
+95
+00:09:13,590 --> 00:09:17,030
+Odabirati spermu svemirskim laserima.
+
+96
+00:09:17,810 --> 00:09:27,390
+Ali ako jajna ćelija ima hromozomske abnormalnosti povezane sa godinama ili ako endometrijum nije spreman da primi embrion,
+
+97
+00:09:27,970 --> 00:09:32,810
+sam odabir sperme neće spasiti situaciju.
+
+98
+00:09:32,810 --> 00:09:34,860
+Moj pristup je pragmatičan i realan.
+
+99
+00:09:35,690 --> 00:09:42,690
+Nemojmo koristiti ove alate kao marketinške argumente za povećanje finansijskog tereta pacijenata.
+
+100
+00:10:06,530 --> 00:10:13,510
+Umesto toga, usmerimo ih tačno na parove kojima su zaista potrebni.
+
+101
+00:10:06,530 --> 00:10:13,510
+One koji se suočavaju sa neobjašnjivim neuspesima.
+
+102
+00:10:06,530 --> 00:10:13,510
+Tu, u ovoj personalizovanoj medicini prilagođenoj svakom slučaju, leži prava vrednost tehnologije.
+
+103
+00:10:06,530 --> 00:10:13,510
+Da biste saznali više o biologiji plodnosti i razumeli šta se dešava u laboratoriji,
+
+104
+00:10:06,530 --> 00:10:13,510
+napisao sam opširne članke na našoj veb stranici draksoyivf.com.
+
+105
+00:10:13,890 --> 00:10:20,690
+Ako imate pitanja ili želite podeliti svoje iskustvo sa ovim tehnikama,
+
+106
+00:10:21,090 --> 00:10:23,370
+ostavite komentar ispod.
+
+107
+00:10:23,370 --> 00:10:28,470
+Rado ćemo razgovarati i diskutovati sa vama u narednim video zapisima.
+
+108
+00:10:28,910 --> 00:10:33,630
+I naravno, ne zaboravite da je sav ovaj sadržaj samo informativnog karaktera.
+
+109
+00:10:34,370 --> 00:10:42,190
+Nikada ne zamenjuje pravu medicinsku konsultaciju i lično mišljenje vašeg lekara specijaliste.
+
+110
+00:10:43,370 --> 00:10:45,530
+U redu, vidimo se uskoro, ćao!

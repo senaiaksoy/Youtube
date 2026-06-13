@@ -85,7 +85,7 @@ Amaç: "robotik sekreter" değil, "tecrübeli doktorun kısa ama insani cevabı.
 
 ## Kategori Tespiti (AI için)
 
-Hastanın yorumundaki anahtar kelimelerle kategori belirle:
+Hastanın yorumundaki anahtar kelimelerle kategori belirle. **Hassas kategoriler** ⚠️ işaretlidir; bu şablonlarda sade-empatik dil kullanılır, hiçbir metafor / aile üyesi cümle eklenmez (`youtube-content/00-INDEX.md` METAFOR YASAK listesi ile uyumlu).
 
 | Anahtar Kelimeler | Kategori |
 |---|---|
@@ -95,8 +95,41 @@ Hastanın yorumundaki anahtar kelimelerle kategori belirle:
 | "tüpler kapalı", "hidrosalpenks", "HSG" | 05-tupler-kapali |
 | "embriyo kalitesi", "blastokist", "grade" | 06-embriyo-kalitesi |
 | "transfer sonrası", "beta öncesi", "belirti" | 07-transfer-sonrasi |
-| "tutmadı", "başarısız", "tekrarlayan" | 08-tekrarlayan-basarisizlik |
+| "tutmadı", "başarısız", "tekrarlayan başarısız siklus" | 08-tekrarlayan-basarisizlik |
 | "sperm", "azospermi", "OAT", "morfoloji", "motilite" | 10-erkek-faktoru |
 | "PCOS", "polikistik over", "adet düzensizliği", "insülin direnci" | 11-pcos |
 | "endometriozis", "çikolata kisti", "endometrioma", "adenomyozis" | 12-endometriozis |
+| ⚠️ "POI", "POF", "erken menopoz", "prematür over yetmezliği", "40 yaş altı menopoz", "IOP" | 13-poi-pof |
+| ⚠️ "tekrarlayan düşük", "tekrarlayan gebelik kaybı", "ardışık düşük", "RPL", "habituel abortus", "fausses couches à répétition" | 14-tekrarlayan-gebelik-kaybi |
+| ⚠️ "donör yumurta", "yumurta bağışı", "donörlü tüp bebek", "yurtdışı donör", "don d'ovocytes" | 15-donor-yumurta-tr |
+| ⚠️ "kanser", "kemoterapi", "radyoterapi", "fertilite koruma", "yumurta dondurma kanser öncesi", "onkofertilite" | 16-kanser-fertility-preservation |
+| ⚠️ "40 yaş üstü tüp bebek", "43 yaş", "45 yaş gebelik", "ileri yaş", "geç anne", "son şans" | 17-ileri-yas-dusuk-sans |
+| 🔬 "peptid", "BPC-157", "NAD damar", "NMN", "GHK-Cu", "Epitalon", "MOTS-c", "sermorelin", "ipamorelin", "CJC-1295", "MK-677", "Tesamorelin", "longevity", "anti-aging peptidi", "yumurta gençleştirme", "ovariyen rejuvenation", "kök hücre IV", "eksozom", "PT-141", "Vyleesi", "melanotan", "kisspeptin booster" | 18-peptid-longevity-urun-sorusu |
 | Diğer / belirsiz | 09-kisa-guvenli |
+
+## Hassas Kategori Ek Kuralları (13-17)
+
+Aşağıdaki şablonlarda standart kuralların **üzerine** ek dikkat:
+
+- ❌ Metafor / benzetme / "buzdolabı" tipi imza cümlesi **kullanılmaz** — sade dil
+- ❌ İstatistik atışı yok ("siz %X şansındasınız" gibi) — bireysel değişkenler vurgu
+- ❌ "Geç kaldınız" / "umut yok" / "vakit doldu" tipi kapanış yasak
+- ❌ Sahte umut da yok ("kesinlikle olur") — gerçekçi-dürüst dil
+- ✅ Empati önce, bilgi sonra, yönlendirme son
+- ✅ "Burada kesin tanı/plan veremem" sınırı belirgin
+- ✅ Şablonlarda yasal/etik bağlam (ÜYTE, ASCO 2018, ESHRE 2020/2023/2024) ad veriliyorsa korunur
+- ✅ 15-donor-yumurta-tr şablonunda **yurtdışı klinik adı / ülke yönlendirmesi yapılmaz** (T.C. SB Sağlık Turizmi mevzuatı + Tanıtım Yönetmeliği uyumu)
+- ✅ 16-kanser-fertility-preservation şablonu **zaman kritik**: cevapta "günler içinde onkologdan multidisipliner sevk talep" satırı atlanmaz
+
+## Peptid / Longevity Şablon Kuralları (18)
+
+Bu kategori "hassas" değil ama **pazarlama dili yüksek** olduğu için ayrı dikkat:
+
+- ❌ Belirli ürün/marka adı **kullanılmaz** (T.C. SB Tanıtım Yönetmeliği + Reklam Kurulu); hasta marka belirttiyse sınıf bilgisiyle yanıtlanır (ör. "GH salınımını uyaran ailede" gibi)
+- ❌ Belirli longevity klinik adı **anılmaz** (ne pozitif ne negatif)
+- ❌ "Kullanın / kullanmayın" emir kipi yerine **kanıt çerçevesi + dürüst eleştiri**: "ben hastalarıma önermiyorum" / "reçete edemem" / "kararı sizin"
+- ❌ İstatistik atışı yok ("%X kanser yaptı" gibi); sınıf-bazlı güvenlik sinyali tarif edilir
+- ✅ 5 alt-varyant cümlesi ana yanıtın 3. paragrafına eklenir; birden fazla varyant uyarsa biri seçilir
+- ✅ Master kanıt çapası `wiki/medical/concepts/supplement-vitamin-peptid-deneysel.md` Kategori 5 + L1-L10 sahneleri (2026-05-03)
+- ✅ Üreme bağlamı varsa V3 alt-varyantı kullanılır + ESHRE 2023 add-ons atfı korunur
+- ✅ İmza cümlesi ("buzdolabı / les frigos") burada **opsiyonel**; pazarlama eleştirisi sertliğini hafifletir, hekim isteğine bağlı

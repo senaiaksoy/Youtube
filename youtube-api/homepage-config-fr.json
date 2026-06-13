@@ -1,0 +1,119 @@
+{
+  "playlists": [
+    {
+      "title": "Débuter la FIV : parcours, examens et décisions",
+      "matchTitles": [
+        "Bilan et Préparation à la FIV : Par où commencer ?",
+        "Tout comprendre sur la fécondation in vitro (FIV)"
+      ],
+      "description": "Une porte d'entrée claire pour les patientes et les couples qui commencent un parcours de FIV. Cette playlist explique les étapes du traitement, les premiers examens, la stimulation, la ponction, le transfert, les choix importants et les questions à poser avant de se lancer.",
+      "videoIds": [
+        "OupBw9a-KsY",
+        "7-NCQGHB400",
+        "nOFHBzpx0Pc",
+        "D2kQ1gy7FD8",
+        "O2b6id05eBU",
+        "yDHFQvBonow",
+        "-1KLqZ-VNFA",
+        "UOxgMxNXjPE",
+        "TfjN2BKxqyw",
+        "hfHnfzEfcdQ"
+      ],
+      "privacyStatus": "public",
+      "showOnHomepage": true
+    },
+    {
+      "title": "Embryon et transfert : qualité, TEC et implantation",
+      "matchTitles": [
+        "Qualité Embryonnaire et Laboratoire FIV",
+        "FIV: Transfert d'embryons",
+        "Après le Transfert: Le Guide Post-FIV"
+      ],
+      "description": "Tout ce qui concerne l'embryon et le transfert : qualité embryonnaire, blastocyste, transfert frais ou congelé, TEC, implantation, saignements après transfert et questions fréquentes du post-transfert.",
+      "videoIds": [
+        "0xafaN3UJsM",
+        "Z4TWjY-rZ2s",
+        "r2CaFGkoVT4",
+        "Nlx_Kf4Nteo",
+        "UOxgMxNXjPE",
+        "-1KLqZ-VNFA",
+        "LKbz1ylIAvE",
+        "89S0eUItFAA",
+        "pN8HNmPnfXg",
+        "MTkqZNJBe8I",
+        "6HjkbpTqorQ"
+      ],
+      "privacyStatus": "public",
+      "showOnHomepage": true
+    },
+    {
+      "title": "Endométriose et fertilité",
+      "matchTitles": [
+        "Endométriose : Symptômes, Diagnostic et Traitements"
+      ],
+      "description": "Une sélection de vidéos pour comprendre l'endométriose, son impact sur la fertilité, le diagnostic, les douleurs, les options médicales ou chirurgicales et la place de la FIV selon le profil de chaque patiente.",
+      "videoIds": [
+        "MBoA1Cr8tyw",
+        "pNClvs335IA",
+        "7p36ZQugkTM",
+        "zsAbpvBTh4o",
+        "0ejEAlcTrVo",
+        "RENSxIXOc4k",
+        "ZDyOwRbb_R8",
+        "8NyegxwgAFU"
+      ],
+      "privacyStatus": "public",
+      "showOnHomepage": true
+    },
+    {
+      "title": "Infertilité masculine : sperme, varicocèle, azoospermie",
+      "matchTitles": [
+        "Infertilité Masculine: Sperme, Azoospermie et Solutions"
+      ],
+      "description": "Les vidéos essentielles sur l'infertilité masculine : spermogramme, qualité du sperme, azoospermie, micro-TESE, varicocèle, fragmentation de l'ADN spermatique et options de traitement en parcours PMA.",
+      "videoIds": [
+        "MiyUW3uVbnQ",
+        "YfOz7V4dqYs",
+        "K85iW-jsjOg",
+        "jeWc9oqP_hU",
+        "zf8-xLUUImg",
+        "gG5ma2YRIkk",
+        "hyLAHbwnFYM",
+        "xLYbedt7YRk",
+        "QmKbvut3goc",
+        "avUgjYXnKwc",
+        "ge_4_NlqePY",
+        "pqc9UgCIqo0"
+      ],
+      "privacyStatus": "public",
+      "showOnHomepage": true
+    },
+    {
+      "title": "Questions fréquentes en FIV et PMA",
+      "matchTitles": [],
+      "description": "Les réponses rapides aux questions que les patientes posent le plus souvent avant, pendant et après une FIV : chances de réussite, douleurs, saignements, nombre d'embryons, hystéroscopie, ovocytes, traitement et décisions pratiques.",
+      "videoIds": [
+        "nHFYE7N7NHU",
+        "u6NnF8iI5sw",
+        "FccRQPGiOVc",
+        "N_5WKEHI7g4",
+        "LKbz1ylIAvE",
+        "pMsUoWLSMK0",
+        "DyEprUvZgWg",
+        "KQRb_ioK5Zk",
+        "-9oiyA7JNOE",
+        "OojCB6GdB50",
+        "xffSrbGxIFg"
+      ],
+      "privacyStatus": "public",
+      "showOnHomepage": true
+    }
+  ],
+  "homepageOrder": [
+    "Débuter la FIV : parcours, examens et décisions",
+    "Embryon et transfert : qualité, TEC et implantation",
+    "Endométriose et fertilité",
+    "Infertilité masculine : sperme, varicocèle, azoospermie",
+    "Questions fréquentes en FIV et PMA"
+  ]
+}

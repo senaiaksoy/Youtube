@@ -46,7 +46,10 @@ export function VideosTab() {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [editingId, setEditingId] = useState<string | null>(null);
-  const [editForm, setEditForm] = useState({ title: '', description: '', privacyStatus: '' });
+  const [editForm, setEditForm] = useState({ title: '', description: '', privacyStatus: '', tags: '' });
+  const [playlists, setPlaylists] = useState<any[]>([]);
+  const [playlistsLoading, setPlaylistsLoading] = useState(false);
+  const [initialPlaylists, setInitialPlaylists] = useState<any[]>([]);
   const [saving, setSaving] = useState(false);
   const [nextPageToken, setNextPageToken] = useState<string | null>(null);
   const [searchTimeout, setSearchTimeout] = useState<NodeJS.Timeout | null>(null);
@@ -85,23 +88,75 @@ export function VideosTab() {
     setSearchTimeout(timeout);
   };
 
+  const fetchPlaylists = async (videoId: string) => {
+    setPlaylistsLoading(true);
+    try {
+      const res = await fetch(`/api/youtube/video/${videoId}`);
+      const data = await res.json();
+      if (data?.error) {
+        toast.error(data.error);
+      } else {
+        setPlaylists(data?.playlists ?? []);
+        setInitialPlaylists(data?.playlists ?? []);
+      }
+    } catch (err: any) {
+      toast.error(err?.message ?? 'Oynatma listeleri yüklenemedi');
+    } finally {
+      setPlaylistsLoading(false);
+    }
+  };
+
+  const togglePlaylist = (playlistId: string) => {
+    setPlaylists((prev) =>
+      prev.map((pl) => (pl.id === playlistId ? { ...pl, hasVideo: !pl.hasVideo } : pl))
+    );
+  };
+
   const startEdit = (video: VideoItem) => {
     setEditingId(video?.id ?? null);
     setEditForm({
       title: video?.title ?? '',
       description: video?.description ?? '',
       privacyStatus: video?.privacyStatus ?? 'private',
+      tags: video?.tags ? video.tags.join(', ') : '',
     });
+    fetchPlaylists(video.id);
   };
 
   const saveEdit = async () => {
     if (!editingId) return;
     setSaving(true);
     try {
+      const addPlaylists: string[] = [];
+      const removePlaylists: string[] = [];
+
+      playlists.forEach((pl) => {
+        const initialPl = initialPlaylists.find((p) => p.id === pl.id);
+        if (initialPl) {
+          if (pl.hasVideo && !initialPl.hasVideo) {
+            addPlaylists.push(pl.id);
+          } else if (!pl.hasVideo && initialPl.hasVideo && initialPl.playlistItemId) {
+            removePlaylists.push(initialPl.playlistItemId);
+          }
+        }
+      });
+
+      const tagsArray = editForm.tags
+        .split(',')
+        .map((tag) => tag.trim())
+        .filter(Boolean);
+
       const res = await fetch(`/api/youtube/video/${editingId}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(editForm),
+        body: JSON.stringify({
+          title: editForm.title,
+          description: editForm.description,
+          privacyStatus: editForm.privacyStatus,
+          tags: tagsArray,
+          addPlaylists,
+          removePlaylists,
+        }),
       });
       const data = await res.json();
       if (data?.error) {
@@ -160,7 +215,7 @@ export function VideosTab() {
                 transition={{ delay: index * 0.03 }}
               >
                 <Card className="overflow-hidden transition-all hover:shadow-lg">
-                  <CardContent className="p-0">
+                   <CardContent className="p-0">
                     {editingId === video?.id ? (
                       <div className="space-y-4 p-4">
                         <div className="flex items-center justify-between">
@@ -169,50 +224,96 @@ export function VideosTab() {
                             <X className="h-4 w-4" />
                           </button>
                         </div>
-                        <div className="space-y-3">
-                          <div>
-                            <label className="mb-1 block text-xs text-muted-foreground">Başlık</label>
-                            <Input
-                              value={editForm.title}
-                              onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                                setEditForm((prev) => ({ ...prev, title: e.target.value }))
-                              }
-                            />
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                          <div className="space-y-3">
+                            <div>
+                              <label className="mb-1 block text-xs text-muted-foreground">Başlık</label>
+                              <Input
+                                value={editForm.title}
+                                onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                                  setEditForm((prev) => ({ ...prev, title: e.target.value }))
+                                }
+                              />
+                            </div>
+                            <div>
+                              <label className="mb-1 block text-xs text-muted-foreground">Açıklama</label>
+                              <textarea
+                                value={editForm.description}
+                                onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
+                                  setEditForm((prev) => ({ ...prev, description: e.target.value }))
+                                }
+                                className="min-h-[140px] w-full resize-y rounded-md border border-input bg-background px-3 py-2 text-sm"
+                              />
+                            </div>
                           </div>
-                          <div>
-                            <label className="mb-1 block text-xs text-muted-foreground">Açıklama</label>
-                            <textarea
-                              value={editForm.description}
-                              onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
-                                setEditForm((prev) => ({ ...prev, description: e.target.value }))
-                              }
-                              className="min-h-[100px] w-full resize-y rounded-md border border-input bg-background px-3 py-2 text-sm"
-                            />
-                          </div>
-                          <div>
-                            <label className="mb-1 block text-xs text-muted-foreground">Gizlilik</label>
-                            <div className="flex gap-2">
-                              {privacyOptions.map((option) => {
-                                const Icon = option.icon;
-                                return (
-                                  <button
-                                    key={option.value}
-                                    onClick={() => setEditForm((prev) => ({ ...prev, privacyStatus: option.value }))}
-                                    className={`flex items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-all ${
-                                      editForm.privacyStatus === option.value
-                                        ? 'border-primary bg-primary/10 text-foreground'
-                                        : 'border-border text-muted-foreground hover:border-primary/50'
-                                    }`}
-                                  >
-                                    <Icon className={`h-4 w-4 ${option.color}`} />
-                                    {option.label}
-                                  </button>
-                                );
-                              })}
+                          <div className="space-y-3">
+                            <div>
+                              <label className="mb-1 block text-xs text-muted-foreground">Etiketler (Virgülle ayırın)</label>
+                              <Input
+                                placeholder="Örn: tüp bebek, infertilite, jinekoloji"
+                                value={editForm.tags}
+                                onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                                  setEditForm((prev) => ({ ...prev, tags: e.target.value }))
+                                }
+                              />
+                            </div>
+                            <div>
+                              <label className="mb-1 block text-xs text-muted-foreground flex items-center justify-between">
+                                <span>Oynatma Listeleri</span>
+                                {playlistsLoading && <Loader2 className="h-3 w-3 animate-spin text-primary" />}
+                              </label>
+                              {playlistsLoading ? (
+                                <div className="h-[140px] flex items-center justify-center rounded-md border border-dashed text-xs text-muted-foreground">
+                                  Oynatma listeleri yükleniyor...
+                                </div>
+                              ) : playlists.length === 0 ? (
+                                <div className="h-[140px] flex items-center justify-center rounded-md border border-dashed text-xs text-muted-foreground">
+                                  Oynatma listesi bulunamadı
+                                </div>
+                              ) : (
+                                <div className="h-[140px] overflow-y-auto rounded-md border border-input bg-background p-2 space-y-1">
+                                  {playlists.map((pl) => (
+                                    <label
+                                      key={pl.id}
+                                      className="flex items-center gap-2 rounded px-2 py-1.5 hover:bg-accent hover:text-accent-foreground text-xs cursor-pointer transition-colors"
+                                    >
+                                      <input
+                                        type="checkbox"
+                                        checked={pl.hasVideo}
+                                        onChange={() => togglePlaylist(pl.id)}
+                                        className="h-3.5 w-3.5 rounded border-gray-300 text-primary focus:ring-primary cursor-pointer"
+                                      />
+                                      <span className="font-medium truncate">{pl.title}</span>
+                                    </label>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+                            <div>
+                              <label className="mb-1 block text-xs text-muted-foreground">Gizlilik</label>
+                              <div className="flex gap-2">
+                                {privacyOptions.map((option) => {
+                                  const Icon = option.icon;
+                                  return (
+                                    <button
+                                      key={option.value}
+                                      onClick={() => setEditForm((prev) => ({ ...prev, privacyStatus: option.value }))}
+                                      className={`flex items-center gap-1.5 rounded-lg border px-2.5 py-1.5 text-xs transition-all ${
+                                        editForm.privacyStatus === option.value
+                                          ? 'border-primary bg-primary/10 text-foreground font-medium'
+                                          : 'border-border text-muted-foreground hover:border-primary/50'
+                                      }`}
+                                    >
+                                      <Icon className={`h-3.5 w-3.5 ${option.color}`} />
+                                      {option.label}
+                                    </button>
+                                  );
+                                })}
+                              </div>
                             </div>
                           </div>
                         </div>
-                        <div className="flex justify-end gap-2">
+                        <div className="flex justify-end gap-2 pt-2 border-t">
                           <Button variant="outline" size="sm" onClick={() => setEditingId(null)}>
                             İptal
                           </Button>

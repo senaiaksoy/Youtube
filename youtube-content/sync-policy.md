@@ -3,7 +3,7 @@ type: sync-policy
 domain: youtube-content-production
 created: 2026-04-26
 master: D:/A-klasör/obsidian-vaults/draksoyivf-knowledge/wiki/
-mirror: D:/A-klasör/Youtube yorum yanıtlama/youtube-content/
+mirror: D:/A-klasör/Youtube/youtube-content/
 ---
 
 # Sync Policy — Master / Mirror Senkronizasyonu
@@ -25,7 +25,7 @@ mirror: D:/A-klasör/Youtube yorum yanıtlama/youtube-content/
 
 ## Mirror (operasyonel referans)
 
-`D:/A-klasör/Youtube yorum yanıtlama/youtube-content/`
+`D:/A-klasör/Youtube/youtube-content/`
 
 ### Mirror sahipliği
 - **Hızlı checklist + protokol özetleri** → mirror
@@ -50,6 +50,9 @@ mirror: D:/A-klasör/Youtube yorum yanıtlama/youtube-content/
 | `04-hooks-bank.md` | `wiki/youtube/topic-packs/.../Ek Araç 1` + `wiki/youtube/hooks-library.md` | Birleşik özet |
 | `05-topic-packs-index.md` | `wiki/youtube/topic-packs/` (klasör listesi) | Özet liste |
 | `06-anchor-rotation-tracker.md` | (yok — operasyonel veri) | Mirror-özel |
+| `07-description-library.md` | `wiki/youtube/seo-youtube-tr.md` + `wiki/youtube/seo-youtube.md` + `wiki/youtube/cross-reference-policy.md` + `wiki/youtube/video-format.md` | Birleşik operasyonel özet (K1-K5 iskeletleri, hashtag bankası, UTM, disclaimer eşleme — mirror-özel modüler kütüphane) |
+| `08-post-mortem-template.md` | (yok — operasyonel veri) | Mirror-özel — instance dosyaları `post-mortems/` altına yazılır |
+| `09-production-pipeline.md` | (yok — operasyonel veri; pack-id'ler `wiki/youtube/topic-packs/` ile paralel) | Mirror-özel — canlı pipeline + measurement queue + FR bulk metadata 2026-05 kohort |
 | `sync-policy.md` | (bu dosya) | Mirror-özel |
 
 ## Senkron tetikleyicileri
@@ -69,12 +72,17 @@ mirror: D:/A-klasör/Youtube yorum yanıtlama/youtube-content/
 4. **`wiki/youtube/video-format.md` değiştiğinde**
    → `03-script-format-checklist.md` güncelle
 
+4b. **`wiki/youtube/seo-youtube-tr.md` / `seo-youtube.md` veya `cross-reference-policy.md` değiştiğinde**
+   → `07-description-library.md` güncelle (snippet, hashtag bankası, UTM konvansiyonu, About blok, sabitlenmiş yorum şablonu)
+
 5. **Mevzuat değişikliği** (TR SB Tanıtım, FR Code santé publique, FDA/EMA, ARCOM/CSA)
    → `02-compliance-checklist.md` güncelle (master'da topic-pack §"Ek Araç 3" + brand/compliance.md)
 
 ### Mirror değişikliği → Master'a yansıma
 
 - `06-anchor-rotation-tracker.md` operasyonel veri → master'a aktarılmaz; mirror-özel
+- `08-post-mortem-template.md` instance dosyaları (`post-mortems/...`) → master'a aktarılmaz; **ama 28d öğrenmeleri toplu özet halinde** master `wiki/youtube/channel-strategy-{tr/fr}.md` veya ilgili topic-pack dosyasına yansıtılır (kanal-ölçek geçerli ise)
+- `09-production-pipeline.md` operasyonel veri → master'a aktarılmaz; mirror-özel
 - Eğer mirror'da yeni bir checklist kalıbı keşfedilirse → master'a editöryal protokol olarak eklenir
 
 ## Aylık senkron review (her ayın 1'i)

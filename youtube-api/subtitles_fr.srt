@@ -1,0 +1,440 @@
+1
+00:00:00,000 --> 00:00:11,870
+Dans un parcours de FIV, c'est fascinant, tout le monde est focalisé sur l'ovocyte ah, la qualité ovocytaire ah, la réserve ovarienne.
+
+2
+00:00:11,870 --> 00:00:15,370
+D'accord, mais est l'autre moitié du problème?
+
+3
+00:00:15,810 --> 00:00:21,930
+Les spermatozoïdes, ils font quoi pendant ce temps? Ils boivent un café en terrasse?
+
+4
+00:00:21,930 --> 00:00:33,910
+Si vous pensez qu'avec ICSI classique, la microinjection ou l'embryologiste prend un spermatozoïde et hop, injecte directement.
+
+5
+00:00:34,410 --> 00:00:40,870
+Le problème du facteur masculin est réglé 100%, vous êtes en plein mit.
+
+6
+00:00:41,530 --> 00:00:48,010
+Sous un microscope standard, à un grossissement de 400 fois, le spermatozoïde a l'air super.
+
+7
+00:00:48,010 --> 00:00:54,110
+Regardez-moi ça, une belle tête, une bonne mobilité, un vrai champion.
+
+8
+00:00:54,730 --> 00:01:05,730
+Mais si on zoome vraiment, on découvre que sa structure interne est un chantier et son ADN est un roux libre.
+
+9
+00:01:06,150 --> 00:01:09,030
+La physique ne fait pas tout, messieurs.
+
+10
+00:01:09,030 --> 00:01:14,030
+C'est là qu'entrent en scène les acronymes haut de gamme du laboratoire.
+
+11
+00:01:14,570 --> 00:01:18,070
+L'IMSI, la PICSI, le MACs.
+
+12
+00:01:18,750 --> 00:01:24,510
+Aujourd'hui, on va analyser si ces options sont de vraies révolutions scientifiques
+
+13
+00:01:24,510 --> 00:01:34,330
+ou juste une manière pour les cliniques de vous dire, regardez, on a acheté une nouvelle machine, il faut la rentabiliser.
+
+14
+00:01:34,330 --> 00:01:40,030
+Pourquoi on parle de sélection spermatique avancée aujourd'hui ?
+
+15
+00:01:40,030 --> 00:01:43,310
+Historiquement, le spermogramme, c'est simple.
+
+16
+00:01:43,570 --> 00:01:48,650
+On compte, on regarde si ça bouge et on regarde la forme globale.
+
+17
+00:01:49,210 --> 00:01:51,870
+Si c'est la crise, on fait une ICSI.
+
+18
+00:01:52,390 --> 00:02:01,430
+L'embryologiste regarde dans le microscope, plisse les yeux et dit, allez, celui-là n'a pas l'air trop mal, on prend.
+
+19
+00:02:02,210 --> 00:02:06,710
+Mais le choix au feeling est visuel à ses limites.
+
+20
+00:02:07,449 --> 00:02:15,930
+Quand les fécondations échouent, que les embryons s'arrêtent en plein vol ou que les fausses couches précoces se répètent,
+
+21
+00:02:16,290 --> 00:02:25,130
+les couples arrivent au laboratoire en disant, "docteur, s'il vous plaît, vous n'avez pas la version PRO-MAX de la sélection."
+
+22
+00:02:25,610 --> 00:02:28,830
+Dans cette vidéo, on va clarifier trois choses.
+
+23
+00:02:28,830 --> 00:02:37,510
+La vraie différence technologique entre l'ICSI classique et ce trio, IMSI, PICSI, MACs.
+
+24
+00:02:38,170 --> 00:02:45,970
+Ce que dit la science, la vraie, pas celle des brochures commerciales, sur leur efficacité.
+
+25
+00:02:46,490 --> 00:02:56,610
+Et surtout, comment savoir si votre couple en a vraiment besoin ou si c'est juste un supplément optionnel sur la facture.
+
+26
+00:02:56,610 --> 00:02:59,550
+L'IMSI, c'est la première.
+
+27
+00:03:00,150 --> 00:03:02,670
+Pour l'ICSI, on grossit 400 fois.
+
+28
+00:03:03,050 --> 00:03:07,290
+On voit si la spermatozoïde a une tête et une queu.
+
+29
+00:03:07,950 --> 00:03:11,610
+Avec l'IMSI, on sort la grosse artillerie.
+
+30
+00:03:12,550 --> 00:03:14,370
+Grossissement 6 000 fois.
+
+31
+00:03:14,730 --> 00:03:23,050
+À ce niveau-là, on voit les vacuoles, des sortes de petits trous de mémoire sur la tête du spermatozoïde.
+
+32
+00:03:23,050 --> 00:03:30,410
+La science nous dit, gros trou dans la tête égale ADN en morceaux.
+
+33
+00:03:30,830 --> 00:03:38,370
+L'IMSI permet donc d'éliminer ces profils un peu douteux avant qu'il ne soit trop tard.
+
+34
+00:03:38,950 --> 00:03:44,530
+Deuxième truc, c'est la PICSI, le test de maturité biologique.
+
+35
+00:03:45,250 --> 00:03:47,590
+Ici, on oublie le visuel.
+
+36
+00:03:47,590 --> 00:03:49,970
+On passe au test d'obstacle.
+
+37
+00:03:50,430 --> 00:03:59,370
+Dans la nature, pour féconder, le spermatozoïde doit s'accrocher à l'acide hyaluronique qui entoure l'ovocyte.
+
+38
+00:03:59,930 --> 00:04:02,190
+C'est le videur de la boîte de nuit.
+
+39
+00:04:02,970 --> 00:04:09,110
+Seuls les spermatozoïdes mûrs et sains ont le pass VIP pour se lier.
+
+40
+00:04:09,830 --> 00:04:15,829
+En PICSI, on récrée cette boîte de nuit dans une boîte de pétri avec du gel.
+
+41
+00:04:15,829 --> 00:04:17,890
+On lâche les spermatozoïdes.
+
+42
+00:04:18,329 --> 00:04:20,350
+Ceux qui se lient au gel sont les bons.
+
+43
+00:04:20,769 --> 00:04:22,710
+Les autres, récalés à l'entrée.
+
+44
+00:04:23,110 --> 00:04:27,190
+Dernièrement, le MACs, le tri sélectif magnétique.
+
+45
+00:04:27,890 --> 00:04:31,250
+Là, on est dans la haute ingénierie.
+
+46
+00:04:31,650 --> 00:04:34,310
+Certains spermatozoïdes nagent très bien.
+
+47
+00:04:34,710 --> 00:04:36,330
+On l'air en plein forme.
+
+48
+00:04:36,670 --> 00:04:41,070
+Mais en réalité, ils sont déjà en train de mourir de l'intérieur.
+
+49
+00:04:41,610 --> 00:04:43,350
+C'est l'apoptose.
+
+50
+00:04:43,350 --> 00:04:46,310
+Ils ne savent pas encore, mais ils sont finis.
+
+51
+00:04:46,570 --> 00:04:54,470
+Ces particules, pour les éliminer, on mélange l'échantillon avec des nanoparticules magnétiques.
+
+52
+00:04:55,050 --> 00:05:00,090
+Ces particules vont se scratcher uniquement sur les spermatozoïdes condamnés.
+
+53
+00:05:00,610 --> 00:05:05,030
+Ensuite, on passe le tout à travers un aimant.
+
+54
+00:05:05,410 --> 00:05:07,990
+Les fatigués restent collés à la paroi.
+
+55
+00:05:08,350 --> 00:05:12,150
+Et les survivants bien frais passent à travers pour la FIV.
+
+56
+00:05:12,150 --> 00:05:14,010
+C'est propre, c'est net.
+
+57
+00:05:14,310 --> 00:05:20,490
+Alors, ce que dit la littérature scientifique, c'est le moment de la vérité,
+
+58
+00:05:20,710 --> 00:05:26,850
+parce que si on écoute le marketing des cliniques, chaque technique est un miracle garanti.
+
+59
+00:05:27,430 --> 00:05:29,050
+Regardons les faits.
+
+60
+00:05:29,630 --> 00:05:35,810
+Pour l'IMSI, la revue Cochrane, qui est un peu la cour suprême de la médecine,
+
+61
+00:05:35,810 --> 00:05:42,030
+nous dit gentiment « Désolé, mais il n'y a pas de preuves solides démontrant
+
+62
+00:05:42,030 --> 00:05:50,070
+que l'IMSI augmente le taux de naissance vivante par rapport à une ICSI classique pour tout le monde. »
+
+63
+00:05:50,070 --> 00:05:58,290
+Oui, parfois, on voit un peu moins de fausses couches, mais le niveau de preuves reste modéré à faible.
+
+64
+00:05:59,090 --> 00:06:01,290
+Ce n'est pas la baguette magique.
+
+65
+00:06:01,290 --> 00:06:11,370
+Pour la PICSI, une immense étude britannique, l'étude AppSelect, publiée dans The Lancet,
+
+66
+00:06:12,010 --> 00:06:22,650
+c'est la Bible, plus de 2700 couples communs, a montré que la PICSI n'augmentait pas significativement le taux de naissance global.
+
+67
+00:06:22,650 --> 00:06:31,390
+Par contre, et c'est un grand par contre clinique, elle montre une réduction très nette du taux de fausses couches.
+
+68
+00:06:31,870 --> 00:06:33,690
+Ça, c'est un vrai argument.
+
+69
+00:06:34,190 --> 00:06:44,110
+Pour le MAX, les données confirment que ça nettoie efficacement l'échantillon des spermatozoïdes avec un ADN fragmenté.
+
+70
+00:06:44,490 --> 00:06:50,350
+C'est très utile pour les couples où l'homme a un fort stress oxydatif.
+
+71
+00:06:50,350 --> 00:06:58,190
+Mais de là à le faire à tout le monde d'office, attendons des études à plus grande échelle.
+
+72
+00:06:58,530 --> 00:07:03,610
+Rappelez-vous une chose, les statistiques sont des moyens pour les livres d'école.
+
+73
+00:07:03,990 --> 00:07:06,690
+Votre traitement, lui, est unique.
+
+74
+00:07:07,350 --> 00:07:16,390
+L'âge de votre partenaire, la qualité des oocytes, tout cela pèse bien plus lourd dans la balance qu'un outil de labo.
+
+75
+00:07:16,390 --> 00:07:21,830
+Puisque ce n'est pas automatique, on l'est donc a qui ces options premium.
+
+76
+00:07:22,290 --> 00:07:28,590
+Une bonne prise en charge repose sur un diagnostic, pas sur un catalogue d'options payants.
+
+77
+00:07:29,170 --> 00:07:33,850
+On ne veut pas charger l'addition juste pour le plaisir.
+
+78
+00:07:34,310 --> 00:07:37,890
+Même si on y pense dans ces trois cas précis.
+
+79
+00:07:38,330 --> 00:07:45,670
+Premièrement, une teratospermie sévère, quand les formes normales se comptent sur les doigts d'une main.
+
+80
+00:07:46,430 --> 00:07:51,350
+Deuxièmement, un historique d'embryon qui s'arrête de grandir à chaque tentative.
+
+81
+00:07:52,390 --> 00:07:59,010
+Troisièmement, si on a détecté un taux de vacuole anormalement élevé au départ.
+
+82
+00:07:59,290 --> 00:08:01,710
+La PICSI et le MACs, c'est pour le quand.
+
+83
+00:08:01,890 --> 00:08:05,790
+Une fragmentation de l'ADN spermatique élevée au test.
+
+84
+00:08:06,270 --> 00:08:11,270
+Des fausses couches à répétition alors que tout est parfait côté féminin.
+
+85
+00:08:11,630 --> 00:08:13,590
+Un âge paternel avancé.
+
+86
+00:08:13,590 --> 00:08:18,950
+Le temps passe aussi pour ces messieurs, et ça crée de l'oxydation.
+
+87
+00:08:19,130 --> 00:08:28,290
+Mais si votre spermogramme classique est tout à fait correct et que c'est votre première FIV, restez tranquille.
+
+88
+00:08:28,770 --> 00:08:35,150
+Une ICSI classique bien faite par un bon embryologiste fera parfaitement l'affaire.
+
+89
+00:08:35,510 --> 00:08:40,510
+Si le moteur est nickel, pas besoin de mettre du carburant du Formule 1.
+
+90
+00:08:40,510 --> 00:08:50,470
+Mon avis de clinicien, ce n'est pas évangile, c'est juste le fruit de mes années passées à écouter et soigner des couples.
+
+91
+00:08:50,890 --> 00:08:55,150
+En médecine de la reproduction, les miracles n'existaient pas, mes amis.
+
+92
+00:08:55,650 --> 00:09:02,090
+En biologie, la nature nous donne des tendances, jamais des certitudes absolues.
+
+93
+00:09:02,410 --> 00:09:09,570
+On ne peut pas parier sur une technologie comme si le succès était garanti à 100%.
+
+94
+00:09:09,570 --> 00:09:12,950
+Vous pouvez avoir le meilleur labo du monde.
+
+95
+00:09:13,590 --> 00:09:17,030
+Créez le sperme avec des lasers de l'espace.
+
+96
+00:09:17,810 --> 00:09:27,390
+Si l'ovocyte a des anomalies chromosomiques liées à l'âge ou si l'endomètre n'est pas d'humeur à recevoir l'embryon,
+
+97
+00:09:27,970 --> 00:09:32,810
+la sélection du sperme ne sauverait pas la mise à elle seule.
+
+98
+00:09:32,810 --> 00:09:34,860
+Mon approche est pragmatique.
+
+99
+00:09:35,690 --> 00:09:42,690
+N'utilisons pas ces outils comme des arguments marketing pour alourdir la note des patients.
+
+100
+00:09:43,410 --> 00:09:47,670
+Ciblons-les précisément pour les couples qui en ont besoin.
+
+101
+00:09:48,110 --> 00:09:51,150
+Ceux qui font face à des échecs inexplicables.
+
+102
+00:09:51,570 --> 00:09:58,450
+C'est là, dans cette médecine, sur mesure que réside la vraie valeur de la technologie.
+
+103
+00:09:58,450 --> 00:10:05,890
+Pour aller plus loin sur la biologie de la fertilité et comprendre les coulisses du laboratoire,
+
+104
+00:10:06,530 --> 00:10:13,510
+j'ai dirigé des articles complets sur notre site draksoyivf.com.
+
+105
+00:10:13,890 --> 00:10:20,690
+Si vous avez des questions ou si vous voulez partager votre propre expérience avec ces techniques,
+
+106
+00:10:21,090 --> 00:10:23,370
+laissez un commentaire ci-dessous.
+
+107
+00:10:23,370 --> 00:10:28,470
+On se fera un plaisir d'échanger lors des prochaines vidéos.
+
+108
+00:10:28,910 --> 00:10:33,630
+Et bien sûr, n'oubliez pas, tout ceci est purement informatif.
+
+109
+00:10:34,370 --> 00:10:42,190
+Cela ne remplacera jamais une vraie consultation et l'avis personnalisé de votre médecin.
+
+110
+00:10:43,370 --> 00:10:45,530
+Allez, à bientôt, ciao!
+

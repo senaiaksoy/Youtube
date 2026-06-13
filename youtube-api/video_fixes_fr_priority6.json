@@ -1,0 +1,82 @@
+[
+  {
+    "video_id": "H0Lna_8JdDY",
+    "title": "Chlamydia, gonorrhée : infections et fertilité",
+    "description_hook": "Certaines infections comme la chlamydia ou la gonorrhée peuvent abîmer les trompes et réduire la fertilité. Cette vidéo explique les risques, les signes parfois discrets et pourquoi le dépistage compte avant un projet de grossesse.",
+    "hashtags": ["#chlamydia", "#gonorrhee", "#fertilite", "#infection", "#DrSenaiAksoy"],
+    "tags": null,
+    "standardize_disclaimer": false
+  },
+  {
+    "video_id": "YfOz7V4dqYs",
+    "title": "Azoospermie : quelles options après le diagnostic ?",
+    "description_hook": "L'azoospermie signifie qu'aucun spermatozoïde n'est retrouvé dans l'éjaculat, mais cela ne veut pas toujours dire qu'il n'existe aucune option. Cette vidéo explique les examens, les causes possibles et les solutions comme la micro-TESE.",
+    "hashtags": ["#azoospermie", "#fertilitemasculine", "#sperme", "#PMA", "#DrSenaiAksoy"],
+    "tags": null,
+    "standardize_disclaimer": false
+  },
+  {
+    "video_id": "TfSY8QvQz8I",
+    "title": "Salpingite : infection des trompes et fertilité",
+    "description_hook": "La salpingite est une infection des trompes qui peut laisser des séquelles sur la fertilité. Cette vidéo explique les causes, les symptômes possibles, les risques d'hydrosalpinx et l'importance d'un traitement adapté.",
+    "hashtags": ["#salpingite", "#trompes", "#fertilite", "#infection", "#DrSenaiAksoy"],
+    "tags": null,
+    "standardize_disclaimer": false
+  },
+  {
+    "video_id": "QmKbvut3goc",
+    "title": "Forme des spermatozoïdes : faut-il s'inquiéter ?",
+    "description_hook": "La morphologie des spermatozoïdes inquiète souvent les couples, mais elle ne résume pas toute la fertilité masculine. Cette vidéo explique ce que la forme des spermatozoïdes signifie vraiment et comment l'interpréter.",
+    "hashtags": ["#spermatozoides", "#fertilitemasculine", "#spermogramme", "#fertilite", "#DrSenaiAksoy"],
+    "tags": null,
+    "standardize_disclaimer": false
+  },
+  {
+    "video_id": "P3-K-M9hJug",
+    "title": "Hydrosalpinx : pourquoi la FIV peut échouer ?",
+    "description_hook": "Un hydrosalpinx peut perturber l'implantation et diminuer les chances de succès en FIV. Cette vidéo explique pourquoi le liquide dans la trompe pose problème et comment choisir entre chirurgie et FIV.",
+    "hashtags": ["#hydrosalpinx", "#FIV", "#implantation", "#trompes", "#DrSenaiAksoy"],
+    "tags": null,
+    "standardize_disclaimer": false
+  },
+  {
+    "video_id": "TrGR2vqQ0d4",
+    "title": "FIV en 5 minutes : comprendre les étapes",
+    "description_hook": "Cette vidéo résume le parcours de FIV en quelques minutes : stimulation ovarienne, ponction, laboratoire, transfert d'embryon et test de grossesse. Un point de départ simple pour comprendre le traitement.",
+    "hashtags": ["#FIV", "#PMA", "#fertilite", "#transfertembryon", "#DrSenaiAksoy"],
+    "tags": null,
+    "standardize_disclaimer": false
+  },
+  {
+    "video_id": "jeWc9oqP_hU",
+    "title": "Azoospermie : quand une deuxième tentative change tout",
+    "description_hook": "Après un premier échec dans la recherche de spermatozoïdes, une deuxième tentative peut parfois changer la situation. Cette vidéo explique pourquoi le contexte, la technique et le timing peuvent modifier les chances.",
+    "hashtags": ["#azoospermie", "#microTESE", "#fertilitemasculine", "#PMA", "#DrSenaiAksoy"],
+    "tags": null,
+    "standardize_disclaimer": false
+  },
+  {
+    "video_id": "VOUE7CnfuJM",
+    "title": "Hyperstimulation ovarienne : pourquoi congeler les embryons ?",
+    "description_hook": "En cas de risque d'hyperstimulation ovarienne, congeler les embryons peut rendre le parcours plus sûr. Cette vidéo explique le principe du freeze-all, les signes de risque et la logique médicale derrière cette décision.",
+    "hashtags": ["#SHO", "#FIV", "#embryons", "#freezeall", "#DrSenaiAksoy"],
+    "tags": null,
+    "standardize_disclaimer": false
+  },
+  {
+    "video_id": "778ogBxlyBM",
+    "title": "Syndrome d'Asherman : comprendre les adhérences utérines",
+    "description_hook": "Le syndrome d'Asherman correspond à des adhérences dans la cavité utérine. Cette vidéo explique les causes possibles, les signes, l'impact sur la fertilité et le rôle de l'hystéroscopie.",
+    "hashtags": ["#Asherman", "#hysteroscopie", "#uterus", "#fertilite", "#DrSenaiAksoy"],
+    "tags": null,
+    "standardize_disclaimer": false
+  },
+  {
+    "video_id": "D2kQ1gy7FD8",
+    "title": "Stimulation ovarienne en FIV : ce qu'il faut savoir",
+    "description_hook": "La stimulation ovarienne est la première grande étape d'un traitement de FIV. Cette vidéo explique pourquoi elle est nécessaire, comment elle est suivie et quels points doivent être surveillés pendant le protocole.",
+    "hashtags": ["#stimulationovarienne", "#FIV", "#PMA", "#ovocytes", "#DrSenaiAksoy"],
+    "tags": null,
+    "standardize_disclaimer": false
+  }
+]

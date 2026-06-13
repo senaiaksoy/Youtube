@@ -41,7 +41,7 @@ CHANNEL_ID = "UCbO5qpAnmaQPBJlGMM9ITiw"
 BASE_DIR = Path(__file__).resolve().parent
 TOKEN_FILE = BASE_DIR / "token.json"
 CLIENT_SECRET = BASE_DIR / "client_secret.json"
-FIXES_FILE = BASE_DIR / "video_fixes.json"
+DEFAULT_FIXES_FILE = BASE_DIR / "video_fixes.json"
 LOG_FILE = BASE_DIR / "update_log.json"
 
 # ---------------------------------------------------------------------------
@@ -88,7 +88,7 @@ def authenticate():
             creds.refresh(Request())
         else:
             if not CLIENT_SECRET.exists():
-                print(f"❌ {CLIENT_SECRET} bulunamadı!")
+                print(f"ERROR: {CLIENT_SECRET} bulunamadi!")
                 print("   Google Cloud Console'dan OAuth 2.0 istemci kimliği indirin.")
                 print("   Detaylar: youtube-api/README.md")
                 sys.exit(1)
@@ -320,12 +320,12 @@ def _standardize_disclaimer(desc: str) -> str:
 # ═══════════════════════════════════════════════════════════════════════════
 # Ana Çalışma
 # ═══════════════════════════════════════════════════════════════════════════
-def load_fixes() -> list[dict]:
+def load_fixes(fixes_file: Path = DEFAULT_FIXES_FILE) -> list[dict]:
     """video_fixes.json dosyasından düzeltmeleri yükle."""
-    if not FIXES_FILE.exists():
-        print(f"❌ {FIXES_FILE} bulunamadı!")
+    if not fixes_file.exists():
+        print(f"ERROR: {fixes_file} bulunamadi!")
         sys.exit(1)
-    with open(FIXES_FILE, "r", encoding="utf-8") as f:
+    with open(fixes_file, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -339,6 +339,8 @@ def main():
                         help="Kanal videolarını listele")
     parser.add_argument("--backup", action="store_true", default=False,
                         help="Güncellemeden önce mevcut metadata'yı yedekle")
+    parser.add_argument("--fixes", type=str, default=str(DEFAULT_FIXES_FILE),
+                        help="Kullanılacak video düzeltme JSON dosyası")
     args = parser.parse_args()
 
     print("=" * 60)
@@ -360,7 +362,7 @@ def main():
         return
 
     # --- Düzeltmeleri yükle ---
-    fixes = load_fixes()
+    fixes = load_fixes(Path(args.fixes))
     if args.video:
         fixes = [f for f in fixes if f["video_id"] == args.video]
         if not fixes:

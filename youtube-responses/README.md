@@ -14,9 +14,9 @@ Bu klasör, YouTube kanalınıza gelen hasta yorumlarına hızlı, profesyonel v
 ```
 youtube-responses/
 ├── README.md                ← bu dosya
-├── editorial-rules.md       ← AI'ın takip ettiği kurallar
+├── editorial-rules.md       ← AI'ın takip ettiği kurallar (+ hassas kategori ek kuralları)
 ├── disclaimer.md            ← 4 dilde sabit disclaimer
-├── templates/               ← 12 kategori şablonu (TR/FR/EN/AR)
+├── templates/               ← 17 kategori şablonu (TR/FR/EN/AR)
 │   ├── 01-genel.md
 │   ├── 02-hamile-kalamiyorum.md
 │   ├── 03-tup-bebek-gerekir-mi.md
@@ -28,9 +28,19 @@ youtube-responses/
 │   ├── 09-kisa-guvenli.md
 │   ├── 10-erkek-faktoru.md
 │   ├── 11-pcos.md
-│   └── 12-endometriozis.md
+│   ├── 12-endometriozis.md
+│   ├── 13-poi-pof.md                          ⚠️ hassas — metafor yasak
+│   ├── 14-tekrarlayan-gebelik-kaybi.md        ⚠️ hassas
+│   ├── 15-donor-yumurta-tr.md                 ⚠️ hassas — TR yasal
+│   ├── 16-kanser-fertility-preservation.md    ⚠️ hassas — zaman kritik
+│   ├── 17-ileri-yas-dusuk-sans.md             ⚠️ hassas
+│   └── 18-peptid-longevity-urun-sorusu.md     🔬 pazarlama eleştirisi — 5 alt-varyant
 └── archive/                 ← gönderilmiş cevaplar (YYYY-MM/ altında)
 ```
+
+> **Hassas kategoriler (13-17):** `youtube-content/00-INDEX.md` "METAFOR YASAK" listesindeki konuların yorum-yanıt karşılığıdır. `editorial-rules.md` "Hassas Kategori Ek Kuralları" bölümü bu şablonlara özel ek dikkat noktalarını listeler.
+>
+> **Peptid/Longevity (18):** Pazarlama dili yüksek konularda kanıt çerçevesi + dürüst eleştiri yanıtı. Master kanıt çapası `wiki/medical/concepts/supplement-vitamin-peptid-deneysel.md` Kategori 5'ten beslenir. Belirli ürün/marka adı kullanılmaz; sınıf bilgisiyle yanıtlanır.
 
 ## Kullanım Workflow'u
 
