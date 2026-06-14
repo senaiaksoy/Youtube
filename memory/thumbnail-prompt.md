@@ -9,35 +9,47 @@ Amaç: yüksek CTR'li, tutarlı markalı kapaklar. Hedef CTR %6+ (Shorts hariç)
 3. Aşağıdaki master prompt'ta 3 değişkeni doldur: DUYGU, KONU GÖRSELİ, METİN.
 4. Metni model bozuk yazarsa o satırı sil, yazıyı Canva'da ekle (en garanti yol).
 
-## Sabit marka kuralları
+## SABİT marka çıpaları (her videoda aynı)
 - Yüze %99 sadık kal; güzelleştirme/inceltme/yaşlandırma YOK ("do not beautify" satırı kritik).
-- Giysi: temiz beyaz önlük VEYA lacivert scrubs. Günlük tişört / marka logosu YOK.
-  Bir kez sabitle, TÜM videolarda aynı kıyafet = marka tanınırlığı.
-- Yerleşim: doktor sağ üçte bir (göğüsten yukarı), metin sol üçte iki.
-- Renk: lacivert→teal gradyan + tek parlak vurgu (genelde cyan).
-- Metin: 3-4 kelime, max 2 satır, sarı kalın sans-serif, koyu kontur + gölge.
-- Küçük beyaz rozet: "IVF 2026".
-- Telefonda (320px) okunmuyorsa font büyüt.
+- Giysi: temiz beyaz önlük (veya lacivert scrubs). Günlük tişört / marka logosu YOK.
+- Font ailesi: kalın sans-serif, sarı metin, koyu kontur + gölge.
+- Küçük beyaz rozet: "FIV 2026". Klinik logosu (önlükte/köşede).
+- Metin: 3-4 kelime, max 2 satır. Telefonda (320px) okunmuyorsa font büyüt.
 
-## MASTER PROMPT (kopyala, köşeli parantezleri doldur)
+## ÇEŞİTLİLİK — videodan videoya DEĞİŞTİR (kontrollü varyasyon)
+Çıpalar sabit, gerisi değişir. "Tema aynı, kostüm değişir." Kural: art arda 3 video
+asla aynı DÜZEN + aynı RENK + aynı POZ olmasın.
+
+- **DÜZEN:** A) doktor sağda / metin solda · B) doktor solda / metin sağda ·
+  C) tam ekran tıbbi görsel + altta şerit metin + doktor küçük köşede.
+- **POZ/DUYGU:** güven veren · kaşı çatık/kaygılı · eliyle işaret eden · şaşkın/soru soran.
+- **VURGU RENGİ (glow):** sperm/erkek → cyan · yumurtalık/SOPK → mor ·
+  embriyo/transfer → amber · enfeksiyon/uyarı → kırmızı. (Sarı metin sabit kalır.)
+- **PLAN/YAKINLIK:** büyük yakın yüz · göğüsten · doktor küçük + tıbbi görsel hâkim.
+- **GÖRSEL STİLİ:** gerçek ultrason · 3B anatomik render · mikroskop — dönüşümlü kullan.
+
+Mevcut 5 kapak hep "DÜZEN A + cyan + göğüsten" oldu; bir sonrakiler B/C, mor/amber,
+farklı poz ile çeşitlensin.
+
+## MASTER PROMPT (kopyala, köşeli parantezleri doldur — varyasyon için DÜZEN/POZ/RENK/PLAN değiştir)
 
 Using the attached photo of me as the EXACT reference, create a 16:9 YouTube
 thumbnail (1280x720). Keep my face, identity, skin tone, head and glasses 99%
 identical to the photo — do not beautify, slim, age, or alter my features; this
 is a real doctor's personal brand and the face must stay recognizable. Replace my
-clothing with a clean professional medical outfit — a crisp white doctor's coat
-over a light shirt (or navy-blue scrubs) — and remove any casual t-shirt or brand
-logos. Cleanly cut me out and place me on the RIGHT third of the frame, chest up,
-with a [DUYGU: confident reassuring / concerned questioning] expression and a
-subtle bright rim light separating me from the background, plus a thin edge glow
-around my silhouette. Fill the LEFT two-thirds with a softly blurred, high-contrast
-medical background showing [KONU GÖRSELİ: a single sperm cell selected by a
-micro-pipette under a microscope], dark navy-to-teal gradient with one bright cyan
-accent glow; keep the left area clean for text. Place bold text on the left: large
-yellow headline "[METİN: Mieux choisir le sperme ?]" in a heavy sans-serif font
-with dark outline and drop shadow, plus a small white badge "IVF 2026". Text must
-be sharp, correctly spelled, readable on a phone. Cinematic studio lighting, ultra
-sharp, professional, no watermark.
+clothing with a crisp white doctor's coat over a light shirt, and remove any casual
+t-shirt or brand logos. Cleanly cut me out and place me on the [DÜZEN: RIGHT third /
+LEFT third] of the frame, [PLAN: chest up / tight close-up of my face / smaller so
+the medical visual dominates], with a [POZ: confident reassuring / concerned
+questioning / pointing with my hand / surprised] expression and a subtle bright rim
+light plus a thin edge glow around my silhouette. Fill the OTHER side with a softly
+blurred, high-contrast medical visual showing [KONU GÖRSELİ: ...] in
+[GÖRSEL STİLİ: a real ultrasound scan / a 3D anatomical render / a microscope view],
+dark navy-to-teal gradient with one bright [VURGU RENGİ: cyan / purple / amber / red]
+accent glow; keep the text side clean. Place bold text there: large yellow headline
+"[METİN: ...]" in a heavy sans-serif font with dark outline and drop shadow, plus a
+small white badge "FIV 2026". Text must be sharp, correctly spelled, readable on a
+phone. Cinematic studio lighting, ultra sharp, professional, no watermark.
 
 ## Değişken örnekleri
 - DUYGU: kaygı/uyarı videosu → "concerned questioning"; bilgi/güven videosu → "confident reassuring"
