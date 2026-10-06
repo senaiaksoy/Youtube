@@ -5,15 +5,22 @@
 
 **Dosyalar**
 - Konuşma gövdesi (EN hedef metin): [video-script-ivf-supplements-en-2026-10-06.txt](video-script-ivf-supplements-en-2026-10-06.txt)
-- FR kayıt metni (EN ile 46/46 paragraf hizalı; espriler Fransızcada yeniden kuruldu): [video-script-ivf-supplements-en-2026-10-06-fr-recording.txt](video-script-ivf-supplements-en-2026-10-06-fr-recording.txt)
+- FR kayıt metni (EN ile 45/45 paragraf hizalı; espriler Fransızcada yeniden kuruldu): [video-script-ivf-supplements-en-2026-10-06-fr-recording.txt](video-script-ivf-supplements-en-2026-10-06-fr-recording.txt)
 
-**Format:** K3. 1.834 kelime; tahmini 12:14–14:07 (130–150 wpm). Sesli okumayla doğrulanmadı.
+**Format:** K3. 1.787 kelime; tahmini 11:55–13:45 (130–150 wpm). Sesli okumayla doğrulanmadı.
 
 ---
 
 ## DURUM
 - **Bilimsel doğrulama: geçti** (2026-10-06; 3 tur bağımsız alt ajan: 58 + 60 + 13 iddia; son turda ❌, ❓ ve 🕒 yok; tüm ⚠️ düzeltmeleri EN ve FR'de uygulandı). Durum: **kaynak kontrollü**.
-- **Klinik onay:** bekliyor.
+- **Klinik onay (Dr. Aksoy, 6 Ekim 2026), madde madde:**
+  - "My take" paragrafı (EN + FR): **onaylandı.**
+  - Testosteron cümlesi: **EP01'den çıkarıldı, EP02'ye taşındı.** EP02 videosu zaten yüklü olduğu için açıklamada veya sabitlenmiş yorumda kullanılmak üzere hazır metin `video-script-dhea-28-trials-fr-2026-10-03-sources.md` dosyasına eklendi.
+  - D vitamini: "correcting it is simply good medicine" ve "should my vitamin D level be checked?" **kalıyor.**
+  - Folik asit için NHS 400 µg notu: **gerek yok.**
+  - Sigara cümleleri: **onaylandı.**
+  - Skorlar: CoQ10 = 3 onaylandı. Diğer atamalar için açık onay henüz yok.
+  - Bütün script için "klinik onaylı" etiketi henüz verilmedi. Açık kalanlar: FR metin onayı, üretim yolu, açılış ve başlık seçimi.
 - **Skor ölçeği kararı (Dr. Aksoy, 6 Ekim 2026):** tek yönlü 0–4. Yüksek puan = bebeğe daha yakın kanıt.
 - **FR metin onayı (Dr. Aksoy):** bekliyor.
 - **"My take" paragrafı (EN + FR):** Dr. Aksoy onayı gerekli.
@@ -89,7 +96,7 @@ Ekran kartlarında rakam **her zaman** etiketiyle birlikte yazılır ("0 · test
 | Kanıt | Kuzen: "would she have gotten pregnant without it?" | Kontrol grubu; bireyle grup farkı | — |
 | Folik asit | "Nobody posts a before-and-after of their folic acid" | Önemli ama gösterişsiz takviye | — |
 | CoQ10 | Durup düşünme: "42 yaş, normal rezerv?" | "For whom?" sorusu | — |
-| Myo-inositol | Baba esprisi (videoda tek): "Greek island… I'll see myself out" | Bölüm içi geçiş | — |
+| Myo-inositol | Baba esprisi (videoda tek): "Greek island… I'm not proud of that one. Okay, slightly proud." (kendini yakalama bankası #2; how-many-eggs'teki "dad joke" adlı kalıp tekrar edilmedi) | Bölüm içi geçiş | — |
 | NMN | "a mouse result, not a baby result" | Hayvandan kliniğe sıçrama | — |
 | Ciddi kısım | Mizah yok ("Doctor hat back on") | Güvenlik, ilaç listesi, sigara | — |
 
@@ -118,7 +125,7 @@ Ekran kartlarında rakam **her zaman** etiketiyle birlikte yazılır ("0 · test
 - **Folik asit:** Boş "before / after" çerçevesi. Ekranda "USPSTF 2023: 400–800 µg daily" ve "not scored: different job".
 - **D vitamini:** "Too much vitamin D" cümlesi mizahsız.
 - **CoQ10 durup düşünme:** "Under 35, low reserve" yazısının yanında "42, normal reserve?" ve soru işareti; 1–2 sn sus.
-- **Baba esprisi:** Kısa ada görseli, sonra kesme. FR kayıtta « Pas de plage. » ve « Oui, c'était une blague Carambar. » öncesinde gerçek duraklama.
+- **Baba esprisi:** Kısa ada görseli, sonra kesme. FR kayıtta « Pas de plage. » ve « Je ne suis pas fier de celle-là. » öncesinde gerçek duraklama.
 - **Geri çekilmeler:** Küçük "RETRACTED" damgası; ciddi ton.
 - **ESHRE cümleleri:** Ekranda guideline adı ve tarih.
 - **DHEA tahmin sorusu:** "Did DHEA increase births?" + soru işareti, 1–2 sn sus. Ekranda "28 RCTs = DHEA + testosterone".

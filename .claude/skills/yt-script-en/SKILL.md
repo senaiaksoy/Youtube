@@ -62,9 +62,30 @@ description: Dr. Senai Aksoy'un İngilizce kanalı (@DrAksoyFertility, "Fertilit
 - **Evidence-first:** "A 2024 Cochrane review of 28 trials found…"; kısa cümle + veri; vaat yok.
 - **Lisans sınırı:** Dr. Aksoy ABD'de veya UK'de lisanslı değildir. Bireysel tavsiye, teletıp çağrısı ya da "come see me" ima edilmez.
 
-## Dad joke kalıbı (en fazla bir kez)
-"Dad joke" hem ABD'de hem UK'de yaygın ve aynı anlamda kullanılıyor.
-> "...Yes, that was a dad joke. I'm a fertility doctor. Dad jokes are basically an occupational hazard."
+## Dad joke ve kendini yakalama (videoda en fazla bir kez)
+"Dad joke" hem ABD'de hem UK'de yaygın ve aynı anlamda kullanılıyor. Kendini yakalama cümlesi her videoda değişir; tekrar kuralı CORE Adım 4'te. Espriyi adıyla anan varyant (1) 3–4 videoda bir kullanılır; diğerleri espriyi adlandırmadan yakalar. Kişisel olgu uydurulmaz ("my kids hate this one" gibi cümleler yok).
+
+| # | Varyant | Son kullanım |
+|---|---|---|
+| 1 | "…Yes, that was a dad joke. Occupational hazard." | how-many-eggs (2026-10-06) |
+| 2 | "…I'm not proud of that one. Okay, slightly proud." | EP01 supplements (2026-10-06) |
+| 3 | "…I heard it too. Moving on." | — |
+| 4 | "…That was my one joke for today. It's done. We're safe now." | — |
+| 5 | "…Sorry. I'd been saving that one since the start." | — |
+| 6 | "…No, I won't apologize. Okay, a little." | — |
+| 7 | "…Yes, that was a dad joke. I'll see myself out." | — (EP01 taslağında vardı, yayına girmedi) |
+
+## Görüş girişi (Beat D) bankası
+Kanıt ile görüş ayrımı her videoda açıkça söylenir; söyleyiş değişir. Son 3 scriptte kullanılan giriş tekrar edilmez. Ciddiyete dönüşte "hat" kullanıldıysa Beat D'de tekrar "hat" geçmez.
+
+| # | Varyant | Son kullanım |
+|---|---|---|
+| 1 | "If you ask me what I take from all this — and this is my clinical view, not a study result —" | how-many-eggs (2026-10-06) |
+| 2 | "That's what the studies say. Here's how I read them as a doctor, and this part is my opinion, not data:" | EP01 supplements (2026-10-06) |
+| 3 | "Now I'll stop quoting studies for a moment and tell you what I think. This is one doctor's view:" | — |
+| 4 | "So what would I say to a friend who asked me? This is my opinion as a clinician, not a finding:" | — |
+| 5 | "The data end here. My opinion starts here:" | — |
+| 6 | "Here's my take, and I'll label it clearly: this is clinical judgment, not evidence." | — |
 
 ## Örnek alınan anlatım mekanikleri (taklit değil, isim scriptte geçmez)
 - **ABD:** Jim Gaffigan (temiz "baba" mizahı, izleyicinin itirazını iç sesle dile getirmek), Nate Bargatze (sakin deadpan), Mike Birbiglia (*The New One*: gülme ve kırılganlık geçişi), Dr. Glaucomflecken (doktor kimliğiyle sistem gözlemi).
