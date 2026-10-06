@@ -1,0 +1,91 @@
+Seven a.m. Coffee in one hand, a handful of capsules in the other. CoQ10, vitamin D, myo-inositol, maybe DHEA. Which of these actually help with IVF?
+
+Every bottle sounds very sure of itself. "Supports egg quality." "Clinically studied." Studied, yes. Shown to help women doing IVF have a baby? That's a different sentence.
+
+Short answer: one supplement is for almost everyone trying to get pregnant, and it isn't even for your eggs. One or two are a "maybe" for specific women. And DHEA probably doesn't change the chance of having a baby, at least in the women it's mostly been tested in.
+
+In this video: how to tell good evidence from a good label, which supplements are worth a conversation, which ones haven't earned their place, and what to ask your doctor. I'm Dr. Senai Aksoy, fertility specialist. Let's sort out that counter.
+
+First question: how do we know if a supplement works at all?
+
+The internet's answer: "My cousin took it, and she got pregnant." And I believe her. Truly. Congratulations to the cousin. But here's the question nobody asks: would she have gotten pregnant without it?
+
+For one person, we can never know. But for a group, a randomized trial can tell us. Two similar groups of women. One takes the supplement, the other doesn't, ideally getting a dummy pill instead. Then you count.
+
+And what you count matters. Three words to keep apart in this video: eggs, embryos and babies. A supplement can give you one more egg, or a nicer-looking embryo under the microscope. That's not the same thing as a baby.
+
+Quick question. If a supplement gives you more eggs, does it give you more babies? …Not necessarily. And that's the gap most supplement marketing quietly steps over.
+
+So every supplement today gets an Evidence Score from zero to four. It's my teaching scale, not an official one, and it answers one question: how close has the evidence come to more babies? Four: good randomized trials showed more babies. Three: randomized trials showed better eggs, embryos or pregnancy rates, but not more babies. Two: small or low-quality studies, with uncertain results. One: only lab or animal studies. And zero means something different: it was tested in randomized trials in women, and it probably made no difference to births. So zero doesn't mean "no evidence." It means the idea was actually tested, and it didn't show what we care about.
+
+Spoiler: nothing on that counter scores a four.
+
+Now, the bottles that have earned their place. Starting with the least glamorous one on the counter.
+
+Folic acid. Nobody posts a before-and-after of their folic acid. No glow-up. It just sits there and does its job. And its job matters: it helps protect the baby's developing brain and spine from a group of birth defects called neural tube defects.
+
+The US Preventive Services Task Force recommends a daily supplement with 400 to 800 micrograms for anyone who is planning to get pregnant, or could become pregnant. Start before you conceive, not after the positive test. Some women are advised a higher dose, so ask your doctor.
+
+Folic acid doesn't get a score today, because it isn't trying to improve your IVF. It has a different job: protecting the baby. And for that job, the evidence is strong.
+
+Next, vitamin D. Low vitamin D is common, and if your level is low, correcting it is simply good medicine. But does extra vitamin D improve IVF results? In observational studies, women with low vitamin D had somewhat poorer IVF results. But a link isn't proof that taking more fixes it. When randomized trials in women who were deficient actually tested it, there was a possible signal on very early pregnancy tests, but no clear improvement in clinical pregnancy.
+
+And more is not better. Too much vitamin D can push your calcium too high, and that can make you genuinely unwell.
+
+For IVF results, vitamin D scores a two. Verdict: if it's low, correct it with your doctor, for your health. Not to "boost" your eggs.
+
+So far: folic acid for almost everyone, and vitamin D if you're low.
+
+But now we get to the bottles sold for "egg quality." And here, the honest answer starts with "maybe," and quickly turns into "not really."
+
+Coenzyme Q10. In a randomized trial in women under 35 with low ovarian reserve, two months of CoQ10 before IVF meant more eggs and more good-quality embryos. Analyses that pooled several trials also found more clinical pregnancies. But where live births were counted, the difference wasn't statistically significant. Many of these trials had no placebo, and the authors of one analysis called them small, with poorly described methods.
+
+Pause for a second. That main trial was in women under 35 with low reserve. Does it tell us much about a woman of 42 with normal reserve? Not really. That's why "does it work?" always needs a second question: "for whom?"
+
+For low reserve, CoQ10 scores a three. A maybe to discuss with your doctor, not a must. And for context: the European fertility society, ESHRE, doesn't recommend antioxidant therapy in IVF in general. It doesn't single out CoQ10, and the CoQ10 trials do show some early signals. That's exactly why it's a three, and not a four.
+
+Myo-inositol. Sounds like a Greek island. It isn't. I checked. No beaches. …Yes, that was a dad joke. I'll see myself out.
+
+Myo-inositol is often used by women with polycystic ovary syndrome, PCOS. A recent analysis reported a higher share of mature eggs in women with PCOS. But some of the randomized trials behind the positive myo-inositol results have since been retracted. And the latest ESHRE guideline says myo-inositol is probably not recommended for IVF, even with PCOS, and not recommended for women with low reserve. Myo-inositol scores a two.
+
+Melatonin is more complicated. Some randomized trials and analyses report more mature eggs, better-looking embryos, even a possible improvement in clinical pregnancy. But a careful double-blind trial with a placebo found no difference in eggs, pregnancies or births. One of the positive trials has since been retracted. And there's still no convincing evidence that melatonin gives women more babies. Melatonin scores a two: interesting, but not ready for routine IVF use.
+
+Antioxidant blends, and NAC. The Cochrane review here includes dozens of trials. Sounds solid. But the quality was low to very low, so we can't say they lead to more babies. Since then, Cochrane's editors have noted that several of those studies were retracted. To be fair, they checked: removing them doesn't change the review's conclusions. Those conclusions were already: uncertain. Antioxidant blends score a two.
+
+In short: CoQ10 is a maybe for low reserve. Myo-inositol, melatonin and antioxidant blends are still in the "uncertain" pile.
+
+And then there's the far end of the scale.
+
+NMN, the newest one. In older mice, NMN improved egg quality. Impressive pictures. In women doing IVF, I couldn't find a single published randomized trial. In adults in general, short-term use looked well tolerated. NMN scores a one. For now, that's a mouse result, not a baby result.
+
+And DHEA. For years, it was widely used for women with low reserve. A large Cochrane review pooled 28 randomized trials of DHEA and testosterone, mostly in women who respond poorly to stimulation. Before I tell you the result: what do you think? Did DHEA increase births?
+
+The answer, with moderate certainty: DHEA probably makes little or no difference to live births. And DHEA isn't a vitamin. It's a hormone, with hormone side effects, like acne. The ESHRE guideline doesn't recommend it before or during stimulation.
+
+So DHEA scores a zero. Not because nobody studied it. Because it was studied, and it didn't deliver.
+
+The same review found a more promising signal for testosterone in women who respond poorly to stimulation. But that's a prescription hormone, ESHRE still says it's probably not recommended, and it's a conversation with your specialist, not a supplement.
+
+So here's the honest summary: not one bottle on that counter has been shown to give women more babies with IVF. CoQ10 is a maybe. DHEA is a probably not.
+
+Okay. Doctor hat back on. This part matters.
+
+A supplement isn't automatically harmless just because it's sold as a supplement. DHEA acts on your hormones. Vitamin D can be overdone. And if you take several products, check that you're not doubling up on the same ingredient.
+
+So bring the actual bottles, or photos of the labels, to your next appointment. Your clinic needs to know everything you take. And don't start or stop anything that's been prescribed for you on your own.
+
+One more thing that isn't in any bottle. If you smoke, stopping is one of the most useful things you can do. The evidence that smoking harms fertility and IVF results is far stronger than the evidence for any of those "egg quality" capsules. The American Society for Reproductive Medicine links it to poorer IVF results, and to lower AMH, a marker of ovarian reserve.
+
+Bottom line for this part: tell your clinic everything you take, and keep the list honest.
+
+If you ask me what I take from all this — and this is my clinical view, not a study result — keep the counter short. Folic acid for almost everyone. Vitamin D if you're low. If you have low reserve, CoQ10 is worth a conversation with your doctor, as a maybe, not a promise. Everything else has to earn its place, with evidence that counts babies.
+
+So, back to that kitchen counter at seven a.m. Which of those capsules actually help with IVF? Honestly, none has been shown to bring more babies. Folic acid is for almost everyone, but it's there to protect the baby. Vitamin D, if you're low. CoQ10, a maybe for low reserve. And DHEA? The trials have answered: probably not.
+
+Next time a label says "clinically studied," ask one question: did they count babies?
+
+When you see your doctor, here are three questions you can bring. Based on my tests, does any supplement make sense for me, and why? Is anything I'm taking now unnecessary, or could it interfere with my treatment? And should my vitamin D level be checked? I've put these in the description too.
+
+This video is general information, not personal medical advice. Please don't start or stop anything without your own doctor.
+
+And if you want the full DHEA story, and what those 28 trials actually measured, that's the next video.
