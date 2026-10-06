@@ -35,13 +35,14 @@ description: Dr. Senai Aksoy'un İngilizce kanalı (@DrAksoyFertility, "Fertilit
   | Skor | Videoda söylenen tanım |
   |---|---|
   | 4 | Good randomized trials showed more babies |
-  | 3 | Randomized trials showed better eggs, embryos or pregnancy rates, but not more babies |
-  | 2 | Small or low-quality studies, with uncertain results |
+  | 3 | Randomized trials consistently showed better eggs, embryos or pregnancy rates, but haven't yet shown more babies |
+  | 2 | Small or low-quality studies, or signals that don't hold up in the more careful trials |
   | 1 | Only lab or animal studies |
   | 0 | Tested in randomized trials in women, and it probably made no difference to births |
   | skor yok | Farklı işi olan müdahale (ör. folik asit bebeği korur; IVF sonucunu iyileştirmeye çalışmaz) |
 
-- **0 ile 1 karıştırılmaz.** 0 = test edildi, işe yaramadı. 1 = insanda henüz test edilmedi. 0 ilk tanımlandığı yerde bir cümleyle pekiştirilir: *"So zero doesn't mean 'no evidence.' It means the idea was actually tested, and it didn't show what we care about."*
+- **0 ile 1 karıştırılmaz.** 0 = test edildi, işe yaramadı. 1 = insanda henüz test edilmedi. 0 ilk tanımlandığı yerde bir cümleyle pekiştirilir: *"So zero doesn't mean 'no evidence.' It means good trials tested it, and it probably doesn't change births."*
+- **3 ile 2 arasındaki ayırıcı kural:** 3 için sinyal tutarlı olmalı. Sinyal en dikkatli (plasebolu, kör) çalışmada tutmuyorsa skor 2'dir ve bu gerekçe videoda söylenir. Örnek: EP01'de melatonin 2, çünkü plasebo RCT'si sinyali doğrulamadı; CoQ10 3, çünkü klinik gebelik sinyali iki RCT meta-analizinde de görüldü.
 - Ölçeğin Dr. Aksoy'un **öğretici ölçeği** olduğu, resmî bir skor olmadığı videoda söylenir.
 - Skor popülasyona bağlıysa popülasyonla birlikte söylenir ("For low reserve, CoQ10 scores a three"). Popülasyonlar arasında fark varsa her biri ayrı söylenir.
 - Rakam ekranda, açıklamada, Short'ta ve kapakta **asla etiketsiz gösterilmez** ("0 · tested, no difference").

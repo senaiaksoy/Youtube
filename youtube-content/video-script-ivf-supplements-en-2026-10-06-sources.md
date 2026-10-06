@@ -7,13 +7,13 @@
 - Konuşma gövdesi (EN hedef metin): [video-script-ivf-supplements-en-2026-10-06.txt](video-script-ivf-supplements-en-2026-10-06.txt)
 - FR kayıt metni (EN ile 46/46 paragraf hizalı; espriler Fransızcada yeniden kuruldu): [video-script-ivf-supplements-en-2026-10-06-fr-recording.txt](video-script-ivf-supplements-en-2026-10-06-fr-recording.txt)
 
-**Format:** K3. 1.749 kelime; tahmini 11:40–13:27 (130–150 wpm). Sesli okumayla doğrulanmadı.
+**Format:** K3. 1.834 kelime; tahmini 12:14–14:07 (130–150 wpm). Sesli okumayla doğrulanmadı.
 
 ---
 
 ## DURUM
-- **Bilimsel doğrulama:** 1. tur bağımsız alt ajan (58 iddia) **geçmedi**: 1 ❌, 1 🕒, 3 ❓. Bulgular uygulandı (aşağıda). 2. tur bağımsız doğrulama (EN + FR kayma kontrolü) çalışıyor. Sonuç gelene kadar durum: **taslak**.
-- **Klinik onay:** bekliyor (yalnızca Dr. Aksoy verir).
+- **Bilimsel doğrulama: geçti** (2026-10-06; 3 tur bağımsız alt ajan: 58 + 60 + 13 iddia; son turda ❌, ❓ ve 🕒 yok; tüm ⚠️ düzeltmeleri EN ve FR'de uygulandı). Durum: **kaynak kontrollü**.
+- **Klinik onay:** bekliyor.
 - **Skor ölçeği kararı (Dr. Aksoy, 6 Ekim 2026):** tek yönlü 0–4. Yüksek puan = bebeğe daha yakın kanıt.
 - **FR metin onayı (Dr. Aksoy):** bekliyor.
 - **"My take" paragrafı (EN + FR):** Dr. Aksoy onayı gerekli.
@@ -26,8 +26,8 @@
 | Skor | Tanım (scriptteki) | Atama |
 |---|---|---|
 | 4 | Good randomized trials showed more babies | — (hiçbiri) |
-| 3 | Randomized trials showed better eggs, embryos or pregnancy rates, but not more babies | CoQ10 (düşük rezerv) |
-| 2 | Small or low-quality studies, with uncertain results | D vitamini (IVF sonucu için), myo-inositol, melatonin, antioksidan karışımları/NAC |
+| 3 | Randomized trials consistently showed better eggs, embryos or pregnancy rates, but haven't yet shown more babies | CoQ10 (düşük rezerv) |
+| 2 | Small or low-quality studies, or signals that don't hold up in the more careful trials | D vitamini (IVF sonucu için), myo-inositol, melatonin, antioksidan karışımları/NAC |
 | 1 | Only lab or animal studies | NMN |
 | 0 | Tested in randomized trials in women, probably no difference in births | DHEA |
 | skor yok | Different job | Folik asit (bebeği korur) |
@@ -166,6 +166,7 @@ Kullanıcının verdiği başlık korunuyor: **"IVF Supplements: What Really Hel
 | C16 | NMN yaşlı farede oosit kalitesi ↑ | Bertoldo 2020, PMID 32049001, [DOI](https://doi.org/10.1016/j.celrep.2020.01.058) | abstract |
 | C17 | NMN yetişkinde kısa süreli kullanım iyi tolere | Yang 2026, PMID 42514320, [DOI](https://doi.org/10.3390/nu18142251) | abstract |
 | C19 | Düşük D vitamini ile daha kötü IVF sonucu arasında gözlemsel ilişki | Chu 2018 Hum Reprod, PMID 29149263, [DOI](https://doi.org/10.1093/humrep/dex326) (11 kohort; canlı doğum OR 1,33); Xu 2024 Reprod Sci, PMID 38777949, [DOI](https://doi.org/10.1007/s43032-024-01578-9) (23 gözlemsel çalışma) | abstract |
+| C21 | CoQ10 tek plasebo kontrollü RCT: 35–43 yaş, 24 kadın tamamladı, erken durduruldu, fark yok, güç yetersiz | Bentov 2014, PMID 24987272, [DOI](https://doi.org/10.4137/CMRH.S14681) | abstract (ana ajan) |
 | C20 | Myo-inositol RCT'si geri çekildi (Papaleo 2008) | PMID 18462730, [DOI](https://doi.org/10.1016/j.fertnstert.2008.01.088) ("Retracted Publication": açıklanmamış çıkar çatışması + istatistik hataları) | metadata |
 | C18 | Sigara: AMH düşüklüğü; ASRM | Werner 2024, PMID 38402486, [DOI](https://doi.org/10.1093/humupd/dmae004); ASRM 2024, PMID 38284953, [DOI](https://doi.org/10.1016/j.fertnstert.2023.12.029) | abstract |
 
@@ -212,5 +213,35 @@ Her öneri kaynağa gidilerek değerlendirildi; uygulananlar iki metinde birden 
 | Antioksidan: "altı çalışma geri çekildi" | ❌ uygulanmadı | Editör notu (5 Mart 2026, PubMed abstract'ında birebir): 7 geri çekilme + 2 endişe bildirimi |
 | Folik asit, NMN, DHEA, testosteron: aynen kalsın | ✅ | Değişiklik yok |
 
-## BİLİMSEL DOĞRULAMA — 2. TUR
-_(bağımsız alt ajan çalışıyor: güncel EN + FR, skor atamaları, FR/EN kayması)_
+## BİLİMSEL DOĞRULAMA — 2. TUR (bağımsız alt ajan, 6 Ekim 2026; harici inceleme düzeltmeleri dahil güncel EN + FR)
+60 iddia · ✅ 50 · ⚠️ 9 · ❌ 0 · ❓ 1 · 🕒 0. Kapı: ❓ C54 (DHEA'nın UK yasal durumu) çözülmeden "kaynak kontrollü" yazılamaz.
+
+| ID | Sorun | Uygulanan düzeltme (önce → sonra) |
+|---|---|---|
+| C06/C26/C36 | 3 ile 2 arasında açık kural yok; melatonin 3'ün tanımıyla anlatılıp 2 alıyordu; CoQ10'un kanıtı da plasebosuz | Tanımlar: 3 = "randomized trials **consistently** showed… but **haven't yet shown** more babies"; 2 = "…or signals that don't hold up in the more careful trials". Melatonin: "scores a two, not a three, because the most careful trial didn't confirm those signals". Ayırıcı kural STRATEJI §3 ve yt-script-en'e de yazıldı |
+| C07 | "didn't show what we care about" CoQ10'u da tarif ediyor | "It means good trials tested it, and it probably doesn't change births." |
+| C27 | ESHRE/CoQ10: "in general" "genellikle" diye duyulabilir; "exactly why" mantığı karışık | "ESHRE doesn't recommend antioxidant therapy in IVF. It doesn't assess CoQ10 by name. The early signals are why CoQ10 gets a three. The missing babies are why it isn't a four." |
+| C30 | ESHRE myo-inositol: hangi durumun daha yumuşak olduğu ters kurulmuş; PCOS dışı "strong" öneri "probably"ye dönmüş | "…not recommended for IVF in women without PCOS or with low reserve, and even with PCOS, it's probably not recommended." |
+| C33 | Melatonin plasebo RCT'sinde "small" düşmüştü; nötr sonuç olduğundan güçlü duyuluyordu | "…It was small, too small to rule out a benefit." |
+| C51 | "Signal", orta kesinlikteki canlı doğum bulgusunu küçümsüyor | "…testosterone probably increases live births in women who respond poorly to stimulation, though the trials were small and not blinded." |
+| C60 | "those 28 trials" + "DHEA story" yanlış okunuyor (14'ü DHEA) | "…what the DHEA trials in that review actually measured" |
+| C54 ❓ | DHEA'nın UK yasal durumu birincil kaynakla doğrulanamadı | Yasal ve satış durumuna dayanan ima kaldırıldı: "Nothing on that counter is automatically harmless just because it looks like a vitamin. DHEA, for example, acts on your hormones." Scriptte artık hiçbir ülkeye özgü erişim iddiası yok (3. turda teyit edilecek) |
+| FR | Kayma ve dil (doğrulayıcının 4, 5, 12, 13, 14. maddeleri + diğerleri) | « la plupart des publicités pour compléments »; « qui pourrait tomber enceinte »; « cocktails d'antioxydants »; « dit toujours »; « n'est pas forcément inoffensif »; « Prouvé qu'il aide »; « un groupe d'experts indépendant »; « retiré(s) » (« rétracté » yerine); « l'équipe éditoriale de Cochrane » (faux ami); « Les recommandations de l'ESHRE »; « plan de travail » (« comptoir » yerine); « Je vous le dis tout de suite » |
+
+**Geri çekilme kontrolü (2. tur):** Pacchiarotti 2016 (geri çekme notu PMID 41626704) Zhang 2025'teki en büyük çalışma ve Tang 2025'te de var. Papaleo 2008 (not PMID 39971415) Zhang 2025'te. Kotb 2016 (not PMID 41785717) Naik 2024'te; olumlu çalışma olduğu için DHEA'nın "fark yok" sonucunu güçlendiriyor. EP02 DHEA videosunda açıkça anılmalı.
+
+**Hekim onayı gereken maddeler (2. tur ek):** CoQ10 = 3 / melatonin = 2 ayrımı (ayırıcı kurala dayanıyor); testosteronun yeni ifadesi; "far stronger than the evidence for…" ve "one of the most useful things"; NHS'nin 400 µg folik asit önerisi UK izleyicisi için anılsın mı (bu oturumda doğrulanmadı).
+
+## BİLİMSEL DOĞRULAMA — 3. TUR (bağımsız alt ajan, 6 Ekim 2026; yalnızca değişen cümleler + FR dil düzeltmeleri)
+13 iddia · ✅ 10 · ⚠️ 3 · ❌ 0 · ❓ 0 · 🕒 0. C54 (DHEA UK durumu) yeniden kurulan cümleyle kapandı: scriptte ülkeye özgü erişim veya yasal durum iddiası kalmadı.
+
+| ID | Sorun | Uygulanan düzeltme (önce → sonra) |
+|---|---|---|
+| C1 | CoQ10 = 3 "consistently": kanıt plasebosuz ve kör değil; tek plasebo RCT'si (Bentov 2014) de nötr; melatoninle simetri sorunu | Eklendi: "The one placebo-controlled trial I found was in older women, not low reserve, and it was stopped early, far too small to show anything either way." + "A cautious three, built on small, mostly unblinded trials." Bentov kaynağı ana ajan tarafından PubMed'den açılıp doğrulandı |
+| C4 | "good trials" orta kesinlikteki, kör olmayan çalışmaları olduğundan iyi gösteriyor | "It means randomized trials tested it, and it probably doesn't change births." |
+| C6 | "doesn't assess CoQ10 by name" doğrulanabilenden fazlasını söylüyor (tam kılavuz PDF'i açılamadı) | "It doesn't make a recommendation on CoQ10 by name." |
+| FR | Zamir uyumu ve üslup | « elle a vérifié » (l'équipe); « un groupe indépendant d'experts »; « plan de travail dégagé »; « non menés en aveugle »; CoQ10 cümlesinin sırası kulağa göre düzenlendi |
+
+**Not (EP02 için):** Cochrane'in DHEA sonucu tek başına canlı doğum değil, birleşik "live birth/ongoing pregnancy". EP02'de bu açıkça söylenmeli; Kotb 2016 geri çekilmesi de anılmalı.
+
+**Hekim onayı gereken son karar:** CoQ10 = 3 ile melatonin = 2 arasındaki fark. İki takviyenin de tek dikkatli plasebo çalışması nötr ve küçük. CoQ10'un 3 kalması yalnızca düşük rezerv popülasyonuna özgü tutarlı sinyale dayanıyor; script bunu "a cautious three" diye açıkça söylüyor. Dr. Aksoy ikisini de 2 yapmayı tercih ederse "maybe" bölümü ve "My take" yeniden yazılır.

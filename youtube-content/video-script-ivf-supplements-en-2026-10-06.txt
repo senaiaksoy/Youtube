@@ -16,7 +16,7 @@ And what you count matters. Three words to keep apart in this video: eggs, embry
 
 Quick question. If a supplement gives you more eggs, does it give you more babies? …Not necessarily. And that's the gap most supplement marketing quietly steps over.
 
-So every supplement today gets an Evidence Score from zero to four. It's my teaching scale, not an official one, and it answers one question: how close has the evidence come to more babies? Four: good randomized trials showed more babies. Three: randomized trials showed better eggs, embryos or pregnancy rates, but not more babies. Two: small or low-quality studies, with uncertain results. One: only lab or animal studies. And zero means something different: it was tested in randomized trials in women, and it probably made no difference to births. So zero doesn't mean "no evidence." It means the idea was actually tested, and it didn't show what we care about.
+So every supplement today gets an Evidence Score from zero to four. It's my teaching scale, not an official one, and it answers one question: how close has the evidence come to more babies? Four: good randomized trials showed more babies. Three: randomized trials consistently showed better eggs, embryos or pregnancy rates, but haven't yet shown more babies. Two: small or low-quality studies, or signals that don't hold up in the more careful trials. One: only lab or animal studies. And zero means something different: it was tested in randomized trials in women, and it probably made no difference to births. So zero doesn't mean "no evidence." It means randomized trials tested it, and it probably doesn't change births.
 
 Spoiler: nothing on that counter scores a four.
 
@@ -38,17 +38,17 @@ So far: folic acid for almost everyone, and vitamin D if you're low.
 
 But now we get to the bottles sold for "egg quality." And here, the honest answer starts with "maybe," and quickly turns into "not really."
 
-Coenzyme Q10. In a randomized trial in women under 35 with low ovarian reserve, two months of CoQ10 before IVF meant more eggs and more good-quality embryos. Analyses that pooled several trials also found more clinical pregnancies. But where live births were counted, the difference wasn't statistically significant. Many of these trials had no placebo, and the authors of one analysis called them small, with poorly described methods.
+Coenzyme Q10. In a randomized trial in women under 35 with low ovarian reserve, two months of CoQ10 before IVF meant more eggs and more good-quality embryos. Analyses that pooled several trials also found more clinical pregnancies. But where live births were counted, the difference wasn't statistically significant. Many of these trials had no placebo, and the authors of one analysis called them small, with poorly described methods. The one placebo-controlled trial I found was in older women, not low reserve, and it was stopped early, far too small to show anything either way.
 
 Pause for a second. That main trial was in women under 35 with low reserve. Does it tell us much about a woman of 42 with normal reserve? Not really. That's why "does it work?" always needs a second question: "for whom?"
 
-For low reserve, CoQ10 scores a three. A maybe to discuss with your doctor, not a must. And for context: the European fertility society, ESHRE, doesn't recommend antioxidant therapy in IVF in general. It doesn't single out CoQ10, and the CoQ10 trials do show some early signals. That's exactly why it's a three, and not a four.
+For low reserve, CoQ10 scores a three. A cautious three, built on small, mostly unblinded trials. A maybe to discuss with your doctor, not a must. And for context: the European fertility society, ESHRE, doesn't recommend antioxidant therapy in IVF. It doesn't make a recommendation on CoQ10 by name. The early signals are why CoQ10 gets a three. The missing babies are why it isn't a four.
 
 Myo-inositol. Sounds like a Greek island. It isn't. I checked. No beaches. …Yes, that was a dad joke. I'll see myself out.
 
-Myo-inositol is often used by women with polycystic ovary syndrome, PCOS. A recent analysis reported a higher share of mature eggs in women with PCOS. But some of the randomized trials behind the positive myo-inositol results have since been retracted. And the latest ESHRE guideline says myo-inositol is probably not recommended for IVF, even with PCOS, and not recommended for women with low reserve. Myo-inositol scores a two.
+Myo-inositol is often used by women with polycystic ovary syndrome, PCOS. A recent analysis reported a higher share of mature eggs in women with PCOS. But some of the randomized trials behind the positive myo-inositol results have since been retracted. And the latest ESHRE guideline says myo-inositol is not recommended for IVF in women without PCOS or with low reserve, and even with PCOS, it's probably not recommended. Myo-inositol scores a two.
 
-Melatonin is more complicated. Some randomized trials and analyses report more mature eggs, better-looking embryos, even a possible improvement in clinical pregnancy. But a careful double-blind trial with a placebo found no difference in eggs, pregnancies or births. One of the positive trials has since been retracted. And there's still no convincing evidence that melatonin gives women more babies. Melatonin scores a two: interesting, but not ready for routine IVF use.
+Melatonin is more complicated. Some randomized trials and analyses report more mature eggs, better-looking embryos, even a possible improvement in clinical pregnancy. But a careful double-blind trial with a placebo found no difference in eggs, pregnancies or births. It was small, too small to rule out a benefit. One of the positive trials has since been retracted. And there's still no convincing evidence that melatonin gives women more babies. Melatonin scores a two, not a three, because the most careful trial didn't confirm those signals. Interesting, but not ready for routine IVF use.
 
 Antioxidant blends, and NAC. The Cochrane review here includes dozens of trials. Sounds solid. But the quality was low to very low, so we can't say they lead to more babies. Since then, Cochrane's editors have noted that several of those studies were retracted. To be fair, they checked: removing them doesn't change the review's conclusions. Those conclusions were already: uncertain. Antioxidant blends score a two.
 
@@ -64,13 +64,13 @@ The answer, with moderate certainty: DHEA probably makes little or no difference
 
 So DHEA scores a zero. Not because nobody studied it. Because it was studied, and it didn't deliver.
 
-The same review found a more promising signal for testosterone in women who respond poorly to stimulation. But that's a prescription hormone, ESHRE still says it's probably not recommended, and it's a conversation with your specialist, not a supplement.
+The same review found that testosterone probably increases live births in women who respond poorly to stimulation, though the trials were small and not blinded. But that's a prescription hormone, ESHRE still says it's probably not recommended, and it's a conversation with your specialist, not a supplement.
 
 So here's the honest summary: not one bottle on that counter has been shown to give women more babies with IVF. CoQ10 is a maybe. DHEA is a probably not.
 
 Okay. Doctor hat back on. This part matters.
 
-A supplement isn't automatically harmless just because it's sold as a supplement. DHEA acts on your hormones. Vitamin D can be overdone. And if you take several products, check that you're not doubling up on the same ingredient.
+Nothing on that counter is automatically harmless just because it looks like a vitamin. DHEA, for example, acts on your hormones. Vitamin D can be overdone. And if you take several products, check that you're not doubling up on the same ingredient.
 
 So bring the actual bottles, or photos of the labels, to your next appointment. Your clinic needs to know everything you take. And don't start or stop anything that's been prescribed for you on your own.
 
@@ -88,4 +88,4 @@ When you see your doctor, here are three questions you can bring. Based on my te
 
 This video is general information, not personal medical advice. Please don't start or stop anything without your own doctor.
 
-And if you want the full DHEA story, and what those 28 trials actually measured, that's the next video.
+And if you want the full DHEA story, and what the DHEA trials in that review actually measured, that's the next video.
