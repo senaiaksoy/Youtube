@@ -19,13 +19,12 @@
   - D vitamini: "correcting it is simply good medicine" ve "should my vitamin D level be checked?" **kalıyor.**
   - Folik asit için NHS 400 µg notu: **gerek yok.**
   - Sigara cümleleri: **onaylandı.**
-  - Skorlar: CoQ10 = 3 onaylandı. Diğer atamalar için açık onay henüz yok.
-  - Bütün script için "klinik onaylı" etiketi henüz verilmedi. Açık kalanlar: FR metin onayı, üretim yolu, açılış ve başlık seçimi.
+  - Skorlar: **tüm atamalar onaylandı** (CoQ10 3 · D vitamini 2 · myo-inositol 2 · melatonin 2 · antioksidan/NAC 2 · NMN 1 · DHEA 0 · folik asit skorsuz).
+  - FR kayıt metni: **onaylandı.**
+  - Açık kalanlar: açılış ve başlık seçimi; sesli dinleme ve EN anadil kontrolü.
 - **Skor ölçeği kararı (Dr. Aksoy, 6 Ekim 2026):** tek yönlü 0–4. Yüksek puan = bebeğe daha yakın kanıt.
-- **FR metin onayı (Dr. Aksoy):** bekliyor.
-- **"My take" paragrafı (EN + FR):** Dr. Aksoy onayı gerekli.
 - **Sesli okuma:** yapılmadı. **Anadil (EN) kontrolü:** yapılmadı.
-- **Üretim yolu:** belirsiz. FR kayıt + ElevenLabs dublaj için FR metin hazır. How-many-eggs'teki EN Text to Speech yolu seçilirse FR metin gerekmez.
+- **Üretim yolu (Dr. Aksoy, 6 Ekim 2026): EN Text to Speech**, how-many-eggs'teki yolla aynı. Üretim daha sonra yapılacak. Bu yolda FR kayıt metni kullanılmaz; onaylı olarak arşivde kalır. FR kayda ait reji notları (duraklamalar) bu yolda geçersiz. Komik zamanlama TTS'te düzleşebilir: "That's a different sentence.", "No beaches." ve "I'm not proud of that one." öncesindeki duraklamalar üretimde dinlenip kontrol edilir. Studio'da "altered content = Yes" ve açıklamada yapay zekâ ses notu zorunlu.
 
 ---
 
