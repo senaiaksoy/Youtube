@@ -244,4 +244,4 @@ Her öneri kaynağa gidilerek değerlendirildi; uygulananlar iki metinde birden 
 
 **Not (EP02 için):** Cochrane'in DHEA sonucu tek başına canlı doğum değil, birleşik "live birth/ongoing pregnancy". EP02'de bu açıkça söylenmeli; Kotb 2016 geri çekilmesi de anılmalı.
 
-**Hekim onayı gereken son karar:** CoQ10 = 3 ile melatonin = 2 arasındaki fark. İki takviyenin de tek dikkatli plasebo çalışması nötr ve küçük. CoQ10'un 3 kalması yalnızca düşük rezerv popülasyonuna özgü tutarlı sinyale dayanıyor; script bunu "a cautious three" diye açıkça söylüyor. Dr. Aksoy ikisini de 2 yapmayı tercih ederse "maybe" bölümü ve "My take" yeniden yazılır.
+**Karar (Dr. Aksoy, 6 Ekim 2026): CoQ10 = 3 kalıyor.** Önceki açık soru: CoQ10 = 3 ile melatonin = 2 arasındaki fark. İki takviyenin de tek dikkatli plasebo çalışması nötr ve küçük. CoQ10'un 3 kalması yalnızca düşük rezerv popülasyonuna özgü tutarlı sinyale dayanıyor; script bunu "a cautious three" diye açıkça söylüyor. Dr. Aksoy ikisini de 2 yapmayı tercih ederse "maybe" bölümü ve "My take" yeniden yazılır.
