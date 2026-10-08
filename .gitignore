@@ -46,3 +46,26 @@ Thumbs.db
 # local worktrees
 .worktrees/
 .claude/worktrees/
+
+# secrets (never commit)
+youtube-api/client_secret.json
+
+# python caches
+__pycache__/
+
+# large media workspaces and render outputs (local only)
+videos/
+exports/
+local-lipsync/
+projects/
+remotion-graphics/
+dhea-gh-edit/
+bhcg_1_pro_enhancement_work/
+shorts_work/
+
+# scratch and review captures
+.tmp/
+banner-check/
+banner-check-tr/
+thumbs_fr_scan/
+thumbs_fr_scan_shorts/
