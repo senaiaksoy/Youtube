@@ -3,11 +3,12 @@ type: description-library
 domain: youtube-content-production
 master-source: wiki/youtube/seo-youtube-tr.md + wiki/youtube/seo-youtube.md + wiki/youtube/cross-reference-policy.md
 created: 2026-05-04
+updated: 2026-08-04
 ---
 
 # 07 — Description Library
 
-> Her video için description'ı sıfırdan yazma. Süre kategorisini (`03-script-format-checklist.md` K1-K5) ve konu tipini seç → ilgili iskeleti kopyala → modülleri yerleştir → hashtag/disclaimer/UTM doldur. **Standart şablon = tutarlı tarama + tutarlı algoritma sinyali.**
+> Her video için description'ı sıfırdan yazma. Süre kategorisini (`03-script-format-checklist.md` K1-K5) ve konu tipini seç → ilgili iskeleti kopyala → modülleri yerleştir → kaynak/disclaimer/UTM doldur. **Standart modüller okunabilirlik ve izlenebilirlik içindir; algoritma garantisi değildir.**
 
 `channel-operations-memory-2026-05-01.md` not: "video açıklama şablonunu tüm videolarda standardize etmek bir sonraki doğal adım." Bu dosya o adımdır.
 
@@ -19,34 +20,34 @@ Bir description bu 8 modülden oluşur (sıralı):
 
 | # | Modül | Zorunlu mu? | Notlar |
 |---|---|---|---|
-| 1 | **Snippet (ilk 150 karakter)** | Evet | Mobil arama snippet'i + Google video snippet — SEO hayati |
+| 1 | **Snippet (ilk cümle)** | Evet | İlk cümlede konu + izleyici vaadi; 150 karakter yalnızca çalışma hedefi |
 | 2 | **Makale CTA** | Evet (K2-K5) | UTM linkli; TR → tupbebek.com, FR → draksoyivf.com (cross-reference-policy §A) |
-| 3 | **İçindekiler (chapter)** | Evet (K2-K5) | YouTube chapter marker; algoritma engagement sinyali |
-| 4 | **Kaynaklar bloğu** | Evet (kanıt-temelli K2-K5) | Kılavuz adı + yıl; PMID/DOI mümkünse |
+| 3 | **İçindekiler (chapter)** | Gerektiğinde | Teknik chapter koşulları sağlanıyorsa; algoritma sinyali varsayımı yok |
+| 4 | **Kaynaklar bloğu** | Evet (kanıt-temelli K2-K5) | Tam başlık + yıl + PMID/DOI/açık erişim link; videodaki iddialarla eşleşir |
 | 5 | **About blok** | Evet | Sabit metin; aşağıda hazır |
 | 6 | **Disclaimer satırı** | Evet | Konu tipine göre 5 alternatif (`03-script-format-checklist.md` §4) |
-| 7 | **Hashtag** | Evet | TR: 3-5; FR: 3-5; konu kümesi başına bankadan |
+| 7 | **Hashtag** | Opsiyonel | Yalnızca alakalı olanlar; sabit sayı veya erişim garantisi yok |
 | 8 | **Sabitlenmiş yorum referansı** | Opsiyonel | Description'ın son satırı; pinned comment'a yön |
 
 **Yasak modüller (cross-reference-policy §A + SB Tanıtım Yönetmeliği):** klinik adı, hekim adı, randevu/iletişim CTA, fiyat, "bana ulaşın", "garanti", "mucize", marka adı, hasta öyküsü, önce-sonra.
 
 ---
 
-## K1 — Shorts (50-60 sn)
+## K1 — Shorts (20-180 sn)
 
-> Shorts'ta description çok kısa; ana videoya çapraz link öncelikli.
+> Shorts'ta description çok kısa; dış URL'ler tıklanabilir olmadığı için ana videoya **Related Video** önceliklidir.
 
 ### TR
 
 ```
 [Snippet — 1 cümle, soruyu doğrudan tekrarlayan]
 
-🎬 Tam video → https://www.youtube.com/watch?v=[ID]
+🎬 İlişkili Video → YouTube Studio'da `[ID]` seçildi (Shorts player linki)
 📌 Yazılı kaynak → https://tupbebek.com/[slug]?utm_source=youtube&utm_medium=shorts&utm_campaign=[pack-id]
 
 ⚠️ Tıbbi tavsiye değildir; durumunuza özel değerlendirme için doktorunuza danışın.
 
-#TüpBebek #İVF #ÜremeSağlığı [+ konu hashtag'i]
+[Yalnızca alakalı hashtag'ler; opsiyonel]
 ```
 
 ### FR
@@ -59,7 +60,7 @@ Bir description bu 8 modülden oluşur (sıralı):
 
 ⚠️ Contenu informatif. Ne remplace pas une évaluation médicale individuelle.
 
-#FIV #PMA #Fertilité [+ hashtag du sujet]
+[Hashtags pertinents uniquement ; facultatif]
 ```
 
 ---
@@ -90,11 +91,11 @@ Bir description bu 8 modülden oluşur (sıralı):
 - [İlgili master vault sayfa adı]
 
 ℹ️ Hakkında
-Dr. Senai Aksoy, üreme tıbbı uzmanı (30+ yıl klinik deneyim). Bu kanal bağımsız bilgilendirme amaçlıdır. tupbebek.com baş editörü.
+Dr. Senai Aksoy, üreme tıbbı ve tüp bebek (FIV) uzmanı (30+ yıl klinik deneyim). Bu kanal bağımsız bilimsel bilgilendirme amaçlıdır. #healthinfo
 
 ⚠️ [Disclaimer satırı — konu tipine göre, aşağıdaki tabloda]
 
-#TüpBebek #İVF #ÜremeSağlığı [+ konu hashtag'i 1-2]
+[Yalnızca alakalı hashtag'ler; `#healthinfo` opsiyonel]
 ```
 
 ### FR — iskelet
@@ -122,7 +123,7 @@ Dr Senai Aksoy, spécialiste en médecine de la reproduction (30+ ans d'expérie
 
 ⚠️ [Disclaimer — selon le type de sujet, voir tableau plus bas]
 
-#FIV #PMA #Fertilité [+ hashtag du sujet 1-2]
+[Hashtags pertinents uniquement ; `#healthinfo` facultatif]
 ```
 
 ---
@@ -353,7 +354,7 @@ Yukarıdaki K1-K5 iskeletleri **çatıdır**. Konu tipine göre snippet açısı
 
 ## Hashtag bankası
 
-> Konu kümesi başına 5-10 önerilen hashtag. Kullanırken **3-5 seçim** yap; alakası en yüksek olanları al.
+> Konu kümesi başına öneri bankası. Kullanırken **0-3**, yalnızca alakası en yüksek olanları al; sabit sayı veya erişim garantisi yoktur.
 
 ### TR hashtag bankası
 
@@ -371,6 +372,8 @@ Yukarıdaki K1-K5 iskeletleri **çatıdır**. Konu tipine göre snippet açısı
 | **Q&A / Live** | #SoruCevap #İVFSoruCevap #DoktorunuzaSorun |
 
 > **Yasak hashtag:** marka + klinik adı, "#ucuz", "#en ucuz", "#hızlı sonuç", "#mucizetedavi", "#%100başarı", "#garantili", coğrafi-klinik kombinasyonları ("#istanbultüpbebek" vb.)
+
+> **Kullanım notu:** Hashtag seçimi 0-3 alakalı etiketle sınırlı tutulabilir; `#healthinfo` yalnızca kanalın sabit etiket politikasına uyuyorsa eklenir.
 
 ### FR hashtag bankası
 
@@ -469,11 +472,11 @@ Kaynak listesinde **dergi tarzı** sade biçim. Pazarlama/etkileyici link yok.
 
 ## Snippet (ilk 150 karakter) yazma kılavuzu
 
-Description'ın ilk 150 karakteri **Google video snippet** + **YouTube mobil snippet**. SEO için en kritik kısım. Kurallar:
+Description'ın ilk cümlesi konu ve vaadi açıkça vermelidir. 150 karakter, platform garantisi değil, pratik yazım hedefidir. Kurallar:
 
 1. **Anahtar kelime ilk 50 karakterde** — "ERA testi", "DHEA", "kisspeptin"
 2. **Soruyu çerçeve** veya **vaadi söyle** — "İşe yarıyor mu?", "Ne diyor güncel kanıt?"
-3. **Yıl referansı** — "2026'da", "ESHRE 2023 sonrası" — algoritma için tazelik sinyali
+3. **Yıl referansı** — yalnızca güncel kanıt veya kılavuz bağlamı gerçekten değişiyorsa kullan
 4. **70 karakter sonrası** — okuyucunun "devam et" diyeceği bir kanca
 5. **Klikbeyt yok** — "Şaşıracaksınız", "Bilmediğiniz", "Sırrı"
 
@@ -516,7 +519,8 @@ Sabitlenmiş yorum yapısı (kısa, paralel):
 ### TR sabitlenmiş yorum şablonu
 
 ```
-👋 Merhaba! Bu video [konu] hakkında.
+ℹ️ [Tıbbi Tavsiye Değildir | Bilgilendirme Amaçlıdır]
+👋 Merhaba! Bu video [konu] hakkında kanıta daylı bilgilendirme içerir.
 
 📚 Kaynaklar:
 - [ana kılavuz/yıl + link]
@@ -524,13 +528,14 @@ Sabitlenmiş yorum yapısı (kısa, paralel):
 
 📖 Detaylı yazı: tupbebek.com/[slug]
 
-⚠️ Bu içerik bilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerini almaz. Sorularınızı yoruma yazın, vakit oldukça yanıtlamaya çalışıyorum.
+⚠️ Bu içerik genel bilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerini almaz. Sorularınızı yoruma yazın, vakit oldukça yanıtlamaya çalışıyorum.
 ```
 
 ### FR sabitlenmiş yorum şablonu
 
 ```
-👋 Bonjour ! Cette vidéo aborde [sujet].
+ℹ️ [Information Médicale | Ne remplace pas une consultation]
+👋 Bonjour ! Cette vidéo aborde [sujet] de manière factuelle et scientifique.
 
 📚 Sources :
 - [guide principal / année + lien]

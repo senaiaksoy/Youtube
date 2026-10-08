@@ -92,7 +92,7 @@ updated: 2026-04-26
 - [ ] Anchor (#1) son **4** videoda kullanıldı mı? Evet → bu video anchor kullanma.
 - [ ] Bu video temasıyla seçilen aile üyesi tema-eşleşmeye uygun mu?
 - [ ] Önceki **2** videoda aynı tema ailesi kullanıldı mı? Evet → farklı tema seç.
-- [ ] Bu video metafor sayısı **1**'i aşmıyor mu? Evet → 1'e indir.
+- [ ] Bu video imza metafor ailesi sayısı **1**'i aşmıyor mu? Evet → 1'e indir. (Açıklayan benzetme ayrı sayılır: en fazla 2. Espri yoğunluğu: hassas olmayan bölümlerde yoğun, hassas bölümlerde sıfır. Master: voice.md §3, 2026-10-08 kullanıcı kararı.)
 
 ### Frekans hatırlatıcı
 

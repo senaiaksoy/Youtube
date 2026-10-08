@@ -3,6 +3,7 @@ type: post-mortem-template
 domain: youtube-content-production
 master-source: wiki/youtube/seo-youtube-tr.md + wiki/youtube/seo-youtube.md (ölçüm bölümleri)
 created: 2026-05-04
+updated: 2026-08-04
 ---
 
 # 08 — Post-Mortem Template (Per-Video)
@@ -52,7 +53,7 @@ last-updated: YYYY-MM-DD
 | **Hassas konu mu?** | (Evet → metafor yok teyidi / Hayır) |
 | **Description konu tipi** | (`07-description-library.md` 4 tip) |
 | **Disclaimer alternatifi** | (5'ten hangisi) |
-| **Thumbnail varyantı** | (A / B — Studio Test & Compare aktif mi?) |
+| **Thumbnail varyantı** | (A / B / C — Studio Test & Compare aktif mi?) |
 | **Çekim notu** | (1-2 cümle: ses, ışık, set notu) |
 | **UTM kampanya** | (`utm_campaign=` değeri) |
 
@@ -72,15 +73,22 @@ last-updated: YYYY-MM-DD
 | Metrik | 7d | 14d | 28d | Hedef / yorum |
 |---|---|---|---|---|
 | **Görüntüleme (views)** | | | | Kanal ortalamasıyla kıyasla |
-| **CTR (impression CTR %)** | | | | TR/FR hedef > %5 (`seo-youtube-tr.md` §Ölçüm) |
+| **CTR (impression CTR %)** | | | | Aynı format/benzer gösterim hacmiyle karşılaştır; sabit başarı eşiği kullanma |
 | **Ortalama izlenme süresi (sn)** | | | | |
-| **Ortalama izlenme % (retention)** | | | | TR/FR hedef > %50 |
-| **Watch time (saat)** | | | | Algoritma için hayati |
+| **Ortalama izlenme % (retention)** | | | | Benzer uzunluktaki videolarla karşılaştır; ilk 30 sn ayrıca okunur |
+| **Watch time (saat)** | | | | Mutlak izlenme süresi ve format bağlamı |
 | **Beğeni / görüntüleme** | | | | |
 | **Yorum sayısı** | | | | (kalite ayrı bölümde) |
 | **Paylaşım** | | | | |
 | **Kanal aboneliği (delta)** | | | | Bu videodan kazanılan |
 | **Kayıp abone** | | | | Sinyal: konu zıtlığı / hayal kırıklığı |
+
+### YouTube'un temel okuma çerçevesi
+
+- [ ] Appeal: başlık/thumbnail doğru beklenti kurdu mu?
+- [ ] Engagement: izleyici nerede kaldı, atladı veya tekrar izledi?
+- [ ] Satisfaction: sonraki videoya geçiş, beğeni/paylaşım, yorum kalitesi ve geri dönen izleyici ne söylüyor?
+- [ ] CTR tek başına karar ölçütü yapılmadı; watch time share ve retention ile birlikte okundu
 
 ### Trafik kaynakları (28d)
 
@@ -104,12 +112,13 @@ last-updated: YYYY-MM-DD
 
 | İşaret | Var mı? | Saniye / not |
 |---|---|---|
-| **Erken bırakma (0-15 sn)** | (>%30 düşüş?) | Hook zayıf? |
-| **Bağlam çıkışı (15-60 sn)** | | TLDR yetersiz? |
+| **Erken bırakma (0-30 sn)** | | Başlık/thumbnail vaadi veya hook uyumsuz mu? |
+| **Bağlam çıkışı** | | Gereksiz giriş veya TLDR yükü var mı? |
 | **Beat A → Beat B düşüşü** | | Konsept-kanıt geçişi |
 | **Beat C → Beat D düşüşü** | | Klinik karar-yorum sıkıcı? |
-| **Son 20 sn (CTA / end screen)** | (>%70 takip?) | End screen tıklanma |
+| **Son 20 sn (CTA / end screen)** | | End-screen element click rate ve sonraki video geçişi |
 | **Tekrar izleme (re-watch peak)** | | Hangi an? |
+| **İlk güçlü an** | | Güçlü bölüm daha erken taşınabilir mi? |
 
 ---
 
@@ -137,14 +146,16 @@ last-updated: YYYY-MM-DD
 
 | Bileşen | Çalıştı / çalışmadı | Sonraki sefer |
 |---|---|---|
-| Snippet (ilk 150 ch) | | |
+| İlk description cümlesi | | |
 | Başlık | (CTR sinyali) | |
-| Hashtag (3-5) | (hangileri arama getirdi?) | |
-| Thumbnail | (CTR) | |
+| Hashtag (varsa) | | Alaka ve gereksiz tekrar kontrolü |
+| Thumbnail | (watch-time share + CTR) | |
 | Sabitlenmiş yorum | (engagement var mı?) | |
 | UTM hedef domain trafiği | (GA4'ten al) | |
 
 **A/B varyantı sonucu:** (Studio Test & Compare → kazanan thumbnail/başlık + delta)
+
+**Test okuması:** (watch-time share, CTR, average view duration ve retention birlikte)
 
 ---
 

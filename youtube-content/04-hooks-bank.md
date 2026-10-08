@@ -2,34 +2,36 @@
 type: hooks-bank
 domain: youtube-content-production
 master-source: wiki/youtube/topic-packs/supplement-peptid-longevity-pack-2026-04-26.md §"Ek Araç 1 — Anti-pazarlama Hook Kütüphanesi"
-updated: 2026-04-26
+updated: 2026-10-06
 ---
 
 # 04 — Hooks Bank (30 Anti-Pazarlama Hook)
 
 > Her video açılışı (0-15 saniye) için. Ana ilke: **şaşırtıcı tek istatistik veya iddia + akran tonu + dryness**. Anchor cümle hook'ta DEĞİL, kapanışta uygun.
 
+> **Şablon kuralı (2026-10-06):** Köşeli parantezli `[ ]` alanlar ürüne özgüdür. Kullanılmadan önce o ürün için kaynakla doldurulur ve `yt-script-factcheck`'ten geçer. Doldurulamıyorsa hook kullanılmaz. Hook'lar birinci tekil şahıs deneyim iddiası ("bu hafta gördüm") ve kaynaksız sayı içermez. Mevzuat ihlali diyen hook'lar (11–13, 26–28) için güncel kural yayından önce doğrulanır.
+
 ## TR — Kanıt Sorgusu (10 hook)
 
-1. "Sosyal medyada 'X mucize' diyen üç farklı kişi gördüm bu hafta. Üçü de farklı şey öneriyor — biri ilaç, biri takviye, üçüncüsü tehlikeli. Hangisi ne, ayıralım."
+1. "Sosyal medyada 'X mucize' diyen içeriklerde sık görülen bir tablo var: biri ilaç öneriyor, biri takviye, biri riskli bir şey. Hangisi ne, ayıralım."
 
 2. "İnternette 'Y için 7 takviye' başlıklarını görüyorsanız: ESHRE'nin bu konuda söyleyecek tek bir cümlesi var, ve genellikle aksi söyleniyor."
 
-3. "Bu ürünün ABD'de takviye, Avrupa'da onaysız, Türkiye'de internet kanalı satışı yasal değil — ama Instagram'da hekim öneriyor. Üç farklı düzenleyici, tek hasta."
+3. "Bu ürün ABD'de [takviye], Avrupa'da [onaysız], Türkiye'de [internetten satışı yasal değil] — ama Instagram'da hekim öneriyor. Üç farklı düzenleyici, tek hasta."
 
-4. "30 yıllık 'antiaging takviye' yarışında, klinik anlamlı sonuç gösteren molekül sayısı: bir elinizin parmaklarından az."
+4. "Onlarca yıllık 'antiaging takviye' yarışında, klinik olarak anlamlı sonuç gösteren molekül sayısı: [kaynaklı sayı]. Birlikte sayalım."
 
 5. "Eczanede 'Y' yazısı görseniz: hangisi? İki tamamen farklı şey, aynı kelimeyle satılıyor."
 
 6. "Hekim olarak bu ürünü reçete edemiyorum. Bu mevzuat değil; bu kanıt boşluğu. İkisi aynı yere işaret ediyor."
 
-7. "Bu klinik çalışmayı 25 yıl boyunca tek bir araştırma grubu yayımladı. Bağımsız replikasyon: yok. Bunun anlamı ne?"
+7. "Bu konudaki çalışmaların [çoğunu] [N] yıl boyunca tek bir araştırma grubu yayımladı. Bağımsız tekrar: [yok / sınırlı]. Bunun anlamı ne?"
 
-8. "Pazarlama mekanizmayı satar; klinik sonucu ölçer. Bu cümlenin içinde son 30 yıl longevity tarihi var."
+8. "Pazarlama mekanizmayı satar; klinik sonucu ölçer. Bu cümlenin içinde longevity pazarının on yıllardır süren hikâyesi var."
 
-9. "Bu ürün için yapılan tek faz 3 çalışma birincil son nokta tutmadı. Üretici geliştirmeyi durdurdu. Sonra wellness pazarına geçti. Şimdi: nasıl?"
+9. "Bu ürün için yapılan [faz 3] çalışma birincil sonlanım noktasına ulaşmadı. [Üretici geliştirmeyi durdurdu.] Sonra wellness pazarına geçti. Nasıl?"
 
-10. "FDA bu ürünü 2023'te listeden çıkardı. Hala mı satılıyor? Evet, neden, kim önermeli?"
+10. "[Kurum] bu ürün için [yıl]'de [karar] verdi. Hâlâ satılıyor mu? Evet. Neden, ve kim önermeli?"
 
 ## TR — Pazarlama Yapısı Eleştirisi (5 hook)
 
@@ -39,7 +41,7 @@ updated: 2026-04-26
 
 13. "Ürün adı + hekim adı + 'kullanıyorum' = TTB etik kuralları ihlali. Sosyal medyada bunu görüyorsanız ihbar adresi var."
 
-14. "'Yumurtalık gençleştirme' deyince ne anlıyorsunuz? ESHRE'ye sorun, cevap iki kelime: önerilmiyor."
+14. "'Yumurtalık gençleştirme' deyince ne anlıyorsunuz? Bu adla sunulan yumurtalık içi PRP ve kök hücre uygulamaları için ESHRE'nin cevabı kısa: önerilmiyor."
 
 15. "Wellness kelimesi tıbbi terim değildir. Klinik tıp kelimeleri: endikasyon, kontrendikasyon, kanıt seviyesi."
 
@@ -49,19 +51,19 @@ updated: 2026-04-26
 
 17. "Si on vous propose X pour 'améliorer vos ovocytes', voici ce que dit le document de référence européen — et c'est rarement ce que les cliniques répètent."
 
-18. "30 ans de molécules anti-âge testées sur l'humain. Combien ont passé le filtre clinique ? Faisons le décompte."
+18. "Des décennies de molécules anti-âge testées sur l'humain. Combien ont passé le filtre clinique ? Faisons le décompte."
 
-19. "Cette molécule est complément aux États-Unis, non approuvée en Europe, vendue en gris en France. Trois régulateurs, un patient."
+19. "Cette molécule est [complément aux États-Unis], [non approuvée en Europe], [vendue en zone grise en France]. Trois régulateurs, un patient."
 
 20. "L'ESHRE met 'not recommended' avec parcimonie. Quand c'est dit, c'est dit. Pourquoi le marché ne le répète pas ?"
 
-21. "Ce produit a été retiré de la liste FDA compounding en 2023. Il continue à être vendu. Comment, pourquoi, par qui ?"
+21. "[Autorité] a pris en [année] une décision sur ce produit : [décision]. Il continue à être vendu. Comment, pourquoi, par qui ?"
 
-22. "La première étude phase 3 sur cette molécule a échoué sur le critère principal. Le développement clinique s'est arrêté. Le marché wellness l'a récupérée. Suite ?"
+22. "L'étude [de phase 3] sur cette molécule n'a pas atteint son critère principal. [Le développement clinique s'est arrêté.] Le marché wellness l'a récupérée. Suite ?"
 
-23. "Une seule équipe de recherche publie 90% de la littérature sur cette molécule depuis 25 ans. Réplication indépendante : zéro. Implications ?"
+23. "Une seule équipe publie [l'essentiel] de la littérature sur cette molécule depuis [N] ans. Réplication indépendante : [aucune / limitée]. Implications ?"
 
-24. "Le marketing vend la mécanique. La clinique cherche le résultat. Entre les deux : 30 ans d'écart."
+24. "Le marketing vend la mécanique. La clinique cherche le résultat. Entre les deux : des décennies d'écart."
 
 25. "Si une étude prouve que la plasma augmente, mais aucune étude ne prouve que la santé s'améliore — qu'est-ce qu'on a prouvé exactement ?"
 
@@ -73,7 +75,7 @@ updated: 2026-04-26
 
 28. "Nom de produit + nom de médecin + 'je l'utilise' : violation déontologique. Sur les réseaux, ça arrive régulièrement."
 
-29. "'Régénération ovarienne' : que veut dire ce mot exactement ? L'ESHRE répond : not recommended."
+29. "'Régénération ovarienne' : que veut dire ce mot exactement ? Pour le PRP intra-ovarien et les cellules souches, l'ESHRE répond : not recommended."
 
 30. "'Wellness' n'est pas un terme médical. Les termes médicaux sont : indication, contre-indication, niveau de preuve."
 
@@ -92,41 +94,43 @@ updated: 2026-04-26
 
 ### TR — Selin (5 hook)
 
-1. "AMH 0.5 olan kadına 'kesin yumurta gençleştirme' vaadini son ay üç kez gördüm. Hangi kanıtla?"
-2. "Düşük yumurtalık rezervi olan hastaya satılan listede şu maddeler var: PRP, stem cell, NAD damarı, peptid kombinasyonu. ESHRE'ye göre kaçı önerilir? Sıfır."
+1. "AMH 0,5 olan bir kadına 'kesin yumurta gençleştirme' vaat ediliyorsa, ilk soru şu olmalı: hangi kanıtla?"
+2. "Düşük yumurtalık rezervi için satılan listede şunlar var: PRP, kök hücre, NAD serumu, peptid kombinasyonu. ESHRE'nin cevabı: PRP ve kök hücre önerilmiyor; NAD ve peptidler için kılavuzda öneri bile yok."
 3. "'Yumurtalık gençleştirme' ifadesi tıbbi terim mi, pazarlama dili mi? Klinik kılavuzlara bakarak bakalım."
-4. "AMH düşük çıkınca üç farklı klinik üç farklı şey öneriyor. Hangisi kanıt-temelli, hangisi umut satışı?"
+4. "AMH düşük çıkınca farklı yerlerden çok farklı öneriler gelebiliyor. Hangisi kanıta dayanıyor, hangisi henüz dayanmıyor?"
 5. "Düşük rezerv tanısı kayıp gibi gelir. Ama yönetim tablosu daha sade olduğu için belki rahatlatıcı: kanıt-zayıf ekstraları çıkarınca elde gerçek seçenekler kalıyor."
 
 ### FR — Cécile (5 hooks)
 
-1. "AMH à 0,5 ng/mL, et trois cliniques proposent trois 'rajeunissements ovariens' différents. Quelle est la preuve commune ? Aucune."
-2. "Ce qui est vendu aux patientes à faible réserve : PRP intraovarien, cellules souches, perfusion NAD, peptides. Selon l'ESHRE 2023, combien sont recommandés ? Zéro."
+1. "AMH à 0,5 ng/mL, et on vous promet un 'rajeunissement ovarien'. Première question : sur quelle preuve ?"
+2. "Ce qui est proposé aux patientes à faible réserve : PRP intra-ovarien, cellules souches, perfusions de NAD, peptides. Selon l'ESHRE 2023 : PRP et cellules souches, not recommended. NAD et peptides : aucune recommandation."
 3. "'Rajeunissement ovarien' — terme médical ou langage marketing ? Regardons ce que disent les guides cliniques."
-4. "Un AMH bas, trois cliniques, trois plans différents. Lequel repose sur la preuve, lequel sur la vente d'espoir ?"
+4. "Un AMH bas, et des propositions très différentes selon les endroits. Lesquelles reposent sur la preuve, lesquelles pas encore ?"
 5. "Le diagnostic de réserve diminuée a quelque chose d'une perte. Mais le tableau de prise en charge est paradoxalement plus simple : retirer les options sans preuve laisse les vraies."
 
 ---
 
-## Banka C — Pont culturel (Cem Yılmaz × Voltaire × Desproges + francophonie élargie)
+## Banka C — Pont culturel (francophonie élargie) — revize 2026-10-06
 
-> FR only (chaîne FR). Vétos absolus: loukoum/baklava/kebab/tapis volant. Hiérarchie culturelle yok.
+> FR uniquement. Le pont francophone sert à **inclure** (Europe, Maghreb, Afrique, Canada).
+> - **Autorisé (assoupli le 2026-10-06) :** l'autodérision sur la culture turque du médecin (« À Istanbul, on questionne sa belle-mère sur le médecin »), les types familiaux universels (le beau-frère qui sait tout, « Alors, c'est pour quand ? »), la même biologie partout, les différences d'accès et de règles (vérifiées), le même marketing dans toutes les langues.
+> - **À éviter :** présenter un peuple tiers de façon uniforme, surtout au Maghreb et en Afrique subsaharienne. Venant d'un médecin extérieur, cela peut sonner condescendant. En cas de doute, on retire.
+> - **Interdit :** la religion ; les formes lourdes de pression familiale (menace de divorce, infertilité imputée à la femme) ; tout humour familial sur les sujets sensibles ; les clichés (loukoum, baklava, kebab, tapis volant).
+> - *Historique :* le 2026-10-06, les items Abidjan, Dakar, Yaoundé, Casablanca et Marrakech ont été retirés (peuples tiers présentés de façon uniforme). Les items 6 et 7 ci-dessous sont des anciens items rétablis après l'assouplissement du même jour.
 
-1. "À Paris, le marketing 'rajeunissement' arrive en newsletter premium. À Istanbul, en mariage. À Abidjan, en autorité parentale. Trois canaux, un même flacon vide."
+1. "Que vous regardiez depuis Lyon, Tunis, Dakar ou Montréal, la question est la même. La biologie aussi. Ce qui change, ce sont l'accès et les règles — on va parler des deux."
 
 2. "Imaginez la scène : la même patiente consulte trois médecins. Un à Paris, un à Istanbul, un à Casablanca. Trois cadres culturels, un même corps. La biologie ne change pas — la conversation, oui."
 
-3. "À Paris, on questionne le médecin. À Istanbul, on questionne sa belle-mère sur le médecin. À Dakar, on consulte d'abord les femmes de la famille."
+3. "Le marketing parle toutes les langues. Les preuves aussi — elles prennent juste plus de temps à traduire."
 
-4. "Le 'wellness' francophone a trois accents. À Genève, sobre. À Marrakech, expressif. À Montréal, traduit de l'anglais. Le contenu ? Souvent vide dans les trois langues."
+4. "À Genève, à Casablanca ou à Montréal, une promesse sans preuve reste une promesse sans preuve."
 
-5. "Le médecin turc à Paris voit ce que le médecin français à Istanbul voit aussi : la même promesse vendue dans deux pharmacies différentes."
+5. "Le médecin turc à Paris voit ce que le médecin français à Istanbul voit aussi : la même promesse vendue dans deux pharmacies différentes. Des décennies d'écart entre la promesse et la preuve, des deux côtés du Bosphore et de la Seine."
 
-6. "Une patiente de Lyon, une de Tunis, une de Kinshasa. Le marketing leur dit la même chose. La science aussi. Mais la pression sociale n'est jamais traduite en langue universelle."
+6. "À Paris, on questionne le médecin. À Istanbul, on questionne sa belle-mère sur le médecin. Deux façons de chercher la vérité — une seule vérité biologique."
 
-7. "L'imaginez-vous, ce conseil de famille à Casablanca où la belle-mère, la sœur, la cousine de cousine débattent du protocole FIV ? À Paris, c'est par texto. À Lyon, par e-mail."
-
-8. "À Bruxelles, on lit l'EMA. À Tunis, on lit le médecin. À Yaoundé, on lit la mère du médecin. Trois lecteurs, une seule donnée."
+7. "Une patiente de Lyon, une de Tunis, une de Kinshasa. Le marketing leur dit la même chose. La science aussi. Mais la pression sociale n'est jamais traduite en langue universelle — c'est là que naît la confusion."
 
 ---
 
