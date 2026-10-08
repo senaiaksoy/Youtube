@@ -132,4 +132,21 @@ Raporda ayrıca şunlar bulunur:
 - [ ] Ülkeye özgü yasal ve onay durumunun her izleyiciye genellenmesi
 - [ ] Espri içinde doğrulanmamış biyoloji
 - [ ] FR ve EN metinlerde farklı sayı ya da farklı kesinlik
+- [ ] **(2026-10-08) Daha yeni ve büyük veri:** Eski ve küçük çalışmalara dayanan zaman çizelgesi veya oranlar için son 3 yılda daha büyük veri aranır. Örnekler:
+  - Mortimer 2025 (FIV'de ultrason kriterleri, 4.926 hasta)
+  - Jwa 2021 (Japonya kaydı, tek dondurulmuş transferde dış gebelik %0,52)
+  - Daha yeni veri bulunursa iddia 🕒 olarak işaretlenir.
+- [ ] **Popülasyon sınırı söylenmiş mi?** Yalnızca rahim içi kesesi olan gebeliklerden çıkan bir bulgu, rahmi boş izleyiciye uygulanabilir gibi söylenmemeli.
+- [ ] **Yayın yılı ile veri yılı karışmış mı?** ("menée en 2016" ≠ "publiée en 2016")
+- [ ] **Abstract'taki arka plan cümlesi bulgu gibi kullanılmış mı?** Örnek: Li 2015'in "it has been estimated… doubled" cümlesi kendi bulgusu değil.
+- [ ] **Hasta bilgilendirme sayfasının gözden geçirme tarihi geçmiş mi?** (Guy's, nhs.uk) Öyleyse ulusal kayıt veya kılavuzla ikinci kaynak bulunur.
+- [ ] **Espri içinde boyut, ritim veya cihaz hatası var mı?** (kese ≠ embriyo boyu, "métronome", "souris")
+- [ ] **İç tutarlılık:** Açılış sorusu = kapanış cevabı. "En az 7 gün" ile "yaklaşık bir hafta" çelişmemeli.
+- [ ] **Revizyon turu sonrası kapsam karşılaştırması yapıldı mı?** (CORE Adım 10) Bağımsız alt ajan eski ve yeni metni karşılaştırır. Şunlar sessizce düşmüş olabilir:
+  - payda
+  - "en même temps"
+  - tekil/çoğul kapsam
+  - çekince
+  - yerel acil numara
+  - kaynak atfı
 - [ ] Evidence Score ataması (EN kanal) tek yönlü ölçeğin tanımıyla ve kaynakla uyumsuz; 0 ("test edildi, işe yaramadı") ile 1 ("insanda test edilmedi") karışmış; skoru taşıyan çalışmalardan biri geri çekilmiş; aynı skora farklı hüküm dili kullanılmış. Ölçek: `yt-script-en` SKILL.md "Format: Evidence Score"

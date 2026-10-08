@@ -37,6 +37,20 @@ description: Dr. Senai Aksoy'un Fransızca YouTube kanalı (@SenaiAksoy) için v
 - **Mağrip:** Sperm/embriyo donasyonu ve cinsiyet seçimi konularında metafor ve mizah yoktur (01).
 - **Aile ve kültür mizahı (2026-10-06):** Evrensel aile tipleri (« le beau-frère qui sait tout ») ve « Alors, c'est pour quand ? » sahnesi serbest; hedef akrabadır, espri empatiyle kapanır. Türk hekimin kendi kültürüyle şakalaşması serbest (« À Istanbul, on questionne sa belle-mère sur le médecin »). Mağrip ve Afrika toplumlarını tek tip gösteren gözlem yapılmaz. Kurallar: CORE Adım 5.
 
+## FR terim tuzakları (2026-10-08, "première échographie" dersi)
+- **SA ve SG:** Fransa'da iki saat var.
+  - "Semaines d'aménorrhée" (SA) son adetten sayılır.
+  - "Semaines de grossesse" (SG) döllenmeden sayılır; SG = SA − 2. Kaynak: service-public F1551 (« 14e semaine de grossesse, soit 16 semaines après le début des dernières règles »).
+  - Scriptte her zaman SA denir ve ikisinin farkı bir kez söylenir. "Cinq semaines de grossesse" teknik olarak 7 SA demektir; açılışta bu hatayı yapma.
+- **"Terme":** Doğum tarihi anlamına da gelir. Gebelik yaşı için « à combien de SA vous êtes » denir.
+- **"La première échographie":** Fransa'da 11–13 SA + 6 gün arasındaki datation ultrasonu anlaşılır (Arrêté 20/04/2018). FIV merkezinin erken ultrasonundan söz ediliyorsa bu ayrım bir kez söylenir.
+- **Acil numara:** Her zaman « le 15, le 112, ou le numéro d'urgence de votre pays ». Afrika'da 15 çalışmaz.
+- **Kelime seçimi:**
+  - Fransa'ya özgü espriler (RTT, Sécu, CPAM…) evrensel bir eşdeğeri varsa çıkarılır.
+  - Konuşma dilinde tuhaf duran kelimeler düzeltilir: « grainée » → « granuleuse ».
+  - « avant tout diagnostic » kulakta « avant tout » diye duyulur; « avant de poser un diagnostic » denir.
+  - Uzman jargonu yerine konuşma dili: « registres » → « grandes statistiques nationales », « cohortes » → « groupes ».
+
 ## Örnek alınan anlatım mekanikleri (taklit değil, isim scriptte geçmez)
 - **Alex Vizorek** (*Ad Vitam*): Ders konusunu adım adım anlatırken güldürmek; kültürel referansla açıklama.
 - **Jamy / C'est pas sorcier:** Somut benzetme ve maket mantığı; "eğlenceli bilim amcası" sıcaklığı.
@@ -78,6 +92,32 @@ Malzemedir, hazır espri değildir. Son FR scriptlerinde geçmişse aynı biçim
 - Repas de famille: « Le repas de famille. Avant même le dessert : "Alors, c'est pour quand ?" Vous n'êtes pas la seule à entendre cette question. Et vous ne devez de réponse à personne. »
 - Doktorun kendisi: « Quand je me tais pendant l'échographie, ce n'est pas que je vois quelque chose. C'est que je mesure. Mais je sais : ces trois secondes durent trois heures. »
 - Not: `01`'in metafor ailesi (frigo, ascenseur, météo, GPS…) ayrıdır ve videoda en fazla 1 kez kullanılır. Bu bankadaki sahneler onlarla çakışmamalı.
+
+### Kullanılmış sahneler (première échographie, 2026-10-08): tekrar edilmez
+- Ultrasonda doktorun sessizliği ve curseur: « le seul moment de la journée où un médecin ferme sa bouche de son plein gré »
+- Buz gibi jel ve Hipokrat yemini
+- 80'lerin televizyonu
+- Parmak ve ayak parmağıyla hesap
+- SA = iş sözleşmesi ve kıdem
+- Greenwich saati
+- « Deux horloges, un seul utérus »
+- Bulut seyretmek
+- « formule magique » (vésicule vitelline)
+- Kargo takibini yenilemek
+- « avant-première VIP »
+
+### Ölçü pasajı: Dr. Aksoy'un kendi yazdığı üslup (2026-10-08)
+Ton ve yoğunluk için okunur; cümleler tekrar kullanılmaz. Tam metin: `youtube-content\video-script-premiere-echographie-fiv-fr-2026-10-07.txt`
+> « Vous êtes allongée, le gel est glacial — toujours glacial, c'est l'article 4 du serment d'Hippocrate : le gel doit être conservé en Sibérie. La sonde est en place, l'écran s'allume avec une image en noir et blanc, granuleuse comme une télé des années 80… et là : le médecin se tait. Trois secondes. Qui durent trois siècles. »
+> « Pardon ? Vous recomptez avec les orteils. Qui a rajouté trois semaines ? … Bienvenue en obstétrique : le seul domaine au monde où votre contrat commence deux semaines avant que vous n'ayez rencontré l'employeur ! On vous offre deux semaines d'ancienneté, direct, cadeau de la maison. »
+
+Ritim şöyle kuruluyor:
+- Somut duyusal detay (soğuk jel, gren)
+- Absürt resmî kural ("article 4")
+- Abartılı zaman ("trois siècles")
+- Hastanın iç sesi ("Pardon ?")
+- Konvansiyonu gündelik bir sisteme (iş sözleşmesi) çeviren ters köşe
+- Hemen ardından bilgi
 
 ## Kalıplar (doğal Fransızca)
 - **Ciddiyete dönüş:** « Bon. On arrête de rire deux secondes. » / « Revenons au sérieux. »
@@ -129,4 +169,7 @@ FR kayıt EN/AR dublajın kaynağıysa kelime oyunları sources dosyasında `[FR
 - [ ] İroniler tek başına dinlendiğinde yanlış anlaşılmıyor
 - [ ] Don d'ovocytes geçiyorsa erişim koşulları net; yalnızca Fransız hukukunun her izleyiciye uygulandığı ima edilmiyor
 - [ ] Konuşma Fransızcası: « on », « ça », tonlamalı soru; tıbbi önermelerde tam olumsuzluk; « du coup » en fazla 1
+- [ ] SA/SG ayrımı ve "terme" kullanımı doğru; acil numarada « ou le numéro d'urgence de votre pays » var
+- [ ] Fransa'ya özgü espri ve referans yok ya da evrensel bir karşılığı var; Dr. Aksoy'un bilmediği referans yok
+- [ ] `readability.py`: Kandel-Moles ≥ 80, 20 kelimeden uzun cümle ≤ %15
 - [ ] Durum: "Dr. Aksoy FR onayı: bekliyor"

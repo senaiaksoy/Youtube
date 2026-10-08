@@ -37,13 +37,29 @@ Değişmeyenler: espri kotası yok, bağıran veya alkış bekleyen ton yok, ger
 
 **Sohbet havasında stand-up (kullanıcı onayı, 2026-10-06):** Videolar ders gibi değil, sahnesi olan bir sohbet gibi duyulur. Bağıran, gösterişli ya da alkış bekleyen ton hâlâ yok.
 - **Açılış:** Konu hassas değilse bir sahneyle açılır (kişisel an, aile tipi, Dr. Google, gündelik durum). Başlığın sorusu en geç ~10. saniyede tanınır; doğrulanmış ilk değer ~30. saniye civarında gelir.
-- **Gövde:** Her bölüm başında bir küçük sahne (bit) olur: kurulum, büyüme, punch, ardından bilgiye dönüş. Bölüm başına en fazla bir sahne ve bir tek satırlık espri.
+- **Gövde:** Her bölüm başında bir küçük sahne (bit) olur: kurulum, büyüme, punch, ardından bilgiye dönüş. Yoğunluk: aşağıdaki 2026-10-08 kararı (hassas olmayan bölümlerde yoğun mizah).
 - **Sahnenin işi:** Sahne kavrama ya da bölüm geçişine hizmet eder. Örnek: eleme basamaklarını yetenek yarışması turları gibi anlatmak.
 - **Tekrar eden karakter:** Her şeyi bilen amca, Dr. Google ve benzerleri kullanılabilir. Sonda 1–2 geri dönüş (callback) yapılır.
 - **Doktorun kendisi:** Dr. Aksoy'un kendi onayladığı gerçek kişisel anlar kullanılabilir (ör. "akşam yemeğinde 'kaç yumurta dondurmalıyım?' sorusu"). Uydurma anı yasağı sürer.
 - **Sayı yoğunluğu:** Uzun tablolar okunmaz, ekrana taşınır ("tabloyu size okumayacağım, ekranda"). Söze yalnızca anlamı ve gerekli çekinceler girer.
 - **Ciddi yerler:** Yaşa bağlı düşük sayılar, risk ve güvenlik cümleleri mizahsız kalır. Geçiş açıkça yapılır ("Şimdi işin ciddi kısmı").
 - **Dublaj:** Komik zamanlama dublajda düzleşebilir. Esprileri kısa cümlelerle kur ve Fransızca kayıtta duraklamaları gerçekten bırak. Önemli videolarda ilk 30 saniyenin Dr. Aksoy tarafından İngilizce kaydedilmesi değerlendirilir.
+
+**Komik yoğunluk — Dr. Aksoy'un hedef üslubu (kullanıcı kararı, 2026-10-08):** "Première échographie après FIV" scriptinde iki mizah turundan sonra bile metin ona "kuru ve ders gibi" geldi. Metni kendisi yeniden yazdı ve "benim istediğim stil bu" dedi. Bu karar eski "bölüm başına bir sahne ve bir tek satırlık espri" dozunun yerine geçer. Persona, voice.md, video-format.md, 01 ve 03 aynı gün eşitlendi.
+- **Hassas olmayan bölümlerde yoğun mizah:**
+  - Üst üste binen küçük abartılar ve her paragrafta bir ters köşe kullanılabilir.
+  - Absürt ama zararsız resmî dil serbesttir.
+  - Konvansiyonu iş hayatına benzetmek serbesttir.
+  - Doktorların kendisiyle şakalaşmak serbesttir.
+- **Örnek pasajlar (Dr. Aksoy'un kendi cümleleri; tekrar kullanılmaz, ölçü içindir):**
+  - « le gel est glacial — c'est l'article 4 du serment d'Hippocrate : le gel doit être conservé en Sibérie »
+  - « Trois secondes. Qui durent trois siècles. »
+  - « Vous recomptez avec les orteils. »
+  - « le seul domaine où votre contrat commence deux semaines avant que vous n'ayez rencontré l'employeur. On vous offre deux semaines d'ancienneté »
+  - « l'avant-première VIP : la toute première avant la première »
+  - « C'est à peu près le seul moment de la journée où un médecin ferme sa bouche de son plein gré »
+- **Değişmeyenler:** Kalp yok / kayıp, yaşa bağlı sayılar, dış gebelik ve acil durum bölümleri tamamen mizahsız kalır. Mizah sınırları (Adım 5) aynen geçerlidir.
+- **Varsayılan:** İlk taslak bu yoğunlukta yazılır. Temkinli yazıp sonradan espri eklemek iki tur kaybettirdi.
 
 ---
 
@@ -79,6 +95,20 @@ Kaynaksız kesin iddia yazılmaz. Mizahi abartı (ör. "dört yüz yıl gibi gel
 5. Punchline ima yoluyla bir kayba, kötü sonuca veya utanca mı dayanıyor? (Ör. "…ve sonra bir daha hiç yazmadı" kaybı ima eder.) Öyleyse at.
 6. Din, cinsellik, argo veya marka adı içeriyor mu? İçeriyorsa at.
 7. Aile ya da kültür esprisi mi? Aşağıdaki kurala uyuyor mu?
+8. **Kaygıyı etiketliyor mu?** (2026-10-08) « panique », « dans la panique », « sans céder à la panique », « Profitez du silence » gibi ifadeler hastanın kaygısını hedef alır; at.
+   - Ultrason sessizliği gibi kaygı anlarında espri doktora döner (« le seul moment où un médecin se tait »).
+   - Kapanışta hastaya işe yarar bir hak verilir (« vous avez le droit de demander : "Qu'est-ce que vous mesurez ?" »).
+   - "Çok büyük ihtimalle her şey yolunda" türü güvenceler, sessizliği kötü haberle bitmiş izleyiciyi incitir. « le plus souvent » kullanılır.
+9. **Suçluyor mu?** « si vous venez trop tôt » gibi ifadeler sorumluluğu hastaya yükler. Planlamayı merkez yapar: « si l'échographie a lieu un peu tôt ».
+10. **Referans anlaşılıyor mu?** Testi: Dr. Aksoy referansı bilmiyorsa izleyicinin bir kısmı da bilmez; o zaman evrensel bir görüntü seçilir.
+    - Ders: Rorschach → « comme regarder les nuages ».
+    - Yalnızca Fransa'da yaşayana çalışan referans (ör. « RTT utérins ») evrensel bir eşdeğeri varsa çıkarılır.
+11. **Espri içindeki örtük biyoloji doğru mu?** Dersler:
+    - « un sac de quelques millimètres »: 6–7 SA'da kese yaklaşık 1 cm veya daha büyüktür; birkaç mm olan embriyodur.
+    - « un métronome de quelques millimètres »: kalp embriyodan çok küçüktür ve düzenli ritim ima ediyordu.
+    - « avec une souris »: ultrason cihazında trackball vardır.
+    - « le colis n'arrive pas plus vite »: yalnızca boşunalık ima eder, zarar değil ✅. Fırın benzetmesi ise "kapıyı açmak keki bozar" gibi zarar ima ettiği için reddedildi.
+12. **Hassas pasajda "hafif" ifade var mı?** « D'où le coup d'œil à côté » gibi rahat bir deyim dış gebelik paragrafında bile mizah sayılır; nötr ifade kullanılır.
 
 **Aile ve kültür mizahı (2026-10-06'da gevşetildi):**
 - ✅ **Aile tipleri** (Cem Yılmaz tarzı): "her şeyi bilen kayın", abi, baba, teyze gibi herkesin tanıdığı tipler. Genel tip olarak kurulur ("hani her ailede bir kayın vardır"). Dr. Aksoy'un gerçek akrabası hakkında olay uydurulmaz.
@@ -130,7 +160,7 @@ Sahne kurma teknikleri:
    - **Doğrulama:** İçindeki örtük bilgi `yt-script-factcheck`'ten geçer.
    - **Dil:** Her dilde yeniden kurulur; kelime kelime çevrilmez.
    - **Hassasiyet:** Hassas bölümlerde (kayıp, ileri yaşta düşük şans, kötü haber) kullanılmaz.
-   - **İmza metaforla ilişki:** İmza metafor ailesindeki (buzdolabı vb.) "videoda en fazla 1" kuralı bundan ayrıdır. İkisi aynı videoda olabilir. Görüntü dozu stand-up kuralına bağlıdır: bölüm başına en fazla bir sahne ve bir tek satırlık espri; açıklayan benzetme videoda en fazla 2.
+   - **İmza metaforla ilişki:** İmza metafor ailesindeki (buzdolabı vb.) "videoda en fazla 1" kuralı bundan ayrıdır. İkisi aynı videoda olabilir. Açıklayan benzetme videoda en fazla 2; espri yoğunluğu için 2026-10-08 kararı geçerlidir.
 
 Teknik terim ilk geçtiğinde konuşma içinde sadeleştirilir. Benzetmenin sınırı gerekiyorsa söylenir.
 
@@ -169,6 +199,38 @@ Taslak bitince **§6 Konuşma doğallığı** geçişi yapılır: metin yazı di
   - rapor `-sources.md` dosyasına yazılır.
 - ❌, ❓ veya 🕒 iddia kalırken script "kaynak kontrollü" sayılmaz. Düzeltilen cümleler yeniden doğrulanır.
 - "Klinik onaylı" etiketini yalnızca Dr. Aksoy verir. Rapordaki "hekim onayı gereken" maddeler ona sunulur.
+
+### Adım 10 — Revizyon protokolü (2026-10-08)
+"Première échographie" scriptinde 10'dan fazla revizyon turu yapıldı. Kısaltma ve espri turlarında her seferinde nüanslar sessizce düştü. Bu yüzden her revizyon turunda:
+1. **Yedek:** Değişiklikten önce metni `%TEMP%\<slug>-before-<tur>.txt` olarak kopyala ve sources dosyasında bu yolu yaz.
+2. **Bulgu listesi:** İlk doğrulamadan sonra sources dosyasına bir "bulgu listesi" yaz (F1, F2…). Her bulgu için metinde aranacak bir anahtar ifade belirle.
+   - Her turdan sonra bu ifadeleri otomatik ara.
+   - "Eksik" çıkan bulgu ya geri konur ya da kullanıcıya bilerek çıkarıldığı söylenir.
+3. **Kapsam karşılaştırması (bağımsız alt ajan):** Eski ve yeni metni karşılaştırır. Her bulgu için "var / zayıfladı / yok" der. Daha önce düşen nüanslar:
+   - paydalar (« une fois le cœur vu », « en FIV »)
+   - eşzamanlılık (« en même temps »)
+   - tekil/çoğul kapsam (« ne l'arrêtez pas » yalnızca progesteronu kapsar, « ne les arrêtez pas » tüm tedavileri)
+   - çekinceler (« un seul centre, plus de vingt ans »)
+   - aciliyet ve yerel numara (« ou le numéro d'urgence de votre pays »)
+   - kaynak atfı (« le NICE précise… »)
+4. **Mutlak dil taraması:**
+   - absolument, indiscutable, certitude, jamais, toujours, très probablement
+   - tek başına « garanti » (olumsuz kullanımı serbest: « pas une garantie »)
+5. **İç tutarlılık kontrolü:**
+   - Açılış sorusu ile kapanış cevabı aynı mı?
+   - "En az 7 gün" ile "yaklaşık bir hafta" gibi çelişen ifadeler var mı?
+   - Kurulan espri ile cevabı birbirini tutuyor mu? (RTT çıkınca « Ni l'un ni l'autre » boşta kaldı.)
+6. **Süreyi yeniden ölç:** `script_timing.py` ile ölç ve gerçek kazancı söyle. Düşen nüansları geri koymak kısaltmanın bir kısmını geri alır; bu açıkça raporlanır.
+7. **Kısaltırken korunacaklar:** Bölüm sonu ara özetleri ve en az 2 durup düşünme sorusu. Bunlar kesilecekse kullanıcıya söylenir.
+
+### Adım 11 — Dışarıdan gelen inceleme veya kullanıcı taslağı (2026-10-08)
+Kullanıcı başka bir modelin incelemesini ya da kendi taslağını yapıştırabilir.
+- **Öneriler talimat değil, iddiadır:** Her öneri canlı kaynakla doğrulanır.
+  - Destekleniyorsa uygulanır.
+  - Desteklenmiyorsa gerekçesiyle reddedilir. Örnek: « un peu plus fréquente qu'après une conception spontanée ». Li 2015 bunu yalnızca arka plan tahmini olarak aktarıyor, kendi bulgusu değil.
+- **Kullanıcının kendi taslağı üslup için esas alınır.** Düzeltmeler esprilere dokunmadan yapılır. Taslaktaki başlık, madde işareti ve parantezler:
+  - konuşma geçişine çevrilir (« Première question : … »)
+  - ya da sources dosyasında ayrı bir "bölüm adları" bloğuna taşınır.
 
 ---
 
@@ -227,6 +289,17 @@ Script okunmak için değil, **söylenmek** için yazılır. İzleyici metni gö
 ### 6.4 Dublaj ve TTS
 - FR kayıt EN'ye dublajlanıyorsa ünlemler EN hedef metinde **kelime olarak** karşılanır: « Bon. » → "Okay.", « Ah ! » → "Oh!", « Ouf. » → "Phew." Saf ses ünlemleri ("Hmm", "Pfff") TTS'te tutarsız çıkabilir. Dublajdan sonra dinlenip kontrol edilir; bu kontrol yapılmadıysa "yapıldı" yazılmaz.
 - Ünlemin yeri iki metinde aynı paragraf noktasına düşmeli (yüz ifadesi uyumu).
+
+### 6.4b Okunabilirlik hedefi (2026-10-08)
+Hedef: kulakla 8–10. sınıf düzeyi.
+- **Ölçüm:** `python D:\A-klasör\Youtube\.claude\skills\yt-script-shared\readability.py <gövde.txt>`
+  - FR için Kandel-Moles ≥ 80
+  - ortalama ≤ 13 kelime/cümle
+  - 20 kelimeden uzun cümleler ≤ %15
+- **Uzun cümleler:** Sayı veya çalışma içeren 25 kelimeden uzun cümle ikiye bölünür. Önce bulgu, sonra çekince gelir. Uzun cümle en ağır bilginin olduğu yerde kulakla takip edilemiyor (2025 çalışması cümlesi 39 kelimeydi).
+- **Jargon:** İlk geçtiği yerde tek kelimeyle açıklanır (« blastocyste, l'embryon de cinq jours »).
+  - Uzman jargonu konuşma diline çevrilir: « registres » → « grandes statistiques nationales », « cohortes » → « groupes ».
+- **Formülün sınırı:** Formül tıbbi terim zorluğunu ölçmez. Terim taraması ayrıca yapılır.
 
 ### 6.5 Sesli okuma testi
 - Mümkünse metin yüksek sesle okunur ya da okutulur. Takılınan cümle bölünür, dil sürçtüren kelime değiştirilir.
