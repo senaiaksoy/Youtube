@@ -69,3 +69,37 @@ banner-check/
 banner-check-tr/
 thumbs_fr_scan/
 thumbs_fr_scan_shorts/
+
+# separate repo with its own credentials / third-party account links
+tools/premiere-pro-mcp/
+higgsfield/
+
+# YouTube API run outputs, logs and review captures (regenerable)
+youtube-api/dhea-tr/
+youtube-api/*-review/
+youtube-api/*_result.json
+youtube-api/*_log*.json
+youtube-api/smoke-*.json
+youtube-api/sample-*.json
+youtube-api/check-live-*.json
+youtube-api/video-*.json
+youtube-api/fixes-*.json
+youtube-api/latest-*.json
+youtube-api/tr-playlists.json
+youtube-api/fr_audio_videos.*
+youtube-api/x8VzlUmEQEw-*
+youtube-api/IahtBeIzkyo*
+youtube-api/pin*.txt
+youtube-api/pinned_comment_*.txt
+youtube-api/subtitles_*.srt
+pin_status.jsonl
+youtube_comments_update_log.json
+captions.json
+
+# channel catalog dumps (regenerable from the API)
+*_flat*.jsonl
+selected_french_thumbnail_videos.json
+
+# review previews and comparison captures
+DrAksoyFertility/*preview*.png
+DrAksoyFertility/thumbnails/*compare*.jpg
