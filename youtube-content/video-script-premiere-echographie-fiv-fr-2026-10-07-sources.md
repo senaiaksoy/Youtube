@@ -621,3 +621,44 @@ Kullanıcı onayıyla yapıldı. Önceki metin: %TEMP%/premiere-echo-before-spli
 Espriler, sayılar ve çekinceler değişmedi. Mortimer cümlesi yeniden kuruldu: « Elle porte sur des grossesses de FIV avec un sac bien visible dans l'utérus. À partir de six SA et trois jours, s'il n'y avait ni embryon ni activité cardiaque, la grossesse s'est arrêtée dans tous les cas observés. » Bu, PPV %100 bulgusunun anlamıyla aynı ✅.
 
 Süre: 12:28–14:24 (değişmedi).
+
+## EN DUBLAJ METNİ (2026-10-08)
+
+Dosya: video-script-premiere-echographie-fiv-fr-2026-10-07-dub-en.txt
+
+- **Hizalama:** FR metinle paragraf paragraf hizalı (48/48). Toplam uzunluk FR'nin ~%94'ü. Kısa paragraflar (kimlik, « Félicitations… », « Maintenant, la sécurité ») dışında her paragraf ±%15 içinde.
+- **Sayılar:** Her paragrafta FR ile birebir eşleşiyor (otomatik kontrol).
+- **Süre:** Tahmini 11:46–13:01 (140–155 kelime/dk, TTS).
+- **Hedef kitle:** FR kanaldaki EN ses parçası. Dinleyenlerin çoğu, uygulama dili İngilizce olan frankofon izleyiciler. Acil numara buna göre yazıldı.
+
+**Bilinçli uyarlamalar:**
+- « semaines d'aménorrhée / SA » → "weeks (of pregnancy)". İngilizcede gebelik haftası zaten son adetten sayılır, yani SA ile aynıdır.
+- SG paragrafı: Terim çevrilmedi, « called "S-G" in French » denildi. "weeks of pregnancy" İngilizcede SA anlamına geldiği için çeviri çelişki yaratırdı.
+- [FR-ONLY] « au nom de formule magique » → "yolk sac… Sounds like breakfast. It isn't." Fransızca kelime oyunu İngilizcede çalışmıyor.
+- « le biologiste » → "the embryologist".
+- « Moi le premier » → "Me included".
+- « Ne mentez pas » → "Admit it."
+- « sans détours » → "Straight talk."
+- Acil durum: "call 15 in France, one-one-two anywhere in Europe, or your local emergency number". 112 rakamla yazılırsa TTS "one hundred twelve" okuyabilir; yazıyla verildi.
+- TTS için açık yazım: "Doctor", "beta H-C-G", "eighties", "S-G".
+
+**Bağımsız çeviri kayması kontrolü (alt ajan, 2026-10-08):**
+- Sayılar, paydalar, yaş grupları, temkin ifadeleri ve güvenlik talimatları FR ile aynı. Mortimer cümlesi "no embryo, or an embryo without cardiac activity" çalışmanın özetiyle birebir uyumlu (PMID 41075856).
+- Uygulanan düzeltmeler:
+  - Acil numara (yüksek öncelik)
+  - "single frozen blastocyst" belirsizliği
+  - "pregnancy has stopped" → "stopped developing" / "did not continue"
+  - "mainly" (« notamment » karşılığı)
+  - "extremely rare" (« rarissime » karşılığı)
+  - "often" (« souvent » karşılığı)
+  - "Feeling faint, or passing out" (« malaise » karşılığı)
+  - "fallopian tube"
+  - 8 doğallık ve TTS düzeltmesi
+- Mizah kuralları: uyumlu; hassas bölümlerde espri yok.
+
+**FR metin düzeltmesi (Dr. Aksoy onayıyla uygulandı, 2026-10-08):** « s'il n'y avait ni embryon ni activité cardiaque » kelimesi kelimesine "yalnızca boş kese" diye okunabilir. Uygulanan: « s'il n'y avait pas d'embryon, ou un embryon sans activité cardiaque » (Mortimer 2025 özeti: "either no embryo or an embryo without cardiac activity").
+
+**Durum:**
+- EN anadil kontrolü yapılmadı.
+- TTS çıktısı dinlenmedi. "S-G", "one-one-two" ve "Aksoy" telaffuzu üretimden sonra dinlenmeli.
+- Açıklamaya AI dublaj ifşası notu eklenmeli.
