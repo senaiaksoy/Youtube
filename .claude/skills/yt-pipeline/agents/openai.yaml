@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Pipeline"
+  short_description: "Run the Dr. Aksoy YouTube API pipeline safely."
+  default_prompt: "Use yt-pipeline for YouTube captions, metadata, playlists, channel verification, and subtitle corrections without writing throwaway scripts."
