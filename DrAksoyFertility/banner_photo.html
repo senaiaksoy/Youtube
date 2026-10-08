@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;padding:0}
+  body{width:2560px;height:1440px;overflow:hidden;
+    background:
+      radial-gradient(1200px 700px at 78% 50%, rgba(214,146,74,.28), transparent 70%),
+      radial-gradient(900px 600px at 15% 40%, rgba(40,70,110,.55), transparent 70%),
+      linear-gradient(135deg,#0c1422 0%,#121c2c 45%,#1d1714 100%);
+    font-family:Inter,Segoe UI,sans-serif;color:#f3eee7;position:relative}
+  .photo{position:absolute;inset:0;background:url('lab_bg.jpg') center/cover no-repeat}
+  .shade{position:absolute;inset:0;background:
+      linear-gradient(90deg, rgba(10,16,28,.93) 0%, rgba(10,16,28,.86) 38%, rgba(14,20,32,.72) 62%, rgba(20,16,14,.80) 100%),
+      radial-gradient(900px 500px at 80% 50%, rgba(214,146,74,.22), transparent 70%)}
+  .grid{position:absolute;inset:0;opacity:.04;
+    background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);
+    background-size:80px 80px}
+  .safe{position:absolute;left:507px;top:508px;width:1546px;height:424px;
+    display:flex;align-items:center;justify-content:space-between;padding:0 60px;box-sizing:border-box}
+  .left{width:820px}
+  .kicker{font-size:23px;letter-spacing:.22em;text-transform:uppercase;color:#e8a33d;font-weight:600;margin-bottom:14px}
+  h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:100px;line-height:1;margin:0 0 20px;letter-spacing:-.01em}
+  h1 span{color:#e8a33d}
+  .sub{font-size:29px;line-height:1.35;color:#cfc6ba;font-weight:500}
+  .right{width:520px}
+  .cap{font-size:24px;letter-spacing:.18em;text-transform:uppercase;color:#9fb0c4;font-weight:600;margin-bottom:22px}
+  .ladder{display:flex;align-items:flex-end;gap:16px;height:220px}
+  .step{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+  .bar{width:100%;border-radius:10px 10px 4px 4px;display:flex;align-items:flex-start;justify-content:center;
+    font-weight:700;font-size:36px;padding-top:8px;box-sizing:border-box}
+  .lbl{margin-top:12px;font-size:23px;font-weight:600;color:#cfc6ba}
+  .s0 .bar{height:62px;background:#2b3a4f;color:#9fb0c4}
+  .s1 .bar{height:94px;background:#3b4a5f;color:#b8c4d2}
+  .s2 .bar{height:126px;background:#6b5a45;color:#f3eee7}
+  .s3 .bar{height:158px;background:#b07a3a;color:#fff}
+  .s4 .bar{height:188px;background:#e8a33d;color:#1a1410;box-shadow:0 0 40px rgba(232,163,61,.45)}
+  .s4 .lbl{color:#e8a33d}
+</style></head>
+<body>
+<div class="photo"></div><div class="shade"></div><div class="grid"></div>
+<div class="safe">
+  <div class="left">
+    <div class="kicker">Dr. Senai Aksoy · Fertility specialist</div>
+    <h1>Evidence,<br><span>not hype.</span></h1>
+    <div class="sub">Egg quality · IVF · Egg freezing · Women's aging<br>What actually leads to more babies.</div>
+  </div>
+  <div class="right">
+    <div class="cap">Every claim, scored</div>
+    <div class="ladder">
+      <div class="step s0"><div class="bar">0</div><div class="lbl">Lab</div></div>
+      <div class="step s1"><div class="bar">1</div><div class="lbl">Mice</div></div>
+      <div class="step s2"><div class="bar">2</div><div class="lbl">Pilot</div></div>
+      <div class="step s3"><div class="bar">3</div><div class="lbl">Markers</div></div>
+      <div class="step s4"><div class="bar">4</div><div class="lbl">Babies</div></div>
+    </div>
+  </div>
+</div>
+</body></html>
