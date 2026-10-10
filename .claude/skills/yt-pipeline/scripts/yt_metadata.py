@@ -36,7 +36,7 @@ def apply_fix(snippet: dict, localizations: dict, status: dict, fix: dict) -> tu
     new_st = dict(status)
     changes: list[str] = []
 
-    for field in ("title", "description", "tags", "categoryId", "defaultLanguage"):
+    for field in ("title", "description", "tags", "categoryId", "defaultLanguage", "defaultAudioLanguage"):
         if field in fix and fix[field] is not None and fix[field] != snippet.get(field):
             new_sn[field] = fix[field]
             changes.append(field)
