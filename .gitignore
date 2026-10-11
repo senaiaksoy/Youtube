@@ -103,3 +103,24 @@ selected_french_thumbnail_videos.json
 # review previews and comparison captures
 DrAksoyFertility/*preview*.png
 DrAksoyFertility/thumbnails/*compare*.jpg
+
+# Local YouTube API snapshots; keep metadata/schedule inputs versioned
+youtube-api/all-fr*.json
+youtube-api/audit-pinned.json
+youtube-api/captions-*.json
+youtube-api/chk-*.json
+youtube-api/playlist-en-items.json
+youtube-api/playlists-*.json
+youtube-api/recent-*.json
+youtube-api/recent45-*.json
+youtube-api/schedule-*-after.json
+youtube-api/thumb-*-after.json
+youtube-api/tpl-*.json
+youtube-api/tpl2-*.json
+youtube-api/upload-*-before.json
+youtube-api/upload-*-after*.json
+
+# Generated Shorts render assets and thumbnail intermediate
+youtube-content/subtitles-review/work/shorts_tmp/
+youtube-content/subtitles-review/work/shorts_en_tmp/
+youtube-content/subtitles-review/work/thumb_ar/final.png

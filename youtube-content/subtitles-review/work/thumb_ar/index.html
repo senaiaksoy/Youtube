@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><title>thumb ar</title>
+<style>body{margin:0;background:#111;color:#ddd;font:14px sans-serif}canvas{width:960px;height:540px;display:block}</style></head>
+<body><canvas id="c" width="1920" height="1080"></canvas><div id="s">drawing…</div>
+<script>
+const CREAM = '#F7F3E8', AMBER = '#F2BE72', NAVY = '#081827';
+const ctx = document.getElementById('c').getContext('2d');
+const img = new Image();
+img.onload = async () => {
+  ctx.drawImage(img, 0, 0, 1920, 1080);
+  ctx.direction = 'rtl'; ctx.textAlign = 'right'; ctx.textBaseline = 'alphabetic';
+  const RIGHT = 1010, MAXW = 930, FONT = 'Arial, Tahoma, "Segoe UI", sans-serif';
+  function fit(text, size) { let s = size; for (;;) { ctx.font = `bold ${s}px ${FONT}`; if (ctx.measureText(text).width <= MAXW || s < 40) return s; s -= 4; } }
+  function line(text, size, color, y) {
+    const s = fit(text, size); ctx.font = `bold ${s}px ${FONT}`;
+    ctx.fillStyle = 'rgba(0,0,0,.6)'; ctx.fillText(text, RIGHT + 6, y + 7);
+    ctx.lineWidth = 10; ctx.strokeStyle = 'rgba(0,0,0,.35)'; ctx.lineJoin = 'round'; ctx.strokeText(text, RIGHT, y);
+    ctx.fillStyle = color; ctx.fillText(text, RIGHT, y); return s;
+  }
+  await document.fonts.ready;
+  line('هل ينبض القلب', 210, CREAM, 300);
+  line('بالفعل؟', 250, AMBER, 560);
+  // badge
+  const t = 'أول سونار بعد أطفال الأنابيب'; const s = fit(t, 62); ctx.font = `bold ${s}px ${FONT}`;
+  const w = ctx.measureText(t).width, pad = 30, bh = s + 2 * pad - 6, bx = RIGHT - w - 2 * pad, by = 650;
+  ctx.fillStyle = AMBER; ctx.beginPath(); ctx.roundRect(bx, by, w + 2 * pad, bh, 24); ctx.fill();
+  ctx.fillStyle = NAVY; ctx.fillText(t, RIGHT - pad, by + bh - pad - 2);
+  document.getElementById('c').toBlob(async b => {
+    const r = await fetch('/save', { method: 'POST', body: b });
+    document.getElementById('s').textContent = 'saved: ' + (await r.text());
+  }, 'image/png');
+};
+img.src = 'base.jpg';
+</script></body></html>

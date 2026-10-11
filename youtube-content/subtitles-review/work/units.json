@@ -1,0 +1,1079 @@
+[
+ {
+  "id": 1,
+  "cues": [
+   1
+  ],
+  "fr": "Après une FIV, à la première échographie, quand est-ce qu’on voit le cœur ?"
+ },
+ {
+  "id": 2,
+  "cues": [
+   2
+  ],
+  "fr": "En général vers six semaines d’aménorrhée."
+ },
+ {
+  "id": 3,
+  "cues": [
+   3
+  ],
+  "fr": "Et si c’est trop tôt, ce n’est pas forcément mauvais signe."
+ },
+ {
+  "id": 4,
+  "cues": [
+   4
+  ],
+  "fr": "Je vous explique tout."
+ },
+ {
+  "id": 5,
+  "cues": [
+   5,
+   6
+  ],
+  "fr": "Mais d’abord, une scène que vous connaissez tous."
+ },
+ {
+  "id": 6,
+  "cues": [
+   7,
+   8,
+   9
+  ],
+  "fr": "Ne mentez pas. Vous êtes allongée, le gel est glacial — toujours glacial, c’est l’article 4 du serment d’Hippocrate : le gel doit être conservé en Sibérie."
+ },
+ {
+  "id": 7,
+  "cues": [
+   10,
+   11
+  ],
+  "fr": "La sonde est en place, l’écran s’allume avec une image en noir et blanc, granuleuse comme une télé des années 80…"
+ },
+ {
+  "id": 8,
+  "cues": [
+   12
+  ],
+  "fr": "et là : le médecin se tait."
+ },
+ {
+  "id": 9,
+  "cues": [
+   13
+  ],
+  "fr": "Trois secondes. Qui durent trois siècles."
+ },
+ {
+  "id": 10,
+  "cues": [
+   14
+  ],
+  "fr": "Vous voulez savoir ce qui se passe dans ma tête, à cet instant précis ?"
+ },
+ {
+  "id": 11,
+  "cues": [
+   15
+  ],
+  "fr": "La plupart du temps, rien d’inquiétant."
+ },
+ {
+  "id": 12,
+  "cues": [
+   16,
+   17,
+   18,
+   19
+  ],
+  "fr": "Je me bats simplement avec la petite boule de l’appareil pour poser un curseur au millimètre près au bout d’un embryon minuscule. C’est à peu près le seul moment de la journée où un médecin ferme sa bouche de son plein gré."
+ },
+ {
+  "id": 13,
+  "cues": [
+   20
+  ],
+  "fr": "Mais avant ce grand silence, il y a LA question."
+ },
+ {
+  "id": 14,
+  "cues": [
+   21,
+   22
+  ],
+  "fr": "Celle qui vous occupe l’esprit depuis que la prise de sang a dit positif : la première échographie après une FIV, c’est quand ?"
+ },
+ {
+  "id": 15,
+  "cues": [
+   23
+  ],
+  "fr": "Et qu’est-ce qu’on doit vraiment y voir ?"
+ },
+ {
+  "id": 16,
+  "cues": [
+   24,
+   25
+  ],
+  "fr": "Réponse courte : d’abord une petite bulle dans l’utérus, puis, en général vers six semaines d’aménorrhée, une petite activité cardiaque."
+ },
+ {
+  "id": 17,
+  "cues": [
+   26
+  ],
+  "fr": "Et si l’échographie a lieu un peu tôt, sans activité cardiaque visible ?"
+ },
+ {
+  "id": 18,
+  "cues": [
+   27
+  ],
+  "fr": "Ça veut pas forcément dire que quelque chose va mal."
+ },
+ {
+  "id": 19,
+  "cues": [
+   28
+  ],
+  "fr": "Parfois, c’est simplement trop tôt."
+ },
+ {
+  "id": 20,
+  "cues": [
+   29
+  ],
+  "fr": "Parfois, il faut attendre un contrôle pour pouvoir conclure."
+ },
+ {
+  "id": 21,
+  "cues": [
+   30
+  ],
+  "fr": "Je suis le docteur Senai Aksoy, spécialiste de la fertilité."
+ },
+ {
+  "id": 22,
+  "cues": [
+   31,
+   32
+  ],
+  "fr": "Petite précision. En France, quand on parle de « première échographie », on pense souvent à celle des douze semaines."
+ },
+ {
+  "id": 23,
+  "cues": [
+   33
+  ],
+  "fr": "Celle avec les belles photos de profil."
+ },
+ {
+  "id": 24,
+  "cues": [
+   34,
+   35
+  ],
+  "fr": "Moi, je vous parle de l’avant-première VIP : celle de votre centre de FIV."
+ },
+ {
+  "id": 25,
+  "cues": [
+   36
+  ],
+  "fr": "La toute première avant la première."
+ },
+ {
+  "id": 26,
+  "cues": [
+   37,
+   38
+  ],
+  "fr": "Première question : le mystère des semaines."
+ },
+ {
+  "id": 27,
+  "cues": [
+   39,
+   40
+  ],
+  "fr": "On vous a transféré un blastocyste — l’embryon de cinq jours — il y a exactement seize jours."
+ },
+ {
+  "id": 28,
+  "cues": [
+   41,
+   42
+  ],
+  "fr": "Vous recomptez sur les doigts : seize jours, c’est à peine plus de deux semaines."
+ },
+ {
+  "id": 29,
+  "cues": [
+   43,
+   44
+  ],
+  "fr": "Et là, le médecin vous annonce tranquillement : « Félicitations, vous êtes à cinq semaines d’aménorrhée ! » Pardon ?"
+ },
+ {
+  "id": 30,
+  "cues": [
+   45
+  ],
+  "fr": "Vous recomptez avec les orteils."
+ },
+ {
+  "id": 31,
+  "cues": [
+   46
+  ],
+  "fr": "Qui a rajouté deux semaines ?"
+ },
+ {
+  "id": 32,
+  "cues": [
+   47
+  ],
+  "fr": "Les maths ont changé depuis l’école ?"
+ },
+ {
+  "id": 33,
+  "cues": [
+   48
+  ],
+  "fr": "Non, personne n’a triché, et les maths n’ont pas changé."
+ },
+ {
+  "id": 34,
+  "cues": [
+   49,
+   50,
+   51
+  ],
+  "fr": "Bienvenue en obstétrique : le seul domaine au monde où votre contrat commence deux semaines avant que vous n’ayez rencontré l’employeur !"
+ },
+ {
+  "id": 35,
+  "cues": [
+   52,
+   53
+  ],
+  "fr": "On vous offre deux semaines d’ancienneté, direct, cadeau de la maison."
+ },
+ {
+  "id": 36,
+  "cues": [
+   54,
+   55,
+   56
+  ],
+  "fr": "On compte en semaines d’aménorrhée, les fameuses SA, depuis le premier jour de vos dernières règles, c’est-à-dire environ deux semaines avant la fécondation."
+ },
+ {
+  "id": 37,
+  "cues": [
+   57,
+   58
+  ],
+  "fr": "Même quand tout a commencé dans une boîte au laboratoire sous le regard attentif du biologiste, on garde ce calendrier."
+ },
+ {
+  "id": 38,
+  "cues": [
+   59,
+   60
+  ],
+  "fr": "C’est l’heure de Greenwich de la grossesse : pas forcément la vôtre, mais tous les médecins règlent leur montre dessus."
+ },
+ {
+  "id": 39,
+  "cues": [
+   61
+  ],
+  "fr": "En FIV, on connaît la date exacte au jour près, mais on convertit quand même."
+ },
+ {
+  "id": 40,
+  "cues": [
+   62,
+   63
+  ],
+  "fr": "Le jour du transfert d’un blastocyste de cinq jours, vous êtes déjà à deux SA et cinq jours."
+ },
+ {
+  "id": 41,
+  "cues": [
+   64
+  ],
+  "fr": "Avec un embryon de trois jours, à deux SA et trois jours."
+ },
+ {
+  "id": 42,
+  "cues": [
+   65,
+   66
+  ],
+  "fr": "Deux semaines de calendrier, plus les cinq jours de votre blastocyste : voilà vos presque trois semaines mystères."
+ },
+ {
+  "id": 43,
+  "cues": [
+   67,
+   68,
+   69
+  ],
+  "fr": "Et en France, pour corser l’affaire, c’est jamais simple en France, il existe aussi les « semaines de grossesse », les SG, comptées depuis la fécondation."
+ },
+ {
+  "id": 44,
+  "cues": [
+   70
+  ],
+  "fr": "Donc deux semaines de moins."
+ },
+ {
+  "id": 45,
+  "cues": [
+   71
+  ],
+  "fr": "Deux horloges différentes pour un seul utérus."
+ },
+ {
+  "id": 46,
+  "cues": [
+   72
+  ],
+  "fr": "Pour éviter la migraine, ici, je reste en SA."
+ },
+ {
+  "id": 47,
+  "cues": [
+   73,
+   74,
+   75
+  ],
+  "fr": "À retenir : demandez toujours à votre médecin à combien de SA vous êtes, et gardez précieusement la date du transfert et l’âge de l’embryon."
+ },
+ {
+  "id": 48,
+  "cues": [
+   76
+  ],
+  "fr": "Tous les repères de l’échographie se comptent en SA."
+ },
+ {
+  "id": 49,
+  "cues": [
+   77
+  ],
+  "fr": "Deuxième question : qu’est-ce qu’on doit voir, et quand ?"
+ },
+ {
+  "id": 50,
+  "cues": [
+   78
+  ],
+  "fr": "À ce stade, l’échographie se fait en général par voie vaginale."
+ },
+ {
+  "id": 51,
+  "cues": [
+   79,
+   80
+  ],
+  "fr": "La sonde est au plus près de l’utérus, donc elle voit bien plus tôt qu’à travers le ventre."
+ },
+ {
+  "id": 52,
+  "cues": [
+   81,
+   82
+  ],
+  "fr": "À l’écran, au début, c’est un peu comme regarder les nuages : chacun y projette ce qu’il espère."
+ },
+ {
+  "id": 53,
+  "cues": [
+   83,
+   84
+  ],
+  "fr": "Le médecin, lui, cherche trois repères bien précis, toujours dans le même ordre."
+ },
+ {
+  "id": 54,
+  "cues": [
+   85
+  ],
+  "fr": "Un : le sac gestationnel."
+ },
+ {
+  "id": 55,
+  "cues": [
+   86
+  ],
+  "fr": "Une petite poche ronde et noire dans l’utérus."
+ },
+ {
+  "id": 56,
+  "cues": [
+   87
+  ],
+  "fr": "Vers cinq SA, parfois un tout petit peu avant."
+ },
+ {
+  "id": 57,
+  "cues": [
+   88
+  ],
+  "fr": "Deux : la vésicule vitelline."
+ },
+ {
+  "id": 58,
+  "cues": [
+   89
+  ],
+  "fr": "À l’intérieur, un petit anneau au nom de formule magique."
+ },
+ {
+  "id": 59,
+  "cues": [
+   90
+  ],
+  "fr": "En général un peu après cinq SA."
+ },
+ {
+  "id": 60,
+  "cues": [
+   91,
+   92
+  ],
+  "fr": "Quand on voit le sac avec sa vésicule dans l’utérus, c’est officiel : on a confirmé au moins une grossesse dans l’utérus."
+ },
+ {
+  "id": 61,
+  "cues": [
+   93,
+   94
+  ],
+  "fr": "Mais après une FIV, même si c’est rarissime, on vérifie aussi qu’il n’y en a pas une deuxième au mauvais endroit."
+ },
+ {
+  "id": 62,
+  "cues": [
+   95
+  ],
+  "fr": "Trois : l’embryon."
+ },
+ {
+  "id": 63,
+  "cues": [
+   96,
+   97
+  ],
+  "fr": "Quelques millimètres, et dedans un petit clignotement : l’activité cardiaque, en général vers six SA."
+ },
+ {
+  "id": 64,
+  "cues": [
+   98
+  ],
+  "fr": "Ce tableau, ce sont des moyennes."
+ },
+ {
+  "id": 65,
+  "cues": [
+   99,
+   100
+  ],
+  "fr": "Les premières études étaient modestes, mais les données récentes confirment ce calendrier."
+ },
+ {
+  "id": 66,
+  "cues": [
+   101,
+   102
+  ],
+  "fr": "Tout au début, avoir quelques jours d’écart ne suffit absolument pas pour tirer une conclusion définitive."
+ },
+ {
+  "id": 67,
+  "cues": [
+   103
+  ],
+  "fr": "Pendant ce temps-là, le médecin compte les sacs, un ou deux."
+ },
+ {
+  "id": 68,
+  "cues": [
+   104,
+   105
+  ],
+  "fr": "Et il regarde attentivement à côté de l’utérus, vers les ovaires et les trompes."
+ },
+ {
+  "id": 69,
+  "cues": [
+   106
+  ],
+  "fr": "Troisième question : et si on ne voit pas encore d’activité cardiaque ?"
+ },
+ {
+  "id": 70,
+  "cues": [
+   107
+  ],
+  "fr": "Parfois, c’est simplement trop tôt."
+ },
+ {
+  "id": 71,
+  "cues": [
+   108
+  ],
+  "fr": "Parfois, la grossesse s’est arrêtée."
+ },
+ {
+  "id": 72,
+  "cues": [
+   109,
+   110
+  ],
+  "fr": "Et une seule échographie précoce ne permet pas toujours de trancher. C’est pour cela que les critères médicaux sont très stricts."
+ },
+ {
+  "id": 73,
+  "cues": [
+   111
+  ],
+  "fr": "Des mesures au millimètre, la taille du sac et de l’embryon."
+ },
+ {
+  "id": 74,
+  "cues": [
+   112
+  ],
+  "fr": "Pas de simples impressions."
+ },
+ {
+  "id": 75,
+  "cues": [
+   113
+  ],
+  "fr": "Les recommandations du NICE sont prudentes."
+ },
+ {
+  "id": 76,
+  "cues": [
+   114,
+   115
+  ],
+  "fr": "Quand une échographie très précoce ne permet pas de conclure, on prévoit souvent un nouveau contrôle."
+ },
+ {
+  "id": 77,
+  "cues": [
+   116
+  ],
+  "fr": "Au moins sept jours plus tard."
+ },
+ {
+  "id": 78,
+  "cues": [
+   117,
+   118
+  ],
+  "fr": "La décision dépend notamment de la taille du sac et de celle de l’embryon."
+ },
+ {
+  "id": 79,
+  "cues": [
+   119,
+   120,
+   121
+  ],
+  "fr": "Et attendre ce contrôle n’a pas d’effet négatif sur l’évolution de la grossesse. Bien sûr, si vous avez des douleurs ou des saignements inquiétants, on n’attend pas tranquillement une semaine."
+ },
+ {
+  "id": 80,
+  "cues": [
+   122,
+   123,
+   124
+  ],
+  "fr": "Une grande étude américaine, publiée en ligne en octobre 2025, apporte une information nouvelle."
+ },
+ {
+  "id": 81,
+  "cues": [
+   125
+  ],
+  "fr": "Elle porte sur des grossesses de FIV avec un sac bien visible dans l’utérus."
+ },
+ {
+  "id": 82,
+  "cues": [
+   126,
+   127,
+   128
+  ],
+  "fr": "À partir de six SA et trois jours, s’il n’y avait pas d’embryon, ou un embryon sans activité cardiaque, la grossesse s’est arrêtée dans tous les cas observés."
+ },
+ {
+  "id": 83,
+  "cues": [
+   129
+  ],
+  "fr": "C’est un résultat important."
+ },
+ {
+  "id": 84,
+  "cues": [
+   130,
+   131
+  ],
+  "fr": "Mais c’est une étude rétrospective, dans un seul centre, et ces seuils ne sont pas encore des critères universels."
+ },
+ {
+  "id": 85,
+  "cues": [
+   132,
+   133
+  ],
+  "fr": "Si votre équipe vous propose un contrôle, ce n’est pas pour faire durer le suspense."
+ },
+ {
+  "id": 86,
+  "cues": [
+   134,
+   135
+  ],
+  "fr": "C’est pour éviter une erreur de diagnostic et avoir une réponse fiable."
+ },
+ {
+  "id": 87,
+  "cues": [
+   136
+  ],
+  "fr": "Je sais parfaitement que cette semaine d’attente semble durer une éternité."
+ },
+ {
+  "id": 88,
+  "cues": [
+   137,
+   138
+  ],
+  "fr": "À retenir : au tout début, une image incomplète ne permet pas de conclure."
+ },
+ {
+  "id": 89,
+  "cues": [
+   139
+  ],
+  "fr": "Le contrôle sert à lever le doute."
+ },
+ {
+  "id": 90,
+  "cues": [
+   140
+  ],
+  "fr": "Et si l’activité cardiaque est visible ?"
+ },
+ {
+  "id": 91,
+  "cues": [
+   141
+  ],
+  "fr": "C’est une excellente nouvelle, une vraie étape de franchie."
+ },
+ {
+  "id": 92,
+  "cues": [
+   142
+  ],
+  "fr": "Mais parlons chiffres avec franchise."
+ },
+ {
+  "id": 93,
+  "cues": [
+   143,
+   144
+  ],
+  "fr": "À votre avis, sur dix grossesses de FIV où l’on a vu le cœur battre, combien continuent ?"
+ },
+ {
+  "id": 94,
+  "cues": [
+   145,
+   146
+  ],
+  "fr": "Ce sont des repères statistiques globaux, pas votre situation individuelle."
+ },
+ {
+  "id": 95,
+  "cues": [
+   147,
+   148,
+   149
+  ],
+  "fr": "Une étude américaine plus ancienne, dans un seul centre, a suivi plus de deux mille grossesses de FIV avec une activité cardiaque vue vers sept SA."
+ },
+ {
+  "id": 96,
+  "cues": [
+   150
+  ],
+  "fr": "Avant 35 ans, plus de 9 sur 10 ont poursuivi leur développement."
+ },
+ {
+  "id": 97,
+  "cues": [
+   151
+  ],
+  "fr": "Entre 35 et 39 ans, un peu moins de 9 sur 10."
+ },
+ {
+  "id": 98,
+  "cues": [
+   152
+  ],
+  "fr": "Et à partir de 40 ans, un peu moins de 8 sur 10."
+ },
+ {
+  "id": 99,
+  "cues": [
+   153,
+   154,
+   155,
+   156
+  ],
+  "fr": "Une étude chinoise publiée en 2016 retrouve un ordre de grandeur proche. Sur plus de deux mille cinq cents grossesses de FIV où l’on avait vu le cœur, environ 9 sur 10 ont dépassé le premier trimestre."
+ },
+ {
+  "id": 100,
+  "cues": [
+   157
+  ],
+  "fr": "Et là aussi, le risque augmentait avec l’âge."
+ },
+ {
+  "id": 101,
+  "cues": [
+   158
+  ],
+  "fr": "Certains chiffres rappellent que la prudence reste de mise."
+ },
+ {
+  "id": 102,
+  "cues": [
+   159
+  ],
+  "fr": "Mais ils décrivent des groupes, pas votre histoire personnelle."
+ },
+ {
+  "id": 103,
+  "cues": [
+   160
+  ],
+  "fr": "Voir ce cœur battre est une victoire d’étape majeure."
+ },
+ {
+  "id": 104,
+  "cues": [
+   161,
+   162
+  ],
+  "fr": "Pas une promesse gravée dans le marbre, mais un immense pas en avant."
+ },
+ {
+  "id": 105,
+  "cues": [
+   163
+  ],
+  "fr": "Maintenant, la sécurité, sans détours."
+ },
+ {
+  "id": 106,
+  "cues": [
+   164,
+   165
+  ],
+  "fr": "Une grossesse peut parfois s’implanter en dehors de l’utérus, le plus souvent dans une trompe : c’est la grossesse extra-utérine."
+ },
+ {
+  "id": 107,
+  "cues": [
+   166,
+   167,
+   168
+  ],
+  "fr": "Dans les grandes statistiques de FIV, cela concerne environ 1 à 2 grossesses sur 100, et encore moins après le transfert d’un seul blastocyste congelé."
+ },
+ {
+  "id": 108,
+  "cues": [
+   169,
+   170,
+   171,
+   172
+  ],
+  "fr": "Le risque est plus élevé si vos trompes ont été abîmées ou opérées, ou si vous avez déjà eu une grossesse extra-utérine. L’échographie précoce sert précisément à vérifier cette implantation."
+ },
+ {
+  "id": 109,
+  "cues": [
+   173,
+   174,
+   175
+  ],
+  "fr": "Et beaucoup plus rarement, ça existe, il peut y avoir deux grossesses en même temps : une dans l’utérus, une autre en dehors."
+ },
+ {
+  "id": 110,
+  "cues": [
+   176
+  ],
+  "fr": "C’est la grossesse hétérotopique."
+ },
+ {
+  "id": 111,
+  "cues": [
+   177
+  ],
+  "fr": "En FIV, c’est quelques cas pour mille, voire moins."
+ },
+ {
+  "id": 112,
+  "cues": [
+   178
+  ],
+  "fr": "Voilà pourquoi le médecin explore aussi les côtés de l’utérus."
+ },
+ {
+  "id": 113,
+  "cues": [
+   179,
+   180
+  ],
+  "fr": "Donc, même après une échographie le matin, certains signes ne doivent jamais attendre le prochain rendez-vous."
+ },
+ {
+  "id": 114,
+  "cues": [
+   181
+  ],
+  "fr": "Une douleur vive au bas-ventre, surtout d’un côté."
+ },
+ {
+  "id": 115,
+  "cues": [
+   182
+  ],
+  "fr": "Une douleur inhabituelle à la pointe de l’épaule."
+ },
+ {
+  "id": 116,
+  "cues": [
+   183
+  ],
+  "fr": "Un malaise. Ou des saignements abondants."
+ },
+ {
+  "id": 117,
+  "cues": [
+   184
+  ],
+  "fr": "Dans ces cas-là, on ne pose pas de question sur Internet."
+ },
+ {
+  "id": 118,
+  "cues": [
+   185,
+   186
+  ],
+  "fr": "On va directement aux urgences, ou on compose le 15, le 112, ou le numéro d’urgence de votre pays."
+ },
+ {
+  "id": 119,
+  "cues": [
+   187
+  ],
+  "fr": "Pour des saignements légers ou des pertes brunes, contactez votre centre."
+ },
+ {
+  "id": 120,
+  "cues": [
+   188,
+   189
+  ],
+  "fr": "Pour une douleur persistante, même modérée, appelez également votre équipe dans la journée."
+ },
+ {
+  "id": 121,
+  "cues": [
+   190,
+   191
+  ],
+  "fr": "Et vos traitements de soutien, progestérone comprise : continuez-les comme prescrit, jusqu’à la date exacte fixée par votre centre."
+ },
+ {
+  "id": 122,
+  "cues": [
+   192,
+   193
+  ],
+  "fr": "Même après avoir vu une image magnifique, on n’arrête jamais son traitement de sa propre initiative."
+ },
+ {
+  "id": 123,
+  "cues": [
+   194
+  ],
+  "fr": "Les données s’arrêtent ici."
+ },
+ {
+  "id": 124,
+  "cues": [
+   195,
+   196
+  ],
+  "fr": "Mon avis clinique commence maintenant : on a tous envie de tout savoir, immédiatement. Moi le premier."
+ },
+ {
+  "id": 125,
+  "cues": [
+   197,
+   198
+  ],
+  "fr": "Quand j’attends un colis, j’actualise le suivi toutes les quatre minutes : « Colis au centre de tri..."
+ },
+ {
+  "id": 126,
+  "cues": [
+   199,
+   200
+  ],
+  "fr": "livreur en approche... » Est-ce que rafraîchir l’écran fait arriver le livreur plus vite ?"
+ },
+ {
+  "id": 127,
+  "cues": [
+   201,
+   202
+  ],
+  "fr": "Absolument pas. Une échographie vers cinq SA peut parfois nous aider à localiser la grossesse."
+ },
+ {
+  "id": 128,
+  "cues": [
+   203,
+   204
+  ],
+  "fr": "Mais si la question « Est-ce que l’embryon évolue bien ? », elle risque surtout de nous laisser avec une réponse incomplète."
+ },
+ {
+  "id": 129,
+  "cues": [
+   205,
+   206,
+   207
+  ],
+  "fr": "Sauf raison médicale particulière, je préfère une échographie bien programmée vers six ou sept SA à trois rendez-vous pris trop tôt."
+ },
+ {
+  "id": 130,
+  "cues": [
+   208,
+   209
+  ],
+  "fr": "Alors, pour répondre à la question du début : le cœur, on le voit en général vers six SA."
+ },
+ {
+  "id": 131,
+  "cues": [
+   210,
+   211
+  ],
+  "fr": "C’est pour ça que la première échographie est souvent programmée entre six et sept SA, selon les centres."
+ },
+ {
+  "id": 132,
+  "cues": [
+   212,
+   213
+  ],
+  "fr": "Et si c’est trop tôt pour tout voir, un contrôle au moins une semaine plus tard permet d’y voir plus clair."
+ },
+ {
+  "id": 133,
+  "cues": [
+   214,
+   215
+  ],
+  "fr": "La prochaine fois que votre médecin s’enferme dans son grand silence devant l’écran, respirez calmement."
+ },
+ {
+  "id": 134,
+  "cues": [
+   216,
+   217,
+   218,
+   219
+  ],
+  "fr": "Le plus souvent, il est juste en train de chasser un millimètre avec son curseur. Et si le silence s’éternise, vous avez parfaitement le droit de poser la question : « Docteur, qu’est-ce que vous mesurez ? » Pour votre rendez-vous, trois questions à noter."
+ },
+ {
+  "id": 135,
+  "cues": [
+   220,
+   221
+  ],
+  "fr": "À combien de SA serai-je exactement le jour de l’échographie, et qu’est-ce qu’on s’attend à observer ?"
+ },
+ {
+  "id": 136,
+  "cues": [
+   222,
+   223
+  ],
+  "fr": "Si tout n’est pas encore visible, quand faisons-nous le contrôle, et qui me communique les conclusions ?"
+ },
+ {
+  "id": 137,
+  "cues": [
+   224,
+   225
+  ],
+  "fr": "Jusqu’à quelle date précise dois-je poursuivre mes traitements, et qui valide l’arrêt ?"
+ },
+ {
+  "id": 138,
+  "cues": [
+   226,
+   227
+  ],
+  "fr": "Ces questions sont récapitulées juste en dessous, dans la description de la vidéo."
+ },
+ {
+  "id": 139,
+  "cues": [
+   228,
+   229
+  ],
+  "fr": "N’oubliez pas, ce contenu est purement informatif et ne remplace pas une évaluation médicale personnalisée."
+ },
+ {
+  "id": 140,
+  "cues": [
+   230
+  ],
+  "fr": "C’est votre médecin, c’est lui qui est patron."
+ },
+ {
+  "id": 141,
+  "cues": [
+   231
+  ],
+  "fr": "Allez, ciao !"
+ }
+]

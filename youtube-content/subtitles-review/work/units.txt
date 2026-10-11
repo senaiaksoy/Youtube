@@ -1,0 +1,141 @@
+001 [1-1] Après une FIV, à la première échographie, quand est-ce qu’on voit le cœur ?
+002 [2-2] En général vers six semaines d’aménorrhée.
+003 [3-3] Et si c’est trop tôt, ce n’est pas forcément mauvais signe.
+004 [4-4] Je vous explique tout.
+005 [5-6] Mais d’abord, une scène que vous connaissez tous.
+006 [7-9] Ne mentez pas. Vous êtes allongée, le gel est glacial — toujours glacial, c’est l’article 4 du serment d’Hippocrate : le gel doit être conservé en Sibérie.
+007 [10-11] La sonde est en place, l’écran s’allume avec une image en noir et blanc, granuleuse comme une télé des années 80…
+008 [12-12] et là : le médecin se tait.
+009 [13-13] Trois secondes. Qui durent trois siècles.
+010 [14-14] Vous voulez savoir ce qui se passe dans ma tête, à cet instant précis ?
+011 [15-15] La plupart du temps, rien d’inquiétant.
+012 [16-19] Je me bats simplement avec la petite boule de l’appareil pour poser un curseur au millimètre près au bout d’un embryon minuscule. C’est à peu près le seul moment de la journée où un médecin ferme sa bouche de son plein gré.
+013 [20-20] Mais avant ce grand silence, il y a LA question.
+014 [21-22] Celle qui vous occupe l’esprit depuis que la prise de sang a dit positif : la première échographie après une FIV, c’est quand ?
+015 [23-23] Et qu’est-ce qu’on doit vraiment y voir ?
+016 [24-25] Réponse courte : d’abord une petite bulle dans l’utérus, puis, en général vers six semaines d’aménorrhée, une petite activité cardiaque.
+017 [26-26] Et si l’échographie a lieu un peu tôt, sans activité cardiaque visible ?
+018 [27-27] Ça veut pas forcément dire que quelque chose va mal.
+019 [28-28] Parfois, c’est simplement trop tôt.
+020 [29-29] Parfois, il faut attendre un contrôle pour pouvoir conclure.
+021 [30-30] Je suis le docteur Senai Aksoy, spécialiste de la fertilité.
+022 [31-32] Petite précision. En France, quand on parle de « première échographie », on pense souvent à celle des douze semaines.
+023 [33-33] Celle avec les belles photos de profil.
+024 [34-35] Moi, je vous parle de l’avant-première VIP : celle de votre centre de FIV.
+025 [36-36] La toute première avant la première.
+026 [37-38] Première question : le mystère des semaines.
+027 [39-40] On vous a transféré un blastocyste — l’embryon de cinq jours — il y a exactement seize jours.
+028 [41-42] Vous recomptez sur les doigts : seize jours, c’est à peine plus de deux semaines.
+029 [43-44] Et là, le médecin vous annonce tranquillement : « Félicitations, vous êtes à cinq semaines d’aménorrhée ! » Pardon ?
+030 [45-45] Vous recomptez avec les orteils.
+031 [46-46] Qui a rajouté deux semaines ?
+032 [47-47] Les maths ont changé depuis l’école ?
+033 [48-48] Non, personne n’a triché, et les maths n’ont pas changé.
+034 [49-51] Bienvenue en obstétrique : le seul domaine au monde où votre contrat commence deux semaines avant que vous n’ayez rencontré l’employeur !
+035 [52-53] On vous offre deux semaines d’ancienneté, direct, cadeau de la maison.
+036 [54-56] On compte en semaines d’aménorrhée, les fameuses SA, depuis le premier jour de vos dernières règles, c’est-à-dire environ deux semaines avant la fécondation.
+037 [57-58] Même quand tout a commencé dans une boîte au laboratoire sous le regard attentif du biologiste, on garde ce calendrier.
+038 [59-60] C’est l’heure de Greenwich de la grossesse : pas forcément la vôtre, mais tous les médecins règlent leur montre dessus.
+039 [61-61] En FIV, on connaît la date exacte au jour près, mais on convertit quand même.
+040 [62-63] Le jour du transfert d’un blastocyste de cinq jours, vous êtes déjà à deux SA et cinq jours.
+041 [64-64] Avec un embryon de trois jours, à deux SA et trois jours.
+042 [65-66] Deux semaines de calendrier, plus les cinq jours de votre blastocyste : voilà vos presque trois semaines mystères.
+043 [67-69] Et en France, pour corser l’affaire, c’est jamais simple en France, il existe aussi les « semaines de grossesse », les SG, comptées depuis la fécondation.
+044 [70-70] Donc deux semaines de moins.
+045 [71-71] Deux horloges différentes pour un seul utérus.
+046 [72-72] Pour éviter la migraine, ici, je reste en SA.
+047 [73-75] À retenir : demandez toujours à votre médecin à combien de SA vous êtes, et gardez précieusement la date du transfert et l’âge de l’embryon.
+048 [76-76] Tous les repères de l’échographie se comptent en SA.
+049 [77-77] Deuxième question : qu’est-ce qu’on doit voir, et quand ?
+050 [78-78] À ce stade, l’échographie se fait en général par voie vaginale.
+051 [79-80] La sonde est au plus près de l’utérus, donc elle voit bien plus tôt qu’à travers le ventre.
+052 [81-82] À l’écran, au début, c’est un peu comme regarder les nuages : chacun y projette ce qu’il espère.
+053 [83-84] Le médecin, lui, cherche trois repères bien précis, toujours dans le même ordre.
+054 [85-85] Un : le sac gestationnel.
+055 [86-86] Une petite poche ronde et noire dans l’utérus.
+056 [87-87] Vers cinq SA, parfois un tout petit peu avant.
+057 [88-88] Deux : la vésicule vitelline.
+058 [89-89] À l’intérieur, un petit anneau au nom de formule magique.
+059 [90-90] En général un peu après cinq SA.
+060 [91-92] Quand on voit le sac avec sa vésicule dans l’utérus, c’est officiel : on a confirmé au moins une grossesse dans l’utérus.
+061 [93-94] Mais après une FIV, même si c’est rarissime, on vérifie aussi qu’il n’y en a pas une deuxième au mauvais endroit.
+062 [95-95] Trois : l’embryon.
+063 [96-97] Quelques millimètres, et dedans un petit clignotement : l’activité cardiaque, en général vers six SA.
+064 [98-98] Ce tableau, ce sont des moyennes.
+065 [99-100] Les premières études étaient modestes, mais les données récentes confirment ce calendrier.
+066 [101-102] Tout au début, avoir quelques jours d’écart ne suffit absolument pas pour tirer une conclusion définitive.
+067 [103-103] Pendant ce temps-là, le médecin compte les sacs, un ou deux.
+068 [104-105] Et il regarde attentivement à côté de l’utérus, vers les ovaires et les trompes.
+069 [106-106] Troisième question : et si on ne voit pas encore d’activité cardiaque ?
+070 [107-107] Parfois, c’est simplement trop tôt.
+071 [108-108] Parfois, la grossesse s’est arrêtée.
+072 [109-110] Et une seule échographie précoce ne permet pas toujours de trancher. C’est pour cela que les critères médicaux sont très stricts.
+073 [111-111] Des mesures au millimètre, la taille du sac et de l’embryon.
+074 [112-112] Pas de simples impressions.
+075 [113-113] Les recommandations du NICE sont prudentes.
+076 [114-115] Quand une échographie très précoce ne permet pas de conclure, on prévoit souvent un nouveau contrôle.
+077 [116-116] Au moins sept jours plus tard.
+078 [117-118] La décision dépend notamment de la taille du sac et de celle de l’embryon.
+079 [119-121] Et attendre ce contrôle n’a pas d’effet négatif sur l’évolution de la grossesse. Bien sûr, si vous avez des douleurs ou des saignements inquiétants, on n’attend pas tranquillement une semaine.
+080 [122-124] Une grande étude américaine, publiée en ligne en octobre 2025, apporte une information nouvelle.
+081 [125-125] Elle porte sur des grossesses de FIV avec un sac bien visible dans l’utérus.
+082 [126-128] À partir de six SA et trois jours, s’il n’y avait pas d’embryon, ou un embryon sans activité cardiaque, la grossesse s’est arrêtée dans tous les cas observés.
+083 [129-129] C’est un résultat important.
+084 [130-131] Mais c’est une étude rétrospective, dans un seul centre, et ces seuils ne sont pas encore des critères universels.
+085 [132-133] Si votre équipe vous propose un contrôle, ce n’est pas pour faire durer le suspense.
+086 [134-135] C’est pour éviter une erreur de diagnostic et avoir une réponse fiable.
+087 [136-136] Je sais parfaitement que cette semaine d’attente semble durer une éternité.
+088 [137-138] À retenir : au tout début, une image incomplète ne permet pas de conclure.
+089 [139-139] Le contrôle sert à lever le doute.
+090 [140-140] Et si l’activité cardiaque est visible ?
+091 [141-141] C’est une excellente nouvelle, une vraie étape de franchie.
+092 [142-142] Mais parlons chiffres avec franchise.
+093 [143-144] À votre avis, sur dix grossesses de FIV où l’on a vu le cœur battre, combien continuent ?
+094 [145-146] Ce sont des repères statistiques globaux, pas votre situation individuelle.
+095 [147-149] Une étude américaine plus ancienne, dans un seul centre, a suivi plus de deux mille grossesses de FIV avec une activité cardiaque vue vers sept SA.
+096 [150-150] Avant 35 ans, plus de 9 sur 10 ont poursuivi leur développement.
+097 [151-151] Entre 35 et 39 ans, un peu moins de 9 sur 10.
+098 [152-152] Et à partir de 40 ans, un peu moins de 8 sur 10.
+099 [153-156] Une étude chinoise publiée en 2016 retrouve un ordre de grandeur proche. Sur plus de deux mille cinq cents grossesses de FIV où l’on avait vu le cœur, environ 9 sur 10 ont dépassé le premier trimestre.
+100 [157-157] Et là aussi, le risque augmentait avec l’âge.
+101 [158-158] Certains chiffres rappellent que la prudence reste de mise.
+102 [159-159] Mais ils décrivent des groupes, pas votre histoire personnelle.
+103 [160-160] Voir ce cœur battre est une victoire d’étape majeure.
+104 [161-162] Pas une promesse gravée dans le marbre, mais un immense pas en avant.
+105 [163-163] Maintenant, la sécurité, sans détours.
+106 [164-165] Une grossesse peut parfois s’implanter en dehors de l’utérus, le plus souvent dans une trompe : c’est la grossesse extra-utérine.
+107 [166-168] Dans les grandes statistiques de FIV, cela concerne environ 1 à 2 grossesses sur 100, et encore moins après le transfert d’un seul blastocyste congelé.
+108 [169-172] Le risque est plus élevé si vos trompes ont été abîmées ou opérées, ou si vous avez déjà eu une grossesse extra-utérine. L’échographie précoce sert précisément à vérifier cette implantation.
+109 [173-175] Et beaucoup plus rarement, ça existe, il peut y avoir deux grossesses en même temps : une dans l’utérus, une autre en dehors.
+110 [176-176] C’est la grossesse hétérotopique.
+111 [177-177] En FIV, c’est quelques cas pour mille, voire moins.
+112 [178-178] Voilà pourquoi le médecin explore aussi les côtés de l’utérus.
+113 [179-180] Donc, même après une échographie le matin, certains signes ne doivent jamais attendre le prochain rendez-vous.
+114 [181-181] Une douleur vive au bas-ventre, surtout d’un côté.
+115 [182-182] Une douleur inhabituelle à la pointe de l’épaule.
+116 [183-183] Un malaise. Ou des saignements abondants.
+117 [184-184] Dans ces cas-là, on ne pose pas de question sur Internet.
+118 [185-186] On va directement aux urgences, ou on compose le 15, le 112, ou le numéro d’urgence de votre pays.
+119 [187-187] Pour des saignements légers ou des pertes brunes, contactez votre centre.
+120 [188-189] Pour une douleur persistante, même modérée, appelez également votre équipe dans la journée.
+121 [190-191] Et vos traitements de soutien, progestérone comprise : continuez-les comme prescrit, jusqu’à la date exacte fixée par votre centre.
+122 [192-193] Même après avoir vu une image magnifique, on n’arrête jamais son traitement de sa propre initiative.
+123 [194-194] Les données s’arrêtent ici.
+124 [195-196] Mon avis clinique commence maintenant : on a tous envie de tout savoir, immédiatement. Moi le premier.
+125 [197-198] Quand j’attends un colis, j’actualise le suivi toutes les quatre minutes : « Colis au centre de tri...
+126 [199-200] livreur en approche... » Est-ce que rafraîchir l’écran fait arriver le livreur plus vite ?
+127 [201-202] Absolument pas. Une échographie vers cinq SA peut parfois nous aider à localiser la grossesse.
+128 [203-204] Mais si la question « Est-ce que l’embryon évolue bien ? », elle risque surtout de nous laisser avec une réponse incomplète.
+129 [205-207] Sauf raison médicale particulière, je préfère une échographie bien programmée vers six ou sept SA à trois rendez-vous pris trop tôt.
+130 [208-209] Alors, pour répondre à la question du début : le cœur, on le voit en général vers six SA.
+131 [210-211] C’est pour ça que la première échographie est souvent programmée entre six et sept SA, selon les centres.
+132 [212-213] Et si c’est trop tôt pour tout voir, un contrôle au moins une semaine plus tard permet d’y voir plus clair.
+133 [214-215] La prochaine fois que votre médecin s’enferme dans son grand silence devant l’écran, respirez calmement.
+134 [216-219] Le plus souvent, il est juste en train de chasser un millimètre avec son curseur. Et si le silence s’éternise, vous avez parfaitement le droit de poser la question : « Docteur, qu’est-ce que vous mesurez ? » Pour votre rendez-vous, trois questions à noter.
+135 [220-221] À combien de SA serai-je exactement le jour de l’échographie, et qu’est-ce qu’on s’attend à observer ?
+136 [222-223] Si tout n’est pas encore visible, quand faisons-nous le contrôle, et qui me communique les conclusions ?
+137 [224-225] Jusqu’à quelle date précise dois-je poursuivre mes traitements, et qui valide l’arrêt ?
+138 [226-227] Ces questions sont récapitulées juste en dessous, dans la description de la vidéo.
+139 [228-229] N’oubliez pas, ce contenu est purement informatif et ne remplace pas une évaluation médicale personnalisée.
+140 [230-230] C’est votre médecin, c’est lui qui est patron.
+141 [231-231] Allez, ciao !
