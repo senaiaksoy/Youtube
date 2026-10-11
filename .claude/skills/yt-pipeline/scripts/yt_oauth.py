@@ -19,7 +19,7 @@ except ImportError:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--channel", required=True, choices=["fr", "tr"])
+    ap.add_argument("--channel", required=True, choices=["fr", "tr", "en"])
     ap.add_argument("--port", type=int, default=8090)
     ap.add_argument("--no-browser", action="store_true")
     args = ap.parse_args()

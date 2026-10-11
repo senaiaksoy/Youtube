@@ -107,7 +107,7 @@ def cmd_translate(file: str, src: str, targets: str, out_dir: str) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--channel", choices=["fr", "tr"], help="Required for YouTube API commands; unused for translate.")
+    ap.add_argument("--channel", choices=["fr", "tr", "en"], help="Required for YouTube API commands; unused for translate.")
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("list")
     p.add_argument("--video", required=True)

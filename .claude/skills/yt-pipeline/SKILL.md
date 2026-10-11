@@ -25,6 +25,9 @@ working patterns from `youtube-api/youtube_automator.py`,
      canonical token `youtube-api/token.senaiaksoy.20260510-193158.json`.
    - `--channel tr` = `@DocentDrSenaiAksoy`, `UCbO5qpAnmaQPBJlGMM9ITiw`,
      Turkish channel, canonical token `youtube-api/token.json`.
+   - `--channel en` = `@DrAksoyFertility` ("Dr. Aksoy — Fertility, No Hype"),
+     `UCo3ZeBXk0ng-OigXd9jqJqQ`, English channel, canonical token
+     `youtube-api/token.draksoyfertility.json`.
    Never consolidate channels. Before any mutation, run a live read command and
    confirm the token's `mine=True` channel matches the intended channel.
 4. Mutations are dry-run by default. Upload, replace, delete, update, and add
@@ -49,6 +52,7 @@ Run `--help` on each script for exact parameters.
 - `yt_metadata.py`: read video snippet/status/localizations and dry-run or apply
   title, description, tags, and localization updates from JSON.
 - `yt_playlists.py`: list playlists, list items, and idempotently add videos.
+- `yt_thumbnail.py`: set a custom thumbnail (JPG/PNG, max 2 MB; dry-run default, `--go` uploads). Test & Compare is Studio-only.
 - `yt_subfix.py`: offline bulk typo correction for SRT files.
 
 ## Common Flows

@@ -58,6 +58,12 @@ CHANNELS: dict[str, dict[str, str]] = {
         "title_hint": "Docent Dr Senai Aksoy",
         "token": "token.json",
     },
+    "en": {
+        "id": "UCo3ZeBXk0ng-OigXd9jqJqQ",
+        "handle": "@DrAksoyFertility",
+        "title_hint": "Dr. Aksoy — Fertility, No Hype",
+        "token": "token.draksoyfertility.json",
+    },
 }
 
 

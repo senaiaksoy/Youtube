@@ -39,7 +39,8 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
   ara/veri denetimleri konsola degil acik UTF-8 dosyalara yazilir.
 - Kanal ayrimi hard rule: `--channel fr` = `@SenaiAksoy`
   (`UC51eCoXFnN1DiBd1dWcJpPQ`, Fransizca); `--channel tr` =
-  `@DocentDrSenaiAksoy` (`UCbO5qpAnmaQPBJlGMM9ITiw`, Turkce). Kanallari asla
+  `@DocentDrSenaiAksoy` (`UCbO5qpAnmaQPBJlGMM9ITiw`, Turkce); `--channel en` =
+  `@DrAksoyFertility` (`UCo3ZeBXk0ng-OigXd9jqJqQ`, Ingilizce). Kanallari asla
   konsolide etme. Her mutasyondan once scriptin live `mine=True` kanal
   dogrulamasini goster; uyusmazlikta dur.
 - OAuth: canonical tokenlar `youtube-api/token.senaiaksoy.20260510-193158.json`

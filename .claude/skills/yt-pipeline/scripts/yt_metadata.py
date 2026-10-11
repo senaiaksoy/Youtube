@@ -97,7 +97,7 @@ def cmd_update(yt, fixes_path: str, go: bool) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--channel", required=True, choices=["fr", "tr"])
+    ap.add_argument("--channel", required=True, choices=["fr", "tr", "en"])
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("get")
     p.add_argument("--video", required=True)
