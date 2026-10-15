@@ -19,6 +19,7 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 - `assets/textures/stamp-mask.png` → hüküm damgası için mürekkep dokusu maskesi; gerçek kaşe baskısına göre ayarlandı (`test/stamp-test.png`). Not: maske yalnızca http üzerinden çalışır (HyperFrames preview/render zaten öyle).
 - `assets/pen/` → Dr. Aksoy'un elle çizdiği 14 gerçek kalem izi (üstünü çizme, daire, altını çizme, ok, soru işareti; ince ve kalın uçlu), kırmızıya çevrildi; `pen.css` ile kendini çizerek açılır (`test/pen-test.png`).
 
+- `assets/sfx/` → Dr. Aksoy'un kaydettiği gerçek sesler: 3 kalem hışırtısı, 2 damga vuruşu, 2 ıstampa tıkırtısı (temizlendi, seviyelendi). Kullanım: `assets/sfx/README.md`.
 - `assets/footage/` → 15 laboratuvar fotoğrafı + 5 embriyo görüntüsü; hasta bilgisi taşıyabilecek kâğıt/etiketler bulanıklaştırıldı, meta veriler silindi. Kullanım ve durum listesi: `assets/footage/INDEX.md`.
 
 ## Açık kararlar
@@ -28,4 +29,4 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 - Video çekimleri (time-lapse, mikroskop kaydı) geldikçe `assets/footage/` altına eklenir.
 
 ## Referans örnek
-- `example-era/` → 10 sn'lik onaylanmış deneme sahnesi (ERA iddiası → kalemle çizilir → kanıt → rakamlar + referans kartı → NON PROUVÉ damgası). Kaynak: Doyle N, et al. JAMA 2022;328(21):2117-25 (PubMed 36472596). `index.html` yeni sahneler için kalıp olarak kullanılır; çalıştırmak için şablonun `assets/` klasörünü yanına kopyala ve GSAP'ı `assets/vendor/gsap.min.js` olarak koy (ya da CDN satırına çevir).
+- `example-era/` → 10 sn'lik onaylanmış deneme sahnesi (ERA iddiası → kalemle çizilir → kanıt → rakamlar + referans kartı → NON PROUVÉ damgası; kalem ve damga sesli). Kaynak: Doyle N, et al. JAMA 2022;328(21):2117-25 (PubMed 36472596). `index.html` yeni sahneler için kalıp olarak kullanılır; çalıştırmak için şablonun `assets/` klasörünü yanına kopyala ve GSAP'ı `assets/vendor/gsap.min.js` olarak koy (ya da CDN satırına çevir).

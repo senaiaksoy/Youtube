@@ -257,6 +257,7 @@ Motion should feel like **a hand and a page**, not like software.
 - **Stamps** cut in (see treatment 3). Never scale, never spin.
 - **Paper slips** slide in along one axis, as if pushed by a hand (0.5s, `power3.out`), and stop dead.
 - **Scene changes:** hard cuts by default; cross-dissolve ≤ 0.3s for time passing; chapter breaks may use a paper-slide (the next sheet slides over the previous). **No** flash-through-white, glitch, zoom-blur, light-leak or shader-wipe transitions.
+- **Sound (installed):** every pen mark and stamp carries its real foley from `assets/sfx/` (recorded by Dr. Aksoy: marker on paper, rubber stamp on desk). Pen sound starts with the reveal; stamp sound starts 0.03 s before the stamp frame. No stock whooshes, risers, swooshes or impacts — ever. See `assets/sfx/README.md`.
 - **Ambient motion: none.** No breathing glows, no drifting ghost text, no floating shapes. A still frame with a strong voice-over is correct.
 - **Counters:** a number may count up only if the voice-over is talking about growth or accumulation; otherwise it cuts in at its final value.
 
