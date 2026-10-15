@@ -11,6 +11,8 @@ kaydına bağlıdır. Künyeler elle yazılmaz; PubMed'den üretilir.
 3. `index.html`'de ekran öğeleri boş bırakılıp bağlanır:
    - `data-fact="F2"` (metin) · `data-fact="F2" data-field="label"` (etiket)
    - `data-ref="R1"` (künye) · `data-ref="R1" data-field="design"` (tasarım · n) · `data-ref="R1" data-field="marker"` ([1])
+   - Dile göre değişen ama bilgi taşımayan metin (bölüm başlığı): `data-chrome="chapter"` → `scene-facts.json` içinde `"chrome"`;
+     yalnızca başlık ve 100'den küçük bölüm numarası taşıyabilir, veri taşıyamaz
    - Gerçek bilgi olmayan sayılar (bölüm numarası vb.): `data-fact-exempt="neden"`
 4. Çalıştır (Node 18+, ek paket yok):
 
@@ -20,6 +22,7 @@ kaydına bağlıdır. Künyeler elle yazılmaz; PubMed'den üretilir.
 
    `fetch` PubMed kaydını `.facts-cache/` altına yazar (commit edilir; çevrimdışı render ve "o gün PubMed ne
    diyordu" kaydı için) → `apply` metinleri HTML'e yazar → `verify` denetler.
+   `apply`, `<html lang>` etiketini de dile göre ayarlar (Türkçede büyük harf İ/I doğru çıkar; dile özel CSS `:lang(tr)` ile yazılır).
 5. `verify` geçmeden `npx hyperframes check` / `render` yapılmaz. Aynı sahne `--lang tr` / `--lang en` ile diğer
    kanallar için yeniden üretilir.
 
@@ -54,6 +57,7 @@ insan denetimidir.
             "design": { "fr": "Essai randomisé multicentrique", "tr": "…", "en": "…" } },
     "R2": { "label": { "fr": "ESHRE, guideline 2025", "tr": "…", "en": "…" } }
   },
+  "chrome": { "chapter": { "fr": "07 · Test ERA", "tr": "07 · ERA testi", "en": "07 · The ERA test" } },
   "facts": [
     { "id": "Q1", "kind": "quoted", "origin": "nereden geldiği", "text": { "fr": "« … »" } },
     { "id": "F1", "kind": "statement", "claim": "C01", "ref": "R1", "text": { "fr": "…" } },

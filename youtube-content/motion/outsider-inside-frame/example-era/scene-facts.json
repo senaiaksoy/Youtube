@@ -13,6 +13,13 @@
       }
     }
   },
+  "chrome": {
+    "chapter": {
+      "fr": "07 · Test ERA",
+      "tr": "07 · ERA testi",
+      "en": "07 · The ERA test"
+    }
+  },
   "facts": [
     {
       "id": "Q1",
@@ -20,7 +27,7 @@
       "origin": "Promesse commerciale courante du test ERA (sites de cliniques, forums)",
       "text": {
         "fr": "« Le test ERA améliore vos chances. »",
-        "tr": "« ERA testi şansınızı artırır. »",
+        "tr": "“ERA testi şansınızı artırır.”",
         "en": "“The ERA test improves your chances.”"
       }
     },
@@ -50,7 +57,11 @@
       "kind": "figure",
       "claim": "C02",
       "ref": "R1",
-      "text": { "fr": "58,5 %", "tr": "%58,5", "en": "58.5%" },
+      "text": {
+        "fr": "58,5 %",
+        "tr": "%58,5",
+        "en": "58.5%"
+      },
       "label": {
         "fr": "Transfert guidé par l’ERA",
         "tr": "ERA'ya göre zamanlanan transfer",
@@ -62,7 +73,11 @@
       "kind": "figure",
       "claim": "C02",
       "ref": "R1",
-      "text": { "fr": "61,9 %", "tr": "%61,9", "en": "61.9%" },
+      "text": {
+        "fr": "61,9 %",
+        "tr": "%61,9",
+        "en": "61.9%"
+      },
       "label": {
         "fr": "Transfert à horaire standard",
         "tr": "Standart zamanlamayla transfer",
@@ -74,7 +89,11 @@
       "kind": "verdict",
       "claim": "C01",
       "ref": "R1",
-      "text": { "fr": "NON PROUVÉ", "tr": "KANITLANMADI", "en": "NOT PROVEN" }
+      "text": {
+        "fr": "NON PROUVÉ",
+        "tr": "KANITLANMADI",
+        "en": "NOT PROVEN"
+      }
     }
   ]
 }

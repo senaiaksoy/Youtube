@@ -18,7 +18,7 @@
 //   - a figure or verdict is on screen without its reference on screen
 //   - a verdict is outside the fixed vocabulary
 //   - any digit appears in visible on-screen text that is not bound to a fact (data-fact / data-ref)
-//     or explicitly exempted (data-fact-exempt="reason")
+//     or explicitly exempted (data-fact-exempt="reason") / per-language chrome (data-chrome="id", from spec.chrome)
 //   - bound text on screen differs from scene-facts.json (run apply)
 // No dependencies; Node 18+.
 
@@ -171,10 +171,10 @@ function parse(html) {
         const el = stack[i]; el.innerEnd = m.index; if (el.bind) bound.push(el); stack.length = i; break;
       }
     } else {
-      const el = { name, innerStart: tagRe.lastIndex, fact: attr(attrs, 'data-fact'), ref: attr(attrs, 'data-ref'),
+      const el = { name, innerStart: tagRe.lastIndex, fact: attr(attrs, 'data-fact'), ref: attr(attrs, 'data-ref'), chrome: attr(attrs, 'data-chrome'),
                    field: attr(attrs, 'data-field'), exempt: attr(attrs, 'data-fact-exempt'),
                    hidden: /\b(aria-hidden="true"|hidden\b)/.test(attrs), line: html.slice(0, m.index).split('\n').length };
-      el.bind = !!(el.fact || el.ref);
+      el.bind = !!(el.fact || el.ref || el.chrome);
       if (name === 'script' || name === 'style' || name === 'title') raw = name;
       if (!VOID.has(name) && !m[4]) stack.push(el);
     }
@@ -186,6 +186,7 @@ const decode = (s) => s.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n))
   .replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&');
 const norm = (s) => decode(s).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 function wanted(el) {
+  if (el.chrome) { const c = (spec.chrome || {})[el.chrome]; if (!c) return { err: `unknown data-chrome="${el.chrome}"` }; const t = pick(c); return t == null ? { err: `chrome ${el.chrome}: no text for ${lang}` } : { text: t }; }
   if (el.fact) { const f = spec.facts.find((x) => x.id === el.fact); if (!f) return { err: `unknown data-fact="${el.fact}"` }; return { text: factText(f, el.field || 'text') }; }
   if (!spec.refs[el.ref]) return { err: `unknown data-ref="${el.ref}"` };
   return { text: refText(el.ref, el.field || 'citation') };
@@ -208,6 +209,7 @@ function doApply() {
     const w = wanted(el); if (w.err) die(`${path.basename(htmlPath)}:${el.line} ${w.err}`);
     html = html.slice(0, el.innerStart) + esc(w.text) + html.slice(el.innerEnd); n++;
   }
+  html = html.replace(/<html\b([^>]*?)\slang="[^"]*"/, `<html$1 lang="${lang}"`);
   fs.writeFileSync(htmlPath, html);
   console.log(`✔ apply: ${n} bound element(s) written (${lang})`);
 }
@@ -257,6 +259,9 @@ function doVerify() {
     }
     ok.push(`${tag}: ${f.claim} ${ctx.lastVerdict || '·'} → "${factText(f)}"`);
   }
+  // chrome: titles / chapter numbers only — never data
+  for (const [id, c] of Object.entries(spec.chrome || {})) for (const [L, t] of Object.entries(c))
+    for (const x of numbersIn(t)) if (!(Number.isInteger(x) && x < 100)) E(`chrome ${id} (${L}): "${t}" carries a number (${x}); chrome is for titles and chapter numbers only — use a fact`);
   // html
   if (!fs.existsSync(htmlPath)) E(`missing ${htmlPath}`);
   else {
@@ -264,7 +269,7 @@ function doVerify() {
     for (const el of bound) {
       const w = wanted(el); if (w.err) { E(`html:${el.line} ${w.err}`); continue; }
       const have = norm(html.slice(el.innerStart, el.innerEnd));
-      if (have !== norm(esc(w.text))) E(`html:${el.line} ${el.fact ? 'data-fact=' + el.fact : 'data-ref=' + el.ref} shows "${have}" but scene-facts says "${w.text}" — run apply`);
+      if (have !== norm(esc(w.text))) E(`html:${el.line} ${el.fact ? 'data-fact=' + el.fact : el.ref ? 'data-ref=' + el.ref : 'data-chrome=' + el.chrome} shows "${have}" but scene-facts says "${w.text}" — run apply`);
     }
     for (const t of texts) {
       const s = norm(t.text); if (!/\d/.test(s)) continue;

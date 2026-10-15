@@ -276,6 +276,7 @@ Motion should feel like **a hand and a page**, not like software.
 - No banned fonts (Inter, Roboto, Poppins, Playfair Display, EB Garamond, Syne…), no gradient text, no left-edge accent stripes.
 - No identical card grids, no icon rows, no emoji, no stock "doctor" or "happy baby" imagery, no AI-generated medical images.
 - No traffic-light evidence colours; no red outside of judgment.
+- Pen marks, stamps and pen arrows live **inside** the video only, always next to their evidence — never in thumbnails (F13).
 - No title case, no all-caps Literata.
 
 ## Editorial Hard Rules (on-screen text)
@@ -325,4 +326,4 @@ Motion should feel like **a hand and a page**, not like software.
 
 - Pen library is small (14 marks). If a video needs more variety, ask Dr. Aksoy for another sheet rather than generating strokes.
 - Turkish and Arabic cut-downs: Literata covers Turkish; Arabic would need a separate display face (e.g. a Naskh) and a mirrored layout — not specified here.
-- Thumbnails are out of scope; they can borrow the strike + stamp vocabulary but need their own legibility rules.
+- Thumbnails are out of scope, and they must **not** borrow the pen/stamp vocabulary: compliance rule F13 (`youtube-content/02-compliance-checklist.md`) bans visual clickbait in thumbnails — red strikes/crosses, stamps, arrows, shocked faces. Thumbnails follow `10-thumbnail-production-library.md`; at most they share the palette and Literata.

@@ -52,13 +52,15 @@
                font-size: 70px; letter-spacing: .08em; padding: 14px 34px; mix-blend-mode: multiply;
                -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
                -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
+      /* longer verdict words (TR) keep the stamp inside the safe area */
+      :lang(tr) .stamp { font-size: 60px; left: 1270px; }
     </style>
   </head>
   <body>
     <div id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
       <div class="grain"></div>
 
-      <div class="kicker" id="kicker" data-fact-exempt="chapter number"><b>§</b>07 · Test ERA</div>
+      <div class="kicker" id="kicker"><b>§</b><span data-chrome="chapter">07 · Test ERA</span></div>
 
       <div class="claim" id="claim"><span class="txt"><span data-fact="Q1">« Le test ERA améliore vos chances. »</span><img class="pen" id="strike" src="assets/pen/strike-01.png" alt="" /></span></div>
 
