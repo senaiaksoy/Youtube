@@ -101,6 +101,13 @@ components:
     description: >
       Caption tab on real footage (lab, microscope, ultrasound): what we are looking at + source
       ('Time-lapse embryonnaire · J1→J5 · archive clinique'). Bottom-left, inside frame-pad.
+  illustration-tab:
+    backgroundColor: "{colors.lab-elev}"
+    typography: "{typography.kicker} in paper"
+    text: "fr ILLUSTRATION · tr TEMSİLİ ÇİZİM · en ILLUSTRATION"
+    description: >
+      Mandatory, always visible, on every AI-generated or stock clip (top-left, inside frame-pad) for its whole duration.
+      Tells the viewer the image is a representation, not a recording. Never removed, never faded out early.
   signature-line:
     typography: "{typography.claim}"
     description: >
@@ -204,6 +211,7 @@ circles as containers, no blobs.
 - **reference-slip** + **footnote-marker** — the proof layer.
 - **lower-third** — paper tab for the talking head.
 - **footage-tab** — caption tab on real footage.
+- **illustration-tab** — mandatory ILLUSTRATION / TEMSİLİ ÇİZİM tag on every AI-generated or stock clip, whole duration.
 - **signature-line** — the closing fridge line.
 
 ## Frame Treatments
@@ -232,9 +240,9 @@ circles as containers, no blobs.
 **Fixed** reference-slip always present; figure comes from the script with its source. **Free** layout. **Density** sparse.
 Comparisons (e.g. avec / sans) are **two figures side by side with one hairline between** — not a bar chart unless there are ≥ 4 data points.
 
-### 5 · Le labo — Real footage
+### 5 · Le labo — Real footage (and labelled illustration)
 **Ground** lab, footage full-bleed. **Composes** footage, footage-tab, optional single pen-circle on the structure being discussed (drawn on top of the footage, red stays red).
-**Fixed** real footage only (no stock, no AI-generated "embryos"); footage-tab names the source. **Free** crop, duration. **Density** footage-led.
+**Fixed** embryos, gametes, ultrasound and the lab are **real footage only** (`assets/footage/`, EmbryoScope exports); footage-tab names the source. Hormone, cellular and molecular **mechanisms** may be AI-generated (Higgsfield) or schematic, always with the **illustration-tab** for the whole clip, checked for anatomical and biological correctness before use (Dr. Aksoy decision, 2026-10-16). **Free** crop, duration. **Density** footage-led.
 
 ### 6 · La référence — Citation focus
 **Ground** paper. **Composes** a large reference-slip (title in Literata `headline`, authors · journal · year · design · n= in mono), optional one-line pen-underline on the key phrase of the conclusion.
@@ -274,7 +282,8 @@ Motion should feel like **a hand and a page**, not like software.
 - No glow, gradient, glass, particles, neon, lens flares, light leaks, 3D tilt, bouncing or elastic easing.
 - No radial "breathing" backgrounds, ghost text, floating orbs or decorative grids (overrides house-style background layer).
 - No banned fonts (Inter, Roboto, Poppins, Playfair Display, EB Garamond, Syne…), no gradient text, no left-edge accent stripes.
-- No identical card grids, no icon rows, no emoji, no stock "doctor" or "happy baby" imagery, no AI-generated medical images.
+- No identical card grids, no icon rows, no emoji, no stock "doctor", "patient" or "happy baby" imagery.
+- No AI-generated or stock embryos, gametes, ultrasound, microscope views or clinical/patient scenes. AI is allowed only for mechanisms (hormones, cells, molecules) and only with the illustration-tab; stock only for non-medical atmosphere (hands, calendar, city), also tagged.
 - No traffic-light evidence colours; no red outside of judgment.
 - Pen marks, stamps and pen arrows live **inside** the video only, always next to their evidence — never in thumbnails (F13).
 - No title case, no all-caps Literata.

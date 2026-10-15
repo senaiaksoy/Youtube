@@ -40,7 +40,8 @@ Status legend: ✅ ready · ⚠️ use only after the check noted · ⛔ do not 
 
 ## Rules
 - No hospital or clinic branding on screen (Dr. Aksoy, 2026-10-16): blur any logo before a new still/clip enters this library.
-- Real footage only; never mix with AI-generated embryos or stock "lab" imagery.
+- Embryos, gametes, ultrasound and the lab: real footage only — never AI-generated or stock.
+- AI mechanism animations (hormones, cells) and non-medical stock may sit next to this library only with the frame.md illustration-tab on screen for the whole clip (Dr. Aksoy, 2026-10-16).
 - Footage-tab names what we see + source: e.g. « Blastocyste · J5 · archive du laboratoire ».
 - Embryo images are anonymous (no labels, IDs or dates visible). Never pair an embryo image with a patient story, age or outcome.
 - Topic scope: do not use embryo stills to illustrate PGT-A or donation content (out of scope for the channel).
