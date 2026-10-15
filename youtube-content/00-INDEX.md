@@ -56,6 +56,7 @@ updated: 2026-06-09
 - [09-production-pipeline.md](09-production-pipeline.md) — edited → scheduled intro asset kapısı
 - [motion/intro-pilot/MANIFEST.json](motion/intro-pilot/MANIFEST.json) — TR/FR intro render yolları ve guardrail'ler
 - [motion/intro-pilot/FRAME.md](motion/intro-pilot/FRAME.md) — 15 saniyelik intro zaman çizgisi
+- [motion/outsider-inside-frame/frame.md](motion/outsider-inside-frame/frame.md) — 2026-10-15 sonrası tüm HyperFrames projelerinin ana tasarım sistemi (kopyalama: README)
 - [edit-packages/2026-06-09-tr-short-1-embriyo-kalitesi-intro-package.md](edit-packages/2026-06-09-tr-short-1-embriyo-kalitesi-intro-package.md) — ilk TR Short intro uygulama paketi
 
 ### İzleme

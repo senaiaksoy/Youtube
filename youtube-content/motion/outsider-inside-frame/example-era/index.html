@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="assets/pen/pen.css" />
+    <style>
+      :root {
+        --paper: #F4F0E6; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
+        --graphite: #8C877A; --red: #C4301C;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--paper); }
+      #root { position: relative; width: 1920px; height: 1080px; background: var(--paper); color: var(--ink);
+              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; }
+      .grain { position: absolute; inset: 0; background: url(assets/textures/paper-grain-16x9.png);
+               mix-blend-mode: soft-light; opacity: .35; pointer-events: none; }
+
+      .kicker { position: absolute; left: 88px; top: 92px; font-family: 'IBM Plex Mono', monospace; font-weight: 500;
+                font-size: 27px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); }
+      .kicker b { color: var(--red); font-weight: 500; margin-right: .5em; }
+
+      .claim { position: absolute; left: 88px; top: 165px; font-family: 'Literata', Georgia, serif; font-style: italic;
+               font-weight: 400; font-size: 100px; line-height: 1.1; letter-spacing: -.015em; white-space: nowrap; }
+      .claim .txt { position: relative; display: inline-block; }
+      .claim .pen { left: -2.5%; width: 105%; top: 47%; height: 74px; transform: translateY(-50%) rotate(-.8deg); mix-blend-mode: multiply; }
+
+      .evidence { position: absolute; left: 88px; top: 320px; font-family: 'Literata', Georgia, serif; font-weight: 500;
+                  font-size: 64px; line-height: 1.12; letter-spacing: -.012em; }
+      .evidence sup { font-family: 'IBM Plex Mono', monospace; font-size: 26px; font-weight: 500; color: var(--ink-soft);
+                      vertical-align: super; margin-left: 6px; letter-spacing: 0; }
+
+      .kpi-label { position: absolute; left: 88px; top: 500px; font-family: 'IBM Plex Mono', monospace; font-size: 24px;
+                   letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); }
+      .fig { position: absolute; top: 548px; }
+      .fig .n { font-family: 'Literata', Georgia, serif; font-weight: 600; font-size: 176px; line-height: .95;
+                letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
+      .fig .l { margin-top: 18px; font-size: 30px; color: var(--ink-soft); }
+      .fig-a { left: 88px; } .fig-b { left: 708px; }
+      .rule { position: absolute; left: 650px; top: 560px; width: 1px; height: 250px; background: rgba(27,34,48,.28); transform-origin: top; }
+
+      .slip { position: absolute; right: 88px; bottom: 88px; width: 790px; background: var(--paper-deep);
+              border: 1px solid rgba(27,34,48,.14); border-radius: 2px; box-shadow: 0 1px 0 rgba(27,34,48,.10);
+              padding: 22px 28px; font-family: 'IBM Plex Mono', monospace; font-size: 23px; line-height: 1.5; color: var(--ink-soft); }
+      .slip .t { color: var(--ink); font-weight: 500; }
+
+      .stamp { position: absolute; left: 1262px; top: 455px; transform: rotate(-6deg); border: 7px solid var(--red);
+               border-radius: 2px; color: var(--red); font-family: 'IBM Plex Mono', monospace; font-weight: 700;
+               font-size: 70px; letter-spacing: .08em; padding: 14px 34px; mix-blend-mode: multiply;
+               -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
+               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
+      <div class="grain"></div>
+
+      <div class="kicker" id="kicker"><b>§</b>07 · Test ERA</div>
+
+      <div class="claim" id="claim"><span class="txt">« Le test ERA améliore vos chances. »<img class="pen" id="strike" src="assets/pen/strike-01.png" alt="" /></span></div>
+
+      <div class="evidence" id="evidence">Essai randomisé : aucun bénéfice démontré.<sup>[1]</sup></div>
+
+      <div class="kpi-label" id="kpiLabel">Naissances vivantes par transfert</div>
+      <div class="fig fig-a" id="figA"><div class="n">58,5&#8239;%</div><div class="l">Transfert guidé par l’ERA</div></div>
+      <div class="rule" id="rule"></div>
+      <div class="fig fig-b" id="figB"><div class="n">61,9&#8239;%</div><div class="l">Transfert à horaire standard</div></div>
+
+      <div class="slip" id="slip">
+        <div class="t">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
+        <div>Essai randomisé multicentrique · n = 767</div>
+      </div>
+
+      <div class="stamp" id="stamp">NON PROUVÉ</div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const rise = (sel, t, d = 0.45) =>
+        tl.fromTo(sel, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: d, ease: 'power3.out' }, t);
+
+      rise('#kicker', 0.2, 0.4);
+      rise('#claim', 0.5);
+      // strike: the claim is read first (>= 1.2 s), then the hand crosses it out
+      tl.fromTo('#strike', { '--p': 0 }, { '--p': 1, duration: 0.6, ease: 'power2.inOut' }, 2.3);
+      rise('#evidence', 3.2);
+      rise('#kpiLabel', 4.4, 0.4);
+      rise('#figA', 4.6);
+      tl.fromTo('#rule', { scaleY: 0 }, { scaleY: 1, duration: 0.4, ease: 'power2.out' }, 4.75);
+      rise('#figB', 4.9);
+      tl.fromTo('#slip', { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5, ease: 'power3.out' }, 5.5);
+      // stamp: hard cut + 2-frame ink spread, no bounce
+      tl.fromTo('#stamp', { opacity: 0, scale: 1.025 }, { opacity: 1, scale: 1, duration: 0.067, ease: 'none' }, 7.0);
+      tl.to({}, { duration: 0.01 }, 9.99);
+
+      window.__timelines['main'] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

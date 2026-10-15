@@ -1,0 +1,10 @@
+/* Outsider Inside — red-pen marks (real hand-drawn strokes, recoloured to correcteur #C4301C).
+   Reveal is driven by --p (0 → 1). Tween it with GSAP: tl.fromTo(el, {'--p':0}, {'--p':1, duration:.55, ease:'power2.inOut'}, t)
+   Seek-safe: --p is a plain CSS custom property, no wall-clock animation. Masks need http (preview/render), not file://. */
+.pen{position:absolute;display:block;pointer-events:none;--p:1;--dir:90deg;
+  -webkit-mask-image:linear-gradient(var(--dir),#000 calc(var(--p)*104% - 4%),transparent calc(var(--p)*104%));
+          mask-image:linear-gradient(var(--dir),#000 calc(var(--p)*104% - 4%),transparent calc(var(--p)*104%));}
+.pen--question{--dir:180deg}
+.pen--loop{--from:300deg;
+  -webkit-mask-image:conic-gradient(from var(--from),#000 calc(var(--p)*360deg),transparent calc(var(--p)*360deg + 8deg));
+          mask-image:conic-gradient(from var(--from),#000 calc(var(--p)*360deg),transparent calc(var(--p)*360deg + 8deg));}

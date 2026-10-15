@@ -52,3 +52,16 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
 - FR metin review: Fransizca altyazi/aciklama/baslik metni uretildiyse yayina
   almadan once Dr. Aksoy'a goster. Yeni tibbi makale/uzun metin uretiliyorsa
   draksoyivf `CLAUDE.md` stil rehberi gate'i gecerlidir.
+
+## HyperFrames Motion Tasarım Sistemi (2026-10-15'ten itibaren)
+
+- Ana şablon: `youtube-content/motion/outsider-inside-frame/frame.md` ("Outsider Inside" —
+  kâğıt / mürekkep / kırmızı kalem; iddia italik + üstü çizilir, kanıt düz yazı; hüküm damgası;
+  her rakamın yanında referans kartı).
+- Hard rule: 2026-10-15 ve sonrası açılan her yeni HyperFrames projesinde bu `frame.md`
+  projenin köküne kopyalanır; ayrıca DESIGN.md yazılmaz, HyperFrames house-style varsayılanları
+  (glow, gradient, ghost text, nefes alan arka plan, flash/glitch geçişler) kullanılmaz.
+- Eski projelere (`projects/fiv-apres-quarante-ans-hyperframes`, `videos/bhcg-*`,
+  `youtube-content/motion/intro-pilot`) dokunma; kendi frame.md/DESIGN.md'leriyle kalırlar.
+- Ana şablonu değiştirmek tüm gelecek videoları etkiler: önce Dr. Aksoy'a sor.
+- Kurulum adımları ve eksik varlık listesi: `youtube-content/motion/outsider-inside-frame/README.md`.

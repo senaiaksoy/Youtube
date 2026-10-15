@@ -1,0 +1,156 @@
+[
+  {
+    "id": "strike-01",
+    "type": "strike",
+    "tool": "marker-round",
+    "file": "strike-01.png",
+    "width": 1172,
+    "height": 124,
+    "reveal": "linear 90deg",
+    "source_tilt_deg": 2.2,
+    "stroke_px_source": 10.0
+  },
+  {
+    "id": "strike-02",
+    "type": "strike",
+    "tool": "marker-round",
+    "file": "strike-02.png",
+    "width": 1160,
+    "height": 126,
+    "reveal": "linear 90deg",
+    "source_tilt_deg": 11.9,
+    "stroke_px_source": 10.0
+  },
+  {
+    "id": "loop-01",
+    "type": "loop",
+    "tool": "marker-round",
+    "file": "loop-01.png",
+    "width": 400,
+    "height": 372,
+    "reveal": "conic from 0deg",
+    "source_tilt_deg": 0.0,
+    "stroke_px_source": null
+  },
+  {
+    "id": "oval-01",
+    "type": "loop",
+    "tool": "marker-round",
+    "file": "oval-01.png",
+    "width": 484,
+    "height": 264,
+    "reveal": "conic from 0deg",
+    "source_tilt_deg": 0.0,
+    "stroke_px_source": null
+  },
+  {
+    "id": "underline-01",
+    "type": "underline",
+    "tool": "marker-round",
+    "file": "underline-01.png",
+    "width": 402,
+    "height": 128,
+    "reveal": "linear 90deg",
+    "source_tilt_deg": 4.3,
+    "stroke_px_source": 22.0
+  },
+  {
+    "id": "question-01",
+    "type": "question",
+    "tool": "marker-round",
+    "file": "question-01.png",
+    "width": 196,
+    "height": 324,
+    "reveal": "linear 180deg",
+    "source_tilt_deg": 0.0,
+    "stroke_px_source": null
+  },
+  {
+    "id": "arrow-01",
+    "type": "arrow",
+    "tool": "marker-round",
+    "file": "arrow-01.png",
+    "width": 512,
+    "height": 172,
+    "reveal": "linear 90deg",
+    "source_tilt_deg": 0.0,
+    "stroke_px_source": null
+  },
+  {
+    "id": "wide-strike-01",
+    "type": "strike",
+    "tool": "marker-chisel",
+    "file": "wide-strike-01.png",
+    "width": 1130,
+    "height": 136,
+    "reveal": "linear 90deg",
+    "source_tilt_deg": 4.3,
+    "stroke_px_source": 23.0
+  },
+  {
+    "id": "wide-strike-02",
+    "type": "strike",
+    "tool": "marker-chisel",
+    "file": "wide-strike-02.png",
+    "width": 1214,
+    "height": 140,
+    "reveal": "linear 90deg",
+    "source_tilt_deg": 10.4,
+    "stroke_px_source": 24.0
+  },
+  {
+    "id": "wide-loop-01",
+    "type": "loop",
+    "tool": "marker-chisel",
+    "file": "wide-loop-01.png",
+    "width": 440,
+    "height": 326,
+    "reveal": "conic from 0deg",
+    "source_tilt_deg": 0.0,
+    "stroke_px_source": null
+  },
+  {
+    "id": "wide-oval-01",
+    "type": "loop",
+    "tool": "marker-chisel",
+    "file": "wide-oval-01.png",
+    "width": 614,
+    "height": 358,
+    "reveal": "conic from 0deg",
+    "source_tilt_deg": 0.0,
+    "stroke_px_source": null
+  },
+  {
+    "id": "wide-underline-01",
+    "type": "underline",
+    "tool": "marker-chisel",
+    "file": "wide-underline-01.png",
+    "width": 534,
+    "height": 182,
+    "reveal": "linear 90deg",
+    "source_tilt_deg": -2.4,
+    "stroke_px_source": 30.0
+  },
+  {
+    "id": "wide-arrow-01",
+    "type": "arrow",
+    "tool": "marker-chisel",
+    "file": "wide-arrow-01.png",
+    "width": 628,
+    "height": 376,
+    "reveal": "linear 90deg",
+    "source_tilt_deg": 0.0,
+    "stroke_px_source": null
+  },
+  {
+    "id": "wide-question-01",
+    "type": "question",
+    "tool": "marker-chisel",
+    "file": "wide-question-01.png",
+    "width": 330,
+    "height": 442,
+    "reveal": "linear 180deg",
+    "source_tilt_deg": 0.0,
+    "stroke_px_source": null
+  }
+]
