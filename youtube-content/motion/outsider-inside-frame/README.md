@@ -27,7 +27,7 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 
 ## Açık kararlar
 - (2026-10-16) `lab-02` meslektaş izni ve `lab-14` kullanım hakkı Dr. Aksoy tarafından onaylandı; ikisi de kullanılabilir.
-- `lab-09`, `lab-12`: hastane logolu kitapçık görünüyor; marka görünsün mü, kararı Dr. Aksoy'da.
+- (2026-10-16) Hastane logosu görünmeyecek (Dr. Aksoy kararı): `lab-09` ve `lab-12`'deki logolu kitapçık bulanıklaştırıldı; yeni görüntülerde de logo bulanıklaştırılır.
 - Video çekimleri (time-lapse, mikroskop kaydı) geldikçe `assets/footage/` altına eklenir.
 
 ## Referans örnek

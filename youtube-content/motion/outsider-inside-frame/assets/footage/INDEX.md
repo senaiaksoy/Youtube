@@ -14,10 +14,10 @@ Status legend: ✅ ready · ⚠️ use only after the check noted · ⛔ do not 
 | lab-06-cryo-tank.jpg | MVE liquid-nitrogen storage tank, TR safety signs | freezing / vitrification / storage | ✅ (portrait → 9:16) |
 | lab-07-cryo-room.jpg | cryo room, dewars | freezing, "where embryos wait" | ✅ (logs blurred) |
 | lab-08-embryoscope-closeup.jpg | EmbryoScope time-lapse incubator, embryo grid on screen | time-lapse claims (strike/stamp topics) | ✅ (papers, screen tabs, labels blurred) |
-| lab-09-icsi-microscope.jpg | Leica inverted microscope + micromanipulators | ICSI, IMSI/PICSI topics | ✅ (notes + monitor blurred) — booklet bottom-right shows a hospital logo, see note |
+| lab-09-icsi-microscope.jpg | Leica inverted microscope + micromanipulators | ICSI, IMSI/PICSI topics | ✅ (notes, monitor and hospital-branded booklet blurred) |
 | lab-10-incubators-c60.jpg | Labotect C60 incubators | culture conditions, "the lab matters" | ✅ (barcode labels + log sheets blurred) |
 | lab-11-k-systems-workstation.jpg | K-Systems IVF workstation, TüpbebeX screens | lab process overview | ✅ (patient sheet blurred) |
-| lab-12-lab-wide-dim.jpg | whole lab in working light | establishing shot, chapter opener | ⚠️ hospital-branded booklet bottom-left — crop or blur if branding not wanted |
+| lab-12-lab-wide-dim.jpg | whole lab in working light | establishing shot, chapter opener | ✅ (hospital-branded booklet blurred, 2026-10-16) |
 | lab-13-incubator-row.jpg | Planer benchtop incubators + C60 + hood | establishing / culture | ✅ (log sheet blurred) |
 
 ## Lab — Dr. Aksoy on camera
@@ -39,6 +39,7 @@ Status legend: ✅ ready · ⚠️ use only after the check noted · ⛔ do not 
 | embryo-05-blastocyst-expanded.jpg | expanded blastocyst, soft focus | background plate only (under text) | ⚠️ out of focus — not as a hero image |
 
 ## Rules
+- No hospital or clinic branding on screen (Dr. Aksoy, 2026-10-16): blur any logo before a new still/clip enters this library.
 - Real footage only; never mix with AI-generated embryos or stock "lab" imagery.
 - Footage-tab names what we see + source: e.g. « Blastocyste · J5 · archive du laboratoire ».
 - Embryo images are anonymous (no labels, IDs or dates visible). Never pair an embryo image with a patient story, age or outcome.
