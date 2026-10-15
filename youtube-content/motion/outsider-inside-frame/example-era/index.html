@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="fr">
+  <!-- On-screen facts are generated from scene-facts.json: node ../tools/facts.mjs all . --lang fr -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
@@ -57,23 +58,23 @@
     <div id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
       <div class="grain"></div>
 
-      <div class="kicker" id="kicker"><b>§</b>07 · Test ERA</div>
+      <div class="kicker" id="kicker" data-fact-exempt="chapter number"><b>§</b>07 · Test ERA</div>
 
-      <div class="claim" id="claim"><span class="txt">« Le test ERA améliore vos chances. »<img class="pen" id="strike" src="assets/pen/strike-01.png" alt="" /></span></div>
+      <div class="claim" id="claim"><span class="txt"><span data-fact="Q1">« Le test ERA améliore vos chances. »</span><img class="pen" id="strike" src="assets/pen/strike-01.png" alt="" /></span></div>
 
-      <div class="evidence" id="evidence">Essai randomisé : aucun bénéfice démontré.<sup>[1]</sup></div>
+      <div class="evidence" id="evidence"><span data-fact="F1">Essai randomisé : aucun bénéfice démontré.</span><sup data-ref="R1" data-field="marker">[1]</sup></div>
 
-      <div class="kpi-label" id="kpiLabel">Naissances vivantes par transfert</div>
-      <div class="fig fig-a" id="figA"><div class="n">58,5&#8239;%</div><div class="l">Transfert guidé par l’ERA</div></div>
+      <div class="kpi-label" id="kpiLabel" data-fact="K1">Naissances vivantes par transfert</div>
+      <div class="fig fig-a" id="figA"><div class="n" data-fact="F2">58,5 %</div><div class="l" data-fact="F2" data-field="label">Transfert guidé par l’ERA</div></div>
       <div class="rule" id="rule"></div>
-      <div class="fig fig-b" id="figB"><div class="n">61,9&#8239;%</div><div class="l">Transfert à horaire standard</div></div>
+      <div class="fig fig-b" id="figB"><div class="n" data-fact="F3">61,9 %</div><div class="l" data-fact="F3" data-field="label">Transfert à horaire standard</div></div>
 
       <div class="slip" id="slip">
-        <div class="t">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
-        <div>Essai randomisé multicentrique · n = 767</div>
+        <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
+        <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
       </div>
 
-      <div class="stamp" id="stamp">NON PROUVÉ</div>
+      <div class="stamp" id="stamp" data-fact="V1">NON PROUVÉ</div>
 
       <!-- real foley recorded by Dr. Aksoy: marker on paper, rubber stamp on desk -->
       <audio id="sfx-pen" data-start="2.28" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-02.wav"></audio>

@@ -10,7 +10,10 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
    Projede `DESIGN.md` oluşturulmaz — HyperFrames önce `frame.md` okur.
 3. `assets/` altındaki alt klasörleri projeye kopyala (fonts, textures, pen, footage) ve
    `index.html` içine `assets/fonts/fonts.css` ve `assets/pen/pen.css` stil dosyalarını bağla.
-4. Projeye özel değişiklik gerekiyorsa projedeki kopyada yap; ana şablonu değiştirmek
+4. Ekrandaki her rakam/bulgu/künye için `scene-facts.json` yaz (scriptin `-sources.md` iddia ID'lerine bağlı), HTML'de
+   `data-fact` / `data-ref` ile bağla ve çalıştır: `node youtube-content/motion/outsider-inside-frame/tools/facts.mjs all projects/<slug> --lang fr`.
+   `verify` geçmeden render yok. Ayrıntı: `tools/README.md`.
+5. Projeye özel değişiklik gerekiyorsa projedeki kopyada yap; ana şablonu değiştirmek
    tüm gelecek videoları etkiler — yalnızca bilinçli kararla güncelle.
 
 ## Hazır varlıklar
@@ -29,4 +32,4 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 - Video çekimleri (time-lapse, mikroskop kaydı) geldikçe `assets/footage/` altına eklenir.
 
 ## Referans örnek
-- `example-era/` → 10 sn'lik onaylanmış deneme sahnesi (ERA iddiası → kalemle çizilir → kanıt → rakamlar + referans kartı → NON PROUVÉ damgası; kalem ve damga sesli). Kaynak: Doyle N, et al. JAMA 2022;328(21):2117-25 (PubMed 36472596). `index.html` yeni sahneler için kalıp olarak kullanılır; çalıştırmak için şablonun `assets/` klasörünü yanına kopyala ve GSAP'ı `assets/vendor/gsap.min.js` olarak koy (ya da CDN satırına çevir).
+- `example-era/` (ekran bilgileri `scene-facts.json` + `era-sources.md` üzerinden bağlı) → 10 sn'lik onaylanmış deneme sahnesi (ERA iddiası → kalemle çizilir → kanıt → rakamlar + referans kartı → NON PROUVÉ damgası; kalem ve damga sesli). Kaynak: Doyle N, et al. JAMA 2022;328(21):2117-25 (PubMed 36472596). `index.html` yeni sahneler için kalıp olarak kullanılır; çalıştırmak için şablonun `assets/` klasörünü yanına kopyala ve GSAP'ı `assets/vendor/gsap.min.js` olarak koy (ya da CDN satırına çevir).

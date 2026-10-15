@@ -281,6 +281,7 @@ Motion should feel like **a hand and a page**, not like software.
 ## Editorial Hard Rules (on-screen text)
 
 - **Numbers & claims:** never invent figures, percentages, success rates or study names. Every on-screen figure traces to a cited source supplied in the script; otherwise render `— chiffre —` and flag it.
+- **Source → scene (enforced):** every on-screen number, finding, verdict and citation is bound to `scene-facts.json` (`data-fact` / `data-ref`), each entry tied to a claim ID in the script's fact-checked `-sources.md` and, for papers, to a PMID. Citations are generated from PubMed, never typed. Run `node tools/facts.mjs all <project> --lang <fr|tr|en>` before `hyperframes check`; no render while `verify` fails. See `tools/README.md`.
 - **No guarantees language** anywhere on screen (garanti, 100 %, assuré, miracle) except when it is the claim being struck.
 - **Out of scope topics:** no PGT-A content, no gamete/embryo donation content.
 - **No other clinics** named or recommended; no competitor logos.

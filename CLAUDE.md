@@ -64,4 +64,7 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
 - Eski projelere (`projects/fiv-apres-quarante-ans-hyperframes`, `videos/bhcg-*`,
   `youtube-content/motion/intro-pilot`) dokunma; kendi frame.md/DESIGN.md'leriyle kalırlar.
 - Ana şablonu değiştirmek tüm gelecek videoları etkiler: önce Dr. Aksoy'a sor.
+- Hard rule (kaynaktan sahneye): ekrandaki her rakam, bulgu, hüküm ve künye `scene-facts.json` üzerinden scriptin
+  `-sources.md` iddia ID'sine (ve PMID'ye) bağlanır; künye elle yazılmaz. Render öncesi
+  `node youtube-content/motion/outsider-inside-frame/tools/facts.mjs all <proje> --lang <fr|tr|en>` geçmeli.
 - Kurulum adımları ve eksik varlık listesi: `youtube-content/motion/outsider-inside-frame/README.md`.
