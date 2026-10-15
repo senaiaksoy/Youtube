@@ -26,8 +26,8 @@ Status legend: ✅ ready · ⚠️ use only after the check noted · ⛔ do not 
 | lab-01-portrait-icsi-station.jpg | seated at ICSI station, smiling | cover / closing, "who is speaking" | ✅ portrait (9:16) |
 | lab-03-portrait-embryoscope.jpg | standing at EmbryoScope, blastocyst on monitor | authority shot, time-lapse topics | ✅ portrait |
 | lab-15-portrait-embryoscope-2.jpg | leaning on EmbryoScope | closing / lower-third background | ✅ (person taking photo on right cropped out) |
-| lab-14-portrait-professional.jpg | professional photo, white coat, different lab (ESCO / Nikon / IVFtech) | channel art, intro | ⚠️ confirm photographer usage rights + which lab it is |
-| lab-02-portrait-with-team.jpg | with two colleagues in background | — | ⛔ colleagues' faces visible: written consent needed before use |
+| lab-14-portrait-professional.jpg | professional photo, white coat, different lab (ESCO / Nikon / IVFtech) | channel art, intro | ✅ usage rights confirmed by Dr. Aksoy (2026-10-16) |
+| lab-02-portrait-with-team.jpg | with two colleagues in background | team / "the lab is people" moments | ✅ colleagues' consent confirmed by Dr. Aksoy (2026-10-16) |
 
 ## Embryo stills (photographed from the lab monitor, cropped + colour-balanced)
 | File | Stage | Best for | Status |

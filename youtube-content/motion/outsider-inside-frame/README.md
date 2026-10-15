@@ -26,8 +26,7 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 - `assets/footage/` → 15 laboratuvar fotoğrafı + 5 embriyo görüntüsü; hasta bilgisi taşıyabilecek kâğıt/etiketler bulanıklaştırıldı, meta veriler silindi. Kullanım ve durum listesi: `assets/footage/INDEX.md`.
 
 ## Açık kararlar
-- `lab-02` (ekip arka planda): meslektaşların yazılı izni gelene kadar kullanılmaz.
-- `lab-14` (profesyonel portre): fotoğrafçı kullanım hakkı teyit edilecek.
+- (2026-10-16) `lab-02` meslektaş izni ve `lab-14` kullanım hakkı Dr. Aksoy tarafından onaylandı; ikisi de kullanılabilir.
 - `lab-09`, `lab-12`: hastane logolu kitapçık görünüyor; marka görünsün mü, kararı Dr. Aksoy'da.
 - Video çekimleri (time-lapse, mikroskop kaydı) geldikçe `assets/footage/` altına eklenir.
 
