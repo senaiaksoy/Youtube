@@ -27,19 +27,22 @@ borders: { hairline: "1px solid ink@14%", hairline-strong: "1px solid ink@28%", 
 shadows: { none: "none", slip: "0 1px 0 ink@10%" }   # paper does not cast shadows; a slip may sit 1px proud
 
 typography:
+  # PHONE FLOOR (2026-10-16): no visible text below 40 px at 1080 px short side = 2.1cqw on 16:9.
+  # Enforced by tools/legibility.mjs before every render. Px values are @1920×1080.
   # — reading + chrome ramp —
-  body:      { fontFamily: "IBM Plex Sans", cqw: 1.6,  weight: 400, lineHeight: 1.45 }
-  lead:      { fontFamily: "IBM Plex Sans", cqw: 2.2,  weight: 400, lineHeight: 1.4 }
-  label:     { fontFamily: "IBM Plex Sans", cqw: 1.5,  weight: 600, lineHeight: 1.2, tracking: "0.01em" }
-  kicker:    { fontFamily: "IBM Plex Mono", cqw: 1.4,  weight: 500, tracking: "0.14em", upper: true }
-  ref:       { fontFamily: "IBM Plex Mono", cqw: 1.25, weight: 400, lineHeight: 1.4 }      # citations, footnotes
-  stamp:     { fontFamily: "IBM Plex Mono", cqw: 2.6,  weight: 700, tracking: "0.08em", upper: true }
+  body:      { fontFamily: "IBM Plex Sans", cqw: 2.3,  weight: 400, lineHeight: 1.3 }       # 44px
+  lead:      { fontFamily: "IBM Plex Sans", cqw: 2.6,  weight: 400, lineHeight: 1.3 }       # 50px
+  label:     { fontFamily: "IBM Plex Sans", cqw: 2.3,  weight: 600, lineHeight: 1.15, tracking: "0.01em" }  # 44px
+  kicker:    { fontFamily: "IBM Plex Mono", cqw: 2.1,  weight: 500, tracking: "0.12em", upper: true }        # 40px
+  ref:       { fontFamily: "IBM Plex Mono", cqw: 2.1,  weight: 400, lineHeight: 1.32 }      # 40px — citations, footnotes
+  stamp:     { fontFamily: "IBM Plex Mono", cqw: 3.6,  weight: 700, tracking: "0.08em", upper: true }        # 70px (TR long words 3.1)
   # — display ramp (Literata, sentence case, opsz high) —
-  headline:  { fontFamily: "Literata", cqw: 4.4, weight: 500, lineHeight: 1.08, tracking: "-0.015em" }
-  claim:     { fontFamily: "Literata", cqw: 5.6, weight: 400, lineHeight: 1.1,  tracking: "-0.015em", italic: true }
-  display:   { fontFamily: "Literata", cqw: 7.2, weight: 600, lineHeight: 1.02, tracking: "-0.022em" }
-  number-hero: { fontFamily: "Literata", cqw: 11.5, weight: 600, lineHeight: 0.92, tracking: "-0.03em", numerals: "lining tabular" }
-  number-unit: { fontFamily: "IBM Plex Mono", cqw: 2.2, weight: 500 }
+  headline:  { fontFamily: "Literata", cqw: 4.4, weight: 500, lineHeight: 1.08, tracking: "-0.015em" }   # 84px
+  evidence:  { fontFamily: "Literata", cqw: 3.3, weight: 500, lineHeight: 1.12, tracking: "-0.012em" }   # 64px
+  claim:     { fontFamily: "Literata", cqw: 5.2, weight: 400, lineHeight: 1.1,  tracking: "-0.015em", italic: true }  # 100px
+  display:   { fontFamily: "Literata", cqw: 7.2, weight: 600, lineHeight: 1.02, tracking: "-0.022em" }  # 138px
+  number-hero: { fontFamily: "Literata", cqw: 8.3, weight: 600, lineHeight: 0.95, tracking: "-0.03em", numerals: "lining tabular" }  # 160px
+  number-unit: { fontFamily: "IBM Plex Mono", cqw: 2.3, weight: 500 }
 
 spacing:
   frame-pad: "4.6cqw"     # ~88px @1920
@@ -86,7 +89,7 @@ components:
       The citation card — authors · journal · year · design (RCT, méta-analyse, cohorte, n=). Looks
       like an index card from a bibliography drawer. Every number-hero and every verdict-stamp has one.
   footnote-marker:
-    typography: "{typography.ref} superscript"
+    typography: "{typography.ref} inline (not superscript — a sup shrinks below the phone floor)"
     description: "[1] [2] beside a claim or figure, linking to the reference-slip on screen or in the description."
   lower-third:
     backgroundColor: "{colors.paper}"
@@ -158,6 +161,7 @@ Eyeball tests that gate every frame:
 - **Primary:** 1920×1080 (16:9). Author sizes in **`cqw`** (`px ÷ 1920 × 100`).
 - **Vertical:** 1080×1920 (9:16) for Shorts; **Square:** 1080×1080 only if asked.
 - **Safe area:** `frame-pad` 4.6cqw; captions and lower-thirds sit inside it. On 9:16, keep the bottom 18% clear for platform UI.
+- **9:16 sizing:** keep the same **pixel** sizes as 16:9 (cqw token × 1.78 on a 1080-wide frame); the 40 px floor is the same.
 
 **Container law.** Every frame ground sets `container-type: size`; frame-relative units are `cqw`/`cqh`, never `vw`.
 
@@ -183,8 +187,9 @@ evidence levels — evidence strength is expressed by the **stamp vocabulary**, 
   conclusion. Italic = what *they* say; roman = what the *evidence* says.
 - **Body (IBM Plex Sans):** 400, sentence case. Explanatory lines only; ≤ 2 lines per frame.
 - **Reference (IBM Plex Mono):** kickers, citations, footnotes, footage tabs, stamps.
-- **Legibility floor:** any load-bearing line ≥ 1.5cqw; mono references ≥ 1.2cqw.
-- **Fit to measure:** headline block ≤ 72cqw wide. ≤ 3 words → `display`; 4–8 → `claim`/`headline`; longer → it's a voice-over line, not an on-screen line.
+- **Phone legibility floor (hard rule):** every visible piece of text — kicker, label, citation, footnote marker, footage tab, lower-third — is **≥ 40 px at 1080 px on the short side** (2.1cqw on 16:9; 3.7cqw on 9:16). Most viewers watch on a phone; a line that can't be read there doesn't exist. No exceptions for "small print": if a citation doesn't fit at 40 px, shorten it (authors · journal · year · design · n) or split it over two lines. Only text that is part of real footage may opt out, with `data-legibility-exempt="reason"`. Check: `node tools/legibility.mjs <project>` (fails the render on any run below the floor, measured after transforms at 24+ points of the timeline).
+- **Fewer words, not smaller words:** when a frame doesn't fit, cut text or split the frame — never shrink below the floor.
+- **Fit to measure:** headline block ≤ 82cqw wide. ≤ 3 words → `display`; 4–8 → `claim`/`headline`; longer → it's a voice-over line, not an on-screen line.
 - **French typography (fr channel):** non-breaking thin space before « ? ! : ; » and inside « guillemets »; use real « » not "".
 - **Numerals:** lining, tabular (`font-variant-numeric: lining-nums tabular-nums`) for figures and percentages.
 
@@ -235,7 +240,7 @@ circles as containers, no blobs.
 **Fixed** stamp vocabulary, one stamp per scene, reference-slip present. **Free** placement (it may overlap the headline). **Density** sparse.
 
 ### 4 · Le chiffre — Number with proof
-**Ground** paper. **Composes** kicker-section, number-hero + number-unit, one body line of context, reference-slip (bottom-right).
+**Ground** paper. **Composes** kicker-section, number-hero + number-unit, one body line of context, reference-slip (bottom-left, full measure, 40 px mono, ≤ 2 lines).
 **Focal** the Literata figure. **Pen** optional pen-circle around the figure when the number contradicts the claim.
 **Fixed** reference-slip always present; figure comes from the script with its source. **Free** layout. **Density** sparse.
 Comparisons (e.g. avec / sans) are **two figures side by side with one hairline between** — not a bar chart unless there are ≥ 4 data points.
@@ -277,6 +282,7 @@ Motion should feel like **a hand and a page**, not like software.
 - Use **italic for the claim, roman for the evidence** — consistently, across the whole channel.
 - Put the **reference on screen** whenever a number or verdict is on screen.
 - Ration the red pen to **one judgment per frame**.
+- Size every text for a **phone** first (≥ 40 px @1080, see Typography); cut words before shrinking type.
 
 ### Don't
 - No glow, gradient, glass, particles, neon, lens flares, light leaks, 3D tilt, bouncing or elastic easing.
@@ -287,6 +293,7 @@ Motion should feel like **a hand and a page**, not like software.
 - No traffic-light evidence colours; no red outside of judgment.
 - Pen marks, stamps and pen arrows live **inside** the video only, always next to their evidence — never in thumbnails (F13).
 - No title case, no all-caps Literata.
+- No channel intro / logo sting / animated bumper — not at the start, not after the hook. Videos open on Dr. Aksoy and go straight into content (decision 2026-10-16).
 
 ## Editorial Hard Rules (on-screen text)
 
@@ -305,7 +312,7 @@ Motion should feel like **a hand and a page**, not like software.
 | Cover              | title flush left, kicker top-left      | title upper third, kicker above                |
 | La promesse barrée | claim top, correction below, left-aligned | claim centred-left, correction below, larger |
 | Le verdict         | stamp overlaps headline right          | stamp centred over headline                    |
-| Le chiffre         | figure left, slip bottom-right         | figure centred, slip below (above UI zone)     |
+| Le chiffre         | figure left, slip bottom-left          | figure centred, slip below (above UI zone)     |
 | Le labo            | footage full-bleed, tab bottom-left    | footage cropped to subject, tab above UI zone  |
 | Talking head       | lower-third left, side note right third | lower-third above UI zone, no side note       |
 | Clôture            | line centred-left                      | line stacked, 3–4 lines                        |
@@ -328,7 +335,8 @@ Motion should feel like **a hand and a page**, not like software.
 - **Pen** — red only as judgment; ≤ 1 mark per frame (strike + stamp pair max); § in every kicker.
 - **Proof** — every figure and stamp has a reference on screen; no invented numbers.
 - **Not-AI** — zero glow / gradient / glass / particle / ambient drift / bounce; no banned fonts.
-- **Type** — italic = claim, roman = evidence; French spacing and « » correct; legibility floor held.
+- **Type** — italic = claim, roman = evidence; French spacing and « » correct.
+- **Phone** — `node tools/legibility.mjs <project>` passes (every visible text ≥ 40 px @1080); look at one frame scaled to 640×360 — everything still reads.
 - **Privacy & scope** — no patient identifiers; no PGT-A / donation / competitor content.
 
 ## Known Gaps

@@ -1,3 +1,27 @@
+# Render öncesi iki kapı
+
+| Araç | Neyi durdurur | Komut |
+|---|---|---|
+| `facts.mjs` | kaynağa bağlanmamış rakam / hüküm / künye | `node …/tools/facts.mjs all <proje> --lang fr` |
+| `legibility.mjs` | telefonda okunamayacak kadar küçük yazı | `node …/tools/legibility.mjs <proje>` |
+
+İkisi de geçmeden `npx hyperframes render` yapılmaz.
+
+# legibility.mjs — telefon okunurluk tabanı
+
+Sahneyi HyperFrames'in kendi Chrome'unda açar, zaman çizelgesini 25 noktada (varsayılan) durdurur ve
+ekranda görünen her yazının gerçek boyutunu ölçer (transform/scale dahil). Taban: **1080 px kısa kenarda
+40 px** (16:9'da 2.1cqw); farklı çözünürlükte orantılı. Altında kalan her yazı ✖ ile ve en küçük olduğu
+saniyeyle listelenir; çıkış kodu 1.
+
+```
+node youtube-content/motion/outsider-inside-frame/tools/legibility.mjs projects/<slug> [--samples 24] [--min 40] [--html index.html]
+```
+
+- Node 22+ (ek paket yok). Chrome yolu `npx hyperframes browser path`'ten; istenirse `HF_CHROME=/yol/chrome`.
+- Muafiyet yalnızca gerçek görüntünün parçası olan yazıya: `data-legibility-exempt="neden"` (raporda görünür).
+- `--min` yalnızca daha büyük taban için yükseltilir; düşürülmez.
+
 # facts.mjs — kaynaktan sahneye bağ
 
 Ekrandaki her sayı, bulgu, hüküm damgası ve künye `scene-facts.json`'dan gelir. Her kayıt, scriptin

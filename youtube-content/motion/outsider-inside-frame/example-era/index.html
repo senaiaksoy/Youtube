@@ -19,41 +19,42 @@
       .grain { position: absolute; inset: 0; background: url(assets/textures/paper-grain-16x9.png);
                mix-blend-mode: soft-light; opacity: .35; pointer-events: none; }
 
-      .kicker { position: absolute; left: 88px; top: 92px; font-family: 'IBM Plex Mono', monospace; font-weight: 500;
-                font-size: 27px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); }
+      /* phone floor: no visible text under 40 px at 1080p (tools/legibility.mjs) */
+      .kicker { position: absolute; left: 88px; top: 64px; font-family: 'IBM Plex Mono', monospace; font-weight: 500;
+                font-size: 40px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
       .kicker b { color: var(--red); font-weight: 500; margin-right: .5em; }
 
-      .claim { position: absolute; left: 88px; top: 165px; font-family: 'Literata', Georgia, serif; font-style: italic;
+      .claim { position: absolute; left: 88px; top: 128px; font-family: 'Literata', Georgia, serif; font-style: italic;
                font-weight: 400; font-size: 100px; line-height: 1.1; letter-spacing: -.015em; white-space: nowrap; }
       .claim .txt { position: relative; display: inline-block; }
       .claim .pen { left: -2.5%; width: 105%; top: 47%; height: 74px; transform: translateY(-50%) rotate(-.8deg); mix-blend-mode: multiply; }
 
-      .evidence { position: absolute; left: 88px; top: 320px; font-family: 'Literata', Georgia, serif; font-weight: 500;
+      .evidence { position: absolute; left: 88px; top: 262px; font-family: 'Literata', Georgia, serif; font-weight: 500;
                   font-size: 64px; line-height: 1.12; letter-spacing: -.012em; }
-      .evidence sup { font-family: 'IBM Plex Mono', monospace; font-size: 26px; font-weight: 500; color: var(--ink-soft);
-                      vertical-align: super; margin-left: 6px; letter-spacing: 0; }
+      .evidence .mk { font-family: 'IBM Plex Mono', monospace; font-size: 40px; font-weight: 500; color: var(--ink-soft);
+                      margin-left: 14px; letter-spacing: 0; }
 
-      .kpi-label { position: absolute; left: 88px; top: 500px; font-family: 'IBM Plex Mono', monospace; font-size: 24px;
-                   letter-spacing: .14em; text-transform: uppercase; color: var(--ink-soft); }
-      .fig { position: absolute; top: 548px; }
-      .fig .n { font-family: 'Literata', Georgia, serif; font-weight: 600; font-size: 176px; line-height: .95;
+      .kpi-label { position: absolute; left: 88px; top: 392px; font-family: 'IBM Plex Mono', monospace; font-size: 40px;
+                   letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
+      .fig { position: absolute; top: 452px; width: 520px; }
+      .fig .n { font-family: 'Literata', Georgia, serif; font-weight: 600; font-size: 160px; line-height: .95;
                 letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
-      .fig .l { margin-top: 18px; font-size: 30px; color: var(--ink-soft); }
-      .fig-a { left: 88px; } .fig-b { left: 708px; }
-      .rule { position: absolute; left: 650px; top: 560px; width: 1px; height: 250px; background: rgba(27,34,48,.28); transform-origin: top; }
+      .fig .l { margin-top: 14px; font-size: 44px; line-height: 1.15; color: var(--ink-soft); }
+      .fig-a { left: 88px; } .fig-b { left: 700px; }
+      .rule { position: absolute; left: 650px; top: 462px; width: 1px; height: 250px; background: rgba(27,34,48,.28); transform-origin: top; }
 
-      .slip { position: absolute; right: 88px; bottom: 88px; width: 790px; background: var(--paper-deep);
+      .slip { position: absolute; left: 88px; bottom: 52px; max-width: 1744px; background: var(--paper-deep);
               border: 1px solid rgba(27,34,48,.14); border-radius: 2px; box-shadow: 0 1px 0 rgba(27,34,48,.10);
-              padding: 22px 28px; font-family: 'IBM Plex Mono', monospace; font-size: 23px; line-height: 1.5; color: var(--ink-soft); }
+              padding: 18px 28px; font-family: 'IBM Plex Mono', monospace; font-size: 40px; line-height: 1.32; color: var(--ink-soft); }
       .slip .t { color: var(--ink); font-weight: 500; }
 
-      .stamp { position: absolute; left: 1262px; top: 455px; transform: rotate(-6deg); border: 7px solid var(--red);
+      .stamp { position: absolute; left: 1262px; top: 430px; transform: rotate(-6deg); border: 7px solid var(--red);
                border-radius: 2px; color: var(--red); font-family: 'IBM Plex Mono', monospace; font-weight: 700;
                font-size: 70px; letter-spacing: .08em; padding: 14px 34px; mix-blend-mode: multiply;
                -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
                -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
       /* longer verdict words (TR) keep the stamp inside the safe area */
-      :lang(tr) .stamp { font-size: 60px; left: 1270px; }
+      :lang(tr) .stamp { font-size: 60px; left: 1262px; }
     </style>
   </head>
   <body>
@@ -64,7 +65,7 @@
 
       <div class="claim" id="claim"><span class="txt"><span data-fact="Q1">« Le test ERA améliore vos chances. »</span><img class="pen" id="strike" src="assets/pen/strike-01.png" alt="" /></span></div>
 
-      <div class="evidence" id="evidence"><span data-fact="F1">Essai randomisé : aucun bénéfice démontré.</span><sup data-ref="R1" data-field="marker">[1]</sup></div>
+      <div class="evidence" id="evidence"><span data-fact="F1">Essai randomisé : aucun bénéfice démontré.</span><span class="mk" data-ref="R1" data-field="marker">[1]</span></div>
 
       <div class="kpi-label" id="kpiLabel" data-fact="K1">Naissances vivantes par transfert</div>
       <div class="fig fig-a" id="figA"><div class="n" data-fact="F2">58,5 %</div><div class="l" data-fact="F2" data-field="label">Transfert guidé par l’ERA</div></div>
@@ -98,7 +99,7 @@
       rise('#figA', 4.6);
       tl.fromTo('#rule', { scaleY: 0 }, { scaleY: 1, duration: 0.4, ease: 'power2.out' }, 4.75);
       rise('#figB', 4.9);
-      tl.fromTo('#slip', { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5, ease: 'power3.out' }, 5.5);
+      tl.fromTo('#slip', { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power3.out' }, 5.5);
       // stamp: hard cut + 2-frame ink spread, no bounce
       tl.fromTo('#stamp', { opacity: 0, scale: 1.025 }, { opacity: 1, scale: 1, duration: 0.067, ease: 'none' }, 7.0);
       tl.to({}, { duration: 0.01 }, 9.99);

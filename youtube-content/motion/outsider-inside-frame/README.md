@@ -13,7 +13,10 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 4. Ekrandaki her rakam/bulgu/künye için `scene-facts.json` yaz (scriptin `-sources.md` iddia ID'lerine bağlı), HTML'de
    `data-fact` / `data-ref` ile bağla ve çalıştır: `node youtube-content/motion/outsider-inside-frame/tools/facts.mjs all projects/<slug> --lang fr`.
    `verify` geçmeden render yok. Ayrıntı: `tools/README.md`.
-5. Projeye özel değişiklik gerekiyorsa projedeki kopyada yap; ana şablonu değiştirmek
+5. Cep telefonu okunurluğu: `node youtube-content/motion/outsider-inside-frame/tools/legibility.mjs projects/<slug>`.
+   Ekranda görünen her yazı ≥ 40 px (1080 kısa kenarda) olmalı; geçmeden render yok. Sığmıyorsa yazıyı kısalt
+   veya kareyi ikiye böl — küçültme.
+6. Projeye özel değişiklik gerekiyorsa projedeki kopyada yap; ana şablonu değiştirmek
    tüm gelecek videoları etkiler — yalnızca bilinçli kararla güncelle.
 
 ## Hazır varlıklar
@@ -26,6 +29,8 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 - `assets/footage/` → 15 laboratuvar fotoğrafı + 5 embriyo görüntüsü; hasta bilgisi taşıyabilecek kâğıt/etiketler bulanıklaştırıldı, meta veriler silindi. Kullanım ve durum listesi: `assets/footage/INDEX.md`.
 
 ## Açık kararlar
+- (2026-10-16) Kanal intro'su kullanılmaz (Dr. Aksoy kararı): video Dr. Aksoy'la açılır, doğrudan içeriğe girer; logo/bumper yok.
+- (2026-10-16) Motion grafikteki tüm yazılar cep telefonunda okunur boyutta: taban 40 px @1080 (16:9'da 2.1cqw), `tools/legibility.mjs` ile denetlenir.
 - (2026-10-16) `lab-02` meslektaş izni ve `lab-14` kullanım hakkı Dr. Aksoy tarafından onaylandı; ikisi de kullanılabilir.
 - (2026-10-16) Hastane logosu görünmeyecek (Dr. Aksoy kararı): `lab-09` ve `lab-12`'deki logolu kitapçık bulanıklaştırıldı; yeni görüntülerde de logo bulanıklaştırılır.
 - Video çekimleri (time-lapse, mikroskop kaydı) geldikçe `assets/footage/` altına eklenir.

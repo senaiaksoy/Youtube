@@ -67,4 +67,9 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
 - Hard rule (kaynaktan sahneye): ekrandaki her rakam, bulgu, hüküm ve künye `scene-facts.json` üzerinden scriptin
   `-sources.md` iddia ID'sine (ve PMID'ye) bağlanır; künye elle yazılmaz. Render öncesi
   `node youtube-content/motion/outsider-inside-frame/tools/facts.mjs all <proje> --lang <fr|tr|en>` geçmeli.
+- Hard rule (telefon okunurluğu, 2026-10-16): motion grafikte görünen her yazı ≥ 40 px @1080 kısa kenar
+  (16:9'da 2.1cqw; künye, etiket, [1] işareti dahil). Sığmıyorsa yazı kısaltılır, küçültülmez. Render öncesi
+  `node youtube-content/motion/outsider-inside-frame/tools/legibility.mjs <proje>` geçmeli.
+- Hard rule (intro yok, 2026-10-16): kanal intro'su / logo bumper'ı hiçbir videoda kullanılmaz; video
+  Dr. Aksoy'la (tam kadraj) açılır ve doğrudan içeriğe girer.
 - Kurulum adımları ve eksik varlık listesi: `youtube-content/motion/outsider-inside-frame/README.md`.
