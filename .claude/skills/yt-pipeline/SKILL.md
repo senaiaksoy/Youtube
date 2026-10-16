@@ -1,6 +1,6 @@
 ---
 name: yt-pipeline
-description: Safe reusable YouTube Data API pipeline for Dr. Senai Aksoy channels. Use when working on YouTube captions/subtitles, subtitle translation or upload, video metadata titles/descriptions/tags/localizations, playlists, channel verification, bulk subtitle typo fixes, or any YouTube API task in D:\A-klasör\Youtube. Do not write throwaway Python scripts; use the bundled scripts with pinned Python 3.12, UTF-8 output, canonical OAuth tokens, and live channel verification.
+description: Safe reusable YouTube Data API pipeline for Dr. Senai Aksoy channels. Use when working on YouTube captions/subtitles, subtitle translation or upload, adding languages (localized titles/descriptions + caption tracks), thumbnails, video metadata titles/descriptions/tags/localizations, playlists, channel verification, bulk subtitle typo fixes, or any YouTube API task in D:\A-klasör\Youtube. Do not write throwaway Python scripts; use the bundled scripts with pinned Python 3.12, UTF-8 output, canonical OAuth tokens, and live channel verification.
 ---
 
 # yt-pipeline
@@ -48,12 +48,29 @@ Run `--help` on each script for exact parameters.
 - `yt_oauth.py`: one-time OAuth token creation for the canonical per-channel
   token file. Use only when a token is missing or cannot refresh.
 - `yt_captions.py`: caption list, download, upload, replace, delete, and offline
-  SRT translation.
+  SRT translation (GoogleTranslator: drafts only; not for published FR-channel tracks).
 - `yt_metadata.py`: read video snippet/status/localizations and dry-run or apply
   title, description, tags, and localization updates from JSON.
 - `yt_playlists.py`: list playlists, list items, and idempotently add videos.
 - `yt_thumbnail.py`: set a custom thumbnail (JPG/PNG, max 2 MB; dry-run default, `--go` uploads). Test & Compare is Studio-only.
 - `yt_subfix.py`: offline bulk typo correction for SRT files.
+- `yt_thumb_compose.py`: offline; adds the channel-style title type (white keyword, gold line, gold pill)
+  to an AI base image and writes the 120×68 mobile proof. See `references/thumbnails.md`.
+- `yt_i18n.py`: offline; `prep` builds the translation workspace from the FR SRT/title/description,
+  `build` QA-checks translator output and writes per-language SRTs + `fixes-localizations.json`.
+  See `references/localization.md`.
+
+## Thumbnails and languages (read before doing either)
+
+- Thumbnail for a FR long video: copy the channel's current style (doctor right, navy science backdrop,
+  white/gold condensed text, gold pill), base image from Higgsfield `gpt_image_2_5` with approved channel
+  thumbnails as identity references, text added by `yt_thumb_compose.py`, never by the image model.
+  No talking-head frames, no DHEA premium suit cut-out, nothing from F13. Full recipe:
+  `references/thumbnails.md`.
+- Languages for a FR long video: the DHEA set of 15 (ar, az, bg, bs, de, es, fa, it, mk, ro, ru, sq, sr,
+  tr, uk), each with localized title + description AND a caption track; English only when Dr. Aksoy asks.
+  FR SRT from large-v3 ASR + manual correction; translations by Claude subagents (not GoogleTranslator),
+  QA with `yt_i18n.py build`, dry-run → `--go`. Full rules: `references/localization.md`.
 
 ## Common Flows
 
