@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="fr">
-  <!-- Série « Au labo » — ground: assets/papers/lab-spiral. On-screen facts from scene-facts.json:
-       node ../../tools/facts.mjs all . --lang fr   ·   phone floor: node ../../tools/legibility.mjs . -->
+  <!-- Série « Au labo » — ground: assets/papers/lab-spiral.
+       One source, two aspects: this file is 1920×1080; `node ../../tools/aspect.mjs .` writes shorts/ (1080×1920)
+       from it, using the :root[data-aspect="9x16"] rules below. Facts: node ../../tools/facts.mjs all . --lang fr
+       · phone floor + Shorts UI zone: node ../../tools/legibility.mjs . (and shorts/) -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
@@ -10,14 +12,19 @@
     <link rel="stylesheet" href="assets/pen/pen.css" />
     <link rel="stylesheet" href="assets/papers/papers.css" />
     <style>
-      :root { --paper: #EFEBE1; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
+      :root { --W: 1920px; --H: 1080px; --paper: #EFEBE1; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
                --graphite: #8C877A; --red: #C4301C; }
+      :root[data-aspect="9x16"] { --W: 1080px; --H: 1920px; }
       * { margin: 0; padding: 0; box-sizing: border-box; }
-      html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--paper); }
-      #root { position: relative; width: 1920px; height: 1080px; background: var(--paper); color: var(--ink);
-              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; }
+      html, body { width: var(--W); height: var(--H); overflow: hidden; background: var(--paper); }
+      #root { position: relative; width: var(--W); height: var(--H); background: var(--paper); color: var(--ink);
+              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; overflow: hidden; }
       .grain { position: absolute; inset: 0; background: url(assets/textures/paper-grain-16x9.png);
                mix-blend-mode: soft-light; opacity: .30; pointer-events: none; }
+      :root[data-aspect="9x16"] .grain { background-image: url(assets/textures/paper-grain-9x16.png); }
+      .only-916 { display: none; }
+      :root[data-aspect="9x16"] .only-916 { display: block; }
+      :root[data-aspect="9x16"] .only-169 { display: none; }
       .serif { font-family: 'Literata', Georgia, serif; }
       .mono  { font-family: 'IBM Plex Mono', monospace; font-weight: 500; }
       .sans  { font-family: 'IBM Plex Sans', system-ui, sans-serif; }
@@ -28,11 +35,12 @@
                box-shadow: 0 1px 0 rgba(27,34,48,.10); padding: 16px 26px; font-family: 'IBM Plex Mono', monospace;
                font-size: 40px; line-height: 1.32; color: var(--ink-soft); }
       .slip .t { color: var(--ink); font-weight: 500; }
+      :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
       .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
       .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
                font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
                mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
-               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
+               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
       :lang(tr) .stamp { font-size: 60px; }
 
       /* lab-spiral geometry: header cells 110–441 | 441–1764 (y 52–132); rules every 72 px from 232 */
@@ -50,7 +58,19 @@
       .l   { width: 430px; --y: 736px; --fs: 40px; --lh: 72px; color: var(--ink-soft); }
       .a { left: 830px; } .b { left: 1290px; }
       .slip { left: 160px; top: 884px; }
-
+      /* ---- 9:16 (Shorts): bottom 18 % and the right icon column stay free of text ---- */
+      :root[data-aspect="9x16"] .cell { top: 110px; height: 90px; }
+      :root[data-aspect="9x16"] .cell-a { left: 98px; width: 132px; }
+      :root[data-aspect="9x16"] .cell-b { left: 230px; width: 694px; padding-left: 20px; letter-spacing: .02em; }
+      :root[data-aspect="9x16"] .photo { left: 120px; top: 250px; width: 408px; height: 504px; }
+      :root[data-aspect="9x16"] .photo img { width: 380px; height: 380px; }
+      :root[data-aspect="9x16"] .photo .cap { height: 110px; white-space: normal; text-align: center; line-height: 1.2; padding: 0 8px; }
+      :root[data-aspect="9x16"] .ev { left: 130px; width: 780px; --y: 804px; }
+      :root[data-aspect="9x16"] .kpi { left: 130px; --y: 948px; font-family: 'IBM Plex Sans', sans-serif; text-transform: none; letter-spacing: 0; }
+      :root[data-aspect="9x16"] .n { --y: 1092px; --fs: 110px; }
+      :root[data-aspect="9x16"] .a { left: 130px; } :root[data-aspect="9x16"] .b { left: 530px; }
+      :root[data-aspect="9x16"] .l { width: 370px; --y: 1164px; }
+      :root[data-aspect="9x16"] .slip { left: 120px; top: 1342px; width: 790px; }
     </style>
   </head>
   <body>
@@ -71,7 +91,6 @@
         <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
         <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
       </div>
-
     </div>
     <script>
       window.__timelines = window.__timelines || {};
@@ -87,7 +106,6 @@
       rise('#na', 4.3); rise('#la', 4.45, 0.4);
       rise('#nb', 4.8); rise('#lb', 4.95, 0.4);
       rise('#slip', 5.8, 0.5);
-
       tl.to({}, { duration: 0.01 }, 9.99);
       window.__timelines['main'] = tl;
       tl.seek(0);

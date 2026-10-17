@@ -27,6 +27,9 @@ const [cmd, proj] = process.argv.slice(2);
 const lang = (() => { const i = process.argv.indexOf('--lang'); return i > 0 ? process.argv[i + 1] : 'fr'; })();
 const same = (a = [], b = []) => a.length === b.length && [...a].sort().join('|') === [...b].sort().join('|');
 
+const projName = (p) => { const r = path.resolve(p), b = path.basename(r);
+  return b === 'shorts' ? `${path.basename(path.dirname(r))}-shorts` : b; };
+
 function loadLook(p) {
   const f = path.join(path.resolve(p), 'look.json');
   if (!fs.existsSync(f)) { console.error(`✖ missing ${f}`); process.exit(2); }
@@ -51,7 +54,7 @@ function check(p) {
   if (look.first_graphic && !layouts.includes(look.first_graphic)) E.push('first_graphic must also be listed in layouts');
   for (const m of look.pen_marks || []) if (!catalog.pen_marks.includes(m)) E.push(`unknown pen mark "${m}"`);
 
-  const name = path.basename(path.resolve(p));
+  const name = projName(p);
   const prev = readLog().filter((e) => e.project !== name && (e.lang || 'fr') === lang).slice(-3);
   const last = prev.at(-1);
   if (last) {
@@ -68,7 +71,7 @@ function check(p) {
 }
 
 function log(p) {
-  const look = loadLook(p); const name = path.basename(path.resolve(p));
+  const look = loadLook(p); const name = projName(p);
   const entries = readLog().filter((e) => !(e.project === name && (e.lang || 'fr') === lang));
   entries.push({ project: name, lang, date: new Date().toISOString().slice(0, 10), ...look });
   fs.writeFileSync(logPath, JSON.stringify(entries, null, 2) + '\n');

@@ -72,7 +72,7 @@ def make_recete(W, H):
 def make_cizgili(W, H):
     s = SPEC['cizgili']; im, d = canvas(W, H, s['ground']); col = rgba(s['rule'], s['alpha'])
     m = round(W*0.0625); bx = (m, 60, W - m, 150) if W > H else (m, 120, W - m, 220)
-    rect(d, *bx, 2, col); div = round(bx[0] + (bx[2]-bx[0])*0.78); vline(d, div, bx[1], bx[3], 2, col)
+    rect(d, *bx, 2, col); div = round(bx[0] + (bx[2]-bx[0])*(0.78 if W > H else 0.58))  # portrait: wider right cell for labels; vline(d, div, bx[1], bx[3], 2, col)
     ys = list(range(bx[3] + 60, H - 20, s['pitch']))
     for y in ys: hline(d, m, W - m, y, s['w'], col, s['pattern'])
     return finish(im, W, H), {'rules_y': ys, 'x0': m, 'x1': W - m, 'pitch': s['pitch'],
@@ -122,7 +122,7 @@ def make_spiral(W, H, photo):
     strip = spiral_strip(photo, H); sx = W - strip.width + 8
     x0, x1 = band + 54, sx - 30
     hb = (x0, 52, x1, 132) if W > H else (x0, 110, x1, 200)
-    rect(d, *hb, 2, col); hdiv = round(x0 + (x1-x0)*0.2); vline(d, hdiv, hb[1], hb[3], 2, col)
+    rect(d, *hb, 2, col); hdiv = round(x0 + (x1-x0)*(0.2 if W > H else 0.16)); vline(d, hdiv, hb[1], hb[3], 2, col)
     box = (x0, hb[3] + 28, x1, H - 40); rect(d, *box, 2, col)
     ys = list(range(box[1] + s['pitch'], box[3] - 24, s['pitch']))
     for y in ys: hline(d, x0, x1, y, s['w'], col)

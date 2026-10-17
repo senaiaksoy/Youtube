@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="fr">
-  <!-- Série « Les chiffres » — ground: assets/papers/kareli. On-screen facts from scene-facts.json:
-       node ../../tools/facts.mjs all . --lang fr   ·   phone floor: node ../../tools/legibility.mjs . -->
+  <!-- Série « Les chiffres » — ground: assets/papers/kareli.
+       One source, two aspects: this file is 1920×1080; `node ../../tools/aspect.mjs .` writes shorts/ (1080×1920)
+       from it, using the :root[data-aspect="9x16"] rules below. Facts: node ../../tools/facts.mjs all . --lang fr
+       · phone floor + Shorts UI zone: node ../../tools/legibility.mjs . (and shorts/) -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
@@ -10,14 +12,19 @@
     <link rel="stylesheet" href="assets/pen/pen.css" />
     <link rel="stylesheet" href="assets/papers/papers.css" />
     <style>
-      :root { --paper: #F2F1EC; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
+      :root { --W: 1920px; --H: 1080px; --paper: #F2F1EC; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
                --graphite: #8C877A; --red: #C4301C; }
+      :root[data-aspect="9x16"] { --W: 1080px; --H: 1920px; }
       * { margin: 0; padding: 0; box-sizing: border-box; }
-      html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--paper); }
-      #root { position: relative; width: 1920px; height: 1080px; background: var(--paper); color: var(--ink);
-              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; }
+      html, body { width: var(--W); height: var(--H); overflow: hidden; background: var(--paper); }
+      #root { position: relative; width: var(--W); height: var(--H); background: var(--paper); color: var(--ink);
+              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; overflow: hidden; }
       .grain { position: absolute; inset: 0; background: url(assets/textures/paper-grain-16x9.png);
                mix-blend-mode: soft-light; opacity: .30; pointer-events: none; }
+      :root[data-aspect="9x16"] .grain { background-image: url(assets/textures/paper-grain-9x16.png); }
+      .only-916 { display: none; }
+      :root[data-aspect="9x16"] .only-916 { display: block; }
+      :root[data-aspect="9x16"] .only-169 { display: none; }
       .serif { font-family: 'Literata', Georgia, serif; }
       .mono  { font-family: 'IBM Plex Mono', monospace; font-weight: 500; }
       .sans  { font-family: 'IBM Plex Sans', system-ui, sans-serif; }
@@ -28,11 +35,12 @@
                box-shadow: 0 1px 0 rgba(27,34,48,.10); padding: 16px 26px; font-family: 'IBM Plex Mono', monospace;
                font-size: 40px; line-height: 1.32; color: var(--ink-soft); }
       .slip .t { color: var(--ink); font-weight: 500; }
+      :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
       .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
       .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
                font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
                mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
-               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
+               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
       :lang(tr) .stamp { font-size: 60px; }
 
       /* kareli geometry: grid origin (42, 27), 54 px cells — every box below is snapped to the grid */
@@ -49,7 +57,21 @@
       .lab { font-size: 48px; } .val { font-size: 112px; line-height: 1; }
       .pen-oval { left: 1178px; top: 664px; width: 506px; height: 192px; }
       .slip { left: 150px; top: 891px; }
-
+      /* ---- 9:16 (Shorts): bottom 18 % and the right icon column stay free of text ---- */
+      :root[data-aspect="9x16"] .kick { left: 108px; --y: 204px; }
+      :root[data-aspect="9x16"] .ev { left: 108px; width: 864px; white-space: normal; --y: 312px; --lh: 108px; }
+      :root[data-aspect="9x16"] .rule { left: 108px; width: 864px; }
+      :root[data-aspect="9x16"] .r-top { top: 527px; } :root[data-aspect="9x16"] .r-mid { top: 689px; }
+      :root[data-aspect="9x16"] .r-ab { top: 851px; } :root[data-aspect="9x16"] .r-bot { top: 1013px; }
+      :root[data-aspect="9x16"] .vrule { left: 647px; top: 690px; height: 324px; }
+      :root[data-aspect="9x16"] .row { left: 108px; width: 864px; }
+      :root[data-aspect="9x16"] .row .c1 { width: 540px; padding-left: 20px; } :root[data-aspect="9x16"] .row .c2 { width: 324px; padding-right: 16px; }
+      :root[data-aspect="9x16"] .hdr { top: 528px; height: 162px; }
+      :root[data-aspect="9x16"] .hdr .c1 { width: 864px; font-family: 'IBM Plex Sans', sans-serif; text-transform: none; letter-spacing: 0; }
+      :root[data-aspect="9x16"] .ra { top: 690px; height: 162px; } :root[data-aspect="9x16"] .rb { top: 852px; height: 162px; }
+      :root[data-aspect="9x16"] .lab { font-size: 44px; line-height: 1.15; } :root[data-aspect="9x16"] .val { font-size: 96px; }
+      :root[data-aspect="9x16"] .pen-oval { left: 620px; top: 846px; width: 380px; height: 172px; }
+      :root[data-aspect="9x16"] .slip { left: 108px; top: 1122px; width: 852px; }
     </style>
   </head>
   <body>
@@ -71,7 +93,6 @@
         <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
       </div>
       <audio id="sfx-pen" data-start="7.08" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-03.wav"></audio>
-
     </div>
     <script>
       window.__timelines = window.__timelines || {};
@@ -90,7 +111,6 @@
       rise('#slip', 5.6, 0.5);
       // judgment: the higher figure is the control arm — circled
       tl.fromTo('#oval', { '--p': 0 }, { '--p': 1, duration: 0.7, ease: 'power2.inOut' }, 7.1);
-
       tl.to({}, { duration: 0.01 }, 9.99);
       window.__timelines['main'] = tl;
       tl.seek(0);

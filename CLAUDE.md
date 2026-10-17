@@ -76,4 +76,7 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
   serinin kendi kâğıdı var (frame.md § Series & Variety). Projede `look.json` yazılır; render öncesi
   `node youtube-content/motion/outsider-inside-frame/tools/variety.mjs check <proje>` geçmeli, final render sonrası
   `variety.mjs log <proje> --lang <fr|tr|en>`. Videoda en fazla 2 kâğıt.
+- Shorts (2026-10-17): sahne tek kaynak (`index.html`, 16:9); dikey düzen aynı dosyada `:root[data-aspect="9x16"]` ile.
+  `tools/aspect.mjs <proje>` → `<proje>/shorts/` (elle düzenlenmez); legibility + check orada da geçmeli (alt %18 ve sağ
+  ikon sütununda yazı yok).
 - Kurulum adımları ve eksik varlık listesi: `youtube-content/motion/outsider-inside-frame/README.md`.

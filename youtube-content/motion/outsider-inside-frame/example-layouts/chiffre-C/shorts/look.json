@@ -1,0 +1,13 @@
+{
+  "series": "chiffres",
+  "papers": [
+    "kareli"
+  ],
+  "first_graphic": "chiffre-C",
+  "layouts": [
+    "chiffre-C"
+  ],
+  "pen_marks": [],
+  "stamp_flip": false,
+  "aspect": "9x16"
+}

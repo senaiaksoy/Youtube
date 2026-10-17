@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="fr">
-  <!-- Série « Ce que je retiens » — ground: assets/papers/recete. On-screen facts from scene-facts.json:
-       node ../../tools/facts.mjs all . --lang fr   ·   phone floor: node ../../tools/legibility.mjs . -->
+  <!-- Série « Ce que je retiens » — ground: assets/papers/recete.
+       One source, two aspects: this file is 1920×1080; `node ../../tools/aspect.mjs .` writes shorts/ (1080×1920)
+       from it, using the :root[data-aspect="9x16"] rules below. Facts: node ../../tools/facts.mjs all . --lang fr
+       · phone floor + Shorts UI zone: node ../../tools/legibility.mjs . (and shorts/) -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
@@ -10,14 +12,19 @@
     <link rel="stylesheet" href="assets/pen/pen.css" />
     <link rel="stylesheet" href="assets/papers/papers.css" />
     <style>
-      :root { --paper: #F5F4F0; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
+      :root { --W: 1920px; --H: 1080px; --paper: #F5F4F0; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
                --graphite: #8C877A; --red: #C4301C; }
+      :root[data-aspect="9x16"] { --W: 1080px; --H: 1920px; }
       * { margin: 0; padding: 0; box-sizing: border-box; }
-      html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--paper); }
-      #root { position: relative; width: 1920px; height: 1080px; background: var(--paper); color: var(--ink);
-              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; }
+      html, body { width: var(--W); height: var(--H); overflow: hidden; background: var(--paper); }
+      #root { position: relative; width: var(--W); height: var(--H); background: var(--paper); color: var(--ink);
+              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; overflow: hidden; }
       .grain { position: absolute; inset: 0; background: url(assets/textures/paper-grain-16x9.png);
                mix-blend-mode: soft-light; opacity: .30; pointer-events: none; }
+      :root[data-aspect="9x16"] .grain { background-image: url(assets/textures/paper-grain-9x16.png); }
+      .only-916 { display: none; }
+      :root[data-aspect="9x16"] .only-916 { display: block; }
+      :root[data-aspect="9x16"] .only-169 { display: none; }
       .serif { font-family: 'Literata', Georgia, serif; }
       .mono  { font-family: 'IBM Plex Mono', monospace; font-weight: 500; }
       .sans  { font-family: 'IBM Plex Sans', system-ui, sans-serif; }
@@ -28,11 +35,12 @@
                box-shadow: 0 1px 0 rgba(27,34,48,.10); padding: 16px 26px; font-family: 'IBM Plex Mono', monospace;
                font-size: 40px; line-height: 1.32; color: var(--ink-soft); }
       .slip .t { color: var(--ink); font-weight: 500; }
+      :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
       .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
       .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
                font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
                mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
-               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
+               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
       :lang(tr) .stamp { font-size: 60px; }
 
       /* recete geometry: dashed rules every 96 px from 300, x 150–1770; header zone above 260 stays blank of print */
@@ -46,7 +54,14 @@
       .slip { left: 150px; top: 868px; }
       .sig  { position: absolute; right: 150px; top: 896px; width: 410px; border-top: 2px solid var(--ink-soft);
               padding-top: 14px; text-align: center; font-size: 40px; color: var(--ink-soft); white-space: nowrap; }
-
+      /* ---- 9:16 (Shorts): bottom 18 % and the right icon column stay free of text ---- */
+      :root[data-aspect="9x16"] .kick { left: 84px; --y: 200px; }
+      :root[data-aspect="9x16"] .ser { right: 84px; --y: 200px; }
+      :root[data-aspect="9x16"] .it { left: 84px; width: 876px; white-space: normal; --lh: 96px; padding-left: 88px; }
+      :root[data-aspect="9x16"] .it .d { position: absolute; left: 0; top: 0; }
+      :root[data-aspect="9x16"] .i1 { --y: 516px; } :root[data-aspect="9x16"] .i2 { --y: 804px; } :root[data-aspect="9x16"] .i3 { --y: 1092px; }
+      :root[data-aspect="9x16"] .sig { right: 120px; top: 1236px; }
+      :root[data-aspect="9x16"] .slip { left: 84px; top: 1330px; width: 876px; }
     </style>
   </head>
   <body>
@@ -65,7 +80,6 @@
       </div>
       <div class="sig sans" id="sig" data-chrome="signature">Dr Senai Aksoy</div>
       <audio id="sfx-pen" data-start="6.38" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-01.wav"></audio>
-
     </div>
     <script>
       window.__timelines = window.__timelines || {};
@@ -78,7 +92,6 @@
       rise('#slip', 5.2, 0.5);
       tl.fromTo('#ul', { '--p': 0 }, { '--p': 1, duration: 0.55, ease: 'power2.inOut' }, 6.4);
       rise('#sig', 7.6, 0.5);
-
       tl.to({}, { duration: 0.01 }, 9.99);
       window.__timelines['main'] = tl;
       tl.seek(0);
