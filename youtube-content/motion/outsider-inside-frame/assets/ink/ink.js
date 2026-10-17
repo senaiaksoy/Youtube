@@ -9,6 +9,7 @@
    const r = ink.boxAround('#node1', 18);          // box around an element (its CSS box + padding)
    const a = ink.arrow([[x1,y1],[x2,y2]], {bend: 30}); // curved connector + 2-stroke arrowhead
    const h = ink.hatch(x, y, w, h);                // outlined bar filled with hachure (bar charts)
+   const e = ink.ellipse(cx, cy, w, h);            // wobbly circle / ellipse (e.g. around the end-screen subscribe slot)
    ink.draw(tl, b, 1.2, 0.6);                      // draws the shape's paths one after another from t=1.2 over 0.6 s
 */
 (function () {
@@ -39,6 +40,7 @@
           return api.box(b.x - pad, b.y - pad, b.w + 2 * pad, b.h + 2 * pad, o); },
         rectOf: (sel) => box(document.querySelector(sel), rootEl),
         line: (x1, y1, x2, y2, o) => add(rc.line(x1, y1, x2, y2, base(o))),
+        ellipse: (cx, cy, w, h, o) => add(rc.ellipse(cx, cy, w, h, base(o))),
         arrow: (pts, o = {}) => {
           const [p0, p1] = [pts[0], pts[pts.length - 1]];
           const bend = o.bend || 0; const mx = (p0[0] + p1[0]) / 2, my = (p0[1] + p1[1]) / 2;

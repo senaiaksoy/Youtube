@@ -40,6 +40,8 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 - `assets/components/components.css` + `example-components/` → isim bandı ve yan not (talking-head), CTA, bölüm geçişi (chapitre), kapanış cümlesi (cloture), footage/illustration etiketleri (etiquettes); her biri 16:9 + Shorts, FR/TR/EN kontrollü.
 - `assets/ink/` → rough.js ile siyah mürekkep şema çizgileri (kutu, ok, taralı çubuk); kırmızı kalem değil. Örnek `example-layouts/flux-A`, `arbre-A`, `barres-A`.
 - `assets/schema/` → gerçek bilimsel çizimden mürekkep levhalar (Servier Medical Art, CC BY 4.0; künye ekranda). Örnek `example-layouts/schema-A`.
+- `tools/facts-draft.mjs` → scriptin `-sources.md` dosyasından `scene-facts.json` taslağı (metinler TODO; ❌/❓/🕒 iddialar alınmaz).
+- `example-components/fin` → bitiş ekranı (son 20 sn; YouTube öğeleri için boş yerler, Shorts'ta ilgili video bağlantısına ok).
 - `tools/pen.mjs` → videoya özel tohum: gerçek kalem izlerinin seçimi/yerleşimi, damga, ses, mürekkep çizgileri. `facts.mjs apply`'dan önce.
 - `assets/hand/` → Dr. Aksoy'un tükenmez kalemle yazdığı notlar (FR/TR/EN kelimeler, oklar, soru işareti, çift alt çizgi); örnek `example-components/notes`. EN « Not proven » yeniden yazılacak.
 - `assets/objects/` → Dr. Aksoy'un masasından gerçek ataşlar (künye kartını tutturmak için).

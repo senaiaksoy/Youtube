@@ -410,6 +410,7 @@ Every overlay the edit needs has a built, checked reference in `example-componen
 | signature line | `cloture` | the channel's closing sentence verbatim, Literata italic, one pen circle on « garanties / Garantiler / Guarantees »; channel handle under it |
 | footage-tab / illustration-tab | `etiquettes` | footage-tab on real footage (what + source); illustration-tab on every AI / stock clip from its first to its last frame |
 | handwriting | `notes` | Dr. Aksoy's ballpoint notes (`assets/hand/`) in ink, never red: words only in their own language (`-fr/-tr/-en` → `.only-fr/.only-tr/.only-en`; EN has no « Not proven » yet), arrows / ? / double underline in every language; words ≥ 1.3× native size; one handwritten word + one arrow per frame |
+| end screen | `fin` | the last 20 s: two empty 613×343 slots + one 298 Ø slot where YouTube draws its video / subscribe elements (inner 80 % of the frame), ink frames drawn just outside them, « À voir ensuite » + one line, one hand arrow to the first slot; nothing of ours under a slot. Shorts have no end screen: the 9:16 twin points down to the related-video link instead |
 | paper clip | `example-series/conseils` | real clip from Dr. Aksoy's desk (`assets/objects/`) holding a card; never over text (`.clipped-left` / `.clipped` make room); max one object per frame |
 
 The talking-head stills in these references are stand-ins: in a real edit `.foot` is Dr. Aksoy's camera clip.

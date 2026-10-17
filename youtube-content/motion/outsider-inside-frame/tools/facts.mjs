@@ -20,6 +20,7 @@
 //   - any digit appears in visible on-screen text that is not bound to a fact (data-fact / data-ref)
 //     or explicitly exempted (data-fact-exempt="reason") / per-language chrome (data-chrome="id", from spec.chrome)
 //   - bound text on screen differs from scene-facts.json (run apply)
+//   - a TODO is left in scene-facts.json (drafts from facts-draft.mjs; warning only with --draft)
 // No dependencies; Node 18+.
 
 import fs from 'node:fs';
@@ -259,6 +260,11 @@ function doVerify() {
     }
     ok.push(`${tag}: ${f.claim} ${ctx.lastVerdict || '·'} → "${factText(f)}"`);
   }
+  // drafts (tools/facts-draft.mjs): every TODO must be written before render
+  const todo = []; (function walk(v, at) { if (typeof v === 'string') { if (/\bTODO\b/.test(v)) todo.push(at); }
+    else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) if (!k.startsWith('_')) walk(x, at ? `${at}.${k}` : k); })(
+    { refs: spec.refs, chrome: spec.chrome, facts: Object.fromEntries((spec.facts || []).map((f) => [f.id, f])) }, '');
+  for (const t of todo) W(`TODO left in scene-facts.json at ${t} — write the on-screen text`);
   // chrome: titles / chapter numbers only — never data
   for (const [id, c] of Object.entries(spec.chrome || {})) for (const [L, t] of Object.entries(c))
     for (const x of numbersIn(t)) if (!(Number.isInteger(x) && x < 100)) E(`chrome ${id} (${L}): "${t}" carries a number (${x}); chrome is for titles and chapter numbers only — use a fact`);

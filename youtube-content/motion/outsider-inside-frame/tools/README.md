@@ -136,3 +136,16 @@ node tools/pen.mjs show  <sahne> …             # ne seçeceğini yazar, dosyay
 
 `node tools/variety.mjs suggest <seri> [--seed N]` → seri ailelerinden (series.json "families") kapıyı geçen bir
 first_graphic + yerleşim seti önerir; son 4 videoda kullanılmayanlar önce.
+
+## facts-draft.mjs — kaynak dosyasından ekran verisi taslağı (2026-10-17)
+
+```
+node tools/facts-draft.mjs <video-script-…-sources.md> <sahne> [--claims C02,C15] [--force]
+```
+- İddia kaydındaki satırları (`| C07 |`, `| C03–C04 |`) ve `### S2 —` kaynak bölümlerini facts.mjs ile aynı kurallarla okur;
+  son ✅/⚠/❌/❓/🕒 satırı iddianın kararıdır.
+- ❌ / ❓ / 🕒 iddialar taslağa alınmaz (ekrana çıkamaz). Karar satırı olmayanlar uyarıyla alınır.
+- Her iddia için `kind: statement`, metin `TODO` (fr/tr/en) ve yazara yardımcı `_claim`, `_numbers`, `_verdict`, `_pmids`;
+  iddiaların kaynak gösterdiği her PMID için bir ref (design/n `TODO`). Geri çekilme geçen kaynak işaretlenir.
+- Ekran cümlesi ve rakam **uydurmaz**: yazar metni yazar, rakamı yalnızca `_numbers`'tan seçer.
+- `facts.mjs verify` artık `TODO` kalan her alanda başarısız olur (`--draft` ile uyarı).
