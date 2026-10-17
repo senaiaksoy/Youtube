@@ -1,0 +1,75 @@
+===== tr
+tr W1vSQ4OzgbI private  publishAt=-                        published=2026-10-17T10:02:19Z dur=PT43S      glp1 tr short B
+tr 521shfez8kU private  publishAt=-                        published=2026-10-17T10:01:55Z dur=PT1M       glp1 tr short A
+tr 8ZtwHFtF0Io private  publishAt=2026-10-20T14:00:00Z     published=2026-10-17T09:14:56Z dur=PT13M22S   Zayıflama iğnesi ve gebelik: Hamile kalmaya gerçekten yardım eder mi?
+tr CmrQY80Ga8Q public   publishAt=-                        published=2026-10-16T14:00:19Z dur=PT59S      DHEA tüp bebekte işe yarıyor mu? Kanıt puanı 0/4
+tr U8vAciGqvSU public   publishAt=-                        published=2026-10-14T14:00:15Z dur=PT9M14S    Tüp bebekte takviyeler işe yarar mı? 8 takviyeye 0–4 kanıt puanı
+tr I2yCAcRG6mQ private  publishAt=2026-10-19T14:00:00Z     published=2026-10-13T19:00:29Z dur=PT49S      Antioksidanlar tüp bebekte işe yarıyor mu? 7 çalışma geri çekildi
+tr yhTy0f5lH7M public   publishAt=-                        published=2026-10-08T15:00:29Z dur=PT48S      DHEA: Gerçekten 28 araştırma mı var?
+tr WzbqpUlEpAk public   publishAt=-                        published=2026-10-07T14:00:26Z dur=PT55S      DHEA tüp bebekte işe yarar mı? 821 kadınlık çalışma
+tr 5EZWgWqJ8lc public   publishAt=-                        published=2026-10-06T14:00:34Z dur=PT12M39S   Tüp bebekte DHEA işe yarar mı? 28 araştırmanın ve 821 kadınlık çalışma
+tr P7CdnSIAOFI public   publishAt=-                        published=2026-09-29T14:00:08Z dur=PT7M56S    Beta-hCG 48 Saatte İkiye Katlanmadıysa? | Doç. Dr. Senai Aksoy
+tr emTsNt2KUhU public   publishAt=-                        published=2026-09-28T14:00:36Z dur=PT55S      Beta-hCG 48 Saatte İkiye Katlanmadıysa? | Doç. Dr. Senai Aksoy #Shorts
+tr dRuICdpBQKA public   publishAt=-                        published=2026-07-31T14:00:37Z dur=PT54S      Düşük Sonrası Hamilelik İçin Ne Kadar Beklenmeli? 🩺 #Shorts
+tr za6o781xbWw public   publishAt=-                        published=2026-07-30T15:00:34Z dur=PT17M6S    Düşükten Sonra Yeniden Denemek İçin Ne Kadar Beklemeli? | Dr. Senai Ak
+tr u16jZmYwB5w public   publishAt=-                        published=2026-06-30T14:00:39Z dur=PT11M56S   Yumurta Kalitesini Artırır mı? DHEA ve Büyüme Hormonu
+tr 7gOHCOdBNsg public   publishAt=-                        published=2026-06-26T06:13:38Z dur=PT56S      Tüp bebekte DHEA ve büyüme hormonu gerçekten gerekli mi?
+tr FI2kj2cDe8k public   publishAt=-                        published=2026-06-16T13:00:31Z dur=PT10M19S   Tüp Bebekte En İyi Sperm Nasıl Seçilir? (IMSI, PICSI, MACS)
+tr uTwvUjm4rSI public   publishAt=-                        published=2026-06-03T13:27:34Z dur=PT51S      Transfer Öncesi Rahim Kalınlığı Kaç Olmalı? | Dr. Senai Aksoy #Shorts
+tr DIG0ClopF68 public   publishAt=-                        published=2026-06-01T16:00:12Z dur=PT13M40S   Transfer Öncesi Rahim Kalınlığı Kaç mm Olmalı? 7 mm Yeter mi?
+tr 5D1sgB_eTbY public   publishAt=-                        published=2026-05-12T16:00:06Z dur=PT14M42S   Varikosel Nedir? Ne Zaman Ameliyat Gerekir? | Doç. Dr. Senai Aksoy
+tr pVy2p97eOGA public   publishAt=-                        published=2026-05-12T07:47:54Z dur=PT1M       Tüp Bebekte Cerrahi Ne Zaman Gerekli? 4 Koşul | Dr. Senai Aksoy #Short
+tr -i981BtfKVY public   publishAt=-                        published=2026-04-26T20:09:34Z dur=PT1M25S    ERA Testi Nedir? Tüp Bebekte Gerekli mi?
+tr b8wT1pAbX3A public   publishAt=-                        published=2026-04-23T19:52:17Z dur=PT13M27S   ERA Testi Hamile Kalma Şansını Düşürür mü? (JAMA 2022)
+tr 6UwNaQa_di4 public   publishAt=-                        published=2026-03-30T17:00:00Z dur=PT4M46S    Tüp Bebekte Soğan Suyu ve Akupunktur İşe Yarar mı?
+tr zGzzDHRkjN4 public   publishAt=-                        published=2026-03-17T16:01:37Z dur=PT9M12S    Mantar mı, Bakteriyel Vajinoz mu? Evde Test Yöntemi
+tr oyBpALzZzEU public   publishAt=-                        published=2026-03-10T16:01:16Z dur=PT6M18S    Tüp Bebekte Rahim Çizme Gerçekten İşe Yarıyor mu?
+tr DbCrz_VPyC4 public   publishAt=-                        published=2026-03-03T16:00:16Z dur=PT6M36S    Bağışıklık Serumları Tüp Bebekte İşe Yarıyor mu?
+tr GP809hiOu_Y public   publishAt=-                        published=2026-02-05T16:00:31Z dur=PT5M38S    Tüp Bebek Öncesi Histeroskopi Şart mı?
+tr wybruaMaIdY public   publishAt=-                        published=2026-01-27T16:01:31Z dur=PT8M47S    Embryo Glue Gerçekten İşe Yarıyor mu?
+tr 8Dx-f4ea6h4 public   publishAt=-                        published=2026-01-19T17:00:12Z dur=PT7M59S    Embriyoskop ve Yapay Zeka: Tüp Bebekte Ne Değişti?
+tr w29IsrwxHWA public   publishAt=-                        published=2026-01-06T15:41:05Z dur=PT7M1S     Yumurta Dondurma: Başarı İçin Gerçekten Kaç Tane Gerekir?
+===== fr
+fr FZPzp7OWAzM public   publishAt=-                        published=2026-10-16T16:00:34Z dur=PT44S      DHEA en FIV : plus d’ovocytes = plus de naissances ? #Shorts
+fr UmRb1LmwM5U private  publishAt=2026-10-30T17:00:00Z     published=2026-10-16T11:44:36Z dur=PT39S      Stylo pour maigrir : combien de temps l'arrêter avant une grossesse ? 
+fr Ea2pY20i2m4 private  publishAt=2026-10-28T17:00:00Z     published=2026-10-16T11:44:02Z dur=PT48S      Règles tous les trois mois : pas de risque de grossesse ? #Shorts
+fr U-ophcWNOro private  publishAt=2026-10-27T17:00:00Z     published=2026-10-16T09:25:36Z dur=PT13M57S   Stylo pour maigrir et grossesse : aide-t-il vraiment à tomber enceinte
+fr SF5Dx95TTGg public   publishAt=-                        published=2026-10-14T16:00:33Z dur=PT36S      DHEA et FIV : 28 essais… mais combien sur la DHEA ? #Shorts
+fr dYF3NWf4Nw8 public   publishAt=-                        published=2026-10-13T16:00:32Z dur=PT12M7S    DHEA en FIV : plus d’ovocytes ou plus de naissances vivantes ?
+fr QG6bU4cOptI private  publishAt=2026-10-23T16:00:00Z     published=2026-10-09T17:40:37Z dur=PT44S      Cœur vu à l’échographie de FIV : combien de grossesses continuent ? #S
+fr 3pmdT2Bc3sI private  publishAt=2026-10-21T16:00:00Z     published=2026-10-09T17:40:17Z dur=PT37S      Après l’échographie de FIV : 4 signes à ne jamais ignorer #Shorts
+fr MoApIs3-WwE private  publishAt=2026-10-20T16:00:00Z     published=2026-10-09T13:24:40Z dur=PT15M50S   Première échographie après FIV : quand voit-on le cœur du bébé ?
+fr jg_F4SN10sc public   publishAt=-                        published=2026-10-07T16:00:20Z dur=PT59S      CoQ10 et FIV : que montrent les études ? #Shorts
+fr SD3CKpN6VS0 public   publishAt=-                        published=2026-10-06T16:00:28Z dur=PT12M28S   Compléments et FIV : que disent vraiment les études ?
+fr pUq5UJ3PEH4 public   publishAt=-                        published=2026-09-22T16:00:28Z dur=PT13M35S   Taux bêta-hCG après FIV : comment les interpréter ?
+fr uEexFyDOzLo public   publishAt=-                        published=2026-09-22T12:59:01Z dur=PT56S      Taux bêta-hCG après une FIV : comment interpréter le résultat ?
+fr Ks0Cwpy_a4A public   publishAt=-                        published=2026-09-01T14:00:00Z dur=PT8M48S    AMH basse : insuffisance ovarienne prématurée ? Ce qu’il faut vraiment
+fr tVAgF6CIJzY public   publishAt=-                        published=2026-08-31T16:00:08Z dur=PT50S      Faut-il vraiment attendre 3 mois après une fausse couche? 🩺 #Shorts
+fr 3aqQA66Xy7M public   publishAt=-                        published=2026-08-31T14:00:27Z dur=PT59S      AMH basse = insuffisance ovarienne prématurée ? Pas forcément. #Shorts
+fr 1yaT_G_bhK8 public   publishAt=-                        published=2026-08-21T05:20:44Z dur=PT59S      10 ovocytes → 0 embryon ? | La FIV après 40 ans #Shorts
+fr 2QpLE_wST1s public   publishAt=-                        published=2026-08-20T15:03:55Z dur=PT20M49S   FIV après 40 ans : quelles sont vos vraies chances de réussite ?
+fr -EG4Q9AsWLU public   publishAt=-                        published=2026-07-28T16:00:07Z dur=PT15M45S   Fausse Couche : Combien de Temps Attendre Avant de Réessayer ?
+fr IahtBeIzkyo public   publishAt=-                        published=2026-07-21T15:00:06Z dur=PT10M25S   Compléments en FIV : science ou marketing ? Ce qui est vraiment prouvé
+fr 8BzQtYcesDU public   publishAt=-                        published=2026-07-20T15:29:06Z dur=PT1M       Compléments miracles FIV : science ou placement de produit ?
+fr x8VzlUmEQEw public   publishAt=-                        published=2026-07-14T15:00:00Z dur=PT11M12S   Deuxième avis FIV : récupérez votre dossier médical (5 points à vérifi
+fr U5eV9bX_apY public   publishAt=-                        published=2026-07-11T14:47:41Z dur=PT51S      Dossier médical FIV : Récupérez vos embryons ! #shorts
+fr zhcapjJhxzA public   publishAt=-                        published=2026-06-29T16:00:36Z dur=PT5M23S    FIV à l’étranger : Pourquoi commencer par le dossier (et non la valise
+fr ibyu5gWtfQY public   publishAt=-                        published=2026-06-23T15:00:35Z dur=PT12M41S   DHEA et hormone de croissance en FIV : preuves, limites et vrais risqu
+fr EzZD9uMGXzc public   publishAt=-                        published=2026-06-23T11:07:31Z dur=PT56S      DHEA et hormone de croissance en FIV : miracle ou business ? #shorts
+fr pqc9UgCIqo0 public   publishAt=-                        published=2026-06-10T17:00:03Z dur=PT10M46S   IMSI, PICSI, MACS : comment mieux choisir les spermatozoïdes ?
+fr oCVZ8johrR0 public   publishAt=-                        published=2026-06-10T13:19:21Z dur=PT53S      Grossissement 6000x en FIV : Pourquoi l'IMSI ?
+fr Uw2xfxw7N48 public   publishAt=-                        published=2026-05-26T18:00:07Z dur=PT6M47S    Épaisseur de l’endomètre avant transfert : faut-il vraiment s’inquiéte
+fr VEaE8TD9rMM public   publishAt=-                        published=2026-05-20T08:23:53Z dur=PT27S      Endomètre à 7 mm : faut-il reporter le transfert ?
+===== en
+en 8ogE3yd5nkE private  publishAt=2026-10-31T16:00:00Z     published=2026-10-16T18:43:17Z dur=PT28S      Weight-Loss Injections: How Long to Stop Before Pregnancy? #Shorts
+en q0hv1IbKZ5M private  publishAt=2026-10-29T16:00:00Z     published=2026-10-16T18:43:00Z dur=PT38S      Periods Every Three Months: No Risk of Pregnancy? #Shorts
+en Q7aCrXhG_E8 private  publishAt=2026-10-28T16:00:00Z     published=2026-10-16T18:07:12Z dur=PT9M24S    Weight-Loss Injections and Pregnancy: Do They Really Help You Get Preg
+en 2hjpsL0bwhM public   publishAt=-                        published=2026-10-14T19:00:35Z dur=PT12M1S    IVF Supplements: What Really Helps? CoQ10, DHEA, Vitamin D & More
+en aiWv6SPHVjE public   publishAt=-                        published=2026-10-10T19:00:38Z dur=PT47S      Twice the Eggs ≠ Twice the Chance
+en GjE2alkBnQ0 public   publishAt=-                        published=2026-10-10T03:39:39Z dur=PT43S      “Clinically Studied”… But Did They Count Babies?
+en UiyD5UrG-1g private  publishAt=2026-10-24T16:00:00Z     published=2026-10-10T03:38:57Z dur=PT43S      Heartbeat Seen After IVF: How Many Pregnancies Continue? #Shorts
+en oOlP8zMJ4MA private  publishAt=2026-10-22T16:00:00Z     published=2026-10-10T03:38:41Z dur=PT30S      After an IVF Scan: 4 Warning Signs You Should Never Ignore #Shorts
+en queLygimeS8 private  publishAt=2026-10-21T16:00:00Z     published=2026-10-09T17:58:57Z dur=PT11M43S   When Do You See the Heartbeat After IVF? First Ultrasound Explained
+en w66VbgBXPU8 public   publishAt=-                        published=2026-10-08T19:00:07Z dur=PT59S      20 Eggs = 20 Chances? Not Quite.
+en LiHCkpiGq7I private  publishAt=2026-10-17T19:00:00Z     published=2026-10-08T06:46:59Z dur=PT48S      DHEA for IVF: What 28 Trials Found
+en J21RLRUE1g8 public   publishAt=-                        published=2026-10-07T19:00:31Z dur=PT9M56S    How Many Eggs Should You Freeze? Real Numbers by Age

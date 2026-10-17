@@ -1,4 +1,4 @@
-"""Compose a channel-style FR long-video thumbnail (offline, no API).
+"""Compose a channel-style long-video thumbnail (offline, no API). --style fr (default) or tr.
 
 Base image: AI-generated (Higgsfield gpt_image_2_5) with Dr. Aksoy on the RIGHT third, navy/teal
 science backdrop, and NO text. This script adds the type deterministically (correct accents):
@@ -9,6 +9,10 @@ Usage:
   py -3.12 yt_thumb_compose.py --base base.png --out fr-thumb-00-slug-A.jpg \
      --line1 "GLP-1" --line2 "ET GROSSESSE ?" --pill "CE QUE DISENT LES ÉTUDES"
 Writes the 1280×720 JPG (< 2 MB) and <out>-mobile.png (120×68 proof, ×4 enlarged).
+
+--style tr (@DocentDrSenaiAksoy, learned 2026-10-17 from U8vAciGqvSU "HANGİSİ İŞE YARAR?"): both lines
+yellow heavy caps with a dark outline, white rounded pill with near-black text at the bottom-left.
+Turkish caps: pass the text already uppercased with dotted İ (e.g. "İĞNE", not "IGNE").
 """
 import argparse
 import sys
@@ -24,6 +28,7 @@ for _s in (sys.stdout, sys.stderr):
 
 W, H = 1280, 720
 WHITE, GOLD, NAVY = (250, 248, 242), (240, 190, 80), (14, 30, 54)
+YELLOW, INK = (255, 214, 0), (17, 17, 17)
 FONT = "C:/Windows/Fonts/bahnschrift.ttf"  # variable: condensed width + bold weight
 
 
@@ -48,6 +53,7 @@ def main() -> None:
     ap.add_argument("--line2", required=True, help="accent question, gold (e.g. ET GROSSESSE ?)")
     ap.add_argument("--pill", default="", help="gold label (e.g. CE QUE DISENT LES ÉTUDES)")
     ap.add_argument("--maxw", type=int, default=640, help="text column width in px")
+    ap.add_argument("--style", choices=["fr", "tr"], default="fr", help="fr: white/gold/gold pill · tr: yellow outlined caps, white pill bottom-left")
     a = ap.parse_args()
     nb = lambda s: s.replace(" ?", "\u00a0?").replace(" !", "\u00a0!").replace(" :", "\u00a0:")
 
@@ -62,9 +68,10 @@ def main() -> None:
     img = Image.composite(Image.new("RGB", (W, H), NAVY), img, shade)
     d = ImageDraw.Draw(img)
 
+    TR = a.style == "tr"
     def fit(text, maxw, start, wght=700):
         for s in range(start, 30, -2):
-            f = cond(s, wght)
+            f = cond(s, 800 if TR and wght == 700 else wght, 92 if TR else 75)
             b = d.textbbox((0, 0), text, font=f)
             if b[2] - b[0] <= maxw:
                 return f, b
@@ -75,21 +82,26 @@ def main() -> None:
         ImageDraw.Draw(sh).text(xy, text, font=font, fill=200)
         sh = sh.filter(ImageFilter.GaussianBlur(6))
         img.paste((0, 0, 0), (0, 0), sh.point(lambda v: int(v * 0.55)))
-        ImageDraw.Draw(img).text(xy, text, font=font, fill=fill)
+        if TR:
+            ImageDraw.Draw(img).text(xy, text, font=font, fill=fill, stroke_width=5, stroke_fill=INK)
+        else:
+            ImageDraw.Draw(img).text(xy, text, font=font, fill=fill)
 
     X, y = 64, 70
     f1, b1 = fit(nb(a.line1), a.maxw, 230)
-    shadow_text((X - b1[0], y - b1[1]), nb(a.line1), f1, WHITE)
+    shadow_text((X - b1[0], y - b1[1]), nb(a.line1), f1, YELLOW if TR else WHITE)
     y += (b1[3] - b1[1]) + 26
     f2, b2 = fit(nb(a.line2), a.maxw, 120)
-    shadow_text((X - b2[0], y - b2[1]), nb(a.line2), f2, GOLD)
+    shadow_text((X - b2[0], y - b2[1]), nb(a.line2), f2, YELLOW if TR else GOLD)
     y += (b2[3] - b2[1]) + 40
     if a.pill:
         f3, b3 = fit(a.pill, a.maxw - 80, 52, 600)
         pw, ph = (b3[2] - b3[0]) + 44, (b3[3] - b3[1]) + 28
         d = ImageDraw.Draw(img)
-        d.rounded_rectangle((X, y, X + pw, y + ph), radius=10, fill=GOLD)
-        d.text((X + 22 - b3[0], y + 14 - b3[1]), a.pill, font=f3, fill=NAVY)
+        if TR:
+            X, y = 24, H - ph - 32
+        d.rounded_rectangle((X, y, X + pw, y + ph), radius=ph // 2 if TR else 10, fill=WHITE if TR else GOLD)
+        d.text((X + 22 - b3[0], y + 14 - b3[1]), a.pill, font=f3, fill=INK if TR else NAVY)
 
     out = Path(a.out)
     img.save(out, quality=92)
