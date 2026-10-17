@@ -12,5 +12,6 @@
   "pen_marks": [
     "strike-01"
   ],
-  "stamp_flip": false
+  "stamp_flip": true,
+  "seed": 80822
 }

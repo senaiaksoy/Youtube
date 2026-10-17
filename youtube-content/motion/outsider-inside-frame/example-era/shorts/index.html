@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-aspect="9x16">
+<html lang="fr" data-ink-seed="80823" data-aspect="9x16">
   <!-- Reference scene « Le mythe » (promesse-A + chiffre-A + verdict-A). On-screen facts from scene-facts.json.
        One source, two aspects: this file is 1920×1080; `node ../../tools/aspect.mjs .` writes shorts/ (1080×1920)
        from it, using the :root[data-aspect="9x16"] rules below. Facts: node ../../tools/facts.mjs all . --lang fr
@@ -39,7 +39,7 @@
       .slip .t { color: var(--ink); font-weight: 500; }
       :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
       .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
-      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+      .stamp { position: absolute; transform: rotate(calc(-6deg + var(--stamp-rot, 0deg))); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
                font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
                mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
                -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
@@ -80,10 +80,11 @@
   </head>
   <body>
     <div id="root" class="oi-c" data-composition-id="main" data-start="0" data-duration="10" data-width="1080" data-height="1920">
+      <svg id="pen-warp-defs" width="0" height="0" style="position:absolute" aria-hidden="true"><defs><filter id="pen-warp-1" x="-6%" y="-40%" width="112%" height="180%"><feTurbulence type="fractalNoise" baseFrequency="0.0035 0.02" numOctaves="1" seed="134" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="16" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
       <div class="grain"></div>
 
       <div class="kicker" id="kicker"><b>§</b><span data-chrome="chapter">07 · Test ERA</span></div>
-      <div class="claim" id="claim"><span class="txt"><span data-fact="Q1">« Le test ERA améliore vos chances. »</span><img class="pen" id="strike" src="assets/pen/strike-01.png" alt="" /></span></div>
+      <div class="claim" id="claim"><span class="txt"><span data-fact="Q1">« Le test ERA améliore vos chances. »</span><img data-pen="strike" data-pen-tool="round" class="pen" id="strike" src="assets/pen/strike-01.png" alt="" data-pen-id="strike-01" data-pen-flip="y" style="--pen-rot:-0.95deg;--pen-sy:-0.82;--pen-fx:1;--pen-warp:url(#pen-warp-1)" /></span></div>
       <div class="evidence" id="evidence"><span data-fact="F1">Essai randomisé : aucun bénéfice démontré.</span><span class="mk" data-ref="R1" data-field="marker">[1]</span></div>
       <div class="kpi-label" id="kpiLabel" data-fact="K1">Naissances vivantes par transfert</div>
       <div class="fig fig-a" id="figA"><div class="n" data-fact="F2">58,5 %</div><div class="l" data-fact="F2" data-field="label">Transfert guidé par l’ERA</div></div>
@@ -93,10 +94,10 @@
         <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
         <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
       </div>
-      <div class="stamp" id="stamp" data-fact="V1">NON PROUVÉ</div>
+      <div class="stamp" data-stamp id="stamp" data-fact="V1" data-stamp-var="b" style="--stamp-rot:3.97deg">NON PROUVÉ</div>
       <!-- real foley recorded by Dr. Aksoy: marker on paper, rubber stamp on desk -->
-      <audio id="sfx-pen" data-start="2.28" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-02.wav"></audio>
-      <audio id="sfx-stamp" data-start="6.97" data-duration="0.85" data-track-index="11" data-volume="0.85" src="assets/sfx/stamp-01.wav"></audio>
+      <audio data-sfx="pen" id="sfx-pen" data-start="2.28" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-03.wav"></audio>
+      <audio data-sfx="stamp" id="sfx-stamp" data-start="6.97" data-duration="0.85" data-track-index="11" data-volume="0.85" src="assets/sfx/stamp-02.wav"></audio>
     </div>
     <script>
       window.__timelines = window.__timelines || {};

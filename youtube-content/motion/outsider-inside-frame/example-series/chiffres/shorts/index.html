@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-aspect="9x16">
+<html lang="fr" data-ink-seed="34738" data-aspect="9x16">
   <!-- Série « Les chiffres » — ground: assets/papers/kareli.
        One source, two aspects: this file is 1920×1080; `node ../../tools/aspect.mjs .` writes shorts/ (1080×1920)
        from it, using the :root[data-aspect="9x16"] rules below. Facts: node ../../tools/facts.mjs all . --lang fr
@@ -39,7 +39,7 @@
       .slip .t { color: var(--ink); font-weight: 500; }
       :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
       .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
-      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+      .stamp { position: absolute; transform: rotate(calc(-6deg + var(--stamp-rot, 0deg))); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
                font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
                mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
                -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
@@ -78,6 +78,7 @@
   </head>
   <body>
     <div id="root" class="oi-c" data-composition-id="main" data-start="0" data-duration="10" data-width="1080" data-height="1920">
+      <svg id="pen-warp-defs" width="0" height="0" style="position:absolute" aria-hidden="true"><defs><filter id="pen-warp-1" x="-6%" y="-40%" width="112%" height="180%"><feTurbulence type="fractalNoise" baseFrequency="0.006" numOctaves="1" seed="418" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="8" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
       <div class="ground ground--kareli"></div>
       <div class="grain"></div>
 
@@ -89,12 +90,12 @@
       <div class="row hdr mono up" id="hdr"><div class="c1" data-fact="K1">Naissances vivantes par transfert</div></div>
       <div class="row ra" id="ra"><div class="c1 sans lab" data-fact="F2" data-field="label">Transfert guidé par l’ERA</div><div class="c2 serif num val" data-fact="F2">58,5 %</div></div>
       <div class="row rb" id="rb"><div class="c1 sans lab" data-fact="F3" data-field="label">Transfert à horaire standard</div><div class="c2 serif num val" data-fact="F3" data-layout-allow-occlusion="circled by the pen (multiply ink)">61,9 %</div></div>
-      <img class="pen pen--loop pen-oval" id="oval" data-layout-allow-occlusion="pen circles the figure (multiply ink)" src="assets/pen/oval-01.png" alt="" />
+      <img data-pen="loop" data-pen-tool="round" class="pen pen--loop pen-oval" id="oval" data-layout-allow-occlusion="pen circles the figure (multiply ink)" src="assets/pen/oval-01.png" alt="" data-pen-id="oval-01" style="--pen-rot:1.18deg;--pen-sy:0.98;--pen-fx:1;--pen-warp:url(#pen-warp-1)" />
       <div class="slip" id="slip">
         <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
         <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
       </div>
-      <audio id="sfx-pen" data-start="7.08" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-03.wav"></audio>
+      <audio data-sfx="pen" id="sfx-pen" data-start="7.08" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-03.wav"></audio>
     </div>
     <script>
       window.__timelines = window.__timelines || {};

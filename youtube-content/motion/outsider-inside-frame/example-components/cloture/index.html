@@ -38,7 +38,7 @@
       .slip .t { color: var(--ink); font-weight: 500; }
       :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
       .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
-      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+      .stamp { position: absolute; transform: rotate(calc(-6deg + var(--stamp-rot, 0deg))); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
                font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
                mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
                -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
@@ -55,9 +55,9 @@
     <div id="root" class="oi-c" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
       <div class="grain"></div>
 
-      <div class="sigwrap" id="sig"><div class="signature"><span data-chrome="sig_pre">« Les </span><span class="w"><span data-chrome="sig_word" data-layout-allow-occlusion="circled by the pen on purpose">garanties</span><img class="pen pen--loop" id="circle" src="assets/pen/oval-01.png" alt="" data-layout-allow-occlusion="the pen circles the word" /></span><span data-chrome="sig_post">, c’est pour les réfrigérateurs, pas pour la biologie. »</span></div></div>
+      <div class="sigwrap" id="sig"><div class="signature"><span data-chrome="sig_pre">« Les </span><span class="w"><span data-chrome="sig_word" data-layout-allow-occlusion="circled by the pen on purpose">garanties</span><img data-pen="loop" data-pen-tool="round" class="pen pen--loop" id="circle" src="assets/pen/oval-01.png" alt="" data-layout-allow-occlusion="the pen circles the word" /></span><span data-chrome="sig_post">, c’est pour les réfrigérateurs, pas pour la biologie. »</span></div></div>
       <div class="sigref signature-ref" id="ref" data-chrome="handle">@SenaiAksoy</div>
-      <audio id="sfx-pen" data-start="2.58" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-02.wav"></audio>
+      <audio data-sfx="pen" id="sfx-pen" data-start="2.58" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-02.wav"></audio>
     </div>
     <script>
       window.__timelines = window.__timelines || {};

@@ -33,35 +33,66 @@
       "tr": "Mit avcısı",
       "en": "The myth",
       "paper": "a4",
-      "for": "a claim / add-on / promise examined: strike + verdict stamp"
+      "for": "a claim / add-on / promise examined: strike + verdict stamp",
+      "families": [
+        "promesse",
+        "chiffre",
+        "barres",
+        "arbre",
+        "verdict"
+      ]
     },
     "labo": {
       "fr": "Au labo",
       "tr": "Laboratuvardan",
       "en": "From the lab",
       "paper": "lab-spiral",
-      "for": "embryology, lab technique, what really happens to gametes/embryos — real footage is the hero"
+      "for": "embryology, lab technique, what really happens to gametes/embryos — real footage is the hero",
+      "families": [
+        "labo",
+        "schema",
+        "flux",
+        "chiffre",
+        "verdict"
+      ]
     },
     "questions": {
       "fr": "Vos questions",
       "tr": "Sorularınız",
       "en": "Your questions",
       "paper": "cizgili",
-      "for": "one patient question answered (generic wording, never an identifiable patient)"
+      "for": "one patient question answered (generic wording, never an identifiable patient)",
+      "families": [
+        "question",
+        "arbre",
+        "flux",
+        "schema",
+        "retenir"
+      ]
     },
     "chiffres": {
       "fr": "Les chiffres",
       "tr": "Rakamlar",
       "en": "The numbers",
       "paper": "kareli",
-      "for": "a study, a success rate, a comparison — the data is the story"
+      "for": "a study, a success rate, a comparison — the data is the story",
+      "families": [
+        "chiffre",
+        "barres",
+        "verdict"
+      ]
     },
     "conseils": {
       "fr": "Ce que je retiens",
       "tr": "Aklınızda kalsın",
       "en": "What to remember",
       "paper": "recete",
-      "for": "practical take-aways / closing summary — no drug names or doses, never a real prescription"
+      "for": "practical take-aways / closing summary — no drug names or doses, never a real prescription",
+      "families": [
+        "retenir",
+        "flux",
+        "chiffre"
+      ]
     }
   },
   "layouts": {
@@ -119,6 +150,26 @@
       "status": "built",
       "example": "example-series/conseils",
       "desc": "dash list on the rules, pen underline on the key line, signature"
+    },
+    "schema-A": {
+      "status": "built",
+      "example": "example-layouts/schema-A",
+      "desc": "a real scientific drawing (Servier Medical Art / NIH BioArt) as ink plates on the page, one common scale, stages printed in order, typeset labels on the rules, credit line on screen"
+    },
+    "flux-A": {
+      "status": "built",
+      "example": "example-layouts/flux-A",
+      "desc": "a process in 3–5 boxes, black-ink boxes and connectors drawn by rough.js (seeded per video), typeset labels; from the HyperFrames catalog hw-pipeline, restyled (no boil, no Caveat)"
+    },
+    "arbre-A": {
+      "status": "built",
+      "example": "example-layouts/arbre-A",
+      "desc": "one question card branching into two answer cards with ink connectors; every card text is a sourced fact; from the catalog flowchart, restyled (no cursor, no sticky-note colours)"
+    },
+    "barres-A": {
+      "status": "built",
+      "example": "example-layouts/barres-A",
+      "desc": "hatched ink bars on the squared grid, axis from 0, heights read from the sourced figures on screen; from the catalog data-chart, restyled"
     }
   },
   "pen_marks": [

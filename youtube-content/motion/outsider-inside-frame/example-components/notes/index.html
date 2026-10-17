@@ -38,7 +38,7 @@
       .slip .t { color: var(--ink); font-weight: 500; }
       :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
       .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
-      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+      .stamp { position: absolute; transform: rotate(calc(-6deg + var(--stamp-rot, 0deg))); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
                font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
                mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
                -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
@@ -83,7 +83,7 @@
         <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
         <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
       </div>
-      <audio id="sfx-pen" data-start="1.98" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-01.wav"></audio>
+      <audio data-sfx="pen" id="sfx-pen" data-start="1.98" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-01.wav"></audio>
     </div>
     <script>
       window.__timelines = window.__timelines || {};

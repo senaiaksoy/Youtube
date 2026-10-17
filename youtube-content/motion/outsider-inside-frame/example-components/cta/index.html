@@ -38,7 +38,7 @@
       .slip .t { color: var(--ink); font-weight: 500; }
       :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
       .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
-      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+      .stamp { position: absolute; transform: rotate(calc(-6deg + var(--stamp-rot, 0deg))); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
                font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
                mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
                -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
@@ -61,9 +61,9 @@
         <div class="sub" id="sub" data-chrome="sub">Abonnez-vous</div>
       </div>
       <!-- real foley: ink tap on each state change -->
-      <audio id="sfx-t1" data-start="1.48" data-duration="0.3" data-track-index="10" data-volume="0.7" src="assets/sfx/ink-tap-01.wav"></audio>
-      <audio id="sfx-t2" data-start="2.08" data-duration="0.3" data-track-index="11" data-volume="0.7" src="assets/sfx/ink-tap-02.wav"></audio>
-      <audio id="sfx-t3" data-start="2.68" data-duration="0.3" data-track-index="12" data-volume="0.7" src="assets/sfx/ink-tap-01.wav"></audio>
+      <audio data-sfx="ink-tap" id="sfx-t1" data-start="1.48" data-duration="0.3" data-track-index="10" data-volume="0.7" src="assets/sfx/ink-tap-01.wav"></audio>
+      <audio data-sfx="ink-tap" id="sfx-t2" data-start="2.08" data-duration="0.3" data-track-index="11" data-volume="0.7" src="assets/sfx/ink-tap-02.wav"></audio>
+      <audio data-sfx="ink-tap" id="sfx-t3" data-start="2.68" data-duration="0.3" data-track-index="12" data-volume="0.7" src="assets/sfx/ink-tap-01.wav"></audio>
     </div>
     <script>
       window.__timelines = window.__timelines || {};

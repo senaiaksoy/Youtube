@@ -1,0 +1,13 @@
+{
+  "series": "chiffres",
+  "papers": [
+    "kareli"
+  ],
+  "first_graphic": "barres-A",
+  "layouts": [
+    "barres-A"
+  ],
+  "pen_marks": [],
+  "stamp_flip": false,
+  "seed": 45670
+}

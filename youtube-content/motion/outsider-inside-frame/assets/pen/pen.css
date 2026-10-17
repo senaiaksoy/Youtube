@@ -8,3 +8,10 @@
 .pen--loop{--from:300deg;
   -webkit-mask-image:conic-gradient(from var(--from),#000 calc(var(--p)*360deg),transparent calc(var(--p)*360deg + 8deg));
           mask-image:conic-gradient(from var(--from),#000 calc(var(--p)*360deg),transparent calc(var(--p)*360deg + 8deg));}
+/* Per-video variation written by tools/pen.mjs (real strokes only — the seed picks the stroke and how it sits):
+   CSS rotate/scale are separate from `transform`, so the scene's own placement transform is kept. */
+.pen[data-pen-id]{rotate:var(--pen-rot,0deg);scale:var(--pen-fx,1) var(--pen-sy,1);filter:var(--pen-warp,none)}
+.pen[data-pen-flip~="x"]:not(.pen--loop){--dir:270deg}   /* mirrored stroke still reveals left → right on screen */
+/* stamps: the scene's .stamp transform includes var(--stamp-rot) — rotate(calc(-6deg + var(--stamp-rot, 0deg))) —
+   (a separate CSS `rotate` would hide the stamp text from hyperframes check's occlusion test) */
+.stamp[data-stamp-var="b"]{-webkit-mask-image:url(../textures/stamp-mask-b.png)!important;mask-image:url(../textures/stamp-mask-b.png)!important}

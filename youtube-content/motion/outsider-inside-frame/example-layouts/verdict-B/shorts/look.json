@@ -8,6 +8,7 @@
     "verdict-B"
   ],
   "pen_marks": [],
-  "stamp_flip": false,
+  "stamp_flip": true,
+  "seed": 23225,
   "aspect": "9x16"
 }

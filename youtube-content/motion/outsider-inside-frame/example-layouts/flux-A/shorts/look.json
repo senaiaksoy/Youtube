@@ -1,0 +1,15 @@
+{
+  "series": "labo",
+  "papers": [
+    "lab-spiral",
+    "a4"
+  ],
+  "first_graphic": "flux-A",
+  "layouts": [
+    "flux-A"
+  ],
+  "pen_marks": [],
+  "stamp_flip": false,
+  "seed": 37844,
+  "aspect": "9x16"
+}

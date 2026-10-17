@@ -10,5 +10,6 @@
   "pen_marks": [
     "oval-01"
   ],
-  "stamp_flip": false
+  "stamp_flip": false,
+  "seed": 34737
 }

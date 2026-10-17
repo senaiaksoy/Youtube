@@ -329,11 +329,13 @@ Motion should feel like **a hand and a page**, not like software.
 ## Assets
 
 - **Handwriting (installed, 2026-10-17):** `assets/hand/` — 17 marks from Dr. Aksoy's own ballpoint pages (FR Attention · Pas prouvé · Important; TR Dikkat! · Kanıtlanmadı · Önemli; EN Careful! · Important!; six arrows, a question mark, a double underline), ink density kept as alpha, recoloured to {colors.ink}. See its README.
+- **Ink lines (installed, 2026-10-17):** `assets/ink/` — `ink.js` on rough.js 4.6.6 (MIT, `LICENSE-roughjs.txt`): wobbly boxes, connectors with a 2-stroke arrowhead, hatched bars, all in `{colors.ink}` only, seeded by `<html data-ink-seed>`, drawn on by a GSAP stroke-dashoffset tween (seek-safe). For diagrams only — never red, never a pen mark, never handwriting. Measure fixed-size CSS boxes, not text (fonts may load after the script).
+- **Schema plates (installed, 2026-10-17):** `assets/schema/servier-ovary-cycle/` — the ten stages of Servier Medical Art's « Ovary Cycle » drawing (CC BY 4.0), each stage rasterised separately and turned into ink (lines full, fills a light wash). `plates.json` holds the credit per language, the changes made and each stage's place on the source slide. Use one common scale for all plates of a drawing; the credit line « Schéma adapté de Servier Medical Art · CC BY 4.0 » (TR/EN in plates.json) stays on screen as long as a plate does. Schematic anatomy/physiology only: never stands in for a real embryo, gamete, ultrasound or lab image, never presented as Dr. Aksoy's clinic. New drawings (Servier, NIH BioArt — check each entry's licence) go in their own folder with the same plates.json.
 - **Objects (installed, 2026-10-17):** `assets/objects/` — two paper clips cut from a top-down photo of Dr. Aksoy's desk (see its README). Branded objects (calculator, glue) and red objects (scissors) are not used.
 - **Fonts (installed):** `assets/fonts/` holds Literata variable (wght 200–900 + opsz 7–72, roman + italic) and IBM Plex Sans 400/600 as WOFF2, split into latin + latin-ext subsets (FR + TR verified). Link `assets/fonts/fonts.css` in index.html (or paste its @font-face block); family names are exactly 'Literata' and 'IBM Plex Sans'. IBM Plex Mono is renderer-bundled. Licence: SIL OFL 1.1 (OFL-*.txt beside the files). Fallbacks: Literata → Source Serif 4 → Georgia (never a sans); Plex Sans → system-ui. Proof: `test/font-testcard.png`.
 - **Paper grain (installed):** `assets/textures/paper-grain-16x9.png` (1920×1080) and `paper-grain-9x16.png` (1080×1920) — neutral grey (mean 128) from a real A4 photo, lighting gradient removed. Use as a full-frame static layer: `mix-blend-mode: soft-light; opacity: .35` over `{colors.paper}`; never on lab surfaces, never moving. Preview: `test/paper-preview.png`.
 - **Stamp mask (installed):** `assets/textures/stamp-mask.png` (1400×560, white + alpha). Ink-pressure variation calibrated to a real rubber-stamp impression (in-stroke density CV ≈ 0.22, ~5 % ink-starved specks, drier right edge), built from the real paper-fibre texture. Apply to the whole verdict-stamp box: `mask-image: url(assets/textures/stamp-mask.png); mask-size: 100% 100%;` plus `mix-blend-mode: multiply`. Flip it (`transform: scaleX(-1)` on a wrapper, or `mask-position`) when two stamps share a video so they don't look identical. CSS masks need the page served over http (HyperFrames preview/render do this) — they silently fail on file://. Reference: `test/stamp-test.png`.
-- **Pen marks (installed):** `assets/pen/` — 14 real strokes drawn by Dr. Aksoy with markers, recoloured to `{colors.correcteur}` with the original ink density kept as alpha (2× resolution). `pen-library.json` lists id, type (strike / underline / loop / arrow / question), tool (round marker = 7 marks for body/claim sizes; chisel `wide-*` = 7 marks for display sizes) and reveal. Use as `<img class="pen">` (+ `pen--loop` or `pen--question`) with `assets/pen/pen.css`; position and size per frame, stretch strikes horizontally up to ~1.8× to fit the text. Never reuse the same mark id twice in a row within one video. Masks need http. Reference: `test/pen-test.png`. Do not generate pen marks programmatically.
+- **Pen marks (installed):** `assets/pen/` — 14 real strokes drawn by Dr. Aksoy with markers, recoloured to `{colors.correcteur}` with the original ink density kept as alpha (2× resolution). `pen-library.json` lists id, type (strike / underline / loop / arrow / question), tool (round marker = 7 marks for body/claim sizes; chisel `wide-*` = 7 marks for display sizes) and reveal. Use as `<img class="pen">` (+ `pen--loop` or `pen--question`) with `assets/pen/pen.css`; position and size per frame, stretch strikes horizontally up to ~1.8× to fit the text. Never reuse the same mark id twice in a row within one video. Masks need http. Reference: `test/pen-test.png`. Do not generate pen marks programmatically. Per-video choice and placement of these real strokes: `tools/pen.mjs` (§ Series & Variety).
 - **Papers (installed, 2026-10-17):** `assets/papers/<paper>/ground-16x9.png` + `ground-9x16.png` for `recete`, `cizgili`, `lab-spiral`, `kareli`; geometry in `papers.json`; CSS in `papers.css`. Rebuilt from Dr. Aksoy's photographed papers by `tools/make_papers.py` (measured colours/rules; only the spiral binding is photographic). Use under the paper-grain layer (`opacity .30`). See § Series & Variety.
 - **Footage (installed):** `assets/footage/lab/` (15 real lab stills, sensitive papers/labels already blurred) and `assets/footage/embryo/` (5 anonymous embryo stills, 1080×1080). Read `assets/footage/INDEX.md` first: it gives each file's content, best use and status (✅ ready / ⚠️ check / ⛔ do not publish). Stills get at most one slow push-in (scale 1.00→1.04 over the shot). Never use ⛔ files.
 
@@ -372,8 +374,27 @@ show-through writing never copied — only the spiral binding is photographic).
   It warns on the same series 3 times in a row. `node tools/variety.mjs status` lists series and built layouts not
   used lately — start there when choosing.
 - A "spec" layout may be used once it is built; then set it to "built" in `series.json` with its example path.
-- Built so far (2026-10-17): promesse-A/B, chiffre-A/B/C, verdict-A/B, labo-A/B, question-A, retenir-A — reference scenes in
-  `example-era/`, `example-series/`, `example-layouts/`, each with its Shorts twin.
+- Built so far (2026-10-17): promesse-A/B, chiffre-A/B/C, verdict-A/B, labo-A/B, question-A, retenir-A, **schema-A**
+  (ink plates of a real scientific drawing), **flux-A** (process boxes), **arbre-A** (one question → two sourced answers),
+  **barres-A** (hatched bars on the grid) — reference scenes in `example-era/`, `example-series/`, `example-layouts/`, each
+  with its Shorts twin.
+- **Families per series** (`series.json` "families"): `node tools/variety.mjs suggest <series>` proposes a first graphic
+  + one layout per family that passes the gate against the log (seeded; layouts not used in the last 4 videos first).
+
+**Per-video seed (2026-10-17)** — the same layout never looks stamped out twice:
+- `node tools/pen.mjs apply <scene> [<scene> …]` (all scenes of one video, in running order) BEFORE `facts.mjs apply` /
+  `aspect.mjs`. Seed = look.json `seed`, derived from the video folder name when absent and written back: re-render
+  = identical, next video = different.
+- Pen marks stay **Dr. Aksoy's real strokes** (Dr. Aksoy's decision, 2026-10-17: never generated). A slot is
+  declared, not drawn: `<img class="pen" src="assets/pen/<default>.png" data-pen="strike|underline|loop|arrow|question"
+  data-pen-tool="round|chisel">`. The seed picks a real stroke of the same type, tool and shape (never the same id
+  twice in a row in one video) and sets how it sits: mirror (strike/underline/loop), ± rotation, height ± 20–35 %,
+  and a slight bend (static SVG displacement). A mirrored stroke still reveals left → right. `data-pen-fixed="<id>"`
+  pins one stroke.
+- Stamps opt in with `data-stamp` (± 4° on top of the layout's angle; mask a or mirrored b); foley opts in with
+  `<audio data-sfx="pen|stamp|ink-tap">` (never the same take twice in a row).
+- Black-ink diagram lines (`assets/ink/`, rough.js) take `<html data-ink-seed>` from the same seed.
+- More of his own strokes = more variety: a new pen page (20–30 marks) multiplies every slot.
 
 ## Built Components (2026-10-17)
 
@@ -411,5 +432,6 @@ The talking-head stills in these references are stand-ins: in a real edit `.foot
 ## Known Gaps
 
 - Pen library is small (14 marks). If a video needs more variety, ask Dr. Aksoy for another sheet rather than generating strokes.
+- Cinemagraph (one living region on a still, from the HyperFrames catalog) is not built: it needs a real looping clip (EmbryoScope time-lapse, LN₂ vapour at the cryo tank). Never a procedural stand-in for lab or embryo motion.
 - Turkish and Arabic cut-downs: Literata covers Turkish; Arabic would need a separate display face (e.g. a Naskh) and a mirrored layout — not specified here.
 - Thumbnails are out of scope, and they must **not** borrow the pen/stamp vocabulary: compliance rule F13 (`youtube-content/02-compliance-checklist.md`) bans visual clickbait in thumbnails — red strikes/crosses, stamps, arrows, shocked faces. Thumbnails follow `10-thumbnail-production-library.md`; at most they share the palette and Literata.

@@ -1,0 +1,144 @@
+{
+  "video": "example-layouts/flux-A — layout reference",
+  "lang": "fr",
+  "sources_md": "../../../example-era/era-sources.md",
+  "refs": {
+    "R1": {
+      "pmid": "36472596",
+      "n": "767",
+      "design": {
+        "fr": "Essai randomisé multicentrique",
+        "tr": "Çok merkezli randomize çalışma",
+        "en": "Multicentre randomised trial"
+      }
+    }
+  },
+  "chrome": {
+    "chapter": {
+      "fr": "03 · La FIV",
+      "tr": "03 · Tüp bebek",
+      "en": "03 · IVF"
+    },
+    "ftitle": {
+      "fr": "La FIV, étape par étape",
+      "tr": "Adım adım tüp bebek",
+      "en": "IVF, step by step"
+    },
+    "s1": {
+      "fr": "01",
+      "tr": "01",
+      "en": "01"
+    },
+    "s2": {
+      "fr": "02",
+      "tr": "02",
+      "en": "02"
+    },
+    "s3": {
+      "fr": "03",
+      "tr": "03",
+      "en": "03"
+    },
+    "s4": {
+      "fr": "04",
+      "tr": "04",
+      "en": "04"
+    },
+    "n1": {
+      "fr": "Stimulation",
+      "tr": "Uyarım",
+      "en": "Stimulation"
+    },
+    "n2": {
+      "fr": "Ponction",
+      "tr": "Yumurta toplama",
+      "en": "Egg retrieval"
+    },
+    "n3": {
+      "fr": "Fécondation",
+      "tr": "Döllenme",
+      "en": "Fertilisation"
+    },
+    "n4": {
+      "fr": "Transfert",
+      "tr": "Transfer",
+      "en": "Transfer"
+    }
+  },
+  "facts": [
+    {
+      "id": "Q1",
+      "kind": "quoted",
+      "origin": "Promesse commerciale courante du test ERA (sites de cliniques, forums)",
+      "text": {
+        "fr": "« Le test ERA améliore vos chances. »",
+        "tr": "“ERA testi şansınızı artırır.”",
+        "en": "“The ERA test improves your chances.”"
+      }
+    },
+    {
+      "id": "F1",
+      "kind": "statement",
+      "claim": "C01",
+      "ref": "R1",
+      "text": {
+        "fr": "Essai randomisé : aucun bénéfice démontré.",
+        "tr": "Randomize çalışma: fayda gösterilmedi.",
+        "en": "Randomised trial: no benefit shown."
+      }
+    },
+    {
+      "id": "K1",
+      "kind": "label",
+      "claim": "C02",
+      "text": {
+        "fr": "Naissances vivantes par transfert",
+        "tr": "Transfer başına canlı doğum",
+        "en": "Live births per transfer"
+      }
+    },
+    {
+      "id": "F2",
+      "kind": "figure",
+      "claim": "C02",
+      "ref": "R1",
+      "text": {
+        "fr": "58,5 %",
+        "tr": "%58,5",
+        "en": "58.5%"
+      },
+      "label": {
+        "fr": "Transfert guidé par l’ERA",
+        "tr": "ERA'ya göre zamanlanan transfer",
+        "en": "ERA-timed transfer"
+      }
+    },
+    {
+      "id": "F3",
+      "kind": "figure",
+      "claim": "C02",
+      "ref": "R1",
+      "text": {
+        "fr": "61,9 %",
+        "tr": "%61,9",
+        "en": "61.9%"
+      },
+      "label": {
+        "fr": "Transfert à horaire standard",
+        "tr": "Standart zamanlamayla transfer",
+        "en": "Standard-timed transfer"
+      }
+    },
+    {
+      "id": "V1",
+      "kind": "verdict",
+      "claim": "C01",
+      "ref": "R1",
+      "text": {
+        "fr": "NON PROUVÉ",
+        "tr": "KANITLANMADI",
+        "en": "NOT PROVEN"
+      }
+    }
+  ]
+}

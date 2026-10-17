@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr" data-ink-seed="45671">
+  <!-- Layout « barres-A » — Les chiffres (barres-A).
+       One source, two aspects: this file is 1920×1080; `node ../../tools/aspect.mjs .` writes shorts/ (1080×1920)
+       from it, using the :root[data-aspect="9x16"] rules below. Facts: node ../../tools/facts.mjs all . --lang fr
+       · phone floor + Shorts UI zone: node ../../tools/legibility.mjs . (and shorts/) -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script src="assets/ink/rough-4.6.6.js"></script>
+    <script src="assets/ink/ink.js"></script>
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="assets/pen/pen.css" />
+    <link rel="stylesheet" href="assets/papers/papers.css" />
+    <link rel="stylesheet" href="assets/components/components.css" />
+    <style>
+      :root { --W: 1920px; --H: 1080px; --paper: #F2F1EC; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
+               --graphite: #8C877A; --red: #C4301C; }
+      :root[data-aspect="9x16"] { --W: 1080px; --H: 1920px; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: var(--W); height: var(--H); overflow: hidden; background: var(--paper); }
+      #root { position: relative; width: var(--W); height: var(--H); background: var(--paper); color: var(--ink);
+              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; overflow: hidden; }
+      .grain { position: absolute; inset: 0; background: url(assets/textures/paper-grain-16x9.png);
+               mix-blend-mode: soft-light; opacity: .30; pointer-events: none; }
+      :root[data-aspect="9x16"] .grain { background-image: url(assets/textures/paper-grain-9x16.png); }
+      .only-916 { display: none; }
+      :root[data-aspect="9x16"] .only-916 { display: block; }
+      :root[data-aspect="9x16"] .only-169 { display: none; }
+      .serif { font-family: 'Literata', Georgia, serif; }
+      .mono  { font-family: 'IBM Plex Mono', monospace; font-weight: 500; }
+      .sans  { font-family: 'IBM Plex Sans', system-ui, sans-serif; }
+      .up    { text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); }
+      .sect  { color: var(--red); margin-right: .45em; }
+      .mk    { font-family: 'IBM Plex Mono', monospace; font-size: 40px; font-weight: 500; color: var(--ink-soft); margin-left: 14px; letter-spacing: 0; }
+      .slip  { position: absolute; background: var(--paper-deep); border: 1px solid rgba(27,34,48,.14); border-radius: 2px;
+               box-shadow: 0 1px 0 rgba(27,34,48,.10); padding: 16px 26px; font-family: 'IBM Plex Mono', monospace;
+               font-size: 40px; line-height: 1.32; color: var(--ink-soft); }
+      .slip .t { color: var(--ink); font-weight: 500; }
+      :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
+      .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
+      .stamp { position: absolute; transform: rotate(calc(-6deg + var(--stamp-rot, 0deg))); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+               font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
+               mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
+               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
+      :lang(tr) .stamp { font-size: 60px; }
+
+      /* kareli geometry: grid origin (42, 27), 54 px cells — baseline, bars and text snap to the grid */
+      .kick { left: 150px; --y: 135px; --fs: 40px; }
+      .k1   { left: 150px; --y: 243px; --fs: 40px; }
+      .ev   { left: 1122px; width: 700px; --y: 405px; --fs: 52px; --lh: 54px; font-weight: 500; }
+      .val  { position: absolute; width: 324px; text-align: center; font-size: 96px; line-height: 1; }
+      .lab  { position: absolute; top: 864px; width: 400px; text-align: center; font-size: 40px; line-height: 1.2; color: var(--ink-soft); }
+      .va, .la { left: 258px; } .vb, .lb { left: 636px; }
+      .slip { left: 1122px; top: 600px; width: 700px; }
+      /* ---- 9:16 (Shorts): bottom 18 % and the right icon column stay free of text ---- */
+      :root[data-aspect="9x16"] .kick { left: 108px; --y: 150px; }
+      :root[data-aspect="9x16"] .k1 { left: 108px; --y: 420px; }
+      :root[data-aspect="9x16"] .ev { left: 108px; width: 860px; --y: 258px; --fs: 50px; }
+      :root[data-aspect="9x16"] .val { width: 300px; font-size: 90px; }
+      :root[data-aspect="9x16"] .lab { top: 1140px; width: 360px; }
+      :root[data-aspect="9x16"] .va, :root[data-aspect="9x16"] .la { left: 120px; } :root[data-aspect="9x16"] .vb, :root[data-aspect="9x16"] .lb { left: 498px; }
+      :root[data-aspect="9x16"] .slip { left: 108px; top: 1320px; width: 840px; }
+    </style>
+  </head>
+  <body>
+    <div id="root" class="oi-c" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
+      <div class="grain"></div>
+
+      <div class="ground ground--kareli"></div>
+      <div class="on-rule mono up kick" id="kick"><span class="sect">§</span><span data-chrome="chapter">07 · Test ERA</span></div>
+      <div class="on-rule mono up k1" id="k1" data-fact="K1">Naissances vivantes par transfert</div>
+      <div class="on-rule serif ev" id="ev"><span data-fact="F1">Essai randomisé : aucun bénéfice démontré.</span><span class="mk" data-ref="R1" data-field="marker">[1]</span></div>
+      <div class="val serif num va" id="va" data-fact="F2">58,5 %</div>
+      <div class="val serif num vb" id="vb" data-fact="F3">61,9 %</div>
+      <div class="lab sans la" id="la" data-fact="F2" data-field="label">Transfert guidé par l’ERA</div>
+      <div class="lab sans lb" id="lb" data-fact="F3" data-field="label">Transfert à horaire standard</div>
+      <div class="slip" id="slip">
+        <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
+        <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
+      </div>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const rise = (sel, t, d = 0.45) =>
+        tl.fromTo(sel, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: d, ease: 'power3.out' }, t);
+
+      rise('#kick', 0.2, 0.35); rise('#k1', 0.4, 0.4); rise('#ev', 0.6);
+      // honest axis: bars start at 0; 10 grid cells = 100 %; heights come from the sourced figures on screen (facts.mjs)
+      const ink = oiInk.layer('#root'); const port = document.documentElement.dataset.aspect === '9x16';
+      const G = port ? { x0: 54, y0: 42 } : { x0: 42, y0: 27 }, C = 54, base = G.y0 + C * (port ? 20 : 15);
+      const pct = (sel) => parseFloat(document.querySelector(sel).textContent.replace(',', '.').replace(/[^0-9.]/g, ''));
+      const bars = port ? [[G.x0 + C * 2, '#va', '#la'], [G.x0 + C * 9, '#vb', '#lb']] : [[G.x0 + C * 5, '#va', '#la'], [G.x0 + C * 13, '#vb', '#lb']];
+      ink.draw(tl, ink.line(bars[0][0] - C, base, bars[1][0] + C * 5, base, { strokeWidth: 3.6, roughness: 0.7 }), 1.0, 0.5);
+      let t = 1.5;
+      for (const [x, v, l] of bars) {
+        const h = C * 10 * pct(v) / 100, w = C * 4;
+        ink.draw(tl, ink.hatch(x, base - h, w, h), t, 1.0);
+        const ve = document.querySelector(v); ve.style.left = (x + w / 2 - ve.offsetWidth / 2) + 'px'; ve.style.top = (base - h - 120) + 'px';
+        const le = document.querySelector(l); le.style.left = (x + w / 2 - le.offsetWidth / 2) + 'px';
+        rise(v, t + 0.9, 0.4); rise(l, t + 0.9, 0.4); t += 1.2;
+      }
+      rise('#slip', t + 0.4, 0.5);
+      tl.to({}, { duration: 0.01 }, 9.99);
+      window.__timelines['main'] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

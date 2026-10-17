@@ -79,4 +79,8 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
 - Shorts (2026-10-17): sahne tek kaynak (`index.html`, 16:9); dikey düzen aynı dosyada `:root[data-aspect="9x16"]` ile.
   `tools/aspect.mjs <proje>` → `<proje>/shorts/` (elle düzenlenmez); legibility + check orada da geçmeli (alt %18 ve sağ
   ikon sütununda yazı yok).
+- Hard rule (tohum, 2026-10-17): `node youtube-content/motion/outsider-inside-frame/tools/pen.mjs apply <sahneler…>` facts apply'dan
+  önce çalışır (videonun bütün sahneleri, akış sırasıyla). Kırmızı kalem izleri yalnızca Dr. Aksoy'un gerçek izleridir, asla
+  üretilmez; rough.js (`assets/ink`) yalnızca siyah mürekkepli şema kutu/ok/çubukları içindir. Şema levhalarında
+  (`assets/schema`, Servier CC BY 4.0) künye satırı ekranda kalır.
 - Kurulum adımları ve eksik varlık listesi: `youtube-content/motion/outsider-inside-frame/README.md`.

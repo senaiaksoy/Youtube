@@ -64,3 +64,10 @@
 .hand { position: absolute; pointer-events: none; mix-blend-mode: multiply; }
 .only-fr, .only-tr, .only-en { display: none !important; }
 :lang(fr) .only-fr, :lang(tr) .only-tr, :lang(en) .only-en { display: block !important; }
+
+/* schema plates (assets/schema/) — a real scientific drawing (Servier Medical Art, CC BY 4.0) as ink on the page.
+   Printed in top → bottom with --p 0 → 1 (seek-safe); one common scale for every plate of a drawing; the credit line
+   (« Schéma adapté de Servier Medical Art · CC BY 4.0 ») stays on screen as long as any plate does. */
+.plate { position: absolute; height: auto; pointer-events: none; mix-blend-mode: multiply; --p: 1; --dir: 180deg;
+  -webkit-mask-image: linear-gradient(var(--dir), #000 calc(var(--p) * 104% - 4%), transparent calc(var(--p) * 104%));
+          mask-image: linear-gradient(var(--dir), #000 calc(var(--p) * 104% - 4%), transparent calc(var(--p) * 104%)); }

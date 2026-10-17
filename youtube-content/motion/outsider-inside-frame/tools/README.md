@@ -116,3 +116,23 @@ insan denetimidir.
 - `kind`: `quoted` (üstü çizilecek iddia; kaynağı `origin`), `statement`, `figure`, `label`, `verdict`
 - `figure` ve `verdict` için `ref` zorunlu; PMID'siz kaynak (kılavuz, SmPC) `label` ile yazılır
 - Örnek: `../example-era/` (`scene-facts.json`, `era-sources.md`, `index.html`)
+
+
+## pen.mjs — videoya özel tohum (2026-10-17)
+
+```
+node tools/pen.mjs apply <sahne> [<sahne> …]   # videonun bütün sahneleri, akış sırasıyla; facts apply / aspect'ten ÖNCE
+node tools/pen.mjs show  <sahne> …             # ne seçeceğini yazar, dosyaya dokunmaz
+```
+- `look.json` `seed` (yoksa video klasör adından türetilir ve geri yazılır). Aynı video = aynı sonuç, sonraki video = farklı.
+- `<img class="pen" data-pen="strike|underline|loop|arrow|question" data-pen-tool="round|chisel">`: Dr. Aksoy'un gerçek
+  izlerinden aynı tür/araç/biçimde olanı seçer (videoda aynı iz arka arkaya gelmez), ayna, ± açı, yükseklik ve hafif
+  eğrilik verir. İz asla programla çizilmez. `data-pen-fixed="<id>"` sabitler.
+- `data-stamp` (± 4°, maske a/b), `<audio data-sfx="pen|stamp|ink-tap">` (aynı kayıt arka arkaya yok),
+  `<html data-ink-seed>` (assets/ink çizgileri).
+- Seçilen izler `look.json` `pen_marks`'a yazılır; önceki videoyla aynı küme çıkarsa tohum ilerletilir.
+
+## variety.mjs suggest
+
+`node tools/variety.mjs suggest <seri> [--seed N]` → seri ailelerinden (series.json "families") kapıyı geçen bir
+first_graphic + yerleşim seti önerir; son 4 videoda kullanılmayanlar önce.

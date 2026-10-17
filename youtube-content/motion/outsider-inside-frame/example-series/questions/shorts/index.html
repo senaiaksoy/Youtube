@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-aspect="9x16">
+<html lang="fr" data-ink-seed="3683" data-aspect="9x16">
   <!-- Série « Vos questions » — ground: assets/papers/cizgili.
        One source, two aspects: this file is 1920×1080; `node ../../tools/aspect.mjs .` writes shorts/ (1080×1920)
        from it, using the :root[data-aspect="9x16"] rules below. Facts: node ../../tools/facts.mjs all . --lang fr
@@ -39,7 +39,7 @@
       .slip .t { color: var(--ink); font-weight: 500; }
       :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
       .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
-      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+      .stamp { position: absolute; transform: rotate(calc(-6deg + var(--stamp-rot, 0deg))); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
                font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
                mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
                -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
@@ -89,8 +89,8 @@
         <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
         <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
       </div>
-      <div class="stamp" id="stamp" data-fact="V1">NON PROUVÉ</div>
-      <audio id="sfx-stamp" data-start="7.37" data-duration="0.79" data-track-index="11" data-volume="0.85" src="assets/sfx/stamp-02.wav"></audio>
+      <div class="stamp" data-stamp id="stamp" data-fact="V1" data-stamp-var="a" style="--stamp-rot:-1.76deg">NON PROUVÉ</div>
+      <audio data-sfx="stamp" id="sfx-stamp" data-start="7.37" data-duration="0.79" data-track-index="11" data-volume="0.85" src="assets/sfx/stamp-01.wav"></audio>
     </div>
     <script>
       window.__timelines = window.__timelines || {};

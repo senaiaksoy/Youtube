@@ -1,0 +1,113 @@
+{
+ "source": "Servier Medical Art — SMART-Reproduction.pptx, slide « Ovary Cycle (2) » (smart.servier.com)",
+ "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+ "credit": {
+  "fr": "Schéma adapté de Servier Medical Art · CC BY 4.0",
+  "tr": "Şema: Servier Medical Art’tan uyarlandı · CC BY 4.0",
+  "en": "Adapted from Servier Medical Art · CC BY 4.0"
+ },
+ "changes": "each stage rasterised separately at 600 dpi; colour removed — darkness kept as ink density (alpha = ((250−L)/200)^1.35: lines full, fills a light wash), recoloured to ink #1B2230; cropped",
+ "scale_note": "all stages share one scale (slide_x/slide_y = position on the 600-dpi slide); keep one common scale on screen so relative sizes stay true to the drawing",
+ "stages": [
+  {
+   "order": 1,
+   "id": "primordial",
+   "what": "Primordial follicles",
+   "file": "01-primordial.png",
+   "width": 394,
+   "height": 272,
+   "slide_x": 4889,
+   "slide_y": 1694
+  },
+  {
+   "order": 2,
+   "id": "primary",
+   "what": "Primary follicles",
+   "file": "02-primary.png",
+   "width": 494,
+   "height": 288,
+   "slide_x": 4282,
+   "slide_y": 1483
+  },
+  {
+   "order": 3,
+   "id": "secondary",
+   "what": "Secondary follicle",
+   "file": "03-secondary.png",
+   "width": 266,
+   "height": 249,
+   "slide_x": 3888,
+   "slide_y": 1392
+  },
+  {
+   "order": 4,
+   "id": "early-antral",
+   "what": "Early antral follicle",
+   "file": "04-early-antral.png",
+   "width": 388,
+   "height": 391,
+   "slide_x": 3340,
+   "slide_y": 1342
+  },
+  {
+   "order": 5,
+   "id": "antral",
+   "what": "Antral follicle",
+   "file": "05-antral.png",
+   "width": 554,
+   "height": 548,
+   "slide_x": 2639,
+   "slide_y": 1392
+  },
+  {
+   "order": 6,
+   "id": "preovulatory",
+   "what": "Pre-ovulatory (Graafian) follicle",
+   "file": "06-preovulatory.png",
+   "width": 743,
+   "height": 739,
+   "slide_x": 2336,
+   "slide_y": 2146
+  },
+  {
+   "order": 7,
+   "id": "ovulation",
+   "what": "Ovulation",
+   "file": "07-ovulation.png",
+   "width": 555,
+   "height": 917,
+   "slide_x": 3084,
+   "slide_y": 2745
+  },
+  {
+   "order": 8,
+   "id": "early-corpus-luteum",
+   "what": "Early corpus luteum",
+   "file": "08-early-corpus-luteum.png",
+   "width": 606,
+   "height": 595,
+   "slide_x": 3839,
+   "slide_y": 2795
+  },
+  {
+   "order": 9,
+   "id": "corpus-luteum",
+   "what": "Corpus luteum",
+   "file": "09-corpus-luteum.png",
+   "width": 675,
+   "height": 660,
+   "slide_x": 4588,
+   "slide_y": 2592
+  },
+  {
+   "order": 10,
+   "id": "corpus-albicans",
+   "what": "Corpus albicans",
+   "file": "10-corpus-albicans.png",
+   "width": 404,
+   "height": 352,
+   "slide_x": 5239,
+   "slide_y": 2293
+  }
+ ]
+}

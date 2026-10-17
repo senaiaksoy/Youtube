@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-ink-seed="23226">
   <!-- Série « Le mythe (verdict-B) » — ground: plain paper-grain.
        One source, two aspects: this file is 1920×1080; `node ../../tools/aspect.mjs .` writes shorts/ (1080×1920)
        from it, using the :root[data-aspect="9x16"] rules below. Facts: node ../../tools/facts.mjs all . --lang fr
@@ -38,7 +38,7 @@
       .slip .t { color: var(--ink); font-weight: 500; }
       :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
       .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
-      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+      .stamp { position: absolute; transform: rotate(calc(-6deg + var(--stamp-rot, 0deg))); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
                font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
                mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
                -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
@@ -71,7 +71,7 @@
 
       <div class="kicker mono up" id="kicker"><span class="sect">§</span><span data-chrome="chapter">07 · Test ERA</span></div>
       <div class="head" id="head" data-fact="H1">Le test ERA en routine</div>
-      <div class="stampwrap"><div class="stamp" id="stamp" data-fact="V1" data-layout-allow-occlusion="the stamp is pressed over what it judges">NON PROUVÉ</div></div>
+      <div class="stampwrap"><div class="stamp" data-stamp id="stamp" data-fact="V1" data-layout-allow-occlusion="the stamp is pressed over what it judges" data-stamp-var="b" style="--stamp-rot:2.72deg">NON PROUVÉ</div></div>
       <div class="ctxB" id="ctx"><span data-fact="F1">Essai randomisé : aucun bénéfice démontré.</span><span class="mk" data-ref="R1" data-field="marker">[1]</span></div>
       <div class="slipwrap" id="slipw">
       <div class="slip" id="slip">
@@ -79,7 +79,7 @@
         <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
       </div>
       </div>
-      <audio id="sfx-stamp" data-start="2.47" data-duration="0.85" data-track-index="11" data-volume="0.85" src="assets/sfx/stamp-01.wav"></audio>
+      <audio data-sfx="stamp" id="sfx-stamp" data-start="2.47" data-duration="0.85" data-track-index="11" data-volume="0.85" src="assets/sfx/stamp-01.wav"></audio>
     </div>
     <script>
       window.__timelines = window.__timelines || {};

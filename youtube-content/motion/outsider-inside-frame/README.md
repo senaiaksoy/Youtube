@@ -38,6 +38,9 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 - `assets/papers/` → Dr. Aksoy'un fotoğrafladığı 4 kâğıttan ölçülerek yeniden çizilen zeminler: reçete kâğıdı (antetsiz), krem çizgili defter, spiral lab defteri (gerçek spiral), kareli kâğıt. Fotoğraflardaki baskı yazısı, logo, iletişim bilgisi, el yazısı ve arkadan geçen yazılar kullanılmadı; ham fotoğraflar depoya konmadı. Üretici: `tools/make_papers.py`.
 
 - `assets/components/components.css` + `example-components/` → isim bandı ve yan not (talking-head), CTA, bölüm geçişi (chapitre), kapanış cümlesi (cloture), footage/illustration etiketleri (etiquettes); her biri 16:9 + Shorts, FR/TR/EN kontrollü.
+- `assets/ink/` → rough.js ile siyah mürekkep şema çizgileri (kutu, ok, taralı çubuk); kırmızı kalem değil. Örnek `example-layouts/flux-A`, `arbre-A`, `barres-A`.
+- `assets/schema/` → gerçek bilimsel çizimden mürekkep levhalar (Servier Medical Art, CC BY 4.0; künye ekranda). Örnek `example-layouts/schema-A`.
+- `tools/pen.mjs` → videoya özel tohum: gerçek kalem izlerinin seçimi/yerleşimi, damga, ses, mürekkep çizgileri. `facts.mjs apply`'dan önce.
 - `assets/hand/` → Dr. Aksoy'un tükenmez kalemle yazdığı notlar (FR/TR/EN kelimeler, oklar, soru işareti, çift alt çizgi); örnek `example-components/notes`. EN « Not proven » yeniden yazılacak.
 - `assets/objects/` → Dr. Aksoy'un masasından gerçek ataşlar (künye kartını tutturmak için).
 

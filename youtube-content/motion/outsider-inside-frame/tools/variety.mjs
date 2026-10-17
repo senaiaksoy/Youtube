@@ -4,6 +4,8 @@
 //   node variety.mjs check  <project>   before render: validates <project>/look.json, compares with the log
 //   node variety.mjs log    <project>   after the final render: appends the look to the log
 //   node variety.mjs status             last videos + series / layouts not used lately
+//   node variety.mjs suggest <series> [--seed N]   seeded proposal (first graphic + one layout per family of the
+//                                       series, see series.json "families") that passes the gate against the log
 //
 // look.json (project root):
 //   { "series": "chiffres", "papers": ["kareli", "a4"], "first_graphic": "chiffre-B",
@@ -87,5 +89,31 @@ function status() {
   console.log('built layouts not used in the last 4:', Object.entries(catalog.layouts).filter(([k, v]) => v.status === 'built' && !ul.has(k)).map(([k]) => k).join(', ') || '—');
 }
 
-if (cmd === 'check' && proj) check(proj); else if (cmd === 'log' && proj) log(proj); else if (cmd === 'status') status();
-else { console.log('usage: node variety.mjs check|log <project> [--lang fr] · node variety.mjs status'); process.exitCode = 2; }
+function suggest(series) {
+  const s = catalog.series[series]; if (!s) { console.error(`unknown series "${series}"`); process.exitCode = 2; return; }
+  const fnv = (x) => { let h = 0x811c9dc5; for (const c of Buffer.from(x, 'utf8')) { h ^= c; h = Math.imul(h, 0x01000193) >>> 0; } return h; };
+  let a = Number((() => { const i = process.argv.indexOf('--seed'); return i > 0 ? process.argv[i + 1] : fnv(series + Date.now().toString().slice(0, -5)); })());
+  const rnd = () => { a = (a + 0x6d2b79f5) >>> 0; let t = a; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+  const e = readLog().filter((x) => (x.lang || 'fr') === lang && !String(x.project).endsWith('-shorts'));
+  const last = e.at(-1); const recent = new Set(e.slice(-4).flatMap((x) => x.layouts || []));
+  const built = Object.entries(catalog.layouts).filter(([, v]) => v.status === 'built').map(([k]) => k);
+  const byFam = (f) => built.filter((k) => k.split('-')[0] === f);
+  // prefer layouts not used in the last 4 videos; random among equals
+  const choose = (arr) => { const fresh = arr.filter((k) => !recent.has(k)); const pool = fresh.length ? fresh : arr; return pool[Math.floor(rnd() * pool.length)]; };
+  for (let tries = 0; tries < 50; tries++) {
+    const layouts = s.families.map((f) => byFam(f)).filter((x) => x.length).map(choose);
+    const firstPool = layouts.filter((k) => k.split('-')[0] === s.families[0] && (!last || k !== last.first_graphic));
+    const first = firstPool[0] || layouts.find((k) => !last || k !== last.first_graphic);
+    const clash = e.slice(-3).some((x) => x.series === series && same(x.layouts, layouts));
+    if (first && !clash) {
+      console.log(`suggest · ${series} (${s[lang] || s.fr}) · paper ${s.paper} · compared with ${Math.min(e.length, 4)} previous video(s)`);
+      console.log(JSON.stringify({ series, papers: [s.paper], first_graphic: first, layouts: [first, ...layouts.filter((k) => k !== first)] }, null, 2));
+      console.log('→ copy into look.json; pen_marks / seed / stamp_flip are filled by tools/pen.mjs apply');
+      return;
+    }
+  }
+  console.log('✖ no combination passes — build another layout variant for this series (series.json "spec" → "built")'); process.exitCode = 1;
+}
+
+if (cmd === 'suggest' && proj) suggest(proj); else if (cmd === 'check' && proj) check(proj); else if (cmd === 'log' && proj) log(proj); else if (cmd === 'status') status();
+else { console.log('usage: node variety.mjs check|log <project> [--lang fr] · status · suggest <series> [--seed N]'); process.exitCode = 2; }
