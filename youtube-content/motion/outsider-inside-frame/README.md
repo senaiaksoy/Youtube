@@ -38,6 +38,7 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 - `assets/papers/` → Dr. Aksoy'un fotoğrafladığı 4 kâğıttan ölçülerek yeniden çizilen zeminler: reçete kâğıdı (antetsiz), krem çizgili defter, spiral lab defteri (gerçek spiral), kareli kâğıt. Fotoğraflardaki baskı yazısı, logo, iletişim bilgisi, el yazısı ve arkadan geçen yazılar kullanılmadı; ham fotoğraflar depoya konmadı. Üretici: `tools/make_papers.py`.
 
 - `assets/components/components.css` + `example-components/` → isim bandı ve yan not (talking-head), CTA, bölüm geçişi (chapitre), kapanış cümlesi (cloture), footage/illustration etiketleri (etiquettes); her biri 16:9 + Shorts, FR/TR/EN kontrollü.
+- `assets/hand/` → Dr. Aksoy'un tükenmez kalemle yazdığı notlar (FR kelimeler, oklar, soru işareti, çift alt çizgi); örnek `example-components/notes`. TR/EN kelimeler için ayrı sayfa bekleniyor.
 - `assets/objects/` → Dr. Aksoy'un masasından gerçek ataşlar (künye kartını tutturmak için).
 
 ## Açık kararlar

@@ -57,3 +57,9 @@
 .clipped { padding-top: 64px !important; }
 .clip-left { left: -112px; top: 22px; width: 229px; height: auto; transform: rotate(1.5deg); }
 .clipped-left { padding-left: 136px !important; }
+
+/* handwriting (assets/hand/) — Dr. Aksoy's ballpoint notes in ink; reveal with assets/pen/pen.css .pen (--p, --dir).
+   Words are language-bound: *-fr files carry .only-fr and appear only when <html lang="fr">. */
+.hand { position: absolute; pointer-events: none; mix-blend-mode: multiply; }
+.only-fr { display: none !important; }
+:lang(fr) .only-fr { display: block !important; }

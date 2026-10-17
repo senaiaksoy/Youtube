@@ -328,6 +328,7 @@ Motion should feel like **a hand and a page**, not like software.
 
 ## Assets
 
+- **Handwriting (installed, 2026-10-17):** `assets/hand/` — 12 marks from Dr. Aksoy's own ballpoint page (FR words Attention · Pas prouvé · Important, six arrows, a question mark, a double underline), ink density kept as alpha, recoloured to {colors.ink}. See its README.
 - **Objects (installed, 2026-10-17):** `assets/objects/` — two paper clips cut from a top-down photo of Dr. Aksoy's desk (see its README). Branded objects (calculator, glue) and red objects (scissors) are not used.
 - **Fonts (installed):** `assets/fonts/` holds Literata variable (wght 200–900 + opsz 7–72, roman + italic) and IBM Plex Sans 400/600 as WOFF2, split into latin + latin-ext subsets (FR + TR verified). Link `assets/fonts/fonts.css` in index.html (or paste its @font-face block); family names are exactly 'Literata' and 'IBM Plex Sans'. IBM Plex Mono is renderer-bundled. Licence: SIL OFL 1.1 (OFL-*.txt beside the files). Fallbacks: Literata → Source Serif 4 → Georgia (never a sans); Plex Sans → system-ui. Proof: `test/font-testcard.png`.
 - **Paper grain (installed):** `assets/textures/paper-grain-16x9.png` (1920×1080) and `paper-grain-9x16.png` (1080×1920) — neutral grey (mean 128) from a real A4 photo, lighting gradient removed. Use as a full-frame static layer: `mix-blend-mode: soft-light; opacity: .35` over `{colors.paper}`; never on lab surfaces, never moving. Preview: `test/paper-preview.png`.
@@ -387,6 +388,7 @@ Every overlay the edit needs has a built, checked reference in `example-componen
 | chapter sheet | `chapitre` | the next sheet slides over the previous one in 0.6 s (power2.inOut); the covered sheet is dropped once hidden |
 | signature line | `cloture` | the channel's closing sentence verbatim, Literata italic, one pen circle on « garanties / Garantiler / Guarantees »; channel handle under it |
 | footage-tab / illustration-tab | `etiquettes` | footage-tab on real footage (what + source); illustration-tab on every AI / stock clip from its first to its last frame |
+| handwriting | `notes` | Dr. Aksoy's ballpoint notes (`assets/hand/`) in ink, never red: words only in their own language (`-fr` → `.only-fr`), arrows / ? / double underline in every language; words ≥ 1.3× native size; one handwritten word + one arrow per frame |
 | paper clip | `example-series/conseils` | real clip from Dr. Aksoy's desk (`assets/objects/`) holding a card; never over text (`.clipped-left` / `.clipped` make room); max one object per frame |
 
 The talking-head stills in these references are stand-ins: in a real edit `.foot` is Dr. Aksoy's camera clip.

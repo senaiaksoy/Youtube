@@ -1,0 +1,122 @@
+[
+ {
+  "id": "attention-fr",
+  "type": "word",
+  "lang": "fr",
+  "file": "attention-fr.png",
+  "width": 472,
+  "height": 105,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "pas-prouve-fr",
+  "type": "word",
+  "lang": "fr",
+  "file": "pas-prouve-fr.png",
+  "width": 577,
+  "height": 165,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "important-fr",
+  "type": "word",
+  "lang": "fr",
+  "file": "important-fr.png",
+  "width": 568,
+  "height": 170,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "arrow-right-01",
+  "type": "arrow-right",
+  "lang": null,
+  "file": "arrow-right-01.png",
+  "width": 320,
+  "height": 75,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "arrow-right-02",
+  "type": "arrow-right",
+  "lang": null,
+  "file": "arrow-right-02.png",
+  "width": 249,
+  "height": 91,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "arrow-up-01",
+  "type": "arrow-up",
+  "lang": null,
+  "file": "arrow-up-01.png",
+  "width": 150,
+  "height": 208,
+  "reveal": "linear 0deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "arrow-down-01",
+  "type": "arrow-down",
+  "lang": null,
+  "file": "arrow-down-01.png",
+  "width": 83,
+  "height": 211,
+  "reveal": "linear 180deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "arrow-left-01",
+  "type": "arrow-left",
+  "lang": null,
+  "file": "arrow-left-01.png",
+  "width": 298,
+  "height": 93,
+  "reveal": "linear 270deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "arrow-left-02",
+  "type": "arrow-left",
+  "lang": null,
+  "file": "arrow-left-02.png",
+  "width": 305,
+  "height": 71,
+  "reveal": "linear 270deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "question-01",
+  "type": "question",
+  "lang": null,
+  "file": "question-01.png",
+  "width": 90,
+  "height": 193,
+  "reveal": "linear 180deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "ete-fr",
+  "type": "word",
+  "lang": "fr",
+  "file": "ete-fr.png",
+  "width": 270,
+  "height": 145,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ },
+ {
+  "id": "underline-double-01",
+  "type": "underline-double",
+  "lang": null,
+  "file": "underline-double-01.png",
+  "width": 385,
+  "height": 67,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
+ }
+]

@@ -143,6 +143,7 @@
     "cta": "example-components/cta",
     "chapitre": "example-components/chapitre",
     "cloture": "example-components/cloture",
-    "etiquettes": "example-components/etiquettes"
+    "etiquettes": "example-components/etiquettes",
+    "notes": "example-components/notes"
   }
 }
