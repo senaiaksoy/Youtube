@@ -1,0 +1,13 @@
+{
+  "series": "questions",
+  "papers": [
+    "cizgili"
+  ],
+  "first_graphic": "question-A",
+  "layouts": [
+    "question-A",
+    "verdict-A"
+  ],
+  "pen_marks": [],
+  "stamp_flip": true
+}

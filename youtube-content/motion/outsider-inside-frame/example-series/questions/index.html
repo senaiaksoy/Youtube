@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+  <!-- Série « Vos questions » — ground: assets/papers/cizgili. On-screen facts from scene-facts.json:
+       node ../../tools/facts.mjs all . --lang fr   ·   phone floor: node ../../tools/legibility.mjs . -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="assets/pen/pen.css" />
+    <link rel="stylesheet" href="assets/papers/papers.css" />
+    <style>
+      :root { --paper: #F3EBD6; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
+               --graphite: #8C877A; --red: #C4301C; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--paper); }
+      #root { position: relative; width: 1920px; height: 1080px; background: var(--paper); color: var(--ink);
+              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; }
+      .grain { position: absolute; inset: 0; background: url(assets/textures/paper-grain-16x9.png);
+               mix-blend-mode: soft-light; opacity: .30; pointer-events: none; }
+      .serif { font-family: 'Literata', Georgia, serif; }
+      .mono  { font-family: 'IBM Plex Mono', monospace; font-weight: 500; }
+      .sans  { font-family: 'IBM Plex Sans', system-ui, sans-serif; }
+      .up    { text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); }
+      .sect  { color: var(--red); margin-right: .45em; }
+      .mk    { font-family: 'IBM Plex Mono', monospace; font-size: 40px; font-weight: 500; color: var(--ink-soft); margin-left: 14px; letter-spacing: 0; }
+      .slip  { position: absolute; background: var(--paper-deep); border: 1px solid rgba(27,34,48,.14); border-radius: 2px;
+               box-shadow: 0 1px 0 rgba(27,34,48,.10); padding: 16px 26px; font-family: 'IBM Plex Mono', monospace;
+               font-size: 40px; line-height: 1.32; color: var(--ink-soft); }
+      .slip .t { color: var(--ink); font-weight: 500; }
+      .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
+      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+               font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
+               mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
+               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
+      :lang(tr) .stamp { font-size: 60px; }
+
+      /* cizgili geometry: header box 120–1800 × 60–150, divider 1430; dotted rules every 84 px from 210 */
+      .cell { position: absolute; top: 60px; height: 90px; display: flex; align-items: center; font-size: 40px; }
+      .cell-a { left: 120px; width: 1310px; padding-left: 30px; }
+      .cell-b { left: 1430px; width: 370px; justify-content: center; letter-spacing: .03em; }
+      .q   { left: 120px; width: 1690px; --y: 294px; --fs: 66px; --lh: 84px; font-style: italic; font-weight: 400; letter-spacing: -.012em; }
+      .ev  { left: 120px; --y: 462px; --fs: 60px; font-weight: 500; letter-spacing: -.01em; white-space: nowrap; }
+      .kpi { left: 120px; --y: 630px; --fs: 40px; letter-spacing: .04em; }
+      .n   { --y: 798px; --fs: 120px; }
+      .l   { width: 610px; --y: 882px; --fs: 40px; --lh: 84px; color: var(--ink-soft); }
+      .a { left: 120px; } .b { left: 760px; }
+      .slip { left: 120px; top: 918px; }
+      .stamp { left: 1262px; top: 530px; }
+
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
+      <div class="ground ground--cizgili"></div>
+      <div class="grain"></div>
+
+      <div class="cell cell-a mono up" id="chap"><span class="sect">§</span><span data-chrome="chapter">07 · Test ERA</span></div>
+      <div class="cell cell-b mono up" id="ser"><span data-chrome="series">Vos questions</span></div>
+      <div class="on-rule serif q" id="q" data-fact="Q2">« Docteur, le test ERA va-t-il augmenter mes chances ? »</div>
+      <div class="on-rule serif ev" id="ev"><span data-fact="F1">Essai randomisé : aucun bénéfice démontré.</span><span class="mk" data-ref="R1" data-field="marker">[1]</span></div>
+      <div class="on-rule mono up kpi" id="kpi" data-fact="K1">Naissances vivantes par transfert</div>
+      <div class="on-rule serif num n a" id="na" data-fact="F2">58,5 %</div>
+      <div class="on-rule sans l a" id="la" data-fact="F2" data-field="label">Transfert guidé par l’ERA</div>
+      <div class="on-rule serif num n b" id="nb" data-fact="F3">61,9 %</div>
+      <div class="on-rule sans l b" id="lb" data-fact="F3" data-field="label">Transfert à horaire standard</div>
+      <div class="slip" id="slip">
+        <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
+        <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
+      </div>
+      <div class="stamp" id="stamp" data-fact="V1">NON PROUVÉ</div>
+      <audio id="sfx-stamp" data-start="7.37" data-duration="0.79" data-track-index="11" data-volume="0.85" src="assets/sfx/stamp-02.wav"></audio>
+
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const rise = (sel, t, d = 0.45) =>
+        tl.fromTo(sel, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: d, ease: 'power3.out' }, t);
+
+      rise('#chap', 0.2, 0.35); rise('#ser', 0.3, 0.35);
+      rise('#q', 0.6, 0.5);
+      rise('#ev', 2.8);
+      rise('#kpi', 4.1, 0.4);
+      rise('#na', 4.4); rise('#la', 4.55, 0.4);
+      rise('#nb', 4.9); rise('#lb', 5.05, 0.4);
+      rise('#slip', 5.9, 0.5);
+      tl.fromTo('#stamp', { opacity: 0, scale: 1.025 }, { opacity: 1, scale: 1, duration: 0.067, ease: 'none' }, 7.4);
+
+      tl.to({}, { duration: 0.01 }, 9.99);
+      window.__timelines['main'] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

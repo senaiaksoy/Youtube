@@ -323,7 +323,44 @@ Motion should feel like **a hand and a page**, not like software.
 - **Paper grain (installed):** `assets/textures/paper-grain-16x9.png` (1920×1080) and `paper-grain-9x16.png` (1080×1920) — neutral grey (mean 128) from a real A4 photo, lighting gradient removed. Use as a full-frame static layer: `mix-blend-mode: soft-light; opacity: .35` over `{colors.paper}`; never on lab surfaces, never moving. Preview: `test/paper-preview.png`.
 - **Stamp mask (installed):** `assets/textures/stamp-mask.png` (1400×560, white + alpha). Ink-pressure variation calibrated to a real rubber-stamp impression (in-stroke density CV ≈ 0.22, ~5 % ink-starved specks, drier right edge), built from the real paper-fibre texture. Apply to the whole verdict-stamp box: `mask-image: url(assets/textures/stamp-mask.png); mask-size: 100% 100%;` plus `mix-blend-mode: multiply`. Flip it (`transform: scaleX(-1)` on a wrapper, or `mask-position`) when two stamps share a video so they don't look identical. CSS masks need the page served over http (HyperFrames preview/render do this) — they silently fail on file://. Reference: `test/stamp-test.png`.
 - **Pen marks (installed):** `assets/pen/` — 14 real strokes drawn by Dr. Aksoy with markers, recoloured to `{colors.correcteur}` with the original ink density kept as alpha (2× resolution). `pen-library.json` lists id, type (strike / underline / loop / arrow / question), tool (round marker = 7 marks for body/claim sizes; chisel `wide-*` = 7 marks for display sizes) and reveal. Use as `<img class="pen">` (+ `pen--loop` or `pen--question`) with `assets/pen/pen.css`; position and size per frame, stretch strikes horizontally up to ~1.8× to fit the text. Never reuse the same mark id twice in a row within one video. Masks need http. Reference: `test/pen-test.png`. Do not generate pen marks programmatically.
+- **Papers (installed, 2026-10-17):** `assets/papers/<paper>/ground-16x9.png` + `ground-9x16.png` for `recete`, `cizgili`, `lab-spiral`, `kareli`; geometry in `papers.json`; CSS in `papers.css`. Rebuilt from Dr. Aksoy's photographed papers by `tools/make_papers.py` (measured colours/rules; only the spiral binding is photographic). Use under the paper-grain layer (`opacity .30`). See § Series & Variety.
 - **Footage (installed):** `assets/footage/lab/` (15 real lab stills, sensitive papers/labels already blurred) and `assets/footage/embryo/` (5 anonymous embryo stills, 1080×1080). Read `assets/footage/INDEX.md` first: it gives each file's content, best use and status (✅ ready / ⚠️ check / ⛔ do not publish). Stills get at most one slow push-in (scale 1.00→1.04 over the shot). Never use ⛔ files.
+
+## Series & Variety (2026-10-17)
+
+Every video shares the **identity** — red pen as judgment, verdict stamp, reference slip, Literata + Plex, the
+phone floor, real assets only. What changes from video to video is the **material**: each video belongs to one
+series, and each series has its own paper, photographed by Dr. Aksoy and rebuilt from measurements
+(`tools/make_papers.py`; colours, rule pitch, weights and dash patterns measured from his prescription pad, ruled
+notebook, spiral lab notebook and squared notebook; printed text, logo, contact details, handwriting and
+show-through writing never copied — only the spiral binding is photographic).
+
+| Series (FR · TR · EN) | Paper | Use it for | Reference scene |
+|---|---|---|---|
+| **mythe** — Le mythe · Mit avcısı · The myth | `a4` plain paper-grain | a claim, add-on or promise examined: strike + stamp | `example-era/` |
+| **labo** — Au labo · Laboratuvardan · From the lab | `lab-spiral` | embryology / lab technique; real footage is the hero, laid on the page as a print | `example-series/labo/` |
+| **questions** — Vos questions · Sorularınız · Your questions | `cizgili` | one patient question (generic wording, never an identifiable patient) | `example-series/questions/` |
+| **chiffres** — Les chiffres · Rakamlar · The numbers | `kareli` | a study or rate; hand-ruled ledger snapped to the grid | `example-series/chiffres/` |
+| **conseils** — Ce que je retiens · Aklınızda kalsın · What to remember | `recete` | practical take-aways / closing summary | `example-series/conseils/` |
+
+**Rules**
+- One **main paper** per video (= the series paper) + at most **one contrast paper** for a single segment (e.g. a
+  `kareli` ledger inside a `mythe` video). Never three.
+- Paper rules are **material**: low contrast, never red, never carry meaning, never used as text colour. They do not
+  count as a palette hue.
+- Text **sits on the rules**: use `assets/papers/papers.css` `.on-rule` (`--y` rule y, `--fs`, `--lh` = pitch);
+  rule geometry per ground in `assets/papers/papers.json`. On `kareli`, every box snaps to the 54 px grid.
+- `recete` is the stock of the prescription pad **without** its letterhead: never a patient name/diagnosis field,
+  never a drug name or dose, never presented as a real prescription.
+- Every project has a `look.json` (series, papers, first_graphic, layouts, pen_marks, stamp_flip). Layout variant
+  ids live in `series.json` (built / spec). `node tools/variety.mjs check <project>` must pass before render; after
+  the final render `node tools/variety.mjs log <project> --lang <fr|tr|en>` records it in
+  `youtube-content/motion/look-log.json`.
+- The gate fails when: the first graphic after Dr. Aksoy's hook repeats the previous video's; the pen-mark set is
+  identical to the previous video's; or same series **and** identical layout set as one of the last 3 videos.
+  It warns on the same series 3 times in a row. `node tools/variety.mjs status` lists series and built layouts not
+  used lately — start there when choosing.
+- A "spec" layout may be used once it is built; then set it to "built" in `series.json` with its example path.
 
 ## Reference Composition
 

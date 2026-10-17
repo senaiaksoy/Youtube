@@ -72,4 +72,8 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
   `node youtube-content/motion/outsider-inside-frame/tools/legibility.mjs <proje>` geçmeli.
 - Hard rule (intro yok, 2026-10-16): kanal intro'su / logo bumper'ı hiçbir videoda kullanılmaz; video
   Dr. Aksoy'la (tam kadraj) açılır ve doğrudan içeriğe girer.
+- Hard rule (çeşitlilik, 2026-10-17): her video bir seriye ait (mythe · labo · questions · chiffres · conseils), her
+  serinin kendi kâğıdı var (frame.md § Series & Variety). Projede `look.json` yazılır; render öncesi
+  `node youtube-content/motion/outsider-inside-frame/tools/variety.mjs check <proje>` geçmeli, final render sonrası
+  `variety.mjs log <proje> --lang <fr|tr|en>`. Videoda en fazla 2 kâğıt.
 - Kurulum adımları ve eksik varlık listesi: `youtube-content/motion/outsider-inside-frame/README.md`.

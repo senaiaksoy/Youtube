@@ -1,0 +1,16 @@
+{
+  "series": "mythe",
+  "papers": [
+    "a4"
+  ],
+  "first_graphic": "promesse-A",
+  "layouts": [
+    "promesse-A",
+    "chiffre-A",
+    "verdict-A"
+  ],
+  "pen_marks": [
+    "strike-01"
+  ],
+  "stamp_flip": false
+}

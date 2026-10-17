@@ -16,7 +16,11 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 5. Cep telefonu okunurluğu: `node youtube-content/motion/outsider-inside-frame/tools/legibility.mjs projects/<slug>`.
    Ekranda görünen her yazı ≥ 40 px (1080 kısa kenarda) olmalı; geçmeden render yok. Sığmıyorsa yazıyı kısalt
    veya kareyi ikiye böl — küçültme.
-6. Projeye özel değişiklik gerekiyorsa projedeki kopyada yap; ana şablonu değiştirmek
+6. Seri ve çeşitlilik: projeye `look.json` yaz (seri, kâğıt, ilk grafik, yerleşimler, kalem izleri) ve
+   `node youtube-content/motion/outsider-inside-frame/tools/variety.mjs check projects/<slug>` çalıştır; son videolarla
+   aynı görünüm seçilmişse durdurur. Final render'dan sonra `variety.mjs log projects/<slug> --lang fr`.
+   Hangi seri ne için: `frame.md` § Series & Variety; örnek sahneler `example-series/`.
+7. Projeye özel değişiklik gerekiyorsa projedeki kopyada yap; ana şablonu değiştirmek
    tüm gelecek videoları etkiler — yalnızca bilinçli kararla güncelle.
 
 ## Hazır varlıklar
@@ -28,7 +32,10 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 - `assets/sfx/` → Dr. Aksoy'un kaydettiği gerçek sesler: 3 kalem hışırtısı, 2 damga vuruşu, 2 ıstampa tıkırtısı (temizlendi, seviyelendi). Kullanım: `assets/sfx/README.md`.
 - `assets/footage/` → 15 laboratuvar fotoğrafı + 5 embriyo görüntüsü; hasta bilgisi taşıyabilecek kâğıt/etiketler bulanıklaştırıldı, meta veriler silindi. Kullanım ve durum listesi: `assets/footage/INDEX.md`.
 
+- `assets/papers/` → Dr. Aksoy'un fotoğrafladığı 4 kâğıttan ölçülerek yeniden çizilen zeminler: reçete kâğıdı (antetsiz), krem çizgili defter, spiral lab defteri (gerçek spiral), kareli kâğıt. Fotoğraflardaki baskı yazısı, logo, iletişim bilgisi, el yazısı ve arkadan geçen yazılar kullanılmadı; ham fotoğraflar depoya konmadı. Üretici: `tools/make_papers.py`.
+
 ## Açık kararlar
+- (2026-10-17) Her video aynı görünmesin: 5 seri (mythe / labo / questions / chiffres / conseils), her biri kendi kâğıdıyla; `look.json` + `tools/variety.mjs` son 3 videoyla aynı kombinasyonu engeller. Örnekler `example-series/`.
 - (2026-10-16) Kanal intro'su kullanılmaz (Dr. Aksoy kararı): video Dr. Aksoy'la açılır, doğrudan içeriğe girer; logo/bumper yok.
 - (2026-10-16) Motion grafikteki tüm yazılar cep telefonunda okunur boyutta: taban 40 px @1080 (16:9'da 2.1cqw), `tools/legibility.mjs` ile denetlenir.
 - (2026-10-16) `lab-02` meslektaş izni ve `lab-14` kullanım hakkı Dr. Aksoy tarafından onaylandı; ikisi de kullanılabilir.

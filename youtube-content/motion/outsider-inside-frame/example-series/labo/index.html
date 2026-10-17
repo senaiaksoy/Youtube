@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+  <!-- Série « Au labo » — ground: assets/papers/lab-spiral. On-screen facts from scene-facts.json:
+       node ../../tools/facts.mjs all . --lang fr   ·   phone floor: node ../../tools/legibility.mjs . -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="assets/pen/pen.css" />
+    <link rel="stylesheet" href="assets/papers/papers.css" />
+    <style>
+      :root { --paper: #EFEBE1; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
+               --graphite: #8C877A; --red: #C4301C; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--paper); }
+      #root { position: relative; width: 1920px; height: 1080px; background: var(--paper); color: var(--ink);
+              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; }
+      .grain { position: absolute; inset: 0; background: url(assets/textures/paper-grain-16x9.png);
+               mix-blend-mode: soft-light; opacity: .30; pointer-events: none; }
+      .serif { font-family: 'Literata', Georgia, serif; }
+      .mono  { font-family: 'IBM Plex Mono', monospace; font-weight: 500; }
+      .sans  { font-family: 'IBM Plex Sans', system-ui, sans-serif; }
+      .up    { text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); }
+      .sect  { color: var(--red); margin-right: .45em; }
+      .mk    { font-family: 'IBM Plex Mono', monospace; font-size: 40px; font-weight: 500; color: var(--ink-soft); margin-left: 14px; letter-spacing: 0; }
+      .slip  { position: absolute; background: var(--paper-deep); border: 1px solid rgba(27,34,48,.14); border-radius: 2px;
+               box-shadow: 0 1px 0 rgba(27,34,48,.10); padding: 16px 26px; font-family: 'IBM Plex Mono', monospace;
+               font-size: 40px; line-height: 1.32; color: var(--ink-soft); }
+      .slip .t { color: var(--ink); font-weight: 500; }
+      .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
+      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+               font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
+               mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
+               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
+      :lang(tr) .stamp { font-size: 60px; }
+
+      /* lab-spiral geometry: header cells 110–441 | 441–1764 (y 52–132); rules every 72 px from 232 */
+      .cell { position: absolute; top: 52px; height: 80px; display: flex; align-items: center; font-size: 40px; }
+      .cell-a { left: 110px; width: 331px; justify-content: center; }
+      .cell-b { left: 441px; width: 1323px; padding-left: 32px; }
+      /* the still is a real print laid on the page; its caption is written on the print's bottom margin */
+      .photo { position: absolute; left: 160px; top: 226px; width: 572px; height: 628px; padding: 14px 14px 0; background: #FBFAF6;
+               border: 1px solid rgba(27,34,48,.18); box-shadow: 0 1px 0 rgba(27,34,48,.12); transform: rotate(-1.2deg); }
+      .photo img { display: block; width: 544px; height: 544px; object-fit: cover; }
+      .photo .cap { height: 70px; display: flex; align-items: center; justify-content: center; font-size: 40px; color: var(--ink-soft); white-space: nowrap; }
+      .ev  { left: 830px; width: 900px; --y: 304px; --fs: 56px; --lh: 72px; font-weight: 500; letter-spacing: -.01em; }
+      .kpi { left: 830px; --y: 520px; --fs: 40px; letter-spacing: .04em; }
+      .n   { --y: 664px; --fs: 120px; }
+      .l   { width: 430px; --y: 736px; --fs: 40px; --lh: 72px; color: var(--ink-soft); }
+      .a { left: 830px; } .b { left: 1290px; }
+      .slip { left: 160px; top: 884px; }
+
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
+      <div class="ground ground--lab-spiral"></div>
+      <div class="grain"></div>
+
+      <div class="cell cell-a mono up" id="num"><span data-chrome="num">§ 07</span></div>
+      <div class="cell cell-b mono up" id="head"><span data-chrome="head">Au labo · Test ERA</span></div>
+      <div class="photo" id="photo"><img src="assets/footage/embryo/embryo-04-blastocyst-cumulus.jpg" alt="" /><div class="cap sans" data-chrome="footage">Blastocyste · image réelle</div></div>
+      <div class="on-rule serif ev" id="ev"><span data-fact="F1">Essai randomisé : aucun bénéfice démontré.</span><span class="mk" data-ref="R1" data-field="marker">[1]</span></div>
+      <div class="on-rule mono up kpi" id="kpi" data-fact="K1">Naissances vivantes par transfert</div>
+      <div class="on-rule serif num n a" id="na" data-fact="F2">58,5 %</div>
+      <div class="on-rule sans l a" id="la" data-fact="F2" data-field="label">Transfert guidé par l’ERA</div>
+      <div class="on-rule serif num n b" id="nb" data-fact="F3">61,9 %</div>
+      <div class="on-rule sans l b" id="lb" data-fact="F3" data-field="label">Transfert à horaire standard</div>
+      <div class="slip" id="slip">
+        <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
+        <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
+      </div>
+
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const rise = (sel, t, d = 0.45) =>
+        tl.fromTo(sel, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: d, ease: 'power3.out' }, t);
+
+      rise('#num', 0.2, 0.35); rise('#head', 0.3, 0.35);
+      // the print is laid on the page: hard cut + 2-frame settle, no slide
+      tl.fromTo('#photo', { opacity: 0, scale: 1.015 }, { opacity: 1, scale: 1, duration: 0.067, ease: 'none' }, 0.8);
+      rise('#ev', 2.4);
+      rise('#kpi', 4.0, 0.4);
+      rise('#na', 4.3); rise('#la', 4.45, 0.4);
+      rise('#nb', 4.8); rise('#lb', 4.95, 0.4);
+      rise('#slip', 5.8, 0.5);
+
+      tl.to({}, { duration: 0.01 }, 9.99);
+      window.__timelines['main'] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

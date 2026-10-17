@@ -1,11 +1,25 @@
-# Render öncesi iki kapı
+# Render öncesi üç kapı
 
 | Araç | Neyi durdurur | Komut |
 |---|---|---|
 | `facts.mjs` | kaynağa bağlanmamış rakam / hüküm / künye | `node …/tools/facts.mjs all <proje> --lang fr` |
 | `legibility.mjs` | telefonda okunamayacak kadar küçük yazı | `node …/tools/legibility.mjs <proje>` |
+| `variety.mjs` | önceki videolarla aynı görünüm (ilk grafik, kalem izleri, seri + yerleşim seti) | `node …/tools/variety.mjs check <proje>` |
 
-İkisi de geçmeden `npx hyperframes render` yapılmaz.
+Hepsi geçmeden `npx hyperframes render` yapılmaz.
+
+# variety.mjs — çeşitlilik kapısı
+
+Projedeki `look.json`'u (`series`, `papers`, `first_graphic`, `layouts`, `pen_marks`, `stamp_flip`) `../series.json`
+kataloğuna göre doğrular ve `youtube-content/motion/look-log.json`'daki son videolarla karşılaştırır.
+`check <proje>` render öncesi, `log <proje> --lang fr` final render sonrası, `status` son videoları ve uzun süredir
+kullanılmayan seri/yerleşimleri gösterir. Kurallar: `frame.md` § Series & Variety.
+
+# make_papers.py — kâğıt zeminleri
+
+`python3 tools/make_papers.py <spiral-fotoğrafı> assets/papers` zeminleri ve `papers.json` geometrisini yeniden üretir.
+Ölçüler (renk, çizgi aralığı/kalınlığı, kesik/noktalı desen) Dr. Aksoy'un fotoğraflarından alındı ve dosyanın
+başında yazılı; yalnızca spiral tel fotoğraftan kesilir. Ham fotoğraflar depoda tutulmaz.
 
 # legibility.mjs — telefon okunurluk tabanı
 

@@ -1,0 +1,20 @@
+/* Outsider Inside — paper grounds measured from Dr. Aksoy's own papers (tools/make_papers.py).
+   Geometry (rule y, pitch, grid origin) for each ground: assets/papers/papers.json. */
+.ground { position: absolute; inset: 0; background-size: 100% 100%; background-repeat: no-repeat; }
+.ground--recete     { background-image: url(recete/ground-16x9.png); }
+.ground--cizgili    { background-image: url(cizgili/ground-16x9.png); }
+.ground--lab-spiral { background-image: url(lab-spiral/ground-16x9.png); }
+.ground--kareli     { background-image: url(kareli/ground-16x9.png); }
+.ground--recete.v     { background-image: url(recete/ground-9x16.png); }
+.ground--cizgili.v    { background-image: url(cizgili/ground-9x16.png); }
+.ground--lab-spiral.v { background-image: url(lab-spiral/ground-9x16.png); }
+.ground--kareli.v     { background-image: url(kareli/ground-9x16.png); }
+
+/* Sit a text line ON a rule: set --y (rule y), --fs (font size), --lh (= rule pitch for multi-line text).
+   Baseline offset = lh/2 + k·fs, k from the fonts' vertical metrics:
+   Literata (asc 1.177, desc .308) → .4345 · IBM Plex Sans/Mono (asc 1.025, desc .275) → .375.
+   --lift raises the baseline a hair above the rule so descenders, not the x-height, touch it. */
+.on-rule { position: absolute; margin: 0; font-size: var(--fs); line-height: var(--lh, var(--fs));
+           top: calc(var(--y) - var(--lh, var(--fs)) / 2 - var(--k) * var(--fs) - var(--lift, 6px)); }
+.on-rule.serif { --k: .4345; }
+.on-rule.sans, .on-rule.mono { --k: .375; }
