@@ -110,6 +110,56 @@
   "tool": "ballpoint (blue-black), recoloured to ink #1B2230"
  },
  {
+  "id": "dikkat-tr",
+  "type": "word",
+  "lang": "tr",
+  "file": "dikkat-tr.png",
+  "width": 388,
+  "height": 123,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230; second page, scaled 1.4x to match the FR stroke weight"
+ },
+ {
+  "id": "kanitlanmadi-tr",
+  "type": "word",
+  "lang": "tr",
+  "file": "kanitlanmadi-tr.png",
+  "width": 638,
+  "height": 104,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230; second page, scaled 1.4x to match the FR stroke weight"
+ },
+ {
+  "id": "onemli-tr",
+  "type": "word",
+  "lang": "tr",
+  "file": "onemli-tr.png",
+  "width": 332,
+  "height": 111,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230; second page, scaled 1.4x to match the FR stroke weight"
+ },
+ {
+  "id": "careful-en",
+  "type": "word",
+  "lang": "en",
+  "file": "careful-en.png",
+  "width": 420,
+  "height": 141,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230; second page, scaled 1.4x to match the FR stroke weight"
+ },
+ {
+  "id": "important-en",
+  "type": "word",
+  "lang": "en",
+  "file": "important-en.png",
+  "width": 671,
+  "height": 197,
+  "reveal": "linear 90deg",
+  "tool": "ballpoint (blue-black), recoloured to ink #1B2230; second page, scaled 1.4x to match the FR stroke weight"
+ },
+ {
   "id": "underline-double-01",
   "type": "underline-double",
   "lang": null,

@@ -50,7 +50,8 @@
             font-size: 76px; line-height: 1.15; letter-spacing: -.012em; }
       .ev .txt { position: relative; display: inline-block; }
       .ev .dbl { left: -1%; width: 102%; top: 100%; height: 56px; }
-      .note { left: 1180px; top: 130px; width: 700px; height: auto; transform: rotate(-5deg); }
+      .note { left: 1150px; top: 130px; height: auto; transform: rotate(-5deg); }
+      .note-fr { width: 740px; }  .note-tr { left: 1250px; top: 150px; width: 520px; }  .note-en { left: 1230px; top: 120px; width: 560px; }
       .arrowL { left: 1250px; top: 420px; width: 420px; height: auto; transform: rotate(-14deg); --dir: 270deg; }
       .arrowU { --dir: 0deg; }
       :root:not([data-aspect="9x16"]) .arrowU { display: none !important; }   /* portrait-only arrow */
@@ -60,7 +61,10 @@
       :root[data-aspect="9x16"] .ev { left: 64px; top: 280px; width: 896px; font-size: 68px; }
       :root[data-aspect="9x16"] .arrowL { display: none !important; }
       :root[data-aspect="9x16"] .arrowU { left: 470px; top: 760px; width: 150px; height: auto; }
-      :root[data-aspect="9x16"] .note { left: 180px; top: 980px; width: 640px; }
+      :root[data-aspect="9x16"] .note { left: 170px; top: 980px; }
+      :root[data-aspect="9x16"] .note-fr { width: 740px; }
+      :root[data-aspect="9x16"] .note-tr { left: 260px; top: 990px; width: 520px; }
+      :root[data-aspect="9x16"] .note-en { left: 240px; top: 960px; width: 560px; }
       :root[data-aspect="9x16"] .slip { left: 64px; top: 1260px; bottom: auto; width: 896px; }
     </style>
   </head>
@@ -70,10 +74,12 @@
 
       <div class="kicker mono up" id="kicker"><span class="sect">§</span><span data-chrome="chapter">07 · Test ERA</span></div>
       <div class="ev" id="ev"><span class="txt"><span data-fact="F1" data-layout-allow-occlusion="underlined by hand">Essai randomisé : aucun bénéfice démontré.</span><span class="mk" data-ref="R1" data-field="marker">[1]</span><img class="pen hand dbl" id="dbl" src="assets/hand/underline-double-01.png" alt="" /></span></div>
-      <!-- Dr. Aksoy's handwriting: the word is French, so it only appears in the FR version -->
-      <img class="pen hand note only-fr" id="note" src="assets/hand/important-fr.png" alt="" />
-      <img class="pen hand arrowL only-fr" id="arrowL" src="assets/hand/arrow-left-02.png" alt="" />
-      <img class="pen hand arrowU only-fr only-916" id="arrowU" src="assets/hand/arrow-up-01.png" alt="" />
+      <!-- Dr. Aksoy's handwriting: each word only in its own language version; arrows are language-free -->
+      <img class="pen hand note note-fr only-fr" id="note-fr" src="assets/hand/important-fr.png" alt="" />
+      <img class="pen hand note note-tr only-tr" id="note-tr" src="assets/hand/onemli-tr.png" alt="" />
+      <img class="pen hand note note-en only-en" id="note-en" src="assets/hand/careful-en.png" alt="" />
+      <img class="pen hand arrowL" id="arrowL" src="assets/hand/arrow-left-02.png" alt="" />
+      <img class="pen hand arrowU only-916" id="arrowU" src="assets/hand/arrow-up-01.png" alt="" />
       <div class="slip" id="slip">
         <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
         <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
@@ -88,7 +94,7 @@
 
       rise('#kicker', 0.2, 0.4); rise('#ev', 0.5, 0.5);
       tl.fromTo('#dbl', { '--p': 0 }, { '--p': 1, duration: 0.6, ease: 'power2.inOut' }, 2.0);
-      tl.fromTo('#note', { '--p': 0 }, { '--p': 1, duration: 0.8, ease: 'power1.inOut' }, 3.2);
+      tl.fromTo('.note', { '--p': 0 }, { '--p': 1, duration: 0.8, ease: 'power1.inOut' }, 3.2);
       tl.fromTo(['#arrowL', '#arrowU'], { '--p': 0 }, { '--p': 1, duration: 0.45, ease: 'power2.out' }, 4.2);
       rise('#slip', 5.2, 0.5);
       tl.to({}, { duration: 0.01 }, 9.99);

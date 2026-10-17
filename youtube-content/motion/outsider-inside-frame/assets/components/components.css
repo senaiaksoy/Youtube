@@ -59,7 +59,8 @@
 .clipped-left { padding-left: 136px !important; }
 
 /* handwriting (assets/hand/) — Dr. Aksoy's ballpoint notes in ink; reveal with assets/pen/pen.css .pen (--p, --dir).
-   Words are language-bound: *-fr files carry .only-fr and appear only when <html lang="fr">. */
+   Words are language-bound: *-fr / *-tr / *-en files carry .only-fr / .only-tr / .only-en and appear only when
+   <html lang> matches (facts.mjs apply --lang sets it). Arrows, ? and the double underline are language-free. */
 .hand { position: absolute; pointer-events: none; mix-blend-mode: multiply; }
-.only-fr { display: none !important; }
-:lang(fr) .only-fr { display: block !important; }
+.only-fr, .only-tr, .only-en { display: none !important; }
+:lang(fr) .only-fr, :lang(tr) .only-tr, :lang(en) .only-en { display: block !important; }
