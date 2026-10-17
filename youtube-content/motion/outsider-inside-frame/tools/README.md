@@ -128,7 +128,7 @@ node tools/pen.mjs show  <sahne> …             # ne seçeceğini yazar, dosyay
 - `<img class="pen" data-pen="strike|underline|loop|arrow|question" data-pen-tool="round|chisel">`: Dr. Aksoy'un gerçek
   izlerinden aynı tür/araç/biçimde olanı seçer (videoda aynı iz arka arkaya gelmez), ayna, ± açı, yükseklik ve hafif
   eğrilik verir. İz asla programla çizilmez. `data-pen-fixed="<id>"` sabitler.
-- `data-stamp` (± 4°, maske a/b), `<audio data-sfx="pen|stamp|ink-tap">` (aynı kayıt arka arkaya yok),
+- `data-stamp` (−6° → −2,5°, maske a/b), `<audio data-sfx="pen|stamp|ink-tap">` (aynı kayıt arka arkaya yok),
   `<html data-ink-seed>` (assets/ink çizgileri).
 - Seçilen izler `look.json` `pen_marks`'a yazılır; önceki videoyla aynı küme çıkarsa tohum ilerletilir.
 

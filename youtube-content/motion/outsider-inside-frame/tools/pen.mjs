@@ -10,7 +10,7 @@
 //        [data-pen-fixed="oval-01"] …>   — the pool is: same type + tool + a shape close to the default src (aspect ±30 %)
 //     → src + data-pen-id + data-pen-flip + style vars --pen-rot / --pen-sy / --pen-fx / --pen-warp
 //       (assets/pen/pen.css turns those into CSS rotate / scale / an SVG displacement that bends the stroke slightly)
-//   <div class="stamp" data-stamp …>   → --stamp-rot (± 4°; the scene's .stamp transform must use it:
+//   <div class="stamp" data-stamp …>   → --stamp-rot (0…+3.5°, i.e. −6° → −2.5°; steeper hides long TR text from the occlusion check; the scene's .stamp transform must use it:
 //                                          rotate(calc(-6deg + var(--stamp-rot, 0deg)))) + data-stamp-var a|b (mask mirrored)
 //   <audio data-sfx="pen|stamp|ink-tap" …> → src from assets/sfx, never the same file twice in a row
 //   <html data-ink-seed>                  → seed for the black-ink diagram lines drawn by assets/ink/ink.js (rough.js)
@@ -115,7 +115,7 @@ function plan(s) {
     });
     html = html.replace(/<div\b[^>]*\bdata-stamp\b[^>]*>/g, (tag) => {
       const variant = rnd() < 0.5 ? 'b' : 'a'; if (variant === 'b') stampFlip = true;
-      return setVars(setAttr(tag, 'data-stamp-var', variant), { '--stamp-rot': `${r2((rnd() * 2 - 1) * 4)}deg` });
+      return setVars(setAttr(tag, 'data-stamp-var', variant), { '--stamp-rot': `${r2(rnd() * 3.5)}deg` });
     });
     html = html.replace(/<audio\b[^>]*\bdata-sfx="([^"]*)"[^>]*>/g, (tag, kind) => {
       const files = sfx(kind); if (!files.length) throw new Error(`${file}: no assets/sfx/${kind}-*.wav`);

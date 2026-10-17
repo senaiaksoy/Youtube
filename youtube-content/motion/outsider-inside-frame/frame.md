@@ -391,7 +391,7 @@ show-through writing never copied — only the spiral binding is photographic).
   twice in a row in one video) and sets how it sits: mirror (strike/underline/loop), ± rotation, height ± 20–35 %,
   and a slight bend (static SVG displacement). A mirrored stroke still reveals left → right. `data-pen-fixed="<id>"`
   pins one stroke.
-- Stamps opt in with `data-stamp` (± 4° on top of the layout's angle; mask a or mirrored b); foley opts in with
+- Stamps opt in with `data-stamp` (−6° → −2.5°; mask a or mirrored b); foley opts in with
   `<audio data-sfx="pen|stamp|ink-tap">` (never the same take twice in a row).
 - Black-ink diagram lines (`assets/ink/`, rough.js) take `<html data-ink-seed>` from the same seed.
 - More of his own strokes = more variety: a new pen page (20–30 marks) multiplies every slot.
