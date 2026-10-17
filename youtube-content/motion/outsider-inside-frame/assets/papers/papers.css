@@ -18,3 +18,9 @@
            top: calc(var(--y) - var(--lh, var(--fs)) / 2 - var(--k) * var(--fs) - var(--lift, 6px)); }
 .on-rule.serif { --k: .4345; }
 .on-rule.sans, .on-rule.mono { --k: .375; }
+
+/* 9:16 (Shorts): tools/aspect.mjs writes <html data-aspect="9x16"> — the portrait grounds take over */
+[data-aspect="9x16"] .ground--recete     { background-image: url(recete/ground-9x16.png); }
+[data-aspect="9x16"] .ground--cizgili    { background-image: url(cizgili/ground-9x16.png); }
+[data-aspect="9x16"] .ground--lab-spiral { background-image: url(lab-spiral/ground-9x16.png); }
+[data-aspect="9x16"] .ground--kareli     { background-image: url(kareli/ground-9x16.png); }

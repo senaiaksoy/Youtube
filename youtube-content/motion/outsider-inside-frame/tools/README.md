@@ -8,6 +8,14 @@
 
 Hepsi geçmeden `npx hyperframes render` yapılmaz.
 
+# aspect.mjs — tek sahne, iki en-boy
+
+`node …/tools/aspect.mjs <proje>` → `<proje>/shorts/`: `index.html`'in 1080×1920 kopyası (`<html data-aspect="9x16">`),
+`scene-facts.json` (kaynak yolu bir üst klasöre göre düzeltilmiş), `.facts-cache`, `look.json` (+ `"aspect": "9x16"`) ve
+`assets` bağlantısı (Windows'ta junction). `facts.mjs apply`'dan SONRA çalıştırılır. `shorts/index.html` elle düzenlenmez.
+`legibility.mjs` dikey karede ayrıca alt %18'i ve sağ ikon sütununu (son 120 px, alt %55) denetler; her en-boyda kadrajdan
+taşan yazıyı durdurur.
+
 # variety.mjs — çeşitlilik kapısı
 
 Projedeki `look.json`'u (`series`, `papers`, `first_graphic`, `layouts`, `pen_marks`, `stamp_flip`) `../series.json`

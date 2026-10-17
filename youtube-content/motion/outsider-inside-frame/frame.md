@@ -162,6 +162,15 @@ Eyeball tests that gate every frame:
 - **Vertical:** 1080×1920 (9:16) for Shorts; **Square:** 1080×1080 only if asked.
 - **Safe area:** `frame-pad` 4.6cqw; captions and lower-thirds sit inside it. On 9:16, keep the bottom 18% clear for platform UI.
 - **9:16 sizing:** keep the same **pixel** sizes as 16:9 (cqw token × 1.78 on a 1080-wide frame); the 40 px floor is the same.
+- **One source, two aspects (2026-10-17):** a scene is written once, in `index.html` at 1920×1080. Its portrait layout lives in
+  the same file under `:root[data-aspect="9x16"] …` rules (helpers `.only-169` / `.only-916`; sizes via `--W` / `--H`).
+  `node tools/aspect.mjs <project>` writes the Shorts twin to `<project>/shorts/` (1080×1920, same facts, assets linked);
+  check, legibility, facts verify and render run on it unchanged. Never hand-edit `shorts/index.html`.
+- **Shorts UI zone:** YouTube draws title/channel/music over the **bottom 18 %** and the action icons over the **right
+  120 px of the lower 55 %**. No text there (`legibility.mjs` fails it); footage and paper may run under it.
+- **Portrait moves that work:** claims and headlines wrap with `text-wrap: balance`; a strike over a two-line claim becomes
+  one diagonal stroke corner to corner; uppercase mono labels that would wrap become sentence-case Plex Sans; figure pairs
+  stay side by side at 110–130 px; the slip spans the column and wraps to four lines.
 
 **Container law.** Every frame ground sets `container-type: size`; frame-relative units are `cqw`/`cqh`, never `vw`.
 
@@ -361,6 +370,8 @@ show-through writing never copied — only the spiral binding is photographic).
   It warns on the same series 3 times in a row. `node tools/variety.mjs status` lists series and built layouts not
   used lately — start there when choosing.
 - A "spec" layout may be used once it is built; then set it to "built" in `series.json` with its example path.
+- Built so far (2026-10-17): promesse-A/B, chiffre-A/B/C, verdict-A/B, labo-A/B, question-A, retenir-A — reference scenes in
+  `example-era/`, `example-series/`, `example-layouts/`, each with its Shorts twin.
 
 ## Reference Composition
 
@@ -373,6 +384,7 @@ show-through writing never copied — only the spiral binding is photographic).
 - **Proof** — every figure and stamp has a reference on screen; no invented numbers.
 - **Not-AI** — zero glow / gradient / glass / particle / ambient drift / bounce; no banned fonts.
 - **Type** — italic = claim, roman = evidence; French spacing and « » correct.
+- **Shorts** — `node tools/aspect.mjs <project>` then legibility/check on `<project>/shorts` (no text under the Shorts UI).
 - **Phone** — `node tools/legibility.mjs <project>` passes (every visible text ≥ 40 px @1080); look at one frame scaled to 640×360 — everything still reads.
 - **Privacy & scope** — no patient identifiers; no PGT-A / donation / competitor content.
 

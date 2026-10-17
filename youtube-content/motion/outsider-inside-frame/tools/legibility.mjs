@@ -11,6 +11,8 @@
 // other sizes. On a 6" phone held sideways that is ≈1.3 mm x-height — the smallest size that
 // stays readable at arm's length. Elements may opt out only with data-legibility-exempt="reason"
 // (e.g. text that is part of real footage); every exemption is printed.
+// Also fails text that runs off the frame and, on portrait (Shorts) frames, text under YouTube's overlay:
+// bottom 18 % (title, channel, music) and the right icon column (last 120 px, lower 55 %).
 // No dependencies; Node 22+ (global WebSocket). Chrome path from `npx hyperframes browser path`.
 
 import fs from 'node:fs';
@@ -72,9 +74,12 @@ async function main() {
       const tls = window.__timelines || {}; const tl = tls[root.getAttribute('data-composition-id')] || Object.values(tls)[0];
       return { W, H, dur: tl ? tl.duration() : +root.getAttribute('data-duration') || 0, hasTl: !!tl };
     })()`);
+    // size the viewport to the composition (portrait Shorts frames are 1080×1920, not the window's 1920×1080)
+    await send('Emulation.setDeviceMetricsOverride', { width: meta.W, height: meta.H, deviceScaleFactor: 1, mobile: false });
+    await evaluate('new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)))');
     const floor = floor1080 * Math.min(meta.W, meta.H) / 1080;
     const times = [...Array(samples + 1).keys()].map((i) => +(meta.dur * i / samples).toFixed(3));
-    const found = new Map(); const exempt = new Map();
+    const found = new Map(); const exempt = new Map(); const zone = new Map();
     for (const t of times) {
       const rows = await evaluate(`(async () => {
         const root = document.querySelector('[data-composition-id]') || document.body;
@@ -94,6 +99,8 @@ async function main() {
           const range = document.createRange(); range.selectNodeContents(n); const rects = [...range.getClientRects()].filter((r) => r.width > 0 && r.height > 0);
           if (!rects.length) continue;
           const r = rects[0]; if (r.right < 0 || r.bottom < 0 || r.left > innerWidth || r.top > innerHeight) continue;
+          const box = { l: Math.min(...rects.map((q) => q.left)), t: Math.min(...rects.map((q) => q.top)),
+                        r: Math.max(...rects.map((q) => q.right)), b: Math.max(...rects.map((q) => q.bottom)) };
           const cs = getComputedStyle(el); const fs = parseFloat(cs.fontSize);
           // rendered scale from all ancestor transforms: on-screen box / untransformed layout box
           // (rotation only enlarges the box, so the ratio is capped at 1; scale-down shrinks it)
@@ -101,13 +108,20 @@ async function main() {
           const sx = el.offsetWidth ? bb.width / el.offsetWidth : 1, sy = el.offsetHeight ? bb.height / el.offsetHeight : 1;
           const px = fs * Math.min(1, Math.max(Math.min(sx, sy), 0));
           const ex = el.closest('[data-legibility-exempt]');
-          out.push({ txt: txt.slice(0, 60), sel: sel(el), px: Math.round(px * 10) / 10, fs, exempt: ex ? ex.getAttribute('data-legibility-exempt') : null });
+          out.push({ txt: txt.slice(0, 60), sel: sel(el), px: Math.round(px * 10) / 10, fs, exempt: ex ? ex.getAttribute('data-legibility-exempt') : null,
+                    box: { l: Math.round(box.l), t: Math.round(box.t), r: Math.round(box.r), b: Math.round(box.b) } });
         }
         return out;
       })()`);
       for (const r of rows) {
         const key = r.sel + '|' + r.txt; const tgt = r.exempt ? exempt : found;
         const prev = tgt.get(key); if (!prev || r.px < prev.px) tgt.set(key, { ...r, t });
+        if (r.exempt) continue;
+        // text must stay inside the frame (fully settled positions are what matter; 0.5 px tolerance)
+        const off = r.box.l < -0.5 || r.box.t < -0.5 || r.box.r > meta.W + 0.5 || r.box.b > meta.H + 0.5;
+        // Shorts (portrait): YouTube draws title/channel over the bottom 18 % and action icons in the right column
+        const ui = meta.H > meta.W && (r.box.b > meta.H * 0.82 || (r.box.r > meta.W - 120 && r.box.b > meta.H * 0.45));
+        if (off || ui) zone.set(key, { ...r, t, why: off ? 'runs off the frame' : 'under the Shorts UI (bottom 18 % / right icon column)' });
       }
     }
     const all = [...found.values()].sort((a, b) => a.px - b.px);
@@ -115,8 +129,11 @@ async function main() {
     console.log(`frame ${meta.W}×${meta.H} · phone floor ${floor.toFixed(0)} px · ${times.length} samples over ${meta.dur}s · ${all.length} text runs`);
     for (const r of all) console.log(`${r.px + 0.5 < floor ? '✖' : '✔'} ${String(r.px).padStart(6)} px  ${r.sel.padEnd(28)} "${r.txt}"${r.px + 0.5 < floor ? `  (smallest at ${r.t}s)` : ''}`);
     for (const r of exempt.values()) console.log(`· exempt (${r.exempt}): ${r.px} px "${r.txt}"`);
-    console.log(bad.length ? `\nlegibility FAILED: ${bad.length} text run(s) below ${floor.toFixed(0)} px` : `\nlegibility passed — every visible text ≥ ${floor.toFixed(0)} px`);
-    process.exitCode = bad.length ? 1 : 0;
+    for (const r of zone.values()) console.log(`✖ placement: ${r.sel} "${r.txt}" ${r.why} (box ${r.box.l},${r.box.t}–${r.box.r},${r.box.b} at ${r.t}s)`);
+    const fails = bad.length + zone.size;
+    console.log(fails ? `\nlegibility FAILED: ${bad.length} text run(s) below ${floor.toFixed(0)} px, ${zone.size} placement problem(s)`
+                      : `\nlegibility passed — every visible text ≥ ${floor.toFixed(0)} px${meta.H > meta.W ? ', clear of the Shorts UI' : ''}, inside the frame`);
+    process.exitCode = fails ? 1 : 0;
   } finally { try { ws?.close(); } catch {} chrome.kill(); server.close(); }
 }
 main().catch((e) => { console.error(`✖ ${e.message}`); process.exit(2); });

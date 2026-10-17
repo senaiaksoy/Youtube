@@ -20,7 +20,10 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
    `node youtube-content/motion/outsider-inside-frame/tools/variety.mjs check projects/<slug>` çalıştır; son videolarla
    aynı görünüm seçilmişse durdurur. Final render'dan sonra `variety.mjs log projects/<slug> --lang fr`.
    Hangi seri ne için: `frame.md` § Series & Variety; örnek sahneler `example-series/`.
-7. Projeye özel değişiklik gerekiyorsa projedeki kopyada yap; ana şablonu değiştirmek
+7. Shorts: sahne tek dosyadır (`index.html`, 16:9); dikey düzen aynı dosyada `:root[data-aspect="9x16"]` kurallarıyla yazılır.
+   `facts.mjs apply` sonrası `node youtube-content/motion/outsider-inside-frame/tools/aspect.mjs projects/<slug>` → `projects/<slug>/shorts/`
+   (1080×1920). `legibility.mjs` ve `hyperframes check` `shorts/` üzerinde de geçmeli; alt %18 ve sağ ikon sütununda yazı olmaz.
+8. Projeye özel değişiklik gerekiyorsa projedeki kopyada yap; ana şablonu değiştirmek
    tüm gelecek videoları etkiler — yalnızca bilinçli kararla güncelle.
 
 ## Hazır varlıklar
@@ -35,6 +38,7 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 - `assets/papers/` → Dr. Aksoy'un fotoğrafladığı 4 kâğıttan ölçülerek yeniden çizilen zeminler: reçete kâğıdı (antetsiz), krem çizgili defter, spiral lab defteri (gerçek spiral), kareli kâğıt. Fotoğraflardaki baskı yazısı, logo, iletişim bilgisi, el yazısı ve arkadan geçen yazılar kullanılmadı; ham fotoğraflar depoya konmadı. Üretici: `tools/make_papers.py`.
 
 ## Açık kararlar
+- (2026-10-17) Her referans sahnenin Shorts (9:16) ikizi var; 4 yeni yerleşim kuruldu (promesse-B, chiffre-C, verdict-B, labo-B) → `example-layouts/`.
 - (2026-10-17) Her video aynı görünmesin: 5 seri (mythe / labo / questions / chiffres / conseils), her biri kendi kâğıdıyla; `look.json` + `tools/variety.mjs` son 3 videoyla aynı kombinasyonu engeller. Örnekler `example-series/`.
 - (2026-10-16) Kanal intro'su kullanılmaz (Dr. Aksoy kararı): video Dr. Aksoy'la açılır, doğrudan içeriğe girer; logo/bumper yok.
 - (2026-10-16) Motion grafikteki tüm yazılar cep telefonunda okunur boyutta: taban 40 px @1080 (16:9'da 2.1cqw), `tools/legibility.mjs` ile denetlenir.

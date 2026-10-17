@@ -1,39 +1,57 @@
 <!doctype html>
 <html lang="fr">
-  <!-- On-screen facts are generated from scene-facts.json: node ../tools/facts.mjs all . --lang fr -->
+  <!-- Reference scene « Le mythe » (promesse-A + chiffre-A + verdict-A). On-screen facts from scene-facts.json.
+       One source, two aspects: this file is 1920×1080; `node ../../tools/aspect.mjs .` writes shorts/ (1080×1920)
+       from it, using the :root[data-aspect="9x16"] rules below. Facts: node ../../tools/facts.mjs all . --lang fr
+       · phone floor + Shorts UI zone: node ../../tools/legibility.mjs . (and shorts/) -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=1080" />
     <script src="assets/vendor/gsap.min.js"></script>
     <link rel="stylesheet" href="assets/fonts/fonts.css" />
     <link rel="stylesheet" href="assets/pen/pen.css" />
+    <link rel="stylesheet" href="assets/papers/papers.css" />
     <style>
-      :root {
-        --paper: #F4F0E6; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
-        --graphite: #8C877A; --red: #C4301C;
-      }
+      :root { --W: 1920px; --H: 1080px; --paper: #F4F0E6; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
+               --graphite: #8C877A; --red: #C4301C; }
+      :root[data-aspect="9x16"] { --W: 1080px; --H: 1920px; }
       * { margin: 0; padding: 0; box-sizing: border-box; }
-      html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--paper); }
-      #root { position: relative; width: 1920px; height: 1080px; background: var(--paper); color: var(--ink);
-              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; }
+      html, body { width: var(--W); height: var(--H); overflow: hidden; background: var(--paper); }
+      #root { position: relative; width: var(--W); height: var(--H); background: var(--paper); color: var(--ink);
+              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; overflow: hidden; }
       .grain { position: absolute; inset: 0; background: url(assets/textures/paper-grain-16x9.png);
                mix-blend-mode: soft-light; opacity: .35; pointer-events: none; }
+      :root[data-aspect="9x16"] .grain { background-image: url(assets/textures/paper-grain-9x16.png); }
+      .only-916 { display: none; }
+      :root[data-aspect="9x16"] .only-916 { display: block; }
+      :root[data-aspect="9x16"] .only-169 { display: none; }
+      .serif { font-family: 'Literata', Georgia, serif; }
+      .mono  { font-family: 'IBM Plex Mono', monospace; font-weight: 500; }
+      .sans  { font-family: 'IBM Plex Sans', system-ui, sans-serif; }
+      .up    { text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); }
+      .sect  { color: var(--red); margin-right: .45em; }
+      .mk    { font-family: 'IBM Plex Mono', monospace; font-size: 40px; font-weight: 500; color: var(--ink-soft); margin-left: 14px; letter-spacing: 0; }
+      .slip  { position: absolute; background: var(--paper-deep); border: 1px solid rgba(27,34,48,.14); border-radius: 2px;
+               box-shadow: 0 1px 0 rgba(27,34,48,.10); padding: 16px 26px; font-family: 'IBM Plex Mono', monospace;
+               font-size: 40px; line-height: 1.32; color: var(--ink-soft); }
+      .slip .t { color: var(--ink); font-weight: 500; }
+      :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
+      .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
+      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+               font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
+               mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
+               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
+      :lang(tr) .stamp { font-size: 60px; }
 
-      /* phone floor: no visible text under 40 px at 1080p (tools/legibility.mjs) */
       .kicker { position: absolute; left: 88px; top: 64px; font-family: 'IBM Plex Mono', monospace; font-weight: 500;
                 font-size: 40px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
       .kicker b { color: var(--red); font-weight: 500; margin-right: .5em; }
-
       .claim { position: absolute; left: 88px; top: 128px; font-family: 'Literata', Georgia, serif; font-style: italic;
                font-weight: 400; font-size: 100px; line-height: 1.1; letter-spacing: -.015em; white-space: nowrap; }
       .claim .txt { position: relative; display: inline-block; }
       .claim .pen { left: -2.5%; width: 105%; top: 47%; height: 74px; transform: translateY(-50%) rotate(-.8deg); mix-blend-mode: multiply; }
-
       .evidence { position: absolute; left: 88px; top: 262px; font-family: 'Literata', Georgia, serif; font-weight: 500;
                   font-size: 64px; line-height: 1.12; letter-spacing: -.012em; }
-      .evidence .mk { font-family: 'IBM Plex Mono', monospace; font-size: 40px; font-weight: 500; color: var(--ink-soft);
-                      margin-left: 14px; letter-spacing: 0; }
-
       .kpi-label { position: absolute; left: 88px; top: 392px; font-family: 'IBM Plex Mono', monospace; font-size: 40px;
                    letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
       .fig { position: absolute; top: 452px; width: 520px; }
@@ -42,19 +60,20 @@
       .fig .l { margin-top: 14px; font-size: 44px; line-height: 1.15; color: var(--ink-soft); }
       .fig-a { left: 88px; } .fig-b { left: 700px; }
       .rule { position: absolute; left: 650px; top: 462px; width: 1px; height: 250px; background: rgba(27,34,48,.28); transform-origin: top; }
-
-      .slip { position: absolute; left: 88px; bottom: 52px; max-width: 1744px; background: var(--paper-deep);
-              border: 1px solid rgba(27,34,48,.14); border-radius: 2px; box-shadow: 0 1px 0 rgba(27,34,48,.10);
-              padding: 18px 28px; font-family: 'IBM Plex Mono', monospace; font-size: 40px; line-height: 1.32; color: var(--ink-soft); }
-      .slip .t { color: var(--ink); font-weight: 500; }
-
-      .stamp { position: absolute; left: 1262px; top: 430px; transform: rotate(-6deg); border: 7px solid var(--red);
-               border-radius: 2px; color: var(--red); font-family: 'IBM Plex Mono', monospace; font-weight: 700;
-               font-size: 70px; letter-spacing: .08em; padding: 14px 34px; mix-blend-mode: multiply;
-               -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
-               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
-      /* longer verdict words (TR) keep the stamp inside the safe area */
-      :lang(tr) .stamp { font-size: 60px; left: 1262px; }
+      .slip { left: 88px; bottom: 52px; max-width: 1744px; padding: 18px 28px; }
+      .stamp { left: 1262px; top: 430px; }
+      /* ---- 9:16 (Shorts): bottom 18 % and the right icon column stay free of text ---- */
+      :root[data-aspect="9x16"] .kicker { left: 64px; top: 150px; }
+      :root[data-aspect="9x16"] .claim { left: 64px; top: 220px; width: 952px; white-space: normal; font-size: 92px; text-wrap: balance; }
+      :root[data-aspect="9x16"] .claim .pen { left: -3%; width: 106%; top: 50%; height: 64px; transform: translateY(-50%) rotate(-9deg); }
+      :root[data-aspect="9x16"] .evidence { left: 64px; top: 500px; width: 952px; font-size: 60px; }
+      :root[data-aspect="9x16"] .kpi-label { left: 64px; top: 700px; font-family: 'IBM Plex Sans', sans-serif; text-transform: none; letter-spacing: 0; }
+      :root[data-aspect="9x16"] .fig { top: 770px; width: 400px; }
+      :root[data-aspect="9x16"] .fig .n { font-size: 130px; }
+      :root[data-aspect="9x16"] .fig-a { left: 64px; } :root[data-aspect="9x16"] .fig-b { left: 540px; }
+      :root[data-aspect="9x16"] .rule { left: 505px; top: 780px; height: 240px; }
+      :root[data-aspect="9x16"] .stamp { left: 200px; top: 1120px; }
+      :root[data-aspect="9x16"] .slip { left: 64px; top: 1300px; bottom: auto; width: 896px; max-width: none; padding: 12px 22px; }
     </style>
   </head>
   <body>
@@ -62,28 +81,21 @@
       <div class="grain"></div>
 
       <div class="kicker" id="kicker"><b>§</b><span data-chrome="chapter">07 · Test ERA</span></div>
-
       <div class="claim" id="claim"><span class="txt"><span data-fact="Q1">« Le test ERA améliore vos chances. »</span><img class="pen" id="strike" src="assets/pen/strike-01.png" alt="" /></span></div>
-
       <div class="evidence" id="evidence"><span data-fact="F1">Essai randomisé : aucun bénéfice démontré.</span><span class="mk" data-ref="R1" data-field="marker">[1]</span></div>
-
       <div class="kpi-label" id="kpiLabel" data-fact="K1">Naissances vivantes par transfert</div>
-      <div class="fig fig-a" id="figA"><div class="n" data-fact="F2">58,5 %</div><div class="l" data-fact="F2" data-field="label">Transfert guidé par l’ERA</div></div>
+      <div class="fig fig-a" id="figA"><div class="n" data-fact="F2">58,5 %</div><div class="l" data-fact="F2" data-field="label">Transfert guidé par l’ERA</div></div>
       <div class="rule" id="rule"></div>
-      <div class="fig fig-b" id="figB"><div class="n" data-fact="F3">61,9 %</div><div class="l" data-fact="F3" data-field="label">Transfert à horaire standard</div></div>
-
+      <div class="fig fig-b" id="figB"><div class="n" data-fact="F3">61,9 %</div><div class="l" data-fact="F3" data-field="label">Transfert à horaire standard</div></div>
       <div class="slip" id="slip">
         <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
         <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
       </div>
-
       <div class="stamp" id="stamp" data-fact="V1">NON PROUVÉ</div>
-
       <!-- real foley recorded by Dr. Aksoy: marker on paper, rubber stamp on desk -->
       <audio id="sfx-pen" data-start="2.28" data-duration="0.55" data-track-index="10" data-volume="0.9" src="assets/sfx/pen-02.wav"></audio>
       <audio id="sfx-stamp" data-start="6.97" data-duration="0.85" data-track-index="11" data-volume="0.85" src="assets/sfx/stamp-01.wav"></audio>
     </div>
-
     <script>
       window.__timelines = window.__timelines || {};
       const tl = gsap.timeline({ paused: true });
@@ -92,7 +104,7 @@
 
       rise('#kicker', 0.2, 0.4);
       rise('#claim', 0.5);
-      // strike: the claim is read first (>= 1.2 s), then the hand crosses it out
+      // strike: the claim is read first (>= 1.2 s), then the hand crosses it out (portrait: one diagonal over both lines)
       tl.fromTo('#strike', { '--p': 0 }, { '--p': 1, duration: 0.6, ease: 'power2.inOut' }, 2.3);
       rise('#evidence', 3.2);
       rise('#kpiLabel', 4.4, 0.4);
@@ -103,7 +115,6 @@
       // stamp: hard cut + 2-frame ink spread, no bounce
       tl.fromTo('#stamp', { opacity: 0, scale: 1.025 }, { opacity: 1, scale: 1, duration: 0.067, ease: 'none' }, 7.0);
       tl.to({}, { duration: 0.01 }, 9.99);
-
       window.__timelines['main'] = tl;
       tl.seek(0);
     </script>

@@ -1,37 +1,141 @@
 {
   "_doc": "Outsider Inside — series, papers and layout variants. Read by tools/variety.mjs. Rules: frame.md § Series & Variety.",
   "papers": {
-    "a4":         { "label": "Plain A4 (paper-grain)",                  "ground": "#F4F0E6", "asset": "textures/paper-grain-16x9.png" },
-    "lab-spiral": { "label": "Spiral lab notebook, ruled box, blue edge", "ground": "#EFEBE1", "asset": "papers/lab-spiral/" },
-    "cizgili":    { "label": "Cream ruled notebook, dotted rules",        "ground": "#F3EBD6", "asset": "papers/cizgili/" },
-    "kareli":     { "label": "Squared paper, 5 mm grid",                  "ground": "#F2F1EC", "asset": "papers/kareli/" },
-    "recete":     { "label": "Prescription-pad stock, dashed rules (no letterhead)", "ground": "#F5F4F0", "asset": "papers/recete/" }
+    "a4": {
+      "label": "Plain A4 (paper-grain)",
+      "ground": "#F4F0E6",
+      "asset": "textures/paper-grain-16x9.png"
+    },
+    "lab-spiral": {
+      "label": "Spiral lab notebook, ruled box, blue edge",
+      "ground": "#EFEBE1",
+      "asset": "papers/lab-spiral/"
+    },
+    "cizgili": {
+      "label": "Cream ruled notebook, dotted rules",
+      "ground": "#F3EBD6",
+      "asset": "papers/cizgili/"
+    },
+    "kareli": {
+      "label": "Squared paper, 5 mm grid",
+      "ground": "#F2F1EC",
+      "asset": "papers/kareli/"
+    },
+    "recete": {
+      "label": "Prescription-pad stock, dashed rules (no letterhead)",
+      "ground": "#F5F4F0",
+      "asset": "papers/recete/"
+    }
   },
   "series": {
-    "mythe":     { "fr": "Le mythe",          "tr": "Mit avcısı",       "en": "The myth",        "paper": "a4",
-                   "for": "a claim / add-on / promise examined: strike + verdict stamp" },
-    "labo":      { "fr": "Au labo",           "tr": "Laboratuvardan",   "en": "From the lab",    "paper": "lab-spiral",
-                   "for": "embryology, lab technique, what really happens to gametes/embryos — real footage is the hero" },
-    "questions": { "fr": "Vos questions",     "tr": "Sorularınız",      "en": "Your questions",  "paper": "cizgili",
-                   "for": "one patient question answered (generic wording, never an identifiable patient)" },
-    "chiffres":  { "fr": "Les chiffres",      "tr": "Rakamlar",         "en": "The numbers",     "paper": "kareli",
-                   "for": "a study, a success rate, a comparison — the data is the story" },
-    "conseils":  { "fr": "Ce que je retiens", "tr": "Aklınızda kalsın", "en": "What to remember", "paper": "recete",
-                   "for": "practical take-aways / closing summary — no drug names or doses, never a real prescription" }
+    "mythe": {
+      "fr": "Le mythe",
+      "tr": "Mit avcısı",
+      "en": "The myth",
+      "paper": "a4",
+      "for": "a claim / add-on / promise examined: strike + verdict stamp"
+    },
+    "labo": {
+      "fr": "Au labo",
+      "tr": "Laboratuvardan",
+      "en": "From the lab",
+      "paper": "lab-spiral",
+      "for": "embryology, lab technique, what really happens to gametes/embryos — real footage is the hero"
+    },
+    "questions": {
+      "fr": "Vos questions",
+      "tr": "Sorularınız",
+      "en": "Your questions",
+      "paper": "cizgili",
+      "for": "one patient question answered (generic wording, never an identifiable patient)"
+    },
+    "chiffres": {
+      "fr": "Les chiffres",
+      "tr": "Rakamlar",
+      "en": "The numbers",
+      "paper": "kareli",
+      "for": "a study, a success rate, a comparison — the data is the story"
+    },
+    "conseils": {
+      "fr": "Ce que je retiens",
+      "tr": "Aklınızda kalsın",
+      "en": "What to remember",
+      "paper": "recete",
+      "for": "practical take-aways / closing summary — no drug names or doses, never a real prescription"
+    }
   },
   "layouts": {
-    "promesse-A": { "status": "built", "example": "example-era",            "desc": "claim top-left full measure, pen strike, evidence below" },
-    "promesse-B": { "status": "spec",  "desc": "claim centred in display size, strike, evidence as a single footnote line under it" },
-    "chiffre-A":  { "status": "built", "example": "example-era",            "desc": "two figures side by side, hairline between, labels under" },
-    "chiffre-B":  { "status": "built", "example": "example-series/chiffres","desc": "hand-ruled ledger table snapped to the grid, pen circle on the decisive figure" },
-    "chiffre-C":  { "status": "spec",  "desc": "one hero number centred, context line under, slip bottom-left" },
-    "verdict-A":  { "status": "built", "example": "example-era",            "desc": "stamp right of the figures, slightly overlapping nothing" },
-    "verdict-B":  { "status": "spec",  "desc": "stamp alone on an empty page over the headline (Le verdict treatment)" },
-    "labo-A":     { "status": "built", "example": "example-series/labo",    "desc": "real print laid on the notebook, caption on its margin, notes on the rules beside it" },
-    "labo-B":     { "status": "spec",  "desc": "footage full-bleed, paper footage-tab bottom-left, one figure card" },
-    "question-A": { "status": "built", "example": "example-series/questions","desc": "question in italic on the first rules, answer in roman, figures, stamp" },
-    "retenir-A":  { "status": "built", "example": "example-series/conseils", "desc": "dash list on the rules, pen underline on the key line, signature" }
+    "promesse-A": {
+      "status": "built",
+      "example": "example-era",
+      "desc": "claim top-left full measure, pen strike, evidence below"
+    },
+    "promesse-B": {
+      "status": "built",
+      "desc": "claim centred in display size, one chisel stroke corner to corner across both lines, evidence as a single line under it",
+      "example": "example-layouts/promesse-B"
+    },
+    "chiffre-A": {
+      "status": "built",
+      "example": "example-era",
+      "desc": "two figures side by side, hairline between, labels under"
+    },
+    "chiffre-B": {
+      "status": "built",
+      "example": "example-series/chiffres",
+      "desc": "hand-ruled ledger table snapped to the grid, pen circle on the decisive figure"
+    },
+    "chiffre-C": {
+      "status": "built",
+      "desc": "one hero number on the grid (hard cut, no count-up), label + context beside it, slip bottom-left",
+      "example": "example-layouts/chiffre-C"
+    },
+    "verdict-A": {
+      "status": "built",
+      "example": "example-era",
+      "desc": "stamp right of the figures, slightly overlapping nothing"
+    },
+    "verdict-B": {
+      "status": "built",
+      "desc": "headline naming what is judged, the stamp pressed over it alone on the page, one evidence line, slip",
+      "example": "example-layouts/verdict-B"
+    },
+    "labo-A": {
+      "status": "built",
+      "example": "example-series/labo",
+      "desc": "real print laid on the notebook, caption on its margin, notes on the rules beside it"
+    },
+    "labo-B": {
+      "status": "built",
+      "desc": "real still full-bleed with one slow push-in, paper footage-tab bottom-left, one paper figure card with its citation",
+      "example": "example-layouts/labo-B"
+    },
+    "question-A": {
+      "status": "built",
+      "example": "example-series/questions",
+      "desc": "question in italic on the first rules, answer in roman, figures, stamp"
+    },
+    "retenir-A": {
+      "status": "built",
+      "example": "example-series/conseils",
+      "desc": "dash list on the rules, pen underline on the key line, signature"
+    }
   },
-  "pen_marks": ["strike-01", "strike-02", "loop-01", "oval-01", "underline-01", "question-01", "arrow-01",
-                "wide-strike-01", "wide-strike-02", "wide-loop-01", "wide-oval-01", "wide-underline-01", "wide-arrow-01", "wide-question-01"]
+  "pen_marks": [
+    "strike-01",
+    "strike-02",
+    "loop-01",
+    "oval-01",
+    "underline-01",
+    "question-01",
+    "arrow-01",
+    "wide-strike-01",
+    "wide-strike-02",
+    "wide-loop-01",
+    "wide-oval-01",
+    "wide-underline-01",
+    "wide-arrow-01",
+    "wide-question-01"
+  ],
+  "_aspects": "Every reference scene is one index.html that renders 16:9; tools/aspect.mjs writes its 9:16 Shorts twin (shorts/) from the :root[data-aspect=\"9x16\"] rules in the same file."
 }
