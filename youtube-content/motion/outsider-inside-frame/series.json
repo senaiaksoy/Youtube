@@ -137,5 +137,12 @@
     "wide-arrow-01",
     "wide-question-01"
   ],
-  "_aspects": "Every reference scene is one index.html that renders 16:9; tools/aspect.mjs writes its 9:16 Shorts twin (shorts/) from the :root[data-aspect=\"9x16\"] rules in the same file."
+  "_aspects": "Every reference scene is one index.html that renders 16:9; tools/aspect.mjs writes its 9:16 Shorts twin (shorts/) from the :root[data-aspect=\"9x16\"] rules in the same file.",
+  "components": {
+    "talking-head": "example-components/talking-head",
+    "cta": "example-components/cta",
+    "chapitre": "example-components/chapitre",
+    "cloture": "example-components/cloture",
+    "etiquettes": "example-components/etiquettes"
+  }
 }

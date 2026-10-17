@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+  <!-- Component reference « cta » (frame.md § Components; styles in assets/components/components.css).
+       One source, two aspects: this file is 1920×1080; `node ../../tools/aspect.mjs .` writes shorts/ (1080×1920)
+       from it, using the :root[data-aspect="9x16"] rules below. Facts: node ../../tools/facts.mjs all . --lang fr
+       · phone floor + Shorts UI zone: node ../../tools/legibility.mjs . (and shorts/) -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="assets/pen/pen.css" />
+    <link rel="stylesheet" href="assets/papers/papers.css" />
+    <link rel="stylesheet" href="assets/components/components.css" />
+    <style>
+      :root { --W: 1920px; --H: 1080px; --paper: #121820; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
+               --graphite: #8C877A; --red: #C4301C; }
+      :root[data-aspect="9x16"] { --W: 1080px; --H: 1920px; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: var(--W); height: var(--H); overflow: hidden; background: var(--paper); }
+      #root { position: relative; width: var(--W); height: var(--H); background: var(--paper); color: var(--ink);
+              font-family: 'IBM Plex Sans', system-ui, sans-serif; container-type: size; overflow: hidden; }
+      .grain { position: absolute; inset: 0; background: url(assets/textures/paper-grain-16x9.png);
+               mix-blend-mode: soft-light; opacity: 0; pointer-events: none; }
+      :root[data-aspect="9x16"] .grain { background-image: url(assets/textures/paper-grain-9x16.png); }
+      .only-916 { display: none; }
+      :root[data-aspect="9x16"] .only-916 { display: block; }
+      :root[data-aspect="9x16"] .only-169 { display: none; }
+      .serif { font-family: 'Literata', Georgia, serif; }
+      .mono  { font-family: 'IBM Plex Mono', monospace; font-weight: 500; }
+      .sans  { font-family: 'IBM Plex Sans', system-ui, sans-serif; }
+      .up    { text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); }
+      .sect  { color: var(--red); margin-right: .45em; }
+      .mk    { font-family: 'IBM Plex Mono', monospace; font-size: 40px; font-weight: 500; color: var(--ink-soft); margin-left: 14px; letter-spacing: 0; }
+      .slip  { position: absolute; background: var(--paper-deep); border: 1px solid rgba(27,34,48,.14); border-radius: 2px;
+               box-shadow: 0 1px 0 rgba(27,34,48,.10); padding: 16px 26px; font-family: 'IBM Plex Mono', monospace;
+               font-size: 40px; line-height: 1.32; color: var(--ink-soft); }
+      .slip .t { color: var(--ink); font-weight: 500; }
+      :root[data-aspect="9x16"] .slip { padding: 12px 22px; line-height: 1.25; }
+      .num   { font-weight: 600; letter-spacing: -.03em; font-variant-numeric: lining-nums tabular-nums; }
+      .stamp { position: absolute; transform: rotate(-6deg); border: 7px solid var(--red); border-radius: 2px; color: var(--red);
+               font-family: 'IBM Plex Mono', monospace; font-weight: 700; font-size: 70px; letter-spacing: .08em; padding: 14px 34px;
+               mix-blend-mode: multiply; -webkit-mask-image: url(assets/textures/stamp-mask.png); mask-image: url(assets/textures/stamp-mask.png);
+               -webkit-mask-size: 100% 100%; mask-size: 100% 100%; white-space: nowrap; }
+      :lang(tr) .stamp { font-size: 60px; }
+      /* stand-in for the talking-head camera clip: replace .foot with <video> of Dr. Aksoy in a real project */
+      .foot { position: absolute; inset: 0; background: #121820 url(assets/footage/lab/lab-14-portrait-professional.jpg) center 10% / cover no-repeat; }
+      :root[data-aspect="9x16"] .foot { background-image: url(assets/footage/lab/lab-01-portrait-icsi-station.jpg); background-position: 58% center; }
+      /* ---- 9:16 (Shorts): bottom 18 % and the right icon column stay free of text ---- */
+
+    </style>
+  </head>
+  <body>
+    <div id="root" class="oi-c" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
+      <div class="grain"></div>
+
+      <div class="foot"></div>
+      <div class="cta" id="cta">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path id="thumb" d="M7 10v11H3.5a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5H7zm2 11h8.3a2 2 0 0 0 2-1.6l1.4-6.6A2 2 0 0 0 18.7 10H14l.8-3.8A1.9 1.9 0 0 0 13 4L9 10v11z"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path id="bell" d="M18 16.5V11a6 6 0 1 0-12 0v5.5L4.5 18h15L18 16.5zM10 20.5a2 2 0 0 0 4 0"/></svg>
+        <div class="sub" id="sub" data-chrome="sub">Abonnez-vous</div>
+      </div>
+      <!-- real foley: ink tap on each state change -->
+      <audio id="sfx-t1" data-start="1.48" data-duration="0.3" data-track-index="10" data-volume="0.7" src="assets/sfx/ink-tap-01.wav"></audio>
+      <audio id="sfx-t2" data-start="2.08" data-duration="0.3" data-track-index="11" data-volume="0.7" src="assets/sfx/ink-tap-02.wav"></audio>
+      <audio id="sfx-t3" data-start="2.68" data-duration="0.3" data-track-index="12" data-volume="0.7" src="assets/sfx/ink-tap-01.wav"></audio>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const rise = (sel, t, d = 0.45) =>
+        tl.fromTo(sel, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: d, ease: 'power3.out' }, t);
+
+      // one axis in, state changes (outline → filled), one axis out. No bounce, no shake, no glow.
+      tl.fromTo('#cta', { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: 'power3.out' }, 0.8);
+      tl.to('#thumb', { fillOpacity: 1, duration: 0.067, ease: 'none' }, 1.5);
+      tl.to('#bell', { fillOpacity: 1, duration: 0.067, ease: 'none' }, 2.1);
+      tl.fromTo('#sub', { backgroundColor: 'rgba(27,34,48,0)', color: '#1B2230' }, { backgroundColor: 'rgba(27,34,48,1)', color: '#F4F0E6', duration: 0.067, ease: 'none' }, 2.7);
+      tl.to('#cta', { y: 40, opacity: 0, duration: 0.35, ease: 'power2.in' }, 5.2);
+      tl.to({}, { duration: 0.01 }, 9.99);
+      window.__timelines['main'] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

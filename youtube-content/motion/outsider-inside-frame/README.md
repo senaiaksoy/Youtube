@@ -37,6 +37,9 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
 
 - `assets/papers/` → Dr. Aksoy'un fotoğrafladığı 4 kâğıttan ölçülerek yeniden çizilen zeminler: reçete kâğıdı (antetsiz), krem çizgili defter, spiral lab defteri (gerçek spiral), kareli kâğıt. Fotoğraflardaki baskı yazısı, logo, iletişim bilgisi, el yazısı ve arkadan geçen yazılar kullanılmadı; ham fotoğraflar depoya konmadı. Üretici: `tools/make_papers.py`.
 
+- `assets/components/components.css` + `example-components/` → isim bandı ve yan not (talking-head), CTA, bölüm geçişi (chapitre), kapanış cümlesi (cloture), footage/illustration etiketleri (etiquettes); her biri 16:9 + Shorts, FR/TR/EN kontrollü.
+- `assets/objects/` → Dr. Aksoy'un masasından gerçek ataşlar (künye kartını tutturmak için).
+
 ## Açık kararlar
 - (2026-10-17) Her referans sahnenin Shorts (9:16) ikizi var; 4 yeni yerleşim kuruldu (promesse-B, chiffre-C, verdict-B, labo-B) → `example-layouts/`.
 - (2026-10-17) Her video aynı görünmesin: 5 seri (mythe / labo / questions / chiffres / conseils), her biri kendi kâğıdıyla; `look.json` + `tools/variety.mjs` son 3 videoyla aynı kombinasyonu engeller. Örnekler `example-series/`.

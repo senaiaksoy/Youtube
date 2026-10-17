@@ -328,6 +328,7 @@ Motion should feel like **a hand and a page**, not like software.
 
 ## Assets
 
+- **Objects (installed, 2026-10-17):** `assets/objects/` — two paper clips cut from a top-down photo of Dr. Aksoy's desk (see its README). Branded objects (calculator, glue) and red objects (scissors) are not used.
 - **Fonts (installed):** `assets/fonts/` holds Literata variable (wght 200–900 + opsz 7–72, roman + italic) and IBM Plex Sans 400/600 as WOFF2, split into latin + latin-ext subsets (FR + TR verified). Link `assets/fonts/fonts.css` in index.html (or paste its @font-face block); family names are exactly 'Literata' and 'IBM Plex Sans'. IBM Plex Mono is renderer-bundled. Licence: SIL OFL 1.1 (OFL-*.txt beside the files). Fallbacks: Literata → Source Serif 4 → Georgia (never a sans); Plex Sans → system-ui. Proof: `test/font-testcard.png`.
 - **Paper grain (installed):** `assets/textures/paper-grain-16x9.png` (1920×1080) and `paper-grain-9x16.png` (1080×1920) — neutral grey (mean 128) from a real A4 photo, lighting gradient removed. Use as a full-frame static layer: `mix-blend-mode: soft-light; opacity: .35` over `{colors.paper}`; never on lab surfaces, never moving. Preview: `test/paper-preview.png`.
 - **Stamp mask (installed):** `assets/textures/stamp-mask.png` (1400×560, white + alpha). Ink-pressure variation calibrated to a real rubber-stamp impression (in-stroke density CV ≈ 0.22, ~5 % ink-starved specks, drier right edge), built from the real paper-fibre texture. Apply to the whole verdict-stamp box: `mask-image: url(assets/textures/stamp-mask.png); mask-size: 100% 100%;` plus `mix-blend-mode: multiply`. Flip it (`transform: scaleX(-1)` on a wrapper, or `mask-position`) when two stamps share a video so they don't look identical. CSS masks need the page served over http (HyperFrames preview/render do this) — they silently fail on file://. Reference: `test/stamp-test.png`.
@@ -372,6 +373,23 @@ show-through writing never copied — only the spiral binding is photographic).
 - A "spec" layout may be used once it is built; then set it to "built" in `series.json` with its example path.
 - Built so far (2026-10-17): promesse-A/B, chiffre-A/B/C, verdict-A/B, labo-A/B, question-A, retenir-A — reference scenes in
   `example-era/`, `example-series/`, `example-layouts/`, each with its Shorts twin.
+
+## Built Components (2026-10-17)
+
+Every overlay the edit needs has a built, checked reference in `example-components/` (16:9 + `shorts/`), styled by
+`assets/components/components.css` (link it after `papers.css`; put `class="oi-c"` on `#root`):
+
+| Component | Reference | Rules that matter |
+|---|---|---|
+| lower-third | `talking-head` | first appearance of Dr. Aksoy only; slides in from the left edge, holds ~4 s, slides out; name + role per channel (TR: « Doç. Dr. » + « Kadın Hastalıkları, Doğum ve Üreme Tıbbı Uzmanı ») |
+| side note | `talking-head` | ONE term or figure on the right third (portrait: top), never over the face; a figure carries its citation |
+| CTA | `cta` | paper tab, ink thumb + bell + subscribe; one axis in, outline→filled state changes (real ink-tap foley), one axis out; never during the opening hook; no YouTube logo |
+| chapter sheet | `chapitre` | the next sheet slides over the previous one in 0.6 s (power2.inOut); the covered sheet is dropped once hidden |
+| signature line | `cloture` | the channel's closing sentence verbatim, Literata italic, one pen circle on « garanties / Garantiler / Guarantees »; channel handle under it |
+| footage-tab / illustration-tab | `etiquettes` | footage-tab on real footage (what + source); illustration-tab on every AI / stock clip from its first to its last frame |
+| paper clip | `example-series/conseils` | real clip from Dr. Aksoy's desk (`assets/objects/`) holding a card; never over text (`.clipped-left` / `.clipped` make room); max one object per frame |
+
+The talking-head stills in these references are stand-ins: in a real edit `.foot` is Dr. Aksoy's camera clip.
 
 ## Reference Composition
 

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/fonts/fonts.css" />
     <link rel="stylesheet" href="assets/pen/pen.css" />
     <link rel="stylesheet" href="assets/papers/papers.css" />
+    <link rel="stylesheet" href="assets/components/components.css" />
     <style>
       :root { --W: 1920px; --H: 1080px; --paper: #F5F4F0; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
                --graphite: #8C877A; --red: #C4301C; }
@@ -52,7 +53,7 @@
       .it .tx { position: relative; display: inline-block; }
       .pen-ul { left: -1.5%; width: 103%; top: 88%; height: 46px; }  /* sized to the sentence, any language */
       .slip { left: 150px; top: 868px; }
-      .sig  { position: absolute; right: 150px; top: 896px; width: 410px; border-top: 2px solid var(--ink-soft);
+      .sig  { position: absolute; right: 150px; top: 196px; width: 410px; border-top: 2px solid var(--ink-soft);
               padding-top: 14px; text-align: center; font-size: 40px; color: var(--ink-soft); white-space: nowrap; }
       /* ---- 9:16 (Shorts): bottom 18 % and the right icon column stay free of text ---- */
       :root[data-aspect="9x16"] .kick { left: 84px; --y: 200px; }
@@ -62,10 +63,11 @@
       :root[data-aspect="9x16"] .i1 { --y: 516px; } :root[data-aspect="9x16"] .i2 { --y: 804px; } :root[data-aspect="9x16"] .i3 { --y: 1092px; }
       :root[data-aspect="9x16"] .sig { right: 120px; top: 1236px; }
       :root[data-aspect="9x16"] .slip { left: 84px; top: 1330px; width: 876px; }
+      :root[data-aspect="9x16"] .slip.clipped-left { padding-left: 22px !important; }  /* portrait: no room for the clip */
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
+    <div id="root" class="oi-c" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
       <div class="ground ground--recete"></div>
       <div class="grain"></div>
 
@@ -74,7 +76,7 @@
       <div class="on-rule serif it i1" id="i1"><span class="d">—</span><span data-fact="F1">Essai randomisé : aucun bénéfice démontré.</span></div>
       <div class="on-rule serif it i2" id="i2"><span class="d">—</span><span data-fact="F4">Naissances vivantes : 58,5 % contre 61,9 %.</span><span class="mk" data-ref="R1" data-field="marker">[1]</span></div>
       <div class="on-rule serif it i3" id="i3"><span class="d">—</span><span class="tx"><span data-fact="F5">Les auteurs ne soutiennent pas son usage en routine.</span><img class="pen pen-ul" id="ul" src="assets/pen/strike-01.png" alt="" data-layout-allow-occlusion="pen underline under its sentence" /></span></div>
-      <div class="slip" id="slip">
+      <div class="slip clipped-left" id="slip"><img class="clip clip-left only-169" src="assets/objects/paperclip-white-01.png" alt="" />
         <div class="t" data-ref="R1">[1] Doyle N, et al. JAMA. 2022;328(21):2117-25</div>
         <div data-ref="R1" data-field="design">Essai randomisé multicentrique · n = 767</div>
       </div>

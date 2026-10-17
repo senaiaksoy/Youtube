@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/fonts/fonts.css" />
     <link rel="stylesheet" href="assets/pen/pen.css" />
     <link rel="stylesheet" href="assets/papers/papers.css" />
+    <link rel="stylesheet" href="assets/components/components.css" />
     <style>
       :root { --W: 1920px; --H: 1080px; --paper: #121820; --paper-deep: #E8E1D0; --ink: #1B2230; --ink-soft: #4A5263;
                --graphite: #8C877A; --red: #C4301C; }
@@ -46,8 +47,8 @@
 
       .foot { position: absolute; inset: 0; background: #121820 url(assets/footage/lab/lab-10-incubators-c60.jpg) center / cover no-repeat;
               transform-origin: 40% 50%; }
-      .tab { position: absolute; left: 88px; bottom: 88px; background: #F4F0E6; color: var(--ink); padding: 14px 24px; font-size: 40px;
-             border-radius: 2px; box-shadow: 0 1px 0 rgba(0,0,0,.25); }
+      .tab { position: absolute; left: 88px; bottom: 88px; background: #1D252E; color: #F4F0E6; padding: 12px 22px; font-size: 40px;
+             line-height: 1.25; border-radius: 2px; }   /* = components.css .footage-tab */
       .card { position: absolute; right: 88px; top: 110px; width: 780px; background: #F4F0E6; padding: 26px 32px 24px;
               border-radius: 2px; box-shadow: 0 1px 0 rgba(0,0,0,.25); }
       .card .k { font-size: 40px; letter-spacing: .04em; line-height: 1.2; }
@@ -64,7 +65,7 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1080" data-height="1920">
+    <div id="root" class="oi-c" data-composition-id="main" data-start="0" data-duration="10" data-width="1080" data-height="1920">
       <div class="grain"></div>
 
       <div class="foot" id="foot"></div>
