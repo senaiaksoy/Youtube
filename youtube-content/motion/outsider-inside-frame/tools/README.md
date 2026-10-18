@@ -149,3 +149,15 @@ node tools/facts-draft.mjs <video-script-…-sources.md> <sahne> [--claims C02,C
   iddiaların kaynak gösterdiği her PMID için bir ref (design/n `TODO`). Geri çekilme geçen kaynak işaretlenir.
 - Ekran cümlesi ve rakam **uydurmaz**: yazar metni yazar, rakamı yalnızca `_numbers`'tan seçer.
 - `facts.mjs verify` artık `TODO` kalan her alanda başarısız olur (`--draft` ile uyarı).
+
+## captions.mjs — Shorts pop-up altyazı (2026-10-18)
+
+```
+node tools/captions.mjs <words.json> <başlangıç_s> <bitiş_s> <çıkış.ass> [--size 62] [--max-words 3] [--max-chars 20]
+ffmpeg -i short.mp4 -vf "ass=çıkış.ass:fontsdir=<outsider-inside-frame>/assets/fonts" -c:v libx264 -crf 17 -c:a copy short-altyazi.mp4
+```
+- Her Shorts'a gömülü pop-up altyazı konur (Dr. Aksoy kararı); 16:9 videoya konmaz.
+- `words.json`: konuşulan kelimeler, kaynak saniyesiyle (`[[kelime, başlangıç, bitiş], …]` ya da transcriber çıktısı). Aralık, Short'un
+  kesildiği kaynak aralığıdır; süreler 0'a kaydırılır. Metin söylenen metindir; yayından önce kayda karşı okunur.
+- Görünüm: Plex Sans SemiBold 62 px, kâğıt kutu üzerinde mürekkep, kart başına 1–3 kelime, 100 ms "pop". Konum: Shorts arayüzünün
+  hemen üstündeki altyazı bandı (yüksekliğin %76,5–82'si); `legibility.mjs` Shorts sahnelerinin kendi yazısını bu banttan uzak tutar.

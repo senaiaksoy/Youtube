@@ -12,7 +12,8 @@
 // stays readable at arm's length. Elements may opt out only with data-legibility-exempt="reason"
 // (e.g. text that is part of real footage); every exemption is printed.
 // Also fails text that runs off the frame and, on portrait (Shorts) frames, text under YouTube's overlay:
-// bottom 18 % (title, channel, music) and the right icon column (last 120 px, lower 55 %).
+// bottom 18 % (title, channel, music) and the right icon column (last 120 px, lower 55 %), and the pop-up caption band
+// just above it (76.5–82 % of the height).
 // No dependencies; Node 22+ (global WebSocket). Chrome path from `npx hyperframes browser path`.
 
 import fs from 'node:fs';
@@ -121,7 +122,10 @@ async function main() {
         const off = r.box.l < -0.5 || r.box.t < -0.5 || r.box.r > meta.W + 0.5 || r.box.b > meta.H + 0.5;
         // Shorts (portrait): YouTube draws title/channel over the bottom 18 % and action icons in the right column
         const ui = meta.H > meta.W && (r.box.b > meta.H * 0.82 || (r.box.r > meta.W - 120 && r.box.b > meta.H * 0.45));
-        if (off || ui) zone.set(key, { ...r, t, why: off ? 'runs off the frame' : 'under the Shorts UI (bottom 18 % / right icon column)' });
+        // Shorts carry burned pop-up captions (Dr. Aksoy, 2026-10-18) in the band just above the UI zone: 76.5 %–82 % of H
+        const cap = meta.H > meta.W && !ui && r.box.b > meta.H * 0.765;
+        if (off || ui || cap) zone.set(key, { ...r, t, why: off ? 'runs off the frame' : ui ? 'under the Shorts UI (bottom 18 % / right icon column)'
+                                                     : 'in the Shorts caption band (76.5–82 % of the height, kept for pop-up captions)' });
       }
     }
     const all = [...found.values()].sort((a, b) => a.px - b.px);

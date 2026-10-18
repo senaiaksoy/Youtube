@@ -43,12 +43,12 @@
 .signature .w .pen { left: -12%; width: 124%; top: -4%; height: 138%; }  /* oval-01 sits high in its image: centre it on the x-height */
 .signature-ref { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 40px; color: var(--c-ink-soft); }
 
-/* 9:16 — keep clear of the Shorts UI (bottom 18 %, right icon column: x > 960 below y 864) */
-:root[data-aspect="9x16"] .lower-third { bottom: auto; top: 1300px; max-width: 960px; padding-left: 64px; }
+/* 9:16 — keep clear of the Shorts UI (bottom 18 %, right icon column: x > 960 below y 864) and of the pop-up caption band (y 1469–1574) */
+:root[data-aspect="9x16"] .lower-third { bottom: auto; top: 1270px; max-width: 960px; padding-left: 64px; }
 :root[data-aspect="9x16"] .side-note { right: auto; left: 64px; top: 180px; transform: none; width: 896px; }
-:root[data-aspect="9x16"] .footage-tab { left: 64px; bottom: auto; top: 1400px; max-width: 880px; }
+:root[data-aspect="9x16"] .footage-tab { left: 64px; bottom: auto; top: 1340px; max-width: 880px; }
 :root[data-aspect="9x16"] .illustration-tab { left: 64px; top: 150px; }
-:root[data-aspect="9x16"] .cta { right: auto; left: 64px; bottom: auto; top: 1400px; }
+:root[data-aspect="9x16"] .cta { right: auto; left: 64px; bottom: auto; top: 1330px; }
 :root[data-aspect="9x16"] .signature { font-size: 84px; }
 
 /* real desk objects (assets/objects/) — a paper clip holding a card; never over text, max one object per frame */

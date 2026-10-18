@@ -60,9 +60,9 @@
       :root[data-aspect="9x16"] .k1 { left: 108px; --y: 420px; }
       :root[data-aspect="9x16"] .ev { left: 108px; width: 860px; --y: 258px; --fs: 50px; }
       :root[data-aspect="9x16"] .val { width: 300px; font-size: 90px; }
-      :root[data-aspect="9x16"] .lab { top: 1140px; width: 360px; }
+      :root[data-aspect="9x16"] .lab { top: 1086px; width: 360px; }
       :root[data-aspect="9x16"] .va, :root[data-aspect="9x16"] .la { left: 120px; } :root[data-aspect="9x16"] .vb, :root[data-aspect="9x16"] .lb { left: 498px; }
-      :root[data-aspect="9x16"] .slip { left: 108px; top: 1320px; width: 840px; }
+      :root[data-aspect="9x16"] .slip { left: 108px; top: 1250px; width: 840px; }
     </style>
   </head>
   <body>
@@ -91,7 +91,7 @@
       rise('#kick', 0.2, 0.35); rise('#k1', 0.4, 0.4); rise('#ev', 0.6);
       // honest axis: bars start at 0; 10 grid cells = 100 %; heights come from the sourced figures on screen (facts.mjs)
       const ink = oiInk.layer('#root'); const port = document.documentElement.dataset.aspect === '9x16';
-      const G = port ? { x0: 54, y0: 42 } : { x0: 42, y0: 27 }, C = 54, base = G.y0 + C * (port ? 20 : 15);
+      const G = port ? { x0: 54, y0: 42 } : { x0: 42, y0: 27 }, C = 54, base = G.y0 + C * (port ? 19 : 15);
       const pct = (sel) => parseFloat(document.querySelector(sel).textContent.replace(',', '.').replace(/[^0-9.]/g, ''));
       const bars = port ? [[G.x0 + C * 2, '#va', '#la'], [G.x0 + C * 9, '#vb', '#lb']] : [[G.x0 + C * 5, '#va', '#la'], [G.x0 + C * 13, '#vb', '#lb']];
       ink.draw(tl, ink.line(bars[0][0] - C, base, bars[1][0] + C * 5, base, { strokeWidth: 3.6, roughness: 0.7 }), 1.0, 0.5);

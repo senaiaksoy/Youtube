@@ -79,6 +79,16 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
 - Shorts (2026-10-17): sahne tek kaynak (`index.html`, 16:9); dikey düzen aynı dosyada `:root[data-aspect="9x16"]` ile.
   `tools/aspect.mjs <proje>` → `<proje>/shorts/` (elle düzenlenmez); legibility + check orada da geçmeli (alt %18 ve sağ
   ikon sütununda yazı yok).
+- Hard rule (Shorts altyazı, 2026-10-18): her Shorts'a ekranda pop-up altyazı konur (Dr. Aksoy'un söylediği, kart başına 1–3 kelime,
+  Plex Sans SemiBold 62 px, kâğıt kutu üzerinde mürekkep, 100 ms pop; zıplama/emoji/kelime rengi yok). `node youtube-content/motion/outsider-inside-frame/tools/captions.mjs`
+  ile ASS üretilir, ffmpeg `ass=` ile basılır; metin yayından önce kayda karşı okunur. Altyazı bandı (yüksekliğin %76,5–82'si) Shorts
+  sahnelerinde boş kalır (legibility.mjs denetler). 16:9 ana videoda gömülü altyazı yok (yalnızca YouTube altyazı izi).
+- Hard rule (AI espri sahneleri, 2026-10-18): scriptteki espri, örnek ve canlandırılan absürt sahneler (`[GAG]`) Higgsfield ile
+  3–8 sn'lik AI kliplerle gösterilebilir; varsayılan görünüm gerçekçi sinematik, videoda tek görünüm, video başına 4–8 sahne,
+  model sesi kapalı, tüm süre illustration-tab. Bilgi (rakam/hüküm/künye) asla AI klipte değil. İsteğe bağlı kurgusal « Monsieur »
+  karakteri. Gametler yalnızca açıkça çizgi film karakter olarak ve yalnızca espri sahnesinde. Gerçek kişi (ünlü, Dr. Aksoy, hasta),
+  logo/marka, görselde üretilmiş yazı, embriyo/ultrason/lab, gerçekmiş gibi klinik sahne yok. Sayı, görünüm ve kredi tavanı tek
+  onay mesajında (frame.md § AI gag scenes).
 - Hard rule (tohum, 2026-10-17): `node youtube-content/motion/outsider-inside-frame/tools/pen.mjs apply <sahneler…>` facts apply'dan
   önce çalışır (videonun bütün sahneleri, akış sırasıyla). Kırmızı kalem izleri yalnızca Dr. Aksoy'un gerçek izleridir, asla
   üretilmez; rough.js (`assets/ink`) yalnızca siyah mürekkepli şema kutu/ok/çubukları içindir. Şema levhalarında

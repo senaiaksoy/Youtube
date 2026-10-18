@@ -20,7 +20,7 @@ frame.md / DESIGN.md dosyalarıyla kalır; onlara dokunulmaz.
    `node youtube-content/motion/outsider-inside-frame/tools/variety.mjs check projects/<slug>` çalıştır; son videolarla
    aynı görünüm seçilmişse durdurur. Final render'dan sonra `variety.mjs log projects/<slug> --lang fr`.
    Hangi seri ne için: `frame.md` § Series & Variety; örnek sahneler `example-series/`.
-7. Shorts: sahne tek dosyadır (`index.html`, 16:9); dikey düzen aynı dosyada `:root[data-aspect="9x16"]` kurallarıyla yazılır.
+7. Shorts: sahne tek dosyadır (`index.html`, 16:9); dikey düzen aynı dosyada `:root[data-aspect="9x16"]` kurallarıyla yazılır. Her Shorts'a gömülü pop-up altyazı konur (`tools/captions.mjs`); sahne yazıları altyazı bandına (yüksekliğin %76,5–82'si) girmez.
    `facts.mjs apply` sonrası `node youtube-content/motion/outsider-inside-frame/tools/aspect.mjs projects/<slug>` → `projects/<slug>/shorts/`
    (1080×1920). `legibility.mjs` ve `hyperframes check` `shorts/` üzerinde de geçmeli; alt %18 ve sağ ikon sütununda yazı olmaz.
 8. Projeye özel değişiklik gerekiyorsa projedeki kopyada yap; ana şablonu değiştirmek

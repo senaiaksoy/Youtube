@@ -168,6 +168,13 @@ Eyeball tests that gate every frame:
   check, legibility, facts verify and render run on it unchanged. Never hand-edit `shorts/index.html`.
 - **Shorts UI zone:** YouTube draws title/channel/music over the **bottom 18 %** and the action icons over the **right
   120 px of the lower 55 %**. No text there (`legibility.mjs` fails it); footage and paper may run under it.
+- **Shorts pop-up captions (Dr. Aksoy, 2026-10-18):** every Short carries burned pop-up captions of what Dr. Aksoy
+  says — 1–3 words per card, IBM Plex Sans SemiBold 62 px, ink `#1B2230` on a paper box `#F4F0E6`, 100 ms pop
+  (scale 88 → 100 %, no bounce, no per-word colour, no emoji). They sit in the **caption band** just above the UI zone
+  (76.5–82 % of the height: box ≈ y 1494–1574 on 1080×1920), so no Shorts scene puts its own text there
+  (`legibility.mjs` fails it). Built with `node tools/captions.mjs <words.json> <from> <to> <out.ass>` and burned with
+  ffmpeg `ass=…:fontsdir=assets/fonts`; the text is read against the recording before publishing. The 16:9 video keeps
+  **no** burned captions (YouTube caption tracks only).
 - **Portrait moves that work:** claims and headlines wrap with `text-wrap: balance`; a strike over a two-line claim becomes
   one diagonal stroke corner to corner; uppercase mono labels that would wrap become sentence-case Plex Sans; figure pairs
   stay side by side at 110–130 px; the slip spans the column and wraps to four lines.
@@ -298,7 +305,18 @@ Motion should feel like **a hand and a page**, not like software.
 - No radial "breathing" backgrounds, ghost text, floating orbs or decorative grids (overrides house-style background layer).
 - No banned fonts (Inter, Roboto, Poppins, Playfair Display, EB Garamond, Syne…), no gradient text, no left-edge accent stripes.
 - No identical card grids, no icon rows, no emoji, no stock "doctor", "patient" or "happy baby" imagery.
-- No AI-generated or stock embryos, gametes, ultrasound, microscope views or clinical/patient scenes. AI is allowed only for mechanisms (hormones, cells, molecules) and only with the illustration-tab; stock only for non-medical atmosphere (hands, calendar, city), also tagged.
+- No AI-generated or stock embryos, gametes, ultrasound, microscope views or clinical/patient scenes. AI is allowed for mechanisms (hormones, cells, molecules) and for **gag scenes** (below), always with the illustration-tab; stock only for non-medical atmosphere (hands, calendar, city), also tagged.
+- **AI gag scenes (Dr. Aksoy, 2026-10-18):** the script's jokes, examples and absurd scenes it acts out (marked `[GAG]` in the
+  script) may be shown as short AI clips (3–8 s, Higgsfield: key image first, then image-to-video; model audio off — only
+  Dr. Aksoy's voice and the real foley run under it). Default look **C · realistic cinematic** (everyday settings: kitchen, gym,
+  car, living room); one look per video. 4–8 gags per video; a gag never carries information — every number, verdict and
+  citation stays in a sourced HyperFrames frame. illustration-tab (ILLUSTRATION / TEMSİLİ ÇİZİM) for the whole clip, even on
+  the photoreal look, so it is never taken for real footage. Allowed: an optional recurring fictional « Monsieur » character
+  (reference image kept per channel). **Gametes only as obvious cartoon characters** (e.g. a sperm « casting » on a catwalk),
+  never realistic and never micrograph-like — the one exception to "gametes are real footage only", and only inside a gag.
+  Never: a real person (no celebrity, no Dr. Aksoy, no patient), a clinic/hospital/white-coat scene presented as real, a logo,
+  brand or readable text generated in the image, embryos, ultrasound or the lab. Each clip is checked (hands, faces, physics,
+  leaked text); a flawed clip is regenerated or dropped. Count, look and credit ceiling go in the single approval message.
 - No traffic-light evidence colours; no red outside of judgment.
 - Pen marks, stamps and pen arrows live **inside** the video only, always next to their evidence — never in thumbnails (F13).
 - No title case, no all-caps Literata.
