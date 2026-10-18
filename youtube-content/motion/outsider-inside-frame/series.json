@@ -39,7 +39,8 @@
         "chiffre",
         "barres",
         "arbre",
-        "verdict"
+        "verdict",
+        "grille"
       ]
     },
     "labo": {
@@ -79,7 +80,8 @@
       "families": [
         "chiffre",
         "barres",
-        "verdict"
+        "verdict",
+        "grille"
       ]
     },
     "conseils": {
@@ -170,6 +172,11 @@
       "status": "built",
       "example": "example-layouts/barres-A",
       "desc": "hatched ink bars on the squared grid, axis from 0, heights read from the sourced figures on screen; from the catalog data-chart, restyled"
+    },
+    "grille-A": {
+      "status": "built",
+      "example": "example-layouts/grille-A",
+      "desc": "100 ink marks (10×10 schematic icons, or a sorted line-up of bars) with k of them filled; the hero figure with its slip beside it. Schematic only — never a micrograph; label it as a diagram"
     }
   },
   "pen_marks": [

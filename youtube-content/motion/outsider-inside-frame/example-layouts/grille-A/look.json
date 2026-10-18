@@ -1,0 +1,10 @@
+{
+  "series": "chiffres",
+  "papers": [
+    "kareli"
+  ],
+  "first_graphic": "grille-A",
+  "layouts": [
+    "grille-A"
+  ]
+}

@@ -376,8 +376,9 @@ show-through writing never copied — only the spiral binding is photographic).
 - A "spec" layout may be used once it is built; then set it to "built" in `series.json` with its example path.
 - Built so far (2026-10-17): promesse-A/B, chiffre-A/B/C, verdict-A/B, labo-A/B, question-A, retenir-A, **schema-A**
   (ink plates of a real scientific drawing), **flux-A** (process boxes), **arbre-A** (one question → two sourced answers),
-  **barres-A** (hatched bars on the grid) — reference scenes in `example-era/`, `example-series/`, `example-layouts/`, each
-  with its Shorts twin.
+  **barres-A** (hatched bars on the grid), **grille-A** (2026-10-18: 100 schematic ink marks — a 10×10 icon grid or a
+  sorted line-up — with k filled, e.g. « 4 % de formes typiques »; always labelled as a diagram, never a micrograph) —
+  reference scenes in `example-era/`, `example-series/`, `example-layouts/`, each with its Shorts twin.
 - **Families per series** (`series.json` "families"): `node tools/variety.mjs suggest <series>` proposes a first graphic
   + one layout per family that passes the gate against the log (seeded; layouts not used in the last 4 videos first).
 

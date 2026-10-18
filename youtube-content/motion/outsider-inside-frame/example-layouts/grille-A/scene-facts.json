@@ -1,0 +1,53 @@
+{
+  "video": "example-layouts/grille-A — 100 marks, k filled (from the spermogramme recut, 2026-10-18)",
+  "lang": "fr",
+  "sources_md": "../../../../video-script-spermogramme-anormal-fr-2026-10-17-sources.md",
+  "refs": {
+    "R1": {
+      "pmid": "33528873",
+      "design": {
+        "fr": "Données réunies pour le manuel OMS"
+      }
+    }
+  },
+  "chrome": {
+    "chapter": {
+      "fr": "La morphologie",
+      "tr": "Morfoloji",
+      "en": "Morphology"
+    },
+    "leg": {
+      "fr": "schéma, pas une image de microscope",
+      "tr": "şema, mikroskop görüntüsü değil",
+      "en": "a diagram, not a microscope image"
+    }
+  },
+  "facts": [
+    {
+      "id": "F1",
+      "kind": "figure",
+      "claim": "C11",
+      "ref": "R1",
+      "text": {
+        "fr": "4 %",
+        "tr": "%4",
+        "en": "4%"
+      },
+      "label": {
+        "fr": "de formes typiques suffisent pour passer la limite de l’OMS",
+        "tr": "tipik şekil, DSÖ sınırını geçmeye yetiyor",
+        "en": "typical forms are enough to pass the WHO limit"
+      }
+    },
+    {
+      "id": "F2",
+      "kind": "statement",
+      "claim": "C11",
+      "text": {
+        "fr": "Certains labos, en France notamment, utilisent d’autres barèmes : lisez la référence imprimée sur votre feuille.",
+        "tr": "Bazı laboratuvarlar farklı ölçütler kullanır: kendi raporunuzdaki referans değerine bakın.",
+        "en": "Some labs, in France especially, use other scales: read the reference printed on your own report."
+      }
+    }
+  ]
+}

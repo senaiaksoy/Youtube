@@ -56,7 +56,7 @@ lines.forEach((ln, i) => {
   if (m && !/^-+$/.test(m[1].replace(/[:\s]/g, ''))) for (const id of expandIds(m[1])) {
     if (!/^C\d/.test(id)) continue;
     const c = claims.get(id) || { rows: [], verdict: null, line: i + 1 };
-    c.rows.push(ln); const v = ln.match(VERD); if (v) c.verdict = v[0].replace('⚠️', '⚠');
+    c.rows.push(ln); const v = [...ln.matchAll(new RegExp(VERD.source, 'gu'))].at(-1); if (v) c.verdict = v[0].replace('⚠️', '⚠'); // "❌ → ✅": last mark wins
     claims.set(id, c);
   }
   const h = ln.match(/^#{2,4}\s+(S\d+)\b/);

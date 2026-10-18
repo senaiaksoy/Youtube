@@ -114,17 +114,22 @@ function claimContext(src, id, depth = 0) {
   const citedText = depth ? '' : [...cited].map((sid) => claimContext(src, sid, 1).ownText).join('\n');
   const verdictRows = rows.filter((r) => /[✅⚠❌❓🕒]/u.test(r.text));
   const last = verdictRows.at(-1);
-  const lastVerdict = last ? (last.text.match(/✅|⚠️|⚠|❌|❓|🕒/u) || [null])[0] : null;
+  // the LAST verdict mark on that row wins ("❌ → ✅" = corrected to ✅)
+  const lastVerdict = last ? ([...last.text.matchAll(/✅|⚠️|⚠|❌|❓|🕒/gu)].at(-1) || [null])[0] : null;
   return { found: own.length > 0, lines: own.map((r) => r.line), ownText: own.map((r) => r.text).join('\n'),
            citedText, lastVerdict, lastVerdictLine: last?.line };
 }
 
 // ---------- pubmed cache ----------
 const cacheFile = (pmid) => path.join(cacheDir, `pmid-${pmid}.json`);
+// NCBI E-utilities allow 3 requests/s without a key: pace the calls (2 per record)
+const pause = () => new Promise((res) => setTimeout(res, 400));
 async function fetchPubmed(pmid) {
+  await pause();
   const sum = await (await fetch(`${EUTILS}/esummary.fcgi?db=pubmed&id=${pmid}&retmode=json`)).json();
   const r = sum.result?.[pmid];
   if (!r || r.error) throw new Error(`PubMed has no record ${pmid}`);
+  await pause();
   const abs = await (await fetch(`${EUTILS}/efetch.fcgi?db=pubmed&id=${pmid}&rettype=abstract&retmode=text`)).text();
   return {
     pmid, fetched: new Date().toISOString().slice(0, 10),
