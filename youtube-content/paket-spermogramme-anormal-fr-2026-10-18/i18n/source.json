@@ -1,0 +1,734 @@
+{
+ "title_fr": "Spermogramme anormal : est-ce que ça veut dire infertile ?",
+ "description_fr": "Votre spermogramme est revenu avec des étoiles, des flèches et un mot de vingt-huit lettres ? Avant de conclure à l'infertilité, regardons ce que disent vraiment les normes. Le Dr Senai Aksoy, spécialiste de la fertilité, explique d'où viennent les valeurs de l'OMS (2021), pourquoi un chiffre sous la limite n'est pas un verdict, pourquoi on refait le test, idéalement trois mois plus tard, et quand consulter un urologue ou un andrologue.\n\n⏱️ CHAPITRES\n00:00 Spermogramme anormal = infertile ?\n01:11 Le compte-rendu qui fait peur\n03:05 Ce que dit l'OMS\n03:33 Oligo, asthéno, térato : la traduction\n04:39 D'où sortent les normes ?\n06:00 Morphologie : 4 sur 100\n07:18 Ce que montrent les études\n08:11 Pourquoi refaire le test trois mois plus tard ?\n10:04 Testostérone : la fausse bonne idée\n11:05 Quand consulter un urologue ou un andrologue ?\n13:15 Les urgences à ne pas attendre\n13:39 Mon avis de médecin\n14:20 Trois questions pour votre médecin\n\n❓ LES TROIS QUESTIONS À POSER À VOTRE MÉDECIN\n1. Est-ce que le résultat a été confirmé par un deuxième test ?\n2. Faut-il un examen clinique et une prise de sang hormonale ?\n3. Faut-il consulter un urologue ou un andrologue ?\n\n🚨 Une douleur brutale et intense dans un testicule est une urgence : allez aux urgences ou appelez le 15, le 112 ou le numéro d'urgence de votre pays.\n\n📚 RÉFÉRENCES\n• OMS. WHO laboratory manual for the examination and processing of human semen, 6e édition, 2021\n• Campbell MJ, et al. Andrology. 2021;9(3):817-22. PMID 33528873\n• Guzick DS, et al. N Engl J Med. 2001;345(19):1388-93. PMID 11794171\n• Hotaling JM, et al. Fertil Steril. 2011;95(3):1141-5. PMID 21030014\n• Del Giudice F, et al. Andrologia. 2022;54(6):e14409. PMID 35244232\n• Carlsen E, et al. Hum Reprod. 2003;18(10):2089-92. PMID 14507826\n• WHO Task Force. Lancet. 1990;336(8721):955-9. PMID 1977002\n• NICE NG257. Fertility problems: assessment and treatment (2026) : https://www.nice.org.uk/guidance/ng257\n• OMS. Guideline for the prevention, diagnosis and treatment of infertility (2025)\n\n💬 Posez votre question en commentaire, sans publier vos résultats ni de données médicales personnelles.\n🔔 Abonnez-vous pour mieux comprendre votre parcours de fertilité et préparer vos questions pour votre médecin.\nSous-titres français disponibles.\n\nPour plus amples informations :\n📱 WhatsApp : +90 507 380 28 05\n🌐 Web site : www.draksoyivf.com\n\n⚕️ AVERTISSEMENT MÉDICAL IMPORTANT\n\nLes informations présentées dans cette vidéo sont fournies à titre éducatif et informatif uniquement. Elles ne constituent en aucun cas un avis médical, un diagnostic ou une recommandation de traitement personnalisée.\n\nChaque situation médicale est unique. Les contenus abordés ici ne remplacent pas une consultation avec un médecin qualifié, un gynécologue ou un spécialiste en médecine de la reproduction.\n\nNe modifiez jamais votre traitement médical en cours, ne commencez pas un nouveau traitement et ne prenez aucune décision médicale sur la base des informations contenues dans cette vidéo, sans avoir préalablement consulté votre médecin traitant ou votre spécialiste.\n\nSi vous avez des questions concernant votre santé reproductive ou votre prise en charge en FIV, veuillez consulter un professionnel de santé qualifié.\n\n© Assoc. Prof. Dr. Senai Aksoy — Tous droits réservés.\n\n#Spermogramme #InfertilitéMasculine #FIV",
+ "cues": [
+  {
+   "i": 1,
+   "fr": "« Spermogramme anormal… Bon ben voilà, c'est fini, ma lignée"
+  },
+  {
+   "i": 2,
+   "fr": "s'éteint ici !"
+  },
+  {
+   "i": 3,
+   "fr": "Chérie, va arroser le bégonia du salon, c'est notre seul héritier maintenant ! »"
+  },
+  {
+   "i": 4,
+   "fr": "C'est exactement le film catastrophe qu'on se fait dans la tête à la seconde où l'on"
+  },
+  {
+   "i": 5,
+   "fr": "ouvre le résultat. Sauf que la science raconte une autre histoire :"
+  },
+  {
+   "i": 6,
+   "fr": "un chiffre sous la limite n'est pas un verdict du tribunal."
+  },
+  {
+   "i": 7,
+   "fr": "C'est un voyant orange sur le tableau de bord."
+  },
+  {
+   "i": 8,
+   "fr": "Quand il s'allume, vous ne brûlez pas la voiture sur le bas-côté :"
+  },
+  {
+   "i": 9,
+   "fr": "vous ouvrez le capot et vous vérifiez !"
+  },
+  {
+   "i": 10,
+   "fr": "Et vérifier, ici, c'est refaire le test, idéalement trois mois plus tard."
+  },
+  {
+   "i": 11,
+   "fr": "Je suis le docteur Senai Aksoy, spécialiste de la fertilité."
+  },
+  {
+   "i": 12,
+   "fr": "Dans cette vidéo : ce que cachent vraiment les fameuses « normes », pourquoi il ne"
+  },
+  {
+   "i": 13,
+   "fr": "faut pas rédiger son testament après un seul test, et à quel moment"
+  },
+  {
+   "i": 14,
+   "fr": "consulter un urologue ou un andrologue."
+  },
+  {
+   "i": 15,
+   "fr": "D'abord, visualisez la scène."
+  },
+  {
+   "i": 16,
+   "fr": "Le résultat tombe sur le téléphone : deux pages de PDF"
+  },
+  {
+   "i": 17,
+   "fr": "qu'on ouvre debout dans la cuisine, collé au frigo."
+  },
+  {
+   "i": 18,
+   "fr": "Pourquoi toujours debout devant le frigo ?"
+  },
+  {
+   "i": 19,
+   "fr": "Parce qu'un homme encaisse toujours les mauvaises nouvelles debout à côté des"
+  },
+  {
+   "i": 20,
+   "fr": "yaourts. À gauche, du latin."
+  },
+  {
+   "i": 21,
+   "fr": "Au milieu, des chiffres. Et à droite…"
+  },
+  {
+   "i": 22,
+   "fr": "des petites étoiles, des flèches qui piquent du nez, et du gras."
+  },
+  {
+   "i": 23,
+   "fr": "Le compte-rendu de labo, c'est quand même le seul document au monde où"
+  },
+  {
+   "i": 24,
+   "fr": "vous payez pour vous faire crier dessus en caractères gras, sans qu'on ne vous"
+  },
+  {
+   "i": 25,
+   "fr": "explique jamais pourquoi !"
+  },
+  {
+   "i": 26,
+   "fr": "Et là, réflexe masculin universel : on zoome avec deux"
+  },
+  {
+   "i": 27,
+   "fr": "doigts ! Comme si on cherchait un terrain sur une carte satellite !"
+  },
+  {
+   "i": 28,
+   "fr": "Et non : zoomer sur un PDF n'a jamais fait apparaître des spermatozoïdes,"
+  },
+  {
+   "i": 29,
+   "fr": "ça grossit juste les pixels !"
+  },
+  {
+   "i": 30,
+   "fr": "« Attends, j'agrandis encore un peu, il y a peut-être quatre qui"
+  },
+  {
+   "i": 31,
+   "fr": "tapent une belote derrière la marge… »"
+  },
+  {
+   "i": 32,
+   "fr": "Depuis le salon, votre compagne demande : « Alors ? »"
+  },
+  {
+   "i": 33,
+   "fr": "Et tout ce qui sort, c'est : « Alors…"
+  },
+  {
+   "i": 34,
+   "fr": "il y a des étoiles. Je crois qu'on est qualifiés d'office pour la"
+  },
+  {
+   "i": 35,
+   "fr": "finale. » Tout en bas, le coup de grâce en 28 lettres :"
+  },
+  {
+   "i": 36,
+   "fr": "« oligo-asthéno-tératozoospermie »."
+  },
+  {
+   "i": 37,
+   "fr": "Si vous arrivez à le prononcer d'une traite sans reprendre votre souffle,"
+  },
+  {
+   "i": 38,
+   "fr": "on vous donne directement le diplôme d'urologue !"
+  },
+  {
+   "i": 39,
+   "fr": "Avec le zoom, le mot ne tient même plus sur l'écran : il capte le Wi-Fi"
+  },
+  {
+   "i": 40,
+   "fr": "du voisin ! Devant un chiffre, on cherche une sentence."
+  },
+  {
+   "i": 41,
+   "fr": "Or, depuis 2021, l'Organisation mondiale de la santé,"
+  },
+  {
+   "i": 42,
+   "fr": "l'OMS, l'écrit noir sur blanc : pour un homme donné, le spermogramme ne"
+  },
+  {
+   "i": 43,
+   "fr": "prédit jamais, à lui seul, la fertilité."
+  },
+  {
+   "i": 44,
+   "fr": "Ce qui compte, c'est la fertilité du couple."
+  },
+  {
+   "i": 45,
+   "fr": "Bon, visiblement, le PDF n'a pas fait la mise à jour."
+  },
+  {
+   "i": 46,
+   "fr": "Traduisons rapidement ce mot de 28 lettres."
+  },
+  {
+   "i": 47,
+   "fr": "Ce n'est pas une malédiction pharaonique : c'est juste le résumé de"
+  },
+  {
+   "i": 48,
+   "fr": "trois critères observés au microscope."
+  },
+  {
+   "i": 49,
+   "fr": "D'abord, la concentration : combien il y a de monde dans la"
+  },
+  {
+   "i": 50,
+   "fr": "salle, par millilitre. Quand c'est bas, on dit « oligo ». Bon, c'est un peu désert,"
+  },
+  {
+   "i": 51,
+   "fr": "il y a de l'écho. Ensuite, la mobilité : combien bougent, et surtout combien"
+  },
+  {
+   "i": 52,
+   "fr": "avancent. En médecine, on dit qu'ils sont « progressifs ». Rien à voir avec la"
+  },
+  {
+   "i": 53,
+   "fr": "politique ! Ne dites pas : « Super, les miens sont progressistes,"
+  },
+  {
+   "i": 54,
+   "fr": "ils ont l'esprit ouvert ! »"
+  },
+  {
+   "i": 55,
+   "fr": "Quand ça traîne, on dit « asthéno » : les gars sont rincés, ils font du surplace."
+  },
+  {
+   "i": 56,
+   "fr": "Enfin, la morphologie : combien ont un physique de rêve."
+  },
+  {
+   "i": 57,
+   "fr": "Quand c'est atypique, on dit « térato » : bon, ils ont pris un peu cher à la sortie"
+  },
+  {
+   "i": 58,
+   "fr": "de boîte. Première vraie question : d'où sortent ces « normes » ?"
+  },
+  {
+   "i": 59,
+   "fr": "On s'imagine souvent cinq professeurs sérieux à Genève, autour d'un expresso,"
+  },
+  {
+   "i": 60,
+   "fr": "qui ont décrété : « Messieurs, le spermatozoïde idéal doit ressembler"
+  },
+  {
+   "i": 61,
+   "fr": "à Brad Pitt. » Pas du tout !"
+  },
+  {
+   "i": 62,
+   "fr": "L'OMS a réuni les résultats de milliers d'hommes sur cinq continents."
+  },
+  {
+   "i": 63,
+   "fr": "Leur point commun ? Leur compagne était tombée enceinte en moins d'un an."
+  },
+  {
+   "i": 64,
+   "fr": "Des futurs pères certifiés."
+  },
+  {
+   "i": 65,
+   "fr": "Imaginez une photo de classe géante où l'on aligne tous ces futurs papas,"
+  },
+  {
+   "i": 66,
+   "fr": "du plus petit chiffre au plus grand."
+  },
+  {
+   "i": 67,
+   "fr": "La limite de l'OMS, c'est juste une ligne tracée tout en bas de la photo."
+  },
+  {
+   "i": 68,
+   "fr": "Les valeurs exactes s'affichent à l'écran."
+  },
+  {
+   "i": 69,
+   "fr": "Devinez combien il y a de futurs pères sous cette ligne ?"
+  },
+  {
+   "i": 70,
+   "fr": "Zéro ? Cinq sur cent ! Par définition !"
+  },
+  {
+   "i": 71,
+   "fr": "Ces hommes-là étaient « recalés » sur le papier…"
+  },
+  {
+   "i": 72,
+   "fr": "pendant qu'ils montaient une poussette dans le salon !"
+  },
+  {
+   "i": 73,
+   "fr": "L'OMS le dit elle-même : cette ligne ne sépare pas les hommes fertiles des"
+  },
+  {
+   "i": 74,
+   "fr": "infertiles. Ce n'est pas le concours de médecine, c'est juste le premier rang de la"
+  },
+  {
+   "i": 75,
+   "fr": "photo de classe ! Mais alors, quel chiffre inquiète le plus ?"
+  },
+  {
+   "i": 76,
+   "fr": "Presque toujours la morphologie."
+  },
+  {
+   "i": 77,
+   "fr": "Sur 100 spermatozoïdes, à votre avis, combien doivent avoir une forme"
+  },
+  {
+   "i": 78,
+   "fr": "« idéale » pour passer la barre de l'OMS ?"
+  },
+  {
+   "i": 79,
+   "fr": "Cinquante ? Trente ? Non… Quatre ? Oui, quatre. Quatre"
+  },
+  {
+   "i": 80,
+   "fr": "sur cent. Imaginez une soirée avec cent mecs dans une salle : s'il y en a"
+  },
+  {
+   "i": 81,
+   "fr": "juste quatre de présentables, l'OMS dit : « Nickel, soirée dans les normes ! »"
+  },
+  {
+   "i": 82,
+   "fr": "Attention : certains labos, en France notamment, utilisent d'autres barèmes."
+  },
+  {
+   "i": 83,
+   "fr": "Vérifiez toujours la référence imprimée sur votre propre feuille."
+  },
+  {
+   "i": 84,
+   "fr": "Mais le casting au microscope est plus sévère que la Fashion Week de Paris !"
+  },
+  {
+   "i": 85,
+   "fr": "« Tête un poil trop ronde ?"
+  },
+  {
+   "i": 86,
+   "fr": "Recalé. Queue légèrement enroulée ?"
+  },
+  {
+   "i": 87,
+   "fr": "Désolé, ça ne correspond pas à l'image de l'établissement. »"
+  },
+  {
+   "i": 88,
+   "fr": "Mais c'est une cellule microscopique !"
+  },
+  {
+   "i": 89,
+   "fr": "On ne lui demande pas de défiler chez un grand couturier, on lui demande de nager !"
+  },
+  {
+   "i": 90,
+   "fr": "Simplement. Même chez les futurs papas, l'immense majorité des candidats se"
+  },
+  {
+   "i": 91,
+   "fr": "fait recaler à l'entrée par le videur !"
+  },
+  {
+   "i": 92,
+   "fr": "D'ailleurs, une grande étude américaine a montré que les résultats des hommes"
+  },
+  {
+   "i": 93,
+   "fr": "fertiles et infertiles se chevauchent largement."
+  },
+  {
+   "i": 94,
+   "fr": "Des hommes du groupe fertile ont des chiffres au ras des pâquerettes, tandis que des hommes du"
+  },
+  {
+   "i": 95,
+   "fr": "groupe infertile ont des bilans dignes d'être encadrés au musée du Louvre !"
+  },
+  {
+   "i": 96,
+   "fr": "Même constat pour la forme."
+  },
+  {
+   "i": 97,
+   "fr": "En FIV et en ICSI, une analyse de quatre études, chez des hommes dont seule la"
+  },
+  {
+   "i": 98,
+   "fr": "forme était basse, ne montre pas de baisse nette des chances de grossesse."
+  },
+  {
+   "i": 99,
+   "fr": "Une autre, sur des milliers de cycles, trouve la même chose pour la forme en"
+  },
+  {
+   "i": 100,
+   "fr": "général. Ce sont des études d'observation, mais elles vont dans le même sens."
+  },
+  {
+   "i": 101,
+   "fr": "Un chiffre bas, tout seul, c'est une question."
+  },
+  {
+   "i": 102,
+   "fr": "Pas une réponse. Alors, pourquoi on vous demande de refaire l'examen trois mois plus"
+  },
+  {
+   "i": 103,
+   "fr": "tard ? Parce que le sperme d'aujourd'hui balance ce que vous avez vécu ces"
+  },
+  {
+   "i": 104,
+   "fr": "trois derniers mois ! C'est à peu près le temps de fabrication à l'usine."
+  },
+  {
+   "i": 105,
+   "fr": "Vous déposez un échantillon en octobre ?"
+  },
+  {
+   "i": 106,
+   "fr": "Le biologiste ne peut pas regarder au microscope et dire : « Tiens,"
+  },
+  {
+   "i": 107,
+   "fr": "monsieur a chopé une sacrée grippe au mois d'août ! »"
+  },
+  {
+   "i": 108,
+   "fr": "Mais la grippe d'août, elle, peut se voir dans le chiffre."
+  },
+  {
+   "i": 109,
+   "fr": "Une petite étude danoise a suivi 27 jeunes hommes tous les mois"
+  },
+  {
+   "i": 110,
+   "fr": "pendant plus d'un an."
+  },
+  {
+   "i": 111,
+   "fr": "Quelle ambiance au labo, hein ?"
+  },
+  {
+   "i": 112,
+   "fr": "Bon. Résultat : une bonne fièvre peut faire nettement plonger la"
+  },
+  {
+   "i": 113,
+   "fr": "concentration. Et cette baisse peut être passagère."
+  },
+  {
+   "i": 114,
+   "fr": "C'est pourquoi les recommandations britanniques, dans leur version de"
+  },
+  {
+   "i": 115,
+   "fr": "2026, hein, toute nouvelle, sont claires : si le premier test est anormal,"
+  },
+  {
+   "i": 116,
+   "fr": "on recontrôle, idéalement trois mois plus tard."
+  },
+  {
+   "i": 117,
+   "fr": "Seule exception : s'il n'y a aucun spermatozoïde, ou presque aucun,"
+  },
+  {
+   "i": 118,
+   "fr": "là on n'attend pas trois mois, on le refait le plus vite possible."
+  },
+  {
+   "i": 119,
+   "fr": "Pour ce deuxième test, respectez bien le délai d'abstinence du labo,"
+  },
+  {
+   "i": 120,
+   "fr": "de trois à cinq jours, et signalez au médecin toute fièvre dans les trois derniers"
+  },
+  {
+   "i": 121,
+   "fr": "mois. Et si le premier est bas mais le deuxième normal, lequel on croit ?"
+  },
+  {
+   "i": 122,
+   "fr": "Aucun des deux tout seul !"
+  },
+  {
+   "i": 123,
+   "fr": "L'un, c'est vous avec la grippe en pyjama ; l'autre, c'est vous en costume le"
+  },
+  {
+   "i": 124,
+   "fr": "dimanche. Il nous faut les deux, lus avec votre histoire médicale."
+  },
+  {
+   "i": 125,
+   "fr": "En attendant ce deuxième test, pitié, n'écoutez pas les"
+  },
+  {
+   "i": 126,
+   "fr": "« endocrinologues du développé-couché » à la salle de sport :"
+  },
+  {
+   "i": 127,
+   "fr": "« Frérot, prends de la testostérone, ça va mettre la nitro là-dedans ! »"
+  },
+  {
+   "i": 128,
+   "fr": "Écoutez bien : l'OMS a testé la testostérone en injection…"
+  },
+  {
+   "i": 129,
+   "fr": "mais comme contraceptif masculin !"
+  },
+  {
+   "i": 130,
+   "fr": "Dans cette étude de 1990,"
+  },
+  {
+   "i": 131,
+   "fr": "chez des hommes en bonne santé, près de six sur dix ont fini avec"
+  },
+  {
+   "i": 132,
+   "fr": "zéro spermatozoïde. La fameuse « nitro » du coach de la salle,"
+  },
+  {
+   "i": 133,
+   "fr": "c'est le frein à main tiré à fond, en marche arrière !"
+  },
+  {
+   "i": 134,
+   "fr": "Les recommandations britanniques sont nettes : pas de testostérone pour traiter un"
+  },
+  {
+   "i": 135,
+   "fr": "spermogramme anormal. Si vous en prenez, même « juste pour les pecs »,"
+  },
+  {
+   "i": 136,
+   "fr": "dites-le au médecin. Quand faut-il consulter un urologue ou un"
+  },
+  {
+   "i": 137,
+   "fr": "andrologue ? Trop souvent, je vois des couples où madame subit des prises de sang et"
+  },
+  {
+   "i": 138,
+   "fr": "des échographies depuis six mois…"
+  },
+  {
+   "i": 139,
+   "fr": "Je me tourne vers monsieur : « Et votre spermogramme ? »"
+  },
+  {
+   "i": 140,
+   "fr": "« Oui docteur, j'irai le mois prochain, là j'ai une grosse présentation"
+  },
+  {
+   "i": 141,
+   "fr": "à finir au bureau… » On dirait qu'on lui demande de donner un rein !"
+  },
+  {
+   "i": 142,
+   "fr": "Un facteur masculin est présent chez près d'un couple infertile sur deux."
+  },
+  {
+   "i": 143,
+   "fr": "Le bilan de l'homme se fait donc en même temps, pas quand l'agenda de monsieur le"
+  },
+  {
+   "i": 144,
+   "fr": "ministre se libère ! Les repères sont simples, et les"
+  },
+  {
+   "i": 145,
+   "fr": "seuils exacts sont à l'écran."
+  },
+  {
+   "i": 146,
+   "fr": "Après deux spermogrammes anormaux, on propose un examen clinique des"
+  },
+  {
+   "i": 147,
+   "fr": "testicules, et on envisage un bilan hormonal."
+  },
+  {
+   "i": 148,
+   "fr": "Si la concentration reste… on peut proposer une analyse des chromosomes."
+  },
+  {
+   "i": 149,
+   "fr": "Et s'il n'y a aucun spermatozoïde, ou presque aucun, sans cause connue :"
+  },
+  {
+   "i": 150,
+   "fr": "après une confirmation rapide, on recherche aussi une petite anomalie du chromosome"
+  },
+  {
+   "i": 151,
+   "fr": "Y ; et quand il n'y en a aucun, on analyse aussi les chromosomes."
+  },
+  {
+   "i": 152,
+   "fr": "Quand il n'y a aucun spermatozoïde, c'est l'azoospermie :"
+  },
+  {
+   "i": 153,
+   "fr": "il y a deux grandes situations : un embouteillage sur la route,"
+  },
+  {
+   "i": 154,
+   "fr": "c'est-à-dire un passage bloqué, ou une usine au ralenti."
+  },
+  {
+   "i": 155,
+   "fr": "Dans les deux cas, des solutions existent : réparer le passage,"
+  },
+  {
+   "i": 156,
+   "fr": "par exemple, donner un traitement quand la cause est hormonale,"
+  },
+  {
+   "i": 157,
+   "fr": "ou chercher des spermatozoïdes chirurgicalement, dans l'épididyme ou dans le"
+  },
+  {
+   "i": 158,
+   "fr": "testicule. Bon, ce n'est pas toujours possible, personne ne peut le promettre à"
+  },
+  {
+   "i": 159,
+   "fr": "l'avance. Mais c'est une vraie piste sérieuse, à explorer avec votre"
+  },
+  {
+   "i": 160,
+   "fr": "spécialiste. Blague à part, une règle absolue qui n'attend aucun"
+  },
+  {
+   "i": 161,
+   "fr": "examen. Une boule dans un testicule : consultez rapidement."
+  },
+  {
+   "i": 162,
+   "fr": "Une douleur brutale et intense dans un testicule : c'est une urgence absolue."
+  },
+  {
+   "i": 163,
+   "fr": "Oubliez le labo : filez aux urgences, ou appelez le 15, le 112,"
+  },
+  {
+   "i": 164,
+   "fr": "ou le numéro d'urgence de votre pays."
+  },
+  {
+   "i": 165,
+   "fr": "Mon avis de médecin, et c'est un avis, pas une preuve : le"
+  },
+  {
+   "i": 166,
+   "fr": "spermogramme est un point de départ."
+  },
+  {
+   "i": 167,
+   "fr": "S'il est bas, il ne doit pas vous condamner trop tôt."
+  },
+  {
+   "i": 168,
+   "fr": "S'il est normal alors que la grossesse n'arrive pas, il ne vous garantit pas que"
+  },
+  {
+   "i": 169,
+   "fr": "tout va bien. Ce qui compte, c'est un résultat confirmé, lu à deux avec"
+  },
+  {
+   "i": 170,
+   "fr": "un médecin, et un vrai examen."
+  },
+  {
+   "i": 171,
+   "fr": "Pas tout seul devant le frigo, en zoomant sur ses pixels !"
+  },
+  {
+   "i": 172,
+   "fr": "La prochaine fois qu'un compte-rendu vous crie dessus en gras,"
+  },
+  {
+   "i": 173,
+   "fr": "posez-vous une seule question : c'était le premier test, ou le deuxième ?"
+  },
+  {
+   "i": 174,
+   "fr": "Trois questions à emporter chez le médecin ; elles sont aussi dans la description."
+  },
+  {
+   "i": 175,
+   "fr": "Bon, demandez-lui déjà s'il faut faire un deuxième test."
+  },
+  {
+   "i": 176,
+   "fr": "Faut-il un examen clinique ou une prise de sang hormonale ?"
+  },
+  {
+   "i": 177,
+   "fr": "Et faut-il consulter un urologue ou un andrologue ?"
+  },
+  {
+   "i": 178,
+   "fr": "N'oubliez pas : ce contenu est informatif et ne remplace pas une évaluation"
+  },
+  {
+   "i": 179,
+   "fr": "médicale individuelle. Et si votre test reste un peu bas : qu'est-ce qui,"
+  },
+  {
+   "i": 180,
+   "fr": "au quotidien, joue vraiment sur la qualité du sperme ?"
+  },
+  {
+   "i": 181,
+   "fr": "Je ferai peut-être une autre vidéo là-dessus prochainement."
+  },
+  {
+   "i": 182,
+   "fr": "Allez, salut, ciao !"
+  }
+ ]
+}

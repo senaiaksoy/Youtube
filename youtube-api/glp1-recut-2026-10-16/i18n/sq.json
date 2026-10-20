@@ -1,0 +1,767 @@
+{
+ "lang": "sq",
+ "title": "Injeksioni për dobësim dhe shtatzënia: a ndihmon vërtet të mbeteni shtatzënë?",
+ "description": "«Një injeksion, zero oreks…» e pastaj «surprizë, mbeta shtatzënë»: në rrjetet sociale, lidhja midis injeksioneve për dobësim dhe shtatzënisë duket e qartë. Dr. Senai Aksoy, profesor i asociuar në mjekësinë riprodhuese, shqyrton çfarë tregojnë realisht studimet për ilaçet e familjes GLP-1 (semaglutid, liraglutid, tirzepatid) dhe pjellorinë.\n\nKëto ilaçe mund të kontribuojnë në mënyrë indirekte në shanset për shtatzëni te disa gra, sidomos me sindromën e vezoreve polikistike (PCOS). Por nuk janë trajtime të drejtpërdrejta të infertilitetit dhe nuk përdoren gjatë shtatzënisë. Flasim edhe për afatet e ndërprerjes para një shtatzënie të planifikuar, kontracepsionin, marrjen e vezëve (punksionin) dhe anestezinë, si dhe për atë që dihet te burrat.\n\n⏱️ KAPITUJT\n00:00 Një injeksion, një shtatzëni? Shkurtorja e rrjeteve sociale\n01:38 Çfarë është GLP-1?\n02:54 PCOS: pesha, insulina dhe ovulacioni\n04:16 Çfarë thonë studimet?\n05:02 Një studim regjistri i botuar në 2026\n06:07 Po IVF / fertilizimi in vitro?\n07:30 Kontracepsioni: një pikë thelbësore\n08:18 Sa kohë para shtatzënisë duhet ndërprerë?\n08:54 Tirzepatidi dhe pilula kontraceptive\n09:49 Test shtatzënie pozitiv gjatë trajtimit\n10:37 Para IVF-së: gjithçka vlerësohet së bashku\n11:19 Marrja e vezëve dhe anestezia\n12:04 Po burrat?\n12:46 Efektet anësore dhe rimarrja e peshës\n13:12 Tri pyetje për mjekun tuaj\n\n❓ TRI PYETJET PËR MJEKUN TUAJ\n1. Pse kam nevojë mjekësore për këtë ilaç?\n2. Kur duhet ta ndërpres para se të përpiqem për një fëmijë dhe si të mbrohem gjatë kësaj periudhe?\n3. Si ndikon kjo në kalendarin e trajtimit tim të pjellorisë?\n\n📚 REFERENCAT (të numëruara si në ekran)\n[1] Zhou L, et al. BMC Endocr Disord. 2023;23(1):245. Méta-analyse, 11 essais randomisés, n = 840. PMID 37940910\n[2] Wu YC, et al. Reprod Biol Endocrinol. 2026;24(1). Cohorte rétrospective multicentrique, n = 1 936. PMID 42001071\n[3] Teede HJ, et al. Recommandations internationales sur le SOPK, 2023 (§ 5.3.1, § 5.9.1)\n[4] EMA. Sémaglutide (gestion du poids), résumé des caractéristiques du produit, § 4.6\n[5] Tirzépatide, résumé des caractéristiques du produit (Royaume-Uni), § 4.5–4.6\n[6] MHRA (Royaume-Uni). GLP-1 medicines: what you need to know\n[7] Lau KGY, et al. BJOG. 2026. PMID 42830218\n[8] Dao K, et al. BMJ Open. 2024;14(4):e083550. PMID 38663923\n[9] MHRA. Drug Safety Update, janvier 2025 : risque d’aspiration sous anesthésie générale ou sédation profonde\n[10] Andersen E, et al. Hum Reprod. 2022;37(7):1414-22. PMID 35580859\n[11] Peel A, et al. Hum Reprod Update. 2026;32(2):154-80. PMID 41065428\n\n💬 A keni parë ndonjëherë video të tilla në rrjetet tuaja? Shkruani pyetjen tuaj në koment, pa publikuar të dhëna mjekësore personale.\n🔔 Abonohuni për të kuptuar më mirë rrugëtimin tuaj me IVF dhe për të përgatitur pyetjet për mjekun tuaj.\n🎧 Titrat janë në dispozicion në shqip; audioja origjinale është në frëngjisht.\n\nPër më shumë informacion:\n📱 WhatsApp: +90 507 380 28 05\n🌐 Faqja e internetit: www.draksoyivf.com\n\n⚕️ PARALAJMËRIM I RËNDËSISHËM MJEKËSOR\n\nInformacioni i paraqitur në këtë video jepet vetëm për qëllime edukative dhe informuese. Ai në asnjë rast nuk përbën këshillë mjekësore, diagnozë apo rekomandim të personalizuar trajtimi.\n\nÇdo situatë mjekësore është unike. Përmbajtja e trajtuar këtu nuk zëvendëson konsultimin me një mjek të kualifikuar, gjinekolog apo specialist të mjekësisë riprodhuese.\n\nMos e ndryshoni kurrë trajtimin tuaj aktual, mos filloni një trajtim të ri dhe mos merrni asnjë vendim mjekësor në bazë të informacionit të kësaj videoje pa u konsultuar më parë me mjekun tuaj ose me specialistin tuaj.\n\nNëse keni pyetje për shëndetin tuaj riprodhues ose për trajtimin tuaj me IVF, ju lutemi konsultohuni me një profesionist të kualifikuar shëndetësor.\n\n© Assoc. Prof. Dr. Senai Aksoy — Të gjitha të drejtat e rezervuara.\n\n#IVF #Pjelloria #PCOS",
+ "cues": [
+  {
+   "i": 1,
+   "text": "Ora është 1:30 e natës, jeni në shtrat,"
+  },
+  {
+   "i": 2,
+   "text": "dhe në telefon nis seanca e famshme e stërvitjes së gishtit të madh."
+  },
+  {
+   "i": 3,
+   "text": "Hapni videon e parë: dikush mban një stilolaps injeksioni në"
+  },
+  {
+   "i": 4,
+   "text": "dorë dhe tregon:"
+  },
+  {
+   "i": 5,
+   "text": "«Një injeksion, zero oreks, u shkriva përgjysmë.»"
+  },
+  {
+   "i": 6,
+   "text": "Një lëvizje e vogël e gishtit lart,"
+  },
+  {
+   "i": 7,
+   "text": "hop, video e dytë: «E përdora këtë stilolaps."
+  },
+  {
+   "i": 8,
+   "text": "Surprizë, mbeta shtatzënë.»"
+  },
+  {
+   "i": 9,
+   "text": "Shikoni mirë: midis këtyre dy videove"
+  },
+  {
+   "i": 10,
+   "text": "ka vetëm një lëvizje gishti."
+  },
+  {
+   "i": 11,
+   "text": "0,2 sekonda."
+  },
+  {
+   "i": 12,
+   "text": "Duke parë këtë, menjëherë mendojmë:"
+  },
+  {
+   "i": 13,
+   "text": "«Epo, u zgjidh: bën injeksionin dhe lind.»"
+  },
+  {
+   "i": 14,
+   "text": "Por shkencërisht, vërtetimi i kësaj lidhjeje kërkon pak"
+  },
+  {
+   "i": 15,
+   "text": "më shumë punë se një rrëshqitje ekrani."
+  },
+  {
+   "i": 16,
+   "text": "Ilaçet e familjes GLP-1 mund të kontribuojnë vërtet"
+  },
+  {
+   "i": 17,
+   "text": "në mënyrë indirekte në shanset për shtatzëni te disa gra."
+  },
+  {
+   "i": 18,
+   "text": "Por nuk janë aspak trajtime të drejtpërdrejta të infertilitetit."
+  },
+  {
+   "i": 19,
+   "text": "Dhe nuk përdoren gjatë shtatzënisë."
+  },
+  {
+   "i": 20,
+   "text": "Unë jam Dr. Senai Aksoy."
+  },
+  {
+   "i": 21,
+   "text": "Sot, le të shohim bashkë lidhjen e vërtetë midis këtyre injeksioneve të famshme"
+  },
+  {
+   "i": 22,
+   "text": "dhe pjellorisë, e sidomos çfarë duhet të keni parasysh kur"
+  },
+  {
+   "i": 23,
+   "text": "planifikoni një fëmijë."
+  },
+  {
+   "i": 24,
+   "text": "Le të fillojmë nga fillimi."
+  },
+  {
+   "i": 25,
+   "text": "Çfarë është GLP-1?"
+  },
+  {
+   "i": 26,
+   "text": "Emri tingëllon si modeli i fundit i një makine hibride,"
+  },
+  {
+   "i": 27,
+   "text": "por në fakt është një hormon natyral që trupi ynë prodhon"
+  },
+  {
+   "i": 28,
+   "text": "pas ngrënies."
+  },
+  {
+   "i": 29,
+   "text": "Luan rol kyç në ngopje dhe në rregullimin e sheqerit në gjak,"
+  },
+  {
+   "i": 30,
+   "text": "duke i dërguar trurit një mesazh shumë të thjeshtë:"
+  },
+  {
+   "i": 31,
+   "text": "«Në rregull, shef, u ngopëm."
+  },
+  {
+   "i": 32,
+   "text": "Lëre ngadalë pirunin, sheqeri është nën kontroll.»"
+  },
+  {
+   "i": 33,
+   "text": "Ilaçe si semaglutid dhe"
+  },
+  {
+   "i": 34,
+   "text": "liraglutid veprojnë si dublerët zyrtarë të këtij hormoni."
+  },
+  {
+   "i": 35,
+   "text": "Ata imitojnë veprimin e tij."
+  },
+  {
+   "i": 36,
+   "text": "Tirzepatidi, nga ana e tij, vjen në ekip."
+  },
+  {
+   "i": 37,
+   "text": "Përveç GLP-1, shfrytëzon efektin e një hormoni tjetër të quajtur GIP."
+  },
+  {
+   "i": 38,
+   "text": "Te personat që i plotësojnë kriteret, mund të ndihmojë në menaxhimin e peshës dhe"
+  },
+  {
+   "i": 39,
+   "text": "në kontrollin e sheqerit në gjak."
+  },
+  {
+   "i": 40,
+   "text": "Shumë mirë."
+  },
+  {
+   "i": 41,
+   "text": "Por si kalojmë nga kjo te një shtatzëni?"
+  },
+  {
+   "i": 42,
+   "text": "Gjithçka luhet sidomos te sindroma e vezoreve polikistike,"
+  },
+  {
+   "i": 43,
+   "text": "e famshmja PCOS."
+  },
+  {
+   "i": 44,
+   "text": "Te disa gra me PCOS,"
+  },
+  {
+   "i": 45,
+   "text": "rezistenca ndaj insulinës dhe çrregullimet e ovulacionit ecin"
+  },
+  {
+   "i": 46,
+   "text": "dorë për dore."
+  },
+  {
+   "i": 47,
+   "text": "Rezistenca ndaj insulinës është kur insulina troket në derën e"
+  },
+  {
+   "i": 48,
+   "text": "qelizës dhe nga brenda askush nuk përgjigjet."
+  },
+  {
+   "i": 49,
+   "text": "Trupi nuk reagon mjaftueshëm ndaj insulinës."
+  },
+  {
+   "i": 50,
+   "text": "Kur gjendja metabolike dhe menaxhimi i peshës përmirësohen,"
+  },
+  {
+   "i": 51,
+   "text": "ky kaos i brendshëm qetësohet."
+  },
+  {
+   "i": 52,
+   "text": "Te disa gra, menstruacionet bëhen më të rregullta dhe"
+  },
+  {
+   "i": 53,
+   "text": "vezoret thonë: «hë, u kthye qetësia këtu brenda, po sikur"
+  },
+  {
+   "i": 54,
+   "text": "të fillojmë të ovulojmë?»"
+  },
+  {
+   "i": 55,
+   "text": "Kontributi në shanset për shtatzëni,"
+  },
+  {
+   "i": 56,
+   "text": "të paktën pjesërisht, mund të vijë nga këtu."
+  },
+  {
+   "i": 57,
+   "text": "Por kujdes nga thjeshtëzimi klasik:"
+  },
+  {
+   "i": 58,
+   "text": "jo të gjitha gratë me PCOS kanë mbipeshë,"
+  },
+  {
+   "i": 59,
+   "text": "dhe jo të gjitha gratë me mbipeshë kanë problem me ovulacionin."
+  },
+  {
+   "i": 60,
+   "text": "Prandaj nuk mund të vendosim barazimin automatik"
+  },
+  {
+   "i": 61,
+   "text": "«kam PCOS, pra më duhet ky injeksion»."
+  },
+  {
+   "i": 62,
+   "text": "Atëherë, a janë inkurajuese studimet?"
+  },
+  {
+   "i": 63,
+   "text": "Disa, po."
+  },
+  {
+   "i": 64,
+   "text": "Te gratë me PCOS,"
+  },
+  {
+   "i": 65,
+   "text": "disa kërkime tregojnë përmirësim të rregullsisë së cikleve"
+  },
+  {
+   "i": 66,
+   "text": "dhe të shkallës së shtatzënive spontane."
+  },
+  {
+   "i": 67,
+   "text": "Por një pjesë e këtyre studimeve kanë numër të vogël pjesëmarrësish,"
+  },
+  {
+   "i": 68,
+   "text": "me ilaçe dhe trajtime plotësuese të ndryshme."
+  },
+  {
+   "i": 69,
+   "text": "Dhe fakti që një person i vetëm në rrjetet sociale mbeti shtatzënë"
+  },
+  {
+   "i": 70,
+   "text": "pas marrjes së këtij ilaçi nuk provon drejtpërdrejt se cilësia"
+  },
+  {
+   "i": 71,
+   "text": "e vezëve është rritur."
+  },
+  {
+   "i": 72,
+   "text": "Kjo nuk është provë shkencore."
+  },
+  {
+   "i": 73,
+   "text": "Është bisedë te makina e kafesë."
+  },
+  {
+   "i": 74,
+   "text": "Për më tepër, rezultatet nuk shkojnë të gjitha në të njëjtin drejtim."
+  },
+  {
+   "i": 75,
+   "text": "Në një studim regjistri të botuar në 2026,"
+  },
+  {
+   "i": 76,
+   "text": "te gra me infertilitet të lidhur me mbipeshën"
+  },
+  {
+   "i": 77,
+   "text": "ose obezitetin, përdorimi i semaglutidit u shoqërua"
+  },
+  {
+   "i": 78,
+   "text": "me shkallë më të ulëta shtatzënie dhe lindjeje të gjallë."
+  },
+  {
+   "i": 79,
+   "text": "Pa përfundime të nxituara: është një studim vëzhgues."
+  },
+  {
+   "i": 80,
+   "text": "Prandaj nuk mund të pohojmë se ilaçi është shkaku i drejtpërdrejtë."
+  },
+  {
+   "i": 81,
+   "text": "Faktorë si kalendari i trajtimit dhe shtyrja e qëllimshme e"
+  },
+  {
+   "i": 82,
+   "text": "shtatzënisë mund të kenë ndikuar fare mirë në këto rezultate."
+  },
+  {
+   "i": 83,
+   "text": "Mos i ngatërroni: rikthimi i cikleve të rregullta,"
+  },
+  {
+   "i": 84,
+   "text": "ovulacioni, testi pozitiv i shtatzënisë dhe arritja e një lindjeje"
+  },
+  {
+   "i": 85,
+   "text": "të gjallë janë rezultate krejt të ndryshme."
+  },
+  {
+   "i": 86,
+   "text": "Këto vëzhgime nuk mund t'i shtrijmë te të gjitha gratë,"
+  },
+  {
+   "i": 87,
+   "text": "te të gjitha ilaçet GLP-1 apo te fertilizimi in vitro."
+  },
+  {
+   "i": 88,
+   "text": "Nuk kemi prova të forta dhe të mjaftueshme që tregojnë se"
+  },
+  {
+   "i": 89,
+   "text": "agonistët e GLP-1 rritin shanset për lindje të gjallë në IVF."
+  },
+  {
+   "i": 90,
+   "text": "Udhëzimet ndërkombëtare të vitit 2023 për PCOS e bëjnë"
+  },
+  {
+   "i": 91,
+   "text": "qartë këtë dallim."
+  },
+  {
+   "i": 92,
+   "text": "Këto ilaçe mund të merren në konsideratë për menaxhimin e peshës te"
+  },
+  {
+   "i": 93,
+   "text": "personat që i plotësojnë kriteret, por përdorimi i tyre për të përmirësuar"
+  },
+  {
+   "i": 94,
+   "text": "rezultatet e pjellorisë në PCOS mbetet i kufizuar në kuadrin e kërkimit."
+  },
+  {
+   "i": 95,
+   "text": "Vendimi klinik duhet të bazohet në një indikacion mjekësor të përshtatshëm,"
+  },
+  {
+   "i": 96,
+   "text": "si menaxhimi i peshës ose diabeti."
+  },
+  {
+   "i": 97,
+   "text": "Nëse mungesa e shtatzënisë në PCOS lidhet vetëm me mungesën"
+  },
+  {
+   "i": 98,
+   "text": "e ovulacionit dhe nuk gjendet asnjë shkak tjetër infertiliteti,"
+  },
+  {
+   "i": 99,
+   "text": "trajtimi i induksionit të ovulacionit i rekomanduar si zgjedhje e parë"
+  },
+  {
+   "i": 100,
+   "text": "nga udhëzimet mjekësore është letrozoli."
+  },
+  {
+   "i": 101,
+   "text": "Tani, një pikë thelbësore."
+  },
+  {
+   "i": 102,
+   "text": "Disa paciente mendojnë të qeta:"
+  },
+  {
+   "i": 103,
+   "text": "«Doktor, menstruacionet më vijnë çdo tre muaj,"
+  },
+  {
+   "i": 104,
+   "text": "nuk rrezikoj të mbetem shtatzënë.»"
+  },
+  {
+   "i": 105,
+   "text": "Mos e mendoni kurrsesi këtë."
+  },
+  {
+   "i": 106,
+   "text": "Trupi fillimisht ovulon, menstruacionet vijnë më pas."
+  },
+  {
+   "i": 107,
+   "text": "Kur ovulacioni rikthehet, vezoret nuk ju lajmërojnë me SMS."
+  },
+  {
+   "i": 108,
+   "text": "Një shtatzëni mund të ndodhë në një moment krejt të papritur."
+  },
+  {
+   "i": 109,
+   "text": "Ndërkohë, nuk kemi të dhëna të mjaftueshme te njerëzit për të pohuar"
+  },
+  {
+   "i": 110,
+   "text": "se këto ilaçe janë të sigurta gjatë shtatzënisë."
+  },
+  {
+   "i": 111,
+   "text": "Prandaj një kontracepsion efikas është i domosdoshëm gjatë trajtimit dhe"
+  },
+  {
+   "i": 112,
+   "text": "gjatë periudhës së ndërprerjes specifike për çdo ilaç."
+  },
+  {
+   "i": 113,
+   "text": "Cili është kalendari?"
+  },
+  {
+   "i": 114,
+   "text": "Semaglutidi rekomandohet të ndërpritet të paktën dy muaj"
+  },
+  {
+   "i": 115,
+   "text": "para një shtatzënie të planifikuar."
+  },
+  {
+   "i": 116,
+   "text": "Për tirzepatidin, ky afat është të paktën një muaj."
+  },
+  {
+   "i": 117,
+   "text": "Ilaçi i përdorur, data e dozës së fundit dhe momenti i saktë i"
+  },
+  {
+   "i": 118,
+   "text": "fillimit të përpjekjeve duhen sqaruar me mjekun që e ka përshkruar."
+  },
+  {
+   "i": 119,
+   "text": "Dhe nëse keni diabet, një trajtim i sheqerit i përshtatur për"
+  },
+  {
+   "i": 120,
+   "text": "shtatzëninë duhet patjetër të planifikohet."
+  },
+  {
+   "i": 121,
+   "text": "Për ato që përdorin tirzepatid,"
+  },
+  {
+   "i": 122,
+   "text": "ka një detaj shumë të rëndësishëm, sidomos te personat me"
+  },
+  {
+   "i": 123,
+   "text": "mbipeshë dhe me obezitet."
+  },
+  {
+   "i": 124,
+   "text": "Efikasiteti i pilulës kontraceptive mund të ulet."
+  },
+  {
+   "i": 125,
+   "text": "Meqë ilaçet ndryshojnë zbrazjen e stomakut,"
+  },
+  {
+   "i": 126,
+   "text": "thithja e tabletës mund të ulet."
+  },
+  {
+   "i": 127,
+   "text": "Prandaj rekomandohet një metodë shtesë,"
+  },
+  {
+   "i": 128,
+   "text": "si prezervativi përveç pilulës,"
+  },
+  {
+   "i": 129,
+   "text": "gjatë katër javëve pas fillimit të trajtimit dhe gjatë"
+  },
+  {
+   "i": 130,
+   "text": "katër javëve pas çdo rritjeje të dozës, ose kalimi në një"
+  },
+  {
+   "i": 131,
+   "text": "kontracepsion jo oral."
+  },
+  {
+   "i": 132,
+   "text": "Kujdes, ky paralajmërim nuk është i njëjtë për të gjitha ilaçet"
+  },
+  {
+   "i": 133,
+   "text": "e GLP-1."
+  },
+  {
+   "i": 134,
+   "text": "Po sikur testi i shtatzënisë të dalë pozitiv gjatë trajtimit?"
+  },
+  {
+   "i": 135,
+   "text": "Konsultohuni menjëherë me mjekun që e përshkroi dhe me gjinekologun tuaj."
+  },
+  {
+   "i": 136,
+   "text": "Ky ilaç nuk vazhdohet gjatë shtatzënisë."
+  },
+  {
+   "i": 137,
+   "text": "Por ekspozimi ndaj ilaçit nuk do të thotë që foshnja"
+  },
+  {
+   "i": 138,
+   "text": "ka pësuar domosdoshmërisht dëm."
+  },
+  {
+   "i": 139,
+   "text": "Të dhënat e disponueshme te njerëzit janë qetësuese në disa aspekte,"
+  },
+  {
+   "i": 140,
+   "text": "por jo aq të forta sa të garantojnë sigurinë e shtatzënisë."
+  },
+  {
+   "i": 141,
+   "text": "Atëherë vlerësohet ilaçi i përdorur,"
+  },
+  {
+   "i": 142,
+   "text": "doza dhe në cilën fazë të shtatzënisë është marrë."
+  },
+  {
+   "i": 143,
+   "text": "Nëse keni diabet, vendoset pa vonesë një trajtim alternativ."
+  },
+  {
+   "i": 144,
+   "text": "Para fertilizimit in vitro, mosha,"
+  },
+  {
+   "i": 145,
+   "text": "rezerva ovariane, shkaku i infertilitetit dhe ndikimi i"
+  },
+  {
+   "i": 146,
+   "text": "kohës së pritjes në pjellori duhen vlerësuar së bashku."
+  },
+  {
+   "i": 147,
+   "text": "T'u thuash të gjithëve «humbni peshë fillimisht,"
+  },
+  {
+   "i": 148,
+   "text": "trajtimin e shohim më vonë» nuk është e drejtë."
+  },
+  {
+   "i": 149,
+   "text": "Te disa persona, një përgatitje metabolike ka kuptim."
+  },
+  {
+   "i": 150,
+   "text": "Te të tjerë, shtyrja e gjatë e trajtimit nuk është e përshtatshme."
+  },
+  {
+   "i": 151,
+   "text": "Pesha juaj nuk është një notë në dëftesë që përcakton nëse"
+  },
+  {
+   "i": 152,
+   "text": "e meritoni apo jo një trajtim."
+  },
+  {
+   "i": 153,
+   "text": "Dhe nëse është planifikuar marrja e vezëve (punksioni),"
+  },
+  {
+   "i": 154,
+   "text": "njoftoni patjetër për trajtimin tuaj ekipin e IVF-së dhe"
+  },
+  {
+   "i": 155,
+   "text": "mjekun anesteziolog."
+  },
+  {
+   "i": 156,
+   "text": "Mos thoni kurrë: «Është thjesht stilolapsi im,"
+  },
+  {
+   "i": 157,
+   "text": "sigurisht, s'ka nevojë ta përmend.»"
+  },
+  {
+   "i": 158,
+   "text": "Këto ilaçe ngadalësojnë zbrazjen e stomakut."
+  },
+  {
+   "i": 159,
+   "text": "Edhe nëse keni qenë esëll prej tetë orësh,"
+  },
+  {
+   "i": 160,
+   "text": "stomaku mund të mos jetë bosh, gjë që është kritike gjatë sedacionit ose"
+  },
+  {
+   "i": 161,
+   "text": "anestezisë."
+  },
+  {
+   "i": 162,
+   "text": "Plani i ndërprerjes për shtatzëni dhe protokollet para anestezisë"
+  },
+  {
+   "i": 163,
+   "text": "janë dy gjëra të ndryshme."
+  },
+  {
+   "i": 164,
+   "text": "Lëreni ekipin tuaj të hartojë planin tuaj të personalizuar."
+  },
+  {
+   "i": 165,
+   "text": "Dhe pastaj, janë burrat."
+  },
+  {
+   "i": 166,
+   "text": "Zotërinj, mos e shikoni këtë video nga cepi i divanit duke thënë:"
+  },
+  {
+   "i": 167,
+   "text": "«E sheh, e dashur, doktori po flet për ty.»"
+  },
+  {
+   "i": 168,
+   "text": "Te burrat me obezitet,"
+  },
+  {
+   "i": 169,
+   "text": "ndryshimet e stilit të jetesës si ushqyerja dhe aktiviteti"
+  },
+  {
+   "i": 170,
+   "text": "fizik mund të përmirësojnë disa parametra të spermës."
+  },
+  {
+   "i": 171,
+   "text": "Ka edhe kërkime për ilaçet GLP-1,"
+  },
+  {
+   "i": 172,
+   "text": "por provat mbeten të kufizuara."
+  },
+  {
+   "i": 173,
+   "text": "Sot nuk mund t'i paraqesim këto ilaçe si një"
+  },
+  {
+   "i": 174,
+   "text": "trajtim të provuar të infertilitetit mashkullor."
+  },
+  {
+   "i": 175,
+   "text": "Efekte anësore, si të përzierat,"
+  },
+  {
+   "i": 176,
+   "text": "të vjellat dhe shqetësimet tretëse,"
+  },
+  {
+   "i": 177,
+   "text": "mund të shfaqen gjithashtu."
+  },
+  {
+   "i": 178,
+   "text": "Dhe rimarrja e peshës është e mundur,"
+  },
+  {
+   "i": 179,
+   "text": "për fat të keq, pas ndërprerjes së ilaçit."
+  },
+  {
+   "i": 180,
+   "text": "Prandaj ushqyerja, aktiviteti fizik,"
+  },
+  {
+   "i": 181,
+   "text": "monitorimi metabolik dhe kalimi drejt shtatzënisë duhen"
+  },
+  {
+   "i": 182,
+   "text": "planifikuar së bashku."
+  },
+  {
+   "i": 183,
+   "text": "Përmbledhtas, sqaroni këto tri pika me mjekun tuaj."
+  },
+  {
+   "i": 184,
+   "text": "1. Pse kam nevojë mjekësore për këtë ilaç?"
+  },
+  {
+   "i": 185,
+   "text": "2. Kur duhet ta ndërpres para përpjekjeve për shtatzëni,"
+  },
+  {
+   "i": 186,
+   "text": "dhe si ta siguroj kontracepsionin gjatë kësaj periudhe?"
+  },
+  {
+   "i": 187,
+   "text": "3. Si ndikon kjo në kalendarin e trajtimit tim të pjellorisë?"
+  },
+  {
+   "i": 188,
+   "text": "Së fundi, kjo përmbajtje ofrohet për qëllime informuese"
+  },
+  {
+   "i": 189,
+   "text": "dhe nuk zëvendëson një vlerësim mjekësor individual."
+  },
+  {
+   "i": 190,
+   "text": "Ciao!"
+  }
+ ]
+}

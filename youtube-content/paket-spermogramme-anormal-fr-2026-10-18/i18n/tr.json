@@ -1,0 +1,735 @@
+{
+ "lang": "tr",
+ "title": "Spermiyogram anormal çıktı: Bu kısır olduğum anlamına mı geliyor?",
+ "description": "Spermiyogramınız yıldızlarla, oklarla ve yirmi sekiz harflik bir kelimeyle mi geldi? Kısırlık sonucuna varmadan önce normların gerçekte ne söylediğine bakalım. Doğurganlık uzmanı Dr. Senai Aksoy; DSÖ değerlerinin (2021) nereden geldiğini, sınırın altındaki bir rakamın neden bir hüküm olmadığını, testin neden ideal olarak üç ay sonra tekrarlandığını ve ne zaman bir üroloğa ya da androloğa başvurmak gerektiğini anlatıyor.\n\n⏱️ BÖLÜMLER\n00:00 Anormal spermiyogram = kısırlık mı?\n01:11 İnsanı korkutan rapor\n03:05 DSÖ ne diyor?\n03:33 Oligo, asteno, terato: tercümesi\n04:39 Bu normlar nereden çıkıyor?\n06:00 Morfoloji: 100'de 4\n07:18 Çalışmalar ne gösteriyor?\n08:11 Test neden üç ay sonra tekrarlanır?\n10:04 Testosteron: iyi gibi görünen kötü fikir\n11:05 Ne zaman üroloğa ya da androloğa başvurmalı?\n13:15 Beklemeye gelmeyen acil durumlar\n13:39 Bir hekim olarak görüşüm\n14:20 Doktorunuz için üç soru\n\n❓ DOKTORUNUZA SORMANIZ GEREKEN ÜÇ SORU\n1. Sonuç ikinci bir testle doğrulandı mı?\n2. Klinik muayene ve hormonal kan tahlili gerekli mi?\n3. Bir üroloğa ya da androloğa başvurmak gerekiyor mu?\n\n🚨 Testiste ani ve şiddetli ağrı acil bir durumdur: acile gidin ya da 15'i (Fransa), 112'yi veya ülkenizin acil numarasını arayın.\n\n📚 KAYNAKLAR\n• OMS. WHO laboratory manual for the examination and processing of human semen, 6e édition, 2021\n• Campbell MJ, et al. Andrology. 2021;9(3):817-22. PMID 33528873\n• Guzick DS, et al. N Engl J Med. 2001;345(19):1388-93. PMID 11794171\n• Hotaling JM, et al. Fertil Steril. 2011;95(3):1141-5. PMID 21030014\n• Del Giudice F, et al. Andrologia. 2022;54(6):e14409. PMID 35244232\n• Carlsen E, et al. Hum Reprod. 2003;18(10):2089-92. PMID 14507826\n• WHO Task Force. Lancet. 1990;336(8721):955-9. PMID 1977002\n• NICE NG257. Fertility problems: assessment and treatment (2026) : https://www.nice.org.uk/guidance/ng257\n• OMS. Guideline for the prevention, diagnosis and treatment of infertility (2025)\n\n💬 Sorunuzu yorumlara yazın; sonuçlarınızı ya da kişisel tıbbi bilgilerinizi paylaşmayın.\n🔔 Doğurganlık sürecinizi daha iyi anlamak ve doktorunuza sorularınızı hazırlamak için abone olun.\n🌍 Türkçe altyazı mevcuttur; videonun orijinal sesi Fransızcadır.\n\nDaha fazla bilgi için:\n📱 WhatsApp: +90 507 380 28 05\n🌐 Web sitesi: www.draksoyivf.com\n\n⚕️ ÖNEMLİ TIBBİ UYARI\n\nBu videoda sunulan bilgiler yalnızca eğitim ve bilgilendirme amaçlıdır. Hiçbir şekilde tıbbi görüş, tanı ya da kişiye özel tedavi önerisi niteliği taşımaz.\n\nHer tıbbi durum kendine özgüdür. Burada ele alınan içerikler; nitelikli bir hekim, jinekolog ya da üreme tıbbı uzmanıyla yapılacak bir görüşmenin yerini tutmaz.\n\nTedavinizi yürüten hekime ya da uzmanınıza önceden danışmadan, bu videodaki bilgilere dayanarak mevcut tedavinizi asla değiştirmeyin, yeni bir tedaviye başlamayın ve hiçbir tıbbi karar vermeyin.\n\nÜreme sağlığınız ya da tüp bebek tedaviniz hakkında sorularınız varsa lütfen nitelikli bir sağlık profesyoneline başvurun.\n\n© Doç. Dr. Senai Aksoy — Tüm hakları saklıdır.\n\n#Spermiyogram #ErkekKısırlığı #TüpBebek",
+ "cues": [
+  {
+   "i": 1,
+   "text": "“Spermiyogram anormal… Eh, işte bu kadar, benim soyum"
+  },
+  {
+   "i": 2,
+   "text": "burada tükeniyor!"
+  },
+  {
+   "i": 3,
+   "text": "Hayatım, git salondaki begonyayı sula, artık tek varisimiz o!”"
+  },
+  {
+   "i": 4,
+   "text": "Sonucu açtığımız saniyede kafamızda çevirdiğimiz felaket filmi"
+  },
+  {
+   "i": 5,
+   "text": "tam olarak bu. Ama bilim bambaşka bir hikâye anlatıyor:"
+  },
+  {
+   "i": 6,
+   "text": "sınırın altındaki bir rakam, mahkeme kararı değildir."
+  },
+  {
+   "i": 7,
+   "text": "Gösterge panelinde yanan turuncu bir uyarı ışığıdır."
+  },
+  {
+   "i": 8,
+   "text": "O ışık yandığında arabayı yol kenarında ateşe vermezsiniz:"
+  },
+  {
+   "i": 9,
+   "text": "kaputu açar ve kontrol edersiniz!"
+  },
+  {
+   "i": 10,
+   "text": "Burada kontrol etmek de testi tekrarlamak demek; ideal olarak üç ay sonra."
+  },
+  {
+   "i": 11,
+   "text": "Ben Dr. Senai Aksoy, doğurganlık uzmanıyım."
+  },
+  {
+   "i": 12,
+   "text": "Bu videoda: meşhur “normların” aslında neyi gizlediği, neden tek bir"
+  },
+  {
+   "i": 13,
+   "text": "testten sonra vasiyetname yazmamak gerektiği ve hangi noktada"
+  },
+  {
+   "i": 14,
+   "text": "bir üroloğa ya da androloğa başvurmak gerektiği."
+  },
+  {
+   "i": 15,
+   "text": "Önce sahneyi gözünüzün önüne getirin."
+  },
+  {
+   "i": 16,
+   "text": "Sonuç telefona düşüyor: iki sayfalık bir PDF,"
+  },
+  {
+   "i": 17,
+   "text": "mutfakta ayakta, buzdolabına yaslanmış hâlde açılıyor."
+  },
+  {
+   "i": 18,
+   "text": "Neden hep buzdolabının önünde, ayakta?"
+  },
+  {
+   "i": 19,
+   "text": "Çünkü erkek kötü haberi hep ayakta, yoğurtların"
+  },
+  {
+   "i": 20,
+   "text": "yanında karşılar. Solda Latince."
+  },
+  {
+   "i": 21,
+   "text": "Ortada rakamlar. Sağda ise…"
+  },
+  {
+   "i": 22,
+   "text": "küçük yıldızlar, pike yapan oklar ve kalın harfler."
+  },
+  {
+   "i": 23,
+   "text": "Laboratuvar raporu, dünyada para verip kalın harflerle"
+  },
+  {
+   "i": 24,
+   "text": "azar işittiğiniz tek belgedir; üstelik kimse size nedenini"
+  },
+  {
+   "i": 25,
+   "text": "hiç açıklamaz!"
+  },
+  {
+   "i": 26,
+   "text": "Ve işte evrensel erkek refleksi: iki parmakla"
+  },
+  {
+   "i": 27,
+   "text": "yakınlaştırırız! Uydu haritasında arsa arar gibi!"
+  },
+  {
+   "i": 28,
+   "text": "Ama hayır: PDF'e zoom yapmak hiçbir zaman sperm ortaya çıkarmadı,"
+  },
+  {
+   "i": 29,
+   "text": "sadece pikselleri büyütür!"
+  },
+  {
+   "i": 30,
+   "text": "“Dur, biraz daha büyüteyim, belki dört tanesi kenar boşluğunun"
+  },
+  {
+   "i": 31,
+   "text": "arkasında okey oynuyordur…”"
+  },
+  {
+   "i": 32,
+   "text": "Salondan eşiniz soruyor: “Eee?”"
+  },
+  {
+   "i": 33,
+   "text": "Ve ağzınızdan çıkan tek şey: “Eee…"
+  },
+  {
+   "i": 34,
+   "text": "yıldızlar var. Galiba doğrudan finale"
+  },
+  {
+   "i": 35,
+   "text": "kalmışız.” En altta da 28 harflik öldürücü darbe:"
+  },
+  {
+   "i": 36,
+   "text": "“oligo-asteno-teratozoospermi”."
+  },
+  {
+   "i": 37,
+   "text": "Bunu nefes almadan tek seferde söyleyebilirseniz,"
+  },
+  {
+   "i": 38,
+   "text": "üroloji diplomanızı hemen veriyoruz!"
+  },
+  {
+   "i": 39,
+   "text": "Zoom yüzünden kelime ekrana bile sığmıyor: komşunun Wi-Fi'ını"
+  },
+  {
+   "i": 40,
+   "text": "çekiyor! Bir rakamın karşısında hüküm ararız."
+  },
+  {
+   "i": 41,
+   "text": "Oysa 2021'den beri Dünya Sağlık Örgütü,"
+  },
+  {
+   "i": 42,
+   "text": "yani DSÖ, açık açık yazıyor: belirli bir erkek için spermiyogram"
+  },
+  {
+   "i": 43,
+   "text": "tek başına doğurganlığı asla öngörmez."
+  },
+  {
+   "i": 44,
+   "text": "Önemli olan, çiftin doğurganlığıdır."
+  },
+  {
+   "i": 45,
+   "text": "Eh, görünüşe göre PDF güncellemeyi yapmamış."
+  },
+  {
+   "i": 46,
+   "text": "Bu 28 harflik kelimeyi hızlıca tercüme edelim."
+  },
+  {
+   "i": 47,
+   "text": "Bu bir firavun laneti değil: mikroskopta gözlenen"
+  },
+  {
+   "i": 48,
+   "text": "üç kriterin özetinden ibaret."
+  },
+  {
+   "i": 49,
+   "text": "Önce konsantrasyon: salonda mililitre başına"
+  },
+  {
+   "i": 50,
+   "text": "kaç kişi var. Düşükse “oligo” denir. Eh, salon biraz boş,"
+  },
+  {
+   "i": 51,
+   "text": "yankı yapıyor. Sonra hareketlilik: kaçı hareket ediyor, asıl önemlisi kaçı"
+  },
+  {
+   "i": 52,
+   "text": "ileri gidiyor. Tıpta bunlara “progresif” denir. Siyasetle"
+  },
+  {
+   "i": 53,
+   "text": "hiç ilgisi yok! Sakın “Süper, benimkiler ilerici,"
+  },
+  {
+   "i": 54,
+   "text": "açık fikirliler!” demeyin."
+  },
+  {
+   "i": 55,
+   "text": "Ağırdan alıyorlarsa “asteno” denir: çocuklar bitap, yerinde sayıyorlar."
+  },
+  {
+   "i": 56,
+   "text": "Son olarak morfoloji: kaçının rüya gibi bir fiziği var."
+  },
+  {
+   "i": 57,
+   "text": "Atipikse “terato” denir: eh, gece kulübü çıkışında biraz"
+  },
+  {
+   "i": 58,
+   "text": "hırpalanmışlar. İlk gerçek soru: bu “normlar” nereden çıkıyor?"
+  },
+  {
+   "i": 59,
+   "text": "Genellikle Cenevre'de espresso başında oturan beş ciddi profesör"
+  },
+  {
+   "i": 60,
+   "text": "hayal ederiz; şöyle karar vermişler: “Beyler, ideal sperm"
+  },
+  {
+   "i": 61,
+   "text": "Brad Pitt'e benzemeli.” Hiç de öyle değil!"
+  },
+  {
+   "i": 62,
+   "text": "DSÖ, beş kıtadan binlerce erkeğin sonuçlarını bir araya getirdi."
+  },
+  {
+   "i": 63,
+   "text": "Ortak noktaları? Eşleri bir yıldan kısa sürede hamile kalmıştı."
+  },
+  {
+   "i": 64,
+   "text": "Sertifikalı müstakbel babalar."
+  },
+  {
+   "i": 65,
+   "text": "Bu müstakbel babaların hepsinin dizildiği dev bir sınıf fotoğrafı düşünün,"
+  },
+  {
+   "i": 66,
+   "text": "en küçük rakamdan en büyüğüne doğru."
+  },
+  {
+   "i": 67,
+   "text": "DSÖ sınırı, fotoğrafın en altına çekilmiş bir çizgiden ibaret."
+  },
+  {
+   "i": 68,
+   "text": "Kesin değerler ekranda."
+  },
+  {
+   "i": 69,
+   "text": "Sizce bu çizginin altında kaç müstakbel baba var?"
+  },
+  {
+   "i": 70,
+   "text": "Sıfır mı? Yüzde beş! Tanım gereği!"
+  },
+  {
+   "i": 71,
+   "text": "Bu adamlar kâğıt üzerinde “sınıfta kalmıştı”…"
+  },
+  {
+   "i": 72,
+   "text": "üstelik salonda bebek arabası kurarken!"
+  },
+  {
+   "i": 73,
+   "text": "DSÖ bunu kendisi söylüyor: bu çizgi doğurgan erkekleri"
+  },
+  {
+   "i": 74,
+   "text": "kısır olanlardan ayırmaz. Bu tıp fakültesi sınavı değil, sınıf"
+  },
+  {
+   "i": 75,
+   "text": "fotoğrafının sadece ön sırası! Peki, en çok hangi rakam endişelendiriyor?"
+  },
+  {
+   "i": 76,
+   "text": "Neredeyse her zaman morfoloji."
+  },
+  {
+   "i": 77,
+   "text": "Sizce 100 spermden kaç tanesinin “ideal” şekilde olması gerekir"
+  },
+  {
+   "i": 78,
+   "text": "ki DSÖ barajını geçsin?"
+  },
+  {
+   "i": 79,
+   "text": "Elli mi? Otuz mu? Hayır… Dört mü? Evet, dört. Yüzde"
+  },
+  {
+   "i": 80,
+   "text": "dört. Bir salonda yüz erkeğin olduğu bir parti düşünün: içlerinden"
+  },
+  {
+   "i": 81,
+   "text": "sadece dördü göz dolduruyorsa, DSÖ diyor ki: “Tamamdır, parti normlara uygun!”"
+  },
+  {
+   "i": 82,
+   "text": "Dikkat: bazı laboratuvarlar, özellikle Fransa'da, farklı ölçütler kullanır."
+  },
+  {
+   "i": 83,
+   "text": "Her zaman kendi raporunuzda basılı olan referansa bakın."
+  },
+  {
+   "i": 84,
+   "text": "Ama mikroskop altındaki seçmeler, Paris Fashion Week'ten bile daha sert!"
+  },
+  {
+   "i": 85,
+   "text": "“Kafa bir tık fazla yuvarlak mı?"
+  },
+  {
+   "i": 86,
+   "text": "Elendi. Kuyruk hafifçe kıvrık mı?"
+  },
+  {
+   "i": 87,
+   "text": "Kusura bakmayın, mekânın imajına uymuyor.”"
+  },
+  {
+   "i": 88,
+   "text": "Ama bu mikroskobik bir hücre!"
+  },
+  {
+   "i": 89,
+   "text": "Ondan bir modacının podyumunda yürümesini değil, yüzmesini istiyoruz!"
+  },
+  {
+   "i": 90,
+   "text": "Bu kadar. Müstakbel babalarda bile adayların çok büyük kısmı"
+  },
+  {
+   "i": 91,
+   "text": "kapıdaki fedaiye takılıyor!"
+  },
+  {
+   "i": 92,
+   "text": "Zaten büyük bir Amerikan çalışması, doğurgan ve kısır erkeklerin"
+  },
+  {
+   "i": 93,
+   "text": "sonuçlarının büyük ölçüde örtüştüğünü gösterdi."
+  },
+  {
+   "i": 94,
+   "text": "Doğurgan gruptaki bazı erkeklerin rakamları yerlerde sürünürken, kısır"
+  },
+  {
+   "i": 95,
+   "text": "gruptaki bazılarının sonuçları Louvre Müzesi'nde çerçeveletilecek cinsten!"
+  },
+  {
+   "i": 96,
+   "text": "Şekil için de aynı tespit geçerli."
+  },
+  {
+   "i": 97,
+   "text": "Tüp bebek ve ICSI'de, yalnızca şekli düşük olan erkeklerde dört çalışmanın"
+  },
+  {
+   "i": 98,
+   "text": "analizi, gebelik şansında belirgin bir düşüş göstermiyor."
+  },
+  {
+   "i": 99,
+   "text": "Binlerce siklusu inceleyen bir diğeri de genel olarak şekil için"
+  },
+  {
+   "i": 100,
+   "text": "aynı sonucu buluyor. Bunlar gözlemsel çalışmalar ama aynı yönü gösteriyor."
+  },
+  {
+   "i": 101,
+   "text": "Tek başına düşük bir rakam bir sorudur."
+  },
+  {
+   "i": 102,
+   "text": "Cevap değil. Peki tahlili neden üç ay sonra tekrarlamanız"
+  },
+  {
+   "i": 103,
+   "text": "isteniyor? Çünkü bugünkü sperm, son üç ayda yaşadıklarınızı"
+  },
+  {
+   "i": 104,
+   "text": "ispiyonlar! Fabrikadaki üretim süresi aşağı yukarı bu kadar."
+  },
+  {
+   "i": 105,
+   "text": "Ekimde numune mi verdiniz?"
+  },
+  {
+   "i": 106,
+   "text": "Biyolog mikroskoba bakıp şöyle diyemez: “Bakın hele,"
+  },
+  {
+   "i": 107,
+   "text": "beyefendi ağustosta fena bir grip geçirmiş!”"
+  },
+  {
+   "i": 108,
+   "text": "Ama ağustostaki grip, rakama yansıyabilir."
+  },
+  {
+   "i": 109,
+   "text": "Küçük bir Danimarka çalışması, 27 genç erkeği her ay"
+  },
+  {
+   "i": 110,
+   "text": "bir yıldan uzun süre takip etti."
+  },
+  {
+   "i": 111,
+   "text": "Laboratuvarda ortam şahane olmuştur, değil mi?"
+  },
+  {
+   "i": 112,
+   "text": "Neyse. Sonuç: yüksek bir ateş, konsantrasyonu belirgin şekilde"
+  },
+  {
+   "i": 113,
+   "text": "düşürebilir. Ve bu düşüş geçici olabilir."
+  },
+  {
+   "i": 114,
+   "text": "Bu yüzden İngiliz kılavuzlarının"
+  },
+  {
+   "i": 115,
+   "text": "2026 versiyonu, hem de yepyeni, net konuşuyor: ilk test anormalse,"
+  },
+  {
+   "i": 116,
+   "text": "tekrar kontrol edilir, ideal olarak üç ay sonra."
+  },
+  {
+   "i": 117,
+   "text": "Tek istisna: hiç sperm yoksa ya da neredeyse hiç yoksa,"
+  },
+  {
+   "i": 118,
+   "text": "o zaman üç ay beklenmez, test en kısa sürede tekrarlanır."
+  },
+  {
+   "i": 119,
+   "text": "Bu ikinci test için laboratuvarın cinsel perhiz süresine iyice uyun,"
+  },
+  {
+   "i": 120,
+   "text": "yani üç ila beş gün, ve son üç ayda geçirdiğiniz her ateşi"
+  },
+  {
+   "i": 121,
+   "text": "doktora bildirin. Peki ilki düşük, ikincisi normalse, hangisine inanacağız?"
+  },
+  {
+   "i": 122,
+   "text": "Hiçbirine tek başına değil!"
+  },
+  {
+   "i": 123,
+   "text": "Biri pijamalı, gripli siz; diğeri pazar günü takım elbiseli"
+  },
+  {
+   "i": 124,
+   "text": "siz. İkisine de ihtiyacımız var, tıbbi geçmişinizle birlikte okunarak."
+  },
+  {
+   "i": 125,
+   "text": "Bu ikinci testi beklerken, ne olur, spor salonundaki"
+  },
+  {
+   "i": 126,
+   "text": "“bench press endokrinologlarını” dinlemeyin:"
+  },
+  {
+   "i": 127,
+   "text": "“Kanka, testosteron al, motora nitro basar!”"
+  },
+  {
+   "i": 128,
+   "text": "İyi dinleyin: DSÖ enjeksiyon testosteronu test etti…"
+  },
+  {
+   "i": 129,
+   "text": "ama erkekler için doğum kontrol yöntemi olarak!"
+  },
+  {
+   "i": 130,
+   "text": "1990 tarihli bu çalışmada,"
+  },
+  {
+   "i": 131,
+   "text": "sağlıklı erkeklerin neredeyse onda altısında sonunda"
+  },
+  {
+   "i": 132,
+   "text": "sperm sayısı sıfıra indi. Spor hocasının meşhur “nitro”su,"
+  },
+  {
+   "i": 133,
+   "text": "aslında sonuna kadar çekilmiş el freni, hem de geri viteste!"
+  },
+  {
+   "i": 134,
+   "text": "İngiliz kılavuzları net: anormal bir spermiyogramı tedavi etmek"
+  },
+  {
+   "i": 135,
+   "text": "için testosteron yok. Kullanıyorsanız, “sadece göğüs kası için” bile olsa,"
+  },
+  {
+   "i": 136,
+   "text": "doktora söyleyin. Peki ne zaman bir üroloğa ya da"
+  },
+  {
+   "i": 137,
+   "text": "androloğa başvurmalı? Çok sık, kadının altı aydır kan tahlilleri ve"
+  },
+  {
+   "i": 138,
+   "text": "ultrasonlardan geçtiği çiftler görüyorum…"
+  },
+  {
+   "i": 139,
+   "text": "Beyefendiye dönüyorum: “Peki sizin spermiyogramınız?”"
+  },
+  {
+   "i": 140,
+   "text": "“Evet hocam, gelecek ay gideceğim, şu an ofiste bitirmem gereken"
+  },
+  {
+   "i": 141,
+   "text": "büyük bir sunum var…” Sanki böbreğini bağışlamasını istiyoruz!"
+  },
+  {
+   "i": 142,
+   "text": "Kısır çiftlerin neredeyse ikide birinde bir erkek faktörü bulunur."
+  },
+  {
+   "i": 143,
+   "text": "Bu yüzden erkeğin değerlendirmesi aynı anda yapılır; sayın bakan beyin"
+  },
+  {
+   "i": 144,
+   "text": "ajandası boşaldığında değil! Ölçütler basit, kesin"
+  },
+  {
+   "i": 145,
+   "text": "eşik değerler de ekranda."
+  },
+  {
+   "i": 146,
+   "text": "İki anormal spermiyogramdan sonra testislerin klinik muayenesi"
+  },
+  {
+   "i": 147,
+   "text": "önerilir ve hormon tetkiki düşünülür."
+  },
+  {
+   "i": 148,
+   "text": "Konsantrasyon … düzeyinde kalırsa, kromozom analizi önerilebilir."
+  },
+  {
+   "i": 149,
+   "text": "Hiç sperm yoksa ya da neredeyse hiç yoksa ve bilinen bir neden yoksa:"
+  },
+  {
+   "i": 150,
+   "text": "hızlı bir doğrulamanın ardından küçük bir Y kromozomu"
+  },
+  {
+   "i": 151,
+   "text": "anomalisi de aranır; hiç sperm yoksa kromozomlar da analiz edilir."
+  },
+  {
+   "i": 152,
+   "text": "Hiç sperm olmamasına azospermi denir:"
+  },
+  {
+   "i": 153,
+   "text": "iki ana durum vardır: yolda bir trafik sıkışıklığı,"
+  },
+  {
+   "i": 154,
+   "text": "yani tıkalı bir geçiş, ya da yavaşlamış bir fabrika."
+  },
+  {
+   "i": 155,
+   "text": "Her iki durumda da çözümler var: geçişi onarmak,"
+  },
+  {
+   "i": 156,
+   "text": "örneğin, neden hormonal olduğunda tedavi vermek"
+  },
+  {
+   "i": 157,
+   "text": "ya da spermleri cerrahi olarak epididimde ya da"
+  },
+  {
+   "i": 158,
+   "text": "testiste aramak. Tabii bu her zaman mümkün değil, kimse bunun sözünü"
+  },
+  {
+   "i": 159,
+   "text": "önceden veremez. Ama bu, uzmanınızla birlikte araştırılacak"
+  },
+  {
+   "i": 160,
+   "text": "gerçek ve ciddi bir yol. Şaka bir yana, hiçbir tetkiki beklemeyen mutlak bir"
+  },
+  {
+   "i": 161,
+   "text": "kural var. Testiste ele gelen bir yumru: hızla doktora görünün."
+  },
+  {
+   "i": 162,
+   "text": "Testiste ani ve şiddetli ağrı: bu mutlak bir acil durumdur."
+  },
+  {
+   "i": 163,
+   "text": "Laboratuvarı unutun: hemen acile gidin ya da 15'i, 112'yi"
+  },
+  {
+   "i": 164,
+   "text": "veya ülkenizin acil numarasını arayın."
+  },
+  {
+   "i": 165,
+   "text": "Bir hekim olarak görüşüm, ki bu bir görüş, kanıt değil:"
+  },
+  {
+   "i": 166,
+   "text": "spermiyogram bir başlangıç noktasıdır."
+  },
+  {
+   "i": 167,
+   "text": "Düşükse, sizi erkenden mahkûm etmemeli."
+  },
+  {
+   "i": 168,
+   "text": "Gebelik olmadığı hâlde normalse, her şeyin yolunda olduğunu"
+  },
+  {
+   "i": 169,
+   "text": "garanti etmez. Önemli olan; doğrulanmış, bir doktorla birlikte"
+  },
+  {
+   "i": 170,
+   "text": "okunmuş bir sonuç ve gerçek bir muayenedir."
+  },
+  {
+   "i": 171,
+   "text": "Buzdolabının önünde tek başınıza pikselleri büyütmek değil!"
+  },
+  {
+   "i": 172,
+   "text": "Bir dahaki sefere bir rapor size kalın harflerle bağırırsa,"
+  },
+  {
+   "i": 173,
+   "text": "kendinize tek bir soru sorun: bu ilk test miydi, yoksa ikincisi mi?"
+  },
+  {
+   "i": 174,
+   "text": "Doktora götürmeniz gereken üç soru; açıklamada da yer alıyor."
+  },
+  {
+   "i": 175,
+   "text": "Önce ona ikinci bir test gerekip gerekmediğini sorun."
+  },
+  {
+   "i": 176,
+   "text": "Klinik muayene ya da hormonal kan tahlili gerekli mi?"
+  },
+  {
+   "i": 177,
+   "text": "Ve bir üroloğa ya da androloğa başvurmak gerekiyor mu?"
+  },
+  {
+   "i": 178,
+   "text": "Unutmayın: bu içerik bilgilendirme amaçlıdır ve bireysel tıbbi"
+  },
+  {
+   "i": 179,
+   "text": "değerlendirmenin yerini tutmaz. Peki testiniz biraz düşük kalırsa: günlük"
+  },
+  {
+   "i": 180,
+   "text": "hayatta sperm kalitesini gerçekten ne etkiler?"
+  },
+  {
+   "i": 181,
+   "text": "Belki yakında bunun üzerine başka bir video yaparım."
+  },
+  {
+   "i": 182,
+   "text": "Hadi, hoşça kalın, ciao!"
+  }
+ ]
+}

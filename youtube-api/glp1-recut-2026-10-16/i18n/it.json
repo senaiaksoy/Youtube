@@ -1,0 +1,767 @@
+{
+ "lang": "it",
+ "title": "Penna dimagrante e gravidanza: aiuta davvero a rimanere incinta?",
+ "description": "«Una puntura, zero appetito…» e poi «sorpresa, sono rimasta incinta»: sui social, il legame tra le iniezioni dimagranti e la gravidanza sembra evidente. Il dottor Senai Aksoy, professore associato di medicina della riproduzione, esamina cosa mostrano davvero gli studi sui farmaci della famiglia del GLP-1 (semaglutide, liraglutide, tirzepatide) e la fertilità.\n\nQuesti farmaci possono contribuire in modo indiretto alle probabilità di gravidanza in alcune donne, in particolare con sindrome dell'ovaio policistico (PCOS). Ma non sono trattamenti diretti dell'infertilità e non si usano durante la gravidanza. Parliamo anche dei tempi di sospensione prima di una gravidanza programmata, della contraccezione, del pick-up ovocitario e dell'anestesia, e di ciò che si sa negli uomini.\n\n⏱️ CAPITOLI\n00:00 Una puntura, una gravidanza? La scorciatoia dei social\n01:38 Che cos'è il GLP-1?\n02:54 PCOS: peso, insulina e ovulazione\n04:16 Cosa dicono gli studi?\n05:02 Uno studio di registro pubblicato nel 2026\n06:07 E la FIVET?\n07:30 Contraccezione: un punto cruciale\n08:18 Quanto tempo prima di una gravidanza sospendere?\n08:54 Tirzepatide e pillola anticoncezionale\n09:49 Test di gravidanza positivo durante il trattamento\n10:37 Prima della FIVET: valutare tutto insieme\n11:19 Pick-up ovocitario e anestesia\n12:04 E gli uomini?\n12:46 Effetti collaterali e ripresa del peso\n13:12 Tre domande da fare al vostro medico\n\n❓ LE TRE DOMANDE DA FARE AL VOSTRO MEDICO\n1. Perché ho bisogno, dal punto di vista medico, di questo farmaco?\n2. Quando devo sospenderlo prima di provare ad avere un bambino, e come proteggermi in questo periodo?\n3. In che modo questo influisce sul calendario del mio trattamento di fertilità?\n\n📚 BIBLIOGRAFIA (numerata come sullo schermo)\n[1] Zhou L, et al. BMC Endocr Disord. 2023;23(1):245. Méta-analyse, 11 essais randomisés, n = 840. PMID 37940910\n[2] Wu YC, et al. Reprod Biol Endocrinol. 2026;24(1). Cohorte rétrospective multicentrique, n = 1 936. PMID 42001071\n[3] Teede HJ, et al. Recommandations internationales sur le SOPK, 2023 (§ 5.3.1, § 5.9.1)\n[4] EMA. Sémaglutide (gestion du poids), résumé des caractéristiques du produit, § 4.6\n[5] Tirzépatide, résumé des caractéristiques du produit (Royaume-Uni), § 4.5–4.6\n[6] MHRA (Royaume-Uni). GLP-1 medicines: what you need to know\n[7] Lau KGY, et al. BJOG. 2026. PMID 42830218\n[8] Dao K, et al. BMJ Open. 2024;14(4):e083550. PMID 38663923\n[9] MHRA. Drug Safety Update, janvier 2025 : risque d’aspiration sous anesthésie générale ou sédation profonde\n[10] Andersen E, et al. Hum Reprod. 2022;37(7):1414-22. PMID 35580859\n[11] Peel A, et al. Hum Reprod Update. 2026;32(2):154-80. PMID 41065428\n\n💬 Avete già visto passare questo tipo di video nel vostro feed? Scrivete la vostra domanda nei commenti, senza pubblicare dati medici personali.\n🔔 Iscrivetevi per capire meglio il vostro percorso di FIVET e preparare le domande per il vostro medico.\n🗣️ Audio originale in francese, sottotitoli in italiano disponibili.\n\nPer maggiori informazioni:\n📱 WhatsApp: +90 507 380 28 05\n🌐 Sito web: www.draksoyivf.com\n\n⚕️ AVVERTENZA MEDICA IMPORTANTE\n\nLe informazioni presentate in questo video sono fornite esclusivamente a scopo educativo e informativo. Non costituiscono in alcun caso un parere medico, una diagnosi o una raccomandazione terapeutica personalizzata.\n\nOgni situazione medica è unica. I contenuti trattati qui non sostituiscono una visita con un medico qualificato, un ginecologo o uno specialista in medicina della riproduzione.\n\nNon modificate mai la vostra terapia in corso, non iniziate una nuova terapia e non prendete alcuna decisione medica sulla base delle informazioni contenute in questo video senza aver prima consultato il vostro medico curante o il vostro specialista.\n\nSe avete domande sulla vostra salute riproduttiva o sul vostro percorso di FIVET, rivolgetevi a un professionista sanitario qualificato.\n\n© Assoc. Prof. Dr. Senai Aksoy — Tutti i diritti riservati.\n\n#FIVET #Fertilità #PCOS",
+ "cues": [
+  {
+   "i": 1,
+   "text": "È l'1:30 di notte, siete a letto,"
+  },
+  {
+   "i": 2,
+   "text": "e sul telefono comincia la famosa seduta di palestra per il pollice."
+  },
+  {
+   "i": 3,
+   "text": "Aprite un primo video: qualcuno tiene una penna per iniezioni in"
+  },
+  {
+   "i": 4,
+   "text": "mano e racconta:"
+  },
+  {
+   "i": 5,
+   "text": "«Una puntura, zero appetito, mi sono dimezzata.»"
+  },
+  {
+   "i": 6,
+   "text": "Una piccola spinta del pollice verso l'alto,"
+  },
+  {
+   "i": 7,
+   "text": "oplà, secondo video: «Ho usato questa penna."
+  },
+  {
+   "i": 8,
+   "text": "Sorpresa, sono rimasta incinta.»"
+  },
+  {
+   "i": 9,
+   "text": "Guardate bene: tra questi due video"
+  },
+  {
+   "i": 10,
+   "text": "c'è un solo, unico movimento del pollice."
+  },
+  {
+   "i": 11,
+   "text": "0,2 secondi."
+  },
+  {
+   "i": 12,
+   "text": "Guardando questo, si pensa subito:"
+  },
+  {
+   "i": 13,
+   "text": "«Bene, è fatta: ci si punge e si partorisce.»"
+  },
+  {
+   "i": 14,
+   "text": "Ma dal punto di vista scientifico, stabilire questo legame richiede un pochino"
+  },
+  {
+   "i": 15,
+   "text": "più di lavoro di uno scorrimento sullo schermo."
+  },
+  {
+   "i": 16,
+   "text": "I farmaci della famiglia del GLP-1 possono effettivamente contribuire"
+  },
+  {
+   "i": 17,
+   "text": "in modo indiretto alle probabilità di gravidanza in alcune donne."
+  },
+  {
+   "i": 18,
+   "text": "Ma non sono assolutamente trattamenti diretti dell'infertilità."
+  },
+  {
+   "i": 19,
+   "text": "E non si usano durante la gravidanza."
+  },
+  {
+   "i": 20,
+   "text": "Sono il dottor Senai Aksoy."
+  },
+  {
+   "i": 21,
+   "text": "Oggi vediamo insieme il vero legame tra queste famose iniezioni"
+  },
+  {
+   "i": 22,
+   "text": "e la fertilità, e soprattutto a cosa bisogna fare attenzione quando"
+  },
+  {
+   "i": 23,
+   "text": "si programma un bambino."
+  },
+  {
+   "i": 24,
+   "text": "Cominciamo dall'inizio."
+  },
+  {
+   "i": 25,
+   "text": "Che cos'è il GLP-1?"
+  },
+  {
+   "i": 26,
+   "text": "Il nome suona un po' come l'ultimo modello di un'auto ibrida,"
+  },
+  {
+   "i": 27,
+   "text": "ma in realtà è un ormone naturale prodotto dal nostro corpo"
+  },
+  {
+   "i": 28,
+   "text": "dopo i pasti."
+  },
+  {
+   "i": 29,
+   "text": "Ha un ruolo chiave nella sazietà e nella regolazione della glicemia,"
+  },
+  {
+   "i": 30,
+   "text": "inviando al cervello un messaggio molto semplice:"
+  },
+  {
+   "i": 31,
+   "text": "«Ok, capo, siamo sazi."
+  },
+  {
+   "i": 32,
+   "text": "Posa piano la forchetta, lo zucchero è sotto controllo.»"
+  },
+  {
+   "i": 33,
+   "text": "Farmaci come la semaglutide e la"
+  },
+  {
+   "i": 34,
+   "text": "liraglutide agiscono come le controfigure ufficiali di questo ormone."
+  },
+  {
+   "i": 35,
+   "text": "Ne imitano l'azione."
+  },
+  {
+   "i": 36,
+   "text": "La tirzepatide, invece, arriva in squadra."
+  },
+  {
+   "i": 37,
+   "text": "Oltre al GLP-1, sfrutta l'effetto di un altro ormone chiamato GIP."
+  },
+  {
+   "i": 38,
+   "text": "Nelle persone idonee, può aiutare nella gestione del peso e nel"
+  },
+  {
+   "i": 39,
+   "text": "controllo della glicemia."
+  },
+  {
+   "i": 40,
+   "text": "Molto bene."
+  },
+  {
+   "i": 41,
+   "text": "Ma come si passa da qui a una gravidanza?"
+  },
+  {
+   "i": 42,
+   "text": "Molto si gioca, in particolare, nella sindrome dell'ovaio policistico,"
+  },
+  {
+   "i": 43,
+   "text": "la famosa PCOS."
+  },
+  {
+   "i": 44,
+   "text": "In alcune donne con PCOS,"
+  },
+  {
+   "i": 45,
+   "text": "l'insulino-resistenza e i disturbi dell'ovulazione vanno"
+  },
+  {
+   "i": 46,
+   "text": "a braccetto."
+  },
+  {
+   "i": 47,
+   "text": "L'insulino-resistenza è quando l'insulina bussa alla porta della"
+  },
+  {
+   "i": 48,
+   "text": "cellula e dall'interno nessuno risponde."
+  },
+  {
+   "i": 49,
+   "text": "Il corpo non reagisce abbastanza all'insulina."
+  },
+  {
+   "i": 50,
+   "text": "Quando la situazione metabolica e la gestione del peso migliorano,"
+  },
+  {
+   "i": 51,
+   "text": "questo caos interiore si calma."
+  },
+  {
+   "i": 52,
+   "text": "In alcune donne, le mestruazioni tornano più regolari e le"
+  },
+  {
+   "i": 53,
+   "text": "ovaie si dicono: «Toh, qui dentro è tornata la calma, e se"
+  },
+  {
+   "i": 54,
+   "text": "cominciassimo a ovulare?»."
+  },
+  {
+   "i": 55,
+   "text": "Il contributo alle probabilità di gravidanza,"
+  },
+  {
+   "i": 56,
+   "text": "almeno in parte, può venire da qui."
+  },
+  {
+   "i": 57,
+   "text": "Ma attenzione alla classica scorciatoia:"
+  },
+  {
+   "i": 58,
+   "text": "non tutte le donne con PCOS sono in sovrappeso,"
+  },
+  {
+   "i": 59,
+   "text": "e non tutte le donne in sovrappeso hanno problemi di ovulazione."
+  },
+  {
+   "i": 60,
+   "text": "Quindi non si può impostare l'equazione automatica"
+  },
+  {
+   "i": 61,
+   "text": "«ho la PCOS, quindi mi serve questa iniezione»."
+  },
+  {
+   "i": 62,
+   "text": "Allora, gli studi sono incoraggianti?"
+  },
+  {
+   "i": 63,
+   "text": "Alcuni, sì."
+  },
+  {
+   "i": 64,
+   "text": "Nelle donne con PCOS,"
+  },
+  {
+   "i": 65,
+   "text": "alcune ricerche mostrano un miglioramento della regolarità dei cicli"
+  },
+  {
+   "i": 66,
+   "text": "e dei tassi di gravidanza spontanea."
+  },
+  {
+   "i": 67,
+   "text": "Ma una parte di questi studi riguarda campioni piccoli,"
+  },
+  {
+   "i": 68,
+   "text": "con farmaci e trattamenti complementari diversi."
+  },
+  {
+   "i": 69,
+   "text": "E il fatto che una sola persona sui social rimanga incinta"
+  },
+  {
+   "i": 70,
+   "text": "dopo aver preso questo farmaco non dimostra direttamente che la qualità"
+  },
+  {
+   "i": 71,
+   "text": "degli ovociti sia aumentata."
+  },
+  {
+   "i": 72,
+   "text": "Questa non è una prova scientifica."
+  },
+  {
+   "i": 73,
+   "text": "È una chiacchiera da macchinetta del caffè."
+  },
+  {
+   "i": 74,
+   "text": "Del resto, i risultati non vanno tutti nella stessa direzione."
+  },
+  {
+   "i": 75,
+   "text": "In uno studio di registro pubblicato nel 2026,"
+  },
+  {
+   "i": 76,
+   "text": "condotto su donne con infertilità associata a sovrappeso"
+  },
+  {
+   "i": 77,
+   "text": "od obesità, l'uso della semaglutide è stato associato"
+  },
+  {
+   "i": 78,
+   "text": "a tassi più bassi di gravidanza e di nati vivi."
+  },
+  {
+   "i": 79,
+   "text": "Niente conclusioni affrettate: si tratta di uno studio osservazionale."
+  },
+  {
+   "i": 80,
+   "text": "Quindi non si può affermare che il farmaco ne sia la causa diretta."
+  },
+  {
+   "i": 81,
+   "text": "Fattori come il calendario terapeutico e il rinvio volontario della"
+  },
+  {
+   "i": 82,
+   "text": "gravidanza possono benissimo aver influenzato questi risultati."
+  },
+  {
+   "i": 83,
+   "text": "Non bisogna confondere: ritrovare cicli regolari,"
+  },
+  {
+   "i": 84,
+   "text": "ovulare, avere un test di gravidanza positivo e arrivare a un nato"
+  },
+  {
+   "i": 85,
+   "text": "vivo sono risultati ben distinti."
+  },
+  {
+   "i": 86,
+   "text": "Non si possono estendere queste osservazioni a tutte le donne,"
+  },
+  {
+   "i": 87,
+   "text": "a tutti i farmaci del GLP-1 o alla fecondazione in vitro."
+  },
+  {
+   "i": 88,
+   "text": "Non abbiamo prove solide e sufficienti che dimostrino che gli"
+  },
+  {
+   "i": 89,
+   "text": "agonisti del GLP-1 aumentino le probabilità di nato vivo nella FIVET."
+  },
+  {
+   "i": 90,
+   "text": "Le raccomandazioni internazionali del 2023 sulla PCOS fanno peraltro"
+  },
+  {
+   "i": 91,
+   "text": "chiaramente questa distinzione."
+  },
+  {
+   "i": 92,
+   "text": "Questi farmaci possono essere considerati per la gestione del peso nelle"
+  },
+  {
+   "i": 93,
+   "text": "persone idonee, ma il loro uso allo scopo di migliorare i"
+  },
+  {
+   "i": 94,
+   "text": "risultati di fertilità nella PCOS resta limitato all'ambito della ricerca."
+  },
+  {
+   "i": 95,
+   "text": "La decisione clinica deve basarsi su un'indicazione medica appropriata,"
+  },
+  {
+   "i": 96,
+   "text": "come la gestione del peso o il diabete."
+  },
+  {
+   "i": 97,
+   "text": "Se l'assenza di gravidanza nella PCOS è legata solo alla mancanza"
+  },
+  {
+   "i": 98,
+   "text": "di ovulazione, e non si identifica nessun'altra causa di infertilità,"
+  },
+  {
+   "i": 99,
+   "text": "il trattamento di induzione dell'ovulazione raccomandato in prima linea"
+  },
+  {
+   "i": 100,
+   "text": "dalle linee guida mediche è il letrozolo."
+  },
+  {
+   "i": 101,
+   "text": "Ecco ora un punto cruciale."
+  },
+  {
+   "i": 102,
+   "text": "Alcune pazienti si dicono tranquillamente:"
+  },
+  {
+   "i": 103,
+   "text": "«Dottore, ho il ciclo ogni tre mesi,"
+  },
+  {
+   "i": 104,
+   "text": "non rischio di rimanere incinta.»"
+  },
+  {
+   "i": 105,
+   "text": "Non pensatelo assolutamente."
+  },
+  {
+   "i": 106,
+   "text": "Il corpo prima ovula, poi arrivano le mestruazioni."
+  },
+  {
+   "i": 107,
+   "text": "Quando l'ovulazione riprende, le vostre ovaie non vi avvisano con un SMS."
+  },
+  {
+   "i": 108,
+   "text": "Una gravidanza può arrivare in un momento del tutto inaspettato."
+  },
+  {
+   "i": 109,
+   "text": "Eppure non disponiamo di dati sufficienti nell'essere umano per affermare"
+  },
+  {
+   "i": 110,
+   "text": "che questi farmaci siano sicuri in gravidanza."
+  },
+  {
+   "i": 111,
+   "text": "Una contraccezione efficace è quindi indispensabile durante il trattamento e"
+  },
+  {
+   "i": 112,
+   "text": "durante il periodo di sospensione specifico di ogni farmaco."
+  },
+  {
+   "i": 113,
+   "text": "Qual è il calendario?"
+  },
+  {
+   "i": 114,
+   "text": "Per la semaglutide, si raccomanda di sospenderla almeno due mesi"
+  },
+  {
+   "i": 115,
+   "text": "prima di una gravidanza programmata."
+  },
+  {
+   "i": 116,
+   "text": "Per la tirzepatide, questo intervallo è di almeno un mese."
+  },
+  {
+   "i": 117,
+   "text": "Il farmaco utilizzato, la data dell'ultima dose e il momento preciso"
+  },
+  {
+   "i": 118,
+   "text": "dell'inizio dei tentativi devono essere chiariti con il medico prescrittore."
+  },
+  {
+   "i": 119,
+   "text": "E se avete il diabete, un trattamento della glicemia adatto alla"
+  },
+  {
+   "i": 120,
+   "text": "gravidanza deve essere assolutamente programmato."
+  },
+  {
+   "i": 121,
+   "text": "Per chi usa la tirzepatide,"
+  },
+  {
+   "i": 122,
+   "text": "c'è un dettaglio molto importante, in particolare nelle persone in"
+  },
+  {
+   "i": 123,
+   "text": "sovrappeso e con obesità."
+  },
+  {
+   "i": 124,
+   "text": "L'efficacia della pillola anticoncezionale può diminuire."
+  },
+  {
+   "i": 125,
+   "text": "Poiché i farmaci modificano lo svuotamento dello stomaco,"
+  },
+  {
+   "i": 126,
+   "text": "l'assorbimento della compressa può calare."
+  },
+  {
+   "i": 127,
+   "text": "Si raccomanda quindi di usare un metodo aggiuntivo,"
+  },
+  {
+   "i": 128,
+   "text": "come il preservativo oltre alla pillola,"
+  },
+  {
+   "i": 129,
+   "text": "nelle quattro settimane successive all'inizio del trattamento e nelle"
+  },
+  {
+   "i": 130,
+   "text": "quattro settimane successive a ogni aumento di dose, oppure di passare a una"
+  },
+  {
+   "i": 131,
+   "text": "contraccezione non orale."
+  },
+  {
+   "i": 132,
+   "text": "Attenzione, questa avvertenza non è identica per tutti i farmaci"
+  },
+  {
+   "i": 133,
+   "text": "del GLP-1."
+  },
+  {
+   "i": 134,
+   "text": "E se il test di gravidanza diventa positivo durante il trattamento?"
+  },
+  {
+   "i": 135,
+   "text": "Consultate subito il medico prescrittore e il vostro ginecologo."
+  },
+  {
+   "i": 136,
+   "text": "Questo farmaco non si prosegue in gravidanza."
+  },
+  {
+   "i": 137,
+   "text": "Ma essere stati esposti al farmaco non significa che il bambino abbia"
+  },
+  {
+   "i": 138,
+   "text": "necessariamente subito un danno."
+  },
+  {
+   "i": 139,
+   "text": "I dati disponibili nell'essere umano sono rassicuranti sotto alcuni aspetti,"
+  },
+  {
+   "i": 140,
+   "text": "ma non abbastanza solidi da garantire la sicurezza della gravidanza."
+  },
+  {
+   "i": 141,
+   "text": "Si valuta quindi il farmaco utilizzato,"
+  },
+  {
+   "i": 142,
+   "text": "la dose e in quale fase della gravidanza è stato preso."
+  },
+  {
+   "i": 143,
+   "text": "Se siete diabetiche, si imposta subito un trattamento alternativo."
+  },
+  {
+   "i": 144,
+   "text": "Prima di una fecondazione in vitro, l'età,"
+  },
+  {
+   "i": 145,
+   "text": "la riserva ovarica, la causa dell'infertilità e l'impatto del"
+  },
+  {
+   "i": 146,
+   "text": "tempo di attesa sulla fertilità vanno valutati insieme."
+  },
+  {
+   "i": 147,
+   "text": "Dire a tutti «prima perdete peso,"
+  },
+  {
+   "i": 148,
+   "text": "al trattamento penseremo dopo» non è giusto."
+  },
+  {
+   "i": 149,
+   "text": "In alcune persone, una preparazione metabolica è opportuna."
+  },
+  {
+   "i": 150,
+   "text": "In altre, ritardare a lungo la presa in carico non è appropriato."
+  },
+  {
+   "i": 151,
+   "text": "Il vostro peso non è un voto in pagella che decide se"
+  },
+  {
+   "i": 152,
+   "text": "meritate o no un trattamento."
+  },
+  {
+   "i": 153,
+   "text": "E se è previsto un pick-up ovocitario,"
+  },
+  {
+   "i": 154,
+   "text": "segnalate assolutamente il vostro trattamento al team di FIVET e"
+  },
+  {
+   "i": 155,
+   "text": "all'anestesista."
+  },
+  {
+   "i": 156,
+   "text": "Non ditevi mai: «È solo la mia penna,"
+  },
+  {
+   "i": 157,
+   "text": "ovviamente, non serve parlarne.»"
+  },
+  {
+   "i": 158,
+   "text": "Questi farmaci rallentano lo svuotamento gastrico."
+  },
+  {
+   "i": 159,
+   "text": "Anche se siete a digiuno da otto ore,"
+  },
+  {
+   "i": 160,
+   "text": "lo stomaco potrebbe non essere vuoto, il che è cruciale in caso di sedazione o"
+  },
+  {
+   "i": 161,
+   "text": "di anestesia."
+  },
+  {
+   "i": 162,
+   "text": "Il piano di sospensione per una gravidanza e i protocolli pre-anestesia"
+  },
+  {
+   "i": 163,
+   "text": "sono due cose diverse."
+  },
+  {
+   "i": 164,
+   "text": "Lasciate che il vostro team stabilisca il vostro piano personalizzato."
+  },
+  {
+   "i": 165,
+   "text": "E poi ci sono gli uomini."
+  },
+  {
+   "i": 166,
+   "text": "Signori, non guardate questo video dall'angolo del divano dicendo:"
+  },
+  {
+   "i": 167,
+   "text": "«Vedi, cara, il dottore parla di te.»"
+  },
+  {
+   "i": 168,
+   "text": "Negli uomini con obesità,"
+  },
+  {
+   "i": 169,
+   "text": "i cambiamenti dello stile di vita, come l'alimentazione e l'attività"
+  },
+  {
+   "i": 170,
+   "text": "fisica, possono migliorare alcuni parametri seminali."
+  },
+  {
+   "i": 171,
+   "text": "Esistono anche ricerche sui farmaci del GLP-1,"
+  },
+  {
+   "i": 172,
+   "text": "ma le prove restano limitate."
+  },
+  {
+   "i": 173,
+   "text": "Oggi non possiamo presentare questi farmaci come un"
+  },
+  {
+   "i": 174,
+   "text": "trattamento provato dell'infertilità maschile."
+  },
+  {
+   "i": 175,
+   "text": "Effetti collaterali, come nausea,"
+  },
+  {
+   "i": 176,
+   "text": "vomito e disturbi digestivi,"
+  },
+  {
+   "i": 177,
+   "text": "possono inoltre presentarsi."
+  },
+  {
+   "i": 178,
+   "text": "E una ripresa del peso è possibile,"
+  },
+  {
+   "i": 179,
+   "text": "purtroppo, dopo la sospensione del farmaco."
+  },
+  {
+   "i": 180,
+   "text": "Per questo l'alimentazione, l'attività fisica,"
+  },
+  {
+   "i": 181,
+   "text": "il monitoraggio metabolico e il passaggio alla gravidanza devono essere"
+  },
+  {
+   "i": 182,
+   "text": "pianificati insieme."
+  },
+  {
+   "i": 183,
+   "text": "In sintesi, chiarite questi tre punti con il vostro medico."
+  },
+  {
+   "i": 184,
+   "text": "1. Perché ho bisogno, dal punto di vista medico, di questo farmaco?"
+  },
+  {
+   "i": 185,
+   "text": "2. Quando devo sospenderlo prima di cercare una gravidanza,"
+  },
+  {
+   "i": 186,
+   "text": "e come garantire la contraccezione in questo periodo?"
+  },
+  {
+   "i": 187,
+   "text": "3. In che modo questo influisce sul calendario del mio trattamento di fertilità?"
+  },
+  {
+   "i": 188,
+   "text": "Infine, questo contenuto è fornito a scopo informativo"
+  },
+  {
+   "i": 189,
+   "text": "e non sostituisce una valutazione medica individuale."
+  },
+  {
+   "i": 190,
+   "text": "Ciao!"
+  }
+ ]
+}

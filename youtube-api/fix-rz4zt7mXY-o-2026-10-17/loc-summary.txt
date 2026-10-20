@@ -1,0 +1,10 @@
+sq | Clomid: Trajtimi numër 1 i fertilitetit? (Avantazhet, rreziqet dhe normat e suksesit) | desc0: A po mendoni të merrni Clomid (citrat klomifen) për të rritur pjellorinë tuaj ose për të t
+bg | Кломид: Лечение номер 1 за безплодие? (Предимства, рискове и процент на успех) | desc0: Обмисляте ли да приемате Кломид (кломифен цитрат), за да повишите плодовитостта си или да 
+ro | Clomid: Tratamentul de fertilitate numărul 1? (Avantaje, riscuri și rate de succes) | desc0: Te gândești să iei Clomid (citrat de clomifen) pentru a-ți crește fertilitatea sau pentru 
+de | Clomid: Die Nummer 1 unter den Fruchtbarkeitsbehandlungen? (Vorteile, Risiken und Erfolgsraten) | desc0: Erwägen Sie die Einnahme von Clomid (Clomifencitrat) zur Steigerung Ihrer Fruchtbarkeit od
+en | Clomid: The Number 1 Fertility Treatment? (Advantages, Risks and Success Rates) | desc0: Are you considering taking Clomid (clomiphene citrate) to boost your fertility or treat Po
+az | Klomid: 1 nömrəli sonsuzluq müalicəsi? (Üstünlüklər, risklər və uğur nisbətləri) | desc0: Sonsuzluğunuzu artırmaq və ya Polikistik Yumurtalıq Sindromunu (PCOS) müalicə etmək üçün C
+ar | الكلوميد: العلاج الأمثل للخصوبة؟ (المزايا، المخاطر، ونسب النجاح) | desc0: هل تفكرين في تناول كلوميد (سترات الكلوميفين) لتعزيز خصوبتكِ أو لعلاج متلازمة تكيس المبايض 
+fr | Clomid : chances, risques et quand arrêter ? | desc0: Le Clomid reste l'un des traitements de fertilité les plus prescrits dans le monde — parfo
+tr | Clomid: 1 Numaralı Kısırlık Tedavisi mi? (Avantajları, Riskleri ve Başarı Oranları) | desc0: Doğurganlığınızı artırmak veya Polikistik Over Sendromu'nu (PKOS) tedavi etmek için Clomid
+ru | Кломид: средство номер 1 для лечения бесплодия? (Преимущества, риски и показатели эффективности) | desc0: Планируете ли вы принимать Кломид (кломифена цитрат) для повышения фертильности или лечени

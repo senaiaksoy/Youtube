@@ -1,0 +1,80 @@
+{
+  "kind": "youtube#video",
+  "etag": "vGtbQa7QLbDN49G8KIF5XnOMTyo",
+  "id": "I2yCAcRG6mQ",
+  "snippet": {
+    "publishedAt": "2026-10-13T19:00:29Z",
+    "channelId": "UCbO5qpAnmaQPBJlGMM9ITiw",
+    "title": "Antioksidanlar tüp bebekte işe yarıyor mu? 7 çalışma geri çekildi",
+    "description": "Tüp bebekte takviyeler videomuzdan kısa bir bölüm. Antioksidan kokteylleri ve NAC için Cochrane derlemesi 63 çalışmayı inceledi; bu çalışmaların 7'si sahte ve şaibeli veri nedeniyle geri çekildi, 2'sine uyarı notu eklendi. Zararı az, ama dayandığı kanıt belirsiz.\n\n8 takviyenin tam kanıt puanı: https://youtu.be/U8vAciGqvSU\n\nBilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerine geçmez.\n\n#antioksidan #NAC #tüpbebek #Shorts",
+    "thumbnails": {
+      "default": {
+        "url": "https://i9.ytimg.com/vi/I2yCAcRG6mQ/default.jpg?sqp=COCQyNYG&rs=AOn4CLDwRdoZIM34dG76QpA9azLh17Ww2A",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i9.ytimg.com/vi/I2yCAcRG6mQ/mqdefault.jpg?sqp=COCQyNYG&rs=AOn4CLAtBKXrXtbpybai13HOalmJyxA8Sw",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i9.ytimg.com/vi/I2yCAcRG6mQ/hqdefault.jpg?sqp=COCQyNYG&rs=AOn4CLA5mrYd-NXFqU742KIACvf3zlHDCg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i9.ytimg.com/vi/I2yCAcRG6mQ/sddefault.jpg?sqp=COCQyNYG&rs=AOn4CLAhaMdMNali_Vrjc_LhmNtypwlYoQ",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i9.ytimg.com/vi/I2yCAcRG6mQ/maxresdefault.jpg?sqp=COCQyNYG&rs=AOn4CLBij2DG9ylqxNnZwyPqvZQMkq7juA",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Doç. Dr. Senai Aksoy | Tüp Bebek & Kısırlık",
+    "tags": [
+      "Cochrane",
+      "NAC",
+      "Shorts",
+      "antioksidan",
+      "dr senai aksoy",
+      "tüp bebek",
+      "tüp bebek takviye",
+      "yumurta kalitesi"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "tr",
+    "localized": {
+      "title": "Antioksidanlar tüp bebekte işe yarıyor mu? 7 çalışma geri çekildi",
+      "description": "Tüp bebekte takviyeler videomuzdan kısa bir bölüm. Antioksidan kokteylleri ve NAC için Cochrane derlemesi 63 çalışmayı inceledi; bu çalışmaların 7'si sahte ve şaibeli veri nedeniyle geri çekildi, 2'sine uyarı notu eklendi. Zararı az, ama dayandığı kanıt belirsiz.\n\n8 takviyenin tam kanıt puanı: https://youtu.be/U8vAciGqvSU\n\nBilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerine geçmez.\n\n#antioksidan #NAC #tüpbebek #Shorts"
+    },
+    "defaultAudioLanguage": "tr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-10-19T14:00:00Z",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "0",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "tr": {
+      "title": "Antioksidanlar tüp bebekte işe yarıyor mu? 7 çalışma geri çekildi",
+      "description": "Tüp bebekte takviyeler videomuzdan kısa bir bölüm. Antioksidan kokteylleri ve NAC için Cochrane derlemesi 63 çalışmayı inceledi; bu çalışmaların 7'si sahte ve şaibeli veri nedeniyle geri çekildi, 2'sine uyarı notu eklendi. Zararı az, ama dayandığı kanıt belirsiz.\n\n8 takviyenin tam kanıt puanı: https://youtu.be/U8vAciGqvSU\n\nBilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerine geçmez.\n\n#antioksidan #NAC #tüpbebek #Shorts"
+    }
+  }
+}

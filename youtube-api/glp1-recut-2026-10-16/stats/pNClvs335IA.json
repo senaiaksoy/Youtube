@@ -1,0 +1,93 @@
+{
+  "kind": "youtube#video",
+  "etag": "r1NaAmyIr6D99ZpXmccd08n8j38",
+  "id": "pNClvs335IA",
+  "snippet": {
+    "publishedAt": "2025-11-03T06:41:29Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "Endométriose : Le Point Diagnostic 2025",
+    "description": "Le diagnostic de l'endométriose change en 2025 ! Découvrez le nouveau test salivaire (Endotest®) et les protocoles IRM qui évitent la chirurgie. La vidéo : https://www.youtube.com/watch?v=7p36ZQugkTM&t=7s\nVlog İnfertilité\n\nPour plus amples informations :  \n📱 WhatsApp : +90 507 380 28 05  \n🌐 Web site : www.draksoyivf.com",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pNClvs335IA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pNClvs335IA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pNClvs335IA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/pNClvs335IA/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/pNClvs335IA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "tags": [
+      "drsenaiaksoy",
+      "Endométriose",
+      "Diagnostic Endométriose",
+      "Endométriose 2025",
+      "Symptômes endométriose",
+      "Douleur endométriose",
+      "Règles douloureuses",
+      "Dysménorrhée",
+      "Infertilité",
+      "Douleurs pelviennes",
+      "Recherche endométriose",
+      "Endométriose explication",
+      "Sensibilisation endométriose",
+      "Vivre avec l'endométriose",
+      "Comment savoir si j'ai l'endométriose",
+      "Test endométriose",
+      "Endométriose que faire",
+      "Spécialiste endométriose"
+    ],
+    "categoryId": "28",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "Endométriose : Le Point Diagnostic 2025",
+      "description": "Le diagnostic de l'endométriose change en 2025 ! Découvrez le nouveau test salivaire (Endotest®) et les protocoles IRM qui évitent la chirurgie. La vidéo : https://www.youtube.com/watch?v=7p36ZQugkTM&t=7s\nVlog İnfertilité\n\nPour plus amples informations :  \n📱 WhatsApp : +90 507 380 28 05  \n🌐 Web site : www.draksoyivf.com"
+    },
+    "defaultAudioLanguage": "fr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "545",
+    "likeCount": "5",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "1"
+  },
+  "localizations": {
+    "fr": {
+      "title": "Endométriose : Le Point Diagnostic 2025",
+      "description": "Le diagnostic de l'endométriose change en 2025 ! Découvrez le nouveau test salivaire (Endotest®) et les protocoles IRM qui évitent la chirurgie. La vidéo : https://www.youtube.com/watch?v=7p36ZQugkTM&t=7s\nVlog İnfertilité\n\nPour plus amples informations :  \n📱 WhatsApp : +90 507 380 28 05  \n🌐 Web site : www.draksoyivf.com"
+    },
+    "en-US": {
+      "title": "Endometriosis: The Diagnostic Update 2025",
+      "description": "Endometriosis diagnosis is changing in 2025! Discover the new saliva test (Endotest®) and MRI protocols that avoid surgery. Watch the video: https://www.youtube.com/watch?v=7p36ZQugkTM&t=7s\nInfertility Vlog\n\nFor more information:\n📱 WhatsApp: +90 507 380 28 05\n🌐 Website: www.draksoyivf.com"
+    }
+  }
+}

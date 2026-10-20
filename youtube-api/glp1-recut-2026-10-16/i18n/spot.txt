@@ -1,0 +1,78 @@
+116 FR: Pour le tirzépatide, ce délai est d'au moins un mois.
+   TR: Tirzepatid için bu süre en az bir aydýr.
+   DE: Bei Tirzepatid beträgt diese Frist mindestens einen Monat.
+117 FR: Le médicament utilisé, la date de la dernière dose et le moment précis du
+   TR: Kullanýlan ilaç, son dozun tarihi ve denemelere
+   DE: Das verwendete Medikament, das Datum der letzten Dosis und der genaue Zeitpunkt
+118 FR: début des essais doivent être clarifiés avec le médecin prescripteur.
+   TR: tam olarak ne zaman baþlanacaðý, reçeteyi yazan hekimle netleþtirilmelidir.
+   DE: für den Beginn der Versuche müssen mit dem verordnenden Arzt geklärt werden.
+119 FR: Et si vous avez un diabète, un traitement de la glycémie adapté à la
+   TR: Diyabetiniz varsa, gebeliðe uygun bir
+   DE: Und wenn Sie Diabetes haben, muss eine schwangerschaftsgerechte
+120 FR: grossesse doit impérativement être planifié.
+   TR: kan þekeri tedavisi mutlaka planlanmalýdýr.
+   DE: Blutzuckerbehandlung unbedingt geplant werden.
+121 FR: Pour celles qui utilisent le tirzépatide,
+   TR: Tirzepatid kullananlar için
+   DE: Für alle, die Tirzepatid anwenden,
+122 FR: il y a un détail très important, en particulier chez les personnes en
+   TR: çok önemli bir ayrýntý var, özellikle
+   DE: gibt es ein sehr wichtiges Detail, insbesondere bei Menschen mit
+123 FR: surpoids et atteintes d'obésité.
+   TR: fazla kilolu ve obezitesi olan kiþilerde.
+   DE: Übergewicht und Adipositas.
+124 FR: L'efficacité de la pilule contraceptive peut diminuer.
+   TR: Doðum kontrol hapýnýn etkinliði azalabilir.
+   DE: Die Wirksamkeit der Antibabypille kann abnehmen.
+125 FR: Comme les médicaments modifient la vidange de l'estomac,
+   TR: Bu ilaçlar midenin boþalmasýný deðiþtirdiði için,
+   DE: Da die Medikamente die Magenentleerung verändern,
+126 FR: l'absorption du comprimé peut baisser.
+   TR: hapýn emilimi düþebilir.
+   DE: kann die Aufnahme der Tablette sinken.
+127 FR: Il est donc recommandé d'utiliser une méthode supplémentaire,
+   TR: Bu nedenle ek bir yöntem kullanýlmasý önerilir,
+   DE: Deshalb wird empfohlen, eine zusätzliche Methode zu verwenden,
+128 FR: comme le préservatif en plus de la pilule.
+   TR: hapa ek olarak prezervatif gibi.
+   DE: etwa Kondome zusätzlich zur Pille,
+129 FR: Pendant les quatre semaines suivant le début du traitement et pendant les
+   TR: Tedaviye baþladýktan sonraki dört hafta boyunca ve
+   DE: während der vier Wochen nach Behandlungsbeginn und während der
+130 FR: quatre semaines suivant chaque augmentation de dose ou de passer à une
+   TR: her doz artýþýndan sonraki dört hafta boyunca; ya da
+   DE: vier Wochen nach jeder Dosiserhöhung – oder auf eine
+131 FR: contraception non orale.
+   TR: aðýzdan alýnmayan bir doðum kontrol yöntemine geçmek.
+   DE: nicht orale Verhütung umzusteigen.
+132 FR: Attention, cet avertissement n'est pas identique pour tous les médicaments
+   TR: Dikkat, bu uyarý ayný deðildir
+   DE: Achtung: Dieser Warnhinweis gilt nicht gleichermaßen für alle Medikamente
+133 FR: du GLP-1.
+   TR: tüm GLP-1 ilaçlarý için.
+   DE: der GLP-1-Familie.
+16 FR: Les médicaments de la famille du GLP-1 peuvent effectivement contribuer
+   TR: GLP-1 ailesindeki ilaçlar gerçekten de
+   DE: Medikamente aus der GLP-1-Familie können tatsächlich
+17 FR: de façon indirecte aux chances de grossesse chez certaines femmes.
+   TR: bazý kadýnlarda gebelik þansýna dolaylý yoldan katký saðlayabilir.
+   DE: bei manchen Frauen indirekt zu den Schwangerschaftschancen beitragen.
+18 FR: Mais ce ne sont absolument pas des traitements directs de l'infertilité.
+   TR: Ama bunlar kesinlikle doðrudan bir kýsýrlýk tedavisi deðildir.
+   DE: Aber sie sind absolut keine direkte Behandlung der Unfruchtbarkeit.
+19 FR: Et on ne les utilise pas pendant la grossesse.
+   TR: Ve gebelik sýrasýnda kullanýlmazlar.
+   DE: Und in der Schwangerschaft werden sie nicht angewendet.
+77 FR: ou une obésité, l'utilisation du sémaglutide a été associée
+   TR: semaglutid kullanýmý þununla iliþkili bulundu:
+   DE: oder Adipositas war die Anwendung von Semaglutid assoziiert
+78 FR: à des taux plus faibles de grossesse et de naissance vivante.
+   TR: daha düþük gebelik ve canlý doðum oranlarý.
+   DE: mit niedrigeren Schwangerschafts- und Lebendgeburtenraten.
+88 FR: Nous n'avons pas de preuves solides et suffisantes montrant que les
+   TR: Güçlü ve yeterli bir kanýtýmýz yok;
+   DE: Wir haben keine soliden und ausreichenden Belege dafür, dass
+89 FR: agonistes du GLP-1 augmentent les chances de naissance vivante en FIV.
+   TR: GLP-1 agonistlerinin tüp bebekte canlý doðum þansýný artýrdýðýna dair.
+   DE: GLP-1-Agonisten die Chancen auf eine Lebendgeburt bei IVF erhöhen.

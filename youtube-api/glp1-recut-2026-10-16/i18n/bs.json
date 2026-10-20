@@ -1,0 +1,767 @@
+{
+ "lang": "bs",
+ "title": "Injekcija za mršavljenje i trudnoća: pomaže li zaista da zatrudnite?",
+ "description": "„Jedan ubod, nula apetita…“ pa onda „iznenađenje, zatrudnila sam“: na društvenim mrežama veza između injekcija za mršavljenje i trudnoće djeluje očigledno. Dr. Senai Aksoy, vanredni profesor reproduktivne medicine, gleda šta studije zaista pokazuju o lijekovima iz porodice GLP-1 (semaglutid, liraglutid, tirzepatid) i plodnosti.\n\nOvi lijekovi mogu indirektno doprinijeti šansama za trudnoću kod nekih žena, naročito kod sindroma policističnih jajnika (PCOS). Ali nisu direktna terapija neplodnosti i ne koriste se tokom trudnoće. Govorimo i o tome koliko ranije ih treba prekinuti prije planirane trudnoće, o kontracepciji, punkciji jajnih ćelija i anesteziji, te o tome šta se zna kod muškaraca.\n\n⏱️ POGLAVLJA\n00:00 Jedan ubod, jedna trudnoća? Prečica društvenih mreža\n01:38 Šta je GLP-1?\n02:54 PCOS: težina, inzulin i ovulacija\n04:16 Šta kažu studije?\n05:02 Registarska studija objavljena 2026.\n06:07 A IVF / vantjelesna oplodnja?\n07:30 Kontracepcija: ključna tačka\n08:18 Koliko ranije prekinuti prije trudnoće?\n08:54 Tirzepatid i kontracepcijska pilula\n09:49 Pozitivan test na trudnoću tokom terapije\n10:37 Prije IVF-a: sve procijeniti zajedno\n11:19 Punkcija jajnih ćelija i anestezija\n12:04 A muškarci?\n12:46 Nuspojave i ponovno dobijanje kilograma\n13:12 Tri pitanja za vašeg ljekara\n\n❓ TRI PITANJA ZA VAŠEG LJEKARA\n1. Zašto mi je ovaj lijek medicinski potreban?\n2. Kada ga trebam prekinuti prije nego što pokušam dobiti bebu i kako se zaštititi u tom periodu?\n3. Kako to utiče na raspored mog liječenja neplodnosti?\n\n📚 REFERENCE (numerisane kao na ekranu)\n[1] Zhou L, et al. BMC Endocr Disord. 2023;23(1):245. Méta-analyse, 11 essais randomisés, n = 840. PMID 37940910\n[2] Wu YC, et al. Reprod Biol Endocrinol. 2026;24(1). Cohorte rétrospective multicentrique, n = 1 936. PMID 42001071\n[3] Teede HJ, et al. Recommandations internationales sur le SOPK, 2023 (§ 5.3.1, § 5.9.1)\n[4] EMA. Sémaglutide (gestion du poids), résumé des caractéristiques du produit, § 4.6\n[5] Tirzépatide, résumé des caractéristiques du produit (Royaume-Uni), § 4.5–4.6\n[6] MHRA (Royaume-Uni). GLP-1 medicines: what you need to know\n[7] Lau KGY, et al. BJOG. 2026. PMID 42830218\n[8] Dao K, et al. BMJ Open. 2024;14(4):e083550. PMID 38663923\n[9] MHRA. Drug Safety Update, janvier 2025 : risque d’aspiration sous anesthésie générale ou sédation profonde\n[10] Andersen E, et al. Hum Reprod. 2022;37(7):1414-22. PMID 35580859\n[11] Peel A, et al. Hum Reprod Update. 2026;32(2):154-80. PMID 41065428\n\n💬 Jeste li već vidjeli ovakav video u svom feedu? Postavite pitanje u komentaru, bez objavljivanja ličnih medicinskih podataka.\n🔔 Pretplatite se da bolje razumijete svoj put kroz IVF i pripremite pitanja za svog ljekara.\n🎧 Titlovi su dostupni na bosanskom; originalni zvuk je na francuskom.\n\nZa više informacija:\n📱 WhatsApp: +90 507 380 28 05\n🌐 Web stranica: www.draksoyivf.com\n\n⚕️ VAŽNO MEDICINSKO UPOZORENJE\n\nInformacije predstavljene u ovom videu služe isključivo u edukativne i informativne svrhe. Ni na koji način ne predstavljaju medicinski savjet, dijagnozu niti individualnu preporuku za liječenje.\n\nSvaka medicinska situacija je jedinstvena. Ovdje obrađeni sadržaj ne zamjenjuje konsultaciju s kvalifikovanim ljekarom, ginekologom ili specijalistom reproduktivne medicine.\n\nNikada ne mijenjajte terapiju koju trenutno uzimate, ne započinjite novu terapiju i ne donosite nikakve medicinske odluke na osnovu informacija iz ovog videa bez prethodne konsultacije sa svojim ljekarom ili specijalistom.\n\nAko imate pitanja o svom reproduktivnom zdravlju ili liječenju vantjelesnom oplodnjom (IVF), obratite se kvalifikovanom zdravstvenom radniku.\n\n© Assoc. Prof. Dr. Senai Aksoy — Sva prava zadržana.\n\n#VantjelesnaOplodnja #Plodnost #PCOS",
+ "cues": [
+  {
+   "i": 1,
+   "text": "Ujutro je 1:30, ležite u krevetu,"
+  },
+  {
+   "i": 2,
+   "text": "i na telefonu kreće čuveni trening palca."
+  },
+  {
+   "i": 3,
+   "text": "Otvorite prvi video, neko drži pen za injekcije u"
+  },
+  {
+   "i": 4,
+   "text": "ruci i priča:"
+  },
+  {
+   "i": 5,
+   "text": "„Jedan ubod, nula apetita, istopila sam se upola.“"
+  },
+  {
+   "i": 6,
+   "text": "Mali potez palcem nagore,"
+  },
+  {
+   "i": 7,
+   "text": "hop, drugi video: „Koristila sam ovaj pen."
+  },
+  {
+   "i": 8,
+   "text": "Iznenađenje, zatrudnila sam.“"
+  },
+  {
+   "i": 9,
+   "text": "Pogledajte dobro: između ta dva videa"
+  },
+  {
+   "i": 10,
+   "text": "samo je jedan pokret palca."
+  },
+  {
+   "i": 11,
+   "text": "0,2 sekunde."
+  },
+  {
+   "i": 12,
+   "text": "Gledajući to, odmah pomislimo:"
+  },
+  {
+   "i": 13,
+   "text": "„E, pa riješeno: ubodeš se i porodiš.“"
+  },
+  {
+   "i": 14,
+   "text": "Ali naučno, dokazati tu vezu traži malo"
+  },
+  {
+   "i": 15,
+   "text": "više truda od jednog prevlačenja ekrana."
+  },
+  {
+   "i": 16,
+   "text": "Lijekovi iz porodice GLP-1 zaista mogu doprinijeti"
+  },
+  {
+   "i": 17,
+   "text": "indirektno šansama za trudnoću kod nekih žena."
+  },
+  {
+   "i": 18,
+   "text": "Ali nikako nisu direktna terapija neplodnosti."
+  },
+  {
+   "i": 19,
+   "text": "I ne koriste se tokom trudnoće."
+  },
+  {
+   "i": 20,
+   "text": "Ja sam dr. Senai Aksoy."
+  },
+  {
+   "i": 21,
+   "text": "Danas zajedno pogledajmo stvarnu vezu između tih čuvenih injekcija"
+  },
+  {
+   "i": 22,
+   "text": "i plodnosti, a naročito na šta treba paziti kada"
+  },
+  {
+   "i": 23,
+   "text": "planirate bebu."
+  },
+  {
+   "i": 24,
+   "text": "Krenimo od početka."
+  },
+  {
+   "i": 25,
+   "text": "Šta je GLP-1?"
+  },
+  {
+   "i": 26,
+   "text": "Ime zvuči kao najnoviji model hibridnog automobila,"
+  },
+  {
+   "i": 27,
+   "text": "ali zapravo je to prirodni hormon koji naše tijelo luči"
+  },
+  {
+   "i": 28,
+   "text": "nakon obroka."
+  },
+  {
+   "i": 29,
+   "text": "Ima ključnu ulogu u sitosti i regulaciji šećera u krvi,"
+  },
+  {
+   "i": 30,
+   "text": "šaljući mozgu vrlo jednostavnu poruku:"
+  },
+  {
+   "i": 31,
+   "text": "„U redu, šefe, siti smo."
+  },
+  {
+   "i": 32,
+   "text": "Polako spusti viljušku, šećer je pod kontrolom.“"
+  },
+  {
+   "i": 33,
+   "text": "Lijekovi poput semaglutida i"
+  },
+  {
+   "i": 34,
+   "text": "liraglutida djeluju kao zvanični kaskaderi tog hormona."
+  },
+  {
+   "i": 35,
+   "text": "Oponašaju njegovo djelovanje."
+  },
+  {
+   "i": 36,
+   "text": "Tirzepatid pak stiže u timu."
+  },
+  {
+   "i": 37,
+   "text": "Osim GLP-1, koristi i učinak drugog hormona, zvanog GIP."
+  },
+  {
+   "i": 38,
+   "text": "Kod osoba koje ispunjavaju uslove, može pomoći u kontroli tjelesne težine i"
+  },
+  {
+   "i": 39,
+   "text": "regulaciji šećera u krvi."
+  },
+  {
+   "i": 40,
+   "text": "Odlično."
+  },
+  {
+   "i": 41,
+   "text": "Ali kako se odatle dolazi do trudnoće?"
+  },
+  {
+   "i": 42,
+   "text": "Ključ je naročito u sindromu policističnih jajnika,"
+  },
+  {
+   "i": 43,
+   "text": "čuvenom PCOS-u."
+  },
+  {
+   "i": 44,
+   "text": "Kod nekih žena s PCOS-om,"
+  },
+  {
+   "i": 45,
+   "text": "inzulinska rezistencija i poremećaji ovulacije idu"
+  },
+  {
+   "i": 46,
+   "text": "ruku pod ruku."
+  },
+  {
+   "i": 47,
+   "text": "Inzulinska rezistencija je kad inzulin kuca na vrata"
+  },
+  {
+   "i": 48,
+   "text": "ćelije, a iznutra se niko ne javlja."
+  },
+  {
+   "i": 49,
+   "text": "Tijelo ne reaguje dovoljno na inzulin."
+  },
+  {
+   "i": 50,
+   "text": "Kad se metaboličko stanje i kontrola težine poboljšaju,"
+  },
+  {
+   "i": 51,
+   "text": "taj unutrašnji haos se smiri."
+  },
+  {
+   "i": 52,
+   "text": "Kod nekih žena menstruacije postaju redovnije, a"
+  },
+  {
+   "i": 53,
+   "text": "jajnici pomisle: „gle, ovdje se vratio mir, hajde da"
+  },
+  {
+   "i": 54,
+   "text": "počnemo ovulirati“."
+  },
+  {
+   "i": 55,
+   "text": "Doprinos šansama za trudnoću,"
+  },
+  {
+   "i": 56,
+   "text": "barem djelimično, može doći odatle."
+  },
+  {
+   "i": 57,
+   "text": "Ali pazite na klasično pojednostavljivanje:"
+  },
+  {
+   "i": 58,
+   "text": "nemaju sve žene s PCOS-om višak kilograma,"
+  },
+  {
+   "i": 59,
+   "text": "i nemaju sve žene s viškom kilograma problem s ovulacijom."
+  },
+  {
+   "i": 60,
+   "text": "Zato ne možemo automatski postaviti jednačinu"
+  },
+  {
+   "i": 61,
+   "text": "„imam PCOS, dakle treba mi ova injekcija“."
+  },
+  {
+   "i": 62,
+   "text": "Pa, jesu li studije ohrabrujuće?"
+  },
+  {
+   "i": 63,
+   "text": "Neke jesu."
+  },
+  {
+   "i": 64,
+   "text": "Kod žena s PCOS-om,"
+  },
+  {
+   "i": 65,
+   "text": "neka istraživanja pokazuju poboljšanje redovnosti ciklusa"
+  },
+  {
+   "i": 66,
+   "text": "i stope spontanih trudnoća."
+  },
+  {
+   "i": 67,
+   "text": "Ali dio tih studija obuhvata mali broj ispitanica,"
+  },
+  {
+   "i": 68,
+   "text": "s različitim lijekovima i dodatnim terapijama."
+  },
+  {
+   "i": 69,
+   "text": "A to što je jedna osoba na društvenim mrežama zatrudnjela"
+  },
+  {
+   "i": 70,
+   "text": "nakon tog lijeka ne dokazuje direktno da je kvalitet"
+  },
+  {
+   "i": 71,
+   "text": "jajnih ćelija porastao."
+  },
+  {
+   "i": 72,
+   "text": "To nije naučni dokaz."
+  },
+  {
+   "i": 73,
+   "text": "To je priča uz aparat za kafu."
+  },
+  {
+   "i": 74,
+   "text": "Uostalom, rezultati ne idu svi u istom smjeru."
+  },
+  {
+   "i": 75,
+   "text": "U registarskoj studiji objavljenoj 2026. godine,"
+  },
+  {
+   "i": 76,
+   "text": "kod žena s neplodnošću povezanom s prekomjernom težinom"
+  },
+  {
+   "i": 77,
+   "text": "ili gojaznošću, upotreba semaglutida bila je povezana"
+  },
+  {
+   "i": 78,
+   "text": "s nižim stopama trudnoće i živorođenja."
+  },
+  {
+   "i": 79,
+   "text": "Bez brzopletih zaključaka: to je opservacijska studija."
+  },
+  {
+   "i": 80,
+   "text": "Zato ne možemo tvrditi da je lijek direktan uzrok."
+  },
+  {
+   "i": 81,
+   "text": "Faktori poput rasporeda terapije i namjernog odgađanja"
+  },
+  {
+   "i": 82,
+   "text": "trudnoće mogli su itekako uticati na te rezultate."
+  },
+  {
+   "i": 83,
+   "text": "Ne treba miješati: povratak redovnih ciklusa,"
+  },
+  {
+   "i": 84,
+   "text": "ovulacija, pozitivan test na trudnoću i rođenje"
+  },
+  {
+   "i": 85,
+   "text": "živog djeteta sasvim su različiti ishodi."
+  },
+  {
+   "i": 86,
+   "text": "Ova zapažanja ne možemo prenijeti na sve žene,"
+  },
+  {
+   "i": 87,
+   "text": "na sve GLP-1 lijekove ni na vantjelesnu oplodnju."
+  },
+  {
+   "i": 88,
+   "text": "Nemamo čvrste i dovoljne dokaze da"
+  },
+  {
+   "i": 89,
+   "text": "agonisti GLP-1 povećavaju šanse za živorođenje u IVF-u."
+  },
+  {
+   "i": 90,
+   "text": "Međunarodne smjernice za PCOS iz 2023. uostalom"
+  },
+  {
+   "i": 91,
+   "text": "jasno prave tu razliku."
+  },
+  {
+   "i": 92,
+   "text": "Ovi lijekovi mogu se razmotriti za kontrolu težine kod"
+  },
+  {
+   "i": 93,
+   "text": "osoba koje ispunjavaju uslove, ali njihova upotreba radi poboljšanja"
+  },
+  {
+   "i": 94,
+   "text": "ishoda plodnosti kod PCOS-a ostaje ograničena na istraživanja."
+  },
+  {
+   "i": 95,
+   "text": "Klinička odluka treba se temeljiti na odgovarajućoj medicinskoj indikaciji,"
+  },
+  {
+   "i": 96,
+   "text": "kao što su kontrola težine ili dijabetes."
+  },
+  {
+   "i": 97,
+   "text": "Ako je izostanak trudnoće kod PCOS-a vezan samo za izostanak"
+  },
+  {
+   "i": 98,
+   "text": "ovulacije, a drugi uzrok neplodnosti nije utvrđen,"
+  },
+  {
+   "i": 99,
+   "text": "terapija za indukciju ovulacije koja se preporučuje kao prvi izbor"
+  },
+  {
+   "i": 100,
+   "text": "prema medicinskim smjernicama je letrozol."
+  },
+  {
+   "i": 101,
+   "text": "A sad jedna ključna stvar."
+  },
+  {
+   "i": 102,
+   "text": "Neke pacijentice mirno pomisle:"
+  },
+  {
+   "i": 103,
+   "text": "„Doktore, menstruaciju dobijem svaka tri mjeseca,"
+  },
+  {
+   "i": 104,
+   "text": "nema rizika da zatrudnim.“"
+  },
+  {
+   "i": 105,
+   "text": "Nipošto tako ne mislite."
+  },
+  {
+   "i": 106,
+   "text": "Tijelo prvo ovulira, a menstruacija dolazi poslije."
+  },
+  {
+   "i": 107,
+   "text": "Kad se ovulacija vrati, jajnici vam ne javljaju SMS-om."
+  },
+  {
+   "i": 108,
+   "text": "Trudnoća se može desiti u potpuno neočekivanom trenutku."
+  },
+  {
+   "i": 109,
+   "text": "A nemamo dovoljno podataka kod ljudi da bismo tvrdili"
+  },
+  {
+   "i": 110,
+   "text": "da su ovi lijekovi sigurni u trudnoći."
+  },
+  {
+   "i": 111,
+   "text": "Zato je djelotvorna kontracepcija neophodna tokom terapije i"
+  },
+  {
+   "i": 112,
+   "text": "tokom perioda prekida specifičnog za svaki lijek."
+  },
+  {
+   "i": 113,
+   "text": "Kakav je vremenski raspored?"
+  },
+  {
+   "i": 114,
+   "text": "Semaglutid se preporučuje prekinuti najmanje dva mjeseca"
+  },
+  {
+   "i": 115,
+   "text": "prije planirane trudnoće."
+  },
+  {
+   "i": 116,
+   "text": "Za tirzepatid taj rok je najmanje jedan mjesec."
+  },
+  {
+   "i": 117,
+   "text": "Korišteni lijek, datum zadnje doze i tačan trenutak"
+  },
+  {
+   "i": 118,
+   "text": "početka pokušaja treba razjasniti s ljekarom koji je propisao lijek."
+  },
+  {
+   "i": 119,
+   "text": "A ako imate dijabetes, terapija šećera prilagođena"
+  },
+  {
+   "i": 120,
+   "text": "trudnoći mora se obavezno isplanirati."
+  },
+  {
+   "i": 121,
+   "text": "Za one koje koriste tirzepatid,"
+  },
+  {
+   "i": 122,
+   "text": "postoji vrlo važan detalj, naročito kod osoba s"
+  },
+  {
+   "i": 123,
+   "text": "prekomjernom težinom i gojaznošću."
+  },
+  {
+   "i": 124,
+   "text": "Djelotvornost kontracepcijske pilule može se smanjiti."
+  },
+  {
+   "i": 125,
+   "text": "Pošto ovi lijekovi mijenjaju pražnjenje želuca,"
+  },
+  {
+   "i": 126,
+   "text": "apsorpcija tablete može se smanjiti."
+  },
+  {
+   "i": 127,
+   "text": "Zato se preporučuje dodatna metoda,"
+  },
+  {
+   "i": 128,
+   "text": "poput kondoma uz pilulu."
+  },
+  {
+   "i": 129,
+   "text": "Tokom četiri sedmice nakon početka terapije i tokom"
+  },
+  {
+   "i": 130,
+   "text": "četiri sedmice nakon svakog povećanja doze, ili prelazak na"
+  },
+  {
+   "i": 131,
+   "text": "kontracepciju koja nije oralna."
+  },
+  {
+   "i": 132,
+   "text": "Pažnja, ovo upozorenje nije isto za sve lijekove"
+  },
+  {
+   "i": 133,
+   "text": "iz grupe GLP-1."
+  },
+  {
+   "i": 134,
+   "text": "A ako test na trudnoću bude pozitivan tokom terapije?"
+  },
+  {
+   "i": 135,
+   "text": "Odmah se javite ljekaru koji je propisao lijek i svom ginekologu."
+  },
+  {
+   "i": 136,
+   "text": "Ovaj lijek se ne nastavlja tokom trudnoće."
+  },
+  {
+   "i": 137,
+   "text": "Ali izloženost lijeku ne znači da je beba"
+  },
+  {
+   "i": 138,
+   "text": "nužno pretrpjela štetu."
+  },
+  {
+   "i": 139,
+   "text": "Dostupni podaci kod ljudi u nekim su aspektima umirujući,"
+  },
+  {
+   "i": 140,
+   "text": "ali nisu dovoljno čvrsti da garantuju sigurnost trudnoće."
+  },
+  {
+   "i": 141,
+   "text": "Tada se procjenjuje koji je lijek korišten,"
+  },
+  {
+   "i": 142,
+   "text": "doza i u kojoj fazi trudnoće je uziman."
+  },
+  {
+   "i": 143,
+   "text": "Ako imate dijabetes, odmah se uvodi zamjenska terapija."
+  },
+  {
+   "i": 144,
+   "text": "Prije vantjelesne oplodnje, dob,"
+  },
+  {
+   "i": 145,
+   "text": "ovarijalna rezerva, uzrok neplodnosti i uticaj"
+  },
+  {
+   "i": 146,
+   "text": "čekanja na plodnost moraju se procijeniti zajedno."
+  },
+  {
+   "i": 147,
+   "text": "Reći svima „prvo smršajte,"
+  },
+  {
+   "i": 148,
+   "text": "o terapiji ćemo poslije“ – to nije ispravno."
+  },
+  {
+   "i": 149,
+   "text": "Kod nekih osoba metabolička priprema ima smisla."
+  },
+  {
+   "i": 150,
+   "text": "Kod drugih, dugo odgađanje liječenja nije prikladno."
+  },
+  {
+   "i": 151,
+   "text": "Vaša težina nije ocjena u svjedočanstvu koja određuje"
+  },
+  {
+   "i": 152,
+   "text": "zaslužujete li liječenje ili ne."
+  },
+  {
+   "i": 153,
+   "text": "A ako je planirana punkcija jajnih ćelija,"
+  },
+  {
+   "i": 154,
+   "text": "obavezno recite za svoju terapiju IVF timu i"
+  },
+  {
+   "i": 155,
+   "text": "anesteziologu."
+  },
+  {
+   "i": 156,
+   "text": "Nikad ne mislite: „To je samo moj pen,"
+  },
+  {
+   "i": 157,
+   "text": "naravno, ne treba o tome pričati.“"
+  },
+  {
+   "i": 158,
+   "text": "Ovi lijekovi usporavaju pražnjenje želuca."
+  },
+  {
+   "i": 159,
+   "text": "Možete biti natašte i osam sati,"
+  },
+  {
+   "i": 160,
+   "text": "a želudac možda nije prazan, što je presudno pri sedaciji ili"
+  },
+  {
+   "i": 161,
+   "text": "anesteziji."
+  },
+  {
+   "i": 162,
+   "text": "Plan prekida zbog trudnoće i protokoli prije anestezije"
+  },
+  {
+   "i": 163,
+   "text": "dvije su različite stvari."
+  },
+  {
+   "i": 164,
+   "text": "Neka vaš tim napravi vaš lični plan."
+  },
+  {
+   "i": 165,
+   "text": "A tu su i muškarci."
+  },
+  {
+   "i": 166,
+   "text": "Gospodo, ne gledajte ovaj video iz ugla kauča govoreći:"
+  },
+  {
+   "i": 167,
+   "text": "„Vidiš, draga, doktor govori tebi.“"
+  },
+  {
+   "i": 168,
+   "text": "Kod muškaraca s gojaznošću,"
+  },
+  {
+   "i": 169,
+   "text": "promjene načina života, poput ishrane i fizičke"
+  },
+  {
+   "i": 170,
+   "text": "aktivnosti, mogu poboljšati neke parametre sperme."
+  },
+  {
+   "i": 171,
+   "text": "Postoje i istraživanja o GLP-1 lijekovima,"
+  },
+  {
+   "i": 172,
+   "text": "ali dokazi su još ograničeni."
+  },
+  {
+   "i": 173,
+   "text": "Danas ove lijekove ne možemo predstaviti kao"
+  },
+  {
+   "i": 174,
+   "text": "dokazanu terapiju muške neplodnosti."
+  },
+  {
+   "i": 175,
+   "text": "Nuspojave, poput mučnine,"
+  },
+  {
+   "i": 176,
+   "text": "povraćanja i probavnih tegoba,"
+  },
+  {
+   "i": 177,
+   "text": "također se mogu javiti."
+  },
+  {
+   "i": 178,
+   "text": "A moguće je i ponovno dobijanje kilograma,"
+  },
+  {
+   "i": 179,
+   "text": "nažalost, nakon prestanka uzimanja lijeka."
+  },
+  {
+   "i": 180,
+   "text": "Zato ishranu, fizičku aktivnost,"
+  },
+  {
+   "i": 181,
+   "text": "metaboličko praćenje i prelazak na trudnoću treba"
+  },
+  {
+   "i": 182,
+   "text": "planirati zajedno."
+  },
+  {
+   "i": 183,
+   "text": "Ukratko, razjasnite ove tri stvari sa svojim ljekarom."
+  },
+  {
+   "i": 184,
+   "text": "1. Zašto mi je ovaj lijek medicinski potreban?"
+  },
+  {
+   "i": 185,
+   "text": "2. Kada ga trebam prekinuti prije pokušaja trudnoće,"
+  },
+  {
+   "i": 186,
+   "text": "i kako osigurati kontracepciju u tom periodu?"
+  },
+  {
+   "i": 187,
+   "text": "3. Kako to utiče na raspored mog liječenja neplodnosti?"
+  },
+  {
+   "i": 188,
+   "text": "I na kraju, ovaj sadržaj služi u informativne svrhe"
+  },
+  {
+   "i": 189,
+   "text": "i ne zamjenjuje individualnu medicinsku procjenu."
+  },
+  {
+   "i": 190,
+   "text": "Ćao!"
+  }
+ ]
+}

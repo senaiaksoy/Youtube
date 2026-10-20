@@ -1,0 +1,735 @@
+{
+ "lang": "ro",
+ "title": "Spermogramă anormală: înseamnă că ești infertil?",
+ "description": "Spermograma v-a venit cu steluțe, săgeți și un cuvânt de douăzeci și opt de litere? Înainte să trageți concluzia că e vorba de infertilitate, să vedem ce spun de fapt normele. Dr. Senai Aksoy, specialist în fertilitate, explică de unde vin valorile OMS (2021), de ce o cifră sub limită nu e o sentință, de ce se repetă testul, ideal după trei luni, și când să mergeți la un urolog sau la un androlog.\n\n⏱️ CAPITOLE\n00:00 Spermogramă anormală = infertil?\n01:11 Buletinul care sperie\n03:05 Ce spune OMS\n03:33 Oligo, asteno, terato: traducerea\n04:39 De unde vin normele?\n06:00 Morfologia: 4 din 100\n07:18 Ce arată studiile\n08:11 De ce se repetă testul după trei luni?\n10:04 Testosteronul: falsa idee bună\n11:05 Când mergeți la un urolog sau la un androlog?\n13:15 Urgențele care nu pot aștepta\n13:39 Părerea mea de medic\n14:20 Trei întrebări pentru medicul dumneavoastră\n\n❓ CELE TREI ÎNTREBĂRI PE CARE SĂ LE PUNEȚI MEDICULUI\n1. A fost confirmat rezultatul printr-un al doilea test?\n2. E nevoie de un examen clinic și de o analiză hormonală de sânge?\n3. Trebuie să merg la un urolog sau la un androlog?\n\n🚨 O durere bruscă și intensă într-un testicul este o urgență: mergeți la urgențe sau sunați la 15 (Franța), la 112 sau la numărul de urgență din țara dumneavoastră.\n\n📚 REFERINȚE\n• OMS. WHO laboratory manual for the examination and processing of human semen, 6e édition, 2021\n• Campbell MJ, et al. Andrology. 2021;9(3):817-22. PMID 33528873\n• Guzick DS, et al. N Engl J Med. 2001;345(19):1388-93. PMID 11794171\n• Hotaling JM, et al. Fertil Steril. 2011;95(3):1141-5. PMID 21030014\n• Del Giudice F, et al. Andrologia. 2022;54(6):e14409. PMID 35244232\n• Carlsen E, et al. Hum Reprod. 2003;18(10):2089-92. PMID 14507826\n• WHO Task Force. Lancet. 1990;336(8721):955-9. PMID 1977002\n• NICE NG257. Fertility problems: assessment and treatment (2026) : https://www.nice.org.uk/guidance/ng257\n• OMS. Guideline for the prevention, diagnosis and treatment of infertility (2025)\n\n💬 Puneți-vă întrebarea în comentarii, fără să publicați rezultatele sau date medicale personale.\n🔔 Abonați-vă ca să înțelegeți mai bine parcursul dumneavoastră de fertilitate și să vă pregătiți întrebările pentru medic.\n🌍 Subtitrări disponibile în română; sonorul original al videoclipului este în franceză.\n\nPentru mai multe informații:\n📱 WhatsApp: +90 507 380 28 05\n🌐 Site web: www.draksoyivf.com\n\n⚕️ AVERTISMENT MEDICAL IMPORTANT\n\nInformațiile prezentate în acest video sunt oferite exclusiv în scop educativ și informativ. Ele nu constituie în niciun caz un sfat medical, un diagnostic sau o recomandare de tratament personalizată.\n\nFiecare situație medicală este unică. Conținutul abordat aici nu înlocuiește consultația cu un medic calificat, un ginecolog sau un specialist în medicina reproducerii.\n\nNu vă modificați niciodată tratamentul medical în curs, nu începeți un tratament nou și nu luați nicio decizie medicală pe baza informațiilor din acest video fără să vă consultați în prealabil medicul curant sau specialistul.\n\nDacă aveți întrebări despre sănătatea reproductivă sau despre tratamentul de FIV, vă rugăm să consultați un profesionist din domeniul sănătății calificat.\n\n© Assoc. Prof. Dr. Senai Aksoy — Toate drepturile rezervate.\n\n#Spermogramă #InfertilitateMasculină #FIV",
+ "cues": [
+  {
+   "i": 1,
+   "text": "„Spermogramă anormală… Gata, s-a terminat, neamul meu"
+  },
+  {
+   "i": 2,
+   "text": "se stinge aici!"
+  },
+  {
+   "i": 3,
+   "text": "Iubito, du-te și udă begonia din sufragerie, acum e singurul nostru moștenitor!”"
+  },
+  {
+   "i": 4,
+   "text": "Exact ăsta e filmul catastrofă pe care ni-l facem în cap în secunda în care"
+  },
+  {
+   "i": 5,
+   "text": "deschidem rezultatul. Doar că știința spune o altă poveste:"
+  },
+  {
+   "i": 6,
+   "text": "o cifră sub limită nu e o sentință a tribunalului."
+  },
+  {
+   "i": 7,
+   "text": "E un martor portocaliu pe bordul mașinii."
+  },
+  {
+   "i": 8,
+   "text": "Când se aprinde, nu dați foc mașinii pe marginea drumului:"
+  },
+  {
+   "i": 9,
+   "text": "deschideți capota și verificați!"
+  },
+  {
+   "i": 10,
+   "text": "Iar a verifica, aici, înseamnă a repeta testul, ideal după trei luni."
+  },
+  {
+   "i": 11,
+   "text": "Sunt doctorul Senai Aksoy, specialist în fertilitate."
+  },
+  {
+   "i": 12,
+   "text": "În acest video: ce ascund de fapt faimoasele „norme”, de ce nu"
+  },
+  {
+   "i": 13,
+   "text": "trebuie să vă scrieți testamentul după un singur test și în ce moment"
+  },
+  {
+   "i": 14,
+   "text": "să mergeți la un urolog sau la un androlog."
+  },
+  {
+   "i": 15,
+   "text": "Mai întâi, imaginați-vă scena."
+  },
+  {
+   "i": 16,
+   "text": "Rezultatul pică pe telefon: două pagini de PDF"
+  },
+  {
+   "i": 17,
+   "text": "pe care le deschizi în picioare în bucătărie, lipit de frigider."
+  },
+  {
+   "i": 18,
+   "text": "De ce mereu în picioare în fața frigiderului?"
+  },
+  {
+   "i": 19,
+   "text": "Pentru că un bărbat încasează veștile proaste mereu în picioare, lângă"
+  },
+  {
+   "i": 20,
+   "text": "iaurturi. În stânga, latină."
+  },
+  {
+   "i": 21,
+   "text": "La mijloc, cifre. Iar în dreapta…"
+  },
+  {
+   "i": 22,
+   "text": "steluțe, săgeți în picaj și litere îngroșate."
+  },
+  {
+   "i": 23,
+   "text": "Buletinul de laborator e totuși singurul document din lume în care"
+  },
+  {
+   "i": 24,
+   "text": "plătiți ca să fiți luați la răsteală cu litere îngroșate, fără ca cineva să vă"
+  },
+  {
+   "i": 25,
+   "text": "explice vreodată de ce!"
+  },
+  {
+   "i": 26,
+   "text": "Și atunci, reflex masculin universal: dăm zoom cu două"
+  },
+  {
+   "i": 27,
+   "text": "degete! Ca și cum am căuta un teren pe o hartă din satelit!"
+  },
+  {
+   "i": 28,
+   "text": "Ei bine, nu: zoomul pe un PDF n-a făcut niciodată să apară spermatozoizi,"
+  },
+  {
+   "i": 29,
+   "text": "doar mărește pixelii!"
+  },
+  {
+   "i": 30,
+   "text": "„Stai, mai măresc puțin, poate sunt patru care"
+  },
+  {
+   "i": 31,
+   "text": "joacă table după margine…”"
+  },
+  {
+   "i": 32,
+   "text": "Din sufragerie, partenera vă întreabă: „Deci?”"
+  },
+  {
+   "i": 33,
+   "text": "Și tot ce vă iese pe gură e: „Deci…"
+  },
+  {
+   "i": 34,
+   "text": "sunt niște steluțe. Cred că ne-am calificat direct în"
+  },
+  {
+   "i": 35,
+   "text": "finală.” Jos de tot, lovitura de grație în 28 de litere:"
+  },
+  {
+   "i": 36,
+   "text": "„oligo-asteno-teratozoospermie”."
+  },
+  {
+   "i": 37,
+   "text": "Dacă reușiți s-o pronunțați dintr-o suflare, fără să mai trageți aer,"
+  },
+  {
+   "i": 38,
+   "text": "vă dăm direct diploma de urolog!"
+  },
+  {
+   "i": 39,
+   "text": "Cu zoomul, cuvântul nici nu mai încape pe ecran: prinde Wi-Fi-ul"
+  },
+  {
+   "i": 40,
+   "text": "vecinului! În fața unei cifre, căutăm o sentință."
+  },
+  {
+   "i": 41,
+   "text": "Însă, din 2021, Organizația Mondială a Sănătății,"
+  },
+  {
+   "i": 42,
+   "text": "OMS, scrie negru pe alb: pentru un bărbat anume, spermograma nu"
+  },
+  {
+   "i": 43,
+   "text": "prezice niciodată, de una singură, fertilitatea."
+  },
+  {
+   "i": 44,
+   "text": "Ce contează e fertilitatea cuplului."
+  },
+  {
+   "i": 45,
+   "text": "Ei, se pare că PDF-ul nu și-a făcut actualizarea."
+  },
+  {
+   "i": 46,
+   "text": "Hai să traducem repede acest cuvânt de 28 de litere."
+  },
+  {
+   "i": 47,
+   "text": "Nu e un blestem al faraonilor: e doar rezumatul a"
+  },
+  {
+   "i": 48,
+   "text": "trei criterii observate la microscop."
+  },
+  {
+   "i": 49,
+   "text": "Întâi, concentrația: câtă lume e în"
+  },
+  {
+   "i": 50,
+   "text": "sală, la mililitru. Când e mică, se spune „oligo”. Mda, e cam pustiu,"
+  },
+  {
+   "i": 51,
+   "text": "se aude ecoul. Apoi, mobilitatea: câți se mișcă și mai ales câți"
+  },
+  {
+   "i": 52,
+   "text": "înaintează. În medicină se spune că sunt „progresivi”. N-are legătură cu"
+  },
+  {
+   "i": 53,
+   "text": "politica! Nu ziceți: „Super, ai mei sunt progresiști,"
+  },
+  {
+   "i": 54,
+   "text": "au mintea deschisă!”"
+  },
+  {
+   "i": 55,
+   "text": "Când se târăsc, se spune „asteno”: băieții sunt stoarși, bat pasul pe loc."
+  },
+  {
+   "i": 56,
+   "text": "În fine, morfologia: câți au un fizic de vis."
+  },
+  {
+   "i": 57,
+   "text": "Când e atipică, se spune „terato”: mă rog, au cam încasat-o la ieșirea"
+  },
+  {
+   "i": 58,
+   "text": "din club. Prima întrebare adevărată: de unde vin aceste „norme”?"
+  },
+  {
+   "i": 59,
+   "text": "Ne imaginăm adesea cinci profesori serioși la Geneva, la un espresso,"
+  },
+  {
+   "i": 60,
+   "text": "care au decretat: „Domnilor, spermatozoidul ideal trebuie să semene"
+  },
+  {
+   "i": 61,
+   "text": "cu Brad Pitt.” Deloc!"
+  },
+  {
+   "i": 62,
+   "text": "OMS a adunat rezultatele a mii de bărbați de pe cinci continente."
+  },
+  {
+   "i": 63,
+   "text": "Ce aveau în comun? Partenera lor rămăsese însărcinată în mai puțin de un an."
+  },
+  {
+   "i": 64,
+   "text": "Viitori tați certificați."
+  },
+  {
+   "i": 65,
+   "text": "Imaginați-vă o fotografie de grup uriașă, cu toți acești viitori tătici aliniați,"
+  },
+  {
+   "i": 66,
+   "text": "de la cea mai mică cifră la cea mai mare."
+  },
+  {
+   "i": 67,
+   "text": "Limita OMS e doar o linie trasă jos de tot în fotografie."
+  },
+  {
+   "i": 68,
+   "text": "Valorile exacte apar pe ecran."
+  },
+  {
+   "i": 69,
+   "text": "Ghiciți câți viitori tați sunt sub această linie?"
+  },
+  {
+   "i": 70,
+   "text": "Zero? Cinci din o sută! Prin definiție!"
+  },
+  {
+   "i": 71,
+   "text": "Bărbații aceștia erau „picați” pe hârtie…"
+  },
+  {
+   "i": 72,
+   "text": "în timp ce montau un cărucior în sufragerie!"
+  },
+  {
+   "i": 73,
+   "text": "OMS o spune chiar ea: această linie nu separă bărbații fertili de"
+  },
+  {
+   "i": 74,
+   "text": "cei infertili. Nu e admiterea la Medicină, e doar primul rând din"
+  },
+  {
+   "i": 75,
+   "text": "fotografia de grup! Dar atunci, ce cifră îngrijorează cel mai mult?"
+  },
+  {
+   "i": 76,
+   "text": "Aproape mereu morfologia."
+  },
+  {
+   "i": 77,
+   "text": "Din 100 de spermatozoizi, ce credeți, câți trebuie să aibă o formă"
+  },
+  {
+   "i": 78,
+   "text": "„ideală” ca să treacă ștacheta OMS?"
+  },
+  {
+   "i": 79,
+   "text": "Cincizeci? Treizeci? Nu… Patru? Da, patru. Patru"
+  },
+  {
+   "i": 80,
+   "text": "din o sută. Imaginați-vă o petrecere cu o sută de tipi într-o sală: dacă sunt"
+  },
+  {
+   "i": 81,
+   "text": "doar patru prezentabili, OMS zice: „Perfect, petrecere în normă!”"
+  },
+  {
+   "i": 82,
+   "text": "Atenție: unele laboratoare, mai ales în Franța, folosesc alte bareme."
+  },
+  {
+   "i": 83,
+   "text": "Verificați mereu referința tipărită pe propria foaie."
+  },
+  {
+   "i": 84,
+   "text": "Dar castingul la microscop e mai sever decât Fashion Week de la Paris!"
+  },
+  {
+   "i": 85,
+   "text": "„Capul un pic prea rotund?"
+  },
+  {
+   "i": 86,
+   "text": "Respins. Coada ușor încolăcită?"
+  },
+  {
+   "i": 87,
+   "text": "Ne pare rău, nu se potrivește cu imaginea localului.”"
+  },
+  {
+   "i": 88,
+   "text": "Dar e o celulă microscopică!"
+  },
+  {
+   "i": 89,
+   "text": "Nu-i cerem să defileze pentru un mare creator de modă, îi cerem să înoate!"
+  },
+  {
+   "i": 90,
+   "text": "Atât. Chiar și la viitorii tătici, marea majoritate a candidaților"
+  },
+  {
+   "i": 91,
+   "text": "sunt respinși la intrare de bodyguard!"
+  },
+  {
+   "i": 92,
+   "text": "De altfel, un mare studiu american a arătat că rezultatele bărbaților"
+  },
+  {
+   "i": 93,
+   "text": "fertili și infertili se suprapun în mare măsură."
+  },
+  {
+   "i": 94,
+   "text": "Unii bărbați din grupul fertil au cifre la pământ, în timp ce unii bărbați din"
+  },
+  {
+   "i": 95,
+   "text": "grupul infertil au analize demne de înrămat la Muzeul Luvru!"
+  },
+  {
+   "i": 96,
+   "text": "Aceeași constatare pentru formă."
+  },
+  {
+   "i": 97,
+   "text": "În FIV și ICSI, o analiză a patru studii, la bărbați la care doar"
+  },
+  {
+   "i": 98,
+   "text": "forma era scăzută, nu arată o scădere clară a șanselor de sarcină."
+  },
+  {
+   "i": 99,
+   "text": "O alta, pe mii de cicluri, găsește același lucru pentru formă în"
+  },
+  {
+   "i": 100,
+   "text": "general. Sunt studii observaționale, dar merg în aceeași direcție."
+  },
+  {
+   "i": 101,
+   "text": "O cifră mică, singură, e o întrebare."
+  },
+  {
+   "i": 102,
+   "text": "Nu un răspuns. Atunci, de ce vi se cere să repetați analiza după trei"
+  },
+  {
+   "i": 103,
+   "text": "luni? Pentru că sperma de azi toarnă tot ce ați trăit în ultimele"
+  },
+  {
+   "i": 104,
+   "text": "trei luni! Cam atât durează fabricația în uzină."
+  },
+  {
+   "i": 105,
+   "text": "Lăsați o probă în octombrie?"
+  },
+  {
+   "i": 106,
+   "text": "Biologul nu se poate uita la microscop să zică: „Ia uite,"
+  },
+  {
+   "i": 107,
+   "text": "domnul a făcut o gripă zdravănă în august!”"
+  },
+  {
+   "i": 108,
+   "text": "Dar gripa din august, ea da, se poate vedea în cifră."
+  },
+  {
+   "i": 109,
+   "text": "Un mic studiu danez a urmărit 27 de tineri lună de lună"
+  },
+  {
+   "i": 110,
+   "text": "timp de peste un an."
+  },
+  {
+   "i": 111,
+   "text": "Ce atmosferă la laborator, nu?"
+  },
+  {
+   "i": 112,
+   "text": "Bun. Rezultat: o febră serioasă poate prăbuși vizibil"
+  },
+  {
+   "i": 113,
+   "text": "concentrația. Și această scădere poate fi trecătoare."
+  },
+  {
+   "i": 114,
+   "text": "De aceea ghidurile britanice, în versiunea lor din"
+  },
+  {
+   "i": 115,
+   "text": "2026, da, nou-nouță, sunt clare: dacă primul test e anormal,"
+  },
+  {
+   "i": 116,
+   "text": "se repetă controlul, ideal după trei luni."
+  },
+  {
+   "i": 117,
+   "text": "Singura excepție: dacă nu există niciun spermatozoid sau aproape niciunul,"
+  },
+  {
+   "i": 118,
+   "text": "atunci nu se așteaptă trei luni, se repetă cât mai repede."
+  },
+  {
+   "i": 119,
+   "text": "Pentru al doilea test, respectați perioada de abstinență cerută de laborator,"
+  },
+  {
+   "i": 120,
+   "text": "de trei până la cinci zile, și spuneți-i medicului de orice febră din ultimele trei"
+  },
+  {
+   "i": 121,
+   "text": "luni. Iar dacă primul e scăzut, dar al doilea normal, pe care îl credem?"
+  },
+  {
+   "i": 122,
+   "text": "Pe niciunul singur!"
+  },
+  {
+   "i": 123,
+   "text": "Unul sunteți dumneavoastră cu gripă, în pijama; celălalt, dumneavoastră la costum,"
+  },
+  {
+   "i": 124,
+   "text": "duminica. Ne trebuie amândouă, citite împreună cu istoricul medical."
+  },
+  {
+   "i": 125,
+   "text": "Până la al doilea test, vă rog, nu-i ascultați pe"
+  },
+  {
+   "i": 126,
+   "text": "„endocrinologii de la împins la piept” de la sală:"
+  },
+  {
+   "i": 127,
+   "text": "„Frate, ia testosteron, o să bage nitro acolo!”"
+  },
+  {
+   "i": 128,
+   "text": "Ascultați bine: OMS a testat testosteronul injectabil…"
+  },
+  {
+   "i": 129,
+   "text": "dar ca anticoncepțional masculin!"
+  },
+  {
+   "i": 130,
+   "text": "În acel studiu din 1990,"
+  },
+  {
+   "i": 131,
+   "text": "la bărbați sănătoși, aproape șase din zece au ajuns la"
+  },
+  {
+   "i": 132,
+   "text": "zero spermatozoizi. Faimosul „nitro” al antrenorului de la sală"
+  },
+  {
+   "i": 133,
+   "text": "e frâna de mână trasă la maximum, în marșarier!"
+  },
+  {
+   "i": 134,
+   "text": "Ghidurile britanice sunt clare: fără testosteron pentru tratarea unei"
+  },
+  {
+   "i": 135,
+   "text": "spermograme anormale. Dacă luați, chiar „doar pentru pectorali”,"
+  },
+  {
+   "i": 136,
+   "text": "spuneți-i medicului. Când trebuie să mergeți la un urolog sau la un"
+  },
+  {
+   "i": 137,
+   "text": "androlog? Prea des văd cupluri în care doamna face analize de sânge și"
+  },
+  {
+   "i": 138,
+   "text": "ecografii de șase luni…"
+  },
+  {
+   "i": 139,
+   "text": "Mă întorc spre domnul: „Și spermograma dumneavoastră?”"
+  },
+  {
+   "i": 140,
+   "text": "„Da, domnule doctor, merg luna viitoare, acum am o prezentare mare"
+  },
+  {
+   "i": 141,
+   "text": "de terminat la birou…” Parcă i-ai cere să doneze un rinichi!"
+  },
+  {
+   "i": 142,
+   "text": "Un factor masculin e prezent la aproape un cuplu infertil din două."
+  },
+  {
+   "i": 143,
+   "text": "Evaluarea bărbatului se face deci în paralel, nu când se eliberează agenda"
+  },
+  {
+   "i": 144,
+   "text": "domnului ministru! Reperele sunt simple, iar"
+  },
+  {
+   "i": 145,
+   "text": "pragurile exacte sunt pe ecran."
+  },
+  {
+   "i": 146,
+   "text": "După două spermograme anormale, se propune un examen clinic al"
+  },
+  {
+   "i": 147,
+   "text": "testiculelor și se ia în calcul un bilanț hormonal."
+  },
+  {
+   "i": 148,
+   "text": "Dacă concentrația rămâne… se poate propune o analiză a cromozomilor."
+  },
+  {
+   "i": 149,
+   "text": "Iar dacă nu există niciun spermatozoid sau aproape niciunul, fără cauză cunoscută:"
+  },
+  {
+   "i": 150,
+   "text": "după o confirmare rapidă, se caută și o mică anomalie a cromozomului"
+  },
+  {
+   "i": 151,
+   "text": "Y; iar când nu e niciunul, se analizează și cromozomii."
+  },
+  {
+   "i": 152,
+   "text": "Când nu există niciun spermatozoid, e vorba de azoospermie:"
+  },
+  {
+   "i": 153,
+   "text": "există două mari situații: un ambuteiaj pe drum,"
+  },
+  {
+   "i": 154,
+   "text": "adică un pasaj blocat, sau o fabrică ce merge cu încetinitorul."
+  },
+  {
+   "i": 155,
+   "text": "În ambele cazuri există soluții: repararea pasajului,"
+  },
+  {
+   "i": 156,
+   "text": "de exemplu, un tratament când cauza e hormonală,"
+  },
+  {
+   "i": 157,
+   "text": "sau căutarea chirurgicală a spermatozoizilor, în epididim sau în"
+  },
+  {
+   "i": 158,
+   "text": "testicul. Sigur, nu e întotdeauna posibil, nimeni nu poate promite asta"
+  },
+  {
+   "i": 159,
+   "text": "dinainte. Dar e o pistă reală și serioasă, de explorat cu medicul"
+  },
+  {
+   "i": 160,
+   "text": "specialist. Glumele la o parte: o regulă absolută, care nu așteaptă nicio"
+  },
+  {
+   "i": 161,
+   "text": "analiză. Un nodul într-un testicul: mergeți repede la medic."
+  },
+  {
+   "i": 162,
+   "text": "O durere bruscă și intensă într-un testicul: e o urgență absolută."
+  },
+  {
+   "i": 163,
+   "text": "Uitați de laborator: fugiți la urgențe sau sunați la 15, la 112"
+  },
+  {
+   "i": 164,
+   "text": "sau la numărul de urgență din țara dumneavoastră."
+  },
+  {
+   "i": 165,
+   "text": "Părerea mea de medic, și e o părere, nu o dovadă:"
+  },
+  {
+   "i": 166,
+   "text": "spermograma e un punct de plecare."
+  },
+  {
+   "i": 167,
+   "text": "Dacă e slabă, nu trebuie să vă condamne prea devreme."
+  },
+  {
+   "i": 168,
+   "text": "Dacă e normală, dar sarcina nu vine, nu vă garantează că"
+  },
+  {
+   "i": 169,
+   "text": "totul e în regulă. Ce contează e un rezultat confirmat, citit în doi împreună cu"
+  },
+  {
+   "i": 170,
+   "text": "un medic, și un examen adevărat."
+  },
+  {
+   "i": 171,
+   "text": "Nu singur în fața frigiderului, dând zoom pe pixeli!"
+  },
+  {
+   "i": 172,
+   "text": "Data viitoare când un buletin vă ia la răsteală cu litere îngroșate,"
+  },
+  {
+   "i": 173,
+   "text": "puneți-vă o singură întrebare: a fost primul test sau al doilea?"
+  },
+  {
+   "i": 174,
+   "text": "Trei întrebări de luat la medic; le găsiți și în descriere."
+  },
+  {
+   "i": 175,
+   "text": "Bun, întrebați-l mai întâi dacă e nevoie de un al doilea test."
+  },
+  {
+   "i": 176,
+   "text": "E nevoie de un examen clinic sau de o analiză hormonală de sânge?"
+  },
+  {
+   "i": 177,
+   "text": "Și trebuie să mergeți la un urolog sau la un androlog?"
+  },
+  {
+   "i": 178,
+   "text": "Nu uitați: acest conținut e informativ și nu înlocuiește o evaluare"
+  },
+  {
+   "i": 179,
+   "text": "medicală individuală. Și dacă testul rămâne puțin scăzut: ce anume,"
+  },
+  {
+   "i": 180,
+   "text": "în viața de zi cu zi, influențează cu adevărat calitatea spermei?"
+  },
+  {
+   "i": 181,
+   "text": "Poate voi face un alt video despre asta în curând."
+  },
+  {
+   "i": 182,
+   "text": "Hai, pa, ciao!"
+  }
+ ]
+}

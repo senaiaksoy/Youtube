@@ -1,0 +1,69 @@
+{
+  "kind": "youtube#video",
+  "etag": "5kt_CPx8W-4hKrSz2Q5kJekVcT0",
+  "id": "3aqQA66Xy7M",
+  "snippet": {
+    "publishedAt": "2026-08-31T14:00:27Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "AMH basse = insuffisance ovarienne prématurée ? Pas forcément. #Shorts",
+    "description": "Un taux d’AMH bas ne suffit pas, à lui seul, pour diagnostiquer une insuffisance ovarienne prématurée. L’AMH renseigne surtout sur la réserve ovarienne et aide à anticiper la réponse à la stimulation en FIV. Elle ne mesure pas directement la qualité ovocytaire et ne prédit pas, à elle seule, les chances de grossesse naturelle.\n\nDr Senai Aksoy — Gynécologue, spécialiste de la fertilité\n\nCette vidéo est informative et ne remplace pas une consultation médicale personnalisée.\n\n#AMH #RéserveOvarienne #Fertilité #FIV #Shorts",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3aqQA66Xy7M/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3aqQA66Xy7M/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3aqQA66Xy7M/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/3aqQA66Xy7M/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/3aqQA66Xy7M/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "AMH basse = insuffisance ovarienne prématurée ? Pas forcément. #Shorts",
+      "description": "Un taux d’AMH bas ne suffit pas, à lui seul, pour diagnostiquer une insuffisance ovarienne prématurée. L’AMH renseigne surtout sur la réserve ovarienne et aide à anticiper la réponse à la stimulation en FIV. Elle ne mesure pas directement la qualité ovocytaire et ne prédit pas, à elle seule, les chances de grossesse naturelle.\n\nDr Senai Aksoy — Gynécologue, spécialiste de la fertilité\n\nCette vidéo est informative et ne remplace pas une consultation médicale personnalisée.\n\n#AMH #RéserveOvarienne #Fertilité #FIV #Shorts"
+    },
+    "defaultAudioLanguage": "fr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "50",
+    "likeCount": "3",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "fr": {
+      "title": "AMH basse = insuffisance ovarienne prématurée ? Pas forcément. #Shorts",
+      "description": "Un taux d’AMH bas ne suffit pas, à lui seul, pour diagnostiquer une insuffisance ovarienne prématurée. L’AMH renseigne surtout sur la réserve ovarienne et aide à anticiper la réponse à la stimulation en FIV. Elle ne mesure pas directement la qualité ovocytaire et ne prédit pas, à elle seule, les chances de grossesse naturelle.\n\nDr Senai Aksoy — Gynécologue, spécialiste de la fertilité\n\nCette vidéo est informative et ne remplace pas une consultation médicale personnalisée.\n\n#AMH #RéserveOvarienne #Fertilité #FIV #Shorts"
+    }
+  }
+}

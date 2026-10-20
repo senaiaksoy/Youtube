@@ -1,0 +1,69 @@
+{
+  "kind": "youtube#video",
+  "etag": "MMRg-s9nR2IRjLQd34FXwYEaMOI",
+  "id": "q0hv1IbKZ5M",
+  "snippet": {
+    "publishedAt": "2026-10-16T18:43:00Z",
+    "channelId": "UCo3ZeBXk0ng-OigXd9jqJqQ",
+    "title": "glp1 short A en",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i9.ytimg.com/vi/q0hv1IbKZ5M/default.jpg?sqp=CIDfydYG&rs=AOn4CLBPzpljqjf12k_ffPWvUZT5G6bNHQ",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i9.ytimg.com/vi/q0hv1IbKZ5M/mqdefault.jpg?sqp=CIDfydYG&rs=AOn4CLB2sX-m85qTzxzW0F5SDlgKY5VcWg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i9.ytimg.com/vi/q0hv1IbKZ5M/hqdefault.jpg?sqp=CIDfydYG&rs=AOn4CLDp9RGk_vnc5ajn2TVmdJHsb4Xrww",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i9.ytimg.com/vi/q0hv1IbKZ5M/sddefault.jpg?sqp=CIDfydYG&rs=AOn4CLD3WKcdYE42BiMse45BZeGQys3U2g",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i9.ytimg.com/vi/q0hv1IbKZ5M/maxresdefault.jpg?sqp=CIDfydYG&rs=AOn4CLDa_dksruYrWpNIV_RgOV23kF877Q",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Aksoy — Fertility, No Hype",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-US",
+    "localized": {
+      "title": "glp1 short A en",
+      "description": ""
+    },
+    "defaultAudioLanguage": "en-US"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "0",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "en-US": {
+      "title": "glp1 short A en",
+      "description": ""
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "youtube#video",
+  "etag": "DJweJSKxvudu3fkyvVEXMGn3VNg",
+  "id": "CmrQY80Ga8Q",
+  "snippet": {
+    "publishedAt": "2026-10-13T19:00:17Z",
+    "channelId": "UCbO5qpAnmaQPBJlGMM9ITiw",
+    "title": "DHEA tüp bebekte işe yarıyor mu? Kanıt puanı 0/4",
+    "description": "Tüp bebekte takviyeler videomuzdan kısa bir bölüm. DHEA, düşük yumurta rezervinde en sık önerilen takviyelerden biri; ama canlı doğum oranında net bir fayda gösterilemedi. Üstelik bir hormon: akne ve tüylenme yapabilir.\n\nNot: Cochrane derlemesindeki 28 araştırmanın 14'ü DHEA, 14'ü testosteron üzerinedir.\n\n8 takviyenin tam kanıt puanı: https://youtu.be/U8vAciGqvSU\n\nBilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerine geçmez.\n\n#DHEA #tüpbebek #yumurtarezervi #Shorts",
+    "thumbnails": {
+      "default": {
+        "url": "https://i9.ytimg.com/vi/CmrQY80Ga8Q/default.jpg?sqp=CNyButYG&rs=AOn4CLBSWC1a_8tNRAsJPPGHEywNKOmNrA",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i9.ytimg.com/vi/CmrQY80Ga8Q/mqdefault.jpg?sqp=CNyButYG&rs=AOn4CLB7oSqFriEXaXFtcylzP_rot7ZpQw",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i9.ytimg.com/vi/CmrQY80Ga8Q/hqdefault.jpg?sqp=CNyButYG&rs=AOn4CLCgpvPtGrBSUGRSyq8q7SSsurAJww",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i9.ytimg.com/vi/CmrQY80Ga8Q/sddefault.jpg?sqp=CNyButYG&rs=AOn4CLDBGIh3vL-XJVZCninOKT8Tnp7D1g",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i9.ytimg.com/vi/CmrQY80Ga8Q/maxresdefault.jpg?sqp=CNyButYG&rs=AOn4CLB_51EKkWABKD4K09jZ1itXVsMI_g",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Doç. Dr. Senai Aksoy | Tüp Bebek & Kısırlık",
+    "tags": [
+      "Cochrane",
+      "DHEA",
+      "DHEA tüp bebek",
+      "Shorts",
+      "dr senai aksoy",
+      "tüp bebek",
+      "tüp bebek takviye",
+      "yumurta rezervi"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "tr",
+    "localized": {
+      "title": "DHEA tüp bebekte işe yarıyor mu? Kanıt puanı 0/4",
+      "description": "Tüp bebekte takviyeler videomuzdan kısa bir bölüm. DHEA, düşük yumurta rezervinde en sık önerilen takviyelerden biri; ama canlı doğum oranında net bir fayda gösterilemedi. Üstelik bir hormon: akne ve tüylenme yapabilir.\n\nNot: Cochrane derlemesindeki 28 araştırmanın 14'ü DHEA, 14'ü testosteron üzerinedir.\n\n8 takviyenin tam kanıt puanı: https://youtu.be/U8vAciGqvSU\n\nBilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerine geçmez.\n\n#DHEA #tüpbebek #yumurtarezervi #Shorts"
+    },
+    "defaultAudioLanguage": "tr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-10-16T14:00:00Z",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "0",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "tr": {
+      "title": "DHEA tüp bebekte işe yarıyor mu? Kanıt puanı 0/4",
+      "description": "Tüp bebekte takviyeler videomuzdan kısa bir bölüm. DHEA, düşük yumurta rezervinde en sık önerilen takviyelerden biri; ama canlı doğum oranında net bir fayda gösterilemedi. Üstelik bir hormon: akne ve tüylenme yapabilir.\n\nNot: Cochrane derlemesindeki 28 araştırmanın 14'ü DHEA, 14'ü testosteron üzerinedir.\n\n8 takviyenin tam kanıt puanı: https://youtu.be/U8vAciGqvSU\n\nBilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerine geçmez.\n\n#DHEA #tüpbebek #yumurtarezervi #Shorts"
+    }
+  }
+}

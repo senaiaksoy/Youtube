@@ -1,0 +1,82 @@
+{
+  "kind": "youtube#video",
+  "etag": "LxhX0UbIHgBo2oFEjHThnVCgmZs",
+  "id": "q0hv1IbKZ5M",
+  "snippet": {
+    "publishedAt": "2026-10-16T18:43:00Z",
+    "channelId": "UCo3ZeBXk0ng-OigXd9jqJqQ",
+    "title": "Periods Every Three Months: No Risk of Pregnancy? #Shorts",
+    "description": "Irregular periods while on a weight-loss injection: \"I'm not going to get pregnant\"? Your body ovulates first, and the period comes later, so a pregnancy can happen when you least expect it. There are not enough human data to say these medications are safe during pregnancy; effective contraception is essential during treatment and during each drug's washout period. Dr Senai Aksoy explains.\n\n▶ Full video: https://youtu.be/Q7aCrXhG_E8\n\nThis content is for information only. It does not replace an individual medical evaluation.\nEnglish-dubbed version with an AI voice based on Dr Aksoy's own voice; AI-assisted lip synchronization.\n\n#IVF #Fertility #PCOS",
+    "thumbnails": {
+      "default": {
+        "url": "https://i9.ytimg.com/vi/q0hv1IbKZ5M/default.jpg?sqp=CKzhydYG&rs=AOn4CLDmnPidD3oxBhu_bxTgNIyYiSjTvQ",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i9.ytimg.com/vi/q0hv1IbKZ5M/mqdefault.jpg?sqp=CKzhydYG&rs=AOn4CLCghSbl82538g4s9RI3tvA7HAjtkg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i9.ytimg.com/vi/q0hv1IbKZ5M/hqdefault.jpg?sqp=CKzhydYG&rs=AOn4CLBuGsjmi3zKuwym9_KYMFv3tRrwww",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i9.ytimg.com/vi/q0hv1IbKZ5M/sddefault.jpg?sqp=CKzhydYG&rs=AOn4CLBGIxZxef3QB2YAjE_DguRapjVqhw",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i9.ytimg.com/vi/q0hv1IbKZ5M/maxresdefault.jpg?sqp=CKzhydYG&rs=AOn4CLAKMrhh01JbkyxvlDmsm7MmrtihKQ",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Aksoy — Fertility, No Hype",
+    "tags": [
+      "Dr Senai Aksoy",
+      "GLP-1 pregnancy",
+      "PCOS",
+      "contraception",
+      "fertility",
+      "irregular periods",
+      "ovulation",
+      "semaglutide",
+      "tirzepatide",
+      "weight loss injection"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-US",
+    "localized": {
+      "title": "Periods Every Three Months: No Risk of Pregnancy? #Shorts",
+      "description": "Irregular periods while on a weight-loss injection: \"I'm not going to get pregnant\"? Your body ovulates first, and the period comes later, so a pregnancy can happen when you least expect it. There are not enough human data to say these medications are safe during pregnancy; effective contraception is essential during treatment and during each drug's washout period. Dr Senai Aksoy explains.\n\n▶ Full video: https://youtu.be/Q7aCrXhG_E8\n\nThis content is for information only. It does not replace an individual medical evaluation.\nEnglish-dubbed version with an AI voice based on Dr Aksoy's own voice; AI-assisted lip synchronization.\n\n#IVF #Fertility #PCOS"
+    },
+    "defaultAudioLanguage": "en-US"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-10-29T16:00:00Z",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "0",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "en-US": {
+      "title": "Periods Every Three Months: No Risk of Pregnancy? #Shorts",
+      "description": "Irregular periods while on a weight-loss injection: \"I'm not going to get pregnant\"? Your body ovulates first, and the period comes later, so a pregnancy can happen when you least expect it. There are not enough human data to say these medications are safe during pregnancy; effective contraception is essential during treatment and during each drug's washout period. Dr Senai Aksoy explains.\n\n▶ Full video: https://youtu.be/Q7aCrXhG_E8\n\nThis content is for information only. It does not replace an individual medical evaluation.\nEnglish-dubbed version with an AI voice based on Dr Aksoy's own voice; AI-assisted lip synchronization.\n\n#IVF #Fertility #PCOS"
+    }
+  }
+}

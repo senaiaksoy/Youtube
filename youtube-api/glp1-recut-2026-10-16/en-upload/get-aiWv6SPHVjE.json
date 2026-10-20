@@ -1,0 +1,76 @@
+{
+  "kind": "youtube#video",
+  "etag": "MqXHQlG35ByKmLJXogfcMVRfbnU",
+  "id": "aiWv6SPHVjE",
+  "snippet": {
+    "publishedAt": "2026-10-10T19:00:38Z",
+    "channelId": "UCo3ZeBXk0ng-OigXd9jqJqQ",
+    "title": "Twice the Eggs ≠ Twice the Chance",
+    "description": "More eggs help, but doubling your eggs doesn't double your chance. In one clinic's model, at 34, going from 10 to 20 mature eggs took the chance of a baby from about 5 out of 10 to nearly 7. And extra freezing cycles helped only because they added eggs: what counts is the total number of mature eggs.\n\nFull video: https://youtu.be/J21RLRUE1g8\n\nSource: Cascante et al., Journal of Assisted Reproduction and Genetics 2024 (NYU, 731 women) — https://doi.org/10.1007/s10815-024-03175-w\n\nEnglish voice generated with AI from Dr Aksoy's own voice; lip movements adjusted with AI. Educational only, not personal medical advice.\n\n#EggFreezing #IVF #Fertility #Shorts",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/aiWv6SPHVjE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/aiWv6SPHVjE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/aiWv6SPHVjE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/aiWv6SPHVjE/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/aiWv6SPHVjE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Aksoy — Fertility, No Hype",
+    "tags": [
+      "egg freezing",
+      "how many eggs to freeze",
+      "mature eggs",
+      "egg freezing success rates",
+      "IVF"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-US",
+    "localized": {
+      "title": "Twice the Eggs ≠ Twice the Chance",
+      "description": "More eggs help, but doubling your eggs doesn't double your chance. In one clinic's model, at 34, going from 10 to 20 mature eggs took the chance of a baby from about 5 out of 10 to nearly 7. And extra freezing cycles helped only because they added eggs: what counts is the total number of mature eggs.\n\nFull video: https://youtu.be/J21RLRUE1g8\n\nSource: Cascante et al., Journal of Assisted Reproduction and Genetics 2024 (NYU, 731 women) — https://doi.org/10.1007/s10815-024-03175-w\n\nEnglish voice generated with AI from Dr Aksoy's own voice; lip movements adjusted with AI. Educational only, not personal medical advice.\n\n#EggFreezing #IVF #Fertility #Shorts"
+    },
+    "defaultAudioLanguage": "en-US"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "23",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "en-US": {
+      "title": "Twice the Eggs ≠ Twice the Chance",
+      "description": "More eggs help, but doubling your eggs doesn't double your chance. In one clinic's model, at 34, going from 10 to 20 mature eggs took the chance of a baby from about 5 out of 10 to nearly 7. And extra freezing cycles helped only because they added eggs: what counts is the total number of mature eggs.\n\nFull video: https://youtu.be/J21RLRUE1g8\n\nSource: Cascante et al., Journal of Assisted Reproduction and Genetics 2024 (NYU, 731 women) — https://doi.org/10.1007/s10815-024-03175-w\n\nEnglish voice generated with AI from Dr Aksoy's own voice; lip movements adjusted with AI. Educational only, not personal medical advice.\n\n#EggFreezing #IVF #Fertility #Shorts"
+    }
+  }
+}

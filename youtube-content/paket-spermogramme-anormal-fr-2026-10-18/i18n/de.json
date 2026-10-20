@@ -1,0 +1,735 @@
+{
+ "lang": "de",
+ "title": "Auffälliges Spermiogramm: Heißt das, ich bin unfruchtbar?",
+ "description": "Ihr Spermiogramm kam mit Sternchen, Pfeilen und einem Wort aus achtundzwanzig Buchstaben zurück? Bevor Sie auf Unfruchtbarkeit schließen, schauen wir uns an, was die Normwerte wirklich aussagen. Dr. Senai Aksoy, Spezialist für Fruchtbarkeit, erklärt, woher die WHO-Werte (2021) stammen, warum ein Wert unter dem Grenzwert kein Urteil ist, warum man den Test wiederholt, idealerweise drei Monate später, und wann man einen Urologen oder Andrologen aufsuchen sollte.\n\n⏱️ KAPITEL\n00:00 Auffälliges Spermiogramm = unfruchtbar?\n01:11 Der Befund, der Angst macht\n03:05 Was die WHO sagt\n03:33 Oligo, Astheno, Terato: die Übersetzung\n04:39 Woher kommen die Normwerte?\n06:00 Morphologie: 4 von 100\n07:18 Was die Studien zeigen\n08:11 Warum den Test drei Monate später wiederholen?\n10:04 Testosteron: die vermeintlich gute Idee\n11:05 Wann zum Urologen oder Andrologen?\n13:15 Notfälle, bei denen man nicht warten darf\n13:39 Meine Meinung als Arzt\n14:20 Drei Fragen an Ihren Arzt\n\n❓ DIE DREI FRAGEN AN IHREN ARZT\n1. Wurde das Ergebnis durch einen zweiten Test bestätigt?\n2. Braucht es eine körperliche Untersuchung und eine Hormonbestimmung im Blut?\n3. Sollte ich einen Urologen oder Andrologen aufsuchen?\n\n🚨 Ein plötzlicher, starker Schmerz in einem Hoden ist ein Notfall: Gehen Sie in die Notaufnahme oder rufen Sie die 15 (Frankreich), die 112 oder die Notrufnummer Ihres Landes an.\n\n📚 QUELLEN\n• OMS. WHO laboratory manual for the examination and processing of human semen, 6e édition, 2021\n• Campbell MJ, et al. Andrology. 2021;9(3):817-22. PMID 33528873\n• Guzick DS, et al. N Engl J Med. 2001;345(19):1388-93. PMID 11794171\n• Hotaling JM, et al. Fertil Steril. 2011;95(3):1141-5. PMID 21030014\n• Del Giudice F, et al. Andrologia. 2022;54(6):e14409. PMID 35244232\n• Carlsen E, et al. Hum Reprod. 2003;18(10):2089-92. PMID 14507826\n• WHO Task Force. Lancet. 1990;336(8721):955-9. PMID 1977002\n• NICE NG257. Fertility problems: assessment and treatment (2026) : https://www.nice.org.uk/guidance/ng257\n• OMS. Guideline for the prevention, diagnosis and treatment of infertility (2025)\n\n💬 Stellen Sie Ihre Frage in den Kommentaren, ohne Ihre Ergebnisse oder persönliche medizinische Daten zu veröffentlichen.\n🔔 Abonnieren Sie den Kanal, um Ihren Kinderwunsch-Weg besser zu verstehen und Ihre Fragen für Ihren Arzt vorzubereiten.\n🌍 Deutsche Untertitel verfügbar; der Originalton des Videos ist Französisch.\n\nFür weitere Informationen:\n📱 WhatsApp: +90 507 380 28 05\n🌐 Website: www.draksoyivf.com\n\n⚕️ WICHTIGER MEDIZINISCHER HINWEIS\n\nDie in diesem Video dargestellten Informationen dienen ausschließlich Bildungs- und Informationszwecken. Sie stellen in keinem Fall eine ärztliche Beratung, eine Diagnose oder eine individuelle Behandlungsempfehlung dar.\n\nJede medizinische Situation ist einzigartig. Die hier behandelten Inhalte ersetzen nicht die Konsultation eines qualifizierten Arztes, Gynäkologen oder Facharztes für Reproduktionsmedizin.\n\nÄndern Sie niemals Ihre laufende Behandlung, beginnen Sie keine neue Behandlung und treffen Sie keine medizinische Entscheidung auf Grundlage der Informationen in diesem Video, ohne vorher Ihren behandelnden Arzt oder Ihren Facharzt zu konsultieren.\n\nWenn Sie Fragen zu Ihrer reproduktiven Gesundheit oder Ihrer IVF-Behandlung haben, wenden Sie sich bitte an eine qualifizierte medizinische Fachkraft.\n\n© Assoc. Prof. Dr. Senai Aksoy — Alle Rechte vorbehalten.\n\n#Spermiogramm #MännlicheUnfruchtbarkeit #IVF",
+ "cues": [
+  {
+   "i": 1,
+   "text": "„Spermiogramm auffällig … Na schön, das war's, meine Blutlinie"
+  },
+  {
+   "i": 2,
+   "text": "stirbt hier aus!"
+  },
+  {
+   "i": 3,
+   "text": "Schatz, gieß die Begonie im Wohnzimmer, sie ist jetzt unsere einzige Erbin!“"
+  },
+  {
+   "i": 4,
+   "text": "Genau diesen Katastrophenfilm drehen wir im Kopf in der Sekunde, in der wir"
+  },
+  {
+   "i": 5,
+   "text": "das Ergebnis öffnen. Nur erzählt die Wissenschaft eine andere Geschichte:"
+  },
+  {
+   "i": 6,
+   "text": "Ein Wert unter dem Grenzwert ist kein Gerichtsurteil."
+  },
+  {
+   "i": 7,
+   "text": "Er ist eine orange Warnleuchte im Armaturenbrett."
+  },
+  {
+   "i": 8,
+   "text": "Wenn sie aufleuchtet, zünden Sie das Auto nicht am Straßenrand an:"
+  },
+  {
+   "i": 9,
+   "text": "Sie öffnen die Motorhaube und schauen nach!"
+  },
+  {
+   "i": 10,
+   "text": "Und nachschauen heißt hier: den Test wiederholen, idealerweise drei Monate später."
+  },
+  {
+   "i": 11,
+   "text": "Ich bin Dr. Senai Aksoy, Spezialist für Fruchtbarkeit."
+  },
+  {
+   "i": 12,
+   "text": "In diesem Video: was hinter den berühmten „Normwerten“ steckt, warum man"
+  },
+  {
+   "i": 13,
+   "text": "nach einem einzigen Test nicht gleich sein Testament schreibt und wann man"
+  },
+  {
+   "i": 14,
+   "text": "einen Urologen oder Andrologen aufsuchen sollte."
+  },
+  {
+   "i": 15,
+   "text": "Stellen Sie sich zuerst die Szene vor."
+  },
+  {
+   "i": 16,
+   "text": "Das Ergebnis landet auf dem Handy: zwei Seiten PDF,"
+  },
+  {
+   "i": 17,
+   "text": "die man im Stehen in der Küche öffnet, an den Kühlschrank gelehnt."
+  },
+  {
+   "i": 18,
+   "text": "Warum eigentlich immer im Stehen vor dem Kühlschrank?"
+  },
+  {
+   "i": 19,
+   "text": "Weil ein Mann schlechte Nachrichten immer im Stehen neben dem"
+  },
+  {
+   "i": 20,
+   "text": "Joghurt verkraftet. Links: Latein."
+  },
+  {
+   "i": 21,
+   "text": "In der Mitte: Zahlen. Und rechts …"
+  },
+  {
+   "i": 22,
+   "text": "kleine Sternchen, Pfeile im Sturzflug und Fettdruck."
+  },
+  {
+   "i": 23,
+   "text": "Der Laborbefund ist schon das einzige Dokument der Welt, bei dem"
+  },
+  {
+   "i": 24,
+   "text": "Sie dafür bezahlen, in Fettdruck angeschrien zu werden, ohne dass Ihnen"
+  },
+  {
+   "i": 25,
+   "text": "je jemand erklärt, warum!"
+  },
+  {
+   "i": 26,
+   "text": "Und dann der universelle Männerreflex: Wir zoomen mit zwei"
+  },
+  {
+   "i": 27,
+   "text": "Fingern! Als suchten wir ein Grundstück auf einer Satellitenkarte!"
+  },
+  {
+   "i": 28,
+   "text": "Aber nein: Zoomen in ein PDF hat noch nie Spermien zum Vorschein gebracht,"
+  },
+  {
+   "i": 29,
+   "text": "es vergrößert nur die Pixel!"
+  },
+  {
+   "i": 30,
+   "text": "„Moment, ich zoome noch ein bisschen, vielleicht sitzen da ja vier"
+  },
+  {
+   "i": 31,
+   "text": "hinter dem Seitenrand und spielen Doppelkopf …“"
+  },
+  {
+   "i": 32,
+   "text": "Aus dem Wohnzimmer fragt Ihre Partnerin: „Und?“"
+  },
+  {
+   "i": 33,
+   "text": "Und alles, was herauskommt, ist: „Und …"
+  },
+  {
+   "i": 34,
+   "text": "da sind Sternchen. Ich glaube, wir sind direkt fürs Finale"
+  },
+  {
+   "i": 35,
+   "text": "qualifiziert.“ Ganz unten dann der Todesstoß mit 28 Buchstaben:"
+  },
+  {
+   "i": 36,
+   "text": "„Oligo-Astheno-Teratozoospermie“."
+  },
+  {
+   "i": 37,
+   "text": "Wenn Sie das in einem Zug aussprechen, ohne Luft zu holen,"
+  },
+  {
+   "i": 38,
+   "text": "bekommen Sie direkt den Facharzt für Urologie dazu!"
+  },
+  {
+   "i": 39,
+   "text": "Gezoomt passt das Wort nicht mal mehr auf den Bildschirm: Es empfängt das Wi-Fi"
+  },
+  {
+   "i": 40,
+   "text": "der Nachbarn! Vor einer Zahl sucht man ein Urteil."
+  },
+  {
+   "i": 41,
+   "text": "Dabei schreibt die Weltgesundheitsorganisation seit 2021,"
+  },
+  {
+   "i": 42,
+   "text": "die WHO, schwarz auf weiß: Für einen einzelnen Mann sagt das Spermiogramm"
+  },
+  {
+   "i": 43,
+   "text": "die Fruchtbarkeit für sich allein niemals vorher."
+  },
+  {
+   "i": 44,
+   "text": "Was zählt, ist die Fruchtbarkeit des Paares."
+  },
+  {
+   "i": 45,
+   "text": "Tja, das PDF hat das Update offenbar nicht installiert."
+  },
+  {
+   "i": 46,
+   "text": "Übersetzen wir kurz dieses Wort mit 28 Buchstaben."
+  },
+  {
+   "i": 47,
+   "text": "Das ist kein Fluch der Pharaonen: Es ist nur die Zusammenfassung"
+  },
+  {
+   "i": 48,
+   "text": "von drei Kriterien, die man unter dem Mikroskop beurteilt."
+  },
+  {
+   "i": 49,
+   "text": "Erstens die Konzentration: Wie viele Leute sind im"
+  },
+  {
+   "i": 50,
+   "text": "Saal, pro Milliliter. Ist sie niedrig, sagt man „oligo“. Tja, ziemlich leer hier,"
+  },
+  {
+   "i": 51,
+   "text": "es hallt. Dann die Beweglichkeit: Wie viele bewegen sich, und vor allem, wie viele"
+  },
+  {
+   "i": 52,
+   "text": "kommen voran. In der Medizin heißen sie „progressiv“. Hat nichts mit"
+  },
+  {
+   "i": 53,
+   "text": "Politik zu tun! Sagen Sie also nicht: „Super, meine sind progressiv,"
+  },
+  {
+   "i": 54,
+   "text": "total weltoffen!“"
+  },
+  {
+   "i": 55,
+   "text": "Geht's schleppend, heißt es „astheno“: Die Jungs sind platt, treten auf der Stelle."
+  },
+  {
+   "i": 56,
+   "text": "Schließlich die Morphologie: Wie viele haben eine Traumfigur."
+  },
+  {
+   "i": 57,
+   "text": "Ist sie atypisch, heißt es „terato“: Tja, die haben beim Verlassen der Disco"
+  },
+  {
+   "i": 58,
+   "text": "ganz schön was abgekriegt. Erste echte Frage: Woher kommen diese „Normwerte“?"
+  },
+  {
+   "i": 59,
+   "text": "Oft stellt man sich fünf ernste Professoren in Genf bei einem Espresso vor,"
+  },
+  {
+   "i": 60,
+   "text": "die verkündet haben: „Meine Herren, das ideale Spermium muss aussehen"
+  },
+  {
+   "i": 61,
+   "text": "wie Brad Pitt.“ Ganz und gar nicht!"
+  },
+  {
+   "i": 62,
+   "text": "Die WHO hat Ergebnisse von Tausenden Männern auf fünf Kontinenten gesammelt."
+  },
+  {
+   "i": 63,
+   "text": "Ihre Gemeinsamkeit? Die Partnerin war in weniger als einem Jahr schwanger."
+  },
+  {
+   "i": 64,
+   "text": "Zertifizierte werdende Väter."
+  },
+  {
+   "i": 65,
+   "text": "Stellen Sie sich ein riesiges Klassenfoto mit all diesen werdenden Vätern vor,"
+  },
+  {
+   "i": 66,
+   "text": "aufgereiht vom kleinsten Wert bis zum größten."
+  },
+  {
+   "i": 67,
+   "text": "Die WHO-Grenze ist nur eine Linie ganz unten auf dem Foto."
+  },
+  {
+   "i": 68,
+   "text": "Die genauen Werte sehen Sie auf dem Bildschirm."
+  },
+  {
+   "i": 69,
+   "text": "Raten Sie mal, wie viele werdende Väter unter dieser Linie liegen?"
+  },
+  {
+   "i": 70,
+   "text": "Null? Fünf von hundert! Per Definition!"
+  },
+  {
+   "i": 71,
+   "text": "Diese Männer sind auf dem Papier „durchgefallen“ …"
+  },
+  {
+   "i": 72,
+   "text": "während sie im Wohnzimmer einen Kinderwagen zusammenbauten!"
+  },
+  {
+   "i": 73,
+   "text": "Die WHO sagt es selbst: Diese Linie trennt nicht die fruchtbaren von den"
+  },
+  {
+   "i": 74,
+   "text": "unfruchtbaren Männern. Das ist kein Medizin-Eignungstest, nur die erste Reihe"
+  },
+  {
+   "i": 75,
+   "text": "des Klassenfotos! Welche Zahl macht denn nun am meisten Sorgen?"
+  },
+  {
+   "i": 76,
+   "text": "Fast immer die Morphologie."
+  },
+  {
+   "i": 77,
+   "text": "Was meinen Sie: Wie viele von 100 Spermien müssen eine „ideale“ Form haben,"
+  },
+  {
+   "i": 78,
+   "text": "um die Hürde der WHO zu nehmen?"
+  },
+  {
+   "i": 79,
+   "text": "Fünfzig? Dreißig? Nein … Vier? Ja, vier. Vier"
+  },
+  {
+   "i": 80,
+   "text": "von hundert. Stellen Sie sich eine Party mit hundert Typen in einem Saal vor: Wenn"
+  },
+  {
+   "i": 81,
+   "text": "nur vier davon vorzeigbar sind, sagt die WHO: „Passt, Party im Normbereich!“"
+  },
+  {
+   "i": 82,
+   "text": "Achtung: Manche Labore, vor allem in Frankreich, verwenden andere Bewertungsskalen."
+  },
+  {
+   "i": 83,
+   "text": "Prüfen Sie immer den Referenzwert, der auf Ihrem eigenen Befund steht."
+  },
+  {
+   "i": 84,
+   "text": "Aber das Casting unter dem Mikroskop ist strenger als die Fashion Week in Paris!"
+  },
+  {
+   "i": 85,
+   "text": "„Kopf einen Tick zu rund?"
+  },
+  {
+   "i": 86,
+   "text": "Raus. Schwanz leicht eingerollt?"
+  },
+  {
+   "i": 87,
+   "text": "Tut mir leid, passt nicht zum Image des Hauses.“"
+  },
+  {
+   "i": 88,
+   "text": "Aber das ist eine mikroskopisch kleine Zelle!"
+  },
+  {
+   "i": 89,
+   "text": "Sie soll nicht für einen großen Modeschöpfer laufen, sie soll schwimmen!"
+  },
+  {
+   "i": 90,
+   "text": "Mehr nicht. Selbst bei werdenden Vätern wird die große Mehrheit der Kandidaten"
+  },
+  {
+   "i": 91,
+   "text": "am Eingang vom Türsteher abgewiesen!"
+  },
+  {
+   "i": 92,
+   "text": "Übrigens hat eine große amerikanische Studie gezeigt, dass sich die Werte"
+  },
+  {
+   "i": 93,
+   "text": "fruchtbarer und unfruchtbarer Männer stark überschneiden."
+  },
+  {
+   "i": 94,
+   "text": "Manche Männer der fruchtbaren Gruppe haben Werte im Keller, während manche"
+  },
+  {
+   "i": 95,
+   "text": "der unfruchtbaren Gruppe Befunde haben, die man im Louvre einrahmen könnte!"
+  },
+  {
+   "i": 96,
+   "text": "Dasselbe gilt für die Form."
+  },
+  {
+   "i": 97,
+   "text": "Bei IVF und ICSI zeigt eine Analyse von vier Studien bei Männern, bei denen nur"
+  },
+  {
+   "i": 98,
+   "text": "die Form niedrig war, keinen deutlichen Rückgang der Schwangerschaftschancen."
+  },
+  {
+   "i": 99,
+   "text": "Eine weitere, mit Tausenden Zyklen, findet dasselbe für die Form ganz"
+  },
+  {
+   "i": 100,
+   "text": "allgemein. Das sind Beobachtungsstudien, aber sie weisen in dieselbe Richtung."
+  },
+  {
+   "i": 101,
+   "text": "Ein niedriger Wert für sich allein ist eine Frage."
+  },
+  {
+   "i": 102,
+   "text": "Keine Antwort. Warum sollen Sie die Untersuchung also drei Monate später"
+  },
+  {
+   "i": 103,
+   "text": "wiederholen? Weil das Sperma von heute verrät, was Sie in den letzten"
+  },
+  {
+   "i": 104,
+   "text": "drei Monaten erlebt haben! So lange dauert ungefähr die Produktion in der Fabrik."
+  },
+  {
+   "i": 105,
+   "text": "Sie geben im Oktober eine Probe ab?"
+  },
+  {
+   "i": 106,
+   "text": "Der Biologe kann nicht ins Mikroskop schauen und sagen: „Sieh an,"
+  },
+  {
+   "i": 107,
+   "text": "der Herr hatte im August eine ordentliche Grippe!“"
+  },
+  {
+   "i": 108,
+   "text": "Aber die Grippe vom August kann sich im Wert durchaus zeigen."
+  },
+  {
+   "i": 109,
+   "text": "Eine kleine dänische Studie hat 27 junge Männer jeden Monat"
+  },
+  {
+   "i": 110,
+   "text": "über mehr als ein Jahr begleitet."
+  },
+  {
+   "i": 111,
+   "text": "Was für eine Stimmung im Labor, oder?"
+  },
+  {
+   "i": 112,
+   "text": "Gut. Ergebnis: Hohes Fieber kann die Konzentration deutlich"
+  },
+  {
+   "i": 113,
+   "text": "absacken lassen. Und dieser Rückgang kann vorübergehend sein."
+  },
+  {
+   "i": 114,
+   "text": "Deshalb sind die britischen Leitlinien in ihrer Fassung von"
+  },
+  {
+   "i": 115,
+   "text": "2026, ganz neu übrigens, eindeutig: Ist der erste Test auffällig,"
+  },
+  {
+   "i": 116,
+   "text": "wird nachkontrolliert, idealerweise drei Monate später."
+  },
+  {
+   "i": 117,
+   "text": "Einzige Ausnahme: Wenn gar keine Spermien da sind oder fast keine,"
+  },
+  {
+   "i": 118,
+   "text": "wartet man nicht drei Monate, sondern wiederholt ihn so bald wie möglich."
+  },
+  {
+   "i": 119,
+   "text": "Halten Sie beim zweiten Test die Karenzzeit des Labors genau ein,"
+  },
+  {
+   "i": 120,
+   "text": "drei bis fünf Tage, und melden Sie dem Arzt jedes Fieber in den letzten drei"
+  },
+  {
+   "i": 121,
+   "text": "Monaten. Und wenn der erste niedrig ist, der zweite normal: Welchem glauben wir?"
+  },
+  {
+   "i": 122,
+   "text": "Keinem von beiden allein!"
+  },
+  {
+   "i": 123,
+   "text": "Der eine sind Sie mit Grippe im Pyjama, der andere Sie im Anzug am"
+  },
+  {
+   "i": 124,
+   "text": "Sonntag. Wir brauchen beide, gelesen zusammen mit Ihrer Krankengeschichte."
+  },
+  {
+   "i": 125,
+   "text": "Und bis zum zweiten Test hören Sie bitte nicht auf die"
+  },
+  {
+   "i": 126,
+   "text": "„Bankdrück-Endokrinologen“ im Fitnessstudio:"
+  },
+  {
+   "i": 127,
+   "text": "„Bruder, nimm Testosteron, das gibt da drin richtig Nitro!“"
+  },
+  {
+   "i": 128,
+   "text": "Hören Sie gut zu: Die WHO hat Testosteron als Spritze getestet …"
+  },
+  {
+   "i": 129,
+   "text": "aber als Verhütungsmittel für Männer!"
+  },
+  {
+   "i": 130,
+   "text": "In dieser Studie von 1990"
+  },
+  {
+   "i": 131,
+   "text": "hatten bei gesunden Männern fast sechs von zehn am Ende"
+  },
+  {
+   "i": 132,
+   "text": "null Spermien. Das berühmte „Nitro“ vom Fitnesscoach"
+  },
+  {
+   "i": 133,
+   "text": "ist in Wahrheit die voll angezogene Handbremse, im Rückwärtsgang!"
+  },
+  {
+   "i": 134,
+   "text": "Die britischen Leitlinien sind klar: kein Testosteron zur Behandlung eines"
+  },
+  {
+   "i": 135,
+   "text": "auffälligen Spermiogramms. Wenn Sie welches nehmen, auch „nur für die Brustmuskeln“,"
+  },
+  {
+   "i": 136,
+   "text": "sagen Sie es dem Arzt. Wann sollte man einen Urologen oder"
+  },
+  {
+   "i": 137,
+   "text": "Andrologen aufsuchen? Zu oft sehe ich Paare, bei denen die Frau seit"
+  },
+  {
+   "i": 138,
+   "text": "sechs Monaten Blutabnahmen und Ultraschalluntersuchungen hinter sich hat …"
+  },
+  {
+   "i": 139,
+   "text": "Ich wende mich an den Mann: „Und Ihr Spermiogramm?“"
+  },
+  {
+   "i": 140,
+   "text": "„Ja, Herr Doktor, nächsten Monat, gerade muss ich eine große Präsentation"
+  },
+  {
+   "i": 141,
+   "text": "im Büro fertig machen …“ Als hätten wir ihn gebeten, eine Niere zu spenden!"
+  },
+  {
+   "i": 142,
+   "text": "Ein männlicher Faktor liegt bei fast jedem zweiten unfruchtbaren Paar vor."
+  },
+  {
+   "i": 143,
+   "text": "Die Abklärung beim Mann erfolgt also gleichzeitig, nicht erst, wenn der Kalender"
+  },
+  {
+   "i": 144,
+   "text": "des Herrn Ministers frei wird! Die Eckpunkte sind einfach, die"
+  },
+  {
+   "i": 145,
+   "text": "genauen Grenzwerte sehen Sie auf dem Bildschirm."
+  },
+  {
+   "i": 146,
+   "text": "Nach zwei auffälligen Spermiogrammen bietet man eine körperliche Untersuchung der"
+  },
+  {
+   "i": 147,
+   "text": "Hoden an und erwägt eine Hormonuntersuchung."
+  },
+  {
+   "i": 148,
+   "text": "Bleibt die Konzentration … kann man eine Chromosomenanalyse anbieten."
+  },
+  {
+   "i": 149,
+   "text": "Und wenn gar keine Spermien da sind oder fast keine, ohne bekannte Ursache:"
+  },
+  {
+   "i": 150,
+   "text": "Nach einer raschen Bestätigung sucht man auch nach einer kleinen Veränderung am"
+  },
+  {
+   "i": 151,
+   "text": "Y-Chromosom; und wenn gar keine da sind, analysiert man auch die Chromosomen."
+  },
+  {
+   "i": 152,
+   "text": "Wenn gar keine Spermien da sind, spricht man von Azoospermie:"
+  },
+  {
+   "i": 153,
+   "text": "Es gibt zwei große Situationen: einen Stau auf der Straße,"
+  },
+  {
+   "i": 154,
+   "text": "also einen blockierten Durchgang, oder eine Fabrik im Sparbetrieb."
+  },
+  {
+   "i": 155,
+   "text": "In beiden Fällen gibt es Lösungen: den Durchgang reparieren,"
+  },
+  {
+   "i": 156,
+   "text": "zum Beispiel, eine Behandlung geben, wenn die Ursache hormonell ist,"
+  },
+  {
+   "i": 157,
+   "text": "oder operativ nach Spermien suchen, im Nebenhoden oder im"
+  },
+  {
+   "i": 158,
+   "text": "Hoden. Das ist nicht immer möglich, niemand kann es im Voraus"
+  },
+  {
+   "i": 159,
+   "text": "versprechen. Aber es ist ein echter, ernsthafter Weg, den Sie mit Ihrem"
+  },
+  {
+   "i": 160,
+   "text": "Spezialisten prüfen sollten. Spaß beiseite: eine absolute Regel, die auf keine"
+  },
+  {
+   "i": 161,
+   "text": "Untersuchung wartet. Ein Knoten im Hoden: rasch zum Arzt."
+  },
+  {
+   "i": 162,
+   "text": "Plötzlicher, starker Schmerz in einem Hoden: Das ist ein absoluter Notfall."
+  },
+  {
+   "i": 163,
+   "text": "Vergessen Sie das Labor: ab in die Notaufnahme, oder rufen Sie die 15, die 112"
+  },
+  {
+   "i": 164,
+   "text": "oder die Notrufnummer Ihres Landes an."
+  },
+  {
+   "i": 165,
+   "text": "Meine Meinung als Arzt, und das ist eine Meinung, kein Beweis: Das"
+  },
+  {
+   "i": 166,
+   "text": "Spermiogramm ist ein Ausgangspunkt."
+  },
+  {
+   "i": 167,
+   "text": "Ist es niedrig, sollte es Sie nicht zu früh verurteilen."
+  },
+  {
+   "i": 168,
+   "text": "Ist es normal, obwohl die Schwangerschaft ausbleibt, garantiert es Ihnen nicht,"
+  },
+  {
+   "i": 169,
+   "text": "dass alles in Ordnung ist. Was zählt, ist ein bestätigtes Ergebnis, gemeinsam mit"
+  },
+  {
+   "i": 170,
+   "text": "einem Arzt gelesen, und eine richtige Untersuchung."
+  },
+  {
+   "i": 171,
+   "text": "Nicht allein vor dem Kühlschrank, beim Zoomen auf die eigenen Pixel!"
+  },
+  {
+   "i": 172,
+   "text": "Wenn Sie das nächste Mal ein Befund in Fettdruck anschreit,"
+  },
+  {
+   "i": 173,
+   "text": "stellen Sie sich nur eine Frage: War das der erste Test oder der zweite?"
+  },
+  {
+   "i": 174,
+   "text": "Drei Fragen für Ihren Arztbesuch; sie stehen auch in der Beschreibung."
+  },
+  {
+   "i": 175,
+   "text": "Fragen Sie ihn zuerst, ob ein zweiter Test nötig ist."
+  },
+  {
+   "i": 176,
+   "text": "Braucht es eine körperliche Untersuchung oder eine Hormonbestimmung im Blut?"
+  },
+  {
+   "i": 177,
+   "text": "Und sollte ich einen Urologen oder Andrologen aufsuchen?"
+  },
+  {
+   "i": 178,
+   "text": "Vergessen Sie nicht: Dieser Inhalt dient der Information und ersetzt keine"
+  },
+  {
+   "i": 179,
+   "text": "individuelle ärztliche Beurteilung. Und wenn Ihr Test etwas niedrig bleibt: Was"
+  },
+  {
+   "i": 180,
+   "text": "beeinflusst im Alltag wirklich die Spermienqualität?"
+  },
+  {
+   "i": 181,
+   "text": "Vielleicht mache ich dazu demnächst ein eigenes Video."
+  },
+  {
+   "i": 182,
+   "text": "Also dann, tschüss, ciao!"
+  }
+ ]
+}

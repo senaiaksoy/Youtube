@@ -1,0 +1,15 @@
+ar DHEA {'سيناي أكسوي'} | GLP1 {'سناي أكسوي.', 'سناي أكسوي', 'سناي أكسوي،'}
+az DHEA {'Senai Aksoy'} | GLP1 {'Senai Aksoyam.', 'Senai Aksoy'}
+bg DHEA {'Сенай Аксой', 'Senai Aksoy'} | GLP1 {'Сенай Аксой,', 'Сенай Аксой.', 'Senai Aksoy'}
+bs DHEA {'Senai Aksoy'} | GLP1 {'Senai Aksoy.', 'Senai Aksoy,', 'Senai Aksoy'}
+de DHEA {'Senai Aksoy'} | GLP1 {'Senai Aksoy.', 'Senai Aksoy,', 'Senai Aksoy'}
+es DHEA {'Senai Aksoy'} | GLP1 {'Senai Aksoy.', 'Senai Aksoy,', 'Senai Aksoy'}
+fa DHEA {'سنای آکسوی', 'Senai Aksoy'} | GLP1 {'سنائی آکسوی،', 'سنائی آکسوی', 'Senai Aksoy'}
+it DHEA {'Senai Aksoy'} | GLP1 {'Senai Aksoy.', 'Senai Aksoy,', 'Senai Aksoy'}
+mk DHEA {'Сенај Аксој', 'Senai Aksoy'} | GLP1 {'Сенаи Аксој,', 'Сенаи Аксој.', 'Senai Aksoy'}
+ro DHEA {'Senai Aksoy'} | GLP1 {'Senai Aksoy.', 'Senai Aksoy,', 'Senai Aksoy'}
+ru DHEA {'Сенай Аксой', 'Senai Aksoy'} | GLP1 {'Сенаи Аксой.', 'Senai Aksoy', 'Сенаи Аксой,'}
+sq DHEA {'Senai Aksoy'} | GLP1 {'Senai Aksoy.', 'Senai Aksoy,', 'Senai Aksoy'}
+sr DHEA {'Senai Aksoy'} | GLP1 {'Сенаи Аксој,', 'Сенаи Аксој.', 'Senai Aksoy'}
+tr DHEA {'Senai Aksoy'} | GLP1 {'Senai Aksoy.', 'Senai Aksoy,', 'Senai Aksoy'}
+uk DHEA {'Сенай Аксой', 'Senai Aksoy'} | GLP1 {'Сенаї Аксой.', 'Сенаї Аксой,', 'Senai Aksoy'}

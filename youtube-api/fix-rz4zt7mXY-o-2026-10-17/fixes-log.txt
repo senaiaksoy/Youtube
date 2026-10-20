@@ -1,0 +1,18 @@
+1x  'de Clomide.' -> 'du Clomid.'
+1x  'intriguant' -> 'intrigant'
+18x  'Clomide' -> 'Clomid'
+1x  'superchérie' -> 'supercherie'
+1x  'follicules ovariennes et par conséquent renforçant' -> 'follicules ovariens et par conséquent renforçant la qualité '
+1x  'Normalement, vos ovules produisent des oestrogènes' -> 'Normalement, vos ovaires produisent des œstrogènes chaque mo'
+1x  'polycystiques,' -> 'polykystiques,\n[Mise à jour 2026 : dans le SOPK, le létrozol'
+1x  'Selon la réaction de votre cœur,' -> 'Selon la réaction de votre corps,'
+1x  "on peut aller jusqu'à 200 mg." -> "on peut aller jusqu'à 200 mg.\n[Mise à jour 2026 : la notice "
+1x  "en raison d'un dysfonctionnement congénital." -> "en raison d'un dysfonctionnement congénital.\n[Mise à jour 20"
+1x  'Les effets secondaires, bouffée de chaleur,' -> 'Les effets secondaires : bouffées de chaleur,'
+1x  'lorsque vos oeuvres appuieront' -> 'lorsque vos ovaires appuieront'
+1x  'un risque gênant de paralysie.' -> "un risque gênant de paralysie.\n[Correction 2026 : il s'agit "
+1x  'changements de vision, double vie, quelque chose n' -> 'changements de vision, vision double, quelque chose ne va pa'
+1x  'faites attention, appelez votre médecin.' -> 'arrêtez le traitement, appelez votre médecin.'
+1x  'trouvez un sponsor de couche.' -> 'trouvez un sponsor de couches.'
+1x  'améliorer la qualité de vos nageurs.' -> 'améliorer la qualité de vos nageurs.\n[Mise à jour 2026 : che'
+7x  'oestrogène' -> 'œstrogène'

@@ -1,0 +1,77 @@
+{
+  "kind": "youtube#video",
+  "etag": "4rRzyJwO328JeynnXOPaIqzWrYc",
+  "id": "oCVZ8johrR0",
+  "snippet": {
+    "publishedAt": "2026-06-10T13:19:21Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "Grossissement 6000x en FIV : Pourquoi l'IMSI ?",
+    "description": "Pourquoi l'IMSI à un grossissement de 6000x peut-elle être supérieure à l'ICSI classique ? Le Dr. Senai Aksoy vous explique la détection des vacuoles spermatiques en 55 secondes.\n\n📖 Vidéo complète : https://www.youtube.com/watch?v=pqc9UgCIqo0\n📖 Article de référence : https://draksoyivf.com/fr/selection-spermatique-avancee?utm_source=youtube&utm_medium=short&utm_campaign=imsi-short\n\n📌 Ce contenu est informatif. Il ne remplace pas une évaluation médicale individuelle.\n\n#IMSI #ICSI #FIV #sperme #infertilitémasculine #drsenaiaksoy",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/oCVZ8johrR0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/oCVZ8johrR0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/oCVZ8johrR0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/oCVZ8johrR0/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/oCVZ8johrR0/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "tags": [
+      "Dr. Senai Aksoy",
+      "FIV",
+      "ICSI",
+      "IMSI",
+      "infertilité masculine",
+      "sperme"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "Grossissement 6000x en FIV : Pourquoi l'IMSI ?",
+      "description": "Pourquoi l'IMSI à un grossissement de 6000x peut-elle être supérieure à l'ICSI classique ? Le Dr. Senai Aksoy vous explique la détection des vacuoles spermatiques en 55 secondes.\n\n📖 Vidéo complète : https://www.youtube.com/watch?v=pqc9UgCIqo0\n📖 Article de référence : https://draksoyivf.com/fr/selection-spermatique-avancee?utm_source=youtube&utm_medium=short&utm_campaign=imsi-short\n\n📌 Ce contenu est informatif. Il ne remplace pas une évaluation médicale individuelle.\n\n#IMSI #ICSI #FIV #sperme #infertilitémasculine #drsenaiaksoy"
+    },
+    "defaultAudioLanguage": "en-US"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": false,
+    "publicStatsViewable": false,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "432",
+    "likeCount": "6",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "1"
+  },
+  "localizations": {
+    "fr": {
+      "title": "Grossissement 6000x en FIV : Pourquoi l'IMSI ?",
+      "description": "Pourquoi l'IMSI à un grossissement de 6000x peut-elle être supérieure à l'ICSI classique ? Le Dr. Senai Aksoy vous explique la détection des vacuoles spermatiques en 55 secondes.\n\n📖 Vidéo complète : https://www.youtube.com/watch?v=pqc9UgCIqo0\n📖 Article de référence : https://draksoyivf.com/fr/selection-spermatique-avancee?utm_source=youtube&utm_medium=short&utm_campaign=imsi-short\n\n📌 Ce contenu est informatif. Il ne remplace pas une évaluation médicale individuelle.\n\n#IMSI #ICSI #FIV #sperme #infertilitémasculine #drsenaiaksoy"
+    }
+  }
+}

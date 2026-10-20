@@ -1,0 +1,767 @@
+{
+ "lang": "tr",
+ "title": "Kilo verme kalemi ve gebelik: Hamile kalmaya gerçekten yardımcı olur mu?",
+ "description": "“Bir iğne, sıfır iştah…” ardından “sürpriz, hamile kaldım”: sosyal medyada kilo verme iğneleriyle gebelik arasındaki bağ apaçık görünüyor. Üreme tıbbı alanında doçent olan Dr. Senai Aksoy, GLP-1 ailesindeki ilaçlar (semaglutid, liraglutid, tirzepatid) ve doğurganlık konusunda çalışmaların gerçekte ne gösterdiğine bakıyor.\n\nBu ilaçlar bazı kadınlarda, özellikle PKOS varsa, gebelik şansına dolaylı yoldan katkı sağlayabilir. Ancak doğrudan kısırlık tedavisi değildir ve gebelikte kullanılmaz. Planlanan gebelikten önce ilacı bırakma sürelerini, doğum kontrolünü, yumurta toplama işlemini ve anesteziyi, erkeklerde bilinenleri de ele alıyoruz.\n\n⏱️ BÖLÜMLER\n00:00 Bir iğne, bir gebelik mi? Sosyal medyanın kestirmesi\n01:38 GLP-1 nedir?\n02:54 PKOS: kilo, insülin ve yumurtlama\n04:16 Çalışmalar ne diyor?\n05:02 2026'da yayımlanan bir kayıt çalışması\n06:07 Peki ya tüp bebek?\n07:30 Doğum kontrolü: kritik bir nokta\n08:18 Gebelikten ne kadar önce bırakmalı?\n08:54 Tirzepatid ve doğum kontrol hapı\n09:49 Tedavi sırasında pozitif gebelik testi\n10:37 Tüp bebekten önce: her şeyi birlikte değerlendirmek\n11:19 Yumurta toplama ve anestezi\n12:04 Peki ya erkekler?\n12:46 Yan etkiler ve kilonun geri gelmesi\n13:12 Doktorunuza sormanız gereken üç soru\n\n❓ DOKTORUNUZA SORMANIZ GEREKEN ÜÇ SORU\n1. Bu ilaca tıbben neden ihtiyacım var?\n2. Bebek denemeye başlamadan önce ilacı ne zaman bırakmalıyım ve bu süre içinde kendimi nasıl korumalıyım?\n3. Bu, doğurganlık tedavimin takvimini nasıl etkiler?\n\n📚 KAYNAKLAR (ekrandaki numaralarla)\n[1] Zhou L, et al. BMC Endocr Disord. 2023;23(1):245. Méta-analyse, 11 essais randomisés, n = 840. PMID 37940910\n[2] Wu YC, et al. Reprod Biol Endocrinol. 2026;24(1). Cohorte rétrospective multicentrique, n = 1 936. PMID 42001071\n[3] Teede HJ, et al. Recommandations internationales sur le SOPK, 2023 (§ 5.3.1, § 5.9.1)\n[4] EMA. Sémaglutide (gestion du poids), résumé des caractéristiques du produit, § 4.6\n[5] Tirzépatide, résumé des caractéristiques du produit (Royaume-Uni), § 4.5–4.6\n[6] MHRA (Royaume-Uni). GLP-1 medicines: what you need to know\n[7] Lau KGY, et al. BJOG. 2026. PMID 42830218\n[8] Dao K, et al. BMJ Open. 2024;14(4):e083550. PMID 38663923\n[9] MHRA. Drug Safety Update, janvier 2025 : risque d’aspiration sous anesthésie générale ou sédation profonde\n[10] Andersen E, et al. Hum Reprod. 2022;37(7):1414-22. PMID 35580859\n[11] Peel A, et al. Hum Reprod Update. 2026;32(2):154-80. PMID 41065428\n\n💬 Akışınızda bu tür videolara rastladınız mı? Sorunuzu yorumlara yazın; kişisel tıbbi bilgilerinizi paylaşmayın.\n🔔 Tüp bebek sürecinizi daha iyi anlamak ve doktorunuza sorularınızı hazırlamak için abone olun.\n🌍 Türkçe altyazı mevcuttur; videonun orijinal sesi Fransızcadır.\n\nDaha fazla bilgi için:\n📱 WhatsApp: +90 507 380 28 05\n🌐 Web sitesi: www.draksoyivf.com\n\n⚕️ ÖNEMLİ TIBBİ UYARI\n\nBu videoda sunulan bilgiler yalnızca eğitim ve bilgilendirme amaçlıdır. Hiçbir şekilde tıbbi görüş, tanı ya da kişiye özel tedavi önerisi niteliği taşımaz.\n\nHer tıbbi durum kendine özgüdür. Burada ele alınan içerikler; nitelikli bir hekim, jinekolog ya da üreme tıbbı uzmanıyla yapılacak bir görüşmenin yerini tutmaz.\n\nTedavinizi yürüten hekime ya da uzmanınıza önceden danışmadan, bu videodaki bilgilere dayanarak mevcut tedavinizi asla değiştirmeyin, yeni bir tedaviye başlamayın ve hiçbir tıbbi karar vermeyin.\n\nÜreme sağlığınız ya da tüp bebek tedaviniz hakkında sorularınız varsa lütfen nitelikli bir sağlık profesyoneline başvurun.\n\n© Doç. Dr. Senai Aksoy — Tüm hakları saklıdır.\n\n#TüpBebek #Doğurganlık #PKOS",
+ "cues": [
+  {
+   "i": 1,
+   "text": "Saat gece 1.30, yataktasınız,"
+  },
+  {
+   "i": 2,
+   "text": "ve telefonda o meşhur başparmak antrenmanı başlıyor."
+  },
+  {
+   "i": 3,
+   "text": "İlk videoyu açıyorsunuz, biri elinde bir enjeksiyon kalemi"
+  },
+  {
+   "i": 4,
+   "text": "tutuyor ve anlatıyor."
+  },
+  {
+   "i": 5,
+   "text": "“Tek iğne, sıfır iştah, yarı yarıya eridim.”"
+  },
+  {
+   "i": 6,
+   "text": "Başparmakla yukarı doğru küçük bir kaydırma,"
+  },
+  {
+   "i": 7,
+   "text": "hop, ikinci video: “Bu kalemi kullandım."
+  },
+  {
+   "i": 8,
+   "text": "Sürpriz, hamile kaldım.”"
+  },
+  {
+   "i": 9,
+   "text": "Dikkat edin, bu iki video arasında"
+  },
+  {
+   "i": 10,
+   "text": "yalnızca tek bir başparmak hareketi var."
+  },
+  {
+   "i": 11,
+   "text": "0,2 saniye."
+  },
+  {
+   "i": 12,
+   "text": "Bunu izleyince insan hemen şöyle düşünüyor:"
+  },
+  {
+   "i": 13,
+   "text": "“Tamam işte, mesele çözüldü: iğneyi yap, doğur.”"
+  },
+  {
+   "i": 14,
+   "text": "Ama bilimsel açıdan bu bağı kurmak, bir ekran kaydırmasından"
+  },
+  {
+   "i": 15,
+   "text": "biraz daha fazla emek ister."
+  },
+  {
+   "i": 16,
+   "text": "GLP-1 ailesindeki ilaçlar gerçekten de"
+  },
+  {
+   "i": 17,
+   "text": "bazı kadınlarda gebelik şansına dolaylı yoldan katkı sağlayabilir."
+  },
+  {
+   "i": 18,
+   "text": "Ama bunlar kesinlikle doğrudan bir kısırlık tedavisi değildir."
+  },
+  {
+   "i": 19,
+   "text": "Ve gebelik sırasında kullanılmazlar."
+  },
+  {
+   "i": 20,
+   "text": "Ben Dr. Senai Aksoy."
+  },
+  {
+   "i": 21,
+   "text": "Bugün bu meşhur iğneler ile"
+  },
+  {
+   "i": 22,
+   "text": "doğurganlık arasındaki gerçek bağa ve özellikle"
+  },
+  {
+   "i": 23,
+   "text": "bebek planlarken nelere dikkat etmek gerektiğine birlikte bakalım."
+  },
+  {
+   "i": 24,
+   "text": "Baştan başlayalım."
+  },
+  {
+   "i": 25,
+   "text": "GLP-1 nedir?"
+  },
+  {
+   "i": 26,
+   "text": "Adı biraz yeni çıkmış hibrit bir otomobil modeli gibi duruyor,"
+  },
+  {
+   "i": 27,
+   "text": "ama aslında vücudumuzun ürettiği doğal bir hormondur,"
+  },
+  {
+   "i": 28,
+   "text": "yemeklerden sonra salınır."
+  },
+  {
+   "i": 29,
+   "text": "Tokluk hissinde ve kan şekerinin düzenlenmesinde kilit rol oynar,"
+  },
+  {
+   "i": 30,
+   "text": "beyne çok basit bir mesaj göndererek:"
+  },
+  {
+   "i": 31,
+   "text": "“Tamam şef, doyduk."
+  },
+  {
+   "i": 32,
+   "text": "Çatalı yavaşça bırak, şeker kontrol altında.”"
+  },
+  {
+   "i": 33,
+   "text": "Semaglutid ve"
+  },
+  {
+   "i": 34,
+   "text": "liraglutid gibi ilaçlar, bu hormonun resmî dublörleri gibi çalışır."
+  },
+  {
+   "i": 35,
+   "text": "Onun etkisini taklit ederler."
+  },
+  {
+   "i": 36,
+   "text": "Tirzepatid ise takım hâlinde geliyor."
+  },
+  {
+   "i": 37,
+   "text": "GLP-1'e ek olarak, GIP adlı başka bir hormonun etkisinden de yararlanır."
+  },
+  {
+   "i": 38,
+   "text": "Uygun kişilerde kilo yönetimine ve"
+  },
+  {
+   "i": 39,
+   "text": "kan şekeri kontrolüne yardımcı olabilir."
+  },
+  {
+   "i": 40,
+   "text": "Çok güzel."
+  },
+  {
+   "i": 41,
+   "text": "Peki buradan gebeliğe nasıl geçiyoruz?"
+  },
+  {
+   "i": 42,
+   "text": "Her şey özellikle polikistik over sendromunda,"
+  },
+  {
+   "i": 43,
+   "text": "yani o meşhur PKOS'ta düğümleniyor."
+  },
+  {
+   "i": 44,
+   "text": "PKOS'lu bazı kadınlarda,"
+  },
+  {
+   "i": 45,
+   "text": "insülin direnci ve yumurtlama bozuklukları"
+  },
+  {
+   "i": 46,
+   "text": "el ele yürür."
+  },
+  {
+   "i": 47,
+   "text": "İnsülin direnci, insülinin hücrenin kapısını"
+  },
+  {
+   "i": 48,
+   "text": "çalması ve içeriden kimsenin cevap vermemesidir."
+  },
+  {
+   "i": 49,
+   "text": "Vücut insüline yeterince yanıt vermez."
+  },
+  {
+   "i": 50,
+   "text": "Metabolik durum ve kilo yönetimi düzeldiğinde,"
+  },
+  {
+   "i": 51,
+   "text": "bu iç kaos yatışır."
+  },
+  {
+   "i": 52,
+   "text": "Bazı kadınlarda adetler yeniden daha düzenli hâle gelir ve"
+  },
+  {
+   "i": 53,
+   "text": "yumurtalıklar kendi kendine der ki: “Bak, ortalık sakinleşti,"
+  },
+  {
+   "i": 54,
+   "text": "yumurtlamaya mı başlasak?”"
+  },
+  {
+   "i": 55,
+   "text": "Gebelik şansına katkı,"
+  },
+  {
+   "i": 56,
+   "text": "en azından kısmen, buradan gelebilir."
+  },
+  {
+   "i": 57,
+   "text": "Ama klasik kestirmeye dikkat:"
+  },
+  {
+   "i": 58,
+   "text": "PKOS'lu kadınların hepsi fazla kilolu değildir,"
+  },
+  {
+   "i": 59,
+   "text": "fazla kilolu kadınların hepsinde de yumurtlama sorunu yoktur."
+  },
+  {
+   "i": 60,
+   "text": "Dolayısıyla şu otomatik denklemi kuramayız:"
+  },
+  {
+   "i": 61,
+   "text": "“PKOS'um var, o hâlde bu iğneye ihtiyacım var.”"
+  },
+  {
+   "i": 62,
+   "text": "Peki, çalışmalar umut verici mi?"
+  },
+  {
+   "i": 63,
+   "text": "Bazıları, evet."
+  },
+  {
+   "i": 64,
+   "text": "PKOS'lu kadınlarda,"
+  },
+  {
+   "i": 65,
+   "text": "bazı araştırmalar adet döngüsünün düzeninde iyileşme gösteriyor,"
+  },
+  {
+   "i": 66,
+   "text": "kendiliğinden gebelik oranlarında da."
+  },
+  {
+   "i": 67,
+   "text": "Ancak bu çalışmaların bir kısmı küçük örneklemlerle yapılmış,"
+  },
+  {
+   "i": 68,
+   "text": "farklı ilaçlar ve farklı ek tedavilerle."
+  },
+  {
+   "i": 69,
+   "text": "Ve sosyal medyada tek bir kişinin"
+  },
+  {
+   "i": 70,
+   "text": "bu ilacı aldıktan sonra hamile kalması, yumurta kalitesinin"
+  },
+  {
+   "i": 71,
+   "text": "arttığını doğrudan kanıtlamaz."
+  },
+  {
+   "i": 72,
+   "text": "Bu bilimsel bir kanıt değil."
+  },
+  {
+   "i": 73,
+   "text": "Bu, kahve makinesi başında yapılan bir sohbet."
+  },
+  {
+   "i": 74,
+   "text": "Zaten sonuçların hepsi aynı yönü göstermiyor."
+  },
+  {
+   "i": 75,
+   "text": "2026'da yayımlanan bir kayıt çalışmasında,"
+  },
+  {
+   "i": 76,
+   "text": "kısırlığı fazla kilo ya da obeziteyle ilişkili kadınlarda,"
+  },
+  {
+   "i": 77,
+   "text": "semaglutid kullanımı şununla ilişkili bulundu:"
+  },
+  {
+   "i": 78,
+   "text": "daha düşük gebelik ve canlı doğum oranları."
+  },
+  {
+   "i": 79,
+   "text": "Aceleci sonuç yok: bu gözlemsel bir çalışma."
+  },
+  {
+   "i": 80,
+   "text": "Dolayısıyla ilacın doğrudan neden olduğunu söyleyemeyiz."
+  },
+  {
+   "i": 81,
+   "text": "Tedavi takvimi ve gebeliğin isteyerek ertelenmesi gibi faktörler"
+  },
+  {
+   "i": 82,
+   "text": "bu sonuçları pekâlâ etkilemiş olabilir."
+  },
+  {
+   "i": 83,
+   "text": "Karıştırmamak gerekir: düzenli döngülere kavuşmak,"
+  },
+  {
+   "i": 84,
+   "text": "yumurtlamak, pozitif gebelik testi almak ve canlı doğuma"
+  },
+  {
+   "i": 85,
+   "text": "ulaşmak birbirinden çok farklı sonuçlardır."
+  },
+  {
+   "i": 86,
+   "text": "Bu gözlemleri tüm kadınlara,"
+  },
+  {
+   "i": 87,
+   "text": "tüm GLP-1 ilaçlarına ya da tüp bebeğe genelleyemeyiz."
+  },
+  {
+   "i": 88,
+   "text": "Güçlü ve yeterli bir kanıtımız yok;"
+  },
+  {
+   "i": 89,
+   "text": "GLP-1 agonistlerinin tüp bebekte canlı doğum şansını artırdığına dair."
+  },
+  {
+   "i": 90,
+   "text": "PKOS'a ilişkin 2023 tarihli uluslararası kılavuz da zaten"
+  },
+  {
+   "i": 91,
+   "text": "bu ayrımı açıkça yapıyor."
+  },
+  {
+   "i": 92,
+   "text": "Bu ilaçlar kilo yönetimi için"
+  },
+  {
+   "i": 93,
+   "text": "uygun kişilerde düşünülebilir; ama doğurganlığı iyileştirme amaçlı"
+  },
+  {
+   "i": 94,
+   "text": "PKOS'ta kullanımları araştırma çerçevesiyle sınırlı kalır."
+  },
+  {
+   "i": 95,
+   "text": "Klinik karar uygun bir tıbbi endikasyona dayanmalı:"
+  },
+  {
+   "i": 96,
+   "text": "kilo yönetimi ya da diyabet gibi."
+  },
+  {
+   "i": 97,
+   "text": "PKOS'ta gebelik olmaması yalnızca"
+  },
+  {
+   "i": 98,
+   "text": "yumurtlama olmamasına bağlıysa ve başka bir kısırlık nedeni saptanmadıysa,"
+  },
+  {
+   "i": 99,
+   "text": "birinci basamakta önerilen yumurtlama uyarıcı tedavi,"
+  },
+  {
+   "i": 100,
+   "text": "tıbbi kılavuzlara göre letrozoldür."
+  },
+  {
+   "i": 101,
+   "text": "Şimdi çok önemli bir noktaya geliyoruz."
+  },
+  {
+   "i": 102,
+   "text": "Bazı hastalar içinden rahatça şöyle der:"
+  },
+  {
+   "i": 103,
+   "text": "“Hocam, üç ayda bir adet görüyorum,"
+  },
+  {
+   "i": 104,
+   "text": "hamile kalma riskim yok.”"
+  },
+  {
+   "i": 105,
+   "text": "Sakın böyle düşünmeyin."
+  },
+  {
+   "i": 106,
+   "text": "Vücut önce yumurtlar, adet sonra gelir."
+  },
+  {
+   "i": 107,
+   "text": "Yumurtlama yeniden başladığında yumurtalıklarınız size SMS atmaz."
+  },
+  {
+   "i": 108,
+   "text": "Gebelik hiç beklenmedik bir anda olabilir."
+  },
+  {
+   "i": 109,
+   "text": "Oysa yeterli insan verimiz yok;"
+  },
+  {
+   "i": 110,
+   "text": "bu ilaçların gebelikte güvenli olduğunu söyleyecek kadar."
+  },
+  {
+   "i": 111,
+   "text": "Bu yüzden etkili doğum kontrolü şarttır: tedavi süresince ve"
+  },
+  {
+   "i": 112,
+   "text": "her ilaca özgü bırakma döneminde."
+  },
+  {
+   "i": 113,
+   "text": "Takvim nasıl?"
+  },
+  {
+   "i": 114,
+   "text": "Semaglutidin, planlanan gebelikten en az iki ay önce"
+  },
+  {
+   "i": 115,
+   "text": "bırakılması önerilir."
+  },
+  {
+   "i": 116,
+   "text": "Tirzepatid için bu süre en az bir aydır."
+  },
+  {
+   "i": 117,
+   "text": "Kullanılan ilaç, son dozun tarihi ve denemelere"
+  },
+  {
+   "i": 118,
+   "text": "tam olarak ne zaman başlanacağı, reçeteyi yazan hekimle netleştirilmelidir."
+  },
+  {
+   "i": 119,
+   "text": "Diyabetiniz varsa, gebeliğe uygun bir"
+  },
+  {
+   "i": 120,
+   "text": "kan şekeri tedavisi mutlaka planlanmalıdır."
+  },
+  {
+   "i": 121,
+   "text": "Tirzepatid kullananlar için"
+  },
+  {
+   "i": 122,
+   "text": "çok önemli bir ayrıntı var, özellikle"
+  },
+  {
+   "i": 123,
+   "text": "fazla kilolu ve obezitesi olan kişilerde."
+  },
+  {
+   "i": 124,
+   "text": "Doğum kontrol hapının etkinliği azalabilir."
+  },
+  {
+   "i": 125,
+   "text": "Bu ilaçlar midenin boşalmasını değiştirdiği için,"
+  },
+  {
+   "i": 126,
+   "text": "hapın emilimi düşebilir."
+  },
+  {
+   "i": 127,
+   "text": "Bu nedenle ek bir yöntem kullanılması önerilir,"
+  },
+  {
+   "i": 128,
+   "text": "hapa ek olarak prezervatif gibi."
+  },
+  {
+   "i": 129,
+   "text": "Tedaviye başladıktan sonraki dört hafta boyunca ve"
+  },
+  {
+   "i": 130,
+   "text": "her doz artışından sonraki dört hafta boyunca; ya da"
+  },
+  {
+   "i": 131,
+   "text": "ağızdan alınmayan bir doğum kontrol yöntemine geçmek."
+  },
+  {
+   "i": 132,
+   "text": "Dikkat, bu uyarı aynı değildir"
+  },
+  {
+   "i": 133,
+   "text": "tüm GLP-1 ilaçları için."
+  },
+  {
+   "i": 134,
+   "text": "Peki tedavi sırasında gebelik testi pozitif çıkarsa?"
+  },
+  {
+   "i": 135,
+   "text": "Hemen reçeteyi yazan hekime ve jinekoloğunuza başvurun."
+  },
+  {
+   "i": 136,
+   "text": "Bu ilaca gebelikte devam edilmez."
+  },
+  {
+   "i": 137,
+   "text": "Ama ilaca maruz kalmış olmak, bebeğin"
+  },
+  {
+   "i": 138,
+   "text": "mutlaka zarar gördüğü anlamına gelmez."
+  },
+  {
+   "i": 139,
+   "text": "Mevcut insan verileri bazı açılardan güven verici,"
+  },
+  {
+   "i": 140,
+   "text": "ama gebelik güvenliğini garanti edecek kadar sağlam değil."
+  },
+  {
+   "i": 141,
+   "text": "O zaman kullanılan ilaç,"
+  },
+  {
+   "i": 142,
+   "text": "doz ve ilacın gebeliğin hangi evresinde alındığı değerlendirilir."
+  },
+  {
+   "i": 143,
+   "text": "Diyabetiniz varsa, gecikmeden alternatif bir tedaviye geçilir."
+  },
+  {
+   "i": 144,
+   "text": "Tüp bebekten önce yaş,"
+  },
+  {
+   "i": 145,
+   "text": "yumurtalık rezervi, kısırlığın nedeni ve"
+  },
+  {
+   "i": 146,
+   "text": "beklemenin doğurganlığa etkisi birlikte değerlendirilmelidir."
+  },
+  {
+   "i": 147,
+   "text": "Herkese “önce kilo verin,"
+  },
+  {
+   "i": 148,
+   "text": "tedaviye sonra bakarız” demek doğru değil."
+  },
+  {
+   "i": 149,
+   "text": "Bazı kişilerde metabolik hazırlık yerindedir."
+  },
+  {
+   "i": 150,
+   "text": "Bazılarında ise tedaviyi uzun süre geciktirmek uygun değildir."
+  },
+  {
+   "i": 151,
+   "text": "Kilonuz, karnedeki bir not değildir;"
+  },
+  {
+   "i": 152,
+   "text": "tedaviyi hak edip etmediğinizi belirlemez."
+  },
+  {
+   "i": 153,
+   "text": "Ve yumurta toplama işlemi planlanıyorsa,"
+  },
+  {
+   "i": 154,
+   "text": "tedavinizi mutlaka tüp bebek ekibine ve"
+  },
+  {
+   "i": 155,
+   "text": "anestezi uzmanına bildirin."
+  },
+  {
+   "i": 156,
+   "text": "Asla şöyle düşünmeyin: “Bu sadece benim kalemim,"
+  },
+  {
+   "i": 157,
+   "text": "tabii ki söylemeye gerek yok.”"
+  },
+  {
+   "i": 158,
+   "text": "Bu ilaçlar mide boşalmasını yavaşlatır."
+  },
+  {
+   "i": 159,
+   "text": "Sekiz saattir aç olsanız bile,"
+  },
+  {
+   "i": 160,
+   "text": "mide boş olmayabilir; bu da sedasyon ya da"
+  },
+  {
+   "i": 161,
+   "text": "anestezi sırasında hayati önem taşır."
+  },
+  {
+   "i": 162,
+   "text": "Gebelik için bırakma planı ile anestezi öncesi protokoller"
+  },
+  {
+   "i": 163,
+   "text": "iki farklı şeydir."
+  },
+  {
+   "i": 164,
+   "text": "Kişiye özel planınızı ekibiniz belirlesin."
+  },
+  {
+   "i": 165,
+   "text": "Bir de erkekler var."
+  },
+  {
+   "i": 166,
+   "text": "Beyler, bu videoyu kanepenin köşesinden izleyip şunu demeyin:"
+  },
+  {
+   "i": 167,
+   "text": "“Gördün mü canım, doktor sana söylüyor.”"
+  },
+  {
+   "i": 168,
+   "text": "Obezitesi olan erkeklerde,"
+  },
+  {
+   "i": 169,
+   "text": "beslenme ve fiziksel aktivite gibi"
+  },
+  {
+   "i": 170,
+   "text": "yaşam tarzı değişiklikleri bazı sperm parametrelerini iyileştirebilir."
+  },
+  {
+   "i": 171,
+   "text": "GLP-1 ilaçları üzerine de araştırmalar var,"
+  },
+  {
+   "i": 172,
+   "text": "ama kanıtlar sınırlı kalıyor."
+  },
+  {
+   "i": 173,
+   "text": "Bugün bu ilaçları"
+  },
+  {
+   "i": 174,
+   "text": "kanıtlanmış bir erkek kısırlığı tedavisi olarak sunamayız."
+  },
+  {
+   "i": 175,
+   "text": "Yan etkiler, örneğin bulantı,"
+  },
+  {
+   "i": 176,
+   "text": "kusma ve sindirim sorunları"
+  },
+  {
+   "i": 177,
+   "text": "da ortaya çıkabilir."
+  },
+  {
+   "i": 178,
+   "text": "Kilonun geri alınması da mümkündür,"
+  },
+  {
+   "i": 179,
+   "text": "ne yazık ki ilacı bıraktıktan sonra."
+  },
+  {
+   "i": 180,
+   "text": "Bu yüzden beslenme, fiziksel aktivite,"
+  },
+  {
+   "i": 181,
+   "text": "metabolik takip ve gebeliğe geçiş"
+  },
+  {
+   "i": 182,
+   "text": "birlikte planlanmalıdır."
+  },
+  {
+   "i": 183,
+   "text": "Özetle, şu üç noktayı doktorunuzla netleştirin."
+  },
+  {
+   "i": 184,
+   "text": "1. Bu ilaca tıbben neden ihtiyacım var?"
+  },
+  {
+   "i": 185,
+   "text": "2. Gebelik denemelerinden önce ilacı ne zaman bırakmalıyım,"
+  },
+  {
+   "i": 186,
+   "text": "ve bu süreçte doğum kontrolümü nasıl sağlarım?"
+  },
+  {
+   "i": 187,
+   "text": "3. Bu, doğurganlık tedavimin takvimini nasıl etkiler?"
+  },
+  {
+   "i": 188,
+   "text": "Son olarak, bu içerik bilgilendirme amaçlıdır"
+  },
+  {
+   "i": 189,
+   "text": "ve bireysel tıbbi değerlendirmenin yerini tutmaz."
+  },
+  {
+   "i": 190,
+   "text": "Ciao!"
+  }
+ ]
+}

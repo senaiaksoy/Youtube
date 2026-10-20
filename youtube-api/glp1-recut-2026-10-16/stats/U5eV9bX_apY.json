@@ -1,0 +1,81 @@
+{
+  "kind": "youtube#video",
+  "etag": "yaZNMXbBVWOJ_5OABcRZDIPYAGk",
+  "id": "U5eV9bX_apY",
+  "snippet": {
+    "publishedAt": "2026-07-11T14:47:41Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "Dossier médical FIV : Récupérez vos embryons ! #shorts",
+    "description": "Changer de clinique pour un 2ème avis FIV ? Récupérer l'intégralité de votre dossier médical (y compris le développement embryonnaire) est votre droit le plus strict ! Le Dr. Senai Aksoy vous explique pourquoi vous devez absolument récupérer vos embryons avant de recommencer.\n\n🎬 Vidéo complète → https://www.youtube.com/watch?v=x8VzlUmEQEw\n📌 Plus d'informations → https://draksoyivf.com/?utm_source=youtube&utm_medium=shorts&utm_campaign=deuxieme-avis-dossier\n\n⚠️ Contenu informatif. Ne remplace pas une évaluation médicale individuelle.\n\n#FIV #PMA #Fertilité #DeuxiemeAvis #Embryologie #Shorts",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/U5eV9bX_apY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/U5eV9bX_apY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/U5eV9bX_apY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/U5eV9bX_apY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/U5eV9bX_apY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "tags": [
+      "FIV",
+      "PMA",
+      "Senai Aksoy",
+      "Shorts",
+      "deuxième avis FIV",
+      "dossier FIV",
+      "dossier embryologique",
+      "dossier médical",
+      "fertilité",
+      "infertilité"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "Dossier médical FIV : Récupérez vos embryons ! #shorts",
+      "description": "Changer de clinique pour un 2ème avis FIV ? Récupérer l'intégralité de votre dossier médical (y compris le développement embryonnaire) est votre droit le plus strict ! Le Dr. Senai Aksoy vous explique pourquoi vous devez absolument récupérer vos embryons avant de recommencer.\n\n🎬 Vidéo complète → https://www.youtube.com/watch?v=x8VzlUmEQEw\n📌 Plus d'informations → https://draksoyivf.com/?utm_source=youtube&utm_medium=shorts&utm_campaign=deuxieme-avis-dossier\n\n⚠️ Contenu informatif. Ne remplace pas une évaluation médicale individuelle.\n\n#FIV #PMA #Fertilité #DeuxiemeAvis #Embryologie #Shorts"
+    },
+    "defaultAudioLanguage": "fr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "843",
+    "likeCount": "5",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "3"
+  },
+  "localizations": {
+    "fr": {
+      "title": "Dossier médical FIV : Récupérez vos embryons ! #shorts",
+      "description": "Changer de clinique pour un 2ème avis FIV ? Récupérer l'intégralité de votre dossier médical (y compris le développement embryonnaire) est votre droit le plus strict ! Le Dr. Senai Aksoy vous explique pourquoi vous devez absolument récupérer vos embryons avant de recommencer.\n\n🎬 Vidéo complète → https://www.youtube.com/watch?v=x8VzlUmEQEw\n📌 Plus d'informations → https://draksoyivf.com/?utm_source=youtube&utm_medium=shorts&utm_campaign=deuxieme-avis-dossier\n\n⚠️ Contenu informatif. Ne remplace pas une évaluation médicale individuelle.\n\n#FIV #PMA #Fertilité #DeuxiemeAvis #Embryologie #Shorts"
+    }
+  }
+}

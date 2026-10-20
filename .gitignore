@@ -124,3 +124,16 @@ youtube-api/upload-*-after*.json
 youtube-content/subtitles-review/work/shorts_tmp/
 youtube-content/subtitles-review/work/shorts_en_tmp/
 youtube-content/subtitles-review/work/thumb_ar/final.png
+
+# render/upload media in youtube workspaces (local only, not for git)
+youtube-api/**/*.mp4
+youtube-api/**/*.mov
+youtube-api/**/*.jpg
+youtube-api/**/*.png
+youtube-api/**/*.wav
+youtube-api/**/*.mp3
+youtube-content/**/*.mp4
+youtube-content/**/*.jpg
+youtube-content/**/*.png
+youtube-content/**/*.wav
+youtube-content/**/*.woff2

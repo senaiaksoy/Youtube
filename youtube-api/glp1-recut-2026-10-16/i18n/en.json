@@ -1,0 +1,767 @@
+{
+ "lang": "en",
+ "title": "Weight-Loss Injection Pens and Pregnancy: Do They Really Help You Get Pregnant?",
+ "description": "“One shot, zero appetite…” then “surprise, I got pregnant”: on social media, the link between weight-loss injections and pregnancy seems obvious. Dr. Senai Aksoy, associate professor of reproductive medicine, looks at what studies actually show about GLP-1 family medications (semaglutide, liraglutide, tirzepatide) and fertility.\n\nThese medications may contribute indirectly to pregnancy chances in some women, particularly those with PCOS. But they are not direct infertility treatments, and they are not used during pregnancy. We also cover how long to stop them before a planned pregnancy, contraception, egg retrieval and anesthesia, and what is known in men.\n\n⏱️ CHAPTERS\n00:00 One shot, one pregnancy? The social media shortcut\n01:38 What is GLP-1?\n02:54 PCOS: weight, insulin and ovulation\n04:16 What do the studies say?\n05:02 A registry study published in 2026\n06:07 What about IVF?\n07:30 Contraception: a crucial point\n08:18 How long to stop before a pregnancy?\n08:54 Tirzepatide and the birth control pill\n09:49 Positive pregnancy test during treatment\n10:37 Before IVF: assess everything together\n11:19 Egg retrieval and anesthesia\n12:04 What about men?\n12:46 Side effects and weight regain\n13:12 Three questions to ask your doctor\n\n❓ THE THREE QUESTIONS TO ASK YOUR DOCTOR\n1. Why do I medically need this medication?\n2. When should I stop it before trying for a baby, and how do I protect myself during that time?\n3. How does this affect the timeline of my fertility treatment?\n\n📚 REFERENCES (numbered as on screen)\n[1] Zhou L, et al. BMC Endocr Disord. 2023;23(1):245. Méta-analyse, 11 essais randomisés, n = 840. PMID 37940910\n[2] Wu YC, et al. Reprod Biol Endocrinol. 2026;24(1). Cohorte rétrospective multicentrique, n = 1 936. PMID 42001071\n[3] Teede HJ, et al. Recommandations internationales sur le SOPK, 2023 (§ 5.3.1, § 5.9.1)\n[4] EMA. Sémaglutide (gestion du poids), résumé des caractéristiques du produit, § 4.6\n[5] Tirzépatide, résumé des caractéristiques du produit (Royaume-Uni), § 4.5–4.6\n[6] MHRA (Royaume-Uni). GLP-1 medicines: what you need to know\n[7] Lau KGY, et al. BJOG. 2026. PMID 42830218\n[8] Dao K, et al. BMJ Open. 2024;14(4):e083550. PMID 38663923\n[9] MHRA. Drug Safety Update, janvier 2025 : risque d’aspiration sous anesthésie générale ou sédation profonde\n[10] Andersen E, et al. Hum Reprod. 2022;37(7):1414-22. PMID 35580859\n[11] Peel A, et al. Hum Reprod Update. 2026;32(2):154-80. PMID 41065428\n\n💬 Have you seen this kind of video in your feed? Ask your question in the comments, without posting personal medical data.\n🔔 Subscribe to better understand your IVF journey and prepare your questions for your doctor.\n🌍 Subtitles are available; the original audio is in French.\n\nFor more information:\n📱 WhatsApp: +90 507 380 28 05\n🌐 Website: www.draksoyivf.com\n\n⚕️ IMPORTANT MEDICAL DISCLAIMER\n\nThe information presented in this video is provided for educational and informational purposes only. It does not constitute medical advice, a diagnosis or a personalized treatment recommendation in any way.\n\nEvery medical situation is unique. The content covered here does not replace a consultation with a qualified physician, a gynecologist or a reproductive medicine specialist.\n\nNever change your current medical treatment, start a new treatment or make any medical decision based on the information in this video without first consulting your doctor or specialist.\n\nIf you have questions about your reproductive health or your IVF care, please consult a qualified healthcare professional.\n\n© Assoc. Prof. Dr. Senai Aksoy — All rights reserved.\n\n#IVF #Fertility #PCOS",
+ "cues": [
+  {
+   "i": 1,
+   "text": "It's 1:30 in the morning, you're in bed,"
+  },
+  {
+   "i": 2,
+   "text": "and the classic late-night thumb workout begins on your phone."
+  },
+  {
+   "i": 3,
+   "text": "You open a first video: someone is holding an injector pen in their"
+  },
+  {
+   "i": 4,
+   "text": "hand and says:"
+  },
+  {
+   "i": 5,
+   "text": "“One shot, zero appetite, I melted in half.”"
+  },
+  {
+   "i": 6,
+   "text": "One little flick of the thumb upward,"
+  },
+  {
+   "i": 7,
+   "text": "and bam, second video: “I used this pen."
+  },
+  {
+   "i": 8,
+   "text": "Surprise, I got pregnant.”"
+  },
+  {
+   "i": 9,
+   "text": "Look closely: between these two videos,"
+  },
+  {
+   "i": 10,
+   "text": "there is only one thumb movement."
+  },
+  {
+   "i": 11,
+   "text": "0.2 seconds."
+  },
+  {
+   "i": 12,
+   "text": "Watching that, you immediately think:"
+  },
+  {
+   "i": 13,
+   "text": "“Well, that's settled: take the shot, have the baby.”"
+  },
+  {
+   "i": 14,
+   "text": "But scientifically, establishing that link takes a tiny"
+  },
+  {
+   "i": 15,
+   "text": "bit more work than swiping a screen."
+  },
+  {
+   "i": 16,
+   "text": "Medications in the GLP-1 family can indeed contribute"
+  },
+  {
+   "i": 17,
+   "text": "indirectly to pregnancy chances in some women."
+  },
+  {
+   "i": 18,
+   "text": "But they are absolutely not direct infertility treatments."
+  },
+  {
+   "i": 19,
+   "text": "And they are not used during pregnancy."
+  },
+  {
+   "i": 20,
+   "text": "I'm Dr. Senai Aksoy."
+  },
+  {
+   "i": 21,
+   "text": "Today, let's look together at the real link between these famous injections"
+  },
+  {
+   "i": 22,
+   "text": "and fertility, and above all what to watch out for when"
+  },
+  {
+   "i": 23,
+   "text": "planning a baby."
+  },
+  {
+   "i": 24,
+   "text": "Let's start from the beginning."
+  },
+  {
+   "i": 25,
+   "text": "What is GLP-1?"
+  },
+  {
+   "i": 26,
+   "text": "The name sounds a bit like the latest model of a hybrid car,"
+  },
+  {
+   "i": 27,
+   "text": "but in reality, it's a natural hormone our body produces"
+  },
+  {
+   "i": 28,
+   "text": "after meals."
+  },
+  {
+   "i": 29,
+   "text": "It plays a key role in fullness and blood sugar regulation,"
+  },
+  {
+   "i": 30,
+   "text": "by sending a very simple message to the brain:"
+  },
+  {
+   "i": 31,
+   "text": "“All good, boss, we're full."
+  },
+  {
+   "i": 32,
+   "text": "Put the fork down gently, blood sugar is under control.”"
+  },
+  {
+   "i": 33,
+   "text": "Medications like semaglutide and"
+  },
+  {
+   "i": 34,
+   "text": "liraglutide act as the official stunt doubles of this hormone."
+  },
+  {
+   "i": 35,
+   "text": "They mimic its action."
+  },
+  {
+   "i": 36,
+   "text": "Tirzepatide, for its part, shows up as a team."
+  },
+  {
+   "i": 37,
+   "text": "In addition to GLP-1, it draws on the effect of another hormone called GIP."
+  },
+  {
+   "i": 38,
+   "text": "In eligible people, it can help with weight management and"
+  },
+  {
+   "i": 39,
+   "text": "blood sugar control."
+  },
+  {
+   "i": 40,
+   "text": "Very good."
+  },
+  {
+   "i": 41,
+   "text": "But how do we get from there to a pregnancy?"
+  },
+  {
+   "i": 42,
+   "text": "Much of it plays out in polycystic ovary syndrome,"
+  },
+  {
+   "i": 43,
+   "text": "the famous PCOS."
+  },
+  {
+   "i": 44,
+   "text": "In some women with PCOS,"
+  },
+  {
+   "i": 45,
+   "text": "insulin resistance and ovulation problems walk"
+  },
+  {
+   "i": 46,
+   "text": "hand in hand."
+  },
+  {
+   "i": 47,
+   "text": "Insulin resistance is when insulin knocks on the"
+  },
+  {
+   "i": 48,
+   "text": "cell's door and nobody answers from inside."
+  },
+  {
+   "i": 49,
+   "text": "The body doesn't respond enough to insulin."
+  },
+  {
+   "i": 50,
+   "text": "When metabolic health and weight management improve,"
+  },
+  {
+   "i": 51,
+   "text": "that inner chaos settles down."
+  },
+  {
+   "i": 52,
+   "text": "In some women, periods become more regular and the"
+  },
+  {
+   "i": 53,
+   "text": "ovaries say, “Hey, it's calm again in here, how about we"
+  },
+  {
+   "i": 54,
+   "text": "start ovulating?”"
+  },
+  {
+   "i": 55,
+   "text": "The contribution to pregnancy chances,"
+  },
+  {
+   "i": 56,
+   "text": "at least in part, may come from there."
+  },
+  {
+   "i": 57,
+   "text": "But beware of the classic shortcut:"
+  },
+  {
+   "i": 58,
+   "text": "not all women with PCOS are overweight,"
+  },
+  {
+   "i": 59,
+   "text": "and not all overweight women have an ovulation problem."
+  },
+  {
+   "i": 60,
+   "text": "So we can't set up the automatic equation"
+  },
+  {
+   "i": 61,
+   "text": "“I have PCOS, so I need this injection.”"
+  },
+  {
+   "i": 62,
+   "text": "So, are the studies encouraging?"
+  },
+  {
+   "i": 63,
+   "text": "Some are, yes."
+  },
+  {
+   "i": 64,
+   "text": "In women with PCOS,"
+  },
+  {
+   "i": 65,
+   "text": "some research shows improved cycle regularity"
+  },
+  {
+   "i": 66,
+   "text": "and spontaneous pregnancy rates."
+  },
+  {
+   "i": 67,
+   "text": "But some of these studies involve small numbers of patients,"
+  },
+  {
+   "i": 68,
+   "text": "with different medications and add-on treatments."
+  },
+  {
+   "i": 69,
+   "text": "And the fact that one single person on social media gets pregnant"
+  },
+  {
+   "i": 70,
+   "text": "after taking this drug does not directly prove that egg"
+  },
+  {
+   "i": 71,
+   "text": "quality has improved."
+  },
+  {
+   "i": 72,
+   "text": "That is not scientific proof."
+  },
+  {
+   "i": 73,
+   "text": "That's coffee-machine chat."
+  },
+  {
+   "i": 74,
+   "text": "Besides, the results don't all point in the same direction."
+  },
+  {
+   "i": 75,
+   "text": "In a registry study published in 2026,"
+  },
+  {
+   "i": 76,
+   "text": "of women with infertility associated with overweight"
+  },
+  {
+   "i": 77,
+   "text": "or obesity, semaglutide use was associated"
+  },
+  {
+   "i": 78,
+   "text": "with lower pregnancy and live birth rates."
+  },
+  {
+   "i": 79,
+   "text": "No hasty conclusions: this is an observational study."
+  },
+  {
+   "i": 80,
+   "text": "So we cannot claim that the drug is the direct cause."
+  },
+  {
+   "i": 81,
+   "text": "Factors such as treatment timing and voluntarily postponing"
+  },
+  {
+   "i": 82,
+   "text": "pregnancy may well have influenced these results."
+  },
+  {
+   "i": 83,
+   "text": "Don't mix them up: getting regular cycles back,"
+  },
+  {
+   "i": 84,
+   "text": "ovulating, having a positive pregnancy test and achieving a live"
+  },
+  {
+   "i": 85,
+   "text": "birth are quite distinct outcomes."
+  },
+  {
+   "i": 86,
+   "text": "We cannot extrapolate these observations to all women,"
+  },
+  {
+   "i": 87,
+   "text": "to all GLP-1 medications, or to in vitro fertilization."
+  },
+  {
+   "i": 88,
+   "text": "We do not have strong and sufficient evidence showing that"
+  },
+  {
+   "i": 89,
+   "text": "GLP-1 agonists increase the chances of a live birth in IVF."
+  },
+  {
+   "i": 90,
+   "text": "The 2023 international PCOS guidelines actually make"
+  },
+  {
+   "i": 91,
+   "text": "this distinction clearly."
+  },
+  {
+   "i": 92,
+   "text": "These medications may be considered for weight management in"
+  },
+  {
+   "i": 93,
+   "text": "eligible people, but their use to improve"
+  },
+  {
+   "i": 94,
+   "text": "fertility outcomes in PCOS remains limited to research settings."
+  },
+  {
+   "i": 95,
+   "text": "The clinical decision must rest on an appropriate medical indication"
+  },
+  {
+   "i": 96,
+   "text": "such as weight management or diabetes."
+  },
+  {
+   "i": 97,
+   "text": "If not getting pregnant with PCOS is due solely to a lack"
+  },
+  {
+   "i": 98,
+   "text": "of ovulation, and no other cause of infertility is identified,"
+  },
+  {
+   "i": 99,
+   "text": "the first-line ovulation induction treatment recommended"
+  },
+  {
+   "i": 100,
+   "text": "by medical guidelines is letrozole."
+  },
+  {
+   "i": 101,
+   "text": "Now here is a crucial point."
+  },
+  {
+   "i": 102,
+   "text": "Some patients calmly tell themselves:"
+  },
+  {
+   "i": 103,
+   "text": "“Doctor, I get my period every three months,"
+  },
+  {
+   "i": 104,
+   "text": "I'm not at risk of getting pregnant.”"
+  },
+  {
+   "i": 105,
+   "text": "Don't think that at all."
+  },
+  {
+   "i": 106,
+   "text": "The body ovulates first; the period comes afterwards."
+  },
+  {
+   "i": 107,
+   "text": "When ovulation restarts, your ovaries don't send you a text to warn you."
+  },
+  {
+   "i": 108,
+   "text": "A pregnancy can happen at a completely unexpected moment."
+  },
+  {
+   "i": 109,
+   "text": "Yet we do not have sufficient human data to state"
+  },
+  {
+   "i": 110,
+   "text": "that these medications are safe during pregnancy."
+  },
+  {
+   "i": 111,
+   "text": "Effective contraception is therefore essential during treatment and"
+  },
+  {
+   "i": 112,
+   "text": "during the stopping period specific to each medication."
+  },
+  {
+   "i": 113,
+   "text": "What is the timeline?"
+  },
+  {
+   "i": 114,
+   "text": "For semaglutide, it is recommended to stop it at least two months"
+  },
+  {
+   "i": 115,
+   "text": "before a planned pregnancy."
+  },
+  {
+   "i": 116,
+   "text": "For tirzepatide, this interval is at least one month."
+  },
+  {
+   "i": 117,
+   "text": "The medication used, the date of the last dose and the exact timing of"
+  },
+  {
+   "i": 118,
+   "text": "when to start trying must be clarified with the prescribing doctor."
+  },
+  {
+   "i": 119,
+   "text": "And if you have diabetes, blood sugar treatment suited to"
+  },
+  {
+   "i": 120,
+   "text": "pregnancy absolutely must be planned."
+  },
+  {
+   "i": 121,
+   "text": "For those using tirzepatide,"
+  },
+  {
+   "i": 122,
+   "text": "there is a very important detail, especially in people with"
+  },
+  {
+   "i": 123,
+   "text": "overweight and obesity."
+  },
+  {
+   "i": 124,
+   "text": "The effectiveness of the birth control pill may decrease."
+  },
+  {
+   "i": 125,
+   "text": "Because these medications change how the stomach empties,"
+  },
+  {
+   "i": 126,
+   "text": "absorption of the pill can drop."
+  },
+  {
+   "i": 127,
+   "text": "So using an additional method is recommended,"
+  },
+  {
+   "i": 128,
+   "text": "such as a condom on top of the pill,"
+  },
+  {
+   "i": 129,
+   "text": "for the four weeks after starting treatment and for the"
+  },
+  {
+   "i": 130,
+   "text": "four weeks after each dose increase, or switching to"
+  },
+  {
+   "i": 131,
+   "text": "a non-oral contraceptive."
+  },
+  {
+   "i": 132,
+   "text": "Note: this warning is not the same for all"
+  },
+  {
+   "i": 133,
+   "text": "GLP-1 medications."
+  },
+  {
+   "i": 134,
+   "text": "And what if the pregnancy test turns positive during treatment?"
+  },
+  {
+   "i": 135,
+   "text": "Contact the prescribing doctor and your OB-GYN immediately."
+  },
+  {
+   "i": 136,
+   "text": "This medication is not continued during pregnancy."
+  },
+  {
+   "i": 137,
+   "text": "But having been exposed to the drug doesn't mean the baby has"
+  },
+  {
+   "i": 138,
+   "text": "necessarily been harmed."
+  },
+  {
+   "i": 139,
+   "text": "Available human data are reassuring in some respects,"
+  },
+  {
+   "i": 140,
+   "text": "but not robust enough to guarantee pregnancy safety."
+  },
+  {
+   "i": 141,
+   "text": "The medication used is then assessed,"
+  },
+  {
+   "i": 142,
+   "text": "along with the dose and the stage of pregnancy when it was taken."
+  },
+  {
+   "i": 143,
+   "text": "If you have diabetes, an alternative treatment is started without delay."
+  },
+  {
+   "i": 144,
+   "text": "Before in vitro fertilization, age,"
+  },
+  {
+   "i": 145,
+   "text": "ovarian reserve, the cause of infertility and the impact of"
+  },
+  {
+   "i": 146,
+   "text": "the waiting time on fertility must be assessed together."
+  },
+  {
+   "i": 147,
+   "text": "Telling everyone “lose weight first,"
+  },
+  {
+   "i": 148,
+   "text": "we'll see about treatment later” isn't right."
+  },
+  {
+   "i": 149,
+   "text": "For some people, metabolic preparation makes sense."
+  },
+  {
+   "i": 150,
+   "text": "For others, delaying care for a long time isn't appropriate."
+  },
+  {
+   "i": 151,
+   "text": "Your weight is not a grade on a report card that decides whether you"
+  },
+  {
+   "i": 152,
+   "text": "deserve treatment or not."
+  },
+  {
+   "i": 153,
+   "text": "And if an egg retrieval is planned,"
+  },
+  {
+   "i": 154,
+   "text": "be sure to tell the IVF team and the"
+  },
+  {
+   "i": 155,
+   "text": "anesthesiologist about your treatment."
+  },
+  {
+   "i": 156,
+   "text": "Never tell yourself: “It's just my weight-loss pen,"
+  },
+  {
+   "i": 157,
+   "text": "of course, no need to mention it.”"
+  },
+  {
+   "i": 158,
+   "text": "These medications slow down stomach emptying."
+  },
+  {
+   "i": 159,
+   "text": "Even if you've fasted for eight hours,"
+  },
+  {
+   "i": 160,
+   "text": "the stomach may not be empty, which is crucial during sedation or"
+  },
+  {
+   "i": 161,
+   "text": "anesthesia."
+  },
+  {
+   "i": 162,
+   "text": "The stopping plan for pregnancy and pre-anesthesia protocols"
+  },
+  {
+   "i": 163,
+   "text": "are two different things."
+  },
+  {
+   "i": 164,
+   "text": "Let your team draw up your personalized plan."
+  },
+  {
+   "i": 165,
+   "text": "And then, there are the men."
+  },
+  {
+   "i": 166,
+   "text": "Gentlemen, don't watch this video from the corner of the couch saying:"
+  },
+  {
+   "i": 167,
+   "text": "“See, honey, the doctor is talking to you.”"
+  },
+  {
+   "i": 168,
+   "text": "In men with obesity,"
+  },
+  {
+   "i": 169,
+   "text": "lifestyle changes such as diet and physical"
+  },
+  {
+   "i": 170,
+   "text": "activity can improve certain sperm parameters."
+  },
+  {
+   "i": 171,
+   "text": "There is also research on GLP-1 medications,"
+  },
+  {
+   "i": 172,
+   "text": "but the evidence remains limited."
+  },
+  {
+   "i": 173,
+   "text": "Today, we cannot present these medications as a"
+  },
+  {
+   "i": 174,
+   "text": "proven treatment for male infertility."
+  },
+  {
+   "i": 175,
+   "text": "Side effects, such as nausea,"
+  },
+  {
+   "i": 176,
+   "text": "vomiting and digestive problems,"
+  },
+  {
+   "i": 177,
+   "text": "may also occur."
+  },
+  {
+   "i": 178,
+   "text": "And weight regain is possible,"
+  },
+  {
+   "i": 179,
+   "text": "unfortunately, after stopping the medication."
+  },
+  {
+   "i": 180,
+   "text": "That's why diet, physical activity,"
+  },
+  {
+   "i": 181,
+   "text": "metabolic follow-up and the transition to pregnancy must be"
+  },
+  {
+   "i": 182,
+   "text": "planned together."
+  },
+  {
+   "i": 183,
+   "text": "In short, clarify these three points with your doctor."
+  },
+  {
+   "i": 184,
+   "text": "1. Why do I medically need this medication?"
+  },
+  {
+   "i": 185,
+   "text": "2. When should I stop it before trying to conceive,"
+  },
+  {
+   "i": 186,
+   "text": "and how do I ensure contraception during that time?"
+  },
+  {
+   "i": 187,
+   "text": "3. How does this affect the timeline of my fertility treatment?"
+  },
+  {
+   "i": 188,
+   "text": "So, lastly, this content is provided for information"
+  },
+  {
+   "i": 189,
+   "text": "and does not replace an individual medical evaluation."
+  },
+  {
+   "i": 190,
+   "text": "Ciao!"
+  }
+ ]
+}

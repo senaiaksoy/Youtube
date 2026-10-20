@@ -1,0 +1,69 @@
+{
+  "kind": "youtube#video",
+  "etag": "plLM0nV3Vv_McPUeqjKR1EnJKlU",
+  "id": "1yaT_G_bhK8",
+  "snippet": {
+    "publishedAt": "2026-08-21T05:20:44Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "10 ovocytes → 0 embryon ? | La FIV après 40 ans #Shorts",
+    "description": "Après 40 ans, un parcours de FIV peut sembler normal tout en s'arrêtant avant un embryon transférable. L'âge, les chromosomes, la morphologie, l'AMH et le compte folliculaire ne donnent pas la même information.\n\nVoir la vidéo complète sur la chaîne Senai Aksoy.\n\n#FIV #Fertilite #Shorts",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1yaT_G_bhK8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1yaT_G_bhK8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1yaT_G_bhK8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/1yaT_G_bhK8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/1yaT_G_bhK8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "10 ovocytes → 0 embryon ? | La FIV après 40 ans #Shorts",
+      "description": "Après 40 ans, un parcours de FIV peut sembler normal tout en s'arrêtant avant un embryon transférable. L'âge, les chromosomes, la morphologie, l'AMH et le compte folliculaire ne donnent pas la même information.\n\nVoir la vidéo complète sur la chaîne Senai Aksoy.\n\n#FIV #Fertilite #Shorts"
+    },
+    "defaultAudioLanguage": "fr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "81",
+    "likeCount": "2",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "fr": {
+      "title": "10 ovocytes → 0 embryon ? | La FIV après 40 ans #Shorts",
+      "description": "Après 40 ans, un parcours de FIV peut sembler normal tout en s'arrêtant avant un embryon transférable. L'âge, les chromosomes, la morphologie, l'AMH et le compte folliculaire ne donnent pas la même information.\n\nVoir la vidéo complète sur la chaîne Senai Aksoy.\n\n#FIV #Fertilite #Shorts"
+    }
+  }
+}

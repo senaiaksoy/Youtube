@@ -1,0 +1,81 @@
+{
+  "kind": "youtube#video",
+  "etag": "P0CyBZ1Rk02-z9-N3Q4MDeEinKY",
+  "id": "UmRb1LmwM5U",
+  "snippet": {
+    "publishedAt": "2026-10-16T11:44:36Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "Stylo pour maigrir : combien de temps l'arrêter avant une grossesse ? #Shorts",
+    "description": "Combien de temps arrêter avant une grossesse prévue ? Selon les textes officiels européens : au moins deux mois pour le sémaglutide, au moins un mois pour le tirzépatide. Le médicament, la date de la dernière dose et le début des essais se décident avec le médecin prescripteur ; en cas de diabète, un traitement de la glycémie adapté à la grossesse doit être planifié. Le Dr Senai Aksoy explique.\n\n▶ Vidéo complète : https://youtu.be/U-ophcWNOro\n\nRéférences à l'écran : EMA, RCP du sémaglutide (gestion du poids) § 4.6 · RCP du tirzépatide (Royaume-Uni) § 4.5–4.6\n\nCe contenu est informatif. Il ne remplace pas une évaluation médicale individuelle.\n\n#FIV #Fertilité #Grossesse",
+    "thumbnails": {
+      "default": {
+        "url": "https://i9.ytimg.com/vi/UmRb1LmwM5U/default.jpg?sqp=CMzOydYG&rs=AOn4CLBnSES4wXbyIlIbJbrX6DwpYGw_sA",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i9.ytimg.com/vi/UmRb1LmwM5U/mqdefault.jpg?sqp=CMzOydYG&rs=AOn4CLBvO7ed4d1HSNtIwwJvRsnE-O8x6g",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i9.ytimg.com/vi/UmRb1LmwM5U/hqdefault.jpg?sqp=CMzOydYG&rs=AOn4CLCS8IDR1aNPFYGzdofPTc61FOj8fw",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i9.ytimg.com/vi/UmRb1LmwM5U/sddefault.jpg?sqp=CMzOydYG&rs=AOn4CLBHVAz72aa__mj-n-CvzZMKFn15Mg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i9.ytimg.com/vi/UmRb1LmwM5U/maxresdefault.jpg?sqp=CMzOydYG&rs=AOn4CLCI9db0Pq-fqAtjDeYgu5AIMN4psA",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "tags": [
+      "Dr Senai Aksoy",
+      "FIV",
+      "GLP-1 fertilité",
+      "arrêter avant grossesse",
+      "diabète grossesse",
+      "délai arrêt",
+      "stylo pour maigrir",
+      "sémaglutide grossesse",
+      "tirzépatide grossesse"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "Stylo pour maigrir : combien de temps l'arrêter avant une grossesse ? #Shorts",
+      "description": "Combien de temps arrêter avant une grossesse prévue ? Selon les textes officiels européens : au moins deux mois pour le sémaglutide, au moins un mois pour le tirzépatide. Le médicament, la date de la dernière dose et le début des essais se décident avec le médecin prescripteur ; en cas de diabète, un traitement de la glycémie adapté à la grossesse doit être planifié. Le Dr Senai Aksoy explique.\n\n▶ Vidéo complète : https://youtu.be/U-ophcWNOro\n\nRéférences à l'écran : EMA, RCP du sémaglutide (gestion du poids) § 4.6 · RCP du tirzépatide (Royaume-Uni) § 4.5–4.6\n\nCe contenu est informatif. Il ne remplace pas une évaluation médicale individuelle.\n\n#FIV #Fertilité #Grossesse"
+    },
+    "defaultAudioLanguage": "fr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-10-30T17:00:00Z",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "0",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "fr": {
+      "title": "Stylo pour maigrir : combien de temps l'arrêter avant une grossesse ? #Shorts",
+      "description": "Combien de temps arrêter avant une grossesse prévue ? Selon les textes officiels européens : au moins deux mois pour le sémaglutide, au moins un mois pour le tirzépatide. Le médicament, la date de la dernière dose et le début des essais se décident avec le médecin prescripteur ; en cas de diabète, un traitement de la glycémie adapté à la grossesse doit être planifié. Le Dr Senai Aksoy explique.\n\n▶ Vidéo complète : https://youtu.be/U-ophcWNOro\n\nRéférences à l'écran : EMA, RCP du sémaglutide (gestion du poids) § 4.6 · RCP du tirzépatide (Royaume-Uni) § 4.5–4.6\n\nCe contenu est informatif. Il ne remplace pas une évaluation médicale individuelle.\n\n#FIV #Fertilité #Grossesse"
+    }
+  }
+}

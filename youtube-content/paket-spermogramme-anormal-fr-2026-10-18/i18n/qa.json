@@ -1,0 +1,122 @@
+{
+ "ar": {
+  "cues": 182,
+  "title": "تحليل السائل المنوي غير طبيعي: هل يعني ذلك العقم؟",
+  "title_len": 49,
+  "desc_len": 2854,
+  "longest_line": 42,
+  "issues": []
+ },
+ "az": {
+  "cues": 182,
+  "title": "Spermoqram anormaldır: bu, sonsuzluq deməkdirmi?",
+  "title_len": 48,
+  "desc_len": 3030,
+  "longest_line": 47,
+  "issues": []
+ },
+ "bg": {
+  "cues": 182,
+  "title": "Спермограма с отклонения: означава ли това безплодие?",
+  "title_len": 53,
+  "desc_len": 3190,
+  "longest_line": 46,
+  "issues": []
+ },
+ "bs": {
+  "cues": 182,
+  "title": "Abnormalan spermogram: znači li to neplodnost?",
+  "title_len": 46,
+  "desc_len": 3145,
+  "longest_line": 42,
+  "issues": []
+ },
+ "de": {
+  "cues": 182,
+  "title": "Auffälliges Spermiogramm: Heißt das, ich bin unfruchtbar?",
+  "title_len": 57,
+  "desc_len": 3436,
+  "longest_line": 46,
+  "issues": []
+ },
+ "es": {
+  "cues": 182,
+  "title": "Espermiograma anormal: ¿significa que soy infértil?",
+  "title_len": 51,
+  "desc_len": 3261,
+  "longest_line": 44,
+  "issues": []
+ },
+ "fa": {
+  "cues": 182,
+  "title": "آزمایش اسپرم غیرطبیعی: آیا یعنی ناباروری؟",
+  "title_len": 41,
+  "desc_len": 2924,
+  "longest_line": 43,
+  "issues": []
+ },
+ "it": {
+  "cues": 182,
+  "title": "Spermiogramma anomalo: significa essere infertili?",
+  "title_len": 50,
+  "desc_len": 3336,
+  "longest_line": 45,
+  "issues": []
+ },
+ "mk": {
+  "cues": 182,
+  "title": "Абнормален спермограм: дали тоа значи неплодност?",
+  "title_len": 49,
+  "desc_len": 3185,
+  "longest_line": 42,
+  "issues": []
+ },
+ "ro": {
+  "cues": 182,
+  "title": "Spermogramă anormală: înseamnă că ești infertil?",
+  "title_len": 48,
+  "desc_len": 3259,
+  "longest_line": 44,
+  "issues": []
+ },
+ "ru": {
+  "cues": 182,
+  "title": "Спермограмма с отклонениями: значит ли это бесплодие?",
+  "title_len": 53,
+  "desc_len": 3202,
+  "longest_line": 45,
+  "issues": []
+ },
+ "sq": {
+  "cues": 182,
+  "title": "Spermogram jonormal: a do të thotë se jeni jopjellor?",
+  "title_len": 53,
+  "desc_len": 3216,
+  "longest_line": 45,
+  "issues": []
+ },
+ "sr": {
+  "cues": 182,
+  "title": "Абнормалан спермограм: да ли то значи неплодност?",
+  "title_len": 49,
+  "desc_len": 3079,
+  "longest_line": 42,
+  "issues": []
+ },
+ "tr": {
+  "cues": 182,
+  "title": "Spermiyogram anormal çıktı: Bu kısır olduğum anlamına mı geliyor?",
+  "title_len": 65,
+  "desc_len": 3012,
+  "longest_line": 42,
+  "issues": []
+ },
+ "uk": {
+  "cues": 182,
+  "title": "Спермограма з відхиленнями: чи означає це безпліддя?",
+  "title_len": 52,
+  "desc_len": 3110,
+  "longest_line": 42,
+  "issues": []
+ }
+}

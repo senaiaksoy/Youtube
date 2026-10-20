@@ -1,0 +1,130 @@
+{
+ "ar": {
+  "cues": 190,
+  "title": "حقن التخسيس والحمل: هل تساعد فعلًا على حدوث الحمل؟",
+  "title_len": 50,
+  "desc_len": 3231,
+  "longest_line": 42,
+  "issues": []
+ },
+ "az": {
+  "cues": 190,
+  "title": "Arıqlama iynəsi və hamiləlik: hamilə qalmağa həqiqətən kömək edirmi?",
+  "title_len": 68,
+  "desc_len": 3654,
+  "longest_line": 42,
+  "issues": []
+ },
+ "bg": {
+  "cues": 190,
+  "title": "Писалка за отслабване и бременност: наистина ли помага да забременеете?",
+  "title_len": 71,
+  "desc_len": 3766,
+  "longest_line": 42,
+  "issues": []
+ },
+ "bs": {
+  "cues": 190,
+  "title": "Injekcija za mršavljenje i trudnoća: pomaže li zaista da zatrudnite?",
+  "title_len": 68,
+  "desc_len": 3715,
+  "longest_line": 42,
+  "issues": []
+ },
+ "de": {
+  "cues": 190,
+  "title": "Abnehmspritze und Kinderwunsch: Hilft sie wirklich, schwanger zu werden?",
+  "title_len": 72,
+  "desc_len": 4014,
+  "longest_line": 45,
+  "issues": []
+ },
+ "en": {
+  "cues": 190,
+  "title": "Weight-Loss Injection Pens and Pregnancy: Do They Really Help You Get Pregnant?",
+  "title_len": 79,
+  "desc_len": 3607,
+  "longest_line": 42,
+  "issues": []
+ },
+ "es": {
+  "cues": 190,
+  "title": "Pluma para adelgazar y embarazo: ¿realmente ayuda a quedar embarazada?",
+  "title_len": 70,
+  "desc_len": 3844,
+  "longest_line": 42,
+  "issues": []
+ },
+ "fa": {
+  "cues": 190,
+  "title": "قلم تزریقی لاغری و بارداری: آیا واقعاً به باردار شدن کمک می‌کند؟",
+  "title_len": 64,
+  "desc_len": 3383,
+  "longest_line": 42,
+  "issues": []
+ },
+ "it": {
+  "cues": 190,
+  "title": "Penna dimagrante e gravidanza: aiuta davvero a rimanere incinta?",
+  "title_len": 64,
+  "desc_len": 3975,
+  "longest_line": 44,
+  "issues": []
+ },
+ "mk": {
+  "cues": 190,
+  "title": "Пенкало за слабеење и бременост: дали навистина помага да останете бремена?",
+  "title_len": 75,
+  "desc_len": 3749,
+  "longest_line": 41,
+  "issues": []
+ },
+ "ro": {
+  "cues": 190,
+  "title": "Injecțiile pentru slăbit și sarcina: te ajută cu adevărat să rămâi însărcinată?",
+  "title_len": 79,
+  "desc_len": 3844,
+  "longest_line": 42,
+  "issues": []
+ },
+ "ru": {
+  "cues": 190,
+  "title": "Уколы для похудения и беременность: правда ли они помогают забеременеть?",
+  "title_len": 72,
+  "desc_len": 3689,
+  "longest_line": 42,
+  "issues": []
+ },
+ "sq": {
+  "cues": 190,
+  "title": "Injeksioni për dobësim dhe shtatzënia: a ndihmon vërtet të mbeteni shtatzënë?",
+  "title_len": 77,
+  "desc_len": 3830,
+  "longest_line": 42,
+  "issues": []
+ },
+ "sr": {
+  "cues": 190,
+  "title": "Пен за мршављење и трудноћа: да ли заиста помаже да затрудните?",
+  "title_len": 63,
+  "desc_len": 3656,
+  "longest_line": 42,
+  "issues": []
+ },
+ "tr": {
+  "cues": 190,
+  "title": "Kilo verme kalemi ve gebelik: Hamile kalmaya gerçekten yardımcı olur mu?",
+  "title_len": 72,
+  "desc_len": 3529,
+  "longest_line": 42,
+  "issues": []
+ },
+ "uk": {
+  "cues": 190,
+  "title": "Уколи для схуднення і вагітність: чи справді вони допомагають завагітніти?",
+  "title_len": 74,
+  "desc_len": 3610,
+  "longest_line": 42,
+  "issues": []
+ }
+}

@@ -1,0 +1,82 @@
+{
+  "kind": "youtube#video",
+  "etag": "jgJ-tF9YNZPwx_HoLGRzh5MRIDU",
+  "id": "Ea2pY20i2m4",
+  "snippet": {
+    "publishedAt": "2026-10-16T11:44:02Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "Règles tous les trois mois : pas de risque de grossesse ? #Shorts",
+    "description": "Règles espacées sous traitement pour maigrir : « je ne risque pas de tomber enceinte » ? Le corps ovule d'abord, les règles viennent ensuite : une grossesse peut survenir à un moment inattendu. Les données humaines ne permettent pas d'affirmer que ces médicaments sont sûrs pendant la grossesse ; une contraception efficace reste indispensable pendant le traitement et la période d'arrêt. Le Dr Senai Aksoy explique.\n\n▶ Vidéo complète : https://youtu.be/U-ophcWNOro\n\nCe contenu est informatif. Il ne remplace pas une évaluation médicale individuelle.\n\n#FIV #Fertilité #SOPK",
+    "thumbnails": {
+      "default": {
+        "url": "https://i9.ytimg.com/vi/Ea2pY20i2m4/default.jpg?sqp=CLycyNYG&rs=AOn4CLB_mhrlZ44hXyJmixccg6_YHhQqaw",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i9.ytimg.com/vi/Ea2pY20i2m4/mqdefault.jpg?sqp=CLycyNYG&rs=AOn4CLB_oqAh8cVcY_Fe0pK_5QT-OBmq8g",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i9.ytimg.com/vi/Ea2pY20i2m4/hqdefault.jpg?sqp=CLycyNYG&rs=AOn4CLBTszEy7oxpuz4xgw_I5zi_lDhD-g",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i9.ytimg.com/vi/Ea2pY20i2m4/sddefault.jpg?sqp=CLycyNYG&rs=AOn4CLAS_Z2hJ6-_fj-Y79cjs9PUA49WUA",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i9.ytimg.com/vi/Ea2pY20i2m4/maxresdefault.jpg?sqp=CLycyNYG&rs=AOn4CLBPr-rPryxq6-CmAmFyg24jEJ2TQA",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "tags": [
+      "Dr Senai Aksoy",
+      "GLP-1 grossesse",
+      "SOPK",
+      "contraception",
+      "fertilité",
+      "ovulation",
+      "règles irrégulières",
+      "stylo pour maigrir",
+      "sémaglutide",
+      "tirzépatide"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "Règles tous les trois mois : pas de risque de grossesse ? #Shorts",
+      "description": "Règles espacées sous traitement pour maigrir : « je ne risque pas de tomber enceinte » ? Le corps ovule d'abord, les règles viennent ensuite : une grossesse peut survenir à un moment inattendu. Les données humaines ne permettent pas d'affirmer que ces médicaments sont sûrs pendant la grossesse ; une contraception efficace reste indispensable pendant le traitement et la période d'arrêt. Le Dr Senai Aksoy explique.\n\n▶ Vidéo complète : https://youtu.be/U-ophcWNOro\n\nCe contenu est informatif. Il ne remplace pas une évaluation médicale individuelle.\n\n#FIV #Fertilité #SOPK"
+    },
+    "defaultAudioLanguage": "fr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "publishAt": "2026-10-28T17:00:00Z",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "0",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "fr": {
+      "title": "Règles tous les trois mois : pas de risque de grossesse ? #Shorts",
+      "description": "Règles espacées sous traitement pour maigrir : « je ne risque pas de tomber enceinte » ? Le corps ovule d'abord, les règles viennent ensuite : une grossesse peut survenir à un moment inattendu. Les données humaines ne permettent pas d'affirmer que ces médicaments sont sûrs pendant la grossesse ; une contraception efficace reste indispensable pendant le traitement et la période d'arrêt. Le Dr Senai Aksoy explique.\n\n▶ Vidéo complète : https://youtu.be/U-ophcWNOro\n\nCe contenu est informatif. Il ne remplace pas une évaluation médicale individuelle.\n\n#FIV #Fertilité #SOPK"
+    }
+  }
+}

@@ -1,0 +1,912 @@
+[
+{
+"i": 1,
+"t": "00:00:00,000 --> 00:00:06,200",
+"fr": "« Spermogramme anormal… Bon ben voilà, c'est fini, ma lignée"
+},
+{
+"i": 2,
+"t": "00:00:06,240 --> 00:00:07,240",
+"fr": "s'éteint ici !"
+},
+{
+"i": 3,
+"t": "00:00:07,900 --> 00:00:13,200",
+"fr": "Chérie, va arroser le bégonia du salon, c'est notre seul héritier maintenant ! »"
+},
+{
+"i": 4,
+"t": "00:00:14,980 --> 00:00:20,460",
+"fr": "C'est exactement le film catastrophe qu'on se fait dans la tête à la seconde où l'on"
+},
+{
+"i": 5,
+"t": "00:00:20,500 --> 00:00:26,340",
+"fr": "ouvre le résultat. Sauf que la science raconte une autre histoire :"
+},
+{
+"i": 6,
+"t": "00:00:26,380 --> 00:00:31,800",
+"fr": "un chiffre sous la limite n'est pas un verdict du tribunal."
+},
+{
+"i": 7,
+"t": "00:00:32,160 --> 00:00:35,440",
+"fr": "C'est un voyant orange sur le tableau de bord."
+},
+{
+"i": 8,
+"t": "00:00:36,320 --> 00:00:41,260",
+"fr": "Quand il s'allume, vous ne brûlez pas la voiture sur le bas-côté :"
+},
+{
+"i": 9,
+"t": "00:00:41,540 --> 00:00:43,860",
+"fr": "vous ouvrez le capot et vous vérifiez !"
+},
+{
+"i": 10,
+"t": "00:00:44,260 --> 00:00:50,700",
+"fr": "Et vérifier, ici, c'est refaire le test, idéalement trois mois plus tard."
+},
+{
+"i": 11,
+"t": "00:00:50,740 --> 00:00:55,720",
+"fr": "Je suis le docteur Senai Aksoy, spécialiste de la fertilité."
+},
+{
+"i": 12,
+"t": "00:00:55,960 --> 00:01:02,360",
+"fr": "Dans cette vidéo : ce que cachent vraiment les fameuses « normes », pourquoi il ne"
+},
+{
+"i": 13,
+"t": "00:01:02,400 --> 00:01:08,400",
+"fr": "faut pas rédiger son testament après un seul test, et à quel moment"
+},
+{
+"i": 14,
+"t": "00:01:08,440 --> 00:01:11,800",
+"fr": "consulter un urologue ou un andrologue."
+},
+{
+"i": 15,
+"t": "00:01:11,840 --> 00:01:14,500",
+"fr": "D'abord, visualisez la scène."
+},
+{
+"i": 16,
+"t": "00:01:14,840 --> 00:01:20,680",
+"fr": "Le résultat tombe sur le téléphone : deux pages de PDF"
+},
+{
+"i": 17,
+"t": "00:01:20,720 --> 00:01:24,940",
+"fr": "qu'on ouvre debout dans la cuisine, collé au frigo."
+},
+{
+"i": 18,
+"t": "00:01:25,380 --> 00:01:28,040",
+"fr": "Pourquoi toujours debout devant le frigo ?"
+},
+{
+"i": 19,
+"t": "00:01:28,080 --> 00:01:32,500",
+"fr": "Parce qu'un homme encaisse toujours les mauvaises nouvelles debout à côté des"
+},
+{
+"i": 20,
+"t": "00:01:32,540 --> 00:01:35,140",
+"fr": "yaourts. À gauche, du latin."
+},
+{
+"i": 21,
+"t": "00:01:35,440 --> 00:01:37,900",
+"fr": "Au milieu, des chiffres. Et à droite…"
+},
+{
+"i": 22,
+"t": "00:01:38,040 --> 00:01:42,300",
+"fr": "des petites étoiles, des flèches qui piquent du nez, et du gras."
+},
+{
+"i": 23,
+"t": "00:01:42,660 --> 00:01:48,980",
+"fr": "Le compte-rendu de labo, c'est quand même le seul document au monde où"
+},
+{
+"i": 24,
+"t": "00:01:49,020 --> 00:01:54,100",
+"fr": "vous payez pour vous faire crier dessus en caractères gras, sans qu'on ne vous"
+},
+{
+"i": 25,
+"t": "00:01:54,140 --> 00:01:55,380",
+"fr": "explique jamais pourquoi !"
+},
+{
+"i": 26,
+"t": "00:01:56,000 --> 00:02:02,140",
+"fr": "Et là, réflexe masculin universel : on zoome avec deux"
+},
+{
+"i": 27,
+"t": "00:02:02,180 --> 00:02:05,980",
+"fr": "doigts ! Comme si on cherchait un terrain sur une carte satellite !"
+},
+{
+"i": 28,
+"t": "00:02:06,020 --> 00:02:12,320",
+"fr": "Et non : zoomer sur un PDF n'a jamais fait apparaître des spermatozoïdes,"
+},
+{
+"i": 29,
+"t": "00:02:12,640 --> 00:02:15,400",
+"fr": "ça grossit juste les pixels !"
+},
+{
+"i": 30,
+"t": "00:02:15,440 --> 00:02:21,580",
+"fr": "« Attends, j'agrandis encore un peu, il y a peut-être quatre qui"
+},
+{
+"i": 31,
+"t": "00:02:21,620 --> 00:02:25,620",
+"fr": "tapent une belote derrière la marge… »"
+},
+{
+"i": 32,
+"t": "00:02:25,960 --> 00:02:30,480",
+"fr": "Depuis le salon, votre compagne demande : « Alors ? »"
+},
+{
+"i": 33,
+"t": "00:02:30,520 --> 00:02:33,200",
+"fr": "Et tout ce qui sort, c'est : « Alors…"
+},
+{
+"i": 34,
+"t": "00:02:33,480 --> 00:02:39,520",
+"fr": "il y a des étoiles. Je crois qu'on est qualifiés d'office pour la"
+},
+{
+"i": 35,
+"t": "00:02:39,560 --> 00:02:43,880",
+"fr": "finale. » Tout en bas, le coup de grâce en 28 lettres :"
+},
+{
+"i": 36,
+"t": "00:02:44,180 --> 00:02:48,460",
+"fr": "« oligo-asthéno-tératozoospermie »."
+},
+{
+"i": 37,
+"t": "00:02:48,500 --> 00:02:54,040",
+"fr": "Si vous arrivez à le prononcer d'une traite sans reprendre votre souffle,"
+},
+{
+"i": 38,
+"t": "00:02:54,580 --> 00:02:57,520",
+"fr": "on vous donne directement le diplôme d'urologue !"
+},
+{
+"i": 39,
+"t": "00:02:57,560 --> 00:03:03,760",
+"fr": "Avec le zoom, le mot ne tient même plus sur l'écran : il capte le Wi-Fi"
+},
+{
+"i": 40,
+"t": "00:03:03,800 --> 00:03:08,700",
+"fr": "du voisin ! Devant un chiffre, on cherche une sentence."
+},
+{
+"i": 41,
+"t": "00:03:09,200 --> 00:03:14,940",
+"fr": "Or, depuis 2021, l'Organisation mondiale de la santé,"
+},
+{
+"i": 42,
+"t": "00:03:15,080 --> 00:03:21,380",
+"fr": "l'OMS, l'écrit noir sur blanc : pour un homme donné, le spermogramme ne"
+},
+{
+"i": 43,
+"t": "00:03:21,420 --> 00:03:25,060",
+"fr": "prédit jamais, à lui seul, la fertilité."
+},
+{
+"i": 44,
+"t": "00:03:25,100 --> 00:03:28,020",
+"fr": "Ce qui compte, c'est la fertilité du couple."
+},
+{
+"i": 45,
+"t": "00:03:28,480 --> 00:03:33,080",
+"fr": "Bon, visiblement, le PDF n'a pas fait la mise à jour."
+},
+{
+"i": 46,
+"t": "00:03:34,040 --> 00:03:37,920",
+"fr": "Traduisons rapidement ce mot de 28 lettres."
+},
+{
+"i": 47,
+"t": "00:03:38,280 --> 00:03:44,620",
+"fr": "Ce n'est pas une malédiction pharaonique : c'est juste le résumé de"
+},
+{
+"i": 48,
+"t": "00:03:44,660 --> 00:03:47,860",
+"fr": "trois critères observés au microscope."
+},
+{
+"i": 49,
+"t": "00:03:47,900 --> 00:03:54,200",
+"fr": "D'abord, la concentration : combien il y a de monde dans la"
+},
+{
+"i": 50,
+"t": "00:03:54,240 --> 00:04:00,700",
+"fr": "salle, par millilitre. Quand c'est bas, on dit « oligo ». Bon, c'est un peu désert,"
+},
+{
+"i": 51,
+"t": "00:04:01,000 --> 00:04:07,380",
+"fr": "il y a de l'écho. Ensuite, la mobilité : combien bougent, et surtout combien"
+},
+{
+"i": 52,
+"t": "00:04:07,420 --> 00:04:13,240",
+"fr": "avancent. En médecine, on dit qu'ils sont « progressifs ». Rien à voir avec la"
+},
+{
+"i": 53,
+"t": "00:04:13,280 --> 00:04:17,740",
+"fr": "politique ! Ne dites pas : « Super, les miens sont progressistes,"
+},
+{
+"i": 54,
+"t": "00:04:17,940 --> 00:04:19,500",
+"fr": "ils ont l'esprit ouvert ! »"
+},
+{
+"i": 55,
+"t": "00:04:20,040 --> 00:04:26,180",
+"fr": "Quand ça traîne, on dit « asthéno » : les gars sont rincés, ils font du surplace."
+},
+{
+"i": 56,
+"t": "00:04:26,640 --> 00:04:31,620",
+"fr": "Enfin, la morphologie : combien ont un physique de rêve."
+},
+{
+"i": 57,
+"t": "00:04:31,660 --> 00:04:38,000",
+"fr": "Quand c'est atypique, on dit « térato » : bon, ils ont pris un peu cher à la sortie"
+},
+{
+"i": 58,
+"t": "00:04:38,040 --> 00:04:43,620",
+"fr": "de boîte. Première vraie question : d'où sortent ces « normes » ?"
+},
+{
+"i": 59,
+"t": "00:04:43,660 --> 00:04:50,000",
+"fr": "On s'imagine souvent cinq professeurs sérieux à Genève, autour d'un expresso,"
+},
+{
+"i": 60,
+"t": "00:04:50,040 --> 00:04:56,240",
+"fr": "qui ont décrété : « Messieurs, le spermatozoïde idéal doit ressembler"
+},
+{
+"i": 61,
+"t": "00:04:56,280 --> 00:04:58,480",
+"fr": "à Brad Pitt. » Pas du tout !"
+},
+{
+"i": 62,
+"t": "00:04:58,520 --> 00:05:03,740",
+"fr": "L'OMS a réuni les résultats de milliers d'hommes sur cinq continents."
+},
+{
+"i": 63,
+"t": "00:05:04,040 --> 00:05:09,260",
+"fr": "Leur point commun ? Leur compagne était tombée enceinte en moins d'un an."
+},
+{
+"i": 64,
+"t": "00:05:09,760 --> 00:05:11,940",
+"fr": "Des futurs pères certifiés."
+},
+{
+"i": 65,
+"t": "00:05:12,160 --> 00:05:18,180",
+"fr": "Imaginez une photo de classe géante où l'on aligne tous ces futurs papas,"
+},
+{
+"i": 66,
+"t": "00:05:18,220 --> 00:05:20,700",
+"fr": "du plus petit chiffre au plus grand."
+},
+{
+"i": 67,
+"t": "00:05:20,740 --> 00:05:26,640",
+"fr": "La limite de l'OMS, c'est juste une ligne tracée tout en bas de la photo."
+},
+{
+"i": 68,
+"t": "00:05:26,980 --> 00:05:30,480",
+"fr": "Les valeurs exactes s'affichent à l'écran."
+},
+{
+"i": 69,
+"t": "00:05:30,840 --> 00:05:35,460",
+"fr": "Devinez combien il y a de futurs pères sous cette ligne ?"
+},
+{
+"i": 70,
+"t": "00:05:35,500 --> 00:05:39,180",
+"fr": "Zéro ? Cinq sur cent ! Par définition !"
+},
+{
+"i": 71,
+"t": "00:05:39,660 --> 00:05:42,520",
+"fr": "Ces hommes-là étaient « recalés » sur le papier…"
+},
+{
+"i": 72,
+"t": "00:05:42,560 --> 00:05:45,840",
+"fr": "pendant qu'ils montaient une poussette dans le salon !"
+},
+{
+"i": 73,
+"t": "00:05:45,880 --> 00:05:51,700",
+"fr": "L'OMS le dit elle-même : cette ligne ne sépare pas les hommes fertiles des"
+},
+{
+"i": 74,
+"t": "00:05:51,740 --> 00:05:57,980",
+"fr": "infertiles. Ce n'est pas le concours de médecine, c'est juste le premier rang de la"
+},
+{
+"i": 75,
+"t": "00:05:58,020 --> 00:06:04,260",
+"fr": "photo de classe ! Mais alors, quel chiffre inquiète le plus ?"
+},
+{
+"i": 76,
+"t": "00:06:04,300 --> 00:06:07,160",
+"fr": "Presque toujours la morphologie."
+},
+{
+"i": 77,
+"t": "00:06:07,200 --> 00:06:12,920",
+"fr": "Sur 100 spermatozoïdes, à votre avis, combien doivent avoir une forme"
+},
+{
+"i": 78,
+"t": "00:06:12,960 --> 00:06:17,160",
+"fr": "« idéale » pour passer la barre de l'OMS ?"
+},
+{
+"i": 79,
+"t": "00:06:17,200 --> 00:06:23,200",
+"fr": "Cinquante ? Trente ? Non… Quatre ? Oui, quatre. Quatre"
+},
+{
+"i": 80,
+"t": "00:06:23,240 --> 00:06:29,400",
+"fr": "sur cent. Imaginez une soirée avec cent mecs dans une salle : s'il y en a"
+},
+{
+"i": 81,
+"t": "00:06:29,440 --> 00:06:35,100",
+"fr": "juste quatre de présentables, l'OMS dit : « Nickel, soirée dans les normes ! »"
+},
+{
+"i": 82,
+"t": "00:06:35,140 --> 00:06:39,930",
+"fr": "Attention : certains labos, en France notamment, utilisent d'autres barèmes."
+},
+{
+"i": 83,
+"t": "00:06:39,970 --> 00:06:44,220",
+"fr": "Vérifiez toujours la référence imprimée sur votre propre feuille."
+},
+{
+"i": 84,
+"t": "00:06:44,460 --> 00:06:50,940",
+"fr": "Mais le casting au microscope est plus sévère que la Fashion Week de Paris !"
+},
+{
+"i": 85,
+"t": "00:06:51,180 --> 00:06:53,340",
+"fr": "« Tête un poil trop ronde ?"
+},
+{
+"i": 86,
+"t": "00:06:53,380 --> 00:06:56,580",
+"fr": "Recalé. Queue légèrement enroulée ?"
+},
+{
+"i": 87,
+"t": "00:06:56,740 --> 00:07:00,340",
+"fr": "Désolé, ça ne correspond pas à l'image de l'établissement. »"
+},
+{
+"i": 88,
+"t": "00:07:00,380 --> 00:07:03,340",
+"fr": "Mais c'est une cellule microscopique !"
+},
+{
+"i": 89,
+"t": "00:07:03,640 --> 00:07:09,300",
+"fr": "On ne lui demande pas de défiler chez un grand couturier, on lui demande de nager !"
+},
+{
+"i": 90,
+"t": "00:07:09,560 --> 00:07:15,880",
+"fr": "Simplement. Même chez les futurs papas, l'immense majorité des candidats se"
+},
+{
+"i": 91,
+"t": "00:07:15,920 --> 00:07:18,460",
+"fr": "fait recaler à l'entrée par le videur !"
+},
+{
+"i": 92,
+"t": "00:07:18,740 --> 00:07:23,520",
+"fr": "D'ailleurs, une grande étude américaine a montré que les résultats des hommes"
+},
+{
+"i": 93,
+"t": "00:07:23,560 --> 00:07:27,480",
+"fr": "fertiles et infertiles se chevauchent largement."
+},
+{
+"i": 94,
+"t": "00:07:27,520 --> 00:07:33,720",
+"fr": "Des hommes du groupe fertile ont des chiffres au ras des pâquerettes, tandis que des hommes du"
+},
+{
+"i": 95,
+"t": "00:07:33,760 --> 00:07:40,200",
+"fr": "groupe infertile ont des bilans dignes d'être encadrés au musée du Louvre !"
+},
+{
+"i": 96,
+"t": "00:07:40,660 --> 00:07:42,680",
+"fr": "Même constat pour la forme."
+},
+{
+"i": 97,
+"t": "00:07:42,720 --> 00:07:49,100",
+"fr": "En FIV et en ICSI, une analyse de quatre études, chez des hommes dont seule la"
+},
+{
+"i": 98,
+"t": "00:07:49,140 --> 00:07:54,580",
+"fr": "forme était basse, ne montre pas de baisse nette des chances de grossesse."
+},
+{
+"i": 99,
+"t": "00:07:55,060 --> 00:08:00,160",
+"fr": "Une autre, sur des milliers de cycles, trouve la même chose pour la forme en"
+},
+{
+"i": 100,
+"t": "00:08:00,200 --> 00:08:06,020",
+"fr": "général. Ce sont des études d'observation, mais elles vont dans le même sens."
+},
+{
+"i": 101,
+"t": "00:08:06,060 --> 00:08:09,960",
+"fr": "Un chiffre bas, tout seul, c'est une question."
+},
+{
+"i": 102,
+"t": "00:08:10,120 --> 00:08:15,520",
+"fr": "Pas une réponse. Alors, pourquoi on vous demande de refaire l'examen trois mois plus"
+},
+{
+"i": 103,
+"t": "00:08:15,560 --> 00:08:21,760",
+"fr": "tard ? Parce que le sperme d'aujourd'hui balance ce que vous avez vécu ces"
+},
+{
+"i": 104,
+"t": "00:08:21,800 --> 00:08:26,720",
+"fr": "trois derniers mois ! C'est à peu près le temps de fabrication à l'usine."
+},
+{
+"i": 105,
+"t": "00:08:26,760 --> 00:08:30,280",
+"fr": "Vous déposez un échantillon en octobre ?"
+},
+{
+"i": 106,
+"t": "00:08:30,320 --> 00:08:35,600",
+"fr": "Le biologiste ne peut pas regarder au microscope et dire : « Tiens,"
+},
+{
+"i": 107,
+"t": "00:08:35,720 --> 00:08:39,140",
+"fr": "monsieur a chopé une sacrée grippe au mois d'août ! »"
+},
+{
+"i": 108,
+"t": "00:08:39,380 --> 00:08:44,800",
+"fr": "Mais la grippe d'août, elle, peut se voir dans le chiffre."
+},
+{
+"i": 109,
+"t": "00:08:44,840 --> 00:08:51,060",
+"fr": "Une petite étude danoise a suivi 27 jeunes hommes tous les mois"
+},
+{
+"i": 110,
+"t": "00:08:51,100 --> 00:08:52,540",
+"fr": "pendant plus d'un an."
+},
+{
+"i": 111,
+"t": "00:08:53,480 --> 00:08:55,820",
+"fr": "Quelle ambiance au labo, hein ?"
+},
+{
+"i": 112,
+"t": "00:08:56,180 --> 00:09:02,000",
+"fr": "Bon. Résultat : une bonne fièvre peut faire nettement plonger la"
+},
+{
+"i": 113,
+"t": "00:09:02,040 --> 00:09:05,680",
+"fr": "concentration. Et cette baisse peut être passagère."
+},
+{
+"i": 114,
+"t": "00:09:05,720 --> 00:09:11,280",
+"fr": "C'est pourquoi les recommandations britanniques, dans leur version de"
+},
+{
+"i": 115,
+"t": "00:09:11,320 --> 00:09:17,000",
+"fr": "2026, hein, toute nouvelle, sont claires : si le premier test est anormal,"
+},
+{
+"i": 116,
+"t": "00:09:17,320 --> 00:09:21,740",
+"fr": "on recontrôle, idéalement trois mois plus tard."
+},
+{
+"i": 117,
+"t": "00:09:22,040 --> 00:09:27,500",
+"fr": "Seule exception : s'il n'y a aucun spermatozoïde, ou presque aucun,"
+},
+{
+"i": 118,
+"t": "00:09:27,800 --> 00:09:32,660",
+"fr": "là on n'attend pas trois mois, on le refait le plus vite possible."
+},
+{
+"i": 119,
+"t": "00:09:32,700 --> 00:09:38,320",
+"fr": "Pour ce deuxième test, respectez bien le délai d'abstinence du labo,"
+},
+{
+"i": 120,
+"t": "00:09:38,420 --> 00:09:44,380",
+"fr": "de trois à cinq jours, et signalez au médecin toute fièvre dans les trois derniers"
+},
+{
+"i": 121,
+"t": "00:09:44,420 --> 00:09:50,480",
+"fr": "mois. Et si le premier est bas mais le deuxième normal, lequel on croit ?"
+},
+{
+"i": 122,
+"t": "00:09:50,820 --> 00:09:52,580",
+"fr": "Aucun des deux tout seul !"
+},
+{
+"i": 123,
+"t": "00:09:52,860 --> 00:09:58,860",
+"fr": "L'un, c'est vous avec la grippe en pyjama ; l'autre, c'est vous en costume le"
+},
+{
+"i": 124,
+"t": "00:09:58,900 --> 00:10:04,120",
+"fr": "dimanche. Il nous faut les deux, lus avec votre histoire médicale."
+},
+{
+"i": 125,
+"t": "00:10:04,320 --> 00:10:09,540",
+"fr": "En attendant ce deuxième test, pitié, n'écoutez pas les"
+},
+{
+"i": 126,
+"t": "00:10:09,580 --> 00:10:14,560",
+"fr": "« endocrinologues du développé-couché » à la salle de sport :"
+},
+{
+"i": 127,
+"t": "00:10:14,840 --> 00:10:20,580",
+"fr": "« Frérot, prends de la testostérone, ça va mettre la nitro là-dedans ! »"
+},
+{
+"i": 128,
+"t": "00:10:20,620 --> 00:10:25,940",
+"fr": "Écoutez bien : l'OMS a testé la testostérone en injection…"
+},
+{
+"i": 129,
+"t": "00:10:26,320 --> 00:10:29,830",
+"fr": "mais comme contraceptif masculin !"
+},
+{
+"i": 130,
+"t": "00:10:30,720 --> 00:10:34,460",
+"fr": "Dans cette étude de 1990,"
+},
+{
+"i": 131,
+"t": "00:10:35,400 --> 00:10:41,480",
+"fr": "chez des hommes en bonne santé, près de six sur dix ont fini avec"
+},
+{
+"i": 132,
+"t": "00:10:41,520 --> 00:10:46,720",
+"fr": "zéro spermatozoïde. La fameuse « nitro » du coach de la salle,"
+},
+{
+"i": 133,
+"t": "00:10:46,880 --> 00:10:51,720",
+"fr": "c'est le frein à main tiré à fond, en marche arrière !"
+},
+{
+"i": 134,
+"t": "00:10:51,980 --> 00:10:57,580",
+"fr": "Les recommandations britanniques sont nettes : pas de testostérone pour traiter un"
+},
+{
+"i": 135,
+"t": "00:10:57,620 --> 00:11:03,020",
+"fr": "spermogramme anormal. Si vous en prenez, même « juste pour les pecs »,"
+},
+{
+"i": 136,
+"t": "00:11:03,360 --> 00:11:09,400",
+"fr": "dites-le au médecin. Quand faut-il consulter un urologue ou un"
+},
+{
+"i": 137,
+"t": "00:11:09,440 --> 00:11:15,780",
+"fr": "andrologue ? Trop souvent, je vois des couples où madame subit des prises de sang et"
+},
+{
+"i": 138,
+"t": "00:11:15,820 --> 00:11:18,420",
+"fr": "des échographies depuis six mois…"
+},
+{
+"i": 139,
+"t": "00:11:18,680 --> 00:11:23,440",
+"fr": "Je me tourne vers monsieur : « Et votre spermogramme ? »"
+},
+{
+"i": 140,
+"t": "00:11:23,480 --> 00:11:29,440",
+"fr": "« Oui docteur, j'irai le mois prochain, là j'ai une grosse présentation"
+},
+{
+"i": 141,
+"t": "00:11:29,480 --> 00:11:34,760",
+"fr": "à finir au bureau… » On dirait qu'on lui demande de donner un rein !"
+},
+{
+"i": 142,
+"t": "00:11:35,760 --> 00:11:41,440",
+"fr": "Un facteur masculin est présent chez près d'un couple infertile sur deux."
+},
+{
+"i": 143,
+"t": "00:11:41,740 --> 00:11:47,980",
+"fr": "Le bilan de l'homme se fait donc en même temps, pas quand l'agenda de monsieur le"
+},
+{
+"i": 144,
+"t": "00:11:48,020 --> 00:11:54,160",
+"fr": "ministre se libère ! Les repères sont simples, et les"
+},
+{
+"i": 145,
+"t": "00:11:54,200 --> 00:11:57,020",
+"fr": "seuils exacts sont à l'écran."
+},
+{
+"i": 146,
+"t": "00:11:57,060 --> 00:12:03,060",
+"fr": "Après deux spermogrammes anormaux, on propose un examen clinique des"
+},
+{
+"i": 147,
+"t": "00:12:03,100 --> 00:12:07,280",
+"fr": "testicules, et on envisage un bilan hormonal."
+},
+{
+"i": 148,
+"t": "00:12:07,540 --> 00:12:13,220",
+"fr": "Si la concentration reste… on peut proposer une analyse des chromosomes."
+},
+{
+"i": 149,
+"t": "00:12:13,640 --> 00:12:18,560",
+"fr": "Et s'il n'y a aucun spermatozoïde, ou presque aucun, sans cause connue :"
+},
+{
+"i": 150,
+"t": "00:12:18,780 --> 00:12:24,420",
+"fr": "après une confirmation rapide, on recherche aussi une petite anomalie du chromosome"
+},
+{
+"i": 151,
+"t": "00:12:24,460 --> 00:12:30,620",
+"fr": "Y ; et quand il n'y en a aucun, on analyse aussi les chromosomes."
+},
+{
+"i": 152,
+"t": "00:12:31,060 --> 00:12:35,740",
+"fr": "Quand il n'y a aucun spermatozoïde, c'est l'azoospermie :"
+},
+{
+"i": 153,
+"t": "00:12:35,900 --> 00:12:40,180",
+"fr": "il y a deux grandes situations : un embouteillage sur la route,"
+},
+{
+"i": 154,
+"t": "00:12:40,500 --> 00:12:45,760",
+"fr": "c'est-à-dire un passage bloqué, ou une usine au ralenti."
+},
+{
+"i": 155,
+"t": "00:12:45,980 --> 00:12:51,030",
+"fr": "Dans les deux cas, des solutions existent : réparer le passage,"
+},
+{
+"i": 156,
+"t": "00:12:51,470 --> 00:12:55,710",
+"fr": "par exemple, donner un traitement quand la cause est hormonale,"
+},
+{
+"i": 157,
+"t": "00:12:55,890 --> 00:13:01,970",
+"fr": "ou chercher des spermatozoïdes chirurgicalement, dans l'épididyme ou dans le"
+},
+{
+"i": 158,
+"t": "00:13:02,010 --> 00:13:07,650",
+"fr": "testicule. Bon, ce n'est pas toujours possible, personne ne peut le promettre à"
+},
+{
+"i": 159,
+"t": "00:13:07,690 --> 00:13:13,650",
+"fr": "l'avance. Mais c'est une vraie piste sérieuse, à explorer avec votre"
+},
+{
+"i": 160,
+"t": "00:13:13,690 --> 00:13:20,010",
+"fr": "spécialiste. Blague à part, une règle absolue qui n'attend aucun"
+},
+{
+"i": 161,
+"t": "00:13:20,050 --> 00:13:24,690",
+"fr": "examen. Une boule dans un testicule : consultez rapidement."
+},
+{
+"i": 162,
+"t": "00:13:24,950 --> 00:13:30,610",
+"fr": "Une douleur brutale et intense dans un testicule : c'est une urgence absolue."
+},
+{
+"i": 163,
+"t": "00:13:30,650 --> 00:13:36,050",
+"fr": "Oubliez le labo : filez aux urgences, ou appelez le 15, le 112,"
+},
+{
+"i": 164,
+"t": "00:13:36,410 --> 00:13:38,790",
+"fr": "ou le numéro d'urgence de votre pays."
+},
+{
+"i": 165,
+"t": "00:13:39,010 --> 00:13:44,770",
+"fr": "Mon avis de médecin, et c'est un avis, pas une preuve : le"
+},
+{
+"i": 166,
+"t": "00:13:44,810 --> 00:13:47,530",
+"fr": "spermogramme est un point de départ."
+},
+{
+"i": 167,
+"t": "00:13:47,950 --> 00:13:51,650",
+"fr": "S'il est bas, il ne doit pas vous condamner trop tôt."
+},
+{
+"i": 168,
+"t": "00:13:51,850 --> 00:13:56,570",
+"fr": "S'il est normal alors que la grossesse n'arrive pas, il ne vous garantit pas que"
+},
+{
+"i": 169,
+"t": "00:13:56,610 --> 00:14:02,870",
+"fr": "tout va bien. Ce qui compte, c'est un résultat confirmé, lu à deux avec"
+},
+{
+"i": 170,
+"t": "00:14:02,910 --> 00:14:06,090",
+"fr": "un médecin, et un vrai examen."
+},
+{
+"i": 171,
+"t": "00:14:06,230 --> 00:14:11,430",
+"fr": "Pas tout seul devant le frigo, en zoomant sur ses pixels !"
+},
+{
+"i": 172,
+"t": "00:14:11,990 --> 00:14:16,110",
+"fr": "La prochaine fois qu'un compte-rendu vous crie dessus en gras,"
+},
+{
+"i": 173,
+"t": "00:14:16,450 --> 00:14:20,230",
+"fr": "posez-vous une seule question : c'était le premier test, ou le deuxième ?"
+},
+{
+"i": 174,
+"t": "00:14:20,650 --> 00:14:26,130",
+"fr": "Trois questions à emporter chez le médecin ; elles sont aussi dans la description."
+},
+{
+"i": 175,
+"t": "00:14:26,170 --> 00:14:30,210",
+"fr": "Bon, demandez-lui déjà s'il faut faire un deuxième test."
+},
+{
+"i": 176,
+"t": "00:14:30,770 --> 00:14:34,670",
+"fr": "Faut-il un examen clinique ou une prise de sang hormonale ?"
+},
+{
+"i": 177,
+"t": "00:14:35,070 --> 00:14:39,510",
+"fr": "Et faut-il consulter un urologue ou un andrologue ?"
+},
+{
+"i": 178,
+"t": "00:14:39,630 --> 00:14:45,410",
+"fr": "N'oubliez pas : ce contenu est informatif et ne remplace pas une évaluation"
+},
+{
+"i": 179,
+"t": "00:14:45,450 --> 00:14:51,530",
+"fr": "médicale individuelle. Et si votre test reste un peu bas : qu'est-ce qui,"
+},
+{
+"i": 180,
+"t": "00:14:51,650 --> 00:14:55,410",
+"fr": "au quotidien, joue vraiment sur la qualité du sperme ?"
+},
+{
+"i": 181,
+"t": "00:14:55,450 --> 00:15:00,210",
+"fr": "Je ferai peut-être une autre vidéo là-dessus prochainement."
+},
+{
+"i": 182,
+"t": "00:15:01,170 --> 00:15:02,290",
+"fr": "Allez, salut, ciao !"
+}
+]

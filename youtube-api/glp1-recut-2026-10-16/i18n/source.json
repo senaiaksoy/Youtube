@@ -1,0 +1,766 @@
+{
+ "title_fr": "Stylo pour maigrir et grossesse : aide-t-il vraiment à tomber enceinte ?",
+ "description_fr": "« Une piqûre, zéro appétit… » puis « surprise, je suis tombée enceinte » : sur les réseaux, le lien entre les injections pour maigrir et la grossesse semble évident. Le Dr Senai Aksoy, professeur associé en médecine de la reproduction, regarde ce que montrent réellement les études sur les médicaments de la famille du GLP-1 (sémaglutide, liraglutide, tirzépatide) et la fertilité.\n\nCes médicaments peuvent contribuer indirectement aux chances de grossesse chez certaines femmes, notamment avec un SOPK. Mais ce ne sont pas des traitements directs de l’infertilité, et on ne les utilise pas pendant la grossesse. Nous abordons aussi les délais d’arrêt avant une grossesse prévue, la contraception, la ponction ovocytaire et l’anesthésie, et ce que l’on sait chez les hommes.\n\n⏱️ CHAPITRES\n00:00 Une piqûre, une grossesse ? Le raccourci des réseaux\n01:38 C’est quoi, le GLP-1 ?\n02:54 SOPK : poids, insuline et ovulation\n04:16 Que disent les études ?\n05:02 Une étude de registre publiée en 2026\n06:07 Et la FIV ?\n07:30 Contraception : un point crucial\n08:18 Combien de temps arrêter avant une grossesse ?\n08:54 Tirzépatide et pilule contraceptive\n09:49 Test de grossesse positif sous traitement\n10:37 Avant une FIV : tout évaluer ensemble\n11:19 Ponction ovocytaire et anesthésie\n12:04 Et les hommes ?\n12:46 Effets secondaires et reprise de poids\n13:12 Trois questions à poser à votre médecin\n\n❓ LES TROIS QUESTIONS À POSER À VOTRE MÉDECIN\n1. Pourquoi ai-je médicalement besoin de ce médicament ?\n2. Quand dois-je l’arrêter avant d’essayer d’avoir un bébé, et comment me protéger pendant cette période ?\n3. Comment cela affecte-t-il le calendrier de mon traitement de fertilité ?\n\n📚 RÉFÉRENCES (numérotées comme à l’écran)\n[1] Zhou L, et al. BMC Endocr Disord. 2023;23(1):245. Méta-analyse, 11 essais randomisés, n = 840. PMID 37940910\n[2] Wu YC, et al. Reprod Biol Endocrinol. 2026;24(1). Cohorte rétrospective multicentrique, n = 1 936. PMID 42001071\n[3] Teede HJ, et al. Recommandations internationales sur le SOPK, 2023 (§ 5.3.1, § 5.9.1)\n[4] EMA. Sémaglutide (gestion du poids), résumé des caractéristiques du produit, § 4.6\n[5] Tirzépatide, résumé des caractéristiques du produit (Royaume-Uni), § 4.5–4.6\n[6] MHRA (Royaume-Uni). GLP-1 medicines: what you need to know\n[7] Lau KGY, et al. BJOG. 2026. PMID 42830218\n[8] Dao K, et al. BMJ Open. 2024;14(4):e083550. PMID 38663923\n[9] MHRA. Drug Safety Update, janvier 2025 : risque d’aspiration sous anesthésie générale ou sédation profonde\n[10] Andersen E, et al. Hum Reprod. 2022;37(7):1414-22. PMID 35580859\n[11] Peel A, et al. Hum Reprod Update. 2026;32(2):154-80. PMID 41065428\n\n💬 Avez-vous déjà vu passer ce genre de vidéo sur votre fil ? Posez votre question en commentaire, sans publier de données médicales personnelles.\n🔔 Abonnez-vous pour mieux comprendre votre parcours de FIV et préparer vos questions pour votre médecin.\n\nPour plus amples informations :\n📱 WhatsApp : +90 507 380 28 05\n🌐 Web site : www.draksoyivf.com\n\n⚕️ AVERTISSEMENT MÉDICAL IMPORTANT\n\nLes informations présentées dans cette vidéo sont fournies à titre éducatif et informatif uniquement. Elles ne constituent en aucun cas un avis médical, un diagnostic ou une recommandation de traitement personnalisée.\n\nChaque situation médicale est unique. Les contenus abordés ici ne remplacent pas une consultation avec un médecin qualifié, un gynécologue ou un spécialiste en médecine de la reproduction.\n\nNe modifiez jamais votre traitement médical en cours, ne commencez pas un nouveau traitement et ne prenez aucune décision médicale sur la base des informations contenues dans cette vidéo, sans avoir préalablement consulté votre médecin traitant ou votre spécialiste.\n\nSi vous avez des questions concernant votre santé reproductive ou votre prise en charge en FIV, veuillez consulter un professionnel de santé qualifié.\n\n© Assoc. Prof. Dr. Senai Aksoy — Tous droits réservés.\n\n#FIV #Fertilité #SOPK",
+ "cues": [
+  {
+   "i": 1,
+   "fr": "Il est 1 h 30 du matin, vous êtes au lit,"
+  },
+  {
+   "i": 2,
+   "fr": "et la fameuse séance de musculation du pouce commence sur le téléphone."
+  },
+  {
+   "i": 3,
+   "fr": "Vous ouvrez une première vidéo, quelqu'un tient un stylo injecteur à la"
+  },
+  {
+   "i": 4,
+   "fr": "main et raconte."
+  },
+  {
+   "i": 5,
+   "fr": "« Une piqûre, zéro appétit, j'ai fondu de moitié. »"
+  },
+  {
+   "i": 6,
+   "fr": "Un petit coup de pouce vers le haut,"
+  },
+  {
+   "i": 7,
+   "fr": "hop, deuxième vidéo : « J'ai utilisé ce stylo."
+  },
+  {
+   "i": 8,
+   "fr": "Surprise, je suis tombée enceinte. »"
+  },
+  {
+   "i": 9,
+   "fr": "Regardez bien, entre ces deux vidéos,"
+  },
+  {
+   "i": 10,
+   "fr": "il n'y a qu'un seul mouvement de pouce."
+  },
+  {
+   "i": 11,
+   "fr": "0,2 seconde."
+  },
+  {
+   "i": 12,
+   "fr": "En regardant ça, on se dit tout de suite :"
+  },
+  {
+   "i": 13,
+   "fr": "« Bon, ben, c'est réglé, on pique et on accouche. »"
+  },
+  {
+   "i": 14,
+   "fr": "Mais sur le plan scientifique, établir ce lien demande un tout petit"
+  },
+  {
+   "i": 15,
+   "fr": "peu plus de travail qu'un balayage d'écran."
+  },
+  {
+   "i": 16,
+   "fr": "Les médicaments de la famille du GLP-1 peuvent effectivement contribuer"
+  },
+  {
+   "i": 17,
+   "fr": "de façon indirecte aux chances de grossesse chez certaines femmes."
+  },
+  {
+   "i": 18,
+   "fr": "Mais ce ne sont absolument pas des traitements directs de l'infertilité."
+  },
+  {
+   "i": 19,
+   "fr": "Et on ne les utilise pas pendant la grossesse."
+  },
+  {
+   "i": 20,
+   "fr": "Je suis le Dr Senai Aksoy."
+  },
+  {
+   "i": 21,
+   "fr": "Aujourd'hui, regardons ensemble le vrai lien entre ces fameuses injections"
+  },
+  {
+   "i": 22,
+   "fr": "et la fertilité et surtout ce à quoi il faut faire attention quand"
+  },
+  {
+   "i": 23,
+   "fr": "on planifie un bébé."
+  },
+  {
+   "i": 24,
+   "fr": "Commençons par le début."
+  },
+  {
+   "i": 25,
+   "fr": "C'est quoi, le GLP-1 ?"
+  },
+  {
+   "i": 26,
+   "fr": "Le nom sonne un peu comme le dernier modèle d'une voiture hybride,"
+  },
+  {
+   "i": 27,
+   "fr": "mais en réalité, c'est une hormone naturelle produite par notre corps"
+  },
+  {
+   "i": 28,
+   "fr": "après les repas."
+  },
+  {
+   "i": 29,
+   "fr": "Elle joue un rôle clé dans la satiété et la régulation de la glycémie,"
+  },
+  {
+   "i": 30,
+   "fr": "en envoyant un message très simple au cerveau :"
+  },
+  {
+   "i": 31,
+   "fr": "« C'est bon, chef, on est rassasiés."
+  },
+  {
+   "i": 32,
+   "fr": "Pose doucement la fourchette, le taux de sucre est sous contrôle. »"
+  },
+  {
+   "i": 33,
+   "fr": "Des médicaments comme le sémaglutide et le"
+  },
+  {
+   "i": 34,
+   "fr": "liraglutide agissent comme les cascadeurs officiels de cette hormone."
+  },
+  {
+   "i": 35,
+   "fr": "Ils imitent son action."
+  },
+  {
+   "i": 36,
+   "fr": "Le tirzépatide, lui, débarque en équipe."
+  },
+  {
+   "i": 37,
+   "fr": "En plus du GLP-1, il fait appel à l'effet d'une autre hormone appelée GIP."
+  },
+  {
+   "i": 38,
+   "fr": "Chez les personnes éligibles, il peut aider à la gestion du poids et au"
+  },
+  {
+   "i": 39,
+   "fr": "contrôle de la glycémie."
+  },
+  {
+   "i": 40,
+   "fr": "Très bien."
+  },
+  {
+   "i": 41,
+   "fr": "Mais comment passe-t-on de là à une grossesse ?"
+  },
+  {
+   "i": 42,
+   "fr": "Tout se joue notamment dans le syndrome des ovaires polykystiques,"
+  },
+  {
+   "i": 43,
+   "fr": "le fameux SOPK."
+  },
+  {
+   "i": 44,
+   "fr": "Chez certaines femmes atteintes du SOPK,"
+  },
+  {
+   "i": 45,
+   "fr": "la résistance à l'insuline et les troubles de l'ovulation marchent"
+  },
+  {
+   "i": 46,
+   "fr": "main dans la main."
+  },
+  {
+   "i": 47,
+   "fr": "La résistance à l'insuline, c'est quand l'insuline frappe à la porte de la"
+  },
+  {
+   "i": 48,
+   "fr": "cellule et que de l'intérieur personne ne répond."
+  },
+  {
+   "i": 49,
+   "fr": "Le corps ne réagit pas suffisamment à l'insuline."
+  },
+  {
+   "i": 50,
+   "fr": "Quand la situation métabolique et la gestion du poids s'améliorent,"
+  },
+  {
+   "i": 51,
+   "fr": "ce chaos intérieur s'apaise."
+  },
+  {
+   "i": 52,
+   "fr": "Chez certaines femmes, les règles redeviennent plus régulières et les"
+  },
+  {
+   "i": 53,
+   "fr": "ovaires se disent « tiens, le calme est revenu là-dedans et si on"
+  },
+  {
+   "i": 54,
+   "fr": "commençait à ovuler »."
+  },
+  {
+   "i": 55,
+   "fr": "La contribution aux chances de grossesse,"
+  },
+  {
+   "i": 56,
+   "fr": "du moins en partie, peut venir de là."
+  },
+  {
+   "i": 57,
+   "fr": "Mais attention au raccourci classique :"
+  },
+  {
+   "i": 58,
+   "fr": "toutes les femmes ayant un SOPK ne sont pas en surpoids,"
+  },
+  {
+   "i": 59,
+   "fr": "et toutes les femmes en surpoids n'ont pas de problème d'ovulation."
+  },
+  {
+   "i": 60,
+   "fr": "On ne peut donc pas poser l'équation automatique"
+  },
+  {
+   "i": 61,
+   "fr": "« j'ai un SOPK donc il me faut cette injection »."
+  },
+  {
+   "i": 62,
+   "fr": "Alors, les études sont-elles encourageantes ?"
+  },
+  {
+   "i": 63,
+   "fr": "Certaines, oui."
+  },
+  {
+   "i": 64,
+   "fr": "Chez les femmes atteintes du SOPK,"
+  },
+  {
+   "i": 65,
+   "fr": "certaines recherches montrent une amélioration de la régularité des cycles"
+  },
+  {
+   "i": 66,
+   "fr": "et des taux de grossesse spontanés."
+  },
+  {
+   "i": 67,
+   "fr": "Mais une partie de ces études porte sur de petits effectifs,"
+  },
+  {
+   "i": 68,
+   "fr": "avec des médicaments et des traitements complémentaires différents."
+  },
+  {
+   "i": 69,
+   "fr": "Et le fait qu'une seule personne sur les réseaux sociaux tombe enceinte"
+  },
+  {
+   "i": 70,
+   "fr": "après avoir pris ce médicament ne prouve pas directement que la qualité"
+  },
+  {
+   "i": 71,
+   "fr": "des ovocytes a augmenté."
+  },
+  {
+   "i": 72,
+   "fr": "Ça, ce n'est pas une preuve scientifique."
+  },
+  {
+   "i": 73,
+   "fr": "C'est une discussion de machine à café."
+  },
+  {
+   "i": 74,
+   "fr": "D'ailleurs, les résultats ne vont pas tous dans le même sens."
+  },
+  {
+   "i": 75,
+   "fr": "Dans une étude de registre publiée en 2026,"
+  },
+  {
+   "i": 76,
+   "fr": "menée chez des femmes présentant une infertilité associée à un surpoids"
+  },
+  {
+   "i": 77,
+   "fr": "ou une obésité, l'utilisation du sémaglutide a été associée"
+  },
+  {
+   "i": 78,
+   "fr": "à des taux plus faibles de grossesse et de naissance vivante."
+  },
+  {
+   "i": 79,
+   "fr": "Pas de conclusion hâtive : il s'agit d'une étude observationnelle."
+  },
+  {
+   "i": 80,
+   "fr": "On ne peut donc pas affirmer que le médicament en est la cause directe."
+  },
+  {
+   "i": 81,
+   "fr": "Des facteurs comme le calendrier thérapeutique et le report volontaire de"
+  },
+  {
+   "i": 82,
+   "fr": "la grossesse ont très bien pu influencer ces résultats."
+  },
+  {
+   "i": 83,
+   "fr": "Il ne faut pas confondre : retrouver des cycles réguliers,"
+  },
+  {
+   "i": 84,
+   "fr": "ovuler, avoir un test de grossesse positif et aboutir à une naissance"
+  },
+  {
+   "i": 85,
+   "fr": "vivante sont des résultats bien distincts."
+  },
+  {
+   "i": 86,
+   "fr": "On ne peut pas extrapoler ces observations à toutes les femmes,"
+  },
+  {
+   "i": 87,
+   "fr": "à tous les médicaments du GLP-1 ou à la fécondation in vitro."
+  },
+  {
+   "i": 88,
+   "fr": "Nous n'avons pas de preuves solides et suffisantes montrant que les"
+  },
+  {
+   "i": 89,
+   "fr": "agonistes du GLP-1 augmentent les chances de naissance vivante en FIV."
+  },
+  {
+   "i": 90,
+   "fr": "Les recommandations internationales de 2023 sur le SOPK font d'ailleurs"
+  },
+  {
+   "i": 91,
+   "fr": "clairement cette distinction."
+  },
+  {
+   "i": 92,
+   "fr": "Ces médicaments peuvent être envisagés pour la gestion du poids chez les"
+  },
+  {
+   "i": 93,
+   "fr": "personnes éligibles, mais leur utilisation dans le but d'améliorer les"
+  },
+  {
+   "i": 94,
+   "fr": "résultats de fertilité dans le SOPK reste limitée au cadre de la recherche."
+  },
+  {
+   "i": 95,
+   "fr": "La décision clinique doit reposer sur une indication médicale appropriée"
+  },
+  {
+   "i": 96,
+   "fr": "comme la gestion du poids ou le diabète."
+  },
+  {
+   "i": 97,
+   "fr": "Si l'absence de grossesse dans le SOPK est uniquement liée à l'absence"
+  },
+  {
+   "i": 98,
+   "fr": "d'ovulation, et qu'aucune autre cause d'infertilité n'est identifiée,"
+  },
+  {
+   "i": 99,
+   "fr": "le traitement d'induction de l'ovulation recommandé en première intention"
+  },
+  {
+   "i": 100,
+   "fr": "par les référentiels médicaux est le létrozole."
+  },
+  {
+   "i": 101,
+   "fr": "Voici maintenant un point crucial."
+  },
+  {
+   "i": 102,
+   "fr": "Certaines patientes se disent tranquillement :"
+  },
+  {
+   "i": 103,
+   "fr": "« Docteur, j'ai mes règles tous les trois mois,"
+  },
+  {
+   "i": 104,
+   "fr": "je ne risque pas de tomber enceinte. »"
+  },
+  {
+   "i": 105,
+   "fr": "Ne pensez surtout pas ça."
+  },
+  {
+   "i": 106,
+   "fr": "Le corps ovule d'abord, les règles viennent ensuite."
+  },
+  {
+   "i": 107,
+   "fr": "Lorsque l'ovulation reprend, vos ovaires ne vous préviennent pas par SMS."
+  },
+  {
+   "i": 108,
+   "fr": "Une grossesse peut survenir à un moment totalement inattendu."
+  },
+  {
+   "i": 109,
+   "fr": "Or, nous ne disposons pas de données humaines suffisantes pour affirmer"
+  },
+  {
+   "i": 110,
+   "fr": "que ces médicaments sont sûrs pendant la grossesse."
+  },
+  {
+   "i": 111,
+   "fr": "Une contraception efficace est donc indispensable pendant le traitement et"
+  },
+  {
+   "i": 112,
+   "fr": "durant la période d'arrêt propre à chaque médicament."
+  },
+  {
+   "i": 113,
+   "fr": "Quel est le calendrier ?"
+  },
+  {
+   "i": 114,
+   "fr": "Pour le sémaglutide, il est recommandé de l'arrêter au moins deux mois"
+  },
+  {
+   "i": 115,
+   "fr": "avant un projet de grossesse."
+  },
+  {
+   "i": 116,
+   "fr": "Pour le tirzépatide, ce délai est d'au moins un mois."
+  },
+  {
+   "i": 117,
+   "fr": "Le médicament utilisé, la date de la dernière dose et le moment précis du"
+  },
+  {
+   "i": 118,
+   "fr": "début des essais doivent être clarifiés avec le médecin prescripteur."
+  },
+  {
+   "i": 119,
+   "fr": "Et si vous avez un diabète, un traitement de la glycémie adapté à la"
+  },
+  {
+   "i": 120,
+   "fr": "grossesse doit impérativement être planifié."
+  },
+  {
+   "i": 121,
+   "fr": "Pour celles qui utilisent le tirzépatide,"
+  },
+  {
+   "i": 122,
+   "fr": "il y a un détail très important, en particulier chez les personnes en"
+  },
+  {
+   "i": 123,
+   "fr": "surpoids et atteintes d'obésité."
+  },
+  {
+   "i": 124,
+   "fr": "L'efficacité de la pilule contraceptive peut diminuer."
+  },
+  {
+   "i": 125,
+   "fr": "Comme les médicaments modifient la vidange de l'estomac,"
+  },
+  {
+   "i": 126,
+   "fr": "l'absorption du comprimé peut baisser."
+  },
+  {
+   "i": 127,
+   "fr": "Il est donc recommandé d'utiliser une méthode supplémentaire,"
+  },
+  {
+   "i": 128,
+   "fr": "comme le préservatif en plus de la pilule."
+  },
+  {
+   "i": 129,
+   "fr": "Pendant les quatre semaines suivant le début du traitement et pendant les"
+  },
+  {
+   "i": 130,
+   "fr": "quatre semaines suivant chaque augmentation de dose ou de passer à une"
+  },
+  {
+   "i": 131,
+   "fr": "contraception non orale."
+  },
+  {
+   "i": 132,
+   "fr": "Attention, cet avertissement n'est pas identique pour tous les médicaments"
+  },
+  {
+   "i": 133,
+   "fr": "du GLP-1."
+  },
+  {
+   "i": 134,
+   "fr": "Et si le test de grossesse devient positif pendant le traitement ?"
+  },
+  {
+   "i": 135,
+   "fr": "Consultez immédiatement le médecin prescripteur et votre gynécologue."
+  },
+  {
+   "i": 136,
+   "fr": "On ne poursuit pas ce médicament pendant la grossesse."
+  },
+  {
+   "i": 137,
+   "fr": "Mais avoir été exposé au médicament ne signifie pas que le bébé a"
+  },
+  {
+   "i": 138,
+   "fr": "forcément subi un dommage."
+  },
+  {
+   "i": 139,
+   "fr": "Les données humaines disponibles sont rassurantes sous certains aspects,"
+  },
+  {
+   "i": 140,
+   "fr": "mais pas assez robustes pour garantir une sécurité de la grossesse."
+  },
+  {
+   "i": 141,
+   "fr": "On évalue alors le médicament utilisé,"
+  },
+  {
+   "i": 142,
+   "fr": "la dose et à quel stade de la grossesse il a été pris."
+  },
+  {
+   "i": 143,
+   "fr": "Si vous êtes diabétique, un traitement alternatif est mis en place sans délai."
+  },
+  {
+   "i": 144,
+   "fr": "Avant une fécondation in vitro, l'âge,"
+  },
+  {
+   "i": 145,
+   "fr": "la réserve ovarienne, la cause de l'infertilité et l'impact du"
+  },
+  {
+   "i": 146,
+   "fr": "délai d'attente sur la fertilité doivent être évalués ensemble."
+  },
+  {
+   "i": 147,
+   "fr": "Dire à tout le monde « perdez d'abord du poids,"
+  },
+  {
+   "i": 148,
+   "fr": "on verra le traitement après », ce n'est pas juste."
+  },
+  {
+   "i": 149,
+   "fr": "Chez certaines personnes, une préparation métabolique est pertinente."
+  },
+  {
+   "i": 150,
+   "fr": "Chez d'autres, retarder longuement la prise en charge n'est pas approprié."
+  },
+  {
+   "i": 151,
+   "fr": "Votre poids n'est pas une note sur un bulletin qui détermine si vous"
+  },
+  {
+   "i": 152,
+   "fr": "méritez ou non un traitement."
+  },
+  {
+   "i": 153,
+   "fr": "Et si une ponction ovocytaire est prévue,"
+  },
+  {
+   "i": 154,
+   "fr": "signalez impérativement votre traitement à l'équipe de FIV et au"
+  },
+  {
+   "i": 155,
+   "fr": "médecin anesthésiste."
+  },
+  {
+   "i": 156,
+   "fr": "Ne vous dites jamais : « C'est juste mon stylo,"
+  },
+  {
+   "i": 157,
+   "fr": "bien sûr, pas besoin d'en parler. »"
+  },
+  {
+   "i": 158,
+   "fr": "Ces médicaments ralentissent la vidange gastrique."
+  },
+  {
+   "i": 159,
+   "fr": "Vous aurez beau être à jeun depuis huit heures,"
+  },
+  {
+   "i": 160,
+   "fr": "l'estomac peut ne pas être vide, ce qui est capital lors d'une sédation ou"
+  },
+  {
+   "i": 161,
+   "fr": "d'une anesthésie."
+  },
+  {
+   "i": 162,
+   "fr": "Le plan d'arrêt pour une grossesse et les protocoles pré-anesthésiques"
+  },
+  {
+   "i": 163,
+   "fr": "sont deux choses différentes."
+  },
+  {
+   "i": 164,
+   "fr": "Laissez votre équipe établir votre plan personnalisé."
+  },
+  {
+   "i": 165,
+   "fr": "Et puis, il y a les hommes."
+  },
+  {
+   "i": 166,
+   "fr": "Messieurs, ne regardez pas cette vidéo depuis le coin du canapé en disant :"
+  },
+  {
+   "i": 167,
+   "fr": "« Tu vois, chérie, le docteur parle pour toi. »"
+  },
+  {
+   "i": 168,
+   "fr": "Chez les hommes atteints d'obésité,"
+  },
+  {
+   "i": 169,
+   "fr": "des modifications de mode de vie comme l'alimentation et l'activité"
+  },
+  {
+   "i": 170,
+   "fr": "physique peuvent améliorer certains paramètres spermatiques."
+  },
+  {
+   "i": 171,
+   "fr": "Il existe aussi des recherches sur les médicaments du GLP-1,"
+  },
+  {
+   "i": 172,
+   "fr": "mais les preuves en restent limitées."
+  },
+  {
+   "i": 173,
+   "fr": "Aujourd'hui, nous ne pouvons pas présenter ces médicaments comme un"
+  },
+  {
+   "i": 174,
+   "fr": "traitement prouvé de l'infertilité masculine."
+  },
+  {
+   "i": 175,
+   "fr": "Des effets secondaires, comme des nausées,"
+  },
+  {
+   "i": 176,
+   "fr": "des vomissements et des troubles digestifs,"
+  },
+  {
+   "i": 177,
+   "fr": "peuvent également survenir."
+  },
+  {
+   "i": 178,
+   "fr": "Et une reprise de poids est possible,"
+  },
+  {
+   "i": 179,
+   "fr": "malheureusement, après l'arrêt du médicament."
+  },
+  {
+   "i": 180,
+   "fr": "C'est pourquoi l'alimentation, l'activité physique,"
+  },
+  {
+   "i": 181,
+   "fr": "le suivi métabolique et la transition vers la grossesse doivent être"
+  },
+  {
+   "i": 182,
+   "fr": "planifiés ensemble."
+  },
+  {
+   "i": 183,
+   "fr": "En résumé, clarifiez ces trois points avec votre médecin."
+  },
+  {
+   "i": 184,
+   "fr": "1. Pourquoi ai-je médicalement besoin de ce médicament ?"
+  },
+  {
+   "i": 185,
+   "fr": "2. Quand dois-je l'arrêter avant les essais de grossesse,"
+  },
+  {
+   "i": 186,
+   "fr": "et comment assurer ma contraception pendant cette période ?"
+  },
+  {
+   "i": 187,
+   "fr": "3. Comment cela affecte-t-il le calendrier de mon traitement de fertilité ?"
+  },
+  {
+   "i": 188,
+   "fr": "Alors, dernièrement, ce contenu est fourni à titre informatif"
+  },
+  {
+   "i": 189,
+   "fr": "et ne remplace pas une évaluation médicale individuelle."
+  },
+  {
+   "i": 190,
+   "fr": "Ciao !"
+  }
+ ]
+}

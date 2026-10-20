@@ -1,0 +1,18 @@
+[
+  {
+    "id": "AUieDaaQJSLpMi-6vaGg1jwpY1UqgYioX6ENaBaHX6gP6gIN0uU",
+    "language": "fr",
+    "name": "",
+    "trackKind": "asr",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaYpUI8bM7X5klMcCTvplo_ATe75Y0TYpKoHtZL791XXduPB9I8UDEo",
+    "language": "fr",
+    "name": "Français",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  }
+]

@@ -1,0 +1,952 @@
+[
+{
+"i": 1,
+"t": "00:00:00,040 --> 00:00:03,640",
+"fr": "Il est 1 h 30 du matin, vous êtes au lit,"
+},
+{
+"i": 2,
+"t": "00:00:03,680 --> 00:00:09,050",
+"fr": "et la fameuse séance de musculation du pouce commence sur le téléphone."
+},
+{
+"i": 3,
+"t": "00:00:09,240 --> 00:00:15,120",
+"fr": "Vous ouvrez une première vidéo, quelqu'un tient un stylo injecteur à la"
+},
+{
+"i": 4,
+"t": "00:00:15,160 --> 00:00:16,710",
+"fr": "main et raconte."
+},
+{
+"i": 5,
+"t": "00:00:16,960 --> 00:00:21,420",
+"fr": "« Une piqûre, zéro appétit, j'ai fondu de moitié. »"
+},
+{
+"i": 6,
+"t": "00:00:21,460 --> 00:00:23,920",
+"fr": "Un petit coup de pouce vers le haut,"
+},
+{
+"i": 7,
+"t": "00:00:23,960 --> 00:00:28,120",
+"fr": "hop, deuxième vidéo : « J'ai utilisé ce stylo."
+},
+{
+"i": 8,
+"t": "00:00:28,160 --> 00:00:30,630",
+"fr": "Surprise, je suis tombée enceinte. »"
+},
+{
+"i": 9,
+"t": "00:00:31,160 --> 00:00:34,010",
+"fr": "Regardez bien, entre ces deux vidéos,"
+},
+{
+"i": 10,
+"t": "00:00:34,160 --> 00:00:36,890",
+"fr": "il n'y a qu'un seul mouvement de pouce."
+},
+{
+"i": 11,
+"t": "00:00:37,993 --> 00:00:39,247",
+"fr": "0,2 seconde."
+},
+{
+"i": 12,
+"t": "00:00:39,960 --> 00:00:43,660",
+"fr": "En regardant ça, on se dit tout de suite :"
+},
+{
+"i": 13,
+"t": "00:00:43,700 --> 00:00:47,800",
+"fr": "« Bon, ben, c'est réglé, on pique et on accouche. »"
+},
+{
+"i": 14,
+"t": "00:00:47,840 --> 00:00:54,140",
+"fr": "Mais sur le plan scientifique, établir ce lien demande un tout petit"
+},
+{
+"i": 15,
+"t": "00:00:54,180 --> 00:00:57,950",
+"fr": "peu plus de travail qu'un balayage d'écran."
+},
+{
+"i": 16,
+"t": "00:00:58,200 --> 00:01:05,000",
+"fr": "Les médicaments de la famille du GLP-1 peuvent effectivement contribuer"
+},
+{
+"i": 17,
+"t": "00:01:05,040 --> 00:01:09,960",
+"fr": "de façon indirecte aux chances de grossesse chez certaines femmes."
+},
+{
+"i": 18,
+"t": "00:01:10,000 --> 00:01:16,160",
+"fr": "Mais ce ne sont absolument pas des traitements directs de l'infertilité."
+},
+{
+"i": 19,
+"t": "00:01:16,300 --> 00:01:19,970",
+"fr": "Et on ne les utilise pas pendant la grossesse."
+},
+{
+"i": 20,
+"t": "00:01:20,160 --> 00:01:23,133",
+"fr": "Je suis le Dr Senai Aksoy."
+},
+{
+"i": 21,
+"t": "00:01:23,580 --> 00:01:29,720",
+"fr": "Aujourd'hui, regardons ensemble le vrai lien entre ces fameuses injections"
+},
+{
+"i": 22,
+"t": "00:01:29,760 --> 00:01:36,300",
+"fr": "et la fertilité et surtout ce à quoi il faut faire attention quand"
+},
+{
+"i": 23,
+"t": "00:01:36,340 --> 00:01:38,360",
+"fr": "on planifie un bébé."
+},
+{
+"i": 24,
+"t": "00:01:38,400 --> 00:01:40,250",
+"fr": "Commençons par le début."
+},
+{
+"i": 25,
+"t": "00:01:40,700 --> 00:01:43,087",
+"fr": "C'est quoi, le GLP-1 ?"
+},
+{
+"i": 26,
+"t": "00:01:43,595 --> 00:01:49,280",
+"fr": "Le nom sonne un peu comme le dernier modèle d'une voiture hybride,"
+},
+{
+"i": 27,
+"t": "00:01:49,320 --> 00:01:55,440",
+"fr": "mais en réalité, c'est une hormone naturelle produite par notre corps"
+},
+{
+"i": 28,
+"t": "00:01:55,480 --> 00:01:57,500",
+"fr": "après les repas."
+},
+{
+"i": 29,
+"t": "00:01:57,540 --> 00:02:03,740",
+"fr": "Elle joue un rôle clé dans la satiété et la régulation de la glycémie,"
+},
+{
+"i": 30,
+"t": "00:02:03,780 --> 00:02:08,110",
+"fr": "en envoyant un message très simple au cerveau :"
+},
+{
+"i": 31,
+"t": "00:02:08,153 --> 00:02:10,700",
+"fr": "« C'est bon, chef, on est rassasiés."
+},
+{
+"i": 32,
+"t": "00:02:10,740 --> 00:02:15,410",
+"fr": "Pose doucement la fourchette, le taux de sucre est sous contrôle. »"
+},
+{
+"i": 33,
+"t": "00:02:15,990 --> 00:02:20,170",
+"fr": "Des médicaments comme le sémaglutide et le"
+},
+{
+"i": 34,
+"t": "00:02:20,850 --> 00:02:25,850",
+"fr": "liraglutide agissent comme les cascadeurs officiels de cette hormone."
+},
+{
+"i": 35,
+"t": "00:02:26,000 --> 00:02:27,830",
+"fr": "Ils imitent son action."
+},
+{
+"i": 36,
+"t": "00:02:28,100 --> 00:02:32,060",
+"fr": "Le tirzépatide, lui, débarque en équipe."
+},
+{
+"i": 37,
+"t": "00:02:32,100 --> 00:02:40,030",
+"fr": "En plus du GLP-1, il fait appel à l'effet d'une autre hormone appelée GIP."
+},
+{
+"i": 38,
+"t": "00:02:40,830 --> 00:02:46,220",
+"fr": "Chez les personnes éligibles, il peut aider à la gestion du poids et au"
+},
+{
+"i": 39,
+"t": "00:02:46,260 --> 00:02:48,010",
+"fr": "contrôle de la glycémie."
+},
+{
+"i": 40,
+"t": "00:02:48,220 --> 00:02:49,000",
+"fr": "Très bien."
+},
+{
+"i": 41,
+"t": "00:02:49,040 --> 00:02:53,560",
+"fr": "Mais comment passe-t-on de là à une grossesse ?"
+},
+{
+"i": 42,
+"t": "00:02:53,600 --> 00:02:58,590",
+"fr": "Tout se joue notamment dans le syndrome des ovaires polykystiques,"
+},
+{
+"i": 43,
+"t": "00:02:58,660 --> 00:03:00,240",
+"fr": "le fameux SOPK."
+},
+{
+"i": 44,
+"t": "00:03:00,280 --> 00:03:04,130",
+"fr": "Chez certaines femmes atteintes du SOPK,"
+},
+{
+"i": 45,
+"t": "00:03:04,200 --> 00:03:10,560",
+"fr": "la résistance à l'insuline et les troubles de l'ovulation marchent"
+},
+{
+"i": 46,
+"t": "00:03:10,600 --> 00:03:11,800",
+"fr": "main dans la main."
+},
+{
+"i": 47,
+"t": "00:03:11,840 --> 00:03:17,640",
+"fr": "La résistance à l'insuline, c'est quand l'insuline frappe à la porte de la"
+},
+{
+"i": 48,
+"t": "00:03:17,680 --> 00:03:21,810",
+"fr": "cellule et que de l'intérieur personne ne répond."
+},
+{
+"i": 49,
+"t": "00:03:21,880 --> 00:03:26,190",
+"fr": "Le corps ne réagit pas suffisamment à l'insuline."
+},
+{
+"i": 50,
+"t": "00:03:26,280 --> 00:03:31,050",
+"fr": "Quand la situation métabolique et la gestion du poids s'améliorent,"
+},
+{
+"i": 51,
+"t": "00:03:31,200 --> 00:03:33,990",
+"fr": "ce chaos intérieur s'apaise."
+},
+{
+"i": 52,
+"t": "00:03:34,120 --> 00:03:39,480",
+"fr": "Chez certaines femmes, les règles redeviennent plus régulières et les"
+},
+{
+"i": 53,
+"t": "00:03:39,520 --> 00:03:44,120",
+"fr": "ovaires se disent « tiens, le calme est revenu là-dedans et si on"
+},
+{
+"i": 54,
+"t": "00:03:44,160 --> 00:03:45,840",
+"fr": "commençait à ovuler »."
+},
+{
+"i": 55,
+"t": "00:03:45,880 --> 00:03:48,930",
+"fr": "La contribution aux chances de grossesse,"
+},
+{
+"i": 56,
+"t": "00:03:48,980 --> 00:03:52,110",
+"fr": "du moins en partie, peut venir de là."
+},
+{
+"i": 57,
+"t": "00:03:52,300 --> 00:03:55,700",
+"fr": "Mais attention au raccourci classique :"
+},
+{
+"i": 58,
+"t": "00:03:55,740 --> 00:04:01,130",
+"fr": "toutes les femmes ayant un SOPK ne sont pas en surpoids,"
+},
+{
+"i": 59,
+"t": "00:04:01,180 --> 00:04:06,290",
+"fr": "et toutes les femmes en surpoids n'ont pas de problème d'ovulation."
+},
+{
+"i": 60,
+"t": "00:04:06,760 --> 00:04:11,260",
+"fr": "On ne peut donc pas poser l'équation automatique"
+},
+{
+"i": 61,
+"t": "00:04:11,300 --> 00:04:16,330",
+"fr": "« j'ai un SOPK donc il me faut cette injection »."
+},
+{
+"i": 62,
+"t": "00:04:16,660 --> 00:04:20,540",
+"fr": "Alors, les études sont-elles encourageantes ?"
+},
+{
+"i": 63,
+"t": "00:04:20,580 --> 00:04:21,770",
+"fr": "Certaines, oui."
+},
+{
+"i": 64,
+"t": "00:04:21,980 --> 00:04:24,910",
+"fr": "Chez les femmes atteintes du SOPK,"
+},
+{
+"i": 65,
+"t": "00:04:25,040 --> 00:04:30,870",
+"fr": "certaines recherches montrent une amélioration de la régularité des cycles"
+},
+{
+"i": 66,
+"t": "00:04:31,000 --> 00:04:33,950",
+"fr": "et des taux de grossesse spontanés."
+},
+{
+"i": 67,
+"t": "00:04:34,060 --> 00:04:39,540",
+"fr": "Mais une partie de ces études porte sur de petits effectifs,"
+},
+{
+"i": 68,
+"t": "00:04:39,580 --> 00:04:44,390",
+"fr": "avec des médicaments et des traitements complémentaires différents."
+},
+{
+"i": 69,
+"t": "00:04:44,620 --> 00:04:50,080",
+"fr": "Et le fait qu'une seule personne sur les réseaux sociaux tombe enceinte"
+},
+{
+"i": 70,
+"t": "00:04:50,120 --> 00:04:54,960",
+"fr": "après avoir pris ce médicament ne prouve pas directement que la qualité"
+},
+{
+"i": 71,
+"t": "00:04:55,000 --> 00:04:56,950",
+"fr": "des ovocytes a augmenté."
+},
+{
+"i": 72,
+"t": "00:04:57,180 --> 00:04:59,330",
+"fr": "Ça, ce n'est pas une preuve scientifique."
+},
+{
+"i": 73,
+"t": "00:04:59,560 --> 00:05:01,610",
+"fr": "C'est une discussion de machine à café."
+},
+{
+"i": 74,
+"t": "00:05:02,270 --> 00:05:07,380",
+"fr": "D'ailleurs, les résultats ne vont pas tous dans le même sens."
+},
+{
+"i": 75,
+"t": "00:05:07,420 --> 00:05:11,410",
+"fr": "Dans une étude de registre publiée en 2026,"
+},
+{
+"i": 76,
+"t": "00:05:11,540 --> 00:05:17,680",
+"fr": "menée chez des femmes présentant une infertilité associée à un surpoids"
+},
+{
+"i": 77,
+"t": "00:05:17,720 --> 00:05:23,760",
+"fr": "ou une obésité, l'utilisation du sémaglutide a été associée"
+},
+{
+"i": 78,
+"t": "00:05:23,800 --> 00:05:29,490",
+"fr": "à des taux plus faibles de grossesse et de naissance vivante."
+},
+{
+"i": 79,
+"t": "00:05:29,820 --> 00:05:35,280",
+"fr": "Pas de conclusion hâtive : il s'agit d'une étude observationnelle."
+},
+{
+"i": 80,
+"t": "00:05:35,320 --> 00:05:40,710",
+"fr": "On ne peut donc pas affirmer que le médicament en est la cause directe."
+},
+{
+"i": 81,
+"t": "00:05:40,840 --> 00:05:46,780",
+"fr": "Des facteurs comme le calendrier thérapeutique et le report volontaire de"
+},
+{
+"i": 82,
+"t": "00:05:46,820 --> 00:05:52,210",
+"fr": "la grossesse ont très bien pu influencer ces résultats."
+},
+{
+"i": 83,
+"t": "00:05:52,400 --> 00:05:56,740",
+"fr": "Il ne faut pas confondre : retrouver des cycles réguliers,"
+},
+{
+"i": 84,
+"t": "00:05:56,780 --> 00:06:02,980",
+"fr": "ovuler, avoir un test de grossesse positif et aboutir à une naissance"
+},
+{
+"i": 85,
+"t": "00:06:03,020 --> 00:06:06,720",
+"fr": "vivante sont des résultats bien distincts."
+},
+{
+"i": 86,
+"t": "00:06:06,760 --> 00:06:11,580",
+"fr": "On ne peut pas extrapoler ces observations à toutes les femmes,"
+},
+{
+"i": 87,
+"t": "00:06:11,620 --> 00:06:17,910",
+"fr": "à tous les médicaments du GLP-1 ou à la fécondation in vitro."
+},
+{
+"i": 88,
+"t": "00:06:18,100 --> 00:06:24,140",
+"fr": "Nous n'avons pas de preuves solides et suffisantes montrant que les"
+},
+{
+"i": 89,
+"t": "00:06:24,180 --> 00:06:30,830",
+"fr": "agonistes du GLP-1 augmentent les chances de naissance vivante en FIV."
+},
+{
+"i": 90,
+"t": "00:06:30,900 --> 00:06:37,100",
+"fr": "Les recommandations internationales de 2023 sur le SOPK font d'ailleurs"
+},
+{
+"i": 91,
+"t": "00:06:37,140 --> 00:06:39,550",
+"fr": "clairement cette distinction."
+},
+{
+"i": 92,
+"t": "00:06:39,920 --> 00:06:44,960",
+"fr": "Ces médicaments peuvent être envisagés pour la gestion du poids chez les"
+},
+{
+"i": 93,
+"t": "00:06:45,000 --> 00:06:51,140",
+"fr": "personnes éligibles, mais leur utilisation dans le but d'améliorer les"
+},
+{
+"i": 94,
+"t": "00:06:51,180 --> 00:06:57,710",
+"fr": "résultats de fertilité dans le SOPK reste limitée au cadre de la recherche."
+},
+{
+"i": 95,
+"t": "00:06:58,040 --> 00:07:04,020",
+"fr": "La décision clinique doit reposer sur une indication médicale appropriée"
+},
+{
+"i": 96,
+"t": "00:07:04,060 --> 00:07:07,580",
+"fr": "comme la gestion du poids ou le diabète."
+},
+{
+"i": 97,
+"t": "00:07:07,620 --> 00:07:14,073",
+"fr": "Si l'absence de grossesse dans le SOPK est uniquement liée à l'absence"
+},
+{
+"i": 98,
+"t": "00:07:14,113 --> 00:07:19,610",
+"fr": "d'ovulation, et qu'aucune autre cause d'infertilité n'est identifiée,"
+},
+{
+"i": 99,
+"t": "00:07:19,740 --> 00:07:24,540",
+"fr": "le traitement d'induction de l'ovulation recommandé en première intention"
+},
+{
+"i": 100,
+"t": "00:07:24,580 --> 00:07:29,060",
+"fr": "par les référentiels médicaux est le létrozole."
+},
+{
+"i": 101,
+"t": "00:07:29,240 --> 00:07:31,890",
+"fr": "Voici maintenant un point crucial."
+},
+{
+"i": 102,
+"t": "00:07:32,420 --> 00:07:35,660",
+"fr": "Certaines patientes se disent tranquillement :"
+},
+{
+"i": 103,
+"t": "00:07:35,700 --> 00:07:38,630",
+"fr": "« Docteur, j'ai mes règles tous les trois mois,"
+},
+{
+"i": 104,
+"t": "00:07:38,840 --> 00:07:41,740",
+"fr": "je ne risque pas de tomber enceinte. »"
+},
+{
+"i": 105,
+"t": "00:07:41,780 --> 00:07:43,820",
+"fr": "Ne pensez surtout pas ça."
+},
+{
+"i": 106,
+"t": "00:07:43,860 --> 00:07:48,530",
+"fr": "Le corps ovule d'abord, les règles viennent ensuite."
+},
+{
+"i": 107,
+"t": "00:07:48,600 --> 00:07:54,490",
+"fr": "Lorsque l'ovulation reprend, vos ovaires ne vous préviennent pas par SMS."
+},
+{
+"i": 108,
+"t": "00:07:54,680 --> 00:07:59,370",
+"fr": "Une grossesse peut survenir à un moment totalement inattendu."
+},
+{
+"i": 109,
+"t": "00:07:59,580 --> 00:08:05,280",
+"fr": "Or, nous ne disposons pas de données humaines suffisantes pour affirmer"
+},
+{
+"i": 110,
+"t": "00:08:05,320 --> 00:08:08,470",
+"fr": "que ces médicaments sont sûrs pendant la grossesse."
+},
+{
+"i": 111,
+"t": "00:08:08,760 --> 00:08:14,060",
+"fr": "Une contraception efficace est donc indispensable pendant le traitement et"
+},
+{
+"i": 112,
+"t": "00:08:14,100 --> 00:08:17,910",
+"fr": "durant la période d'arrêt propre à chaque médicament."
+},
+{
+"i": 113,
+"t": "00:08:18,040 --> 00:08:19,420",
+"fr": "Quel est le calendrier ?"
+},
+{
+"i": 114,
+"t": "00:08:19,460 --> 00:08:24,900",
+"fr": "Pour le sémaglutide, il est recommandé de l'arrêter au moins deux mois"
+},
+{
+"i": 115,
+"t": "00:08:24,940 --> 00:08:27,430",
+"fr": "avant un projet de grossesse."
+},
+{
+"i": 116,
+"t": "00:08:27,480 --> 00:08:32,590",
+"fr": "Pour le tirzépatide, ce délai est d'au moins un mois."
+},
+{
+"i": 117,
+"t": "00:08:32,680 --> 00:08:38,760",
+"fr": "Le médicament utilisé, la date de la dernière dose et le moment précis du"
+},
+{
+"i": 118,
+"t": "00:08:38,800 --> 00:08:44,640",
+"fr": "début des essais doivent être clarifiés avec le médecin prescripteur."
+},
+{
+"i": 119,
+"t": "00:08:44,680 --> 00:08:50,200",
+"fr": "Et si vous avez un diabète, un traitement de la glycémie adapté à la"
+},
+{
+"i": 120,
+"t": "00:08:50,240 --> 00:08:53,660",
+"fr": "grossesse doit impérativement être planifié."
+},
+{
+"i": 121,
+"t": "00:08:53,700 --> 00:08:57,120",
+"fr": "Pour celles qui utilisent le tirzépatide,"
+},
+{
+"i": 122,
+"t": "00:08:57,460 --> 00:09:03,180",
+"fr": "il y a un détail très important, en particulier chez les personnes en"
+},
+{
+"i": 123,
+"t": "00:09:03,220 --> 00:09:05,950",
+"fr": "surpoids et atteintes d'obésité."
+},
+{
+"i": 124,
+"t": "00:09:06,730 --> 00:09:11,260",
+"fr": "L'efficacité de la pilule contraceptive peut diminuer."
+},
+{
+"i": 125,
+"t": "00:09:11,300 --> 00:09:15,950",
+"fr": "Comme les médicaments modifient la vidange de l'estomac,"
+},
+{
+"i": 126,
+"t": "00:09:16,510 --> 00:09:19,030",
+"fr": "l'absorption du comprimé peut baisser."
+},
+{
+"i": 127,
+"t": "00:09:19,120 --> 00:09:23,240",
+"fr": "Il est donc recommandé d'utiliser une méthode supplémentaire,"
+},
+{
+"i": 128,
+"t": "00:09:23,280 --> 00:09:27,470",
+"fr": "comme le préservatif en plus de la pilule."
+},
+{
+"i": 129,
+"t": "00:09:27,540 --> 00:09:33,660",
+"fr": "Pendant les quatre semaines suivant le début du traitement et pendant les"
+},
+{
+"i": 130,
+"t": "00:09:33,700 --> 00:09:38,560",
+"fr": "quatre semaines suivant chaque augmentation de dose ou de passer à une"
+},
+{
+"i": 131,
+"t": "00:09:38,600 --> 00:09:40,740",
+"fr": "contraception non orale."
+},
+{
+"i": 132,
+"t": "00:09:40,780 --> 00:09:46,320",
+"fr": "Attention, cet avertissement n'est pas identique pour tous les médicaments"
+},
+{
+"i": 133,
+"t": "00:09:46,360 --> 00:09:48,330",
+"fr": "du GLP-1."
+},
+{
+"i": 134,
+"t": "00:09:49,340 --> 00:09:54,670",
+"fr": "Et si le test de grossesse devient positif pendant le traitement ?"
+},
+{
+"i": 135,
+"t": "00:09:55,180 --> 00:09:59,850",
+"fr": "Consultez immédiatement le médecin prescripteur et votre gynécologue."
+},
+{
+"i": 136,
+"t": "00:10:00,120 --> 00:10:03,250",
+"fr": "On ne poursuit pas ce médicament pendant la grossesse."
+},
+{
+"i": 137,
+"t": "00:10:03,300 --> 00:10:08,620",
+"fr": "Mais avoir été exposé au médicament ne signifie pas que le bébé a"
+},
+{
+"i": 138,
+"t": "00:10:08,660 --> 00:10:10,740",
+"fr": "forcément subi un dommage."
+},
+{
+"i": 139,
+"t": "00:10:10,780 --> 00:10:16,970",
+"fr": "Les données humaines disponibles sont rassurantes sous certains aspects,"
+},
+{
+"i": 140,
+"t": "00:10:17,040 --> 00:10:23,470",
+"fr": "mais pas assez robustes pour garantir une sécurité de la grossesse."
+},
+{
+"i": 141,
+"t": "00:10:24,267 --> 00:10:26,780",
+"fr": "On évalue alors le médicament utilisé,"
+},
+{
+"i": 142,
+"t": "00:10:26,820 --> 00:10:31,230",
+"fr": "la dose et à quel stade de la grossesse il a été pris."
+},
+{
+"i": 143,
+"t": "00:10:31,670 --> 00:10:36,540",
+"fr": "Si vous êtes diabétique, un traitement alternatif est mis en place sans délai."
+},
+{
+"i": 144,
+"t": "00:10:36,580 --> 00:10:41,160",
+"fr": "Avant une fécondation in vitro, l'âge,"
+},
+{
+"i": 145,
+"t": "00:10:41,300 --> 00:10:47,440",
+"fr": "la réserve ovarienne, la cause de l'infertilité et l'impact du"
+},
+{
+"i": 146,
+"t": "00:10:47,480 --> 00:10:53,390",
+"fr": "délai d'attente sur la fertilité doivent être évalués ensemble."
+},
+{
+"i": 147,
+"t": "00:10:53,840 --> 00:10:57,360",
+"fr": "Dire à tout le monde « perdez d'abord du poids,"
+},
+{
+"i": 148,
+"t": "00:10:57,400 --> 00:11:00,820",
+"fr": "on verra le traitement après », ce n'est pas juste."
+},
+{
+"i": 149,
+"t": "00:11:00,860 --> 00:11:06,580",
+"fr": "Chez certaines personnes, une préparation métabolique est pertinente."
+},
+{
+"i": 150,
+"t": "00:11:06,620 --> 00:11:11,450",
+"fr": "Chez d'autres, retarder longuement la prise en charge n'est pas approprié."
+},
+{
+"i": 151,
+"t": "00:11:11,520 --> 00:11:16,500",
+"fr": "Votre poids n'est pas une note sur un bulletin qui détermine si vous"
+},
+{
+"i": 152,
+"t": "00:11:16,540 --> 00:11:19,140",
+"fr": "méritez ou non un traitement."
+},
+{
+"i": 153,
+"t": "00:11:19,180 --> 00:11:22,960",
+"fr": "Et si une ponction ovocytaire est prévue,"
+},
+{
+"i": 154,
+"t": "00:11:23,000 --> 00:11:29,830",
+"fr": "signalez impérativement votre traitement à l'équipe de FIV et au"
+},
+{
+"i": 155,
+"t": "00:11:29,980 --> 00:11:30,980",
+"fr": "médecin anesthésiste."
+},
+{
+"i": 156,
+"t": "00:11:31,820 --> 00:11:35,220",
+"fr": "Ne vous dites jamais : « C'est juste mon stylo,"
+},
+{
+"i": 157,
+"t": "00:11:35,260 --> 00:11:37,900",
+"fr": "bien sûr, pas besoin d'en parler. »"
+},
+{
+"i": 158,
+"t": "00:11:37,940 --> 00:11:41,370",
+"fr": "Ces médicaments ralentissent la vidange gastrique."
+},
+{
+"i": 159,
+"t": "00:11:41,540 --> 00:11:44,690",
+"fr": "Vous aurez beau être à jeun depuis huit heures,"
+},
+{
+"i": 160,
+"t": "00:11:45,160 --> 00:11:51,050",
+"fr": "l'estomac peut ne pas être vide, ce qui est capital lors d'une sédation ou"
+},
+{
+"i": 161,
+"t": "00:11:51,090 --> 00:11:52,120",
+"fr": "d'une anesthésie."
+},
+{
+"i": 162,
+"t": "00:11:52,160 --> 00:11:56,990",
+"fr": "Le plan d'arrêt pour une grossesse et les protocoles pré-anesthésiques"
+},
+{
+"i": 163,
+"t": "00:11:57,180 --> 00:11:59,370",
+"fr": "sont deux choses différentes."
+},
+{
+"i": 164,
+"t": "00:12:00,250 --> 00:12:04,670",
+"fr": "Laissez votre équipe établir votre plan personnalisé."
+},
+{
+"i": 165,
+"t": "00:12:04,950 --> 00:12:07,150",
+"fr": "Et puis, il y a les hommes."
+},
+{
+"i": 166,
+"t": "00:12:07,200 --> 00:12:13,500",
+"fr": "Messieurs, ne regardez pas cette vidéo depuis le coin du canapé en disant :"
+},
+{
+"i": 167,
+"t": "00:12:13,540 --> 00:12:16,830",
+"fr": "« Tu vois, chérie, le docteur parle pour toi. »"
+},
+{
+"i": 168,
+"t": "00:12:17,000 --> 00:12:19,420",
+"fr": "Chez les hommes atteints d'obésité,"
+},
+{
+"i": 169,
+"t": "00:12:19,460 --> 00:12:24,820",
+"fr": "des modifications de mode de vie comme l'alimentation et l'activité"
+},
+{
+"i": 170,
+"t": "00:12:24,860 --> 00:12:30,450",
+"fr": "physique peuvent améliorer certains paramètres spermatiques."
+},
+{
+"i": 171,
+"t": "00:12:30,540 --> 00:12:35,150",
+"fr": "Il existe aussi des recherches sur les médicaments du GLP-1,"
+},
+{
+"i": 172,
+"t": "00:12:35,440 --> 00:12:38,010",
+"fr": "mais les preuves en restent limitées."
+},
+{
+"i": 173,
+"t": "00:12:38,640 --> 00:12:42,620",
+"fr": "Aujourd'hui, nous ne pouvons pas présenter ces médicaments comme un"
+},
+{
+"i": 174,
+"t": "00:12:42,660 --> 00:12:45,580",
+"fr": "traitement prouvé de l'infertilité masculine."
+},
+{
+"i": 175,
+"t": "00:12:45,620 --> 00:12:49,660",
+"fr": "Des effets secondaires, comme des nausées,"
+},
+{
+"i": 176,
+"t": "00:12:49,700 --> 00:12:52,400",
+"fr": "des vomissements et des troubles digestifs,"
+},
+{
+"i": 177,
+"t": "00:12:52,440 --> 00:12:54,540",
+"fr": "peuvent également survenir."
+},
+{
+"i": 178,
+"t": "00:12:54,580 --> 00:12:57,620",
+"fr": "Et une reprise de poids est possible,"
+},
+{
+"i": 179,
+"t": "00:12:57,660 --> 00:13:01,165",
+"fr": "malheureusement, après l'arrêt du médicament."
+},
+{
+"i": 180,
+"t": "00:13:01,660 --> 00:13:04,590",
+"fr": "C'est pourquoi l'alimentation, l'activité physique,"
+},
+{
+"i": 181,
+"t": "00:13:04,800 --> 00:13:10,120",
+"fr": "le suivi métabolique et la transition vers la grossesse doivent être"
+},
+{
+"i": 182,
+"t": "00:13:10,160 --> 00:13:12,080",
+"fr": "planifiés ensemble."
+},
+{
+"i": 183,
+"t": "00:13:12,120 --> 00:13:18,470",
+"fr": "En résumé, clarifiez ces trois points avec votre médecin."
+},
+{
+"i": 184,
+"t": "00:13:19,060 --> 00:13:23,270",
+"fr": "1. Pourquoi ai-je médicalement besoin de ce médicament ?"
+},
+{
+"i": 185,
+"t": "00:13:23,360 --> 00:13:27,840",
+"fr": "2. Quand dois-je l'arrêter avant les essais de grossesse,"
+},
+{
+"i": 186,
+"t": "00:13:27,880 --> 00:13:32,250",
+"fr": "et comment assurer ma contraception pendant cette période ?"
+},
+{
+"i": 187,
+"t": "00:13:32,480 --> 00:13:38,660",
+"fr": "3. Comment cela affecte-t-il le calendrier de mon traitement de fertilité ?"
+},
+{
+"i": 188,
+"t": "00:13:38,700 --> 00:13:44,700",
+"fr": "Alors, dernièrement, ce contenu est fourni à titre informatif"
+},
+{
+"i": 189,
+"t": "00:13:44,740 --> 00:13:50,530",
+"fr": "et ne remplace pas une évaluation médicale individuelle."
+},
+{
+"i": 190,
+"t": "00:13:51,260 --> 00:13:52,260",
+"fr": "Ciao !"
+}
+]

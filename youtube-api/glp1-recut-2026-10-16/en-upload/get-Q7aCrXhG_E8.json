@@ -1,0 +1,59 @@
+{
+  "kind": "youtube#video",
+  "etag": "l-yhNSZeJFO3z9ujtjfbYYl8R60",
+  "id": "Q7aCrXhG_E8",
+  "snippet": {
+    "publishedAt": "2026-10-16T18:07:12Z",
+    "channelId": "UCo3ZeBXk0ng-OigXd9jqJqQ",
+    "title": "glp1 fertility en recut 4k lipsync",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i9.ytimg.com/vi/Q7aCrXhG_E8/default.jpg?sqp=CMzOydYG&rs=AOn4CLA9KgC4m08MAs1z-k_eOcLR8N-6AA",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i9.ytimg.com/vi/Q7aCrXhG_E8/mqdefault.jpg?sqp=CMzOydYG&rs=AOn4CLChsw6O8TxWg3w4nJeUGpdpfY4rBg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i9.ytimg.com/vi/Q7aCrXhG_E8/hqdefault.jpg?sqp=CMzOydYG&rs=AOn4CLDw5MKGTS0Q1qsQwqJ6L0aF1kRkcg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "channelTitle": "Dr. Aksoy — Fertility, No Hype",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-US",
+    "localized": {
+      "title": "glp1 fertility en recut 4k lipsync",
+      "description": ""
+    },
+    "defaultAudioLanguage": "en-US"
+  },
+  "status": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "0",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "en-US": {
+      "title": "glp1 fertility en recut 4k lipsync",
+      "description": ""
+    }
+  }
+}
