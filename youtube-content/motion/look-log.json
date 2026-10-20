@@ -1,35 +1,68 @@
 [
-  {
-    "project": "2026-10-18-spermogramme-fr-recut",
-    "lang": "fr",
-    "date": "2026-10-18",
-    "series": "chiffres",
-    "papers": [
-      "kareli",
-      "recete"
-    ],
-    "first_graphic": "chiffre-B",
-    "layouts": [
-      "arbre-A",
-      "barres-A",
-      "chiffre-B",
-      "chiffre-C",
-      "flux-A",
-      "grille-A",
-      "labo-A",
-      "promesse-B",
-      "question-A",
-      "retenir-A",
-      "verdict-B"
-    ],
-    "seed": 85635,
-    "pen_marks": [
-      "wide-strike-02",
-      "oval-01",
-      "underline-01",
-      "question-01",
-      "wide-strike-01"
-    ],
-    "stamp_flip": true
-  }
+ {
+  "project": "2026-10-18-spermogramme-fr-recut",
+  "lang": "fr",
+  "date": "2026-10-18",
+  "series": "chiffres",
+  "papers": [
+   "kareli",
+   "recete"
+  ],
+  "first_graphic": "chiffre-B",
+  "layouts": [
+   "arbre-A",
+   "barres-A",
+   "chiffre-B",
+   "chiffre-C",
+   "flux-A",
+   "grille-A",
+   "labo-A",
+   "promesse-B",
+   "question-A",
+   "retenir-A",
+   "verdict-B"
+  ],
+  "seed": 85635,
+  "pen_marks": [
+   "wide-strike-02",
+   "oval-01",
+   "underline-01",
+   "question-01",
+   "wide-strike-01"
+  ],
+  "stamp_flip": true
+ },
+ {
+  "project": "2026-10-19-spermogram-abnormal-en-recut",
+  "lang": "en",
+  "date": "2026-10-19",
+  "series": "chiffres",
+  "papers": [
+   "kareli",
+   "recete"
+  ],
+  "first_graphic": "chiffre-B",
+  "layouts": [
+   "arbre-A",
+   "barres-A",
+   "chiffre-B",
+   "chiffre-C",
+   "flux-A",
+   "grille-A",
+   "labo-A",
+   "promesse-B",
+   "question-A",
+   "retenir-A",
+   "verdict-B"
+  ],
+  "seed": 85675,
+  "pen_marks": [
+   "wide-strike-02",
+   "oval-01",
+   "underline-01",
+   "question-01",
+   "wide-strike-01"
+  ],
+  "stamp_flip": true
+ }
 ]
