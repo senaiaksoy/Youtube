@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-10-06",
+    "channel": "fr",
+    "video": "SD3CKpN6VS0",
+    "slug": "fiv-complements-preuves",
+    "template": "classic-gold",
+    "side": "left",
+    "outfit": "scrubs",
+    "pose": "calm-clasped",
+    "backdrop": "bottles-props"
+  },
+  {
+    "date": "2026-10-09",
+    "channel": "fr",
+    "video": "MoApIs3-WwE",
+    "slug": "premiere-echo-fiv",
+    "template": "amber-eyebrow",
+    "side": "left",
+    "outfit": "scrubs",
+    "pose": "open-hands",
+    "backdrop": "ultrasound"
+  },
+  {
+    "date": "2026-10-09",
+    "channel": "en",
+    "video": "queLygimeS8",
+    "slug": "first-ivf-scan-heartbeat",
+    "template": "amber-eyebrow",
+    "side": "left",
+    "outfit": "scrubs",
+    "pose": "open-hands",
+    "backdrop": "ultrasound"
+  },
+  {
+    "date": "2026-10-14",
+    "channel": "tr",
+    "video": "U8vAciGqvSU",
+    "slug": "tup-bebekte-takviyeler",
+    "template": "yellow-focus",
+    "side": "left",
+    "outfit": "scrubs",
+    "pose": "open-hands",
+    "backdrop": "bottles-props"
+  },
+  {
+    "date": "2026-10-16",
+    "channel": "fr",
+    "video": "U-ophcWNOro",
+    "slug": "glp1-grossesse",
+    "template": "classic-gold",
+    "side": "left",
+    "outfit": "scrubs",
+    "pose": "calm-clasped",
+    "backdrop": "cells-molecules"
+  },
+  {
+    "date": "2026-10-16",
+    "channel": "en",
+    "video": "Q7aCrXhG_E8",
+    "slug": "glp1-pregnancy",
+    "template": "classic-gold",
+    "side": "left",
+    "outfit": "scrubs",
+    "pose": "calm-clasped",
+    "backdrop": "cells-molecules"
+  },
+  {
+    "date": "2026-10-17",
+    "channel": "tr",
+    "video": "8ZtwHFtF0Io",
+    "slug": "zayiflama-ignesi-gebelik",
+    "template": "yellow-focus",
+    "side": "left",
+    "outfit": "scrubs",
+    "pose": "calm-clasped",
+    "backdrop": "cells-molecules"
+  },
+  {
+    "date": "2026-10-18",
+    "channel": "fr",
+    "video": "pUaFBOSrAO8",
+    "slug": "spermogramme-anormal",
+    "template": "classic-gold",
+    "side": "left",
+    "outfit": "scrubs",
+    "pose": "chin",
+    "backdrop": "cells-molecules"
+  },
+  {
+    "date": "2026-10-19",
+    "channel": "en",
+    "video": "TluWIqqgQiw",
+    "slug": "spermogram-abnormal",
+    "template": "classic-gold",
+    "side": "left",
+    "outfit": "scrubs",
+    "pose": "chin",
+    "backdrop": "cells-molecules"
+  }
+]

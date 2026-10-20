@@ -54,19 +54,23 @@ Run `--help` on each script for exact parameters.
 - `yt_playlists.py`: list playlists, list items, and idempotently add videos.
 - `yt_thumbnail.py`: set a custom thumbnail (JPG/PNG, max 2 MB; dry-run default, `--go` uploads). Test & Compare is Studio-only.
 - `yt_subfix.py`: offline bulk typo correction for SRT files.
-- `yt_thumb_compose.py`: offline; adds the channel-style title type (white keyword, gold line, gold pill)
-  to an AI base image and writes the 120×68 mobile proof. See `references/thumbnails.md`.
+- `yt_thumb_compose.py`: offline; composes diversified channel-style thumbnails across 5 templates
+  (`classic-gold`, `yellow-focus`, `coral-contrast`, `amber-eyebrow`, `light-card`), left/right text sides,
+  optional 3rd line / numeric chip, 120×68 mobile proof, and enforces rotation via `references/thumb-log.json`
+  (`--status`, `--check-variety`, `--log-variety`). See `references/thumbnails.md`.
 - `yt_i18n.py`: offline; `prep` builds the translation workspace from the FR SRT/title/description,
   `build` QA-checks translator output and writes per-language SRTs + `fixes-localizations.json`.
   See `references/localization.md`.
 
 ## Thumbnails and languages (read before doing either)
 
-- Thumbnail for a FR long video: copy the channel's current style (doctor right, navy science backdrop,
-  white/gold condensed text, gold pill), base image from Higgsfield `gpt_image_2_5` with approved channel
-  thumbnails as identity references, text added by `yt_thumb_compose.py`, never by the image model.
-  No talking-head frames, no DHEA premium suit cut-out, nothing from F13. Full recipe:
-  `references/thumbnails.md`.
+- Thumbnail for a long video (FR / TR / EN): **rotate every video** across 5 axes (`--template`, `--side`,
+  `--outfit`, `--pose`, `--backdrop`) checked against `references/thumb-log.json` (`yt_thumb_compose.py --status`
+  then `--check-variety` and `--log-variety`). Never repeat the previous video's template, pose, outfit+pose,
+  or backdrop, and never default to generic blue cells/molecules (`cells-molecules`). Base image from
+  Higgsfield `gpt_image_2_5` with outfit-matched approved channel thumbnails as identity references; text added
+  deterministically by `yt_thumb_compose.py`. No talking-head frames, no DHEA dark-suit cut-out, nothing from
+  F13. Full recipe: `references/thumbnails.md`.
 - Languages for a FR long video: the DHEA set of 15 (ar, az, bg, bs, de, es, fa, it, mk, ro, ru, sq, sr,
   tr, uk), each with localized title + description AND a caption track; English only when Dr. Aksoy asks.
   FR SRT from large-v3 ASR + manual correction; translations by Claude subagents (not GoogleTranslator),
