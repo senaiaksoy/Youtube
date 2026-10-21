@@ -1,68 +1,97 @@
 [
- {
-  "project": "2026-10-18-spermogramme-fr-recut",
-  "lang": "fr",
-  "date": "2026-10-18",
-  "series": "chiffres",
-  "papers": [
-   "kareli",
-   "recete"
-  ],
-  "first_graphic": "chiffre-B",
-  "layouts": [
-   "arbre-A",
-   "barres-A",
-   "chiffre-B",
-   "chiffre-C",
-   "flux-A",
-   "grille-A",
-   "labo-A",
-   "promesse-B",
-   "question-A",
-   "retenir-A",
-   "verdict-B"
-  ],
-  "seed": 85635,
-  "pen_marks": [
-   "wide-strike-02",
-   "oval-01",
-   "underline-01",
-   "question-01",
-   "wide-strike-01"
-  ],
-  "stamp_flip": true
- },
- {
-  "project": "2026-10-19-spermogram-abnormal-en-recut",
-  "lang": "en",
-  "date": "2026-10-19",
-  "series": "chiffres",
-  "papers": [
-   "kareli",
-   "recete"
-  ],
-  "first_graphic": "chiffre-B",
-  "layouts": [
-   "arbre-A",
-   "barres-A",
-   "chiffre-B",
-   "chiffre-C",
-   "flux-A",
-   "grille-A",
-   "labo-A",
-   "promesse-B",
-   "question-A",
-   "retenir-A",
-   "verdict-B"
-  ],
-  "seed": 85675,
-  "pen_marks": [
-   "wide-strike-02",
-   "oval-01",
-   "underline-01",
-   "question-01",
-   "wide-strike-01"
-  ],
-  "stamp_flip": true
- }
+  {
+    "project": "2026-10-18-spermogramme-fr-recut",
+    "lang": "fr",
+    "date": "2026-10-18",
+    "series": "chiffres",
+    "papers": [
+      "kareli",
+      "recete"
+    ],
+    "first_graphic": "chiffre-B",
+    "layouts": [
+      "arbre-A",
+      "barres-A",
+      "chiffre-B",
+      "chiffre-C",
+      "flux-A",
+      "grille-A",
+      "labo-A",
+      "promesse-B",
+      "question-A",
+      "retenir-A",
+      "verdict-B"
+    ],
+    "seed": 85635,
+    "pen_marks": [
+      "wide-strike-02",
+      "oval-01",
+      "underline-01",
+      "question-01",
+      "wide-strike-01"
+    ],
+    "stamp_flip": true
+  },
+  {
+    "project": "2026-10-19-spermogram-abnormal-en-recut",
+    "lang": "en",
+    "date": "2026-10-19",
+    "series": "chiffres",
+    "papers": [
+      "kareli",
+      "recete"
+    ],
+    "first_graphic": "chiffre-B",
+    "layouts": [
+      "arbre-A",
+      "barres-A",
+      "chiffre-B",
+      "chiffre-C",
+      "flux-A",
+      "grille-A",
+      "labo-A",
+      "promesse-B",
+      "question-A",
+      "retenir-A",
+      "verdict-B"
+    ],
+    "seed": 85675,
+    "pen_marks": [
+      "wide-strike-02",
+      "oval-01",
+      "underline-01",
+      "question-01",
+      "wide-strike-01"
+    ],
+    "stamp_flip": true
+  },
+  {
+    "project": "2026-10-20-spermogram-tr-recut-v2",
+    "lang": "tr",
+    "date": "2026-10-20",
+    "series": "questions",
+    "papers": [
+      "cizgili",
+      "kareli"
+    ],
+    "first_graphic": "question-A",
+    "layouts": [
+      "question-A",
+      "arbre-A",
+      "flux-A",
+      "retenir-A",
+      "chiffre-B",
+      "grille-A",
+      "promesse-A"
+    ],
+    "pen_marks": [
+      "strike-02",
+      "underline-01",
+      "question-01",
+      "strike-01",
+      "oval-01"
+    ],
+    "seed": 14314,
+    "stamp_flip": false
+  }
 ]
