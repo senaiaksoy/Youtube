@@ -137,3 +137,6 @@ youtube-content/**/*.jpg
 youtube-content/**/*.png
 youtube-content/**/*.wav
 youtube-content/**/*.woff2
+
+# local preview config (points at another repo)
+.claude/launch.json
