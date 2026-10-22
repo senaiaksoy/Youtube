@@ -160,3 +160,7 @@ for kind, a, s, t in review:
     rep.append(f"- [{mm:02d}:{ss:04.1f}] {kind}: ASR « {a} » → SCRIPT « {s} »" if kind.startswith(("rempl", "REMPL")) else f"- [{mm:02d}:{ss:04.1f}] {kind}: « {a or s} »")
 open(OUT_REP, "w", encoding="utf-8", newline="\n").write("\n".join(rep) + "\n")
 print("cues", len(cues), "review", len(review))
+
+# Shorts icin: duzeltilmis kelimeler (kesim sonrasi/Premiere saniyesi) -> captions.mjs
+json.dump([[t.replace("\u00a0", " "), round(s, 3), round(e, 3)] for t, s, e in out],
+          open(r"D:\A-klasör\Youtube\youtube-api\clomid-fr-v2\words_edited.json", "w", encoding="utf-8", newline="\n"), ensure_ascii=False)

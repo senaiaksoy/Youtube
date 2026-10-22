@@ -1,0 +1,653 @@
+1
+00:00:00,000 --> 00:00:02,900
+Usted toma Clomid, pero
+sigue sin haber embarazo.
+
+2
+00:00:03,120 --> 00:00:05,340
+Y ahí empieza la gran
+cumbre de crisis en casa:
+
+3
+00:00:05,520 --> 00:00:08,940
+«¿Empezamos otra caja
+o cambiamos de médico?»
+
+4
+00:00:09,140 --> 00:00:13,040
+Antes de salir corriendo
+hacia la farmacia de guardia,
+
+5
+00:00:13,380 --> 00:00:16,000
+primero hay que responder a una pregunta:
+
+6
+00:00:16,240 --> 00:00:20,620
+¿este tratamiento ha provocado
+una ovulación, sí o no?
+
+7
+00:00:20,680 --> 00:00:26,580
+Porque no ovular en absoluto, o ovular
+perfectamente sin quedar embarazada,
+
+8
+00:00:26,620 --> 00:00:30,720
+son dos historias totalmente distintas.
+
+9
+00:00:31,360 --> 00:00:33,660
+Es la diferencia entre:
+
+10
+00:00:33,700 --> 00:00:39,520
+«El motor de arranque del coche ni
+siquiera gira» y «El motor funciona
+
+11
+00:00:39,560 --> 00:00:44,340
+genial, pero se nos olvidó
+soltar el freno de mano».
+
+12
+00:00:44,500 --> 00:00:46,440
+Soy el Dr. Senai Aksoy.
+
+13
+00:00:46,620 --> 00:00:50,340
+Hoy vamos a ver por qué este
+medicamento tiene sus límites
+
+14
+00:00:50,380 --> 00:00:55,900
+y cuándo hay que saber decir: «Vale,
+amigos, esta táctica no funciona,
+
+15
+00:00:55,980 --> 00:00:57,740
+cambiamos de plan».
+
+16
+00:00:58,480 --> 00:01:02,920
+Imagine la mesa de la cocina: el salero,
+
+17
+00:01:03,220 --> 00:01:08,800
+la caja de comprimidos y ese famoso
+calendario con imán en la nevera.
+
+18
+00:01:08,940 --> 00:01:11,340
+Los días están marcados
+con rotulador fluorescente;
+
+19
+00:01:11,420 --> 00:01:17,040
+parece la cuenta atrás de la
+NASA para un lanzamiento a Marte.
+
+20
+00:01:18,180 --> 00:01:22,980
+En romanticismo estamos a
+cero: es una operación militar.
+
+21
+00:01:23,240 --> 00:01:28,480
+Y la vocecita interior se activa:
+«El mes pasado no funcionó,
+
+22
+00:01:28,680 --> 00:01:29,480
+es el destino...
+
+23
+00:01:29,620 --> 00:01:31,540
+Venga, empiezo otra caja».
+
+24
+00:01:31,800 --> 00:01:35,300
+Pues felicitemos al
+calendario por su disciplina.
+
+25
+00:01:35,560 --> 00:01:40,640
+Pero tiene un pequeño defecto:
+¡no sabe leer un perfil hormonal!
+
+26
+00:01:40,680 --> 00:01:42,200
+Si le hacemos caso,
+
+27
+00:01:42,320 --> 00:01:47,220
+seguimos a este ritmo hasta
+los Juegos Olímpicos de 2028.
+
+28
+00:01:47,760 --> 00:01:52,140
+El principio activo, el
+citrato de clomifeno,
+
+29
+00:01:52,300 --> 00:01:56,360
+en realidad le hace una
+pequeña jugarreta al cerebro.
+
+30
+00:01:56,440 --> 00:02:00,840
+Confunde los detectores de
+estrógenos; el cerebro piensa —
+
+31
+00:02:01,060 --> 00:02:06,300
+«¡ya no hay estrógenos abajo,
+la tienda ha cerrado o qué!» —
+
+32
+00:02:06,340 --> 00:02:10,000
+y aumenta la secreción de FSH,
+
+33
+00:02:10,040 --> 00:02:13,800
+la hormona que hace crecer el folículo,
+
+34
+00:02:13,900 --> 00:02:18,680
+esa pequeña bolsa que contiene
+el óvulo, hasta la ovulación.
+
+35
+00:02:19,000 --> 00:02:21,460
+Pero desmontemos enseguida un mito:
+
+36
+00:02:22,020 --> 00:02:27,740
+hacer crecer el folículo no
+significa mejorar la calidad
+
+37
+00:02:27,780 --> 00:02:33,340
+del óvulo. Si pone una foto de
+carné totalmente borrosa en un
+
+38
+00:02:33,380 --> 00:02:37,120
+enorme marco dorado
+estilo museo del Louvre,
+
+39
+00:02:37,160 --> 00:02:41,980
+la foto no pasa de repente
+a 4K Alta Definición.
+
+40
+00:02:42,200 --> 00:02:47,500
+Nada demuestra que el clomifeno
+mejore la calidad del óvulo;
+
+41
+00:02:47,720 --> 00:02:53,640
+él solo llama a la puerta gritando:
+«¡Vamos, que alguien salga!»
+
+42
+00:02:53,680 --> 00:02:58,740
+Primera hipótesis: ha tomado los
+comprimidos, pero cero ovulación.
+
+43
+00:02:59,040 --> 00:03:01,340
+En lugar de abrir otra caja,
+
+44
+00:03:01,380 --> 00:03:03,980
+hay que buscar quién está
+en huelga ahí dentro.
+
+45
+00:03:04,020 --> 00:03:06,480
+¿Un síndrome de ovario poliquístico (SOP)?
+
+46
+00:03:06,580 --> 00:03:11,960
+¿El tiroides o la prolactina haciendo
+un solo fuera de la orquesta?
+
+47
+00:03:12,000 --> 00:03:16,000
+¿O quizá, con la dieta
+«operación bikini» —
+
+48
+00:03:16,040 --> 00:03:21,160
+o una hoja de lechuga al día y
+tres horas de deporte intensivo —
+
+49
+00:03:21,340 --> 00:03:25,140
+el cerebro pensó: «¡Alerta
+de hambruna en el país,
+
+50
+00:03:25,340 --> 00:03:30,720
+corten el disyuntor del sistema
+reproductor, hay que salvar el pellejo!»?
+
+51
+00:03:30,760 --> 00:03:32,900
+A cada causa, su tratamiento.
+
+52
+00:03:33,080 --> 00:03:38,380
+Si la falta de ovulación está
+ligada a un síndrome de ovario
+
+53
+00:03:38,420 --> 00:03:41,920
+poliquístico, sin otro
+factor de infertilidad,
+
+54
+00:03:42,380 --> 00:03:47,980
+las recomendaciones internacionales
+de 2023 sitúan el letrozol como
+
+55
+00:03:48,020 --> 00:03:49,220
+primera opción.
+
+56
+00:03:49,840 --> 00:03:53,340
+Eso no significa que el
+Clomid esté jubilado:
+
+57
+00:03:53,560 --> 00:03:55,620
+la elección depende del diagnóstico,
+
+58
+00:03:55,660 --> 00:04:01,600
+de su respuesta anterior y de las
+normas de prescripción del país.
+
+59
+00:04:01,780 --> 00:04:02,820
+Y por favor:
+
+60
+00:04:02,860 --> 00:04:08,600
+nada de automedicación siguiendo los
+consejos de la tertulia del café,
+
+61
+00:04:08,640 --> 00:04:12,900
+del estilo: «Mi cuñada
+lo tomó, tuvo trillizos,
+
+62
+00:04:13,180 --> 00:04:15,540
+¡así que tómate dos comprimidos, cariño!»
+
+63
+00:04:15,800 --> 00:04:20,220
+Segunda hipótesis: la
+ovulación sí se produjo,
+
+64
+00:04:20,400 --> 00:04:22,000
+pero sigue sin haber embarazo.
+
+65
+00:04:22,540 --> 00:04:24,980
+Ahí el medicamento le dice: «Yo
+
+66
+00:04:25,020 --> 00:04:28,480
+llevé el óvulo hasta la puerta de salida,
+
+67
+00:04:28,520 --> 00:04:31,300
+lo que venga después ya no es lo mío».
+
+68
+00:04:31,340 --> 00:04:35,840
+¡Y tiene razón! La ovulación es
+solo el tráiler de la película.
+
+69
+00:04:36,100 --> 00:04:41,520
+¡El Clomid no es fontanero, no va
+a destapar una trompa obstruida!
+
+70
+00:04:41,680 --> 00:04:46,320
+Y cuando la mujer toma el tratamiento,
+los espermatozoides del hombre —
+
+71
+00:04:46,980 --> 00:04:50,800
+repantigado tranquilamente en el
+sofá viendo el resumen del partido —
+
+72
+00:04:51,060 --> 00:04:55,420
+no se transforman de
+repente en Michael Phelps.
+
+73
+00:04:55,460 --> 00:05:01,120
+¡No, la medicina aún no ha recibido
+esa actualización por Bluetooth!
+
+74
+00:05:01,930 --> 00:05:03,840
+El estudio de fertilidad
+concierne a la pareja,
+
+75
+00:05:03,940 --> 00:05:08,660
+y la edad y el momento oportuno
+cuentan igual de mucho. Por cierto,
+
+76
+00:05:08,820 --> 00:05:14,320
+en mujeres que ya ovulan como un
+reloj suizo con una infertilidad
+
+77
+00:05:14,360 --> 00:05:15,240
+de causa desconocida,
+
+78
+00:05:15,630 --> 00:05:21,060
+dar solo clomifeno diciendo
+«Pon una alarma en el móvil,
+
+79
+00:05:21,380 --> 00:05:27,240
+esta noche toca horas extra» no ha demostrado
+beneficio sobre las posibilidades de
+
+80
+00:05:27,280 --> 00:05:30,100
+embarazo. Cuando la fábrica ya funciona,
+
+81
+00:05:30,340 --> 00:05:34,980
+no hace falta zarandear al
+director cada cinco minutos.
+
+82
+00:05:35,600 --> 00:05:40,180
+Estimular para hacer una
+inseminación es otra historia.
+
+83
+00:05:40,620 --> 00:05:43,280
+Entonces, ¿durante
+cuántos meses se intenta?
+
+84
+00:05:43,320 --> 00:05:49,160
+El prospecto francés fija un máximo
+de seis ciclos de tratamiento.
+
+85
+00:05:49,200 --> 00:05:51,380
+Pero ojo: ese número seis
+
+86
+00:05:51,660 --> 00:05:55,240
+no es una tarjeta de
+fidelidad «5 cafés comprados,
+
+87
+00:05:55,360 --> 00:05:59,840
+el 6.º gratis» que haya que
+sellar sí o sí hasta el final.
+
+88
+00:05:59,980 --> 00:06:03,520
+Si tres ciclos, a la dosis prevista,
+
+89
+00:06:03,560 --> 00:06:06,860
+no han permitido obtener una ovulación,
+
+90
+00:06:07,320 --> 00:06:10,300
+se considera terminado el intento.
+
+91
+00:06:10,340 --> 00:06:15,540
+Y si hay ovulación sin
+embarazo tras varios intentos,
+
+92
+00:06:15,600 --> 00:06:20,740
+se revisan el estudio y la estrategia,
+a veces antes. Las inyecciones,
+
+93
+00:06:21,220 --> 00:06:26,940
+la inseminación o la FIV no son
+niveles de un videojuego que haya que
+
+94
+00:06:26,980 --> 00:06:30,020
+superar uno por uno en orden;
+
+95
+00:06:30,300 --> 00:06:33,240
+se toma el camino adecuado para su pareja.
+
+96
+00:06:33,280 --> 00:06:36,120
+Y una frase que se repite a menudo:
+
+97
+00:06:36,420 --> 00:06:41,620
+«Me quedaban tres comprimidos al
+fondo de la caja del mes pasado,
+
+98
+00:06:41,920 --> 00:06:46,020
+era una pena desperdiciarlos,
+así que me los tomé».
+
+99
+00:06:46,100 --> 00:06:51,160
+¡Pero, por favor, esto no es medio limón
+olvidado en la puerta de la nevera!
+
+100
+00:06:51,560 --> 00:06:56,720
+Tener comprimidos sobrantes
+no es una indicación médica.
+
+101
+00:06:56,900 --> 00:06:59,620
+Un seguimiento de verdad
+se hace con ecografía,
+
+102
+00:06:59,660 --> 00:07:02,580
+para vigilar los
+folículos y el endometrio,
+
+103
+00:07:02,620 --> 00:07:08,280
+y las determinaciones hormonales
+pueden ayudar a evaluar la ovulación.
+
+104
+00:07:08,440 --> 00:07:13,140
+Porque el clomifeno a veces
+tiene un humor particular:
+
+105
+00:07:13,740 --> 00:07:19,680
+al bloquear los receptores de estrógenos,
+puede adelgazar la mucosa uterina —
+
+106
+00:07:19,720 --> 00:07:23,180
+el endometrio — justo donde
+el bebé debe instalarse.
+
+107
+00:07:23,220 --> 00:07:27,540
+Es como insistir a sus
+invitados: «¡Que sí,
+
+108
+00:07:27,580 --> 00:07:29,680
+quédense a dormir esta noche!»,
+
+109
+00:07:29,720 --> 00:07:33,840
+y mientras se quitan los
+zapatos en la entrada,
+
+110
+00:07:33,940 --> 00:07:35,540
+usted vende todas las camas.
+
+111
+00:07:35,600 --> 00:07:39,380
+O al contrario, varios
+folículos se desbocan a la vez,
+
+112
+00:07:39,420 --> 00:07:42,480
+y hola, riesgo de embarazo múltiple.
+
+113
+00:07:42,940 --> 00:07:46,820
+Ahora, dos minutos sin
+humor por la seguridad.
+
+114
+00:07:46,860 --> 00:07:48,260
+Sofocos,
+
+115
+00:07:48,340 --> 00:07:54,220
+dolor de cabeza o molestias abdominales
+forman parte de los efectos adversos
+
+116
+00:07:54,260 --> 00:07:59,140
+posibles. En cambio: visión
+borrosa, destellos luminosos,
+
+117
+00:07:59,200 --> 00:08:04,520
+manchas delante de los ojos o cualquier
+otro trastorno visual inusual...
+
+118
+00:08:04,660 --> 00:08:08,020
+nunca piense «Es solo
+una bajada de tensión».
+
+119
+00:08:08,220 --> 00:08:12,180
+Suspenda el tratamiento y contacte
+con su médico rápidamente.
+
+120
+00:08:12,380 --> 00:08:16,160
+Es necesario un examen
+oftalmológico completo;
+
+121
+00:08:16,860 --> 00:08:20,540
+si ninguna otra causa
+explica estos trastornos,
+
+122
+00:08:20,840 --> 00:08:24,640
+el clomifeno debe
+suspenderse definitivamente.
+
+123
+00:08:24,680 --> 00:08:27,080
+No lo retome por su cuenta.
+
+124
+00:08:27,340 --> 00:08:31,500
+Lo mismo si hay dolor abdominal intenso,
+
+125
+00:08:31,560 --> 00:08:37,060
+hinchazón rápida del vientre o falta
+de aire: es una urgencia médica,
+
+126
+00:08:37,160 --> 00:08:39,540
+no espere a su próxima cita.
+
+127
+00:08:39,720 --> 00:08:42,420
+Y por supuesto, antes de cada nuevo ciclo,
+
+128
+00:08:42,720 --> 00:08:46,160
+se comprueba que no haya
+empezado ya un embarazo.
+
+129
+00:08:46,860 --> 00:08:51,600
+Si no funcionó con el
+Clomid, no es culpa suya.
+
+130
+00:08:52,120 --> 00:08:54,060
+En su próxima consulta,
+
+131
+00:08:54,460 --> 00:08:58,440
+haga simplemente estas
+tres preguntas a su médico:
+
+132
+00:08:58,860 --> 00:09:01,740
+«¿De verdad he ovulado?»
+
+133
+00:09:01,780 --> 00:09:05,200
+«¿Qué otros parámetros hemos comprobado?»
+
+134
+00:09:05,240 --> 00:09:08,080
+«¿Cuándo pasamos al plan B?»
+
+135
+00:09:08,120 --> 00:09:13,780
+No es el calendario de la nevera
+el que debe decidir abrir una
+
+136
+00:09:13,820 --> 00:09:16,960
+nueva caja, sino las respuestas
+a estas tres preguntas.
+
+137
+00:09:17,200 --> 00:09:21,920
+Esta información no sustituye
+a una consulta médica.
+
+138
+00:09:22,020 --> 00:09:24,340
+Todavía no. El medicamento,
+
+139
+00:09:24,380 --> 00:09:29,720
+la dosis y la duración del tratamiento
+se deciden con el médico que le atiende.
+
+140
+00:09:29,900 --> 00:09:30,700
+¡Venga, chao!

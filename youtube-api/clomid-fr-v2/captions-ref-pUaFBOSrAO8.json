@@ -1,0 +1,138 @@
+[
+  {
+    "id": "AUieDab6flCP0Fr2dFz5G-QY6HFxUMU7-OjxPQ6I9Ot255cbR0nuzUiYNw",
+    "language": "tr",
+    "name": "Türkçe",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaYCs-WEgwjZlRkysZkMB5-mzi-otNVSve-6Z96J74U-aAu-qJ2I",
+    "language": "de",
+    "name": "Deutsch",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaZEeage7b9OI3pYV44I7X0rRqE7a6Ff1iy49mNz8rVWS8DzC9iv_w",
+    "language": "it",
+    "name": "Italiano",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaZuaPl8xpqst9glJaYNnBD0rbU89tyLML8QW8t8wBm9Ejuh3OoKwmfZ48JMmSIxqk4lKg",
+    "language": "mk",
+    "name": "Македонски",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaaQJSLpMi-6vaGg1jwpY1UqgYioX6ENaBaHX6gP6gIN0uU",
+    "language": "fr",
+    "name": "",
+    "trackKind": "asr",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaawIj4E7Jl7KtgQgIaBuRr__qPfSLEcRZl5iGVXiQooIBBZ_p2Ydyu0t3j1z_4YXTNZSQ",
+    "language": "uk",
+    "name": "Українська",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaYmd1rNezOaAPxXffZlCOFoa05tJAkdJUsqJnTCuBvAFscGRch9JIJ8slvqGWcFY00",
+    "language": "bg",
+    "name": "Български",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaZ8rrRGOQ_er3gRzN8_FFmoJwrRcNgdID__DUn2LEYNJDhM1a_F7_UnVIDLmQ",
+    "language": "ru",
+    "name": "Русский",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaYwSNn6YyWK2wAUGZlBHfUdWuvUSJgTT1tcprUduitxhpICgTEkXg",
+    "language": "ro",
+    "name": "Română",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDab0VAq6GlsFJ19Nh-vWg4G4dQwKdj8J8TUej-3gRBm21AjiP-1XYhPemTA",
+    "language": "sr",
+    "name": "Српски",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDabKBZMP8hCa2jOPdL_8OXpyExyOJcG6jfGZ8smEQABaIeHv_-Fiyt1ZTBbGDH9_",
+    "language": "az",
+    "name": "Azərbaycan dili",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaYpUI8bM7X5klMcCTvplo_ATe75Y0TYpKoHtZL791XXduPB9I8UDEo",
+    "language": "fr",
+    "name": "Français",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaYQl4_dHAkZgmzAHEvQfxW_mdCBGiwAvlG3qK9IgGmOh-SbT7_jtH3V",
+    "language": "fa",
+    "name": "فارسی",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaYNGDhruhVc3DT-gU1Qum5EU1plyY88PfcGDx4DRMhBW5IAfY7WBg",
+    "language": "bs",
+    "name": "Bosanski",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDabyZ-4IJYPr0PH16_Q6SsCSIUXavhzVmjS6a-TcmS6z23XA1chhxRaDXB0Mpg",
+    "language": "ar",
+    "name": "العربية",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaazymBePxLLwRnUdYfXO85JtnOaBOhkUK1_t1qAHdtMX8-_wQ",
+    "language": "sq",
+    "name": "Shqip",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  },
+  {
+    "id": "AUieDaaeBjfR5hwuWP11c4_umeuC_gWbHaf8w6m6claoitFALjCdbIAtHg",
+    "language": "es",
+    "name": "Español",
+    "trackKind": "standard",
+    "status": "serving",
+    "isDraft": false
+  }
+]

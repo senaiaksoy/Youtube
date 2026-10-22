@@ -1,0 +1,567 @@
+{
+ "lang": "tr",
+ "title": "Clomid kullandınız ama hamile kalamadınız mı? Plan ne zaman değişmeli?",
+ "description": "Clomid kullanıyorsunuz, hiçbir şey olmuyor ve büyük soru evde ortaya çıkıyor: yeni bir kutuya mı başlıyoruz, yoksa doktor mu değiştiriyoruz? Karar vermeden önce tek bir soruyu yanıtlamak gerekir: bu tedavi yumurtlamayı tetikledi mi? Doğurganlık uzmanı Doç. Dr. Senai Aksoy; yumurtlamamak ile yumurtlayıp hamile kalamamak arasındaki farkı, klomifenin gerçekte ne yaptığını (ve ne yapmadığını), PKOS durumunda letrozolün yerini, Fransız kullanma talimatında belirtilen altı döngü sınırını, gerekli takibi ve tedaviyi bırakmayı gerektiren belirtileri anlatıyor.\n\n⏱️ BÖLÜMLER\n00:00 Yeni kutu mu, başka doktor mu?\n00:20 Yumurtlama var mı yok mu: iki ayrı hikâye\n00:44 Bu ilacın neden sınırları var\n01:47 Klomifen nasıl etki eder\n02:19 Daha büyük folikül, daha iyi yumurta mı?\n02:53 Birinci olasılık: hiç yumurtlama yok\n03:34 Letrozol ve PKOS\n04:17 İkinci olasılık: yumurtlama var, hamilelik yok\n05:08 Açıklanamayan infertilite\n05:40 Kaç döngü denenmeli?\n06:20 İğneler, inseminasyon, tüp bebek\n06:33 Ortada kalan haplar\n06:56 Takip: ultrason ve hormon ölçümleri\n07:14 Endometriyum ve çoğul gebelik\n07:43 Güvenlik: mizahsız iki dakika\n08:47 Doktorunuza üç soru\n\n❓ DOKTORUNUZA SORMANIZ GEREKEN ÜÇ SORU\n1. Gerçekten yumurtladım mı?\n2. Başka hangi parametreleri kontrol ettik?\n3. B planına ne zaman geçiyoruz?\n\n🚨 Bulanık görme, ışık çakmaları veya gözünüzün önünde lekeler: tedaviyi bırakın ve hemen doktorunuza başvurun. Şiddetli karın ağrısı, karında hızlı şişlik veya nefes darlığı: bu bir tıbbi acildir. 15'i, 112'yi veya ülkenizin acil numarasını arayın.\n\n📖 DAHA FAZLASI İÇİN\n• PKOS: tanı, tedavi ve doğurganlık: https://draksoyivf.com/fr/blog/syndrome-des-ovaires-polykystiques/\n• Letrozol ve doğurganlık: https://draksoyivf.com/fr/blog/letrozole-et-endometre/\n• Yumurtalık uyarımı ve tüp bebek: https://draksoyivf.com/fr/blog/stimulation-ovarienne-et-fiv/\n\n📚 KAYNAKLAR\n• RCP CLOMID (ANSM, base de données publique des médicaments, mis à jour le 21/07/2025), rubriques 4.2, 4.4, 4.8 et 5.1 : https://base-donnees-publique.medicaments.gouv.fr/medicament/65338028/extrait\n• Uluslararası PKOS kılavuzu 2023 (ASRM), öneri 5.3.1: https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023\n• Franik S, et al. Cochrane Database Syst Rev. 2022;9(9):CD010287. PMID 36165742\n• Hughes E, et al. Cochrane Database Syst Rev. 2010;2010(1):CD000057. PMID 20091498\n\n💬 Sorunuzu yorumlara yazın; lütfen test sonuçlarınızı veya kişisel sağlık verilerinizi paylaşmayın.\n🔔 Doğurganlık sürecinizi daha iyi anlamak ve doktorunuza soracağınız soruları hazırlamak için abone olun.\nAltyazılar mevcuttur; videonun orijinal sesi Fransızcadır.\n\nDaha fazla bilgi için:\n📱 WhatsApp : +90 507 380 28 05\n🌐 Web site : www.draksoyivf.com\n\n⚕️ ÖNEMLİ TIBBİ UYARI\n\nBu videoda sunulan bilgiler yalnızca eğitim ve bilgilendirme amaçlıdır. Hiçbir koşulda tıbbi görüş, tanı veya kişiye özel tedavi önerisi niteliği taşımaz.\n\nHer tıbbi durum benzersizdir. Burada ele alınan içerikler; nitelikli bir hekim, bir jinekolog veya üreme tıbbı uzmanıyla yapılacak muayenenin yerini tutmaz.\n\nBu videodaki bilgilere dayanarak, önce tedavi eden hekiminize veya uzmanınıza danışmadan mevcut tıbbi tedavinizi asla değiştirmeyin, yeni bir tedaviye başlamayın ve tıbbi hiçbir karar almayın.\n\nÜreme sağlığınız veya tüp bebek sürecinizle ilgili sorularınız varsa lütfen nitelikli bir sağlık profesyoneline başvurun.\n\nGörseller (Pexels stok videoları ve yapay zekâ ile üretilmiş görüntüler) örnekleme amaçlıdır; hasta görüntüsü değildir.\n\n© Doç. Dr. Senai Aksoy — Tüm hakları saklıdır.\n\n#Clomid #Yumurtlama #TüpBebek",
+ "cues": [
+  {
+   "i": 1,
+   "text": "Clomid kullanıyorsunuz ama hâlâ hamilelik yok."
+  },
+  {
+   "i": 2,
+   "text": "Ve evde büyük kriz zirvesi başlıyor:"
+  },
+  {
+   "i": 3,
+   "text": "«Yeni bir kutuya mı başlıyoruz, yoksa doktor mu değiştiriyoruz?»"
+  },
+  {
+   "i": 4,
+   "text": "Nöbetçi eczaneye doğru sprint atmadan önce,"
+  },
+  {
+   "i": 5,
+   "text": "önce şu soruyu yanıtlamak gerek:"
+  },
+  {
+   "i": 6,
+   "text": "bu tedavi yumurtlamayı tetikledi mi, tetiklemedi mi?"
+  },
+  {
+   "i": 7,
+   "text": "Çünkü hiç yumurtlamamak ile mükemmel yumurtlayıp hamile kalamamak"
+  },
+  {
+   "i": 8,
+   "text": "birbirinden tamamen farklı iki hikâye."
+  },
+  {
+   "i": 9,
+   "text": "Fark şu:"
+  },
+  {
+   "i": 10,
+   "text": "«Arabanın marşı bile dönmüyor» ile «Motor"
+  },
+  {
+   "i": 11,
+   "text": "gıcır gıcır çalışıyor ama el frenini indirmeyi unutmuşuz» arasındaki fark."
+  },
+  {
+   "i": 12,
+   "text": "Ben Doç. Dr. Senai Aksoy."
+  },
+  {
+   "i": 13,
+   "text": "Bugün bu ilacın neden sınırları olduğuna bakacağız,"
+  },
+  {
+   "i": 14,
+   "text": "ve ne zaman «Tamam arkadaşlar, bu taktik işe yaramıyor,"
+  },
+  {
+   "i": 15,
+   "text": "plan değiştiriyoruz» demek gerektiğine."
+  },
+  {
+   "i": 16,
+   "text": "Mutfak masasını gözünüzün önüne getirin: tuzluk,"
+  },
+  {
+   "i": 17,
+   "text": "ilaç kutusu ve buzdolabındaki o meşhur mıknatıslı takvim."
+  },
+  {
+   "i": 18,
+   "text": "Günler neon fosforlu kalemle işaretlenmiş;"
+  },
+  {
+   "i": 19,
+   "text": "sanki NASA'nın Mars'a fırlatma geri sayımı."
+  },
+  {
+   "i": 20,
+   "text": "Romantizm seviyesi sıfır, tam bir askerî operasyon."
+  },
+  {
+   "i": 21,
+   "text": "İçinizdeki küçük ses devreye giriyor: «Geçen ay olmadı,"
+  },
+  {
+   "i": 22,
+   "text": "kader bu..."
+  },
+  {
+   "i": 23,
+   "text": "Hadi, bir kutu daha alıyorum.»"
+  },
+  {
+   "i": 24,
+   "text": "O zaman takvimi disiplini için tebrik ediyoruz."
+  },
+  {
+   "i": 25,
+   "text": "Ama küçük bir kusuru var: hormon tahlili okumayı bilmiyor!"
+  },
+  {
+   "i": 26,
+   "text": "Onu dinlerseniz,"
+  },
+  {
+   "i": 27,
+   "text": "2028 Olimpiyat Oyunları'na kadar bu tempoda devam edersiniz."
+  },
+  {
+   "i": 28,
+   "text": "Etken madde, klomifen sitrat,"
+  },
+  {
+   "i": 29,
+   "text": "aslında beyne küçük bir oyun oynuyor."
+  },
+  {
+   "i": 30,
+   "text": "Östrojen sensörlerini karıştırıyor; beyin kendi kendine diyor ki —"
+  },
+  {
+   "i": 31,
+   "text": "«Aşağıda östrojen kalmamış, dükkân mı kapandı yoksa?!» —"
+  },
+  {
+   "i": 32,
+   "text": "ve FSH salgısını artırıyor,"
+  },
+  {
+   "i": 33,
+   "text": "folikülü büyüten hormonu;"
+  },
+  {
+   "i": 34,
+   "text": "yumurtayı taşıyan o küçük kesecik, yumurtlamaya kadar."
+  },
+  {
+   "i": 35,
+   "text": "Ama hemen bir efsaneyi yıkalım:"
+  },
+  {
+   "i": 36,
+   "text": "folikülü büyütmek, yumurtanın kalitesini"
+  },
+  {
+   "i": 37,
+   "text": "artırmak demek değil. Bulanık bir vesikalık fotoğrafı"
+  },
+  {
+   "i": 38,
+   "text": "Louvre Müzesi tadında kocaman altın bir çerçeveye koyarsanız,"
+  },
+  {
+   "i": 39,
+   "text": "fotoğraf bir anda 4K Yüksek Çözünürlüğe geçmez."
+  },
+  {
+   "i": 40,
+   "text": "Klomifenin yumurta kalitesini artırdığını gösteren hiçbir kanıt yok;"
+  },
+  {
+   "i": 41,
+   "text": "o sadece kapıyı çalıp bağırıyor: «Hadi, biri çıksın!»"
+  },
+  {
+   "i": 42,
+   "text": "Birinci olasılık: ilaçları aldınız ama hiç yumurtlama yok."
+  },
+  {
+   "i": 43,
+   "text": "Başka bir kutu açmak yerine,"
+  },
+  {
+   "i": 44,
+   "text": "içeride kimin grev yaptığını aramak gerekir."
+  },
+  {
+   "i": 45,
+   "text": "Polikistik over sendromu (PKOS) mu?"
+  },
+  {
+   "i": 46,
+   "text": "Tiroid ya da prolaktin orkestradan kopup solo mu yapıyor?"
+  },
+  {
+   "i": 47,
+   "text": "Ya da «plaj formu» diyetiyle —"
+  },
+  {
+   "i": 48,
+   "text": "veya günde bir marul yaprağı ve üç saat yoğun sporla —"
+  },
+  {
+   "i": 49,
+   "text": "beyin kendi kendine «Ülkede kıtlık alarmı,"
+  },
+  {
+   "i": 50,
+   "text": "üreme sisteminin şalterini indirin, canımızı kurtaralım!» mı dedi?"
+  },
+  {
+   "i": 51,
+   "text": "Her nedenin kendi tedavisi var."
+  },
+  {
+   "i": 52,
+   "text": "Yumurtlama yokluğu polikistik over sendromuna bağlıysa,"
+  },
+  {
+   "i": 53,
+   "text": "ve başka bir infertilite faktörü yoksa,"
+  },
+  {
+   "i": 54,
+   "text": "2023 uluslararası kılavuzları letrozolü"
+  },
+  {
+   "i": 55,
+   "text": "ilk basamak tedavi olarak öneriyor."
+  },
+  {
+   "i": 56,
+   "text": "Bu, Clomid'in emekli olduğu anlamına gelmez:"
+  },
+  {
+   "i": 57,
+   "text": "seçim tanıya,"
+  },
+  {
+   "i": 58,
+   "text": "önceki yanıtınıza ve ülkenin reçete kurallarına bağlıdır."
+  },
+  {
+   "i": 59,
+   "text": "Ve n'olur:"
+  },
+  {
+   "i": 60,
+   "text": "kendi başına ilaç kullanmak yok, çay sohbetlerinin"
+  },
+  {
+   "i": 61,
+   "text": "tarzında tavsiyelerle: «Eltim kullandı, üçüz doğurdu,"
+  },
+  {
+   "i": 62,
+   "text": "sen de iki hap iç kızım!»"
+  },
+  {
+   "i": 63,
+   "text": "İkinci olasılık: yumurtlama gerçekten oldu,"
+  },
+  {
+   "i": 64,
+   "text": "ama hâlâ hamilelik yok."
+  },
+  {
+   "i": 65,
+   "text": "Burada ilaç size diyor ki: «Ben"
+  },
+  {
+   "i": 66,
+   "text": "yumurtayı çıkış kapısına kadar getirdim,"
+  },
+  {
+   "i": 67,
+   "text": "gerisi benim işim değil.»"
+  },
+  {
+   "i": 68,
+   "text": "Ve haklı! Yumurtlama, filmin sadece fragmanı."
+  },
+  {
+   "i": 69,
+   "text": "Clomid tesisatçı değil, tıkalı bir tüpü açmaz!"
+  },
+  {
+   "i": 70,
+   "text": "Ve hanım ilacı alınca, beyefendinin spermleri —"
+  },
+  {
+   "i": 71,
+   "text": "maç özetinin karşısında koltuğa keyifle yayılmışken —"
+  },
+  {
+   "i": 72,
+   "text": "birdenbire Michael Phelps'e dönüşmez."
+  },
+  {
+   "i": 73,
+   "text": "Hayır, tıp henüz bu Bluetooth güncellemesini almadı!"
+  },
+  {
+   "i": 74,
+   "text": "Tetkikler çifti ilgilendirir,"
+  },
+  {
+   "i": 75,
+   "text": "yaş ve doğru zamanlama da en az onlar kadar önemli. Üstelik,"
+  },
+  {
+   "i": 76,
+   "text": "zaten İsviçre saati gibi yumurtlayan ve açıklanamayan"
+  },
+  {
+   "i": 77,
+   "text": "infertilitesi olan kadınlarda,"
+  },
+  {
+   "i": 78,
+   "text": "sadece klomifen verip «Telefona alarm kurun,"
+  },
+  {
+   "i": 79,
+   "text": "bu akşam fazla mesai var» demenin gebelik şansına yararı"
+  },
+  {
+   "i": 80,
+   "text": "kanıtlanmadı. Fabrika zaten çalışıyorsa,"
+  },
+  {
+   "i": 81,
+   "text": "müdürü beş dakikada bir sarsmanın âlemi yok."
+  },
+  {
+   "i": 82,
+   "text": "İnseminasyon için uyarım yapmak ise başka bir hikâye."
+  },
+  {
+   "i": 83,
+   "text": "Peki, kaç ay denenir?"
+  },
+  {
+   "i": 84,
+   "text": "Fransız prospektüsü en fazla altı tedavi döngüsü belirtiyor."
+  },
+  {
+   "i": 85,
+   "text": "Ama dikkat: bu altı sayısı,"
+  },
+  {
+   "i": 86,
+   "text": "bir sadakat kartı değil: «5 kahve aldın,"
+  },
+  {
+   "i": 87,
+   "text": "6'sı bedava» diye mutlaka sonuna kadar damgalanacak bir şey değil!"
+  },
+  {
+   "i": 88,
+   "text": "Önerilen dozda üç kür,"
+  },
+  {
+   "i": 89,
+   "text": "yumurtlama sağlamadıysa,"
+  },
+  {
+   "i": 90,
+   "text": "deneme bitmiş sayılır."
+  },
+  {
+   "i": 91,
+   "text": "Yumurtlama olup da birkaç denemeden sonra gebelik olmuyorsa,"
+  },
+  {
+   "i": 92,
+   "text": "tetkikler ve strateji yeniden gözden geçirilir, bazen daha erken. İğneler,"
+  },
+  {
+   "i": 93,
+   "text": "inseminasyon ya da tüp bebek, bir video oyununun"
+  },
+  {
+   "i": 94,
+   "text": "seviyelerini sırayla tek tek geçmek gibi değildir;"
+  },
+  {
+   "i": 95,
+   "text": "çiftinize uygun yolu seçiyoruz."
+  },
+  {
+   "i": 96,
+   "text": "Ve sık duyulan bir cümle daha:"
+  },
+  {
+   "i": 97,
+   "text": "«Geçen ayki kutunun dibinde üç hap kalmıştı,"
+  },
+  {
+   "i": 98,
+   "text": "boşa gitmesin diye onları da yuttum.»"
+  },
+  {
+   "i": 99,
+   "text": "Yahu, bu buzdolabı kapağında unutulmuş yarım limon değil!"
+  },
+  {
+   "i": 100,
+   "text": "Ortalıkta kalan haplar tıbbi bir endikasyon değildir."
+  },
+  {
+   "i": 101,
+   "text": "Gerçek takip ultrasonla yapılır,"
+  },
+  {
+   "i": 102,
+   "text": "foliküller ve endometriyum izlenir,"
+  },
+  {
+   "i": 103,
+   "text": "hormon tahlilleri de yumurtlamayı değerlendirmeye yardımcı olabilir."
+  },
+  {
+   "i": 104,
+   "text": "Çünkü klomifenin bazen kendine has bir mizahı var:"
+  },
+  {
+   "i": 105,
+   "text": "östrojen reseptörlerini bloke ederek rahim iç zarını inceltebilir —"
+  },
+  {
+   "i": 106,
+   "text": "endometriyum — bebeğin yerleşeceği yer."
+  },
+  {
+   "i": 107,
+   "text": "Misafirlerinize ısrar etmeye benziyor: «Aman efendim,"
+  },
+  {
+   "i": 108,
+   "text": "bu gece bizde kalın!»"
+  },
+  {
+   "i": 109,
+   "text": "ve onlar antrede ayakkabılarını çıkarırken"
+  },
+  {
+   "i": 110,
+   "text": "siz bütün yatakları satıyorsunuz."
+  },
+  {
+   "i": 111,
+   "text": "Ya da tam tersi, birden fazla folikül aynı anda coşuyor,"
+  },
+  {
+   "i": 112,
+   "text": "ve çoğul gebelik riski de cabası."
+  },
+  {
+   "i": 113,
+   "text": "Şimdi güvenlik için mizahsız iki dakika."
+  },
+  {
+   "i": 114,
+   "text": "Sıcak basması,"
+  },
+  {
+   "i": 115,
+   "text": "baş ağrısı veya karında rahatsızlık olası yan etkiler arasındadır."
+  },
+  {
+   "i": 116,
+   "text": "Buna karşılık: bulanık görme, ışık çakmaları,"
+  },
+  {
+   "i": 117,
+   "text": "gözün önünde lekeler veya alışılmadık herhangi bir görme bozukluğu..."
+  },
+  {
+   "i": 118,
+   "text": "sakın «Tansiyon düştü herhalde» demeyin."
+  },
+  {
+   "i": 119,
+   "text": "Tedaviyi bırakın ve hemen doktorunuza başvurun."
+  },
+  {
+   "i": 120,
+   "text": "Eksiksiz bir göz muayenesi gerekir;"
+  },
+  {
+   "i": 121,
+   "text": "bu bozuklukları başka bir neden açıklamıyorsa,"
+  },
+  {
+   "i": 122,
+   "text": "klomifen kesin olarak bırakılmalıdır."
+  },
+  {
+   "i": 123,
+   "text": "Kendi kendinize yeniden başlamayın."
+  },
+  {
+   "i": 124,
+   "text": "Şiddetli karın ağrısında da aynı şey geçerli,"
+  },
+  {
+   "i": 125,
+   "text": "karında hızlı şişlik ya da nefes darlığında da: bu bir tıbbi acildir,"
+  },
+  {
+   "i": 126,
+   "text": "bir sonraki randevunuzu beklemeyin."
+  },
+  {
+   "i": 127,
+   "text": "Ve tabii her yeni kürden önce,"
+  },
+  {
+   "i": 128,
+   "text": "bir gebeliğin zaten başlamadığı kontrol edilir."
+  },
+  {
+   "i": 129,
+   "text": "Clomid ile olmadıysa, bu sizin suçunuz değil."
+  },
+  {
+   "i": 130,
+   "text": "Bir sonraki muayenenizde,"
+  },
+  {
+   "i": 131,
+   "text": "doktorunuza şu üç soruyu sormanız yeterli:"
+  },
+  {
+   "i": 132,
+   "text": "«Gerçekten yumurtladım mı?»"
+  },
+  {
+   "i": 133,
+   "text": "«Başka hangi parametreleri kontrol ettik?»"
+  },
+  {
+   "i": 134,
+   "text": "«B planına ne zaman geçiyoruz?»"
+  },
+  {
+   "i": 135,
+   "text": "Yeni bir kutu açmaya buzdolabındaki takvim değil,"
+  },
+  {
+   "i": 136,
+   "text": "bu üç sorunun yanıtları karar vermeli."
+  },
+  {
+   "i": 137,
+   "text": "Bu bilgiler tıbbi muayenenin yerini tutmaz."
+  },
+  {
+   "i": 138,
+   "text": "Hâlâ tutmuyor. İlaç,"
+  },
+  {
+   "i": 139,
+   "text": "doz ve tedavi süresi sizi takip eden doktorla birlikte belirlenir."
+  },
+  {
+   "i": 140,
+   "text": "Hadi, ciao!"
+  }
+ ]
+}

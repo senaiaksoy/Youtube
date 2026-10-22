@@ -1,0 +1,122 @@
+{
+ "ar": {
+  "cues": 140,
+  "title": "Clomid ولم يحدث حمل: متى يجب تغيير الخطة؟",
+  "title_len": 41,
+  "desc_len": 3325,
+  "longest_line": 42,
+  "issues": []
+ },
+ "az": {
+  "cues": 140,
+  "title": "Clomid qəbul edirsiniz, hamiləlik yoxdur: plan nə vaxt dəyişməlidir?",
+  "title_len": 68,
+  "desc_len": 3770,
+  "longest_line": 44,
+  "issues": []
+ },
+ "bg": {
+  "cues": 140,
+  "title": "Clomid и няма бременност: кога да смените плана?",
+  "title_len": 48,
+  "desc_len": 3884,
+  "longest_line": 42,
+  "issues": []
+ },
+ "bs": {
+  "cues": 140,
+  "title": "Clomid, a trudnoće nema: kada treba promijeniti plan?",
+  "title_len": 53,
+  "desc_len": 3874,
+  "longest_line": 42,
+  "issues": []
+ },
+ "de": {
+  "cues": 140,
+  "title": "Clomid und keine Schwangerschaft: Wann sollte man den Plan ändern?",
+  "title_len": 66,
+  "desc_len": 4380,
+  "longest_line": 44,
+  "issues": []
+ },
+ "es": {
+  "cues": 140,
+  "title": "Clomid y no hay embarazo: ¿cuándo conviene cambiar de plan?",
+  "title_len": 59,
+  "desc_len": 3974,
+  "longest_line": 45,
+  "issues": []
+ },
+ "fa": {
+  "cues": 140,
+  "title": "Clomid مصرف کردید ولی باردار نشدید؟ چه زمانی باید برنامه را عوض کرد؟",
+  "title_len": 68,
+  "desc_len": 3453,
+  "longest_line": 42,
+  "issues": []
+ },
+ "it": {
+  "cues": 140,
+  "title": "Clomid e nessuna gravidanza: quando conviene cambiare piano?",
+  "title_len": 60,
+  "desc_len": 4032,
+  "longest_line": 42,
+  "issues": []
+ },
+ "mk": {
+  "cues": 140,
+  "title": "Clomid и нема бременост: кога да се смени планот?",
+  "title_len": 49,
+  "desc_len": 3884,
+  "longest_line": 44,
+  "issues": []
+ },
+ "ro": {
+  "cues": 140,
+  "title": "Clomid și nicio sarcină: când schimbăm planul?",
+  "title_len": 46,
+  "desc_len": 4009,
+  "longest_line": 42,
+  "issues": []
+ },
+ "ru": {
+  "cues": 140,
+  "title": "Clomid и нет беременности: когда менять план лечения?",
+  "title_len": 53,
+  "desc_len": 3915,
+  "longest_line": 43,
+  "issues": []
+ },
+ "sq": {
+  "cues": 140,
+  "title": "Clomid dhe nuk mbeteni shtatzënë: kur ndryshon plani?",
+  "title_len": 53,
+  "desc_len": 3996,
+  "longest_line": 42,
+  "issues": []
+ },
+ "sr": {
+  "cues": 140,
+  "title": "Clomid, а трудноће нема: када треба променити план?",
+  "title_len": 51,
+  "desc_len": 3809,
+  "longest_line": 42,
+  "issues": []
+ },
+ "tr": {
+  "cues": 140,
+  "title": "Clomid kullandınız ama hamile kalamadınız mı? Plan ne zaman değişmeli?",
+  "title_len": 70,
+  "desc_len": 3712,
+  "longest_line": 42,
+  "issues": []
+ },
+ "uk": {
+  "cues": 140,
+  "title": "Clomid і немає вагітності: коли змінювати план?",
+  "title_len": 47,
+  "desc_len": 3806,
+  "longest_line": 42,
+  "issues": []
+ }
+}

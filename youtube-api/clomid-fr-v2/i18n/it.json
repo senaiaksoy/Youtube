@@ -1,0 +1,567 @@
+{
+ "lang": "it",
+ "title": "Clomid e nessuna gravidanza: quando conviene cambiare piano?",
+ "description": "Prende il Clomid, non succede nulla, e a casa arriva la grande domanda: apriamo un'altra scatola o cambiamo medico? Prima di decidere, bisogna rispondere a una sola domanda: questo trattamento ha scatenato un'ovulazione? Il Dott. Senai Aksoy, specialista della fertilità, spiega la differenza tra assenza di ovulazione e ovulazione senza gravidanza, che cosa fa davvero il clomifene (e che cosa non fa), il ruolo del letrozolo nella PCOS, il limite di sei cicli fissato dal foglietto illustrativo francese, il monitoraggio necessario e i segnali che impongono di interrompere il trattamento.\n\n⏱️ CAPITOLI\n00:00 Nuova scatola o un altro medico?\n00:20 Ovulazione o no: due storie diverse\n00:44 Perché questo farmaco ha i suoi limiti\n01:47 Come agisce il clomifene\n02:19 Un follicolo più grande, un ovulo migliore?\n02:53 Prima ipotesi: nessuna ovulazione\n03:34 Letrozolo e PCOS\n04:17 Seconda ipotesi: ovulazione senza gravidanza\n05:08 Infertilità inspiegata\n05:40 Quanti cicli?\n06:20 Iniezioni, inseminazione, FIVET\n06:33 Le compresse che avanzano\n06:56 Monitoraggio: ecografia e dosaggi ormonali\n07:14 Endometrio e gravidanza multipla\n07:43 Sicurezza: due minuti senza ironia\n08:47 Tre domande per il suo medico\n\n❓ LE TRE DOMANDE DA PORRE AL SUO MEDICO\n1. Ho davvero ovulato?\n2. Quali altri parametri abbiamo controllato?\n3. Quando passiamo al piano B?\n\n🚨 Visione offuscata, lampi di luce o macchie davanti agli occhi: interrompa il trattamento e contatti rapidamente il suo medico. Dolore addominale intenso, gonfiore rapido della pancia o fiato corto: è un'emergenza medica. Chiami il 15, il 112 o il numero di emergenza del suo paese.\n\n📖 PER APPROFONDIRE\n• PCOS / sindrome dell'ovaio policistico: diagnosi, trattamento e fertilità : https://draksoyivf.com/fr/blog/syndrome-des-ovaires-polykystiques/\n• Letrozolo e fertilità : https://draksoyivf.com/fr/blog/letrozole-et-endometre/\n• Stimolazione ovarica e FIVET : https://draksoyivf.com/fr/blog/stimulation-ovarienne-et-fiv/\n\n📚 RIFERIMENTI\n• RCP CLOMID (ANSM, base de données publique des médicaments, mis à jour le 21/07/2025), rubriques 4.2, 4.4, 4.8 et 5.1 : https://base-donnees-publique.medicaments.gouv.fr/medicament/65338028/extrait\n• Raccomandazioni internazionali sulla PCOS 2023 (ASRM), raccomandazione 5.3.1 : https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023\n• Franik S, et al. Cochrane Database Syst Rev. 2022;9(9):CD010287. PMID 36165742\n• Hughes E, et al. Cochrane Database Syst Rev. 2010;2010(1):CD000057. PMID 20091498\n\n💬 Ponga la sua domanda nei commenti, senza pubblicare i suoi risultati né dati medici personali.\n🔔 Si iscriva per capire meglio il suo percorso di fertilità e preparare le domande per il suo medico.\nSottotitoli disponibili. L'audio originale è in francese.\n\nPer maggiori informazioni:\n📱 WhatsApp : +90 507 380 28 05\n🌐 Web site : www.draksoyivf.com\n\n⚕️ AVVERTENZA MEDICA IMPORTANTE\n\nLe informazioni presentate in questo video hanno esclusivamente scopo educativo e informativo. Non costituiscono in alcun caso un parere medico, una diagnosi o una raccomandazione di trattamento personalizzata.\n\nOgni situazione medica è unica. I contenuti qui trattati non sostituiscono una visita con un medico qualificato, un ginecologo o uno specialista in medicina della riproduzione.\n\nNon modifichi mai la terapia medica in corso, non inizi un nuovo trattamento e non prenda alcuna decisione medica sulla base delle informazioni contenute in questo video, senza aver prima consultato il suo medico curante o il suo specialista.\n\nSe ha domande sulla sua salute riproduttiva o sul suo percorso di FIVET, si rivolga a un professionista sanitario qualificato.\n\nLe immagini di illustrazione (video stock di Pexels e immagini generate dall'IA) sono rappresentative; non si tratta di immagini di pazienti.\n\n© Assoc. Prof. Dr. Senai Aksoy — Tutti i diritti riservati.\n\n#Clomid #Ovulazione #FIVET",
+ "cues": [
+  {
+   "i": 1,
+   "text": "Prende il Clomid, ma ancora nessuna gravidanza."
+  },
+  {
+   "i": 2,
+   "text": "E lì parte il grande vertice di crisi in casa:"
+  },
+  {
+   "i": 3,
+   "text": "«Iniziamo un'altra scatola o cambiamo medico?»"
+  },
+  {
+   "i": 4,
+   "text": "Prima di fare uno sprint verso la farmacia di turno,"
+  },
+  {
+   "i": 5,
+   "text": "bisogna prima rispondere a una domanda:"
+  },
+  {
+   "i": 6,
+   "text": "questo trattamento ha scatenato un'ovulazione, sì o no?"
+  },
+  {
+   "i": 7,
+   "text": "Perché non ovulare affatto, o ovulare perfettamente senza restare incinta,"
+  },
+  {
+   "i": 8,
+   "text": "sono due storie totalmente diverse."
+  },
+  {
+   "i": 9,
+   "text": "È la differenza tra:"
+  },
+  {
+   "i": 10,
+   "text": "«Il motorino d'avviamento dell'auto non gira nemmeno» e «Il motore gira"
+  },
+  {
+   "i": 11,
+   "text": "benissimo, ma ci siamo dimenticati di sbloccare il freno a mano»."
+  },
+  {
+   "i": 12,
+   "text": "Sono il Dott. Senai Aksoy."
+  },
+  {
+   "i": 13,
+   "text": "Oggi vediamo perché questo farmaco ha i suoi limiti,"
+  },
+  {
+   "i": 14,
+   "text": "e quando bisogna saper dire: «Ok ragazzi, questa tattica non funziona,"
+  },
+  {
+   "i": 15,
+   "text": "si cambia piano»."
+  },
+  {
+   "i": 16,
+   "text": "Immagini il tavolo della cucina: la saliera,"
+  },
+  {
+   "i": 17,
+   "text": "la scatola di compresse e quel famoso calendario magnetico sul frigo."
+  },
+  {
+   "i": 18,
+   "text": "I giorni sono segnati con l'evidenziatore fluo;"
+  },
+  {
+   "i": 19,
+   "text": "sembra il conto alla rovescia della NASA per un lancio verso Marte."
+  },
+  {
+   "i": 20,
+   "text": "Quanto a romanticismo siamo a zero, è un'operazione militare."
+  },
+  {
+   "i": 21,
+   "text": "E la vocina interiore si attiva: «Il mese scorso non ha funzionato,"
+  },
+  {
+   "i": 22,
+   "text": "è il destino..."
+  },
+  {
+   "i": 23,
+   "text": "Dai, ricomincio con un'altra scatola»."
+  },
+  {
+   "i": 24,
+   "text": "Allora, facciamo i complimenti al calendario per la disciplina."
+  },
+  {
+   "i": 25,
+   "text": "Ma ha un piccolo difetto: non sa leggere un profilo ormonale!"
+  },
+  {
+   "i": 26,
+   "text": "Se gli dessimo retta,"
+  },
+  {
+   "i": 27,
+   "text": "andremmo avanti così fino alle Olimpiadi del 2028."
+  },
+  {
+   "i": 28,
+   "text": "Il principio attivo, il clomifene citrato,"
+  },
+  {
+   "i": 29,
+   "text": "in realtà fa un piccolo scherzetto al cervello."
+  },
+  {
+   "i": 30,
+   "text": "Confonde i sensori degli estrogeni; il cervello pensa —"
+  },
+  {
+   "i": 31,
+   "text": "«giù non ci sono più estrogeni, il negozio ha chiuso o cosa?!» —"
+  },
+  {
+   "i": 32,
+   "text": "e aumenta la secrezione di FSH,"
+  },
+  {
+   "i": 33,
+   "text": "l'ormone che fa crescere il follicolo,"
+  },
+  {
+   "i": 34,
+   "text": "quella piccola sacca che contiene l'ovulo, fino all'ovulazione."
+  },
+  {
+   "i": 35,
+   "text": "Ma sfatiamo subito un mito:"
+  },
+  {
+   "i": 36,
+   "text": "far crescere il follicolo non significa migliorare la qualità"
+  },
+  {
+   "i": 37,
+   "text": "dell'ovulo. Se mette una foto tessera completamente sfocata in una"
+  },
+  {
+   "i": 38,
+   "text": "enorme cornice dorata stile museo del Louvre,"
+  },
+  {
+   "i": 39,
+   "text": "la foto non diventa di colpo 4K Alta Definizione."
+  },
+  {
+   "i": 40,
+   "text": "Nulla dimostra che il clomifene migliori la qualità dell'ovulo;"
+  },
+  {
+   "i": 41,
+   "text": "lui bussa soltanto alla porta gridando: «Dai, qualcuno deve uscire!»"
+  },
+  {
+   "i": 42,
+   "text": "Prima ipotesi: ha preso le compresse, ma zero ovulazione."
+  },
+  {
+   "i": 43,
+   "text": "Invece di aprire un'altra scatola,"
+  },
+  {
+   "i": 44,
+   "text": "bisogna cercare chi sta scioperando là dentro."
+  },
+  {
+   "i": 45,
+   "text": "Una sindrome dell'ovaio policistico (PCOS)?"
+  },
+  {
+   "i": 46,
+   "text": "La tiroide o la prolattina che fanno un assolo fuori dall'orchestra?"
+  },
+  {
+   "i": 47,
+   "text": "Oppure, con la dieta «prova costume» —"
+  },
+  {
+   "i": 48,
+   "text": "o una foglia di lattuga al giorno e tre ore di sport intenso —"
+  },
+  {
+   "i": 49,
+   "text": "il cervello ha pensato: «Allarme carestia nel paese,"
+  },
+  {
+   "i": 50,
+   "text": "staccate l'interruttore del sistema riproduttivo, salviamoci la pelle!»?"
+  },
+  {
+   "i": 51,
+   "text": "A ogni causa il suo trattamento."
+  },
+  {
+   "i": 52,
+   "text": "Se l'assenza di ovulazione è legata a una sindrome dell'ovaio"
+  },
+  {
+   "i": 53,
+   "text": "policistico, senza altri fattori di infertilità,"
+  },
+  {
+   "i": 54,
+   "text": "le raccomandazioni internazionali del 2023 indicano il letrozolo come"
+  },
+  {
+   "i": 55,
+   "text": "prima scelta."
+  },
+  {
+   "i": 56,
+   "text": "Questo non vuol dire che il Clomid sia in pensione:"
+  },
+  {
+   "i": 57,
+   "text": "la scelta dipende dalla diagnosi,"
+  },
+  {
+   "i": 58,
+   "text": "dalla sua risposta precedente e dalle regole di prescrizione del paese."
+  },
+  {
+   "i": 59,
+   "text": "E per carità:"
+  },
+  {
+   "i": 60,
+   "text": "niente automedicazione seguendo i consigli del tè delle cinque,"
+  },
+  {
+   "i": 61,
+   "text": "del tipo: «Mia cognata l'ha preso, ha avuto i trigemini,"
+  },
+  {
+   "i": 62,
+   "text": "quindi manda giù due compresse, tesoro!»"
+  },
+  {
+   "i": 63,
+   "text": "Seconda ipotesi: l'ovulazione c'è stata,"
+  },
+  {
+   "i": 64,
+   "text": "ma ancora nessuna gravidanza."
+  },
+  {
+   "i": 65,
+   "text": "Lì il farmaco dice: «Io"
+  },
+  {
+   "i": 66,
+   "text": "ho portato l'ovulo fino alla porta d'uscita,"
+  },
+  {
+   "i": 67,
+   "text": "il resto non è più compito mio»."
+  },
+  {
+   "i": 68,
+   "text": "E ha ragione! L'ovulazione è solo il trailer del film."
+  },
+  {
+   "i": 69,
+   "text": "Il Clomid non è un idraulico, non stura una tuba ostruita!"
+  },
+  {
+   "i": 70,
+   "text": "E quando la signora segue la terapia, gli spermatozoi del signore —"
+  },
+  {
+   "i": 71,
+   "text": "sprofondato tranquillo sul divano davanti agli highlights della partita —"
+  },
+  {
+   "i": 72,
+   "text": "non si trasformano all'improvviso in Michael Phelps."
+  },
+  {
+   "i": 73,
+   "text": "No, la medicina non ha ancora ricevuto questo aggiornamento Bluetooth!"
+  },
+  {
+   "i": 74,
+   "text": "Gli accertamenti riguardano la coppia,"
+  },
+  {
+   "i": 75,
+   "text": "e anche l'età e il momento giusto contano altrettanto. Del resto,"
+  },
+  {
+   "i": 76,
+   "text": "nelle donne che ovulano già come un orologio svizzero con un'infertilità"
+  },
+  {
+   "i": 77,
+   "text": "inspiegata,"
+  },
+  {
+   "i": 78,
+   "text": "dare solo clomifene dicendo «Metti una sveglia sul telefono,"
+  },
+  {
+   "i": 79,
+   "text": "stasera si fa lo straordinario» non ha dimostrato benefici sulle probabilità di"
+  },
+  {
+   "i": 80,
+   "text": "gravidanza. Quando la fabbrica già lavora,"
+  },
+  {
+   "i": 81,
+   "text": "inutile scuotere il direttore ogni cinque minuti."
+  },
+  {
+   "i": 82,
+   "text": "Stimolare per fare un'inseminazione, quella è un'altra storia."
+  },
+  {
+   "i": 83,
+   "text": "Allora, per quanti mesi si prova?"
+  },
+  {
+   "i": 84,
+   "text": "Il foglietto illustrativo francese fissa un massimo di sei cicli di terapia."
+  },
+  {
+   "i": 85,
+   "text": "Ma attenzione: questo numero sei"
+  },
+  {
+   "i": 86,
+   "text": "non è una carta fedeltà «5 caffè acquistati,"
+  },
+  {
+   "i": 87,
+   "text": "il 6° in omaggio» da timbrare per forza fino in fondo!"
+  },
+  {
+   "i": 88,
+   "text": "Se tre cicli, alla posologia prevista,"
+  },
+  {
+   "i": 89,
+   "text": "non hanno permesso di ottenere un'ovulazione,"
+  },
+  {
+   "i": 90,
+   "text": "si considera concluso il tentativo."
+  },
+  {
+   "i": 91,
+   "text": "E se l'ovulazione c'è ma senza gravidanza dopo più tentativi,"
+  },
+  {
+   "i": 92,
+   "text": "si rivedono gli accertamenti e la strategia, a volte prima. Le iniezioni,"
+  },
+  {
+   "i": 93,
+   "text": "l'inseminazione o la FIVET non sono livelli di un videogioco da"
+  },
+  {
+   "i": 94,
+   "text": "superare uno alla volta in ordine;"
+  },
+  {
+   "i": 95,
+   "text": "si prende la strada adatta alla vostra coppia."
+  },
+  {
+   "i": 96,
+   "text": "E una frase che torna spesso:"
+  },
+  {
+   "i": 97,
+   "text": "«Mi erano rimaste tre compresse in fondo alla scatola del mese scorso,"
+  },
+  {
+   "i": 98,
+   "text": "era un peccato sprecarle, quindi le ho prese»."
+  },
+  {
+   "i": 99,
+   "text": "Ma insomma, non è mezzo limone dimenticato nello sportello del frigo!"
+  },
+  {
+   "i": 100,
+   "text": "Avere compresse avanzate non è un'indicazione medica."
+  },
+  {
+   "i": 101,
+   "text": "Un vero monitoraggio si fa con l'ecografia,"
+  },
+  {
+   "i": 102,
+   "text": "per controllare i follicoli e l'endometrio,"
+  },
+  {
+   "i": 103,
+   "text": "e i dosaggi ormonali possono aiutare a valutare l'ovulazione."
+  },
+  {
+   "i": 104,
+   "text": "Perché il clomifene a volte ha uno strano senso dell'umorismo:"
+  },
+  {
+   "i": 105,
+   "text": "bloccando i recettori degli estrogeni, può assottigliare la mucosa uterina —"
+  },
+  {
+   "i": 106,
+   "text": "l'endometrio — proprio dove il bambino deve annidarsi."
+  },
+  {
+   "i": 107,
+   "text": "È come insistere con i vostri ospiti: «Ma sì,"
+  },
+  {
+   "i": 108,
+   "text": "restate a dormire stasera!»,"
+  },
+  {
+   "i": 109,
+   "text": "e mentre si tolgono le scarpe all'ingresso,"
+  },
+  {
+   "i": 110,
+   "text": "voi vendete tutti i letti."
+  },
+  {
+   "i": 111,
+   "text": "Oppure, al contrario, più follicoli si scatenano insieme,"
+  },
+  {
+   "i": 112,
+   "text": "e ciao ciao, rischio di gravidanza multipla."
+  },
+  {
+   "i": 113,
+   "text": "Ora, due minuti senza ironia per la sicurezza."
+  },
+  {
+   "i": 114,
+   "text": "Vampate di calore,"
+  },
+  {
+   "i": 115,
+   "text": "mal di testa o fastidio addominale rientrano tra gli effetti indesiderati"
+  },
+  {
+   "i": 116,
+   "text": "possibili. Invece: visione offuscata, lampi di luce,"
+  },
+  {
+   "i": 117,
+   "text": "macchie davanti agli occhi o qualsiasi altro disturbo visivo insolito..."
+  },
+  {
+   "i": 118,
+   "text": "non pensi mai «È solo un calo di pressione»."
+  },
+  {
+   "i": 119,
+   "text": "Interrompa il trattamento e contatti rapidamente il suo medico."
+  },
+  {
+   "i": 120,
+   "text": "È necessario un esame oculistico completo;"
+  },
+  {
+   "i": 121,
+   "text": "se nessun'altra causa spiega questi disturbi,"
+  },
+  {
+   "i": 122,
+   "text": "il clomifene va interrotto definitivamente."
+  },
+  {
+   "i": 123,
+   "text": "Non lo riprenda di sua iniziativa."
+  },
+  {
+   "i": 124,
+   "text": "Stesso discorso in caso di dolore addominale intenso,"
+  },
+  {
+   "i": 125,
+   "text": "di gonfiore rapido della pancia o di fiato corto: è un'emergenza medica,"
+  },
+  {
+   "i": 126,
+   "text": "non aspetti il prossimo appuntamento."
+  },
+  {
+   "i": 127,
+   "text": "E naturalmente, prima di ogni nuovo ciclo,"
+  },
+  {
+   "i": 128,
+   "text": "si verifica che una gravidanza non sia già iniziata."
+  },
+  {
+   "i": 129,
+   "text": "Se con il Clomid non ha funzionato, non è colpa sua."
+  },
+  {
+   "i": 130,
+   "text": "Alla prossima visita,"
+  },
+  {
+   "i": 131,
+   "text": "faccia semplicemente queste tre domande al suo medico:"
+  },
+  {
+   "i": 132,
+   "text": "«Ho davvero ovulato?»"
+  },
+  {
+   "i": 133,
+   "text": "«Quali altri parametri abbiamo controllato?»"
+  },
+  {
+   "i": 134,
+   "text": "«Quando passiamo al piano B?»"
+  },
+  {
+   "i": 135,
+   "text": "Non è il calendario sul frigo che deve decidere di aprire una"
+  },
+  {
+   "i": 136,
+   "text": "nuova scatola, ma le risposte a queste tre domande."
+  },
+  {
+   "i": 137,
+   "text": "Queste informazioni non sostituiscono una visita medica."
+  },
+  {
+   "i": 138,
+   "text": "Ancora no. Il farmaco,"
+  },
+  {
+   "i": 139,
+   "text": "la dose e la durata del trattamento si decidono con il medico che la segue."
+  },
+  {
+   "i": 140,
+   "text": "Dai, ciao!"
+  }
+ ]
+}

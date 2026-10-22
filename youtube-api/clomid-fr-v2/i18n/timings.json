@@ -1,0 +1,702 @@
+[
+{
+"i": 1,
+"t": "00:00:00,000 --> 00:00:02,900",
+"fr": "Vous prenez du Clomid, mais toujours pas de grossesse."
+},
+{
+"i": 2,
+"t": "00:00:03,120 --> 00:00:05,340",
+"fr": "Et là, grand sommet de crise à la maison :"
+},
+{
+"i": 3,
+"t": "00:00:05,520 --> 00:00:08,940",
+"fr": "« On attaque une nouvelle boîte ou on change de médecin ? »"
+},
+{
+"i": 4,
+"t": "00:00:09,140 --> 00:00:13,040",
+"fr": "Avant de piquer un sprint vers la pharmacie de garde,"
+},
+{
+"i": 5,
+"t": "00:00:13,380 --> 00:00:16,000",
+"fr": "il faut d'abord répondre à une question :"
+},
+{
+"i": 6,
+"t": "00:00:16,240 --> 00:00:20,620",
+"fr": "est-ce que ce traitement a déclenché une ovulation, oui ou non ?"
+},
+{
+"i": 7,
+"t": "00:00:20,680 --> 00:00:26,580",
+"fr": "Parce que ne pas ovuler du tout, ou ovuler parfaitement sans tomber enceinte,"
+},
+{
+"i": 8,
+"t": "00:00:26,620 --> 00:00:30,720",
+"fr": "ce sont deux histoires totalement différentes."
+},
+{
+"i": 9,
+"t": "00:00:31,360 --> 00:00:33,660",
+"fr": "C'est la différence entre :"
+},
+{
+"i": 10,
+"t": "00:00:33,700 --> 00:00:39,520",
+"fr": "« Le démarreur de la voiture ne tourne même pas » et « Le moteur tourne"
+},
+{
+"i": 11,
+"t": "00:00:39,560 --> 00:00:44,340",
+"fr": "super bien, mais on a oublié de desserrer le frein à main »."
+},
+{
+"i": 12,
+"t": "00:00:44,500 --> 00:00:46,440",
+"fr": "Je suis le Docteur Senai Aksoy."
+},
+{
+"i": 13,
+"t": "00:00:46,620 --> 00:00:50,340",
+"fr": "Aujourd'hui, on va voir pourquoi ce médicament a ses limites,"
+},
+{
+"i": 14,
+"t": "00:00:50,380 --> 00:00:55,900",
+"fr": "et quand il faut savoir dire : « OK les amis, cette tactique ne marche pas,"
+},
+{
+"i": 15,
+"t": "00:00:55,980 --> 00:00:57,740",
+"fr": "on change de plan. »"
+},
+{
+"i": 16,
+"t": "00:00:58,480 --> 00:01:02,920",
+"fr": "Imaginez la table de la cuisine : la salière,"
+},
+{
+"i": 17,
+"t": "00:01:03,220 --> 00:01:08,800",
+"fr": "la boîte de comprimés et ce fameux calendrier aimanté sur le frigo."
+},
+{
+"i": 18,
+"t": "00:01:08,940 --> 00:01:11,340",
+"fr": "Les jours sont cochés au stabilo fluo ;"
+},
+{
+"i": 19,
+"t": "00:01:11,420 --> 00:01:17,040",
+"fr": "on dirait le compte à rebours de la NASA pour un lancement vers Mars."
+},
+{
+"i": 20,
+"t": "00:01:18,180 --> 00:01:22,980",
+"fr": "Niveau romantisme, on est à zéro, c'est une opération militaire."
+},
+{
+"i": 21,
+"t": "00:01:23,240 --> 00:01:28,480",
+"fr": "Et la petite voix intérieure s'active : « Ça n'a pas marché le mois dernier,"
+},
+{
+"i": 22,
+"t": "00:01:28,680 --> 00:01:29,480",
+"fr": "c'est le destin..."
+},
+{
+"i": 23,
+"t": "00:01:29,620 --> 00:01:31,540",
+"fr": "Allez, je reprends une boîte. »"
+},
+{
+"i": 24,
+"t": "00:01:31,800 --> 00:01:35,300",
+"fr": "Alors, on félicite le calendrier pour sa discipline."
+},
+{
+"i": 25,
+"t": "00:01:35,560 --> 00:01:40,640",
+"fr": "Mais il a un petit défaut : il ne sait pas lire un bilan hormonal !"
+},
+{
+"i": 26,
+"t": "00:01:40,680 --> 00:01:42,200",
+"fr": "Si on l'écoute,"
+},
+{
+"i": 27,
+"t": "00:01:42,320 --> 00:01:47,220",
+"fr": "on continue sur ce rythme jusqu'aux Jeux Olympiques de 2028."
+},
+{
+"i": 28,
+"t": "00:01:47,760 --> 00:01:52,140",
+"fr": "Le principe actif, le citrate de clomifène,"
+},
+{
+"i": 29,
+"t": "00:01:52,300 --> 00:01:56,360",
+"fr": "fait en réalité une petite ruse au cerveau."
+},
+{
+"i": 30,
+"t": "00:01:56,440 --> 00:02:00,840",
+"fr": "Il brouille les détecteurs d'œstrogènes ; le cerveau se dit —"
+},
+{
+"i": 31,
+"t": "00:02:01,060 --> 00:02:06,300",
+"fr": "il n'y a plus d'œstrogènes en bas, la boutique a fermé ou quoi ? ! » —"
+},
+{
+"i": 32,
+"t": "00:02:06,340 --> 00:02:10,000",
+"fr": "et il augmente la sécrétion de FSH,"
+},
+{
+"i": 33,
+"t": "00:02:10,040 --> 00:02:13,800",
+"fr": "l'hormone qui fait grossir le follicule,"
+},
+{
+"i": 34,
+"t": "00:02:13,900 --> 00:02:18,680",
+"fr": "cette petite poche qui contient l'ovule, jusqu'à l'ovulation."
+},
+{
+"i": 35,
+"t": "00:02:19,000 --> 00:02:21,460",
+"fr": "Mais cassons tout de suite à un mythe :"
+},
+{
+"i": 36,
+"t": "00:02:22,020 --> 00:02:27,740",
+"fr": "faire grossir le follicule ne veut pas dire améliorer la qualité"
+},
+{
+"i": 37,
+"t": "00:02:27,780 --> 00:02:33,340",
+"fr": "de l'ovule. Si vous mettez une photo d'identité complètement floue dans un"
+},
+{
+"i": 38,
+"t": "00:02:33,380 --> 00:02:37,120",
+"fr": "immense cadre doré façon musée du Louvre,"
+},
+{
+"i": 39,
+"t": "00:02:37,160 --> 00:02:41,980",
+"fr": "la photo ne passe pas soudainement en 4K Haute Définition."
+},
+{
+"i": 40,
+"t": "00:02:42,200 --> 00:02:47,500",
+"fr": "Rien ne démontre que le clomifène améliore la qualité de l'ovule ;"
+},
+{
+"i": 41,
+"t": "00:02:47,720 --> 00:02:53,640",
+"fr": "lui, il frappe juste à la porte en criant : « Allez, quelqu'un doit sortir ! »"
+},
+{
+"i": 42,
+"t": "00:02:53,680 --> 00:02:58,740",
+"fr": "Première hypothèse : vous avez pris les comprimés, mais zéro ovulation."
+},
+{
+"i": 43,
+"t": "00:02:59,040 --> 00:03:01,340",
+"fr": "Au lieu d'ouvrir une autre boîte,"
+},
+{
+"i": 44,
+"t": "00:03:01,380 --> 00:03:03,980",
+"fr": "il faut chercher qui fait la grève à l'intérieur."
+},
+{
+"i": 45,
+"t": "00:03:04,020 --> 00:03:06,480",
+"fr": "Un syndrome des ovaires polykystiques (SOPK) ?"
+},
+{
+"i": 46,
+"t": "00:03:06,580 --> 00:03:11,960",
+"fr": "La thyroïde ou la prolactine qui nous font un solo hors de l'orchestre ?"
+},
+{
+"i": 47,
+"t": "00:03:12,000 --> 00:03:16,000",
+"fr": "Ou alors, avec le régime « opération bikini » —"
+},
+{
+"i": 48,
+"t": "00:03:16,040 --> 00:03:21,160",
+"fr": "ou une feuille de laitue par jour et trois heures de sport intensif —"
+},
+{
+"i": 49,
+"t": "00:03:21,340 --> 00:03:25,140",
+"fr": "le cerveau s'est dit : « Alerte famine dans le pays,"
+},
+{
+"i": 50,
+"t": "00:03:25,340 --> 00:03:30,720",
+"fr": "coupez le disjoncteur du système reproducteur, on sauve notre peau ! » ?"
+},
+{
+"i": 51,
+"t": "00:03:30,760 --> 00:03:32,900",
+"fr": "À chaque cause son traitement."
+},
+{
+"i": 52,
+"t": "00:03:33,080 --> 00:03:38,380",
+"fr": "Si l'absence d'ovulation est liée à un syndrome des ovaires"
+},
+{
+"i": 53,
+"t": "00:03:38,420 --> 00:03:41,920",
+"fr": "polykystiques, sans autre facteur d'infertilité,"
+},
+{
+"i": 54,
+"t": "00:03:42,380 --> 00:03:47,980",
+"fr": "les recommandations internationales de 2023 placent le létrozole en"
+},
+{
+"i": 55,
+"t": "00:03:48,020 --> 00:03:49,220",
+"fr": "première intention."
+},
+{
+"i": 56,
+"t": "00:03:49,840 --> 00:03:53,340",
+"fr": "Ça ne veut pas dire que le Clomid est à la retraite :"
+},
+{
+"i": 57,
+"t": "00:03:53,560 --> 00:03:55,620",
+"fr": "le choix dépend du diagnostic,"
+},
+{
+"i": 58,
+"t": "00:03:55,660 --> 00:04:01,600",
+"fr": "de votre réponse précédente et des règles de prescription du pays."
+},
+{
+"i": 59,
+"t": "00:04:01,780 --> 00:04:02,820",
+"fr": "Et pitié :"
+},
+{
+"i": 60,
+"t": "00:04:02,860 --> 00:04:08,600",
+"fr": "pas d'automédication en écoutant les conseils du salon de thé du"
+},
+{
+"i": 61,
+"t": "00:04:08,640 --> 00:04:12,900",
+"fr": "style : « Ma belle-sœur en a pris, elle a eu des triplés,"
+},
+{
+"i": 62,
+"t": "00:04:13,180 --> 00:04:15,540",
+"fr": "avale donc deux comprimés ma chérie ! »"
+},
+{
+"i": 63,
+"t": "00:04:15,800 --> 00:04:20,220",
+"fr": "Deuxième hypothèse : l'ovulation a bien eu lieu,"
+},
+{
+"i": 64,
+"t": "00:04:20,400 --> 00:04:22,000",
+"fr": "mais toujours pas de grossesse."
+},
+{
+"i": 65,
+"t": "00:04:22,540 --> 00:04:24,980",
+"fr": "Là, le médicament vous dit : « Moi,"
+},
+{
+"i": 66,
+"t": "00:04:25,020 --> 00:04:28,480",
+"fr": "j'ai amené l'ovule jusqu'à la porte de sortie,"
+},
+{
+"i": 67,
+"t": "00:04:28,520 --> 00:04:31,300",
+"fr": "la suite ce n'est plus mon rayon. »"
+},
+{
+"i": 68,
+"t": "00:04:31,340 --> 00:04:35,840",
+"fr": "Et il a raison ! L'ovulation, c'est juste sur la bande-annonce du film."
+},
+{
+"i": 69,
+"t": "00:04:36,100 --> 00:04:41,520",
+"fr": "Le Clomid n'est pas plombier, il ne va pas déboucher une trompe bouchée !"
+},
+{
+"i": 70,
+"t": "00:04:41,680 --> 00:04:46,320",
+"fr": "Et quand Madame prend le traitement, les spermatozoïdes de Monsieur —"
+},
+{
+"i": 71,
+"t": "00:04:46,980 --> 00:04:50,800",
+"fr": "tranquillement affalé sur le canapé devant le résumé du match —"
+},
+{
+"i": 72,
+"t": "00:04:51,060 --> 00:04:55,420",
+"fr": "ne se transforment pas soudainement en Michael Phelps."
+},
+{
+"i": 73,
+"t": "00:04:55,460 --> 00:05:01,120",
+"fr": "Non, la médecine n'a pas encore reçu cette mise à jour Bluetooth !"
+},
+{
+"i": 74,
+"t": "00:05:01,930 --> 00:05:03,840",
+"fr": "Le bilan concerne le couple,"
+},
+{
+"i": 75,
+"t": "00:05:03,940 --> 00:05:08,660",
+"fr": "et l'âge ainsi que le bon timing comptent tout autant. D'ailleurs,"
+},
+{
+"i": 76,
+"t": "00:05:08,820 --> 00:05:14,320",
+"fr": "chez les femmes qui ovulent déjà comme une horloge suisse avec une infertilité"
+},
+{
+"i": 77,
+"t": "00:05:14,360 --> 00:05:15,240",
+"fr": "inexpliquée,"
+},
+{
+"i": 78,
+"t": "00:05:15,630 --> 00:05:21,060",
+"fr": "donner uniquement du clomifène en disant « Mettez une alarme sur le téléphone,"
+},
+{
+"i": 79,
+"t": "00:05:21,380 --> 00:05:27,240",
+"fr": "ce soir il y a des heures sup' » n'a pas démontré de bénéfice sur les chances de"
+},
+{
+"i": 80,
+"t": "00:05:27,280 --> 00:05:30,100",
+"fr": "grossesse. Quand l'usine tourne déjà,"
+},
+{
+"i": 81,
+"t": "00:05:30,340 --> 00:05:34,980",
+"fr": "inutile de secouer le directeur toutes les cinq minutes."
+},
+{
+"i": 82,
+"t": "00:05:35,600 --> 00:05:40,180",
+"fr": "Stimuler pour faire une insémination, ça, c'est une autre histoire."
+},
+{
+"i": 83,
+"t": "00:05:40,620 --> 00:05:43,280",
+"fr": "Alors, on essaie pendant combien de mois ?"
+},
+{
+"i": 84,
+"t": "00:05:43,320 --> 00:05:49,160",
+"fr": "La notice française fixe un maximum de six cycles de traitement."
+},
+{
+"i": 85,
+"t": "00:05:49,200 --> 00:05:51,380",
+"fr": "Mais attention : ce chiffre six,"
+},
+{
+"i": 86,
+"t": "00:05:51,660 --> 00:05:55,240",
+"fr": "ce n'est pas une carte de fidélité « 5 cafés achetés,"
+},
+{
+"i": 87,
+"t": "00:05:55,360 --> 00:05:59,840",
+"fr": "le 6e offert » qu'il faut absolument tamponner jusqu'au bout !"
+},
+{
+"i": 88,
+"t": "00:05:59,980 --> 00:06:03,520",
+"fr": "Si trois cures, à la posologie prévue,"
+},
+{
+"i": 89,
+"t": "00:06:03,560 --> 00:06:06,860",
+"fr": "n'ont pas permis d'obtenir une ovulation,"
+},
+{
+"i": 90,
+"t": "00:06:07,320 --> 00:06:10,300",
+"fr": "on considère l'essai comme terminé."
+},
+{
+"i": 91,
+"t": "00:06:10,340 --> 00:06:15,540",
+"fr": "Et si l'ovulation a lieu sans grossesse après plusieurs essais,"
+},
+{
+"i": 92,
+"t": "00:06:15,600 --> 00:06:20,740",
+"fr": "on revoit le bilan et la stratégie, parfois plus tôt. Les injections,"
+},
+{
+"i": 93,
+"t": "00:06:21,220 --> 00:06:26,940",
+"fr": "l'insémination ou la FIV ne sont pas les niveaux d'un jeu de vidéo qu'il faut"
+},
+{
+"i": 94,
+"t": "00:06:26,980 --> 00:06:30,020",
+"fr": "franchir un par un dans l'ordre ;"
+},
+{
+"i": 95,
+"t": "00:06:30,300 --> 00:06:33,240",
+"fr": "on prend la route adaptée à votre couple."
+},
+{
+"i": 96,
+"t": "00:06:33,280 --> 00:06:36,120",
+"fr": "Et une phrase qui revient souvent :"
+},
+{
+"i": 97,
+"t": "00:06:36,420 --> 00:06:41,620",
+"fr": "« Il me restait trois comprimés au fond de la boîte du mois dernier,"
+},
+{
+"i": 98,
+"t": "00:06:41,920 --> 00:06:46,020",
+"fr": "c'était dommage de gaspiller, alors je les ai avalés. »"
+},
+{
+"i": 99,
+"t": "00:06:46,100 --> 00:06:51,160",
+"fr": "Mais enfin, ce n'est pas un demi-citron oublié dans la porte du frigo !"
+},
+{
+"i": 100,
+"t": "00:06:51,560 --> 00:06:56,720",
+"fr": "Avoir des comprimés qui traînent n'est pas une indication médicale."
+},
+{
+"i": 101,
+"t": "00:06:56,900 --> 00:06:59,620",
+"fr": "Un vrai suivi se fait à l'échographie,"
+},
+{
+"i": 102,
+"t": "00:06:59,660 --> 00:07:02,580",
+"fr": "pour surveiller les follicules et l'endomètre,"
+},
+{
+"i": 103,
+"t": "00:07:02,620 --> 00:07:08,280",
+"fr": "et des dosages hormonaux peuvent aider à évaluer l'ovulation."
+},
+{
+"i": 104,
+"t": "00:07:08,440 --> 00:07:13,140",
+"fr": "Parce que le clomifène a parfois un humour particulier :"
+},
+{
+"i": 105,
+"t": "00:07:13,740 --> 00:07:19,680",
+"fr": "en bloquant les récepteurs d'œstrogènes, il peut amincir la muqueuse utérine —"
+},
+{
+"i": 106,
+"t": "00:07:19,720 --> 00:07:23,180",
+"fr": "l'endomètre — là où le bébé doit s'installer."
+},
+{
+"i": 107,
+"t": "00:07:23,220 --> 00:07:27,540",
+"fr": "C'est comme insister auprès de vos invités : « Mais si,"
+},
+{
+"i": 108,
+"t": "00:07:27,580 --> 00:07:29,680",
+"fr": "restez dormir à la maison ce soir ! »,"
+},
+{
+"i": 109,
+"t": "00:07:29,720 --> 00:07:33,840",
+"fr": "et pendant qu'ils enlèvent leurs chaussures dans l'entrée,"
+},
+{
+"i": 110,
+"t": "00:07:33,940 --> 00:07:35,540",
+"fr": "vous vendez tous les lits."
+},
+{
+"i": 111,
+"t": "00:07:35,600 --> 00:07:39,380",
+"fr": "Ou à l'inverse, plusieurs follicules s'emballent en même temps,"
+},
+{
+"i": 112,
+"t": "00:07:39,420 --> 00:07:42,480",
+"fr": "et bonjour le risque de grossesse multiple."
+},
+{
+"i": 113,
+"t": "00:07:42,940 --> 00:07:46,820",
+"fr": "Maintenant, deux minutes sans humour pour la sécurité."
+},
+{
+"i": 114,
+"t": "00:07:46,860 --> 00:07:48,260",
+"fr": "Bouffées de chaleur,"
+},
+{
+"i": 115,
+"t": "00:07:48,340 --> 00:07:54,220",
+"fr": "maux de tête ou inconfort abdominal font partie des effets indésirables"
+},
+{
+"i": 116,
+"t": "00:07:54,260 --> 00:07:59,140",
+"fr": "possibles. En revanche : vision floue, flashs lumineux,"
+},
+{
+"i": 117,
+"t": "00:07:59,200 --> 00:08:04,520",
+"fr": "taches devant les yeux ou tout autre trouble visuel inhabituel..."
+},
+{
+"i": 118,
+"t": "00:08:04,660 --> 00:08:08,020",
+"fr": "ne vous dites jamais « C'est juste une baisse de tension »."
+},
+{
+"i": 119,
+"t": "00:08:08,220 --> 00:08:12,180",
+"fr": "Arrêtez le traitement et contactez rapidement votre médecin."
+},
+{
+"i": 120,
+"t": "00:08:12,380 --> 00:08:16,160",
+"fr": "Un examen ophtalmologique complet est nécessaire ;"
+},
+{
+"i": 121,
+"t": "00:08:16,860 --> 00:08:20,540",
+"fr": "si aucune autre cause n'explique ces troubles,"
+},
+{
+"i": 122,
+"t": "00:08:20,840 --> 00:08:24,640",
+"fr": "le clomifène doit être arrêté définitivement."
+},
+{
+"i": 123,
+"t": "00:08:24,680 --> 00:08:27,080",
+"fr": "Ne le reprenez pas de vous-même."
+},
+{
+"i": 124,
+"t": "00:08:27,340 --> 00:08:31,500",
+"fr": "Même chose en cas de douleur abdominale intense,"
+},
+{
+"i": 125,
+"t": "00:08:31,560 --> 00:08:37,060",
+"fr": "de gonflement rapide du ventre ou d'essoufflement : c'est une urgence médicale,"
+},
+{
+"i": 126,
+"t": "00:08:37,160 --> 00:08:39,540",
+"fr": "n'attendez pas votre prochain rendez-vous."
+},
+{
+"i": 127,
+"t": "00:08:39,720 --> 00:08:42,420",
+"fr": "Et bien sûr, avant chaque nouvelle cure,"
+},
+{
+"i": 128,
+"t": "00:08:42,720 --> 00:08:46,160",
+"fr": "on vérifie qu'une grossesse n'a pas déjà commencé."
+},
+{
+"i": 129,
+"t": "00:08:46,860 --> 00:08:51,600",
+"fr": "Si ça n'a pas marché avec le Clomid, ce n'est pas votre faute."
+},
+{
+"i": 130,
+"t": "00:08:52,120 --> 00:08:54,060",
+"fr": "Lors de votre prochaine consultation,"
+},
+{
+"i": 131,
+"t": "00:08:54,460 --> 00:08:58,440",
+"fr": "posez simplement ces trois questions à votre médecin :"
+},
+{
+"i": 132,
+"t": "00:08:58,860 --> 00:09:01,740",
+"fr": "« Est-ce que j'ai vraiment ovulé ? »"
+},
+{
+"i": 133,
+"t": "00:09:01,780 --> 00:09:05,200",
+"fr": "« Quels autres paramètres avons-nous vérifiés ? »"
+},
+{
+"i": 134,
+"t": "00:09:05,240 --> 00:09:08,080",
+"fr": "« À quel moment passe-t-on au plan B ? »"
+},
+{
+"i": 135,
+"t": "00:09:08,120 --> 00:09:13,780",
+"fr": "Ce n'est pas le calendrier sur le frigo qui doit décider d'ouvrir une"
+},
+{
+"i": 136,
+"t": "00:09:13,820 --> 00:09:16,960",
+"fr": "nouvelle boîte, mais les réponses à ces trois questions."
+},
+{
+"i": 137,
+"t": "00:09:17,200 --> 00:09:21,920",
+"fr": "Ces informations ne remplacent pas une consultation médicale."
+},
+{
+"i": 138,
+"t": "00:09:22,020 --> 00:09:24,340",
+"fr": "Toujours pas. Le médicament,"
+},
+{
+"i": 139,
+"t": "00:09:24,380 --> 00:09:29,720",
+"fr": "la dose et la durée du traitement se décident avec le médecin qui vous suit."
+},
+{
+"i": 140,
+"t": "00:09:29,900 --> 00:09:30,700",
+"fr": "Allez, ciao !"
+}
+]

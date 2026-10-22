@@ -58,6 +58,34 @@ def cmd_list(yt, max_count: int, out: str | None) -> None:
         print(f"wrote: {write_json(out, videos)}")
 
 
+def cmd_scheduled(yt, max_count: int, out: str | None) -> None:
+    """Read-only: non-public (private/unlisted/scheduled) videos among the latest uploads, with status.publishAt."""
+    ch = yt.channels().list(part="contentDetails", mine=True).execute()["items"][0]
+    uploads = ch["contentDetails"]["relatedPlaylists"]["uploads"]
+    ids: list[str] = []
+    page = None
+    while len(ids) < max_count:
+        resp = yt.playlistItems().list(part="contentDetails", playlistId=uploads,
+                                       maxResults=min(50, max_count - len(ids)), pageToken=page).execute()
+        ids += [i["contentDetails"]["videoId"] for i in resp.get("items", [])]
+        page = resp.get("nextPageToken")
+        if not page:
+            break
+    rows: list[dict[str, Any]] = []
+    for k in range(0, len(ids), 50):
+        for v in yt.videos().list(part="snippet,status", id=",".join(ids[k:k + 50])).execute().get("items", []):
+            st = v["status"]
+            if st.get("privacyStatus") != "public" or st.get("publishAt"):
+                rows.append({"videoId": v["id"], "title": v["snippet"]["title"],
+                             "privacyStatus": st.get("privacyStatus"), "publishAt": st.get("publishAt")})
+    rows.sort(key=lambda r: r["publishAt"] or "")
+    for r in rows:
+        print(f"{r['videoId']}  {r['privacyStatus']}  publishAt={r['publishAt']}  {r['title']}")
+    print(f"non-public among latest {len(ids)}: {len(rows)}")
+    if out:
+        print(f"wrote: {write_json(out, rows)}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--channel", required=True, choices=["fr", "tr", "en"])
@@ -67,6 +95,9 @@ def main() -> None:
     p = sub.add_parser("list")
     p.add_argument("--max", type=int, default=25)
     p.add_argument("--out")
+    p = sub.add_parser("scheduled")
+    p.add_argument("--max", type=int, default=200)
+    p.add_argument("--out")
     args = ap.parse_args()
 
     yt = get_service(args.channel)
@@ -74,6 +105,8 @@ def main() -> None:
         cmd_whoami(yt, args.channel, args.out)
     elif args.cmd == "list":
         cmd_list(yt, args.max, args.out)
+    elif args.cmd == "scheduled":
+        cmd_scheduled(yt, args.max, args.out)
 
 
 if __name__ == "__main__":
