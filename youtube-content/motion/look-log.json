@@ -93,5 +93,35 @@
     ],
     "seed": 14314,
     "stamp_flip": false
+  },
+  {
+    "project": "2026-10-21-clomid-humour-fr-recut",
+    "lang": "fr",
+    "date": "2026-10-22",
+    "series": "questions",
+    "papers": [
+      "cizgili"
+    ],
+    "first_graphic": "question-A",
+    "layouts": [
+      "question-A",
+      "promesse-B",
+      "flux-A",
+      "schema-A",
+      "verdict-B",
+      "arbre-A",
+      "retenir-A",
+      "verdict-A",
+      "chiffre-C",
+      "chiffre-A",
+      "barres-A"
+    ],
+    "pen_marks": [
+      "wide-strike-01",
+      "wide-strike-02",
+      "underline-01"
+    ],
+    "stamp_flip": true,
+    "seed": 68304
   }
 ]
