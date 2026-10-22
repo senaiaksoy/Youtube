@@ -1,0 +1,89 @@
+{
+  "kind": "youtube#video",
+  "etag": "GAJgPCmKmWQM2ivYRRghGu5pIcA",
+  "id": "zzz5CvVolCY",
+  "snippet": {
+    "publishedAt": "2024-09-04T13:32:26Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "Une seule trompe ? Pas de panique, bébé arrive quand même !",
+    "description": "Une seule trompe ? Pas de panique, bébé arrive quand même ! Le Dr Aksoy, spécialiste FIV, vous explique avec humour comment réaliser votre rêve de parentalité même avec une seule trompe.\n\n▶ Vidéo complète : https://youtu.be/6E59NQslyiQ\n\n#infertilité #FIV #grossesse #une_seule_trompe #espoir #bébé #conseils_médicaux #Dr_Aksoy #science #témoignages",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zzz5CvVolCY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zzz5CvVolCY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zzz5CvVolCY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/zzz5CvVolCY/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/zzz5CvVolCY/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "tags": [
+      "infertilité",
+      "FIV",
+      "grossesse",
+      "une seule trompe",
+      "bébé",
+      "espoir",
+      "conseils médicaux",
+      "Dr Aksoy",
+      "tomber enceinte",
+      "concevoir",
+      "solutions",
+      "traitement",
+      "médecine reproductive",
+      "parcours PMA",
+      "famille",
+      "rêve",
+      "maternité",
+      "paternité"
+    ],
+    "categoryId": "28",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "Une seule trompe ? Pas de panique, bébé arrive quand même !",
+      "description": "Une seule trompe ? Pas de panique, bébé arrive quand même ! Le Dr Aksoy, spécialiste FIV, vous explique avec humour comment réaliser votre rêve de parentalité même avec une seule trompe.\n\n▶ Vidéo complète : https://youtu.be/6E59NQslyiQ\n\n#infertilité #FIV #grossesse #une_seule_trompe #espoir #bébé #conseils_médicaux #Dr_Aksoy #science #témoignages"
+    },
+    "defaultAudioLanguage": "fr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "1481",
+    "likeCount": "23",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "7"
+  },
+  "localizations": {
+    "fr": {
+      "title": "Une seule trompe ? Pas de panique, bébé arrive quand même !",
+      "description": "Une seule trompe ? Pas de panique, bébé arrive quand même ! Le Dr Aksoy, spécialiste FIV, vous explique avec humour comment réaliser votre rêve de parentalité même avec une seule trompe.\n\n▶ Vidéo complète : https://youtu.be/6E59NQslyiQ\n\n#infertilité #FIV #grossesse #une_seule_trompe #espoir #bébé #conseils_médicaux #Dr_Aksoy #science #témoignages"
+    }
+  }
+}
