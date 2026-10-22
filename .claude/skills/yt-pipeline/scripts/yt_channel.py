@@ -86,6 +86,32 @@ def cmd_scheduled(yt, max_count: int, out: str | None) -> None:
         print(f"wrote: {write_json(out, rows)}")
 
 
+def cmd_inventory(yt, out: str) -> None:
+    """Read-only: every upload with date, duration, views/likes, privacy, tags and description (for validity reviews)."""
+    ch = yt.channels().list(part="contentDetails", mine=True).execute()["items"][0]
+    uploads = ch["contentDetails"]["relatedPlaylists"]["uploads"]
+    ids: list[str] = []
+    page = None
+    while True:
+        resp = yt.playlistItems().list(part="contentDetails", playlistId=uploads, maxResults=50, pageToken=page).execute()
+        ids += [i["contentDetails"]["videoId"] for i in resp.get("items", [])]
+        page = resp.get("nextPageToken")
+        if not page:
+            break
+    rows: list[dict[str, Any]] = []
+    for k in range(0, len(ids), 50):
+        resp = yt.videos().list(part="snippet,status,statistics,contentDetails", id=",".join(ids[k:k + 50])).execute()
+        for v in resp.get("items", []):
+            sn, st, ss = v["snippet"], v["status"], v.get("statistics", {})
+            rows.append({"videoId": v["id"], "title": sn["title"], "publishedAt": sn.get("publishedAt"),
+                         "duration": v["contentDetails"].get("duration"), "views": int(ss.get("viewCount", 0)),
+                         "likes": int(ss.get("likeCount", 0)), "comments": int(ss.get("commentCount", 0)),
+                         "privacyStatus": st.get("privacyStatus"), "publishAt": st.get("publishAt"),
+                         "tags": sn.get("tags", []), "description": sn.get("description", "")})
+    rows.sort(key=lambda r: r["publishedAt"] or "")
+    print(f"inventory: {len(rows)} videos -> {write_json(out, rows)}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--channel", required=True, choices=["fr", "tr", "en"])
@@ -98,6 +124,8 @@ def main() -> None:
     p = sub.add_parser("scheduled")
     p.add_argument("--max", type=int, default=200)
     p.add_argument("--out")
+    p = sub.add_parser("inventory")
+    p.add_argument("--out", required=True)
     args = ap.parse_args()
 
     yt = get_service(args.channel)
@@ -105,6 +133,8 @@ def main() -> None:
         cmd_whoami(yt, args.channel, args.out)
     elif args.cmd == "list":
         cmd_list(yt, args.max, args.out)
+    elif args.cmd == "inventory":
+        cmd_inventory(yt, args.out)
     elif args.cmd == "scheduled":
         cmd_scheduled(yt, args.max, args.out)
 
