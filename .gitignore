@@ -140,3 +140,6 @@ youtube-content/**/*.woff2
 
 # local preview config (points at another repo)
 .claude/launch.json
+
+# Higgsfield taban görselleri (4 MB PNG, yeniden üretilebilir)
+DrAksoyFertility/thumb-test-*/base-*.png
