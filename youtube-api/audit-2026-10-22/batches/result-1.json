@@ -1,0 +1,79 @@
+[
+  {
+    "id": "xLYbedt7YRk",
+    "date": "2023-12-25",
+    "views": 6115,
+    "title": "Varicocèle : Faut-il se faire opérer ?",
+    "reason": "C",
+    "confidence": "medium",
+    "evidence": "Grade 1: visible seulement à l'échographie... Grade 3: le traitement chirurgical est généralement recommandé... La chirurgie peut aider à améliorer la production de sperme",
+    "note": "Aynı soruyu ele alan 2025-02 (avUgjYXnKwc) ve 2026-05-19 FR videoları cerrahinin doğurganlığı artırdığına dair güçlü kanıt olmadığını söylüyor; bu eski video grade 3 için cerrahiyi öneriyor ve derece tanımları da klinik sınıflamayla uyuşmuyor, çelişki yaratıyor.",
+    "superseded_by": "avUgjYXnKwc (Varicocèle et fertilité : Le traitement peut-il vraiment tout changer ?) ve 2026-05-19 'Varicocèle et Fertilité : Opération ou FIV ? Le Vrai Choix pour Devenir Papa'"
+  },
+  {
+    "id": "dkh9iuExaBs",
+    "date": "2023-11-16",
+    "views": 10641,
+    "title": "Combien d'embryons transférer en FIV ?",
+    "reason": "C",
+    "confidence": "medium",
+    "evidence": "En Turquie, la pratique la plus courante est de transférer un maximum de deux embryons... maximiser vos chances de réussite",
+    "note": "Aynı soruyu daha dengeli (yaş, embriyon kalitesi, ikiz riski, güvenlik) ele alan 2024 tarihli bir FR video var; bu eski video 'en fazla iki embriyo' normunu öne çıkarıyor ve kanalın tek embriyo transferi vurgusuyla çelişiyor.",
+    "superseded_by": "LKbz1ylIAvE (Combien d'embryons transférer ? Réponse rapide)"
+  },
+  {
+    "id": "y1Vtgq3pAzs",
+    "date": "2023-12-19",
+    "views": 363,
+    "title": "Understanding Varicocele and Its Impact on Male Fertility",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "Discover why grade 3 varicocele needs more attention and how treatments vary depending on the grade... effectiveness of varicocelectomy",
+    "note": "Varikoselde cerrahinin doğurganlığı artırdığı ima ediliyor; kanalın güncel FR videoları bu konuda güçlü kanıt olmadığını söylüyor, ancak açıklama ince olduğu için kesin değil.",
+    "superseded_by": ""
+  },
+  {
+    "id": "dt6Jx532Ss4",
+    "date": "2023-12-22",
+    "views": 636,
+    "title": "Varikosel: Ameliyat şart mı?",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "3. derece varikoselde varikoselektominin gebelik şansını artırabileceğini göstermektedir; 3. derecede ameliyat genellikle önerilir",
+    "note": "Cerrahinin gebelik şansını artırdığı vurgusu, kanalın 2025-2026 FR videolarındaki daha temkinli duruşla (kesin kanıt yok) çelişiyor; dil ayrı sorunsa da iddia nedeniyle gözden geçirilebilir.",
+    "superseded_by": ""
+  },
+  {
+    "id": "67Ds5J0hkU0",
+    "date": "2023-12-22",
+    "views": 506,
+    "title": "Beating Azospermia: Hopeful Sperm Retrieval Techniques with TESA & Micro-TESE",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "TESA and Micro-TESE offer a light at the end of the tunnel... maximizing the chance of retrieving mature sperm (50%!)... The future is bright!",
+    "note": "NOA için TESA'yı umut verici seçenek gibi sunuyor ve '%50!' vurgusuyla abartılı bir ton var; 2025 tarihli daha dengeli FR azospermi videosu (YfOz7V4dqYs) bu konuyu kapsıyor.",
+    "superseded_by": ""
+  },
+  {
+    "id": "zuac3FZgd54",
+    "date": "2023-12-24",
+    "views": 490,
+    "title": "TESA ve Mikro-TESE ile Azospermi Tedavisi: Yeni Sırlar Ortaya Çıkıyor",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "toplanan spermler daha sonra kullanılmak üzere dondurularak her zaman korunamaz; başlık: 'Yeni Sırlar Ortaya Çıkıyor'",
+    "note": "Başlık sansasyonel, açıklamadaki dondurulmuş testis spermi kullanımına dair ifade güncel pratikle tam örtüşmeyebilir; 2025 FR azospermi videosu daha dengeli.",
+    "superseded_by": ""
+  },
+  {
+    "id": "dbZO4xzHLWE",
+    "date": "2013-08-26",
+    "views": 2222,
+    "title": "Dr. Senai Aksoy \"NTV'ye Sorun\" programına konuk oldu",
+    "reason": "A",
+    "confidence": "low",
+    "evidence": "OECD verileriyle belirlenen Türkiye'de sezaryenle doğum oranını değerlendirdi",
+    "note": "2013 yılına ait OECD verisi ve Türkiye sezaryen oranı tartışması güncelliğini yitirmiş olabilir ve kanalın FR hedef kitlesiyle ilgisi yok; tamamen zamana bağlı bir TV kaydı.",
+    "superseded_by": ""
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "vDgOZFu3oI8",
+    "date": "2025-01-23",
+    "views": 4227,
+    "title": "Endométrite chronique : réussir sa FIV après traitement",
+    "reason": "B",
+    "confidence": "high",
+    "evidence": "\"Comment doubler vos chances de réussite en PMA grâce à la science\"; \"jusqu'à 60% des femmes ayant des échecs répétés\"; \"Les traitements efficaces : antibiotiques, injections intra-utérines\"",
+    "note": "Açıklama, kronik endometrit tedavisinin FIV şansını 'ikiye katladığını' ve intrauterin enjeksiyonların etkili olduğunu ima ediyor; kanıt çoğunlukla gözlemsel ve 2026 add-on videolarındaki temkinli duruşla (ERA, scratching, intralipid) uyuşmuyor.",
+    "superseded_by": ""
+  },
+  {
+    "id": "ZSMmAxF53-w",
+    "date": "2025-01-02",
+    "views": 6490,
+    "title": "Progestérone et fausse couche : ce que l'on sait",
+    "reason": "B",
+    "confidence": "medium",
+    "evidence": "\"Les dernières études sont formelles : ... risque de fausse couche de près de 27% à moins de 19% ! C'est une différence énorme\"; \"commencer tôt est la clé du succès\"",
+    "note": "Progesteron faydası 'kesin' ve 'çok büyük' diye sunuluyor; PRISM çalışması genel popülasyonda canlı doğumu artırmadı, fayda yalnızca tekrarlayan düşük/kanama alt gruplarında görüldü, bu yüzden iddia abartılı olabilir.",
+    "superseded_by": ""
+  },
+  {
+    "id": "Drja5i6X87w",
+    "date": "2025-01-14",
+    "views": 1378,
+    "title": "PRP Ovarien : Une nouvelle solution pour l'insuffisance ovarienne ?",
+    "reason": "B",
+    "confidence": "medium",
+    "evidence": "\"traitement révolutionnaire pour booster la fertilité\"; \"PRP + cellules souches : double effet ou simple gadget ?\"",
+    "note": "Yumurtalık PRP'si 'devrim niteliğinde' bir tedavi olarak çerçeveleniyor; kanıt hâlâ zayıf ve açıklamadaki ton Dr. Aksoy'un 2026'daki add-on şüpheciliğiyle çelişebilir (içerik sesten doğrulanmadı).",
+    "superseded_by": ""
+  },
+  {
+    "id": "SbX-06LEOe8",
+    "date": "2024-10-24",
+    "views": 1075,
+    "title": "Peut-on Choisir Le Sexe de Son Bébé ? Mythes et Réalités",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "\"c'est possible grâce aux avancées de la médecine moderne, en particulier la FIV avec diagnostic pré-implantatoire\"; coûts élevés, lois strictes, assurance non remboursée",
+    "note": "Cinsiyet seçimi PGT ile 'mümkün' diye anlatılıyor ve maliyet/yasa/sigorta gibi zamana ve ülkeye bağlı bilgiler içeriyor; ancak açıklama genel olarak mitleri de çürütüyor, bu yüzden düşük güvenle işaretlendi.",
+    "superseded_by": ""
+  },
+  {
+    "id": "GY1nAhug7MY",
+    "date": "2025-01-08",
+    "views": 378,
+    "title": "Téléphone Portable et Qualité du Sperme",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "\"Ondes, chaleur et stress oxydatif ... ADN fragmenté\"; \"éloignez votre téléphone, adoptez des oreillettes, et boostez vos antioxydants\"",
+    "note": "Cep telefonu radyasyonunun spermi bozduğu ve antioksidanların bunu düzelttiği ima ediliyor; kanıt zayıf/tartışmalı, yalnızca açıklamaya dayanarak düşük güvenle işaretlendi.",
+    "superseded_by": ""
+  },
+  {
+    "id": "rXMkinJxqLA",
+    "date": "2025-01-11",
+    "views": 359,
+    "title": "L'Ovulation Fantôme : Le Mystère du Follicule Non Rompu (LUF)",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "\"Comment détecter ce trouble invisible ? Quelles solutions pour débloquer la situation ?\"",
+    "note": "LUF sendromu tartışmalı bir tanı olup bağımsız bir infertilite nedeni olarak kanıtı zayıf; video onu net bir bozukluk ve tedavisi olan bir durum gibi sunuyor olabilir.",
+    "superseded_by": ""
+  },
+  {
+    "id": "EVWaUPA-jpM",
+    "date": "2024-08-28",
+    "views": 2539,
+    "title": "Échec FIV : comprendre l'échec d'implantation",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "\"Les dernières avancées dans le diagnostic des échecs d'implantation\"; \"Des stratégies concrètes pour améliorer la réceptivité utérine\"",
+    "note": "Rahim alıcılığını 'iyileştirme' stratejileri ve 'son tanı gelişmeleri' ERA, scratching, intralipid gibi 2026'da sorgulanan add-on'lara işaret ediyor olabilir; açıklama belirsiz olduğu için düşük güvenle işaretlendi.",
+    "superseded_by": "2026-04-17 Test ERA en FIV : utile ou dépassé ? / 2026-03-05 Scratching de l'endomètre avant FIV / 2026-02-24 Intralipides et FIV"
+  },
+  {
+    "id": "OupBw9a-KsY",
+    "date": "2025-02-18",
+    "views": 18019,
+    "title": "FIV en Turquie : prix, séjour et résultats",
+    "reason": "A",
+    "confidence": "low",
+    "evidence": "Title promises \"prix\"; chapters \"Avant le voyage : examens et visa\", \"Hébergement et déplacements à Istanbul\", \"8:02 Vos questions : durée, coût\"",
+    "note": "Başlıkta fiyat var ve vize/konaklama/süre gibi zamanla değişen lojistik bilgiler anlatılıyor; sesteki rakamlar açıklamadan doğrulanamadı, güncelliği kontrol edilmeli (2026-06-29 FIV à l'étranger videosu daha güncel bakış sunuyor).",
+    "superseded_by": "FIV à l'étranger : Pourquoi commencer par le dossier (et non la valise) ? (2026-06-29)"
+  },
+  {
+    "id": "avUgjYXnKwc",
+    "date": "2025-02-13",
+    "views": 6266,
+    "title": "Varicocèle et fertilité : Le traitement peut-il vraiment tout changer ?",
+    "reason": "C",
+    "confidence": "low",
+    "evidence": "\"il n'existe pas encore de preuve solide que cela améliore la fertilité\"",
+    "note": "Aynı soruyu (varikosel ameliyatı mı FIV mi) 2026'daki yeni FR video daha güncel ele alıyor; eski video onunla çelişebilir veya bir şey eklemiyor olabilir, ancak içerik sesten doğrulanmadı.",
+    "superseded_by": "Varicocèle et Fertilité : Opération ou FIV ? Le Vrai Choix pour Devenir Papa (2026-05-19)"
+  }
+]

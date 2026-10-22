@@ -1,0 +1,57 @@
+[
+  {
+    "id": "7p36ZQugkTM",
+    "date": "2025-10-27",
+    "views": 340,
+    "title": "STOP à la Galère : Les 7 Ans Perdus! Diagnostic de l'Endométriose en 2025",
+    "reason": "A",
+    "confidence": "high",
+    "evidence": "\"Mises à Jour 2025 sur le diagnostic de l'Endométriose\"; \"Endotest par IA, remboursé!\"; \"code ANCIANE\"; \"7 ans de galère, c'est FINI!\"",
+    "note": "Başlık ve açıklama 2025 yılına bağlı 'güncel' iddia ve Endotest'in 'geri ödemeli' olduğu gibi zamana ve ülkeye bağlı, doğrulanmamış bir iddia içeriyor; yıl geçti, 'sorun bitti' vaadi de abartılı.",
+    "superseded_by": ""
+  },
+  {
+    "id": "pNClvs335IA",
+    "date": "2025-11-03",
+    "views": 545,
+    "title": "Endométriose : Le Point Diagnostic 2025",
+    "reason": "A",
+    "confidence": "high",
+    "evidence": "\"Le diagnostic de l'endométriose change en 2025 ! Découvrez le nouveau test salivaire (Endotest®) et les protocoles IRM qui évitent la chirurgie.\"",
+    "note": "Yıl damgalı 'yeni test' iddiası; Endotest'i cerrahiyi önleyen yeni çözüm gibi sunuyor, 2025 geçtiği için güncelliğini yitirmiş ve kanıt düzeyi tartışmalı olabilir (7p36ZQugkTM'nin kısa versiyonu).",
+    "superseded_by": ""
+  },
+  {
+    "id": "1YDpZhGIvBQ",
+    "date": "2025-07-02",
+    "views": 1004,
+    "title": "Traitements Naturels Africains contre l'Infertilité",
+    "reason": "B",
+    "confidence": "medium",
+    "evidence": "\"découvrez ce que la science moderne commence à valider\"; \"Nigelle : validée par la science\"; \"Peut-on vraiment booster sa fertilité sans chimie ?\"",
+    "note": "Bitkisel ürünleri (nigella vb.) 'bilimle doğrulanmış' ve 'kimyasız doğurganlık artırma' diye sunan açıklama, kanıt düzeyiyle çelişebilir; Dr. Aksoy videodaki gerçek ifadeleri kontrol etmeli.",
+    "superseded_by": ""
+  },
+  {
+    "id": "6HjkbpTqorQ",
+    "date": "2025-11-25",
+    "views": 536,
+    "title": "Microbiote et FIV : faut-il tester avant transfert ?",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "\"Données 2025 : succès divisé par deux\"; \"Tester – Traiter – Reconstruire\"; \"Probiotiques ciblés\"; \"Pas de transfert dans un couloir en feu\"",
+    "note": "Transfer öncesi mikrobiyota testi ve probiyotik tedavisini bir strateji gibi sunuyor; bu uygulamanın kanıtı sınırlı, 2026'da konuya daha temkinli yaklaşılmış olabilir (emin değilim, düşük güven).",
+    "superseded_by": ""
+  },
+  {
+    "id": "jGknByFWTUM",
+    "date": "2025-04-09",
+    "views": 437,
+    "title": "Échec de la FIV : Que faire quand la cigogne rate son vol ?",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "Tags: \"test ERA, DPI, diagnostic préimplantatoire, fenêtre d'implantation\"; desc: \"transformer la frustration en plan d'action\"",
+    "note": "Başarısız FIV sonrası 'ne yapmalı' videosunda ERA testi ve PGT etiketleri var; ERA 2026'da 'faydalı mı, miyadı doldu mu' diye yeniden değerlendirildi (2026-04-17 videosu), eski videoda ERA'yı çözüm gibi sunmuş olabilir. Açıklama yetersiz, düşük güven.",
+    "superseded_by": "Test ERA en FIV : utile ou dépassé ? (2026-04-17)"
+  }
+]

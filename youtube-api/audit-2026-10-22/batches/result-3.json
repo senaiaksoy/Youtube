@@ -1,0 +1,46 @@
+[
+  {
+    "id": "UopPTX_LAt0",
+    "date": "2024-07-02",
+    "views": 7442,
+    "title": "Les jumeaux : rêve ou CAUCHEMAR ? Un gynéco balance tout !",
+    "reason": "A",
+    "confidence": "medium",
+    "evidence": "\"Pour plus d'infos et des consultations gratuites, visitez notre site : www.draksoyivf.com\"",
+    "note": "Açıklamada 'ücretsiz konsültasyon' vaadi var; bu teklif zamana/klinik politikasına bağlı ve artık geçerli olmayabilir, doğrulanmadıysa listelenmemiş yapmayı düşünün.",
+    "superseded_by": ""
+  },
+  {
+    "id": "U0xfBLHOHac",
+    "date": "2024-03-20",
+    "views": 64,
+    "title": "Hormones VS Médecine Alternative : Quel est le Meilleur Traitement pour l'Endométriose ?",
+    "reason": "B",
+    "confidence": "medium",
+    "evidence": "\"approches de médecine alternative qui offrent de nouvelles perspectives pour gérer ces conditions\" / \"solutions innovantes\"",
+    "note": "Açıklama alternatif tıbbı endometriozis/infertilite için 'yeni perspektif' gibi sunuyor; kanıt desteği zayıf olabilir ve kanalın 2026 'Acupuncture et plantes en FIV: utile ou illusion ?' yaklaşımıyla çelişebilir, ses içeriği kontrol edilmeli.",
+    "superseded_by": ""
+  },
+  {
+    "id": "kEp0gv26N_E",
+    "date": "2024-04-13",
+    "views": 3094,
+    "title": "Qu'est-ce qu'une Grossesse BioChimique ?",
+    "reason": "B",
+    "confidence": "low",
+    "evidence": "\"La grossesse chimique constitue environ 50 à 75% de tous les cas de fausses couches.\"",
+    "note": "Bu oran kaynaksız ve tartışmalı bir istatistik (biyokimyasal gebelik ile tüm düşüklerin oranı belirsiz); kesin rakam olarak verilmesi güncel kaynakla örtüşmeyebilir.",
+    "superseded_by": ""
+  },
+  {
+    "id": "8NyegxwgAFU",
+    "date": "2024-03-05",
+    "views": 91,
+    "title": "Mois d'Endométriose Partie 1: Symptômes et Diagnostic",
+    "reason": "A",
+    "confidence": "low",
+    "evidence": "Hashtags: \"#endofrance #macron ...\" ; \"Mois d'Endométriose\" campagne de mars 2024 (Partie 1 d'une série)",
+    "note": "Mart 2024 farkındalık ayı serisine ve #macron etiketiyle güncel siyasi bağlama bağlı; içerik büyük ölçüde evergreen olduğu için yalnızca düşük güvenle aday.",
+    "superseded_by": ""
+  }
+]
