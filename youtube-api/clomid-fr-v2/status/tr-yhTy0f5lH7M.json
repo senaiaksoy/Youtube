@@ -1,0 +1,80 @@
+{
+  "kind": "youtube#video",
+  "etag": "YjjSEcFv1EwbCzOSO7LK9kqoj5I",
+  "id": "yhTy0f5lH7M",
+  "snippet": {
+    "publishedAt": "2026-10-08T15:00:29Z",
+    "channelId": "UCbO5qpAnmaQPBJlGMM9ITiw",
+    "title": "DHEA: Gerçekten 28 araştırma mı var?",
+    "description": "Doç. Dr. Senai Aksoy'un tüp bebekte DHEA analizinden kısa bir bölüm. 2024 tarihli büyük derlemede (Cochrane) 28 kura usulü araştırma var; ama bunların 14'ü DHEA, 14'ü testosteron üzerine. İki farklı hormonun sonuçları birbirine aktarılamaz.\n\nTüm analiz: https://youtu.be/5EZWgWqJ8lc\n\nBilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerine geçmez.\n\n#DHEA #tüpbebek #yumurtarezervi #Shorts",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/yhTy0f5lH7M/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/yhTy0f5lH7M/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/yhTy0f5lH7M/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/yhTy0f5lH7M/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/yhTy0f5lH7M/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Doç. Dr. Senai Aksoy | Tüp Bebek & Kısırlık",
+    "tags": [
+      "Cochrane",
+      "DHEA",
+      "DHEA tüp bebek",
+      "Shorts",
+      "dr senai aksoy",
+      "kısırlık",
+      "testosteron",
+      "tüp bebek",
+      "yumurta rezervi"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "tr",
+    "localized": {
+      "title": "DHEA: Gerçekten 28 araştırma mı var?",
+      "description": "Doç. Dr. Senai Aksoy'un tüp bebekte DHEA analizinden kısa bir bölüm. 2024 tarihli büyük derlemede (Cochrane) 28 kura usulü araştırma var; ama bunların 14'ü DHEA, 14'ü testosteron üzerine. İki farklı hormonun sonuçları birbirine aktarılamaz.\n\nTüm analiz: https://youtu.be/5EZWgWqJ8lc\n\nBilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerine geçmez.\n\n#DHEA #tüpbebek #yumurtarezervi #Shorts"
+    },
+    "defaultAudioLanguage": "tr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "167",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "tr": {
+      "title": "DHEA: Gerçekten 28 araştırma mı var?",
+      "description": "Doç. Dr. Senai Aksoy'un tüp bebekte DHEA analizinden kısa bir bölüm. 2024 tarihli büyük derlemede (Cochrane) 28 kura usulü araştırma var; ama bunların 14'ü DHEA, 14'ü testosteron üzerine. İki farklı hormonun sonuçları birbirine aktarılamaz.\n\nTüm analiz: https://youtu.be/5EZWgWqJ8lc\n\nBilgilendirme amaçlıdır; bireysel tıbbi değerlendirmenin yerine geçmez.\n\n#DHEA #tüpbebek #yumurtarezervi #Shorts"
+    }
+  }
+}

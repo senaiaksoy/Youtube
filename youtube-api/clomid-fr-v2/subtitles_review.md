@@ -1,0 +1,134 @@
+# Altyazı inceleme raporu — 140 cue
+
+ASR (Whisper large-v3, v2 sesi) zamanları esas; metin onaylı scripte göre düzeltildi. Aşağıda ASR ile script arasındaki farklar var (düzeltme: ASR → script).
+
+- [00:00.5] remplacé: ASR « clomide, » → SCRIPT « Clomid, »
+- [00:07.3] remplacé: ASR « où » → SCRIPT « ou »
+- [00:13.9] remplacé: ASR « d 'abord » → SCRIPT « d'abord »
+- [00:16.2] remplacé: ASR « Est -ce » → SCRIPT « est-ce »
+- [00:20.3] REMPLACÉ (faible similarité): ASR « et » → SCRIPT « ou »
+- [00:31.4] remplacé: ASR « C 'est » → SCRIPT « C'est »
+- [00:45.6] remplacé: ASR « Senaya » → SCRIPT « Senai »
+- [00:46.6] remplacé: ASR « Aujourd 'hui, » → SCRIPT « Aujourd'hui, »
+- [01:07.1] remplacé: ASR « aimant sous » → SCRIPT « aimanté sur »
+- [01:10.3] remplacé: ASR « stylo » → SCRIPT « stabilo »
+- [01:20.7] remplacé: ASR « C 'est » → SCRIPT « c'est »
+- [01:25.2] remplacé: ASR « s 'active. » → SCRIPT « s'active: »
+- [01:26.7] remplacé: ASR « n 'a » → SCRIPT « n'a »
+- [01:28.7] remplacé: ASR « C 'est » → SCRIPT « c'est »
+- [01:41.6] remplacé: ASR « l 'écoute, » → SCRIPT « l'écoute, »
+- [01:44.5] remplacé: ASR « jusqu 'aux » → SCRIPT « jusqu'aux »
+- [01:51.6] remplacé: ASR « clomiphène, » → SCRIPT « clomifène, »
+- [01:56.9] remplacé: ASR « brûle » → SCRIPT « brouille »
+- [01:58.7] remplacé: ASR « d 'oestrogène. » → SCRIPT « d'œstrogènes; »
+- [02:00.8] script non prononcé (ignoré): « « Oh la vache, »
+- [02:01.7] remplacé: ASR « n 'y » → SCRIPT « n'y »
+- [02:02.4] remplacé: ASR « d 'oestrogène » → SCRIPT « d'œstrogènes »
+- [02:10.0] remplacé: ASR « L 'hormone » → SCRIPT « l'hormone »
+- [02:16.8] remplacé: ASR « l 'ovule, jusqu 'à l 'ovulation. » → SCRIPT « l'ovule, jusqu'à l'ovulation. »
+- [02:19.3] remplacé: ASR « passons » → SCRIPT « cassons »
+- [02:20.9] ajout oral (ASR conservé): « à »
+- [02:28.2] remplacé: ASR « l 'ovule. » → SCRIPT « l'ovule. »
+- [02:30.6] remplacé: ASR « d 'identité » → SCRIPT « d'identité »
+- [02:36.3] remplacé: ASR « de » → SCRIPT « du »
+- [02:39.9] REMPLACÉ (faible similarité): ASR « à un » → SCRIPT « en »
+- [02:44.2] remplacé: ASR « clomiphène » → SCRIPT « clomifène »
+- [02:47.1] remplacé: ASR « l 'ovule. » → SCRIPT « l'ovule; »
+- [02:52.0] remplacé: ASR « quelqu 'un » → SCRIPT « quelqu'un »
+- [02:55.8] remplacé: ASR « le comprimé et » → SCRIPT « les comprimés, mais »
+- [02:59.4] remplacé: ASR « d 'ouvrir » → SCRIPT « d'ouvrir »
+- [03:03.6] remplacé: ASR « l 'intérieur. » → SCRIPT « l'intérieur. »
+- [03:05.7] remplacé: ASR « polycystiques, » → SCRIPT « polykystiques (SOPK)? »
+- [03:11.3] remplacé: ASR « l 'orchestre » → SCRIPT « l'orchestre? »
+- [03:16.0] ajout oral (ASR conservé): « ou »
+- [03:22.6] remplacé: ASR « s 'est » → SCRIPT « s'est »
+- [03:25.7] remplacé: ASR « les disjoncteurs » → SCRIPT « le disjoncteur »
+- [03:30.1] REMPLACÉ (faible similarité): ASR « corps». A » → SCRIPT « peau!»? À »
+- [03:33.8] remplacé: ASR « l 'absence d 'ovulation » → SCRIPT « l'absence d'ovulation »
+- [03:38.4] remplacé: ASR « polycystiques, » → SCRIPT « polykystiques, »
+- [03:41.0] remplacé: ASR « d 'infertilité, » → SCRIPT « d'infertilité, »
+- [03:46.7] remplacé: ASR « létrozol » → SCRIPT « létrozole »
+- [03:51.3] remplacé: ASR « chlomide » → SCRIPT « Clomid »
+- [04:01.8] REMPLACÉ (faible similarité): ASR « Aie » → SCRIPT « Et »
+- [04:02.9] remplacé: ASR « à d 'autres médications » → SCRIPT « pas d'automédication »
+- [04:07.8] remplacé: ASR « du » → SCRIPT « de »
+- [04:09.8] remplacé: ASR « belle -sœur » → SCRIPT « belle-sœur »
+- [04:14.0] remplacé: ASR « de comprimer, » → SCRIPT « deux comprimés »
+- [04:17.7] remplacé: ASR « L 'ovulation » → SCRIPT « l'ovulation »
+- [04:25.0] remplacé: ASR « j 'ai » → SCRIPT « j'ai »
+- [04:26.0] remplacé: ASR « l 'ovule jusqu 'à » → SCRIPT « l'ovule jusqu'à »
+- [04:29.4] remplacé: ASR « n 'est » → SCRIPT « n'est »
+- [04:32.7] remplacé: ASR « L 'ovulation, c 'est » → SCRIPT « L'ovulation, c'est »
+- [04:34.0] ajout oral (ASR conservé): « sur »
+- [04:34.5] remplacé: ASR « bande d 'annonce » → SCRIPT « bande-annonce »
+- [04:36.7] remplacé: ASR « chlomide n 'est » → SCRIPT « Clomid n'est »
+- [04:47.6] remplacé: ASR « offalés sous » → SCRIPT « affalé sur »
+- [04:57.1] remplacé: ASR « n 'a » → SCRIPT « n'a »
+- [05:03.9] remplacé: ASR « l 'âge » → SCRIPT « et l'âge »
+- [05:08.4] remplacé: ASR « D 'ailleurs, » → SCRIPT « D'ailleurs, »
+- [05:09.8] REMPLACÉ (faible similarité): ASR « ont vu » → SCRIPT « ovulent »
+- [05:11.2] remplacé: ASR « horlogeuse » → SCRIPT « horloge »
+- [05:17.2] remplacé: ASR « clomiphère » → SCRIPT « clomifène »
+- [05:23.7] remplacé: ASR « On n 'a » → SCRIPT « n'a »
+- [05:28.6] remplacé: ASR « l 'usine » → SCRIPT « l'usine »
+- [05:31.5] remplacé: ASR « sécouer » → SCRIPT « secouer »
+- [05:34.4] REMPLACÉ (faible similarité): ASR « 5 » → SCRIPT « cinq »
+- [05:38.9] remplacé: ASR « c 'est » → SCRIPT « c'est »
+- [05:39.4] script non prononcé (ignoré): « tout »
+- [05:47.0] REMPLACÉ (faible similarité): ASR « 6 » → SCRIPT « six »
+- [05:51.0] REMPLACÉ (faible similarité): ASR « 6, » → SCRIPT « six, »
+- [05:52.1] remplacé: ASR « n 'est » → SCRIPT « n'est »
+- [05:54.1] remplacé: ASR « C 'est un café acheté, » → SCRIPT « « 5 cafés achetés, »
+- [05:55.7] REMPLACÉ (faible similarité): ASR « sixième » → SCRIPT « 6e »
+- [05:57.0] remplacé: ASR « qu 'il » → SCRIPT « qu'il »
+- [05:59.0] remplacé: ASR « jusqu 'au » → SCRIPT « jusqu'au »
+- [06:03.6] remplacé: ASR « n 'ont » → SCRIPT « n'ont »
+- [06:05.1] remplacé: ASR « d 'obtenir » → SCRIPT « d'obtenir »
+- [06:08.4] remplacé: ASR « l 'essai » → SCRIPT « l'essai »
+- [06:11.1] remplacé: ASR « l 'ovulation » → SCRIPT « l'ovulation »
+- [06:21.2] remplacé: ASR « l 'insémination » → SCRIPT « l'insémination »
+- [06:24.8] remplacé: ASR « d 'un » → SCRIPT « d'un »
+- [06:25.4] ajout oral (ASR conservé): « de »
+- [06:26.1] remplacé: ASR « qu 'il » → SCRIPT « qu'il »
+- [06:29.5] remplacé: ASR « l 'ordre. » → SCRIPT « l'ordre; »
+- [06:41.9] remplacé: ASR « C 'était » → SCRIPT « c'était »
+- [06:47.2] remplacé: ASR « n 'est » → SCRIPT « n'est »
+- [06:47.8] remplacé: ASR « demi -citron » → SCRIPT « demi-citron »
+- [06:53.7] remplacé: ASR « n 'est » → SCRIPT « n'est »
+- [06:58.9] remplacé: ASR « l 'échographier. » → SCRIPT « l'échographie, »
+- [07:01.7] remplacé: ASR « l 'endomètre » → SCRIPT « l'endomètre, »
+- [07:07.3] remplacé: ASR « l 'ovulation. » → SCRIPT « l'ovulation. »
+- [07:09.2] remplacé: ASR « chlomyphène » → SCRIPT « clomifène »
+- [07:15.8] remplacé: ASR « d 'oestrogène, » → SCRIPT « d'œstrogènes, »
+- [07:19.7] remplacé: ASR « l 'endomètre, » → SCRIPT « l'endomètre — »
+- [07:22.4] remplacé: ASR « s 'installer. C 'est » → SCRIPT « s'installer. C'est »
+- [07:27.2] remplacé: ASR « s 'ils restent » → SCRIPT « si, restez »
+- [07:30.5] remplacé: ASR « qu 'ils » → SCRIPT « qu'ils »
+- [07:33.3] remplacé: ASR « l 'entrée, » → SCRIPT « l'entrée, »
+- [07:36.0] remplacé: ASR « l 'inverse, » → SCRIPT « l'inverse, »
+- [07:37.9] remplacé: ASR « s 'emballent » → SCRIPT « s'emballent »
+- [07:46.9] REMPLACÉ (faible similarité): ASR « Vous faites » → SCRIPT « Bouffées de »
+- [07:57.9] remplacé: ASR « flash » → SCRIPT « flashs »
+- [07:59.2] remplacé: ASR « crache » → SCRIPT « taches »
+- [08:06.2] remplacé: ASR « c 'est » → SCRIPT « « C'est »
+- [08:18.9] remplacé: ASR « n 'explique ce trouble, » → SCRIPT « n'explique ces troubles, »
+- [08:21.1] remplacé: ASR « chloméphène » → SCRIPT « clomifène »
+- [08:26.3] remplacé: ASR « vous -même. » → SCRIPT « vous-même. »
+- [08:29.0] remplacé: ASR « douleurs abdominales intenses, » → SCRIPT « douleur abdominale intense, »
+- [08:34.4] remplacé: ASR « d 'essoufflément. C 'est » → SCRIPT « d'essoufflement: c'est »
+- [08:37.2] remplacé: ASR « N 'attendez » → SCRIPT « n'attendez »
+- [08:39.0] remplacé: ASR « rendez -vous. » → SCRIPT « rendez-vous. »
+- [08:43.6] remplacé: ASR « qu 'une » → SCRIPT « qu'une »
+- [08:44.5] remplacé: ASR « n 'a » → SCRIPT « n'a »
+- [08:47.6] remplacé: ASR « n 'a » → SCRIPT « n'a »
+- [08:49.4] remplacé: ASR « chlométhie, » → SCRIPT « Clomid, »
+- [08:50.5] remplacé: ASR « n 'est » → SCRIPT « n'est »
+- [08:50.8] script non prononcé (ignoré): « de »
+- [08:58.9] remplacé: ASR « Est -ce » → SCRIPT « « Est-ce »
+- [08:59.9] remplacé: ASR « j 'ai » → SCRIPT « j'ai »
+- [09:03.4] remplacé: ASR « avons -nous vérifié? » → SCRIPT « avons-nous vérifiés?» »
+- [09:06.0] remplacé: ASR « passe -t -on » → SCRIPT « passe-t-on »
+- [09:08.3] remplacé: ASR « n 'est » → SCRIPT « n'est »
+- [09:12.6] remplacé: ASR « d 'ouvrir » → SCRIPT « d'ouvrir »
+- [09:22.0] ajout oral (ASR conservé): « Toujours pas. »
+- [09:29.9] ajout oral (ASR conservé): « Allez, ciao! »

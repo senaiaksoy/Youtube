@@ -1,0 +1,96 @@
+{
+  "kind": "youtube#video",
+  "etag": "Quimo3CNlYAS7ZbXZieTuDrWULc",
+  "id": "bS0p_uB894w",
+  "snippet": {
+    "publishedAt": "2024-10-11T17:00:35Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "Inositol et SOPK : utile ou surestimé ?",
+    "description": "L'inositol est souvent présenté comme une solution miracle pour le SOPK. Cette vidéo explique ce que l'on peut raisonnablement en attendre, dans quels profils il peut aider et pourquoi il ne remplace pas une stratégie médicale.\n\nAlors, prêt(e) à démystifier le SOPK et l'inositol ? Cliquez sur play et embarquez pour un voyage au cœur de vos hormones !\n#SOPK #Inositol #SantéFéminine #HormonesEnFolie\nN'oubliez pas de vous abonner et de partager si vous avez aimé ! 💖",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/bS0p_uB894w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/bS0p_uB894w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/bS0p_uB894w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/bS0p_uB894w/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/bS0p_uB894w/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "tags": [
+      "SOPK",
+      "inositol",
+      "syndrome des ovaires polykystiques",
+      "santé féminine",
+      "hormones",
+      "insuline",
+      "résistance à l'insuline",
+      "myo-inositol",
+      "D-chiro-inositol",
+      "fertilité",
+      "cycles menstruels",
+      "équilibre hormonal",
+      "métabolisme",
+      "nutrition",
+      "suppléments",
+      "santé reproductive",
+      "endocrinologie",
+      "diabète",
+      "perte de poids",
+      "ovulation",
+      "traitement naturel",
+      "metformine",
+      "santé des femmes",
+      "troubles hormonaux",
+      "bien-être"
+    ],
+    "categoryId": "28",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "Inositol et SOPK : utile ou surestimé ?",
+      "description": "L'inositol est souvent présenté comme une solution miracle pour le SOPK. Cette vidéo explique ce que l'on peut raisonnablement en attendre, dans quels profils il peut aider et pourquoi il ne remplace pas une stratégie médicale.\n\nAlors, prêt(e) à démystifier le SOPK et l'inositol ? Cliquez sur play et embarquez pour un voyage au cœur de vos hormones !\n#SOPK #Inositol #SantéFéminine #HormonesEnFolie\nN'oubliez pas de vous abonner et de partager si vous avez aimé ! 💖"
+    },
+    "defaultAudioLanguage": "fr-FR"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "5220",
+    "likeCount": "72",
+    "dislikeCount": "2",
+    "favoriteCount": "0",
+    "commentCount": "6"
+  },
+  "localizations": {
+    "fr": {
+      "title": "Inositol et SOPK : utile ou surestimé ?",
+      "description": "L'inositol est souvent présenté comme une solution miracle pour le SOPK. Cette vidéo explique ce que l'on peut raisonnablement en attendre, dans quels profils il peut aider et pourquoi il ne remplace pas une stratégie médicale.\n\nAlors, prêt(e) à démystifier le SOPK et l'inositol ? Cliquez sur play et embarquez pour un voyage au cœur de vos hormones !\n#SOPK #Inositol #SantéFéminine #HormonesEnFolie\nN'oubliez pas de vous abonner et de partager si vous avez aimé ! 💖"
+    }
+  }
+}

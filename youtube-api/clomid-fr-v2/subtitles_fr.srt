@@ -1,0 +1,654 @@
+1
+00:00:00,000 --> 00:00:02,900
+Vous prenez du Clomid, mais
+toujours pas de grossesse.
+
+2
+00:00:03,120 --> 00:00:05,340
+Et là, grand sommet de crise à la maison :
+
+3
+00:00:05,520 --> 00:00:08,940
+« On attaque une nouvelle boîte
+ou on change de médecin ? »
+
+4
+00:00:09,140 --> 00:00:13,040
+Avant de piquer un sprint
+vers la pharmacie de garde,
+
+5
+00:00:13,380 --> 00:00:16,000
+il faut d'abord répondre à une question :
+
+6
+00:00:16,240 --> 00:00:20,620
+est-ce que ce traitement a déclenché
+une ovulation, oui ou non ?
+
+7
+00:00:20,680 --> 00:00:26,580
+Parce que ne pas ovuler du tout, ou
+ovuler parfaitement sans tomber enceinte,
+
+8
+00:00:26,620 --> 00:00:30,720
+ce sont deux histoires
+totalement différentes.
+
+9
+00:00:31,360 --> 00:00:33,660
+C'est la différence entre :
+
+10
+00:00:33,700 --> 00:00:39,520
+« Le démarreur de la voiture ne tourne
+même pas » et « Le moteur tourne
+
+11
+00:00:39,560 --> 00:00:44,340
+super bien, mais on a oublié de
+desserrer le frein à main ».
+
+12
+00:00:44,500 --> 00:00:46,440
+Je suis le Docteur Senai Aksoy.
+
+13
+00:00:46,620 --> 00:00:50,340
+Aujourd'hui, on va voir pourquoi
+ce médicament a ses limites,
+
+14
+00:00:50,380 --> 00:00:55,900
+et quand il faut savoir dire : « OK
+les amis, cette tactique ne marche pas,
+
+15
+00:00:55,980 --> 00:00:57,740
+on change de plan. »
+
+16
+00:00:58,480 --> 00:01:02,920
+Imaginez la table de la
+cuisine : la salière,
+
+17
+00:01:03,220 --> 00:01:08,800
+la boîte de comprimés et ce fameux
+calendrier aimanté sur le frigo.
+
+18
+00:01:08,940 --> 00:01:11,340
+Les jours sont cochés au stabilo fluo ;
+
+19
+00:01:11,420 --> 00:01:17,040
+on dirait le compte à rebours de la
+NASA pour un lancement vers Mars.
+
+20
+00:01:18,180 --> 00:01:22,980
+Niveau romantisme, on est à zéro,
+c'est une opération militaire.
+
+21
+00:01:23,240 --> 00:01:28,480
+Et la petite voix intérieure s'active :
+« Ça n'a pas marché le mois dernier,
+
+22
+00:01:28,680 --> 00:01:29,480
+c'est le destin...
+
+23
+00:01:29,620 --> 00:01:31,540
+Allez, je reprends une boîte. »
+
+24
+00:01:31,800 --> 00:01:35,300
+Alors, on félicite le
+calendrier pour sa discipline.
+
+25
+00:01:35,560 --> 00:01:40,640
+Mais il a un petit défaut : il ne
+sait pas lire un bilan hormonal !
+
+26
+00:01:40,680 --> 00:01:42,200
+Si on l'écoute,
+
+27
+00:01:42,320 --> 00:01:47,220
+on continue sur ce rythme
+jusqu'aux Jeux Olympiques de 2028.
+
+28
+00:01:47,760 --> 00:01:52,140
+Le principe actif, le
+citrate de clomifène,
+
+29
+00:01:52,300 --> 00:01:56,360
+fait en réalité une
+petite ruse au cerveau.
+
+30
+00:01:56,440 --> 00:02:00,840
+Il brouille les détecteurs
+d'œstrogènes ; le cerveau se dit —
+
+31
+00:02:01,060 --> 00:02:06,300
+il n'y a plus d'œstrogènes en bas,
+la boutique a fermé ou quoi ? ! » —
+
+32
+00:02:06,340 --> 00:02:10,000
+et il augmente la sécrétion de FSH,
+
+33
+00:02:10,040 --> 00:02:13,800
+l'hormone qui fait grossir le follicule,
+
+34
+00:02:13,900 --> 00:02:18,680
+cette petite poche qui contient
+l'ovule, jusqu'à l'ovulation.
+
+35
+00:02:19,000 --> 00:02:21,460
+Mais cassons tout de suite à un mythe :
+
+36
+00:02:22,020 --> 00:02:27,740
+faire grossir le follicule ne veut
+pas dire améliorer la qualité
+
+37
+00:02:27,780 --> 00:02:33,340
+de l'ovule. Si vous mettez une photo
+d'identité complètement floue dans un
+
+38
+00:02:33,380 --> 00:02:37,120
+immense cadre doré façon musée du Louvre,
+
+39
+00:02:37,160 --> 00:02:41,980
+la photo ne passe pas soudainement
+en 4K Haute Définition.
+
+40
+00:02:42,200 --> 00:02:47,500
+Rien ne démontre que le clomifène
+améliore la qualité de l'ovule ;
+
+41
+00:02:47,720 --> 00:02:53,640
+lui, il frappe juste à la porte en criant :
+« Allez, quelqu'un doit sortir ! »
+
+42
+00:02:53,680 --> 00:02:58,740
+Première hypothèse : vous avez pris
+les comprimés, mais zéro ovulation.
+
+43
+00:02:59,040 --> 00:03:01,340
+Au lieu d'ouvrir une autre boîte,
+
+44
+00:03:01,380 --> 00:03:03,980
+il faut chercher qui fait
+la grève à l'intérieur.
+
+45
+00:03:04,020 --> 00:03:06,480
+Un syndrome des ovaires
+polykystiques (SOPK) ?
+
+46
+00:03:06,580 --> 00:03:11,960
+La thyroïde ou la prolactine qui nous
+font un solo hors de l'orchestre ?
+
+47
+00:03:12,000 --> 00:03:16,000
+Ou alors, avec le régime
+« opération bikini » —
+
+48
+00:03:16,040 --> 00:03:21,160
+ou une feuille de laitue par jour
+et trois heures de sport intensif —
+
+49
+00:03:21,340 --> 00:03:25,140
+le cerveau s'est dit :
+« Alerte famine dans le pays,
+
+50
+00:03:25,340 --> 00:03:30,720
+coupez le disjoncteur du système
+reproducteur, on sauve notre peau ! » ?
+
+51
+00:03:30,760 --> 00:03:32,900
+À chaque cause son traitement.
+
+52
+00:03:33,080 --> 00:03:38,380
+Si l'absence d'ovulation est
+liée à un syndrome des ovaires
+
+53
+00:03:38,420 --> 00:03:41,920
+polykystiques, sans autre
+facteur d'infertilité,
+
+54
+00:03:42,380 --> 00:03:47,980
+les recommandations internationales
+de 2023 placent le létrozole en
+
+55
+00:03:48,020 --> 00:03:49,220
+première intention.
+
+56
+00:03:49,840 --> 00:03:53,340
+Ça ne veut pas dire que le
+Clomid est à la retraite :
+
+57
+00:03:53,560 --> 00:03:55,620
+le choix dépend du diagnostic,
+
+58
+00:03:55,660 --> 00:04:01,600
+de votre réponse précédente et des
+règles de prescription du pays.
+
+59
+00:04:01,780 --> 00:04:02,820
+Et pitié :
+
+60
+00:04:02,860 --> 00:04:08,600
+pas d'automédication en écoutant
+les conseils du salon de thé du
+
+61
+00:04:08,640 --> 00:04:12,900
+style : « Ma belle-sœur en a
+pris, elle a eu des triplés,
+
+62
+00:04:13,180 --> 00:04:15,540
+avale donc deux comprimés ma chérie ! »
+
+63
+00:04:15,800 --> 00:04:20,220
+Deuxième hypothèse :
+l'ovulation a bien eu lieu,
+
+64
+00:04:20,400 --> 00:04:22,000
+mais toujours pas de grossesse.
+
+65
+00:04:22,540 --> 00:04:24,980
+Là, le médicament vous dit : « Moi,
+
+66
+00:04:25,020 --> 00:04:28,480
+j'ai amené l'ovule jusqu'à
+la porte de sortie,
+
+67
+00:04:28,520 --> 00:04:31,300
+la suite ce n'est plus mon rayon. »
+
+68
+00:04:31,340 --> 00:04:35,840
+Et il a raison ! L'ovulation, c'est
+juste sur la bande-annonce du film.
+
+69
+00:04:36,100 --> 00:04:41,520
+Le Clomid n'est pas plombier, il ne
+va pas déboucher une trompe bouchée !
+
+70
+00:04:41,680 --> 00:04:46,320
+Et quand Madame prend le traitement,
+les spermatozoïdes de Monsieur —
+
+71
+00:04:46,980 --> 00:04:50,800
+tranquillement affalé sur le
+canapé devant le résumé du match —
+
+72
+00:04:51,060 --> 00:04:55,420
+ne se transforment pas
+soudainement en Michael Phelps.
+
+73
+00:04:55,460 --> 00:05:01,120
+Non, la médecine n'a pas encore
+reçu cette mise à jour Bluetooth !
+
+74
+00:05:01,930 --> 00:05:03,840
+Le bilan concerne le couple,
+
+75
+00:05:03,940 --> 00:05:08,660
+et l'âge ainsi que le bon timing
+comptent tout autant. D'ailleurs,
+
+76
+00:05:08,820 --> 00:05:14,320
+chez les femmes qui ovulent déjà comme
+une horloge suisse avec une infertilité
+
+77
+00:05:14,360 --> 00:05:15,240
+inexpliquée,
+
+78
+00:05:15,630 --> 00:05:21,060
+donner uniquement du clomifène en disant
+« Mettez une alarme sur le téléphone,
+
+79
+00:05:21,380 --> 00:05:27,240
+ce soir il y a des heures sup' » n'a pas
+démontré de bénéfice sur les chances de
+
+80
+00:05:27,280 --> 00:05:30,100
+grossesse. Quand l'usine tourne déjà,
+
+81
+00:05:30,340 --> 00:05:34,980
+inutile de secouer le directeur
+toutes les cinq minutes.
+
+82
+00:05:35,600 --> 00:05:40,180
+Stimuler pour faire une insémination,
+ça, c'est une autre histoire.
+
+83
+00:05:40,620 --> 00:05:43,280
+Alors, on essaie pendant combien de mois ?
+
+84
+00:05:43,320 --> 00:05:49,160
+La notice française fixe un maximum
+de six cycles de traitement.
+
+85
+00:05:49,200 --> 00:05:51,380
+Mais attention : ce chiffre six,
+
+86
+00:05:51,660 --> 00:05:55,240
+ce n'est pas une carte de
+fidélité « 5 cafés achetés,
+
+87
+00:05:55,360 --> 00:05:59,840
+le 6e offert » qu'il faut absolument
+tamponner jusqu'au bout !
+
+88
+00:05:59,980 --> 00:06:03,520
+Si trois cures, à la posologie prévue,
+
+89
+00:06:03,560 --> 00:06:06,860
+n'ont pas permis d'obtenir une ovulation,
+
+90
+00:06:07,320 --> 00:06:10,300
+on considère l'essai comme terminé.
+
+91
+00:06:10,340 --> 00:06:15,540
+Et si l'ovulation a lieu sans
+grossesse après plusieurs essais,
+
+92
+00:06:15,600 --> 00:06:20,740
+on revoit le bilan et la stratégie,
+parfois plus tôt. Les injections,
+
+93
+00:06:21,220 --> 00:06:26,940
+l'insémination ou la FIV ne sont pas
+les niveaux d'un jeu de vidéo qu'il faut
+
+94
+00:06:26,980 --> 00:06:30,020
+franchir un par un dans l'ordre ;
+
+95
+00:06:30,300 --> 00:06:33,240
+on prend la route adaptée à votre couple.
+
+96
+00:06:33,280 --> 00:06:36,120
+Et une phrase qui revient souvent :
+
+97
+00:06:36,420 --> 00:06:41,620
+« Il me restait trois comprimés au
+fond de la boîte du mois dernier,
+
+98
+00:06:41,920 --> 00:06:46,020
+c'était dommage de gaspiller,
+alors je les ai avalés. »
+
+99
+00:06:46,100 --> 00:06:51,160
+Mais enfin, ce n'est pas un demi-citron
+oublié dans la porte du frigo !
+
+100
+00:06:51,560 --> 00:06:56,720
+Avoir des comprimés qui traînent
+n'est pas une indication médicale.
+
+101
+00:06:56,900 --> 00:06:59,620
+Un vrai suivi se fait à l'échographie,
+
+102
+00:06:59,660 --> 00:07:02,580
+pour surveiller les
+follicules et l'endomètre,
+
+103
+00:07:02,620 --> 00:07:08,280
+et des dosages hormonaux peuvent
+aider à évaluer l'ovulation.
+
+104
+00:07:08,440 --> 00:07:13,140
+Parce que le clomifène a
+parfois un humour particulier :
+
+105
+00:07:13,740 --> 00:07:19,680
+en bloquant les récepteurs d'œstrogènes,
+il peut amincir la muqueuse utérine —
+
+106
+00:07:19,720 --> 00:07:23,180
+l'endomètre — là où le
+bébé doit s'installer.
+
+107
+00:07:23,220 --> 00:07:27,540
+C'est comme insister auprès
+de vos invités : « Mais si,
+
+108
+00:07:27,580 --> 00:07:29,680
+restez dormir à la maison ce soir ! »,
+
+109
+00:07:29,720 --> 00:07:33,840
+et pendant qu'ils enlèvent
+leurs chaussures dans l'entrée,
+
+110
+00:07:33,940 --> 00:07:35,540
+vous vendez tous les lits.
+
+111
+00:07:35,600 --> 00:07:39,380
+Ou à l'inverse, plusieurs follicules
+s'emballent en même temps,
+
+112
+00:07:39,420 --> 00:07:42,480
+et bonjour le risque
+de grossesse multiple.
+
+113
+00:07:42,940 --> 00:07:46,820
+Maintenant, deux minutes sans
+humour pour la sécurité.
+
+114
+00:07:46,860 --> 00:07:48,260
+Bouffées de chaleur,
+
+115
+00:07:48,340 --> 00:07:54,220
+maux de tête ou inconfort abdominal
+font partie des effets indésirables
+
+116
+00:07:54,260 --> 00:07:59,140
+possibles. En revanche :
+vision floue, flashs lumineux,
+
+117
+00:07:59,200 --> 00:08:04,520
+taches devant les yeux ou tout
+autre trouble visuel inhabituel...
+
+118
+00:08:04,660 --> 00:08:08,020
+ne vous dites jamais « C'est
+juste une baisse de tension ».
+
+119
+00:08:08,220 --> 00:08:12,180
+Arrêtez le traitement et contactez
+rapidement votre médecin.
+
+120
+00:08:12,380 --> 00:08:16,160
+Un examen ophtalmologique
+complet est nécessaire ;
+
+121
+00:08:16,860 --> 00:08:20,540
+si aucune autre cause
+n'explique ces troubles,
+
+122
+00:08:20,840 --> 00:08:24,640
+le clomifène doit être
+arrêté définitivement.
+
+123
+00:08:24,680 --> 00:08:27,080
+Ne le reprenez pas de vous-même.
+
+124
+00:08:27,340 --> 00:08:31,500
+Même chose en cas de
+douleur abdominale intense,
+
+125
+00:08:31,560 --> 00:08:37,060
+de gonflement rapide du ventre ou
+d'essoufflement : c'est une urgence médicale,
+
+126
+00:08:37,160 --> 00:08:39,540
+n'attendez pas votre prochain rendez-vous.
+
+127
+00:08:39,720 --> 00:08:42,420
+Et bien sûr, avant chaque nouvelle cure,
+
+128
+00:08:42,720 --> 00:08:46,160
+on vérifie qu'une grossesse
+n'a pas déjà commencé.
+
+129
+00:08:46,860 --> 00:08:51,600
+Si ça n'a pas marché avec le
+Clomid, ce n'est pas votre faute.
+
+130
+00:08:52,120 --> 00:08:54,060
+Lors de votre prochaine consultation,
+
+131
+00:08:54,460 --> 00:08:58,440
+posez simplement ces trois
+questions à votre médecin :
+
+132
+00:08:58,860 --> 00:09:01,740
+« Est-ce que j'ai vraiment ovulé ? »
+
+133
+00:09:01,780 --> 00:09:05,200
+« Quels autres paramètres
+avons-nous vérifiés ? »
+
+134
+00:09:05,240 --> 00:09:08,080
+« À quel moment passe-t-on au plan B ? »
+
+135
+00:09:08,120 --> 00:09:13,780
+Ce n'est pas le calendrier sur le
+frigo qui doit décider d'ouvrir une
+
+136
+00:09:13,820 --> 00:09:16,960
+nouvelle boîte, mais les
+réponses à ces trois questions.
+
+137
+00:09:17,200 --> 00:09:21,920
+Ces informations ne remplacent
+pas une consultation médicale.
+
+138
+00:09:22,020 --> 00:09:24,340
+Toujours pas. Le médicament,
+
+139
+00:09:24,380 --> 00:09:29,720
+la dose et la durée du traitement se
+décident avec le médecin qui vous suit.
+
+140
+00:09:29,900 --> 00:09:30,700
+Allez, ciao !

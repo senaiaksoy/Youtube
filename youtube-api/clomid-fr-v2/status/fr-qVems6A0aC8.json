@@ -1,0 +1,69 @@
+{
+  "kind": "youtube#video",
+  "etag": "R_pGisyrJJcE-YvDeOUupHTKJMU",
+  "id": "qVems6A0aC8",
+  "snippet": {
+    "publishedAt": "2024-09-29T17:00:44Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "Infertilité inexpliquée : et si ce n'était pas Clomid ?",
+    "description": "Quand tous les examens semblent normaux, l'infertilité inexpliquée peut être frustrante. Cette vidéo explique pourquoi Clomid n'est pas toujours la réponse et quelles pistes explorer selon le contexte.\n\n#InfertilitéInexpliquée #Clomid #FertilitéEtGrossesse #ParcoursPMA #ConceptionNaturelle #SantéReproductive #EssaiBébé #IIU #TraitementInfertilité #MythesEtRéalités #InfosFertilité #CoupleEtFertilité #SoutienInfertilité #GrossesseDifficile #EspoirFertilité",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qVems6A0aC8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qVems6A0aC8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qVems6A0aC8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/qVems6A0aC8/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/qVems6A0aC8/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "categoryId": "28",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "Infertilité inexpliquée : et si ce n'était pas Clomid ?",
+      "description": "Quand tous les examens semblent normaux, l'infertilité inexpliquée peut être frustrante. Cette vidéo explique pourquoi Clomid n'est pas toujours la réponse et quelles pistes explorer selon le contexte.\n\n#InfertilitéInexpliquée #Clomid #FertilitéEtGrossesse #ParcoursPMA #ConceptionNaturelle #SantéReproductive #EssaiBébé #IIU #TraitementInfertilité #MythesEtRéalités #InfosFertilité #CoupleEtFertilité #SoutienInfertilité #GrossesseDifficile #EspoirFertilité"
+    },
+    "defaultAudioLanguage": "en-US"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "3951",
+    "likeCount": "38",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "9"
+  },
+  "localizations": {
+    "fr": {
+      "title": "Infertilité inexpliquée : et si ce n'était pas Clomid ?",
+      "description": "Quand tous les examens semblent normaux, l'infertilité inexpliquée peut être frustrante. Cette vidéo explique pourquoi Clomid n'est pas toujours la réponse et quelles pistes explorer selon le contexte.\n\n#InfertilitéInexpliquée #Clomid #FertilitéEtGrossesse #ParcoursPMA #ConceptionNaturelle #SantéReproductive #EssaiBébé #IIU #TraitementInfertilité #MythesEtRéalités #InfosFertilité #CoupleEtFertilité #SoutienInfertilité #GrossesseDifficile #EspoirFertilité"
+    }
+  }
+}

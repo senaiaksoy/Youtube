@@ -1,0 +1,91 @@
+{
+  "kind": "youtube#video",
+  "etag": "40ZMq09MHy1G8Z-NB9f-QlFj5ug",
+  "id": "uEexFyDOzLo",
+  "snippet": {
+    "publishedAt": "2026-09-22T12:59:01Z",
+    "channelId": "UC51eCoXFnN1DiBd1dWcJpPQ",
+    "title": "Taux bêta-hCG après une FIV : comment interpréter le résultat ?",
+    "description": "Après une FIV, le taux de bêta-hCG aide à évaluer le début de la grossesse. Mais un résultat isolé ne suffit pas : son évolution, le délai depuis le transfert embryonnaire et le contexte clinique doivent être pris en compte.\n\nDans ce Short, le Dr Senai Aksoy explique comment interpréter le dosage de bêta-hCG après une FIV.\n\nPour plus d’informations :\n📱 WhatsApp : +90 507 380 28 05\n🌐 www.draksoyivf.com\n\nCes informations sont fournies à titre éducatif et ne remplacent pas une consultation médicale. N’interrompez ni ne modifiez votre traitement sans l’avis de votre médecin.\n\n#FIV #BetaHCG #Grossesse #Fertilité #PMA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uEexFyDOzLo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uEexFyDOzLo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uEexFyDOzLo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/uEexFyDOzLo/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/uEexFyDOzLo/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Senai Aksoy",
+    "tags": [
+      "bêta hCG",
+      "beta hCG",
+      "taux bêta hCG",
+      "bêta hCG après FIV",
+      "prise de sang grossesse",
+      "résultat bêta hCG",
+      "dosage bêta hCG",
+      "évolution bêta hCG",
+      "FIV",
+      "fécondation in vitro",
+      "transfert embryonnaire",
+      "grossesse après FIV",
+      "test de grossesse FIV",
+      "PMA",
+      "fertilité",
+      "infertilité",
+      "procréation médicalement assistée",
+      "Dr Senai Aksoy",
+      "IVF",
+      "beta HCG IVF"
+    ],
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "fr",
+    "localized": {
+      "title": "Taux bêta-hCG après une FIV : comment interpréter le résultat ?",
+      "description": "Après une FIV, le taux de bêta-hCG aide à évaluer le début de la grossesse. Mais un résultat isolé ne suffit pas : son évolution, le délai depuis le transfert embryonnaire et le contexte clinique doivent être pris en compte.\n\nDans ce Short, le Dr Senai Aksoy explique comment interpréter le dosage de bêta-hCG après une FIV.\n\nPour plus d’informations :\n📱 WhatsApp : +90 507 380 28 05\n🌐 www.draksoyivf.com\n\nCes informations sont fournies à titre éducatif et ne remplacent pas une consultation médicale. N’interrompez ni ne modifiez votre traitement sans l’avis de votre médecin.\n\n#FIV #BetaHCG #Grossesse #Fertilité #PMA"
+    },
+    "defaultAudioLanguage": "fr"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "565",
+    "likeCount": "4",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "fr": {
+      "title": "Taux bêta-hCG après une FIV : comment interpréter le résultat ?",
+      "description": "Après une FIV, le taux de bêta-hCG aide à évaluer le début de la grossesse. Mais un résultat isolé ne suffit pas : son évolution, le délai depuis le transfert embryonnaire et le contexte clinique doivent être pris en compte.\n\nDans ce Short, le Dr Senai Aksoy explique comment interpréter le dosage de bêta-hCG après une FIV.\n\nPour plus d’informations :\n📱 WhatsApp : +90 507 380 28 05\n🌐 www.draksoyivf.com\n\nCes informations sont fournies à titre éducatif et ne remplacent pas une consultation médicale. N’interrompez ni ne modifiez votre traitement sans l’avis de votre médecin.\n\n#FIV #BetaHCG #Grossesse #Fertilité #PMA"
+    }
+  }
+}
