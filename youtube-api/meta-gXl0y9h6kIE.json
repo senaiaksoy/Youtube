@@ -1,0 +1,59 @@
+{
+  "kind": "youtube#video",
+  "etag": "GQVHArmuNb053OlgAZFTEHq_gds",
+  "id": "gXl0y9h6kIE",
+  "snippet": {
+    "publishedAt": "2026-10-22T17:30:47Z",
+    "channelId": "UCo3ZeBXk0ng-OigXd9jqJqQ",
+    "title": "Clomid EN short 3 safety",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i9.ytimg.com/vi/gXl0y9h6kIE/default.jpg?sqp=CJiQ6dYG&rs=AOn4CLCbPJz45RtsgCO8Z2p6ymQsboqIlg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i9.ytimg.com/vi/gXl0y9h6kIE/mqdefault.jpg?sqp=CJiQ6dYG&rs=AOn4CLBABwTeaOcHE89tLL4Di8rX9MkIKA",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i9.ytimg.com/vi/gXl0y9h6kIE/hqdefault.jpg?sqp=CJiQ6dYG&rs=AOn4CLAmaRkVD9xeZuo8hKN7zjXBVcjqxg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "channelTitle": "Dr. Aksoy — Fertility, No Hype",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-US",
+    "localized": {
+      "title": "Clomid EN short 3 safety",
+      "description": ""
+    },
+    "defaultAudioLanguage": "en-US"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "0",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "en-US": {
+      "title": "Clomid EN short 3 safety",
+      "description": ""
+    }
+  }
+}

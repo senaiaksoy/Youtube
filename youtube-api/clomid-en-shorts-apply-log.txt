@@ -1,0 +1,26 @@
+﻿[2026-10-23 10:20:01] start
+[2026-10-23 10:20:06] attempt 1
+verified channel: @DrAksoyFertility (UCo3ZeBXk0ng-OigXd9jqJqQ)
+apply: bdEFB26X4m4  Clomid EN short 1 ovulate
+  change: title
+  change: description
+  change: tags
+  change: status.publishAt
+  updated
+apply: uL01tbAJQ0E  Clomid EN short 2 six cycles
+  change: title
+  change: description
+  change: tags
+  change: status.publishAt
+  updated
+apply: gXl0y9h6kIE  Clomid EN short 3 safety
+  change: title
+  change: description
+  change: tags
+  change: status.publishAt
+  updated
+backup: D:\A-klas├Âr\Youtube\youtube-api\backup_meta_1792740006.json
+[2026-10-23 10:20:07] verify bdEFB26X4m4 | title: Clomid Not Working? First, Did You Ovulate? #Shorts | privacy: private | publishAt: 2026-11-05T16:00:00Z | desc length: 979 | tags: 8
+[2026-10-23 10:20:08] verify uL01tbAJQ0E | title: Clomid: How Many Cycles Is Too Many? #Shorts | privacy: private | publishAt: 2026-11-06T16:00:00Z | desc length: 1186 | tags: 8
+[2026-10-23 10:20:09] verify gXl0y9h6kIE | title: Clomid Safety: Vision Changes and Warning Signs #Shorts | privacy: private | publishAt: 2026-11-09T16:00:00Z | desc length: 1290 | tags: 8
+[2026-10-23 10:20:09] finished OK

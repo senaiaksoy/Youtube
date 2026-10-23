@@ -1,0 +1,69 @@
+{
+  "kind": "youtube#video",
+  "etag": "-0QZnoirxRdYXYxSPVZ9lCFxzYc",
+  "id": "uL01tbAJQ0E",
+  "snippet": {
+    "publishedAt": "2026-10-22T17:30:39Z",
+    "channelId": "UCo3ZeBXk0ng-OigXd9jqJqQ",
+    "title": "Clomid EN short 2 six cycles",
+    "description": "",
+    "thumbnails": {
+      "default": {
+        "url": "https://i9.ytimg.com/vi/uL01tbAJQ0E/default.jpg?sqp=CJiQ6dYG&rs=AOn4CLB7HUOCrA8SKOZ1KI_ez8Jkgbj3UQ",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i9.ytimg.com/vi/uL01tbAJQ0E/mqdefault.jpg?sqp=CJiQ6dYG&rs=AOn4CLDEEgSTexPi97Ci3FIKlNpYKxjxOg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i9.ytimg.com/vi/uL01tbAJQ0E/hqdefault.jpg?sqp=CJiQ6dYG&rs=AOn4CLDCtX-6Wq_TnsdpEbKPUqEUG5Vmag",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i9.ytimg.com/vi/uL01tbAJQ0E/sddefault.jpg?sqp=CJiQ6dYG&rs=AOn4CLDVz3g4aOQTn1QJn94ALwvPmWvRpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i9.ytimg.com/vi/uL01tbAJQ0E/maxresdefault.jpg?sqp=CJiQ6dYG&rs=AOn4CLBD0cyLSAgkdlyAZlKUh1WZAEhppw",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Dr. Aksoy — Fertility, No Hype",
+    "categoryId": "27",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en-US",
+    "localized": {
+      "title": "Clomid EN short 2 six cycles",
+      "description": ""
+    },
+    "defaultAudioLanguage": "en-US"
+  },
+  "status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "statistics": {
+    "viewCount": "0",
+    "likeCount": "0",
+    "dislikeCount": "0",
+    "favoriteCount": "0",
+    "commentCount": "0"
+  },
+  "localizations": {
+    "en-US": {
+      "title": "Clomid EN short 2 six cycles",
+      "description": ""
+    }
+  }
+}
