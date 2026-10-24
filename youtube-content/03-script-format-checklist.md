@@ -195,7 +195,7 @@ Tam yasak kapanış bankası + güvenli alternatifler: [[wiki/brand/voice]] §"Y
 - [ ] Sayılar mutlak ve sabit paydalı; fayda ve zarar yan yana; belirsizlik sayısal
 - [ ] Sayı bütçesi (2026-10-06): bölüm başına tek yıldız sayı (≤2–3 sesli sayı); tek format "10 kadından X"; önce anlam; çalışma büyüklüğü, yıl ve aralıklar ekranda; tek ana tablo; yıldız sayıdan önce tahmin sorusu; yuvarlama abartısız ve doğrulandı
 - [ ] Hikâye varsayımsal ve genel oranla birlikte; her espri kavrama hizmet ediyor
-- [ ] Kapanış: cevap → tek akılda kalacak cümle → doktora 2–3 soru → güvenlik cümlesi → tek sonraki video → dur
+- [ ] Kapanış: cevap → tek akılda kalacak cümle → güvenlik cümlesi → tek sonraki video → dur (doktora sorulacak soru listesi zorunlu değil, Dr. Aksoy kararı 2026-10-24)
 - [ ] Kapanışa yeni bilgi veya espri eklenmedi; "bugünlük bu kadar" yok
 - [ ] Bitiş ekranı için son 5–20 sn boş; önemli görsel altında kalmıyor
 - [ ] Shorts: değerden sonra duruluyor; ilgili video bağlı; uzun videonun ilk 5–10 sn'si Short'un sorusunu karşılıyor

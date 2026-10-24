@@ -132,7 +132,7 @@ Kaynaksız kesin iddia yazılmaz. Mizahi abartı (ör. "dört yüz yıl gibi gel
 - En pratik cevap ilk yarıda; 2–3 gerçek "durup düşünme" sorusu sorulur ve cevaplanır.
 - Sayılar mutlak ve sabit paydalı; fayda ve zarar yan yana.
 - **Sayı bütçesi:** bölüm başına tek yıldız sayı (≤2–3 sesli sayı); tek format "10 kadından X"; önce anlam; karar değiştirmeyen sayılar ekrana; tek ana tablo; yıldız sayıdan önce tahmin sorusu. Ayrıntı: `STRUCTURE.md` ilke 8.
-- Kapanış sırası: cevap → tek cümlelik akılda kalacak mesaj → doktora sorulacak 2–3 soru → güvenlik cümlesi → bitiş ekranı üstünde tek bir sonraki video → dur. "Bugünlük bu kadar" yok.
+- Kapanış sırası: cevap → tek cümlelik akılda kalacak mesaj → güvenlik cümlesi → bitiş ekranı üstünde tek bir sonraki video → dur. "Bugünlük bu kadar" yok.
 
 Bit anatomisi (esnek, her bitte hepsi gerekmez):
 

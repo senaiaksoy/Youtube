@@ -48,7 +48,6 @@ Bu rehber bu kuralların yerine geçmez; onların içini doldurur.
 | Short → uzun video: "İlgili video" bağlantısı kullanılır. Short'un sonunda sözlü ve görsel yönlendirme yapılır. Uzun videonun ilk 5–10 saniyesi, Short'ta verilen sözü doğrudan karşılar. İzleyicinin niyeti eşleştirilir. | [R] YouTube Blog, 14 Temmuz 2026; answer/14075157 |
 | Özet, aynı anlatıcının sesiyle ve videonun ortasında ve sonunda verilince hatırlamayı artırıyor. | [A] Fanguy 2017 |
 | Kendini test etmek, yeniden okumaktan daha etkili öğretiyor. | [A] Adesope 2017 meta-analizi |
-| Doktora sorulacak soru listeleri soru sorma sayısını artırıyor. Hekim önerirse ve kullanım talimatıyla verilirse daha etkili. Kanıt onkolojiden; fertilitede çalışma yok. | [A] Brandes 2015; Sansoni 2015; Han 2025 |
 | "Eğer… olursa, … yapın" biçiminde eylem planları davranışı güçlendiriyor. Pasif videoda test edilmemiş. | [A2] Gollwitzer & Sheeran 2006 |
 | Üretici görüşü: değer bitince video da biter. Uzun özet ve uzun vedalaşma kötü. Son cümle ya değerin kendisidir ya da sonraki videoya köprü. | [U] Blackman, Hoyos, MrBeast |
 
@@ -130,12 +129,12 @@ KAPANIŞ (§3)                             son ~45–60 sn
 
 1. **Cevap.** Videonun başında açılan ana soru tek cümleyle kapatılır. Bu, videonun vaadinin karşılandığı andır.
 2. **Akılda kalacak tek cümle.** Uzun özet yapılmaz. Mümkünse soru biçiminde verilir: "Yani bir dahaki sefere AMH sonucunuzu görünce aklınıza tek soru gelsin: bu sayı neyi ölçüyor, neyi ölçmüyor?" [A Fanguy, Adesope][U Blackman]
-3. **Doktora sorulacak 2–3 soru.** "Kontrole giderken şunları sorabilirsiniz: …" Aynı liste açıklamaya ve sabitlenmiş yoruma da yazılır. Mümkünse "Eğer… olursa, şunu sorun" biçiminde kurulur. [A Brandes, Sansoni, Han, Gollwitzer][T]
-4. **Güvenlik ve bilgilendirme cümlesi.** Doğal tek cümle, sesli ve ekranda. Konu tipine göre `03` disclaimer bankasından seçilir. Gerekirse hassas kapanış cümlesi eklenir. Gerçekçi umut verilir, garanti verilmez. [02][03][A Copp]
-5. **Sonraki videoya köprü** (bitiş ekranının altında, 5–20 sn): tek ve belirli bir video, gerçekten bir sonraki adım olan. "AMH'nin yaşa göre ne anlama geldiğini merak ediyorsanız, sıradaki video tam bunu anlatıyor." Abone olma çağrısı ya hiç yapılmaz ya da bu köprünün içinde tek kelimeyle geçer. [R end screen][U Abdaal, Galloway][03 Next Video Bridge]
-6. **Dur.** "Bugünlük bu kadar", "görüşmek üzere", uzun teşekkür yok. Son cümle köprü cümlesidir. [U Blackman, Hoyos, MrBeast]
+3. **Güvenlik ve bilgilendirme cümlesi.** Doğal tek cümle, sesli ve ekranda. Konu tipine göre `03` disclaimer bankasından seçilir. Gerekirse hassas kapanış cümlesi eklenir. Gerçekçi umut verilir, garanti verilmez. [02][03][A Copp]
+4. **Sonraki videoya köprü** (bitiş ekranının altında, 5–20 sn): tek ve belirli bir video, gerçekten bir sonraki adım olan. "AMH'nin yaşa göre ne anlama geldiğini merak ediyorsanız, sıradaki video tam bunu anlatıyor." Abone olma çağrısı ya hiç yapılmaz ya da bu köprünün içinde tek kelimeyle geçer. [R end screen][U Abdaal, Galloway][03 Next Video Bridge]
+5. **Dur.** "Bugünlük bu kadar", "görüşmek üzere", uzun teşekkür yok. Son cümle köprü cümlesidir. [U Blackman, Hoyos, MrBeast]
 
 **Kurallar**
+- "Doktora sorulacak 2–3 soru" listesi zorunlu değildir (Dr. Aksoy kararı, 2026-10-24); varsayılan olarak yazılmaz, yalnızca Dr. Aksoy isterse eklenir.
 - Kapanışa yeni bilgi, yeni espri ya da yeni hikâye eklenmez. Sona eklenen ilginç ayrıntı öğrenmeye en çok o noktada zarar veriyor. [A2 Sundararajan]
 - Videonun ortasında "son olarak" ya da "sözü bağlarsak" diyerek bitiş sinyali verilmez. Bitiş sinyali yalnızca kapanışta verilir. [U MrBeast]
 - Bitiş ekranı tasarımı:
@@ -175,7 +174,6 @@ KAPANIŞ (§3)                             son ~45–60 sn
 **Kapanış**
 - [ ] Ana soru tek cümleyle kapandı
 - [ ] Uzun özet yok; tek cümlelik akılda kalacak mesaj (mümkünse soru biçiminde)
-- [ ] Doktora sorulacak 2–3 soru söylendi ve açıklama ile sabitlenmiş yoruma da kondu
 - [ ] Güvenlik ve bilgilendirme cümlesi sesli ve ekranda; umut var, garanti yok
 - [ ] Tek, belirli ve gerçek bir sonraki video köprüsü bitiş ekranının altında
 - [ ] "Bugünlük bu kadar" yok; video köprü cümlesiyle bitiyor
