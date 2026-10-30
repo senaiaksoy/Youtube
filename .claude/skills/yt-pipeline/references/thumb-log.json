@@ -119,5 +119,38 @@
     "outfit": "white-coat",
     "pose": "pointing",
     "backdrop": "chart-data"
+  },
+  {
+    "date": "2026-10-23",
+    "channel": "tr",
+    "video": "094kRDVbFzg",
+    "slug": "clomid-gebelik-yok",
+    "template": "light-card",
+    "side": "left",
+    "outfit": "shirt",
+    "pose": "open-hands",
+    "backdrop": "light-editorial"
+  },
+  {
+    "date": "2026-10-25",
+    "channel": "fr",
+    "video": "MMN7SldVE48",
+    "slug": "endometrite-chronique",
+    "template": "amber-eyebrow",
+    "side": "left",
+    "outfit": "scrubs",
+    "pose": "open-hands",
+    "backdrop": "anatomy-3d"
+  },
+  {
+    "date": "2026-10-27",
+    "channel": "tr",
+    "video": "VT16lngE0D0",
+    "slug": "endometrit-kronik",
+    "template": "yellow-focus",
+    "side": "right",
+    "outfit": "coat-blue-shirt",
+    "pose": "calm-clasped",
+    "backdrop": "ultrasound"
   }
 ]

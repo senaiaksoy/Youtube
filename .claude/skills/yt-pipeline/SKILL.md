@@ -71,6 +71,9 @@ Run `--help` on each script for exact parameters.
   Higgsfield `gpt_image_2_5` with outfit-matched approved channel thumbnails as identity references; text added
   deterministically by `yt_thumb_compose.py`. No talking-head frames, no DHEA dark-suit cut-out, nothing from
   F13. Full recipe: `references/thumbnails.md`.
+- **Dil yerelleştirmesi (localizations + çok dilli altyazı) SADECE Fransızca kanal (`--channel fr`) içindir**
+  (Dr. Aksoy kararı, 2026-10-27). TR ve EN kanal videolarına çeviri/yerelleştirme eklenmez; TR videoda yalnızca
+  kendi `tr` altyazı izi ve `tr` snippet kalır. Sorulmadan ekleme önerilmez.
 - Languages for a FR long video: the DHEA set of 15 (ar, az, bg, bs, de, es, fa, it, mk, ro, ru, sq, sr,
   tr, uk), each with localized title + description AND a caption track; English only when Dr. Aksoy asks.
   FR SRT from large-v3 ASR + manual correction; translations by Claude subagents (not GoogleTranslator),

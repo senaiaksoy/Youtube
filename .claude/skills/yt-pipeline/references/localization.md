@@ -1,5 +1,9 @@
 # Subtitles and localisations — FR channel long videos (learned 2026-10-16, GLP-1 video U-ophcWNOro)
 
+**Scope rule (Dr. Aksoy, 2026-10-27): this whole document applies ONLY to the French channel
+(`--channel fr`). TR and EN channel videos get no translated localizations or multi-language caption
+tracks; they keep only their own-language caption track.**
+
 ## Language set
 - Default = the set used on the DHEA video `dYF3NWf4Nw8`, 15 languages:
   `ar, az, bg, bs, de, es, fa, it, mk, ro, ru, sq, sr, tr, uk`.

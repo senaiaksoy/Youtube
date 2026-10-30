@@ -143,3 +143,13 @@ youtube-content/**/*.woff2
 
 # Higgsfield taban görselleri (4 MB PNG, yeniden üretilebilir)
 DrAksoyFertility/thumb-test-*/base-*.png
+
+# YouTube workspace dumps: API responses, retired-video snapshots, backups, caches (local only)
+youtube-api/clomid-tr-2026-10-23/*.json
+youtube-api/clomid-tr-2026-10-23/*.txt
+youtube-api/*-retire-*/
+youtube-api/uploads-*-2026-10-22.json
+youtube-content/paket-clomid-humour-tr-2026-10-23/fixes-*.json
+youtube-content/paket-clomid-humour-tr-2026-10-23/captions-before.json
+youtube-content/motion/outsider-inside-frame/series.json.bak-*
+**/.facts-cache/

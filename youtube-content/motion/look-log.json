@@ -123,5 +123,94 @@
     ],
     "stamp_flip": true,
     "seed": 68304
+  },
+  {
+    "project": "2026-10-23-clomid-humour-tr-recut",
+    "lang": "tr",
+    "date": "2026-10-23",
+    "series": "questions",
+    "papers": [
+      "cizgili"
+    ],
+    "first_graphic": "arbre-A",
+    "layouts": [
+      "arbre-A",
+      "promesse-B",
+      "flux-A",
+      "schema-A",
+      "verdict-B",
+      "retenir-A",
+      "verdict-A",
+      "chiffre-C",
+      "chiffre-A",
+      "barres-A"
+    ],
+    "pen_marks": [
+      "wide-strike-01",
+      "wide-strike-02",
+      "underline-01"
+    ],
+    "seed": 44960,
+    "stamp_flip": true
+  },
+  {
+    "project": "2026-10-25-endometrite-humour-fr-recut",
+    "lang": "fr",
+    "date": "2026-10-25",
+    "series": "mythe",
+    "papers": [
+      "a4",
+      "recete"
+    ],
+    "first_graphic": "promesse-A",
+    "layouts": [
+      "promesse-A",
+      "promesse-B",
+      "flux-A",
+      "retenir-A",
+      "grille-A",
+      "question-A",
+      "chiffre-C",
+      "chiffre-A",
+      "verdict-A",
+      "arbre-A",
+      "verdict-B"
+    ],
+    "pen_marks": [
+      "strike-02",
+      "strike-01",
+      "wide-strike-01",
+      "underline-01"
+    ],
+    "seed": 86540,
+    "stamp_flip": true
+  },
+  {
+    "project": "2026-10-26-endometrite-tr-multicam-recut",
+    "lang": "tr",
+    "date": "2026-10-26",
+    "series": "labo",
+    "papers": [
+      "lab-spiral",
+      "a4"
+    ],
+    "first_graphic": "promesse-B",
+    "layouts": [
+      "promesse-B",
+      "verdict-B",
+      "sozluk-A",
+      "flux-A",
+      "karsilastirma-A",
+      "chiffre-C",
+      "zaman-A",
+      "arbre-A",
+      "labo-A",
+      "labo-B"
+    ],
+    "pen_marks": [
+      "wide-strike-01"
+    ],
+    "stamp_flip": true,
+    "seed": 16171
   }
 ]

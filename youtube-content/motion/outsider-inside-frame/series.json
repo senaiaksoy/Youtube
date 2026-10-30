@@ -54,7 +54,10 @@
         "schema",
         "flux",
         "chiffre",
-        "verdict"
+        "verdict",
+        "sozluk",
+        "karsilastirma",
+        "zaman"
       ]
     },
     "questions": {
@@ -68,7 +71,10 @@
         "arbre",
         "flux",
         "schema",
-        "retenir"
+        "retenir",
+        "sozluk",
+        "karsilastirma",
+        "zaman"
       ]
     },
     "chiffres": {
@@ -81,7 +87,9 @@
         "chiffre",
         "barres",
         "verdict",
-        "grille"
+        "grille",
+        "karsilastirma",
+        "zaman"
       ]
     },
     "conseils": {
@@ -177,6 +185,21 @@
       "status": "built",
       "example": "example-layouts/grille-A",
       "desc": "100 ink marks (10×10 schematic icons, or a sorted line-up of bars) with k of them filled; the hero figure with its slip beside it. Schematic only — never a micrograph; label it as a diagram"
+    },
+    "sozluk-A": {
+      "status": "built",
+      "desc": "a term card on the page: the term in display type, a one-line definition on the rules, a small ink plate or real print beside it, reference slip bottom-left. For terms the speaker defines (plasmocyte · CD138, endometrium). No stamp, no pen strike.",
+      "example": "example-layouts/sozluk-A"
+    },
+    "karsilastirma-A": {
+      "status": "built",
+      "desc": "two columns split by one hairline, a header per column, 2–4 sourced rows read straight across; pen circle on the decisive row only. For « A versus B » claims (clinical pregnancy vs live birth, ESHRE vs NICE, lab A vs lab B).",
+      "example": "example-layouts/karsilastirma-A"
+    },
+    "zaman-A": {
+      "status": "built",
+      "desc": "a horizontal ink time line on the rules with 3–5 dated ticks; each tick is one study or guideline with its citation slip; one tick circled. Years are sourced facts.",
+      "example": "example-layouts/zaman-A"
     }
   },
   "pen_marks": [
