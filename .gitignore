@@ -153,3 +153,9 @@ youtube-content/paket-clomid-humour-tr-2026-10-23/fixes-*.json
 youtube-content/paket-clomid-humour-tr-2026-10-23/captions-before.json
 youtube-content/motion/outsider-inside-frame/series.json.bak-*
 **/.facts-cache/
+
+# Unpublished scripts, briefs and production plans: kept local, out of the public repo
+youtube-content/video-script-*.txt
+youtube-content/video-script-*-sources.md
+youtube-content/video-brief-*.md
+youtube-content/paket-*/PLAN.md
