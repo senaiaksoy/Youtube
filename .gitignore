@@ -159,3 +159,15 @@ youtube-content/video-script-*.txt
 youtube-content/video-script-*-sources.md
 youtube-content/video-brief-*.md
 youtube-content/paket-*/PLAN.md
+
+# Local production packages (metadata, SRT, build scripts for videos not yet out)
+youtube-content/paket-*/
+youtube-api/clomid-tr-2026-10-23/
+
+# GreenSock GSAP vendor copy: kept out of the public repo (license terms)
+youtube-content/motion/outsider-inside-frame/assets/vendor/
+
+# New example layouts, not published yet (the tracked layouts are unaffected)
+youtube-content/motion/outsider-inside-frame/example-layouts/karsilastirma-A/
+youtube-content/motion/outsider-inside-frame/example-layouts/sozluk-A/
+youtube-content/motion/outsider-inside-frame/example-layouts/zaman-A/
