@@ -1,0 +1,27 @@
+/* Pastel: warm rounded cards, soft discs, gentle spring. For patient questions. Inspired by the HyperFrames components spring-pop and grid-card-assemble (Apache-2.0). */
+:root { --bg: #FDEBDD; --d1: #F9C9A8; --d2: #BFE3D6; --fg: #3A2238; --soft: #6A4A62; --accent: #D9486E; --accent2: #2E9C86; --card: #FFFFFF; --card-fg: #3A2238; --card-soft: #6A4A62; --line: rgba(58,34,56,.2); --on-accent: #fff;
+  --f-display: 'Nunito', sans-serif; --f-body: 'Nunito', sans-serif; --f-mono: 'Nunito', sans-serif; --w-display: 900; --w-body: 700; --ls-display: -.015em; --radius: 34px;
+  --stamp-fg: #fff; --stamp-bg: var(--accent); --stamp-border: 0 solid transparent; --strike-h: 12px; --track: rgba(58,34,56,.08); }
+:root[data-palette="nane"] { --bg: #DFF4EC; --d1: #B4E4D2; --d2: #FCE0B4; --fg: #113F3A; --soft: #2F6159; --accent: #0E8C78; --accent2: #E0793A; --card-fg: #113F3A; --card-soft: #2F6159; --line: rgba(17,63,58,.2); }
+:root[data-palette="leylak"] { --bg: #ECE6FB; --d1: #D3C6F5; --d2: #FBD4E0; --fg: #2B2358; --soft: #52497F; --accent: #6C4DD8; --accent2: #D9487E; --card-fg: #2B2358; --card-soft: #52497F; --line: rgba(43,35,88,.2); }
+.bg { background: var(--bg); overflow: hidden; }
+.bg::before, .bg::after { content: ''; position: absolute; border-radius: 50%; }
+.bg::before { width: 760px; height: 760px; right: -200px; top: -240px; background: var(--d1); transform: translateY(var(--dy, 0px)); }
+.bg::after { width: 560px; height: 560px; left: -170px; bottom: -220px; background: var(--d2); transform: translateY(calc(var(--dy, 0px) * -1)); }
+.kicker { font-weight: 800; letter-spacing: .02em; text-transform: none; }
+.evidence, .ctx, .slip { background: var(--card); color: var(--card-fg); border-radius: var(--radius); padding: 18px 30px; align-self: flex-start; box-shadow: 0 10px 0 var(--line); }
+.slip { color: var(--card-soft); }
+.slip .t { color: var(--card-fg); }
+.mk { color: var(--card-soft); }
+.fig { color: var(--accent); }
+.step, .side-note, .lower-third, .tab, .cta { box-shadow: 0 10px 0 var(--line); }
+.stamp { font-family: var(--f-display); font-weight: 900; box-shadow: 0 10px 0 var(--line); }
+.lower-third { left: 56px; border-radius: var(--radius); padding-left: 40px; }
+.signature .w { background: var(--accent); color: #fff; border-radius: 18px; padding: 0 .16em; }
+/* composition: everything sits on one big rounded card */
+:root { --fs-claim: 96px; --fs-fig: 260px; --fs-head: 110px; --pad-x: 150px; --pad-r: 150px; --pad-t: 84px; --pad-b: 84px; }
+:root[data-aspect="9x16"] { --fs-claim: 68px; --fs-fig: 160px; --fs-head: 74px; --fs-body: 44px; --pad-x: 48px; --pad-r: 124px; --pad-t: 170px; --pad-b: 462px; }
+.frame { background: var(--card); color: var(--card-fg); border-radius: 52px; padding: 48px 64px; box-shadow: 0 14px 0 var(--line); --soft: var(--card-soft); --fg: var(--card-fg); }
+:root[data-aspect="9x16"] .frame { padding: 30px 28px; border-radius: 40px; }
+.frame .evidence, .frame .ctx, .frame .slip { background: transparent; box-shadow: none; padding: 0; }
+.frame .step { background: var(--bg); box-shadow: none; }

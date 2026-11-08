@@ -55,15 +55,19 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
 
 ## HyperFrames Motion Tasarım Sistemi (2026-10-15'ten itibaren)
 
-- Ana şablon: `youtube-content/motion/outsider-inside-frame/frame.md` ("Outsider Inside" —
-  kâğıt / mürekkep / kırmızı kalem; iddia italik + üstü çizilir, kanıt düz yazı; hüküm damgası;
-  her rakamın yanında referans kartı).
-- Hard rule: 2026-10-15 ve sonrası açılan her yeni HyperFrames projesinde bu `frame.md`
-  projenin köküne kopyalanır; ayrıca DESIGN.md yazılmaz, HyperFrames house-style varsayılanları
-  (glow, gradient, ghost text, nefes alan arka plan, flash/glitch geçişler) kullanılmaz.
+- Hard rule (şablon, 2026-11-07): her video kendi görsel dünyasıyla yapılır; kanalın tek bir imza görünümü yok.
+  Kütüphane `youtube-content/motion/template-library/` (önce `README.md`). Şablon elle seçilmez:
+  `node youtube-content/motion/outsider-inside-frame/tools/variety.mjs pick <seri> --lang <fr|tr|en>`; aynı dilde son 3 videonun
+  şablonu tekrar edilemez. Bütün dünyalarda değişmeyenler `templates.json` "universal" listesindedir: kaynak zinciri, telefon
+  okunurluğu, F1–F16, gerçek görüntü kuralı, açılış, intro yok, yüz bütçesi, altyazı kuralları.
+- Şablonlardan biri `outsider-inside`: `youtube-content/motion/outsider-inside-frame/frame.md` (kâğıt / mürekkep / kırmızı kalem;
+  iddia italik + üstü çizilir, kanıt düz yazı; hüküm damgası; her rakamın yanında referans kartı). Bu şablon seçilen projede
+  `frame.md` projenin köküne kopyalanır; ayrıca DESIGN.md yazılmaz, glow, gradient, ghost text, nefes alan arka plan,
+  flash/glitch geçişler kullanılmaz. Diğer şablonlarda bu görsel yasaklar geçerli değildir.
 - Eski projelere (`projects/fiv-apres-quarante-ans-hyperframes`, `videos/bhcg-*`,
   `youtube-content/motion/intro-pilot`) dokunma; kendi frame.md/DESIGN.md'leriyle kalırlar.
-- Ana şablonu değiştirmek tüm gelecek videoları etkiler: önce Dr. Aksoy'a sor.
+- `frame.md`, `templates.json` "universal" listesi veya rotasyon kuralını değiştirmek tüm gelecek videoları etkiler: önce Dr. Aksoy'a sor.
+  Kütüphaneye yeni şablon eklemek serbesttir; `validate.mjs` ve kontak sayfası kontrolü zorunludur.
 - Hard rule (kaynaktan sahneye): ekrandaki her rakam, bulgu, hüküm ve künye `scene-facts.json` üzerinden scriptin
   `-sources.md` iddia ID'sine (ve PMID'ye) bağlanır; künye elle yazılmaz. Render öncesi
   `node youtube-content/motion/outsider-inside-frame/tools/facts.mjs all <proje> --lang <fr|tr|en>` geçmeli.
@@ -72,10 +76,10 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
   `node youtube-content/motion/outsider-inside-frame/tools/legibility.mjs <proje>` geçmeli.
 - Hard rule (intro yok, 2026-10-16): kanal intro'su / logo bumper'ı hiçbir videoda kullanılmaz; video
   Dr. Aksoy'la (tam kadraj) açılır ve doğrudan içeriğe girer.
-- Hard rule (çeşitlilik, 2026-10-17): her video bir seriye ait (mythe · labo · questions · chiffres · conseils), her
-  serinin kendi kâğıdı var (frame.md § Series & Variety). Projede `look.json` yazılır; render öncesi
-  `node youtube-content/motion/outsider-inside-frame/tools/variety.mjs check <proje>` geçmeli, final render sonrası
-  `variety.mjs log <proje> --lang <fr|tr|en>`. Videoda en fazla 2 kâğıt.
+- Hard rule (çeşitlilik, 2026-10-17): her video bir seriye ait (mythe · labo · questions · chiffres · conseils). Projede `look.json`
+  yazılır (`template` alanı zorunlu); render öncesi `node youtube-content/motion/outsider-inside-frame/tools/variety.mjs check <proje>`
+  geçmeli, final render sonrası `variety.mjs log <proje> --lang <fr|tr|en>`. `outsider-inside` şablonunda her serinin kendi kâğıdı
+  var (frame.md § Series & Variety) ve videoda en fazla 2 kâğıt kullanılır.
 - Shorts (2026-10-17): sahne tek kaynak (`index.html`, 16:9); dikey düzen aynı dosyada `:root[data-aspect="9x16"]` ile.
   `tools/aspect.mjs <proje>` → `<proje>/shorts/` (elle düzenlenmez); legibility + check orada da geçmeli (alt %18 ve sağ
   ikon sütununda yazı yok).
@@ -89,7 +93,7 @@ playlist, kanal dogrulama ve toplu SRT duzeltmeleri icin skill altindaki
   karakteri. Gametler yalnızca açıkça çizgi film karakter olarak ve yalnızca espri sahnesinde. Gerçek kişi (ünlü, Dr. Aksoy, hasta),
   logo/marka, görselde üretilmiş yazı, embriyo/ultrason/lab, gerçekmiş gibi klinik sahne yok. Sayı, görünüm ve kredi tavanı tek
   onay mesajında (frame.md § AI gag scenes).
-- Hard rule (tohum, 2026-10-17): `node youtube-content/motion/outsider-inside-frame/tools/pen.mjs apply <sahneler…>` facts apply'dan
+- Hard rule (tohum, 2026-10-17; yalnızca `outsider-inside`): `node youtube-content/motion/outsider-inside-frame/tools/pen.mjs apply <sahneler…>` facts apply'dan
   önce çalışır (videonun bütün sahneleri, akış sırasıyla). Kırmızı kalem izleri yalnızca Dr. Aksoy'un gerçek izleridir, asla
   üretilmez; rough.js (`assets/ink`) yalnızca siyah mürekkepli şema kutu/ok/çubukları içindir. Şema levhalarında
   (`assets/schema`, Servier CC BY 4.0) künye satırı ekranda kalır.

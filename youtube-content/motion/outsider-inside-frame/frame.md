@@ -11,7 +11,7 @@ description: >
 unit: the frame — 1920×1080 primary; 9:16 (Shorts) documented
 principle: atoms are sacred · composition is free · every number has a reference
 language: on-screen text follows the channel — fr (@SenaiAksoy, default), tr (@DocentDrSenaiAksoy), en (@DrAksoyFertility); fonts must render French and Turkish (ğ ş ı İ ç ö ü)
-scope: applies to HyperFrames projects started on or after 2026-10-15; earlier projects keep their own frame.md / DESIGN.md untouched
+scope: applies to HyperFrames projects whose look.json template is "outsider-inside" (one of the worlds in ../template-library/, Dr. Aksoy decision 2026-11-07); earlier projects keep their own frame.md / DESIGN.md untouched
 
 colors:
   paper: "#F4F0E6"        # default ground — warm, never pure white
@@ -358,6 +358,10 @@ Motion should feel like **a hand and a page**, not like software.
 - **Footage (installed):** `assets/footage/lab/` (15 real lab stills, sensitive papers/labels already blurred) and `assets/footage/embryo/` (5 anonymous embryo stills, 1080×1080). Read `assets/footage/INDEX.md` first: it gives each file's content, best use and status (✅ ready / ⚠️ check / ⛔ do not publish). Stills get at most one slow push-in (scale 1.00→1.04 over the shot). Never use ⛔ files.
 
 ## Series & Variety (2026-10-17)
+
+Since 2026-11-07 this frame is one template among several: each video gets its own visual world from
+`../template-library/` (`tools/variety.mjs pick`). Everything below applies when the video's template is `outsider-inside`.
+The series themselves apply to every template.
 
 Every video shares the **identity** — red pen as judgment, verdict stamp, reference slip, Literata + Plex, the
 phone floor, real assets only. What changes from video to video is the **material**: each video belongs to one

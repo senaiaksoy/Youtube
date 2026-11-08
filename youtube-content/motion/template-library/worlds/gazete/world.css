@@ -1,0 +1,31 @@
+/* Gazete: print editorial page. Column rules, heavy serif headline, halftone panel. Inspired by the HyperFrames example nyt-graph (Apache-2.0), restyled; no masthead of a real paper. */
+:root { --bg: #F1ECE0; --fg: #15130F; --soft: #4F4A40; --accent: #A5231B; --accent2: #2F2B24; --card: #15130F; --card-fg: #F4EFE3; --card-soft: #D8D1C2; --line: #15130F; --on-accent: #fff;
+  --f-display: 'Playfair Display', serif; --f-body: 'Archivo', sans-serif; --f-mono: 'Archivo', sans-serif; --w-display: 900; --ls-display: -.01em;
+  --stamp-fg: #F4EFE3; --stamp-bg: var(--accent); --stamp-border: 0 solid transparent; --strike-h: 6px; --track: rgba(21,19,15,.08); --lh-display: 1.04; --pad-t: 130px; --pad-b: 80px; }
+:root[data-aspect="9x16"] { --pad-t: 220px; }
+:root[data-palette="bleu"] { --accent: #1F4E8C; --stamp-bg: var(--accent); }
+:root[data-palette="sepia"] { --bg: #E9DFC9; --fg: #2A1E12; --soft: #5C4A36; --accent: #7A4A1E; --accent2: #2A1E12; --card: #2A1E12; --stamp-bg: var(--accent); }
+.bg { background: var(--bg); }
+.deco::before { content: ''; position: absolute; left: var(--pad-x); right: var(--pad-r); top: 72px; height: 10px; border-top: 5px solid var(--line); border-bottom: 1px solid var(--line); transform-origin: left; transform: scaleX(var(--rule, 1)); }
+:root[data-aspect="9x16"] .deco::before { top: 150px; }
+.deco::after { content: ''; position: absolute; right: 0; top: 0; bottom: 0; width: 38%; opacity: .16; background-image: radial-gradient(var(--fg) 26%, transparent 28%); background-size: 16px 16px; -webkit-mask-image: linear-gradient(90deg, transparent, #000); mask-image: linear-gradient(90deg, transparent, #000); }
+.kicker { font-weight: 700; letter-spacing: .12em; color: var(--fg); }
+.mk, .slip { font-family: var(--f-mono); }
+.slip { border-top: 1px solid var(--line); padding-top: 14px; }
+.step { background: transparent; color: var(--fg); border-top: 5px solid var(--line); border-radius: 0; padding: 16px 6px 0; }
+.lower-third, .side-note, .tab, .cta { box-shadow: none; }
+.side-note { border-top: 8px solid var(--accent); }
+.fig { font-weight: 900; }
+/* composition: two newspaper columns, headline left, evidence and reference in the narrow column behind a rule */
+:root { --fs-claim: 118px; --fs-fig: 300px; --fs-head: 124px; }
+:root[data-aspect="9x16"] { --fs-claim: 78px; --fs-fig: 180px; --fs-head: 84px; }
+:root:not([data-aspect="9x16"]):not([data-variant="b"]) .frame.split, :root:not([data-aspect="9x16"]):not([data-variant="b"]) .frame.right { display: grid; grid-template-columns: 1.3fr .9fr; column-gap: 76px; row-gap: 26px; align-content: center; }
+:root:not([data-aspect="9x16"]):not([data-variant="b"]) .frame.split > .kicker, :root:not([data-aspect="9x16"]):not([data-variant="b"]) .frame.right > .kicker { grid-column: 1 / -1; border-bottom: 1px solid var(--line); padding-bottom: 14px; }
+:root:not([data-aspect="9x16"]):not([data-variant="b"]) .frame.split > .hero { grid-column: 1; grid-row: 2 / span 3; align-self: center; }
+:root:not([data-aspect="9x16"]):not([data-variant="b"]) .frame.split > :not(.hero):not(.kicker) { grid-column: 2; border-left: 1px solid var(--line); padding-left: 30px; }
+:root:not([data-aspect="9x16"]):not([data-variant="b"]) .frame.right > .head { grid-column: 1; grid-row: 2; }
+:root:not([data-aspect="9x16"]):not([data-variant="b"]) .frame.right > .stamp { grid-column: 1; grid-row: 3; }
+:root:not([data-aspect="9x16"]):not([data-variant="b"]) .frame.right > .ctx { grid-column: 2; grid-row: 2; border-left: 1px solid var(--line); padding-left: 30px; }
+:root:not([data-aspect="9x16"]):not([data-variant="b"]) .frame.right > .slip { grid-column: 2; grid-row: 3; border-left: 1px solid var(--line); border-top: 0; padding: 0 0 0 30px; }
+.frame.split > .slip { border-top: 0; }
+.stamp { justify-self: start; }

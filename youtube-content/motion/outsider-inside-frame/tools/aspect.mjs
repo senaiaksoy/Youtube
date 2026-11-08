@@ -45,7 +45,8 @@ if (fs.existsSync(sf)) {
 const lk = path.join(proj, 'look.json');
 if (fs.existsSync(lk)) fs.writeFileSync(path.join(out, 'look.json'), JSON.stringify({ ...JSON.parse(fs.readFileSync(lk, 'utf8')), aspect: '9x16' }, null, 2) + '\n');
 const cache = path.join(proj, '.facts-cache');
-if (fs.existsSync(cache)) fs.cpSync(cache, path.join(out, '.facts-cache'), { recursive: true });
+// not fs.cpSync: it crashes natively on Node 24 + Windows when the path holds a non-ASCII letter (A-klasör)
+if (fs.existsSync(cache)) { const d = path.join(out, '.facts-cache'); fs.mkdirSync(d, { recursive: true }); for (const f of fs.readdirSync(cache)) fs.copyFileSync(path.join(cache, f), path.join(d, f)); }
 const assets = path.join(proj, 'assets'), link = path.join(out, 'assets');
 if (fs.existsSync(assets) && !fs.existsSync(link)) {
   try { fs.symlinkSync(path.relative(out, assets) || assets, link, 'junction'); }

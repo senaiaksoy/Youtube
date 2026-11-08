@@ -1,0 +1,80 @@
+/* Template library: shared scene skeleton. Worlds (worlds/<id>/world.css) set tokens and restyle these slots.
+   Phone floor: nothing under 40 px @1080 (--fs-small). Layout is flow, not absolute, so longer FR/TR text reflows; legibility.mjs catches overflow. */
+:root { --W: 1920px; --H: 1080px; --pad-x: 110px; --pad-r: 110px; --pad-t: 90px; --pad-b: 90px; --gap: 34px;
+  --bg: #111; --fg: #f4f4f4; --soft: #c9c9c9; --accent: #f33; --accent2: #3cf; --card: #1b1b1b; --card-fg: #f4f4f4; --line: rgba(255,255,255,.25);
+  --on-accent: #fff; --stamp-fg: var(--accent); --stamp-bg: transparent; --stamp-border: 6px solid var(--accent);
+  --f-display: system-ui, sans-serif; --f-body: system-ui, sans-serif; --f-mono: monospace;
+  --w-display: 700; --w-body: 500; --fs-claim: 92px; --fs-fig: 230px; --fs-head: 104px; --fs-body: 50px; --fs-small: 40px; --fs-stamp: 76px; --lh-display: 1.08;
+  --radius: 0px; --tt-display: none; --ls-display: -.015em; --strike-h: 9px; --strike-at: 56%; --bar-h: 92px; }
+:root[data-aspect="9x16"] { --W: 1080px; --H: 1920px; --pad-x: 64px; --pad-r: 132px; --pad-t: 176px; --pad-b: 470px; --gap: 28px;
+  --fs-claim: 74px; --fs-fig: 170px; --fs-head: 80px; --fs-body: 46px; --fs-stamp: 58px; --bar-h: 80px; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: var(--W); height: var(--H); overflow: hidden; background: var(--bg); }
+#root { position: relative; width: var(--W); height: var(--H); overflow: hidden; background: var(--bg); color: var(--fg);
+  font-family: var(--f-body); font-weight: var(--w-body); font-size: var(--fs-body); line-height: 1.22; container-type: size; }
+.bg, .deco { position: absolute; inset: 0; pointer-events: none; }
+.frame { position: absolute; left: var(--pad-x); right: var(--pad-r); top: var(--pad-t); bottom: var(--pad-b); display: flex; flex-direction: column; justify-content: center; gap: var(--gap); }
+.kicker { font-family: var(--f-mono); font-size: var(--fs-small); color: var(--soft); text-transform: uppercase; letter-spacing: .05em; }
+.claim, .head, .ch-title, .signature { font-family: var(--f-display); font-weight: var(--w-display); line-height: var(--lh-display); text-transform: var(--tt-display); letter-spacing: var(--ls-display); text-wrap: balance; }
+.claim { font-size: var(--fs-claim); }
+.claim .s { background-image: linear-gradient(var(--strike-c, var(--accent)), var(--strike-c, var(--accent))); background-repeat: no-repeat; background-position: 0 var(--strike-at); background-size: var(--strike, 0%) var(--strike-h);
+  -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.evidence, .ctx { font-size: var(--fs-body); color: var(--fg); }
+.mk { font-family: var(--f-mono); font-size: var(--fs-small); color: var(--soft); margin-left: 12px; white-space: nowrap; }
+.slip { font-family: var(--f-mono); font-size: var(--fs-small); line-height: 1.26; color: var(--soft); align-self: flex-start; max-width: 100%; }
+.slip .t { color: var(--fg); }
+.label { font-size: var(--fs-body); color: var(--soft); }
+.fig { font-family: var(--f-display); font-weight: var(--w-display); font-size: var(--fs-fig); line-height: 1; letter-spacing: -.03em; color: var(--fg); font-variant-numeric: lining-nums; white-space: nowrap; }
+.head { font-size: var(--fs-head); }
+.stamp { align-self: flex-start; font-family: var(--f-mono); font-weight: 500; font-size: var(--fs-stamp); color: var(--stamp-fg); background: var(--stamp-bg); border: var(--stamp-border); border-radius: var(--radius); padding: 14px 34px; white-space: nowrap; }
+.bars { display: flex; flex-direction: column; gap: 26px; }
+.bar-name { font-size: var(--fs-body); color: var(--soft); margin-bottom: 8px; }
+.bar-row { display: flex; align-items: center; gap: 26px; }
+.bar-track { flex: 1; height: var(--bar-h); background: var(--track, rgba(127,127,127,.16)); border-radius: var(--radius); overflow: hidden; }
+.bar-fill { height: 100%; width: 100%; transform-origin: left center; background: var(--accent); border-radius: var(--radius); }
+.bar + .bar .bar-fill { background: var(--accent2); }
+.bar-val { font-family: var(--f-display); font-weight: var(--w-display); font-size: 84px; line-height: 1; min-width: 300px; white-space: nowrap; }
+.title { font-family: var(--f-display); font-weight: var(--w-display); font-size: 76px; line-height: 1.1; text-transform: var(--tt-display); letter-spacing: var(--ls-display); }
+.steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.step { background: var(--card); color: var(--card-fg); border-radius: var(--radius); padding: 26px 24px; display: flex; flex-direction: column; gap: 14px; min-height: 240px; }
+.step-n { font-family: var(--f-mono); font-size: var(--fs-small); color: var(--accent); }
+.step-t { font-family: var(--f-display); font-weight: var(--w-display); font-size: 44px; line-height: 1.12; overflow-wrap: anywhere; hyphens: auto; }
+.ch-n { font-family: var(--f-mono); font-size: 64px; color: var(--accent); }
+.ch-title { font-size: 150px; }
+.signature { font-size: 100px; }
+.signature .w { color: var(--accent); }
+.channel { font-family: var(--f-mono); font-size: var(--fs-small); color: var(--soft); }
+.foot { position: absolute; inset: 0; background: #121820 center 18% / cover no-repeat; }
+.lower-third { position: absolute; left: 0; bottom: 88px; max-width: 1240px; background: var(--card); color: var(--card-fg); padding: 18px 44px 20px 88px; border-radius: 0 var(--radius) var(--radius) 0; }
+.lower-third .who { font-family: var(--f-display); font-weight: var(--w-display); font-size: 52px; line-height: 1.12; }
+.lower-third .role { font-family: var(--f-mono); font-size: 40px; line-height: 1.22; color: var(--card-soft, var(--soft)); margin-top: 4px; }
+.side-note { position: absolute; right: 88px; top: 50%; transform: translateY(-50%); width: 640px; background: var(--card); color: var(--card-fg); padding: 26px 30px; border-radius: var(--radius); }
+.side-note .k, .side-note .l { font-size: 40px; line-height: 1.2; color: var(--card-soft, var(--soft)); }
+.side-note .n { font-family: var(--f-display); font-weight: var(--w-display); font-size: 128px; line-height: 1.05; }
+.side-note .ref { font-family: var(--f-mono); font-size: 40px; line-height: 1.24; color: var(--card-soft, var(--soft)); margin-top: 14px; }
+.tab { position: absolute; left: 88px; bottom: 88px; max-width: 1120px; background: var(--card); color: var(--card-fg); font-family: var(--f-mono); font-size: 40px; line-height: 1.25; padding: 12px 22px; border-radius: var(--radius); }
+.cta { position: absolute; right: 88px; bottom: 88px; display: flex; align-items: center; gap: 26px; background: var(--card); color: var(--card-fg); padding: 18px 26px; border-radius: var(--radius); }
+.cta svg { width: 64px; height: 64px; flex: none; }
+.cta svg path { fill: currentColor; fill-opacity: 0; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; stroke-linecap: round; }
+.cta .sub { font-family: var(--f-body); font-weight: 700; font-size: 44px; line-height: 1; border: 3px solid currentColor; border-radius: var(--radius); padding: 14px 24px; white-space: nowrap; }
+.cta .sub.on { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+
+/* variant b: the hero moves to its own column (landscape only; Shorts stay stacked) */
+:root[data-variant="b"]:not([data-aspect="9x16"]) .frame.split { display: grid; grid-template-columns: 1.05fr .95fr; column-gap: 70px; align-content: center; row-gap: var(--gap); }
+:root[data-variant="b"]:not([data-aspect="9x16"]) .frame.split > .hero { grid-column: 2; grid-row: 1 / span 4; align-self: center; }
+:root[data-variant="b"]:not([data-aspect="9x16"]) .frame.split > :not(.hero) { grid-column: 1; }
+:root[data-variant="b"]:not([data-aspect="9x16"]) .frame.right { text-align: right; align-items: flex-end; }
+
+/* 9:16: keep clear of the Shorts UI (bottom 18 %, right icon column) and the pop-up caption band (76.5-82 %) */
+:root[data-aspect="9x16"] .steps { grid-template-columns: 1fr 1fr; gap: 16px; }
+:root[data-aspect="9x16"] .step { min-height: 0; padding: 16px 18px; }
+:root[data-aspect="9x16"] .step-t { font-size: 42px; }
+:root[data-aspect="9x16"] .ch-title { font-size: 104px; }
+:root[data-aspect="9x16"] .signature { font-size: 76px; }
+:root[data-aspect="9x16"] .title { font-size: 62px; }
+:root[data-aspect="9x16"] .bar-val { font-size: 70px; min-width: 250px; }
+:root[data-aspect="9x16"] .bar-row { gap: 16px; }
+:root[data-aspect="9x16"] .lower-third { bottom: auto; top: 1230px; max-width: 900px; padding-left: 64px; }
+:root[data-aspect="9x16"] .side-note { right: auto; left: 64px; top: 176px; transform: none; width: 880px; }
+:root[data-aspect="9x16"] .tab { left: 64px; bottom: auto; top: 1230px; max-width: 880px; }
+:root[data-aspect="9x16"] .cta { right: auto; left: 64px; bottom: auto; top: 1300px; }

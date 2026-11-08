@@ -1,0 +1,23 @@
+/* Cam: keynote look. Slow mesh gradient, frosted glass cards, soft glow. Inspired by the HyperFrames components mesh-gradient-bg, aurora-drift and spotlight-card (Apache-2.0). */
+:root { --bg: #0A0B1E; --fg: #F5F6FF; --soft: #C8CCEC; --accent: #8FA8FF; --accent2: #F0A6FF; --b1: #3B4BFF; --b2: #B026FF; --b3: #00C2FF; --card: rgba(20,22,52,.62); --card-fg: #F5F6FF; --line: rgba(255,255,255,.24); --on-accent: #0A0B1E;
+  --f-display: 'Manrope', sans-serif; --f-body: 'Manrope', sans-serif; --f-mono: 'Manrope', sans-serif; --w-display: 800; --ls-display: -.03em; --radius: 28px;
+  --stamp-fg: #fff; --stamp-bg: rgba(255,255,255,.12); --stamp-border: 1px solid rgba(255,255,255,.4); --strike-h: 8px; --track: rgba(255,255,255,.1); }
+:root[data-palette="aurora"] { --bg: #041414; --b1: #00D4A6; --b2: #0077FF; --b3: #7CFFB2; --accent: #6FF0CF; --accent2: #8FC2FF; --soft: #BFE6DE; --card: rgba(6,34,34,.62); --on-accent: #041414; }
+:root[data-palette="gul"] { --bg: #1A0813; --b1: #FF2E7E; --b2: #FF8A3D; --b3: #A04BFF; --accent: #FFB1C9; --accent2: #FFC58F; --soft: #F0C9D6; --card: rgba(44,14,32,.62); --on-accent: #1A0813; }
+.bg { background: var(--bg); overflow: hidden; }
+.bg i { position: absolute; width: 62%; aspect-ratio: 1; border-radius: 50%; filter: blur(130px); opacity: .62; }
+.bg i:nth-child(1) { background: var(--b1); left: -14%; top: -30%; }
+.bg i:nth-child(2) { background: var(--b2); right: -16%; top: 6%; }
+.bg i:nth-child(3) { background: var(--b3); left: 24%; bottom: -46%; opacity: .4; }
+.fig { color: #fff; text-shadow: 0 0 60px color-mix(in srgb, var(--accent) 65%, transparent); }
+.evidence, .ctx, .slip { background: var(--card); backdrop-filter: blur(28px); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 28px; align-self: flex-start; }
+.slip { color: var(--soft); }
+.step, .side-note, .lower-third, .tab, .cta { backdrop-filter: blur(28px); border: 1px solid var(--line); }
+.stamp { backdrop-filter: blur(28px); font-weight: 500; box-shadow: 0 0 44px color-mix(in srgb, var(--accent) 40%, transparent); }
+.lower-third { left: 56px; border-radius: var(--radius); padding-left: 40px; }
+.bar-fill { box-shadow: 0 0 30px color-mix(in srgb, var(--accent) 50%, transparent); }
+.signature .w { color: var(--accent); text-shadow: 0 0 40px color-mix(in srgb, var(--accent) 60%, transparent); }
+/* composition: content floats on the right two thirds, the gradient breathes on the left */
+:root { --fs-claim: 104px; --fs-fig: 280px; --fs-head: 116px; }
+:root:not([data-aspect="9x16"]) .frame { left: 34%; }
+:root:not([data-aspect="9x16"]) .scene--bars .frame, :root:not([data-aspect="9x16"]) .scene--process .frame { left: var(--pad-x); }

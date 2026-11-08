@@ -1,0 +1,24 @@
+/* Sinema: letterbox, film grain, warm light leak, slow serif titles. Inspired by the HyperFrames blocks organic-light-leak-overlay and light-leak and components grain-overlay and vignette (Apache-2.0). */
+:root { --bg: #0D0B09; --fg: #F6EFE2; --soft: #CDBFA8; --accent: #E3B667; --accent2: #A9794A; --card: rgba(16,13,10,.88); --card-fg: #F6EFE2; --line: rgba(227,182,103,.45); --on-accent: #1A1208; --leak: #C86A2A;
+  --f-display: 'DM Serif Display', serif; --f-body: 'Manrope', sans-serif; --f-mono: 'Manrope', sans-serif; --w-display: 400; --ls-display: -.005em; --lh-display: 1.1;
+  --fs-claim: 98px; --fs-fig: 250px; --fs-head: 118px; --stamp-border: 2px solid var(--accent); --strike-h: 4px; --strike-at: 58%; --track: rgba(246,239,226,.1); --pad-x: 170px; --pad-r: 170px; --pad-t: 140px; --pad-b: 140px; }
+:root[data-aspect="9x16"] { --fs-claim: 76px; --fs-fig: 170px; --fs-head: 86px; --pad-x: 64px; --pad-r: 132px; --pad-t: 200px; --pad-b: 470px; }
+:root[data-palette="gece"] { --bg: #070B12; --fg: #EEF2F8; --soft: #B6C2D4; --accent: #9CC4E8; --accent2: #6A8CAF; --card: rgba(8,12,20,.88); --card-fg: #EEF2F8; --line: rgba(156,196,232,.45); --on-accent: #070B12; --leak: #2A5A9A; }
+:root[data-palette="bordo"] { --bg: #120608; --fg: #F8ECE6; --soft: #DDBDB4; --accent: #E89A7A; --accent2: #B0564A; --card: rgba(22,8,10,.88); --card-fg: #F8ECE6; --line: rgba(232,154,122,.45); --on-accent: #1E0A0A; --leak: #A02438; }
+.bg { background: var(--bg); overflow: hidden; }
+.bg::before { content: ''; position: absolute; width: 80%; aspect-ratio: 1; left: var(--lx, -20%); top: -50%; border-radius: 50%; background: var(--leak); filter: blur(170px); opacity: .34; }
+.bg::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at center, transparent 45%, rgba(0,0,0,.72) 100%); }
+.deco::before, .deco::after { content: ''; position: absolute; left: 0; right: 0; height: 96px; background: #000; }
+.deco::before { top: 0; } .deco::after { bottom: 0; }
+:root[data-aspect="9x16"] .deco::before, :root[data-aspect="9x16"] .deco::after { display: none; }
+.deco i { position: absolute; inset: -40px; opacity: .10; mix-blend-mode: overlay; background-size: 240px 240px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E"); }
+.kicker { letter-spacing: .28em; color: var(--accent); }
+.frame { align-items: center; text-align: center; }
+.frame > .slip, .frame > .stamp { align-self: center; }
+.frame.split { align-items: center; }
+.fig { color: var(--accent); }
+.bars { width: 100%; text-align: left; }
+.steps { width: 100%; text-align: left; }
+.step { background: transparent; border-top: 2px solid var(--line); border-radius: 0; padding: 16px 4px; color: var(--fg); }
+.slip .t { color: var(--soft); }

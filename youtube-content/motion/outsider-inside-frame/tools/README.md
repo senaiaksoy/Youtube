@@ -161,3 +161,7 @@ ffmpeg -i short.mp4 -vf "ass=çıkış.ass:fontsdir=<outsider-inside-frame>/asse
   kesildiği kaynak aralığıdır; süreler 0'a kaydırılır. Metin söylenen metindir; yayından önce kayda karşı okunur.
 - Görünüm: Plex Sans SemiBold 62 px, kâğıt kutu üzerinde mürekkep, kart başına 1–3 kelime, 100 ms "pop". Konum: Shorts arayüzünün
   hemen üstündeki altyazı bandı (yüksekliğin %76,5–82'si); `legibility.mjs` Shorts sahnelerinin kendi yazısını bu banttan uzak tutar.
+
+## Şablon seçimi (2026-11-07)
+
+Her video kendi görsel dünyasıyla yapılır. İlk adım `node variety.mjs pick <seri> --lang <dil>`; kütüphane ve kit sahneleri `../../template-library/` altında (`README.md`). `facts.mjs`, `legibility.mjs`, `aspect.mjs` ve `captions.mjs` bütün şablonlarda aynıdır; `pen.mjs` yalnızca `outsider-inside` içindir.

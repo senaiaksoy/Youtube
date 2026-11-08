@@ -1,0 +1,19 @@
+/* Milimetrik gece: dark graph paper, measured grid, cool light. Inspired by herk-edit-kit dark-graph-paper-template (MIT). */
+:root { --bg: #071015; --fg: #EAF7F8; --soft: #A9CDD3; --accent: #67E8F9; --accent2: #6EE7B7; --card: rgba(9,26,33,.92); --card-fg: #EAF7F8; --line: rgba(103,232,249,.38);
+  --grid-a: rgba(103,232,249,.13); --grid-b: rgba(110,231,183,.17); --on-accent: #06141A;
+  --f-display: 'Space Grotesk', sans-serif; --f-body: 'Space Grotesk', sans-serif; --f-mono: 'IBM Plex Mono', monospace; --w-display: 700; --radius: 6px;
+  --stamp-border: 4px solid var(--accent); --strike-h: 7px; }
+:root[data-palette="amber"] { --bg: #100B06; --fg: #FBF3E4; --soft: #DCC7A2; --accent: #FBBF24; --accent2: #F59E6B; --card: rgba(30,21,10,.92); --card-fg: #FBF3E4; --line: rgba(251,191,36,.38); --grid-a: rgba(251,191,36,.12); --grid-b: rgba(245,158,107,.16); --on-accent: #1A1104; }
+:root[data-palette="menekse"] { --bg: #0C0A18; --fg: #F1EEFC; --soft: #C2B9E4; --accent: #B79CFF; --accent2: #7DD3FC; --card: rgba(21,17,40,.92); --card-fg: #F1EEFC; --line: rgba(183,156,255,.38); --grid-a: rgba(183,156,255,.13); --grid-b: rgba(125,211,252,.15); --on-accent: #120D26; }
+.bg { background-color: var(--bg);
+  background-image: linear-gradient(var(--grid-b) 2px, transparent 2px), linear-gradient(90deg, var(--grid-b) 2px, transparent 2px), linear-gradient(var(--grid-a) 1px, transparent 1px), linear-gradient(90deg, var(--grid-a) 1px, transparent 1px);
+  background-size: 240px 240px, 240px 240px, 48px 48px, 48px 48px; }
+.deco::before { content: ''; position: absolute; left: -10%; right: -10%; height: 340px; top: var(--scan, -30%); background: linear-gradient(180deg, transparent, var(--grid-a), transparent); }
+.fig, .bar-val, .side-note .n { color: var(--accent); text-shadow: 0 0 34px color-mix(in srgb, var(--accent) 45%, transparent); }
+.claim .s { color: var(--soft); }
+.stamp { box-shadow: 0 0 30px color-mix(in srgb, var(--accent) 35%, transparent); }
+.step { border: 1px solid var(--line); }
+.slip { border-left: 4px solid var(--accent); padding-left: 22px; }
+.lower-third, .side-note, .tab, .cta { border: 1px solid var(--line); backdrop-filter: blur(8px); }
+:root { --fs-claim: 108px; --fs-fig: 300px; --fs-head: 120px; }
+:root[data-aspect="9x16"] { --fs-claim: 74px; --fs-fig: 170px; --fs-head: 80px; }

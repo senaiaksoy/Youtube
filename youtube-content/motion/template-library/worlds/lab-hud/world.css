@@ -1,0 +1,23 @@
+/* Lab HUD: instrument read-out, corner brackets, tick rulers, typed-on text. Inspired by the HyperFrames components telemetry-hud and scan-band (Apache-2.0). Interface styling only: never presented as a real microscope or ultrasound image. */
+:root { --bg: #04080A; --fg: #DDFBF2; --soft: #9CCFC0; --accent: #2DF5C4; --accent2: #7FB4FF; --card: rgba(6,20,20,.92); --card-fg: #DDFBF2; --line: rgba(45,245,196,.5); --on-accent: #04120E;
+  --f-display: 'IBM Plex Mono', monospace; --f-body: 'IBM Plex Mono', monospace; --f-mono: 'IBM Plex Mono', monospace; --w-display: 500; --ls-display: -.02em; --lh-display: 1.14;
+  --fs-claim: 80px; --fs-fig: 210px; --fs-head: 92px; --fs-body: 46px; --stamp-border: 3px solid var(--accent); --strike-h: 5px; --track: rgba(45,245,196,.1); --pad-x: 130px; --pad-r: 130px; --pad-t: 110px; --pad-b: 110px; }
+:root[data-aspect="9x16"] { --fs-claim: 64px; --fs-fig: 150px; --fs-head: 70px; --fs-body: 42px; --pad-x: 70px; --pad-r: 132px; --pad-t: 190px; --pad-b: 470px; }
+:root[data-palette="kehribar"] { --bg: #0A0703; --fg: #FFEFD2; --soft: #E0C393; --accent: #FFB340; --accent2: #FF7A59; --card: rgba(24,15,4,.92); --card-fg: #FFEFD2; --line: rgba(255,179,64,.5); --on-accent: #1A0F02; --track: rgba(255,179,64,.1); }
+:root[data-palette="buz"] { --bg: #050812; --fg: #E6EEFF; --soft: #A9BBE6; --accent: #8FB7FF; --accent2: #C49BFF; --card: rgba(9,14,32,.92); --card-fg: #E6EEFF; --line: rgba(143,183,255,.5); --on-accent: #070B1A; --track: rgba(143,183,255,.1); }
+.bg { background: var(--bg); }
+.deco::before { content: ''; position: absolute; inset: 44px; --c: var(--line);
+  background: linear-gradient(var(--c),var(--c)) 0 0/70px 3px, linear-gradient(var(--c),var(--c)) 0 0/3px 70px, linear-gradient(var(--c),var(--c)) 100% 0/70px 3px, linear-gradient(var(--c),var(--c)) 100% 0/3px 70px,
+              linear-gradient(var(--c),var(--c)) 0 100%/70px 3px, linear-gradient(var(--c),var(--c)) 0 100%/3px 70px, linear-gradient(var(--c),var(--c)) 100% 100%/70px 3px, linear-gradient(var(--c),var(--c)) 100% 100%/3px 70px; background-repeat: no-repeat; }
+.deco::after { content: ''; position: absolute; left: 0; right: 0; height: 3px; top: var(--scan, 0%); background: var(--accent); opacity: .35; box-shadow: 0 0 26px 6px color-mix(in srgb, var(--accent) 35%, transparent); }
+.kicker::before { content: '> '; color: var(--accent); }
+.fig, .bar-val, .side-note .n { color: var(--accent); }
+.fig { border-left: 4px solid var(--accent); padding-left: 26px; }
+.claim .s { color: var(--soft); }
+.step { border: 1px solid var(--line); }
+.lower-third, .side-note, .tab, .cta { border: 1px solid var(--line); }
+.signature .w { border-bottom: 5px solid var(--accent); }
+/* composition: read-out rows pinned to the edges of the instrument frame */
+:root { --fs-claim: 92px; --fs-fig: 300px; --fs-head: 104px; }
+:root[data-aspect="9x16"] { --fs-claim: 66px; --fs-fig: 170px; --fs-head: 72px; }
+.frame { justify-content: space-between; }

@@ -1,0 +1,28 @@
+/* Kolaj: cut-paper collage on kraft, stepped stop-motion time, tape strips. Inspired by the HyperFrames components stop-motion-cadence and paper-collage-reveal (Apache-2.0). */
+:root { --bg: #E4D8C1; --fg: #1A1712; --soft: #4B4336; --accent: #1F5FD6; --accent2: #E2571E; --card: #FBF7EE; --card-fg: #1A1712; --card-soft: #4B4336; --line: #1A1712; --on-accent: #fff;
+  --f-display: 'Fraunces', serif; --f-body: 'Archivo', sans-serif; --f-mono: 'Archivo', sans-serif; --w-display: 900; --ls-display: -.02em;
+  --stamp-fg: #fff; --stamp-bg: var(--accent2); --stamp-border: 0 solid transparent; --strike-h: 14px; --track: rgba(26,23,18,.1); --shadow: 6px 8px 0 rgba(26,23,18,.2); }
+:root[data-palette="zeytin"] { --bg: #DAD8BE; --accent: #2F6B3A; --accent2: #C8421E; }
+:root[data-palette="gul"] { --bg: #EFD9CF; --accent: #B3265E; --accent2: #1F4FB0; }
+.bg { background: var(--bg); }
+.deco i { position: absolute; display: block; background: var(--c); box-shadow: 5px 6px 0 rgba(26,23,18,.16); }
+.claim, .head, .ch-title, .title { position: relative; }
+.evidence, .ctx, .slip, .label { background: var(--card); color: var(--card-fg); padding: 16px 26px; box-shadow: var(--shadow); align-self: flex-start; }
+.slip { color: var(--card-soft); position: relative; }
+.slip .t { color: var(--card-fg); }
+.mk { color: var(--card-soft); }
+.slip::before { content: ''; position: absolute; left: 40%; top: -22px; width: 170px; height: 42px; background: rgba(240,222,160,.8); transform: rotate(-3deg); }
+.fig { background: var(--accent); color: #fff; padding: 18px 40px 26px; align-self: flex-start; box-shadow: var(--shadow); }
+.step { box-shadow: var(--shadow); }
+.stamp { box-shadow: var(--shadow); }
+.side-note, .lower-third, .tab, .cta { box-shadow: var(--shadow); }
+.signature .w { background: var(--accent2); color: #fff; padding: 0 .14em; }
+/* composition: scraps pinned at slight angles, headline on its own torn strip */
+:root { --fs-claim: 104px; --fs-fig: 270px; --fs-head: 118px; }
+:root[data-aspect="9x16"] { --fs-claim: 72px; --fs-fig: 170px; --fs-head: 80px; }
+.claim, .head { background: var(--card); padding: 18px 30px 24px; align-self: flex-start; box-shadow: var(--shadow); clip-path: polygon(0 3%, 100% 0, 99% 97%, 1% 100%); }
+.frame { max-width: 74%; }
+:root[data-aspect="9x16"] .frame { max-width: none; }
+.scene--bars .frame, .scene--process .frame { max-width: none; }
+.scene--bars .deco, .scene--process .deco { display: none; }
+.signature .w { margin-left: .1em; }

@@ -1,0 +1,31 @@
+/* Afiş: colour-block poster, condensed giant type, slams. Inspired by the HyperFrames example kinetic-type and component headline-slam (Apache-2.0). */
+:root { --bg: #FFC900; --block: #111111; --fg: #111111; --soft: #2B2B2B; --accent: #111111; --accent2: #E8590C; --card: #111111; --card-fg: #FFC900; --card-soft: #FFE27A; --line: #111; --on-accent: #FFC900;
+  --f-display: 'Anton', sans-serif; --f-body: 'Archivo', sans-serif; --f-mono: 'Archivo', sans-serif; --w-display: 400; --w-body: 700; --tt-display: uppercase; --ls-display: .005em; --lh-display: 1.06;
+  --fs-claim: 128px; --fs-fig: 340px; --fs-head: 150px; --fs-stamp: 84px; --stamp-fg: var(--bg); --stamp-bg: var(--block); --stamp-border: 0 solid transparent; --strike-h: 16px; --strike-at: 54%; --track: rgba(17,17,17,.14); }
+:root[data-aspect="9x16"] { --fs-claim: 92px; --fs-fig: 216px; --fs-head: 104px; --fs-stamp: 62px; }
+:root[data-palette="mercan"] { --bg: #FF5A3C; --block: #1C1236; --fg: #1C1236; --soft: #2C1F4F; --accent: #1C1236; --accent2: #FFF3E0; --card: #1C1236; --card-fg: #FFF3E0; --card-soft: #FFD9C7; --on-accent: #FFF3E0; --stamp-fg: #FFF3E0; }
+:root[data-palette="zumrut"] { --bg: #0B6E5F; --block: #F7E9CF; --fg: #FFF7E6; --soft: #DFF2E9; --accent: #F7C948; --accent2: #F7E9CF; --card: #F7E9CF; --card-fg: #0B3B33; --card-soft: #285B50; --on-accent: #0B3B33; --stamp-fg: #0B3B33; --track: rgba(255,247,230,.18); }
+.bg { background: var(--bg); }
+.deco::before { content: ''; position: absolute; right: -12%; top: -30%; width: 46%; height: 170%; background: color-mix(in srgb, var(--block) 12%, transparent); transform: rotate(9deg) translateX(var(--slide, 0%)); }
+.kicker { font-weight: 700; letter-spacing: .08em; color: var(--fg); }
+.mk, .slip { font-family: var(--f-mono); font-weight: 500; }
+.slip .t { font-weight: 700; }
+.step-t { font-size: 50px; font-weight: 400; text-transform: uppercase; letter-spacing: .01em; }
+.step-n { color: var(--card-fg); }
+.bar-val { font-size: 96px; }
+.ch-title { font-size: 190px; }
+:root[data-aspect="9x16"] .ch-title { font-size: 118px; }
+.signature { font-size: 112px; }
+:root[data-aspect="9x16"] .signature { font-size: 84px; }
+.signature .w { color: inherit; background: var(--block); color: var(--bg); padding: 0 .12em; }
+.cta .sub, .lower-third .who { text-transform: uppercase; letter-spacing: .01em; }
+.lower-third .who { font-weight: 400; }
+/* composition: type anchored to the bottom of the poster, filling the measure */
+:root { --strike-c: #E8590C; --fs-claim: 150px; --fs-head: 170px; }
+:root[data-palette="mercan"] { --strike-c: #FFF3E0; }
+:root[data-palette="zumrut"] { --strike-c: #E8590C; }
+:root[data-aspect="9x16"] { --fs-claim: 96px; --fs-head: 108px; }
+.frame { justify-content: flex-end; }
+:root[data-aspect="9x16"] .frame { justify-content: center; }
+.signature { line-height: 1.5; font-size: 104px; }
+.signature .w { padding: 0 .1em; line-height: 1.5; display: inline-block; }
