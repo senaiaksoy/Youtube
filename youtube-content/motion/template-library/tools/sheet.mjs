@@ -21,7 +21,7 @@ await Promise.all(Array.from({ length: jobs }, async () => {
   while (queue.length) {
     const [w, k] = queue.shift(); const d = path.join(lib, 'demos', w, k, shorts ? 'shorts' : ''); const o = path.join(tmp, `${w}-${k}`);
     fs.rmSync(o, { recursive: true, force: true });
-    await run('npx', ['-y', 'hyperframes@0.8.162', 'snapshot', '.', '--at', at, '--no-end', '-o', o, '--describe', 'false'], d);
+    await run('npx', ['-y', 'hyperframes@0.9.29', 'snapshot', '.', '--at', at, '--no-end', '-o', o, '--describe', 'false'], d);
     const f = fs.existsSync(o) ? fs.readdirSync(o).find((x) => x.endsWith('.png')) : null;
     tiles.push({ w, k, f: f ? path.join(o, f) : null });
   }

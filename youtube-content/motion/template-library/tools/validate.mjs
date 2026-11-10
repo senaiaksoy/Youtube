@@ -37,8 +37,8 @@ async function one(world, kind) {
   await gate('aspect', 'node', [path.join(T, 'aspect.mjs'), d], lib, r);
   await gate('legibility-9x16', 'node', [path.join(T, 'legibility.mjs'), path.join(d, 'shorts'), '--samples', '12'], lib, r);
   if (!noCheck) {
-    await gate('check-16x9', 'npx', ['-y', 'hyperframes@0.8.162', 'check'], d, r);
-    await gate('check-9x16', 'npx', ['-y', 'hyperframes@0.8.162', 'check'], path.join(d, 'shorts'), r);
+    await gate('check-16x9', 'npx', ['-y', 'hyperframes@0.9.29', 'check'], d, r);
+    await gate('check-9x16', 'npx', ['-y', 'hyperframes@0.9.29', 'check'], path.join(d, 'shorts'), r);
   }
   console.log(`${r.fails.length ? '✖' : '✔'} ${world}/${kind}${r.fails.length ? `\n    ${r.fails.join('\n    ')}` : ''}`);
   return r;
