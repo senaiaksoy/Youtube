@@ -68,7 +68,7 @@ Run `--help` on each script for exact parameters.
   `--outfit`, `--pose`, `--backdrop`) checked against `references/thumb-log.json` (`yt_thumb_compose.py --status`
   then `--check-variety` and `--log-variety`). Never repeat the previous video's template, pose, outfit+pose,
   or backdrop, and never default to generic blue cells/molecules (`cells-molecules`). Base image from
-  Higgsfield `gpt_image_2_5` with outfit-matched approved channel thumbnails as identity references; text added
+  Higgsfield `gpt_image_2_6` (switched from `gpt_image_2_5` on 2026-11-10 after a side-by-side test) with outfit-matched approved channel thumbnails as identity references; text added
   deterministically by `yt_thumb_compose.py`. No talking-head frames, no DHEA dark-suit cut-out, nothing from
   F13. Full recipe: `references/thumbnails.md`.
 - **Dil yerelleştirmesi (localizations + çok dilli altyazı) SADECE Fransızca kanal (`--channel fr`) içindir**

@@ -85,7 +85,8 @@ Do not repeat `chin` (hand on chin) in consecutive videos:
 
 1. **Check status & pick rotation:**
    `py -3.12 scripts\yt_thumb_compose.py --channel fr --status`
-2. **Generate base image (Higgsfield `gpt_image_2_5`):**
+2. **Generate base image (Higgsfield `gpt_image_2_6`, `quality: high`, `resolution: 1k`, `aspect_ratio: 16:9`; ~1.5 credits per image):**
+   - Model note (2026-11-10, Dr. Aksoy decision): 2.6 replaced 2.5 after a same-prompt, same-reference test (2 samples each). Face identity held equally well in both; 2.6 copied the reference shirt (pocketed button-down) and a clearer clinic backdrop more faithfully. `gpt_image_2_5` remains available as fallback.
    - Upload 1–2 approved disk references matching the chosen `--outfit`.
    - Prompt for the chosen `--side` (`RIGHT third` if `--side left`, `LEFT third` if `--side right`), `--outfit`, `--pose`, and concrete `--backdrop`.
    - Keep the text side (`LEFT 55%` or `RIGHT 55%`) clean and uncluttered.
